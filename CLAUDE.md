@@ -1,7 +1,9 @@
 # SOS Farmácia Comercial
 
 Material didático (11 módulos) para alunos do 9º/10º semestre de Farmácia e recém-formados, criado em 08/10/2026.
-Público de farmácia: produto à parte, fora dos portais/vitrine MedTech, sem login. Não publicado (decisão do dono).
+Público de farmácia: produto à parte, fora dos portais/vitrine MedTech, sem login. No ar desde 08/10/2026 em
+https://medtechbr.com.br/sos-farmacia/ (repo público MedTechBR/sos-farmacia, Pages da main na raiz).
+Publicar: `python3 monta.py && cp SOS-Farmacia-Comercial.html index.html`, commit e push; conferir por hash.
 
 - Entregável: `SOS-Farmacia-Comercial.html` (arquivo único, offline, editável no próprio app, "Salvar arquivo"
   regrava o HTML com os dados novos). PDFs em `pdf/` (marca-d'água em toda página, mapas em página paisagem).
