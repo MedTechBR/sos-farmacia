@@ -19,3 +19,12 @@ Armadilhas: o app.js é embutido inline, então nunca pode conter `</script` lit
 `<script id="sos-dados">`. Chrome headless grava o PDF e às vezes não encerra: o gera_pdfs espera o arquivo
 estabilizar e mata o processo. Na grade do resumo, coluna única precisa ser `minmax(0,1fr)` (tabela larga
 empurrava o layout do celular para 600 px).
+
+Visual (08/10/2026, após reprovação da 1ª versão "cara de IA"): sistema do FarmaUTI (tokens, barra lateral agrupada,
+início com destaque e anel, leitura com sumário lateral, questões e cartões um por vez, fonte do sistema, modo
+escuro). Mapa mental vivo em `desenhaMapa()`: galhos afunilados, ícone por ramo via `iconesMapa()` (sem repetir no
+mapa; glifos injetados pelo monta em `/*GLIFOS*/`), viewBox ajustado aos limites, brota ao abrir, foco/zoom no
+clique, "Teste-se", vista em cartões (padrão no celular). Armadilhas: CSS `text{font-family}` sobrepõe o atributo do
+SVG (ícone vira quadrado; usar classe `mm-ico`); aba em segundo plano congela requestAnimationFrame e animações
+(animaVB tem setTimeout de garantia; prints de aba oculta saem transparentes); Chrome headless não fica abaixo de
+~500 px de largura (testar celular no navegador embutido); `ferramentas/foto.py URL saida.png L A --claro`.
