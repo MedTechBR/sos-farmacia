@@ -5,28 +5,46 @@
 const ORIGEM = '<!doctype html>\n' + document.documentElement.outerHTML;
 const CHAVE = 'sos-farmacia:';
 const DADOS = JSON.parse(document.getElementById('sos-dados').textContent);
-let editando = false, alterado = false, imprimindo = false, tituloOriginal = document.title;
+const GLIFO = /*GLIFOS*/{};
+let editando = false, alterado = false, imprimindo = false;
+const tituloOriginal = document.title;
 
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const semAcento = s => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+const semAcento = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 const novoId = (pre, tipo) => `${pre}-${tipo}${Date.now().toString(36)}${Math.random().toString(36).slice(2, 5)}`;
 const mod = id => DADOS.modulos.find(m => m.id === id);
 const ic = n => `<i class="ti ti-${n}" aria-hidden="true"></i>`;
 const plural = (n, um, varios) => `${n} ${n === 1 ? um : varios}`;
-const corVars = m => `--mc:${m.cor};--mc-t:${m.corT};--mc-s:${m.cor}55;--ac:${m.cor};--acT:${m.corT}`;
+const SANS = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif';
 
 function lerLS(k, padrao) { try { const v = localStorage.getItem(CHAVE + k); return v ? JSON.parse(v) : padrao; } catch (e) { return padrao; } }
 function gravarLS(k, v) { try { localStorage.setItem(CHAVE + k, JSON.stringify(v)); return true; } catch (e) { return false; } }
 function apagarLS(k) { try { localStorage.removeItem(CHAVE + k); } catch (e) { /* sem armazenamento */ } }
-
-function toast(msg) {
-  $$('.toast').forEach(t => t.remove());
+function aviso(msg) {
+  $$('.aviso').forEach(t => t.remove());
   const t = document.createElement('div');
-  t.className = 'toast'; t.textContent = msg; document.body.appendChild(t);
+  t.className = 'aviso'; t.textContent = msg; document.body.appendChild(t);
   setTimeout(() => t.remove(), 2800);
 }
+
+/* ---------------- tema ---------------- */
+function aplicaTema() { const t = lerLS('tema', ''); if (t) document.documentElement.dataset.tema = t; else delete document.documentElement.dataset.tema; }
+function trocaTema() {
+  const escuroAgora = document.documentElement.dataset.tema === 'escuro' || (!document.documentElement.dataset.tema && matchMedia('(prefers-color-scheme: dark)').matches);
+  gravarLS('tema', escuroAgora ? 'claro' : 'escuro'); aplicaTema();
+}
+aplicaTema();
+
+/* ---------------- progresso ---------------- */
+const estudados = () => new Set(lerLS('estudado', []));
+const respostas = () => lerLS('resp', {});
+const vistos = () => new Set(lerLS('vistos', []));
+function progresso(m) { const e = estudados(); const n = m.topicos.length; return n ? Math.round(100 * m.topicos.filter(t => e.has(t.id)).length / n) : 0; }
+const blocosDe = (m, tipo) => m.apoio.filter(b => b.tipo === tipo);
+const contaQ = m => blocosDe(m, 'questoes').reduce((a, b) => a + (b.itens || []).length, 0);
+const contaC = m => blocosDe(m, 'cartoes').reduce((a, b) => a + (b.itens || []).length, 0);
 
 /* ---------------- limpeza do HTML editado ---------------- */
 const BLOCO_OK = new Set(['P', 'H3', 'H4', 'UL', 'OL', 'LI', 'STRONG', 'B', 'EM', 'I', 'BR', 'SUP', 'SUB', 'DIV', 'TABLE', 'THEAD', 'TBODY', 'TR', 'TH', 'TD']);
@@ -61,123 +79,240 @@ function limpaHtml(html, inline) {
   })(tpl.content);
   return tpl.innerHTML.replace(/<p>(\s|&nbsp;|<br>)*<\/p>/g, '').trim();
 }
+const inl = s => limpaHtml(String(s == null ? '' : s), true);
 
-/* ---------------- mapa mental (SVG) ---------------- */
-const CORES_RAMO = ['#2563EB', '#C2255C', '#0B7A54', '#D9480F', '#6D28D9', '#0E7490', '#A16207'];
+/* ---------------- mapa mental vivo (SVG) ----------------
+   Galhos afunilados que saem do centro, cada ramo com cor e ícone; itens em coluna orgânica.
+   Na tela: brota ao abrir, destaca o ramo sob o mouse, aproxima no clique, modo "Teste-se". */
+const CORES_RAMO = ['#2F7BF6', '#E8468E', '#11A870', '#F76E1E', '#8E5AF2', '#0AA5C2', '#E89A00', '#E5484D'];
+const ICONES_RAMO = [
+  [/receit|prescri|notifica|talon/, 'prescription'], [/valid|prazo|dias|tempo|data|cronolog/, 'calendar-time'],
+  [/dose|posolog|quantid|maxim/, 'scale'], [/intera|cyp|indutor|inibidor/, 'arrows-exchange'],
+  [/alerta|risco|cuidado|grave|toxic|advert|evitar|contraind|perig/, 'alert-triangle'], [/\blei\b|norma|rdc|portaria|resolu|legal|regra|anvisa|cff|infra|penal/, 'gavel'],
+  [/balc|orienta|dispens|atendimento|cliente|paciente/, 'building-store'], [/mecanism|como age|farmacodin|receptor/, 'atom'],
+  [/efeito|advers|reac/, 'activity'], [/crian|pediatr|gestan|idoso|lacta|popula/, 'users'], [/lista|classe|grupo|tipos|exemplo/, 'list-details'],
+  [/armazen|temperat|geladeira|frio|termol|conserva/, 'temperature-snow'], [/registro|escritura|sngpc|sncr|sistema|document/, 'file-text'],
+  [/indica|uso|tratamento|escolha|terapia/, 'stethoscope'], [/sinal|sintoma|encaminh/, 'first-aid-kit'], [/\bpop\b|procedimento|etapa|passo|ciclo/, 'list-check'],
+  [/guarda|armario|chave|seguran/, 'lock'], [/dispositiv|inala|tecnica/, 'spray'], [/rim|renal|diur/, 'droplet'], [/conceito|defini|o que e|base|principio/, 'bulb']
+];
+const ICONES_RESERVA = ['point', 'circle-dot', 'sparkles', 'bookmark', 'flag', 'star'];
+const ICONES_EXTRA = ['book', 'notes', 'clipboard-text', 'pill', 'heartbeat', 'target-arrow', 'layers-intersect', 'puzzle', 'shield-check', 'eye'];
+/* ícone por palavra-chave, sem repetir dentro do mesmo mapa */
+function iconesMapa(ramos) {
+  const usados = new Set();
+  return ramos.map((r, i) => {
+    const n = semAcento(r.t);
+    const cand = ICONES_RAMO.filter(([re]) => re.test(n)).map(x => x[1]).concat(ICONES_EXTRA, ICONES_RESERVA);
+    const ic_ = cand.find(c => !usados.has(c)) || ICONES_RESERVA[i % ICONES_RESERVA.length];
+    usados.add(ic_); return ic_;
+  });
+}
+const glifo = n => GLIFO[n] ? String.fromCharCode(parseInt(GLIFO[n], 16)) : '';
 const medidor = document.createElement('canvas').getContext('2d');
 function quebra(texto, fonte, max) {
   medidor.font = fonte;
   const palavras = String(texto).split(/\s+/).filter(Boolean), linhas = [];
   let atual = '';
-  palavras.forEach(p => {
-    const t = atual ? atual + ' ' + p : p;
-    if (medidor.measureText(t).width <= max || !atual) atual = t; else { linhas.push(atual); atual = p; }
-  });
+  palavras.forEach(p => { const t = atual ? atual + ' ' + p : p; if (medidor.measureText(t).width <= max || !atual) atual = t; else { linhas.push(atual); atual = p; } });
   if (atual) linhas.push(atual);
-  const larg = Math.max(0, ...linhas.map(l => medidor.measureText(l).width));
-  return { linhas, larg };
+  return { linhas, larg: Math.max(0, ...linhas.map(l => medidor.measureText(l).width)) };
 }
-function caixaTexto(t, peso, tam, max, padX, padY, sub) {
-  const fonte = `${peso} ${tam}px Inter, sans-serif`;
-  const q = quebra(t, fonte, max);
-  const lh = Math.round(tam * 1.32);
+function caixa(t, peso, tam, max, padX, padY, sub) {
+  const q = quebra(t, `${peso} ${tam}px ${SANS}`, max);
+  const lh = Math.round(tam * 1.3);
   let subs = [], larg = q.larg;
-  if (sub && sub.length) {
-    const fs = '400 12px Inter, sans-serif';
-    sub.forEach(s => { const r = quebra('• ' + s, fs, max); subs.push(r.linhas); larg = Math.max(larg, r.larg); });
-  }
+  (sub || []).forEach(s => { const r = quebra('• ' + s, `400 12.5px ${SANS}`, max); subs.push(r.linhas); larg = Math.max(larg, r.larg); });
   const nSub = subs.reduce((a, l) => a + l.length, 0);
-  return { linhas: q.linhas, subs, tam, peso, lh, w: Math.ceil(larg) + padX * 2, h: q.linhas.length * lh + (nSub ? nSub * 16 + 6 : 0) + padY * 2, padX, padY };
+  return { linhas: q.linhas, subs, tam, peso, lh, w: Math.ceil(larg) + padX * 2, h: q.linhas.length * lh + (nSub ? nSub * 16.5 + 5 : 0) + padY * 2, padX, padY };
 }
-function textoSvg(c, x, y, cor, alinhar) {
-  let s = '', yy = y + c.padY + c.tam * 0.92;
-  const ax = alinhar === 'meio' ? x + c.w / 2 : x + c.padX;
-  const anc = alinhar === 'meio' ? 'middle' : 'start';
-  c.linhas.forEach(l => { s += `<text x="${ax}" y="${yy}" font-size="${c.tam}" font-weight="${c.peso}" fill="${cor}" text-anchor="${anc}">${esc(l)}</text>`; yy += c.lh; });
-  if (c.subs.length) {
-    yy += 2;
-    c.subs.forEach(ls => ls.forEach((l, i) => { s += `<text x="${x + c.padX + (i ? 9 : 0)}" y="${yy}" font-size="12" font-weight="400" fill="#3A4254">${esc(l)}</text>`; yy += 16; }));
-  }
+function textos(c, x, y, cls, meio) {
+  let s = '', yy = y + c.padY + c.tam * 0.9;
+  const ax = meio ? x + c.w / 2 : x + c.padX;
+  c.linhas.forEach(l => { s += `<text x="${ax.toFixed(1)}" y="${yy.toFixed(1)}" font-size="${c.tam}" font-weight="${c.peso}" class="${cls}"${meio ? ' text-anchor="middle"' : ''}>${esc(l)}</text>`; yy += c.lh; });
+  if (c.subs.length) { yy += 3; c.subs.forEach(ls => ls.forEach((l, i) => { s += `<text x="${(x + c.padX + (i ? 10 : 0)).toFixed(1)}" y="${yy.toFixed(1)}" font-size="12.5" class="mm-sub">${esc(l)}</text>`; yy += 16.5; })); }
   return s;
 }
-function desenhaMapa(mapa, m) {
-  const W = 1380, CX = W / 2, GAP_ITEM = 7, GAP_GRUPO = 18;
+function desenhaMapa(mapa, m, estatico) {
+  const W = 1500, CX = W / 2, GAP_I = 8, GAP_G = 24, DMAX = 120, DMIN = 36;
+  const icones = iconesMapa(mapa.ramos || []);
   const ramos = (mapa.ramos || []).map((r, i) => {
     const cor = CORES_RAMO[i % CORES_RAMO.length];
-    const caixa = caixaTexto(r.t, 700, 16, 168, 14, 9);
-    const itens = (r.itens || []).map(it => typeof it === 'string' ? caixaTexto(it, 500, 14, 262, 12, 7) : caixaTexto(it.t, 600, 14, 262, 12, 7, it.itens || []));
-    const hItens = itens.reduce((a, c) => a + c.h, 0) + Math.max(0, itens.length - 1) * GAP_ITEM;
-    return { cor, caixa, itens, hItens, hGrupo: Math.max(caixa.h, hItens) };
+    const no = caixa(r.t, 700, 16.5, 158, 14, 10); no.w += 34; /* espaço do ícone */
+    const itens = (r.itens || []).map(it => typeof it === 'string' ? caixa(it, 520, 15, 204, 13, 8) : caixa(it.t, 650, 15, 204, 13, 8, it.itens || []));
+    const hI = itens.reduce((a, c) => a + c.h, 0) + Math.max(0, itens.length - 1) * GAP_I;
+    return { r, i, cor, no, itens, hI, hG: Math.max(no.h, hI), icone: icones[i] };
   });
   const nDir = Math.ceil(ramos.length / 2);
   const lados = [ramos.slice(0, nDir), ramos.slice(nDir)];
-  const hLado = l => l.reduce((a, r) => a + r.hGrupo, 0) + Math.max(0, l.length - 1) * GAP_GRUPO;
-  const centro = caixaTexto(mapa.centro || mapa.titulo, 700, 22, 200, 20, 16);
-  const H = Math.max(hLado(lados[0]), hLado(lados[1]), centro.h) + 24;
-  const cy = H / 2, cx0 = CX - centro.w / 2, cy0 = cy - centro.h / 2;
-  let fios = '', nos = '';
+  const hLado = l => l.reduce((a, r) => a + r.hG, 0) + Math.max(0, l.length - 1) * GAP_G;
+  const centro = caixa(mapa.centro || mapa.titulo, 750, 21, 210, 22, 16); centro.h += 34; centro.w = Math.max(centro.w, 150);
+  const H = Math.max(hLado(lados[0]), hLado(lados[1]), centro.h + 60) + 50;
+  const cy = H / 2, cx0 = CX - centro.w / 2, cy0 = cy - centro.h / 2, meiaH = Math.max(1, H / 2 - 30);
+  let corpo = '', k = 0, x0 = CX - centro.w / 2, x1 = CX + centro.w / 2;
+  const marca = (a, b) => { x0 = Math.min(x0, a); x1 = Math.max(x1, b); };
   lados.forEach((lado, li) => {
-    const dir = li === 0;
+    const dir = li === 0, s = dir ? 1 : -1;
     let y = (H - hLado(lado)) / 2;
-    lado.forEach(r => {
-      const gy = y, rc = r.caixa;
-      const rx = dir ? CX + 150 : CX - 150 - rc.w;
-      const ry = gy + (r.hGrupo - rc.h) / 2, rmy = ry + rc.h / 2;
-      const sx = dir ? CX + centro.w / 2 - 6 : CX - centro.w / 2 + 6, ex = dir ? rx : rx + rc.w;
-      fios += `<path d="M${sx} ${cy} C${(sx + ex) / 2} ${cy}, ${(sx + ex) / 2} ${rmy}, ${ex} ${rmy}" stroke="${r.cor}" stroke-width="4" fill="none" stroke-linecap="round"/>`;
-      nos += `<rect x="${rx}" y="${ry}" width="${rc.w}" height="${rc.h}" rx="16" fill="${r.cor}"/>` + textoSvg(rc, rx, ry, '#FFFFFF', 'meio');
-      let iy = gy + (r.hGrupo - r.hItens) / 2;
-      const colItem = dir ? CX + 150 + 196 + 24 : CX - 150 - 196 - 24;
-      r.itens.forEach(c => {
-        const ix = dir ? colItem : colItem - c.w, imy = iy + c.h / 2;
-        const ox = dir ? rx + rc.w : rx, fx = dir ? ix : ix + c.w;
-        fios += `<path d="M${ox} ${rmy} C${(ox + fx) / 2} ${rmy}, ${(ox + fx) / 2} ${imy}, ${fx} ${imy}" stroke="${r.cor}" stroke-width="2" fill="none" stroke-opacity=".75"/>`;
-        nos += `<rect x="${ix}" y="${iy}" width="${c.w}" height="${c.h}" rx="10" fill="${r.cor}1A" stroke="${r.cor}" stroke-width="1.4"/>` +
-          `<circle cx="${fx}" cy="${imy}" r="3.5" fill="${r.cor}"/>` + textoSvg(c, ix, iy, '#161B26');
-        iy += c.h + GAP_ITEM;
+    lado.forEach(R => {
+      const nc = R.no, gy = y;
+      const ny = gy + (R.hG - nc.h) / 2, nmy = ny + nc.h / 2;
+      const rel = Math.min(1, Math.abs(nmy - cy) / meiaH);
+      const dist = DMIN + (DMAX - DMIN) * Math.sqrt(1 - rel * rel); /* contorno de elipse: ramos do alto e de baixo ficam mais perto */
+      const nxIn = CX + s * (centro.w / 2 + dist);
+      const nx = dir ? nxIn : nxIn - nc.w;
+      const p0x = CX + s * centro.w * 0.36, p0y = cy + (nmy - cy) * 0.18, p3x = nxIn, p3y = nmy, mx = (p0x + p3x) / 2;
+      const w0 = 9, w1 = 2.5;
+      const galho = `M${p0x} ${p0y - w0} C${mx} ${p0y - w0} ${mx} ${p3y - w1} ${p3x} ${p3y - w1} L${p3x} ${p3y + w1} C${mx} ${p3y + w1} ${mx} ${p0y + w0} ${p0x} ${p0y + w0} Z`;
+      let fios = '', itens = '';
+      let iy = gy + (R.hG - R.hI) / 2;
+      const ox = dir ? nx + nc.w : nx, colX = ox + s * 30;
+      R.itens.forEach((c, j) => {
+        const ix = dir ? colX : colX - c.w, imy = iy + c.h / 2, fx = dir ? ix : ix + c.w, mx2 = (ox + fx) / 2;
+        marca(ix, ix + c.w);
+        fios += `<path class="mm-fio" d="M${ox} ${nmy} C${mx2} ${nmy} ${mx2} ${imy} ${fx} ${imy}" stroke="${R.cor}"/>`;
+        itens += `<g class="mm-item" style="--d:${j}"><rect class="mm-it" x="${ix.toFixed(1)}" y="${iy.toFixed(1)}" width="${c.w}" height="${c.h}" rx="12"/>` +
+          `<rect x="${(dir ? ix : ix + c.w - 4).toFixed(1)}" y="${(iy + 7).toFixed(1)}" width="4" height="${Math.max(6, c.h - 14)}" rx="2" fill="${R.cor}"/>` +
+          `<circle cx="${fx.toFixed(1)}" cy="${imy.toFixed(1)}" r="4" fill="${R.cor}"/>` + textos(c, ix, iy, 'mm-txt') + `</g>`;
+        iy += c.h + GAP_I;
       });
-      y += r.hGrupo + GAP_GRUPO;
+      const icx = nx + 22, icy = nmy, bx = dir ? nx + nc.w : nx;
+      marca(nx - 12, nx + nc.w + 12);
+      const no = `<g class="mm-no" tabindex="0" role="button" aria-label="${esc(R.r.t)}"><rect x="${nx.toFixed(1)}" y="${ny.toFixed(1)}" width="${nc.w}" height="${nc.h}" rx="${Math.min(22, nc.h / 2)}" fill="${R.cor}"/>` +
+        `<circle cx="${icx.toFixed(1)}" cy="${icy.toFixed(1)}" r="14" fill="#fff" fill-opacity=".22"/>` +
+        `<text x="${icx.toFixed(1)}" y="${(icy + 6.5).toFixed(1)}" font-size="17" text-anchor="middle" fill="#fff" class="mm-ico">${glifo(R.icone)}</text>` +
+        textos({ ...nc, padX: nc.padX + 34 }, nx, ny, 'mm-rotulo') +
+        (R.itens.length ? `<g class="mm-conta"><circle cx="${bx.toFixed(1)}" cy="${ny.toFixed(1)}" r="11" class="mm-contaFundo" stroke="${R.cor}" stroke-width="2"/><text x="${bx.toFixed(1)}" y="${(ny + 4.3).toFixed(1)}" font-size="12" font-weight="800" text-anchor="middle" fill="${R.cor}">${R.itens.length}</text></g>` : '') + `</g>`;
+      corpo += `<g class="mm-ramo" data-r="${R.i}" style="--k:${R.cor};--i:${k++}"><path class="mm-galho" d="${galho}" fill="${R.cor}"/><g class="mm-itens">${fios}${itens}</g>${no}</g>`;
+      y += R.hG + GAP_G;
     });
   });
-  nos += `<rect x="${cx0}" y="${cy0}" width="${centro.w}" height="${centro.h}" rx="24" fill="${m.cor}"/>` +
-    `<rect x="${cx0 + 5}" y="${cy0 + 5}" width="${centro.w - 10}" height="${centro.h - 10}" rx="20" fill="none" stroke="#FFFFFF" stroke-opacity=".45" stroke-width="1.5"/>` +
-    textoSvg(centro, cx0, cy0, '#FFFFFF', 'meio');
-  return `<svg class="mapa-svg" viewBox="0 0 ${W} ${Math.ceil(H)}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(mapa.titulo)}" font-family="Inter, sans-serif">${fios}${nos}</svg>`;
+  const centroSvg = `<g class="mm-centro"><rect x="${cx0}" y="${cy0}" width="${centro.w}" height="${centro.h}" rx="30" fill="${m.cor}"/>` +
+    `<rect x="${cx0 + 6}" y="${cy0 + 6}" width="${centro.w - 12}" height="${centro.h - 12}" rx="25" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="3 5"/>` +
+    `<text x="${CX}" y="${cy0 + 38}" font-size="24" text-anchor="middle" fill="#fff" class="mm-ico">${glifo(m.icone)}</text>` +
+    textos({ ...centro, padY: centro.padY + 28 }, cx0, cy0, 'mm-centroTxt', true) + `</g>`;
+  const vx = Math.floor(x0 - 26), vw = Math.ceil(x1 - x0 + 52), vb = `${vx} 0 ${vw} ${Math.ceil(H)}`;
+  return `<svg class="mapa-svg${estatico ? ' estatico' : ''}" viewBox="${vb}" data-vb="${vb}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(mapa.titulo)}" style="--cx:${CX - vx}px;--cy:${cy}px">${corpo}${centroSvg}</svg>`;
+}
+function cartoesMapa(mapa) {
+  const icones = iconesMapa(mapa.ramos || []);
+  return `<div class="mmCartoes">${(mapa.ramos || []).map((r, i) => {
+    const cor = CORES_RAMO[i % CORES_RAMO.length];
+    return `<section class="mmCartao" style="--k:${cor};--i:${i}"><header><span class="ic">${ic(icones[i])}</span><h4>${esc(r.t)}</h4><em>${(r.itens || []).length}</em></header><ul>` +
+      (r.itens || []).map(it => typeof it === 'string' ? `<li>${esc(it)}</li>` : `<li><b>${esc(it.t)}</b>${(it.itens || []).length ? `<span class="subs">${it.itens.map(s => `<span>${esc(s)}</span>`).join('')}</span>` : ''}</li>`).join('') + `</ul></section>`;
+  }).join('')}</div>`;
+}
+/* zoom, arraste, foco e modo Teste-se */
+function animaVB(svg, alvo, ms) {
+  const ini = svg.getAttribute('viewBox').split(' ').map(Number), t0 = performance.now();
+  const passo = t => { const p = Math.min(1, (t - t0) / ms), e = 1 - Math.pow(1 - p, 3); svg.setAttribute('viewBox', ini.map((v, i) => (v + (alvo[i] - v) * e).toFixed(1)).join(' ')); if (p < 1) requestAnimationFrame(passo); };
+  requestAnimationFrame(passo);
+  setTimeout(() => svg.setAttribute('viewBox', alvo.map(v => v.toFixed(1)).join(' ')), ms + 120); /* garante o fim mesmo com a aba em segundo plano */
+}
+const vbBase = svg => svg.dataset.vb.split(' ').map(Number);
+function zoom(svg, f, px, py) {
+  const vb = svg.getAttribute('viewBox').split(' ').map(Number), base = vbBase(svg);
+  const w = Math.min(base[2] * 1.05, Math.max(base[2] / 6, vb[2] * f)), r = w / vb[2], h = vb[3] * r;
+  const ax = px == null ? vb[0] + vb[2] / 2 : px, ay = py == null ? vb[1] + vb[3] / 2 : py;
+  svg.setAttribute('viewBox', [ax - (ax - vb[0]) * r, ay - (ay - vb[1]) * r, w, h].map(v => v.toFixed(1)).join(' '));
+}
+function pontoSvg(svg, e) { const p = svg.createSVGPoint(); p.x = e.clientX; p.y = e.clientY; return p.matrixTransform(svg.getScreenCTM().inverse()); }
+function solta(svg) { $$('.mm-ramo.fixo', svg).forEach(r => r.classList.remove('fixo')); svg.classList.remove('foco'); animaVB(svg, vbBase(svg), 600); }
+function ativaMapa(fig) {
+  const svg = $('svg.mapa-svg', fig); if (!svg) return;
+  let arr = null, moveu = false;
+  svg.addEventListener('pointerdown', e => { if (e.button) return; arr = { x: e.clientX, y: e.clientY, vb: svg.getAttribute('viewBox').split(' ').map(Number) }; moveu = false; });
+  svg.addEventListener('pointermove', e => {
+    if (!arr) return;
+    const dx = e.clientX - arr.x, dy = e.clientY - arr.y;
+    if (!moveu && Math.hypot(dx, dy) < 6) return;
+    if (!moveu) { moveu = true; svg.classList.add('arrastando'); try { svg.setPointerCapture(e.pointerId); } catch (x) { /* ok */ } }
+    const f = arr.vb[2] / svg.clientWidth;
+    svg.setAttribute('viewBox', [arr.vb[0] - dx * f, arr.vb[1] - dy * f, arr.vb[2], arr.vb[3]].join(' '));
+  });
+  const fim = () => { arr = null; svg.classList.remove('arrastando'); };
+  svg.addEventListener('pointerup', fim); svg.addEventListener('pointercancel', fim);
+  svg.addEventListener('wheel', e => { if (!(e.ctrlKey || e.metaKey || fig.closest('.veu'))) return; e.preventDefault(); const p = pontoSvg(svg, e); zoom(svg, e.deltaY > 0 ? 1.12 : 1 / 1.12, p.x, p.y); }, { passive: false });
+  svg.addEventListener('click', e => {
+    if (moveu) { moveu = false; return; }
+    const ramo = e.target.closest('.mm-ramo'), no = e.target.closest('.mm-no');
+    if (no && ramo) {
+      if (svg.classList.contains('revisao') && !ramo.classList.contains('revelado')) { ramo.classList.add('revelado'); return; }
+      const ja = ramo.classList.contains('fixo');
+      if (ja) { solta(svg); return; }
+      $$('.mm-ramo.fixo', svg).forEach(r => r.classList.remove('fixo'));
+      ramo.classList.add('fixo'); svg.classList.add('foco');
+      const b = ramo.getBBox(), pad = 40, base = vbBase(svg), asp = base[3] / base[2];
+      let w = Math.max(b.width + pad * 2, 720), h = w * asp; if (h < b.height + pad * 2) { h = b.height + pad * 2; w = h / asp; }
+      animaVB(svg, [b.x + b.width / 2 - w / 2, b.y + b.height / 2 - h / 2, w, h], 650);
+    } else if (svg.classList.contains('foco')) solta(svg);
+  });
+  svg.addEventListener('keydown', e => { if ((e.key === 'Enter' || e.key === ' ') && e.target.closest('.mm-no')) { e.preventDefault(); e.target.dispatchEvent(new MouseEvent('click', { bubbles: true })); } });
+}
+function acaoMapa(fig, ac) {
+  const svg = $('svg.mapa-svg', fig);
+  if (ac === 'mais') zoom(svg, 1 / 1.3);
+  else if (ac === 'menos') zoom(svg, 1.3);
+  else if (ac === 'ajusta') solta(svg);
+  else if (ac === 'teste') {
+    const on = !svg.classList.contains('revisao');
+    svg.classList.toggle('revisao', on); fig.classList.toggle('revisao', on);
+    $$('.mm-ramo', svg).forEach(r => r.classList.remove('revelado')); $$('.mmCartao', fig).forEach(r => r.classList.remove('revelado'));
+    $('[data-mapa="teste"]', fig).setAttribute('aria-pressed', on);
+    if (on) aviso('Itens escondidos. Lembre o que vem em cada ramo e toque nele para conferir.');
+  } else if (ac === 'vista') {
+    const cartoes = fig.classList.toggle('vistaCartoes');
+    $('[data-mapa="vista"]', fig).innerHTML = cartoes ? `${ic('sitemap')}<span>Ver como mapa</span>` : `${ic('layout-cards')}<span>Ver em cartões</span>`;
+    gravarLS('vistaMapa', cartoes ? 'cartoes' : 'mapa');
+  } else if (ac === 'cheio') abreMapaCheio(fig);
+}
+function abreMapaCheio(fig) {
+  const m = moduloAtual(), mp = m.mapas.find(x => x.id === fig.id);
+  fechaCamadas();
+  const v = document.createElement('div');
+  v.className = 'veu cheio';
+  v.innerHTML = `<div class="mapaGrande mapaCard" id="${esc(mp.id)}"><div class="barraG"><span class="ic">${ic('sitemap')}</span><h2>${esc(mp.titulo)}</h2>${botoesMapa(true)}<button class="bt sec mini" data-fecha>${ic('x')} Fechar</button></div>` +
+    `<div class="area">${desenhaMapa(mp, m)}</div><p class="dicaMapa">Roda do mouse aproxima, arraste para mover, clique num ramo para focar.</p></div>`;
+  document.body.appendChild(v);
+  ativaMapa($('.mapaGrande', v));
+  $('[data-fecha]', v).onclick = () => v.remove();
+}
+function botoesMapa(cheio, cartoes) {
+  return `<div class="mmBotoes"><button data-mapa="teste" aria-pressed="false" title="Esconde os itens: tente lembrar e toque no ramo">${ic('eye-off')}<span>Teste-se</span></button>` +
+    `<span class="soMapa"><button data-mapa="menos" title="Afastar">${ic('zoom-out')}</button><button data-mapa="mais" title="Aproximar">${ic('zoom-in')}</button><button data-mapa="ajusta" title="Ver o mapa inteiro">${ic('focus-centered')}</button>` +
+    (cheio ? '' : `<button data-mapa="cheio" title="Tela cheia">${ic('arrows-maximize')}<span>Tela cheia</span></button>`) + `</span>` +
+    (cheio ? '' : `<button data-mapa="vista">${cartoes ? `${ic('sitemap')}<span>Ver como mapa</span>` : `${ic('layout-cards')}<span>Ver em cartões</span>`}</button>`) + `</div>`;
 }
 
 /* ---------------- blocos de apoio ---------------- */
 const TIPOS = {
-  tabela: { nome: 'Tabela', ic: 'table' }, quadro: { nome: 'Quadro', ic: 'box' }, checklist: { nome: 'Checklist', ic: 'list-check' },
-  fluxo: { nome: 'Fluxo', ic: 'git-fork' }, cartoes: { nome: 'Cartões de revisão', ic: 'cards' }, questoes: { nome: 'Questões', ic: 'help-circle' },
-  receita: { nome: 'Modelo de receita', ic: 'prescription' }, pop: { nome: 'POP', ic: 'file-text' }
+  tabela: { nome: 'Tabela', plural: 'Tabelas', ic: 'table' }, quadro: { nome: 'Quadro', plural: 'Quadros', ic: 'layout-list' },
+  checklist: { nome: 'Checklist', plural: 'Checklists', ic: 'list-check' }, fluxo: { nome: 'Fluxo', plural: 'Fluxos', ic: 'git-fork' },
+  cartoes: { nome: 'Cartões de revisão', plural: 'Cartões', ic: 'cards' }, questoes: { nome: 'Questões', plural: 'Questões', ic: 'help-circle' },
+  receita: { nome: 'Modelo de receita', plural: 'Receitas', ic: 'prescription' }, pop: { nome: 'POP', plural: 'POPs', ic: 'file-text' }
 };
 const LETRAS = 'ABCDE';
-const inl = s => limpaHtml(String(s == null ? '' : s), true);
-
+const posQ = {}, posC = {};
 function blocoCorpo(b, imp) {
   switch (b.tipo) {
     case 'tabela':
       return `<div class="tab"><table><thead><tr>${(b.colunas || []).map(c => `<th>${inl(c)}</th>`).join('')}</tr></thead><tbody>` +
-        (b.linhas || []).map(l => `<tr>${l.map(c => `<td>${inl(c)}</td>`).join('')}</tr>`).join('') + `</tbody></table></div>` +
-        (b.nota ? `<p class="nota">${inl(b.nota)}</p>` : '');
-    case 'quadro':
-      return `<div class="texto" data-edit="bloco:${b.id}:html">${b.html || ''}</div>`;
+        (b.linhas || []).map(l => `<tr>${l.map(c => `<td>${inl(c)}</td>`).join('')}</tr>`).join('') + `</tbody></table></div>` + (b.nota ? `<p class="nota">${inl(b.nota)}</p>` : '');
+    case 'quadro': return `<div class="conteudo" data-edit="bloco:${b.id}:html">${b.html || ''}</div>`;
     case 'checklist': {
       const marc = lerLS('check', {})[b.id] || [];
-      return `<ul class="check">${(b.itens || []).map((t, i) => imp
-        ? `<li><label><span class="cx-q"></span><span>${inl(t)}</span></label></li>`
+      return `<ul class="check">${(b.itens || []).map((t, i) => imp ? `<li><label><span class="cx-q"></span><span>${inl(t)}</span></label></li>`
         : `<li><label><input type="checkbox" data-check="${b.id}:${i}" ${marc.includes(i) ? 'checked' : ''}><span>${inl(t)}</span></label></li>`).join('')}</ul>`;
     }
     case 'fluxo':
-      return `<div class="fluxo">${(b.passos || []).map((p, i) => (i ? '<div class="seta"></div>' : '') +
-        `<div class="passo ${esc(p.tipo || 'acao')}">${inl(p.t)}${p.tipo === 'decisao' && (p.sim || p.nao) ? `<div class="saidas"><div class="sim"><b>Sim</b>${inl(p.sim)}</div><div class="nao"><b>Não</b>${inl(p.nao)}</div></div>` : ''}</div>`).join('')}</div>`;
+      return `<div class="fluxo">${(b.passos || []).map((p, i) => (i ? '<div class="seta"></div>' : '') + `<div class="passo ${esc(p.tipo || 'acao')}">${inl(p.t)}` +
+        (p.tipo === 'decisao' && (p.sim || p.nao) ? `<div class="saidas"><div class="sim"><b>Sim</b>${inl(p.sim)}</div><div class="nao"><b>Não</b>${inl(p.nao)}</div></div>` : '') + `</div>`).join('')}</div>`;
     case 'cartoes':
       if (imp) return `<table class="t flash-imp"><thead><tr><th style="width:45%">Pergunta</th><th>Resposta</th></tr></thead><tbody>${(b.itens || []).map(c => `<tr><td>${inl(c.f)}</td><td>${inl(c.v)}</td></tr>`).join('')}</tbody></table>`;
-      return `<div class="cartoes">${(b.itens || []).map((c, i) => `<button class="flash" type="button" data-flash><div class="in"><div class="f"><small>Cartão ${i + 1}</small>${inl(c.f)}</div><div class="v"><small>Resposta</small>${inl(c.v)}</div></div></button>`).join('')}</div>`;
+      return `<div class="flash" data-flash="${b.id}">${cartaHtml(b)}</div>`;
     case 'questoes':
-      return (b.itens || []).map((q, i) => `<div class="questao" data-q="${b.id}:${i}"><p class="enun"><b>${i + 1}.</b> ${inl(q.p)}</p><div class="alts">${(q.alt || []).map((a, j) =>
-        imp ? `<div class="alt"><span class="l">${LETRAS[j]}</span><span>${inl(a)}</span></div>` : `<button type="button" class="alt" data-alt="${j}"><span class="l">${LETRAS[j]}</span><span>${inl(a)}</span></button>`).join('')}</div></div>`).join('') +
-        (imp ? `<div class="gabarito"><b>Gabarito comentado</b><ol>${(b.itens || []).map(q => `<li><b>${LETRAS[q.c]}</b>. ${inl(q.com)}</li>`).join('')}</ol></div>` : '');
+      if (imp) return (b.itens || []).map((q, i) => `<div class="questao"><p class="enun"><b>${i + 1}.</b> ${inl(q.p)}</p><div class="alts">${(q.alt || []).map((a, j) => `<div class="alt"><span class="let">${LETRAS[j]}</span><span class="tx">${inl(a)}</span></div>`).join('')}</div></div>`).join('') +
+        `<div class="gabarito"><b>Gabarito comentado</b><ol>${(b.itens || []).map(q => `<li><b>${LETRAS[q.c]}</b>. ${inl(q.com)}</li>`).join('')}</ol></div>`;
+      return `<div class="quiz" data-quiz="${b.id}">${questaoHtml(b)}</div>`;
     case 'receita':
       return `<div class="receita ${esc(b.cor || 'branca')}"><div class="rc-topo"><div><b>${esc(b.titulo)}</b><span>${esc(b.subtitulo || '')}</span></div><div class="rc-num">Nº ________<br><small>${esc(b.numeracao || '')}</small></div></div>` +
         (b.secoes || []).map(s => `<div class="rc-sec"><b>${esc(s.t)}</b>${(s.campos || []).map(c => `<div class="rc-campo"><span>${esc(c)}:</span><i></i></div>`).join('')}</div>`).join('') + `</div>` +
@@ -187,103 +322,199 @@ function blocoCorpo(b, imp) {
       const lista = (rot, xs, ord) => (xs && xs.length) ? `<div class="pop-sec"><b>${rot}</b><${ord ? 'ol' : 'ul'}>${xs.map(x => `<li>${inl(x)}</li>`).join('')}</${ord ? 'ol' : 'ul'}></div>` : '';
       return `<div class="pop"><div class="pop-cab"><div class="logo">Logotipo e nome<br>do estabelecimento</div><div class="tit"><small>Procedimento operacional padrão</small><b>${esc(b.titulo)}</b></div>` +
         `<div class="meta">Código: <b>${esc(b.codigo || '')}</b><br>Versão: ____<br>Emissão: ___/___/____<br>Revisão: ___/___/____</div></div>` +
-        (b.objetivo ? `<div class="pop-sec"><b>Objetivo</b>${inl(b.objetivo)}</div>` : '') +
-        (b.abrangencia ? `<div class="pop-sec"><b>Abrangência</b>${inl(b.abrangencia)}</div>` : '') +
-        lista('Responsáveis', b.responsaveis) + lista('Materiais', b.materiais) + lista('Procedimento', b.procedimento, true) +
-        lista('Cuidados', b.cuidados) + lista('Registros', b.registros) + lista('Referências', b.referencias) +
+        (b.objetivo ? `<div class="pop-sec"><b>Objetivo</b>${inl(b.objetivo)}</div>` : '') + (b.abrangencia ? `<div class="pop-sec"><b>Abrangência</b>${inl(b.abrangencia)}</div>` : '') +
+        lista('Responsáveis', b.responsaveis) + lista('Materiais', b.materiais) + lista('Procedimento', b.procedimento, true) + lista('Cuidados', b.cuidados) + lista('Registros', b.registros) + lista('Referências', b.referencias) +
         `<div class="pop-ass"><div>Elaborado por:</div><div>Revisado por:</div><div>Aprovado por (farmacêutico RT):</div></div></div>`;
     }
     default: return `<p>Tipo de bloco desconhecido.</p>`;
   }
 }
-function blocoHtml(b, m, i, n, imp) {
+function pontos(n, at, cls) { return `<div class="pontos">${Array.from({ length: n }, (_, i) => `<i class="${cls(i)}${i === at ? ' at' : ''}"></i>`).join('')}</div>`; }
+function cartaHtml(b) {
+  const n = (b.itens || []).length; if (!n) return '';
+  const i = Math.min(posC[b.id] || 0, n - 1), c = b.itens[i], vis = vistos();
+  return `<div class="flashTopo"><span>Cartão ${i + 1} de ${n}</span><span>${[...vis].filter(x => x.startsWith(b.id + ':')).length} revisados</span></div>` +
+    `<button class="carta" type="button" data-virar><div class="in"><div class="face frente"><div class="rot">Pergunta</div><div class="cont">${inl(c.f)}</div><div class="dica">Toque para ver a resposta</div></div>` +
+    `<div class="face verso"><div class="rot">Resposta</div><div class="cont">${inl(c.v)}</div><div class="dica">Toque para voltar</div></div></div></button>` +
+    `<div class="navQ"><button class="bt sec mini" data-cnav="-1" ${i ? '' : 'disabled'}>${ic('arrow-left')} Anterior</button>${pontos(n, i, k => vis.has(b.id + ':' + k) ? 'v' : '')}<button class="bt mini" data-cnav="1" ${i < n - 1 ? '' : 'disabled'}>Próximo ${ic('arrow-right')}</button></div>`;
+}
+function questaoHtml(b) {
+  const n = (b.itens || []).length; if (!n) return '';
+  const i = Math.min(posQ[b.id] || 0, n - 1), q = b.itens[i], R = respostas(), r = R[b.id + ':' + i];
+  const feitas = Object.keys(R).filter(k => k.startsWith(b.id + ':')), certas = feitas.filter(k => { const x = b.itens[+k.split(':')[1]]; return x && R[k] === x.c; }).length;
+  return `<div class="qTopo"><span class="qNum">Questão ${i + 1} de ${n}</span><span class="qPlacar">${feitas.length ? `${certas} de ${feitas.length} certas` : 'Responda para ver o comentário'}</span></div>` +
+    `<p class="enun">${inl(q.p)}</p><div class="alts">${q.alt.map((a, j) => {
+      const cls = r == null ? '' : j === q.c ? ' certa' : j === r ? ' errada' : '';
+      return `<button type="button" class="alt${cls}" data-alt="${j}" ${r == null ? '' : 'disabled'}><span class="let">${LETRAS[j]}</span><span class="tx">${inl(a)}</span></button>`;
+    }).join('')}</div>` +
+    (r == null ? '' : `<div class="coment ${r === q.c ? 'ok' : 'er'}"><b>${r === q.c ? 'Resposta certa.' : `Resposta: ${LETRAS[q.c]}.`}</b>${inl(q.com)}</div>`) +
+    `<div class="navQ"><button class="bt sec mini" data-qnav="-1" ${i ? '' : 'disabled'}>${ic('arrow-left')} Anterior</button>${pontos(n, i, k => { const x = R[b.id + ':' + k]; return x == null ? '' : x === b.itens[k].c ? 'ok' : 'er'; })}<button class="bt mini" data-qnav="1" ${i < n - 1 ? '' : 'disabled'}>Próxima ${ic('arrow-right')}</button></div>`;
+}
+function blocoHtml(b, i, n, imp) {
   const t = TIPOS[b.tipo] || { nome: b.tipo, ic: 'box' };
-  return `<section class="bloco b-${esc(b.tipo)}" id="${esc(b.id)}"><header><span class="circ">${ic(t.ic)}</span><h2>${esc(b.titulo || t.nome)}</h2>` +
-    (imp ? '' : `<span class="ed-ctl"><button title="Editar" data-acao="bloco-editar" data-id="${b.id}">${ic('pencil')}</button><button title="Subir" data-acao="bloco-subir" data-id="${b.id}" ${i ? '' : 'disabled'}>${ic('arrow-up')}</button><button title="Descer" data-acao="bloco-descer" data-id="${b.id}" ${i < n - 1 ? '' : 'disabled'}>${ic('arrow-down')}</button><button class="del" title="Excluir" data-acao="bloco-excluir" data-id="${b.id}">${ic('trash')}</button></span>`) +
+  return `<section class="bloco b-${esc(b.tipo)}" id="${esc(b.id)}" data-tipo="${esc(b.tipo)}"><header><span class="ic">${ic(t.ic)}</span><h2>${esc(b.titulo || t.nome)}</h2>` +
+    (imp ? '' : `<span class="tipo">${esc(t.nome)}</span><span class="ctl"><button title="Editar" data-acao="bloco-editar" data-id="${b.id}">${ic('pencil')}</button><button title="Subir" data-acao="bloco-subir" data-id="${b.id}" ${i ? '' : 'disabled'}>${ic('arrow-up')}</button><button title="Descer" data-acao="bloco-descer" data-id="${b.id}" ${i < n - 1 ? '' : 'disabled'}>${ic('arrow-down')}</button><button class="del" title="Excluir" data-acao="bloco-excluir" data-id="${b.id}">${ic('trash')}</button></span>`) +
     `</header>${blocoCorpo(b, imp)}</section>`;
 }
 
-/* ---------------- telas ---------------- */
+/* ---------------- moldura: barra lateral, celular ---------------- */
 const app = () => $('#conteudo');
-function estudados() { return new Set(lerLS('estudado', [])); }
-function progresso(m) { const e = estudados(); const n = m.topicos.length; return n ? Math.round(100 * m.topicos.filter(t => e.has(t.id)).length / n) : 0; }
-function contaQuestoes(m) { return m.apoio.filter(b => b.tipo === 'questoes').reduce((a, b) => a + (b.itens || []).length, 0); }
-
-function menuLateral(atual) {
-  $('#lista-mod').innerHTML = DADOS.modulos.map(m => `<li><a href="#/${m.id}/resumo" class="${m.id === atual ? 'ativo' : ''}" style="${corVars(m)}"><span class="num">${m.num}</span><span>${esc(m.titulo)}</span></a></li>`).join('');
+function moduloAtual() { const p = location.hash.slice(2).split('/'); return mod(p[0]); }
+function itemModulo(m, atual) {
+  const p = progresso(m);
+  return `<a class="aba" href="#/${m.id}/resumo" style="--c:${m.cor}" ${m.id === atual ? 'aria-current="true"' : ''}>${ic(m.icone)}<span>${esc(m.curto || m.titulo)}</span><em class="pct">${p ? p + '%' : ''}</em></a>`;
+}
+function moldura(atual) {
+  $('#abas').innerHTML = `<a class="aba" href="#/" style="--c:var(--marca)" ${atual ? '' : 'aria-current="true"'}>${ic('home')}<span>Início</span></a>` +
+    `<div class="navGrupo">Módulos</div>` + DADOS.modulos.map(m => itemModulo(m, atual)).join('');
   $('#bt-editar').classList.toggle('on', editando);
-  $('#bt-editar').querySelector('span').textContent = editando ? 'Sair da edição' : 'Modo edição';
-  $('#bt-salvar').classList.toggle('pri', alterado);
+  $('#bt-editar span').textContent = editando ? 'Editando' : 'Editar';
+  $('#bt-salvar').classList.toggle('alerta', alterado);
+  $('#bt-salvar .ponto').hidden = !alterado;
+  const m = atual && mod(atual);
+  $$('#barra button').forEach(b => b.removeAttribute('aria-current'));
+  $(`#barra [data-b="${m ? 'modulos' : 'inicio'}"]`).setAttribute('aria-current', 'true');
+  $('#barra [data-b="modulos"]').style.setProperty('--c', m ? m.cor : 'var(--c-indigo)');
 }
-function faixas() {
-  let s = '';
-  if (alterado) s += `<div class="faixa">${ic('alert-triangle')}<span>Há alterações guardadas só neste navegador. Para não perder, grave no arquivo.</span><button class="bt pri" data-acao="salvar">${ic('device-floppy')} Salvar arquivo</button></div>`;
-  return s;
+function faixaAlterado() { return alterado ? `<div class="faixa">${ic('alert-triangle')}<span>Há alterações guardadas só neste navegador. Grave no arquivo para não perder.</span><button class="bt mini" data-acao="salvar">${ic('device-floppy')} Salvar arquivo</button></div>` : ''; }
+function gaveta(tipo) {
+  fechaCamadas();
+  const veu = document.createElement('div'); veu.className = 'veu'; veu.style.zIndex = 85;
+  const g = document.createElement('div'); g.className = 'gaveta';
+  const fecha = () => { veu.remove(); g.remove(); };
+  veu.onclick = fecha;
+  g.innerHTML = `<div class="puxa"></div>` + (tipo === 'modulos'
+    ? `<a class="aba" href="#/" style="--c:var(--marca)">${ic('home')}<span>Início</span></a>` + DADOS.modulos.map(m => itemModulo(m, (moduloAtual() || {}).id)).join('')
+    : `<div class="gradeMais">${[['pdf', 'file-type-pdf', 'Gerar PDF'], ['editar', 'pencil', editando ? 'Sair da edição' : 'Editar'], ['salvar', 'device-floppy', 'Salvar arquivo'], ['tema', 'moon', 'Tema'], ['ajustes', 'settings', 'Ajustes'], ['buscar', 'search', 'Buscar']]
+      .map(([a, i, r]) => `<button data-mais="${a}">${ic(i)}${r}</button>`).join('')}</div>`);
+  g.addEventListener('click', e => { if (e.target.closest('a')) fecha(); const b = e.target.closest('[data-mais]'); if (b) { fecha(); acaoGeral(b.dataset.mais); } });
+  document.body.append(veu, g);
+}
+function acaoGeral(a) {
+  if (a === 'pdf') janelaPdf(); else if (a === 'editar') alternaEdicao(); else if (a === 'salvar') salvarArquivo();
+  else if (a === 'tema') trocaTema(); else if (a === 'ajustes') ajustes(); else if (a === 'buscar') abreBusca();
 }
 
+/* ---------------- início ---------------- */
+function anel(pct, tam) {
+  const r = (tam - 16) / 2, c = 2 * Math.PI * r;
+  return `<svg width="${tam}" height="${tam}" viewBox="0 0 ${tam} ${tam}"><circle cx="${tam / 2}" cy="${tam / 2}" r="${r}" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="12"/>` +
+    `<circle class="arco" cx="${tam / 2}" cy="${tam / 2}" r="${r}" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${c.toFixed(1)}" data-alvo="${(c * (1 - pct / 100)).toFixed(1)}"/></svg>`;
+}
 function telaInicio() {
   document.body.style.cssText = '';
-  menuLateral(null);
-  const totQ = DADOS.modulos.reduce((a, m) => a + contaQuestoes(m), 0);
-  const totMapas = DADOS.modulos.reduce((a, m) => a + m.mapas.length, 0);
-  app().innerHTML = faixas() + `<div class="capa-inicio"><div><h1>${esc(DADOS.titulo)}</h1><p>${esc(DADOS.subtitulo)}</p></div>` +
-    `<div style="display:flex;gap:8px;flex-wrap:wrap"><span class="pilula">${DADOS.modulos.length} módulos</span><span class="pilula">${totMapas} mapas mentais</span><span class="pilula">${totQ} questões</span></div></div>` +
-    `<div class="grade">${DADOS.modulos.map((m, i) => `<a class="cartao-mod" href="#/${m.id}/resumo" style="${corVars(m)};animation-delay:${i * 40}ms">` +
-      `<div class="cab"><span class="circ">${ic(m.icone)}</span><div><div class="rot">Módulo ${m.num}</div><h3>${esc(m.titulo)}</h3></div></div>` +
-      `<p>${esc(m.escopo)}</p><div class="rod"><span class="pilula">${plural(m.topicos.length, 'tópico', 'tópicos')}</span><span class="pilula">${plural(m.mapas.length, 'mapa', 'mapas')}</span><span class="pilula">${plural(contaQuestoes(m), 'questão', 'questões')}</span></div>` +
-      `<div class="barra" title="Tópicos marcados como estudados"><i style="width:${progresso(m)}%"></i></div></a>`).join('')}</div>`;
+  moldura(null);
+  const e = estudados(), R = respostas(), V = vistos();
+  const totT = DADOS.modulos.reduce((a, m) => a + m.topicos.length, 0), feitosT = DADOS.modulos.reduce((a, m) => a + m.topicos.filter(t => e.has(t.id)).length, 0);
+  const totQ = DADOS.modulos.reduce((a, m) => a + contaQ(m), 0), totC = DADOS.modulos.reduce((a, m) => a + contaC(m), 0);
+  let nResp = 0, certas = 0;
+  DADOS.modulos.forEach(m => blocosDe(m, 'questoes').forEach(b => (b.itens || []).forEach((q, i) => { const x = R[b.id + ':' + i]; if (x != null) { nResp++; if (x === q.c) certas++; } })));
+  const nV = DADOS.modulos.reduce((a, m) => a + blocosDe(m, 'cartoes').reduce((s, b) => s + (b.itens || []).filter((_, i) => V.has(b.id + ':' + i)).length, 0), 0);
+  const nMapas = DADOS.modulos.reduce((a, m) => a + m.mapas.length, 0);
+  const nModelos = DADOS.modulos.reduce((a, m) => a + blocosDe(m, 'receita').length + blocosDe(m, 'pop').length, 0);
+  const proxM = DADOS.modulos.find(m => m.topicos.some(t => !e.has(t.id))) || DADOS.modulos[0];
+  const proxT = proxM.topicos.find(t => !e.has(t.id)) || proxM.topicos[0];
+  const pct = totT ? Math.round(100 * feitosT / totT) : 0, comecou = feitosT > 0;
+  const faltam = proxM.topicos.filter(t => !e.has(t.id)).length;
+  const modModelo = DADOS.modulos.find(m => blocosDe(m, 'receita').length) || DADOS.modulos[0];
+  app().innerHTML = faixaAlterado() + `<div class="vIni anima">` +
+    `<section class="vHero" style="--k:${proxM.cor}"><span class="bola b1"></span><span class="bola b2"></span><span class="bola b3"></span>` +
+    `<div class="txt"><small>${ic(proxM.icone)} ${comecou ? 'Continue de onde parou' : 'Comece por aqui'} · Módulo ${proxM.num}</small><h2>${esc(proxT.titulo)}</h2>` +
+    `<p>${esc(proxM.titulo)}: ${faltam === 1 ? 'falta 1 tópico' : `faltam ${faltam} tópicos`} neste módulo.</p>` +
+    `<div class="linhaBt"><a class="bt" href="#/${proxM.id}/resumo/${proxT.id}">${ic('book')} ${comecou ? 'Continuar leitura' : 'Começar leitura'}</a><a class="bt sec" href="#/${proxM.id}/mapa">${ic('sitemap')} Mapa mental</a></div></div>` +
+    `<div class="vAnel">${anel(pct, 150)}<div class="val"><b>${pct}%</b><span>do material</span></div></div></section>` +
+    `<section class="vMeta"><h3>Seu progresso</h3>` +
+    [['var(--c-violeta)', 'book', 'Tópicos estudados', feitosT, totT], ['var(--c-azul)', 'help-circle', 'Questões respondidas', nResp, totQ], ['var(--c-ambar)', 'cards', 'Cartões revisados', nV, totC]]
+      .map(([k, i, r, a, b]) => `<div class="metaItem" style="--k:${k}"><span class="ic">${ic(i)}</span><div><b>${r}</b><div class="barra"><i style="width:${b ? Math.round(100 * a / b) : 0}%"></i></div></div><em>${a}/${b}</em></div>`).join('') +
+    `<p class="rodape">${ic('device-mobile')} O progresso fica salvo neste aparelho.</p></section>` +
+    `<div class="vStats">` +
+    `<a class="vStat" href="#/${proxM.id}/resumo" style="--k:var(--c-violeta)"><span class="ic">${ic('book')}</span><div><b>${totT}</b><span>tópicos de leitura</span></div></a>` +
+    `<a class="vStat" href="#/${proxM.id}/mapa" style="--k:var(--c-rosa)"><span class="ic">${ic('sitemap')}</span><div><b>${nMapas}</b><span>mapas mentais</span></div></a>` +
+    `<a class="vStat" href="#/${proxM.id}/apoio" style="--k:var(--c-azul)"><span class="ic">${ic('target-arrow')}</span><div><b>${nResp ? Math.round(100 * certas / nResp) + '%' : totQ}</b><span>${nResp ? `de acerto em ${nResp} respostas` : 'questões comentadas'}</span></div></a>` +
+    `<a class="vStat" href="#/${modModelo.id}/apoio" style="--k:var(--c-verde)"><span class="ic">${ic('prescription')}</span><div><b>${nModelos}</b><span>modelos de receita e POPs</span></div></a></div>` +
+    `<div class="vTit"><span class="ti ti-layout-grid"></span><h3>Módulos</h3><small>resumo, mapas mentais e material de apoio em cada um</small></div>` +
+    `<div class="listaL">${DADOS.modulos.map(m => `<a class="itemL" href="#/${m.id}/resumo" style="--k:${m.cor}"><div class="topo"><span class="ic">${ic(m.icone)}</span><div><div class="num">Módulo ${m.num}</div><h3>${esc(m.titulo)}</h3></div></div>` +
+      `<div class="conta"><span class="pil" title="Tópicos">${ic('book')} ${m.topicos.length}</span><span class="pil" title="Mapas mentais">${ic('sitemap')} ${m.mapas.length}</span><span class="pil" title="Questões">${ic('help-circle')} ${contaQ(m)}</span><span class="pil" title="Cartões">${ic('cards')} ${contaC(m)}</span></div>` +
+      `<div class="rod"><div class="barra"><i style="width:${progresso(m)}%"></i></div>${progresso(m)}%</div></a>`).join('')}</div></div>`;
+  $$('.vIni > *').forEach((el, i) => el.style.setProperty('--i', i));
+  $$('.listaL > *').forEach((el, i) => { el.style.animation = `sobe .5s var(--suave) ${200 + i * 35}ms both`; });
+  requestAnimationFrame(() => requestAnimationFrame(() => { $$('.arco[data-alvo]').forEach(a => a.setAttribute('stroke-dashoffset', a.dataset.alvo)); }));
 }
 
+/* ---------------- módulo ---------------- */
 function cabModulo(m, aba) {
   const n = { resumo: m.topicos.length, mapa: m.mapas.length, apoio: m.apoio.length };
-  return faixas() + `<div class="cab-mod"><span class="circ">${ic(m.icone)}</span><div><div class="rot">Módulo ${m.num}</div>` +
-    `<h1 data-edit="mod:${m.id}:titulo">${esc(m.titulo)}</h1><p class="escopo" data-edit="mod:${m.id}:escopo">${esc(m.escopo)}</p></div></div>` +
-    `<nav class="abas">` +
-    [['resumo', 'book', 'Resumo para leitura'], ['mapa', 'sitemap', 'Mapa mental'], ['apoio', 'folders', 'Material de apoio']].map(([k, i, r]) =>
-      `<a class="aba ${aba === k ? 'ativa' : ''}" href="#/${m.id}/${k}">${ic(i)} ${r} <span class="cont">${n[k]}</span></a>`).join('') +
-    `<span class="aba-dir"><button class="bt peq" data-acao="pdf">${ic('file-type-pdf')} PDF</button></span></nav>`;
+  return faixaAlterado() + `<header id="pgTitulo"><span class="selo">${ic(m.icone)}</span><h1 data-edit="mod:${m.id}:titulo">${esc(m.titulo)}</h1>` +
+    `<p>Módulo ${m.num} · ${plural(m.topicos.length, 'tópico', 'tópicos')} · ${plural(m.mapas.length, 'mapa mental', 'mapas mentais')} · ${plural(contaQ(m), 'questão', 'questões')}</p>` +
+    `<div class="acoes"><button class="bt sec mini" data-acao="pdf">${ic('file-type-pdf')} PDF</button></div></header>` +
+    `<div class="barraMod"><nav class="tabs2">` + [['resumo', 'book', 'Resumo', 'Resumo'], ['mapa', 'sitemap', 'Mapas mentais', 'Mapas'], ['apoio', 'folders', 'Material de apoio', 'Apoio']].map(([k, i, r, c]) =>
+      `<a href="#/${m.id}/${k}" ${aba === k ? 'aria-current="true"' : ''}>${ic(i)} <span class="lg">${r}</span><span class="ct">${c}</span> <span class="n">${n[k]}</span></a>`).join('') + `</nav></div>`;
 }
 function barraEdicao() {
-  return `<div class="ed-barra" id="ed-barra">` +
-    `<button data-cmd="bold" title="Negrito">${ic('bold')}</button><button data-cmd="italic" title="Itálico">${ic('italic')}</button>` +
-    `<button data-cmd="h3" title="Subtítulo">${ic('heading')} Subtítulo</button><button data-cmd="p" title="Parágrafo">Parágrafo</button>` +
-    `<button data-cmd="insertUnorderedList" title="Lista">${ic('list')}</button><button data-cmd="insertOrderedList" title="Lista numerada">${ic('list-numbers')}</button><span class="sep"></span>` +
-    `<button data-cx="chave">Ponto-chave</button><button data-cx="alerta">Atenção</button><button data-cx="balcao">No balcão</button><button data-cx="lei">Norma</button><button data-cx="exemplo">Caso</button>` +
-    `<span class="sep"></span><button data-cmd="tabela" title="Inserir tabela">${ic('table')} Tabela</button><button data-cmd="removeFormat" title="Limpar formatação">${ic('clear-formatting')}</button>` +
-    `<span class="dica">Clique no texto para editar. As mudanças ficam guardadas no navegador até você salvar o arquivo.</span></div>`;
+  return `<div class="edBarra" id="ed-barra"><button data-cmd="bold" title="Negrito">${ic('bold')}</button><button data-cmd="italic" title="Itálico">${ic('italic')}</button>` +
+    `<button data-cmd="h3">${ic('heading')} Subtítulo</button><button data-cmd="p">Parágrafo</button><button data-cmd="insertUnorderedList" title="Lista">${ic('list')}</button><button data-cmd="insertOrderedList" title="Lista numerada">${ic('list-numbers')}</button><span class="sep"></span>` +
+    `<button data-cx="chave">Ponto-chave</button><button data-cx="alerta">Atenção</button><button data-cx="balcao">No balcão</button><button data-cx="lei">Norma</button><button data-cx="exemplo">Caso</button><span class="sep"></span>` +
+    `<button data-cmd="tabela">${ic('table')} Tabela</button><button data-cmd="removeFormat" title="Limpar formatação">${ic('clear-formatting')}</button><span class="dica">Clique no texto para editar</span></div>`;
 }
-
 function telaResumo(m, alvo) {
-  const e = estudados();
+  const e = estudados(), nQ = contaQ(m), nC = contaC(m);
+  const blocoQ = blocosDe(m, 'questoes')[0], blocoC = blocosDe(m, 'cartoes')[0];
   app().innerHTML = cabModulo(m, 'resumo') + (editando ? barraEdicao() : '') +
-    `<div class="resumo-grade"><div>` +
-    m.topicos.map((t, i) => `<article class="topico" id="${esc(t.id)}"><header><h2 data-edit="top:${t.id}:titulo">${esc(t.titulo)}</h2>` +
-      `<span class="ed-ctl"><button title="Subir" data-acao="top-subir" data-id="${t.id}" ${i ? '' : 'disabled'}>${ic('arrow-up')}</button><button title="Descer" data-acao="top-descer" data-id="${t.id}" ${i < m.topicos.length - 1 ? '' : 'disabled'}>${ic('arrow-down')}</button><button class="del" title="Excluir tópico" data-acao="top-excluir" data-id="${t.id}">${ic('trash')}</button></span>` +
-      `<button class="estudado ${e.has(t.id) ? 'on' : ''}" data-acao="estudado" data-id="${t.id}">${ic(e.has(t.id) ? 'circle-check' : 'check')} ${e.has(t.id) ? 'Estudado' : 'Marcar estudado'}</button></header>` +
-      `<div class="texto" data-edit="top:${t.id}:resumo">${t.resumo}</div></article>`).join('') +
-    `<div class="ed-novo"><button class="bt" data-acao="top-novo">${ic('plus')} Novo tópico</button></div>` +
-    (m.fontes.length ? `<section class="fontes-mod"><h2>Fontes consultadas</h2><ol>${m.fontes.map(f => `<li>${inl(f)}</li>`).join('')}</ol></section>` : '') +
-    `</div><aside class="sumario"><b>Tópicos</b>${m.topicos.map(t => `<a href="#/${m.id}/resumo/${t.id}">${e.has(t.id) ? `<span class="ok">${ic('circle-check')}</span>` : '<span class="bol"></span>'}<span>${esc(t.titulo)}</span></a>`).join('')}</aside></div>`;
-  ativaEdicao();
-  if (alvo) { const el = document.getElementById(alvo); if (el) setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }), 30); }
+    `<div class="leitor"><article class="folha"><p class="dek" data-edit="mod:${m.id}:escopo">${esc(m.escopo)}</p>` +
+    m.topicos.map((t, i) => `<section class="topico" id="${esc(t.id)}"><header><h2 data-edit="top:${t.id}:titulo">${esc(t.titulo)}</h2>` +
+      `<span class="ctl"><button title="Subir" data-acao="top-subir" data-id="${t.id}" ${i ? '' : 'disabled'}>${ic('arrow-up')}</button><button title="Descer" data-acao="top-descer" data-id="${t.id}" ${i < m.topicos.length - 1 ? '' : 'disabled'}>${ic('arrow-down')}</button><button class="del" title="Excluir tópico" data-acao="top-excluir" data-id="${t.id}">${ic('trash')}</button></span></header>` +
+      `<div class="conteudo" data-edit="top:${t.id}:resumo">${t.resumo}</div>` +
+      `<div class="fimTop"><button class="estudado ${e.has(t.id) ? 'on' : ''}" data-acao="estudado" data-id="${t.id}">${ic(e.has(t.id) ? 'circle-check' : 'check')} ${e.has(t.id) ? 'Estudado' : 'Marcar como estudado'}</button></div></section>`).join('') +
+    `<div class="edNovo"><button class="bt sec" data-acao="top-novo">${ic('plus')} Novo tópico</button></div>` +
+    (m.fontes.length ? `<section class="fontesL"><h4>Fontes consultadas</h4><ol>${m.fontes.map(f => `<li>${inl(f)}</li>`).join('')}</ol></section>` : '') + `</article>` +
+    `<aside class="lado"><section class="card"><h3>${ic('chart-donut')} Progresso do módulo</h3><div class="progMini"><div class="barra"><i style="width:${progresso(m)}%"></i></div><span>${progresso(m)}%</span></div></section>` +
+    `<section class="card tocCard"><h3>${ic('list')} Neste módulo</h3><nav class="toc">${m.topicos.map(t => `<a href="#/${m.id}/resumo/${t.id}" data-toc="${t.id}">${e.has(t.id) ? ic('circle-check') : ''}<span>${esc(t.titulo)}</span></a>`).join('')}</nav></section>` +
+    `<section class="card"><h3>${ic('bolt')} Praticar o tema</h3><div class="praticar">` +
+    (m.mapas.length ? `<a href="#/${m.id}/mapa" style="--k:var(--c-rosa)">${ic('sitemap')} ${plural(m.mapas.length, 'mapa mental', 'mapas mentais')}</a>` : '') +
+    (blocoQ ? `<a href="#/${m.id}/apoio/${blocoQ.id}" style="--k:var(--c-azul)">${ic('help-circle')} ${plural(nQ, 'questão', 'questões')}</a>` : '') +
+    (blocoC ? `<a href="#/${m.id}/apoio/${blocoC.id}" style="--k:color-mix(in srgb,var(--c-ambar) 80%,#000)">${ic('cards')} ${plural(nC, 'cartão', 'cartões')}</a>` : '') +
+    `</div></section></aside></div><div class="progTopo"><i></i></div>`;
+  ativaEdicao(); espiaLeitura();
+  if (alvo) { const el = document.getElementById(alvo); if (el) setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }), 40); }
 }
+let espia = null;
+function espiaLeitura() {
+  if (espia) espia.disconnect();
+  const secs = $$('.topico'); if (!secs.length || !window.IntersectionObserver) return;
+  espia = new IntersectionObserver(ents => ents.forEach(en => { if (en.isIntersecting) $$('.toc a').forEach(a => a.classList.toggle('on', a.dataset.toc === en.target.id)); }), { rootMargin: '-15% 0px -75% 0px' });
+  secs.forEach(s => espia.observe(s));
+}
+window.addEventListener('scroll', () => { const b = $('.progTopo i'); if (!b) return; const h = document.documentElement; b.style.width = Math.min(100, 100 * h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight)) + '%'; }, { passive: true });
+
 function figuraMapa(mp, m, i, n, imp) {
-  return `<figure class="mapa-fig" id="${esc(mp.id)}"><figcaption><span class="circ" style="width:36px;height:36px;font-size:18px">${ic('sitemap')}</span><h2>${esc(mp.titulo)}</h2>` +
-    (imp ? '' : `<span class="ed-ctl"><button title="Editar mapa" data-acao="mapa-editar" data-id="${mp.id}">${ic('pencil')}</button><button title="Subir" data-acao="mapa-subir" data-id="${mp.id}" ${i ? '' : 'disabled'}>${ic('arrow-up')}</button><button title="Descer" data-acao="mapa-descer" data-id="${mp.id}" ${i < n - 1 ? '' : 'disabled'}>${ic('arrow-down')}</button><button class="del" title="Excluir mapa" data-acao="mapa-excluir" data-id="${mp.id}">${ic('trash')}</button></span>`) +
-    `</figcaption><div class="mapa-rolo">${desenhaMapa(mp, m)}</div></figure>`;
+  const pref = lerLS('vistaMapa', '');
+  const cartoes = !imp && (pref === 'cartoes' || (pref === '' && innerWidth < 700));
+  const nItens = (mp.ramos || []).reduce((a, r) => a + (r.itens || []).length, 0);
+  return `<figure class="mapaCard${cartoes ? ' vistaCartoes' : ''}" id="${esc(mp.id)}"><header><span class="ic">${ic('sitemap')}</span><div class="tit"><h2>${esc(mp.titulo)}</h2><small>${plural((mp.ramos || []).length, 'ramo', 'ramos')} · ${plural(nItens, 'item', 'itens')}</small></div>` +
+    (imp ? '' : `<span class="ctl"><button title="Editar mapa" data-acao="mapa-editar" data-id="${mp.id}">${ic('pencil')}</button><button title="Subir" data-acao="mapa-subir" data-id="${mp.id}" ${i ? '' : 'disabled'}>${ic('arrow-up')}</button><button title="Descer" data-acao="mapa-descer" data-id="${mp.id}" ${i < n - 1 ? '' : 'disabled'}>${ic('arrow-down')}</button><button class="del" title="Excluir mapa" data-acao="mapa-excluir" data-id="${mp.id}">${ic('trash')}</button></span>`) +
+    `</header>` + (imp ? '' : botoesMapa(false, cartoes)) +
+    `<div class="mapa-rolo">${desenhaMapa(mp, m, imp)}</div>${imp ? '' : cartoesMapa(mp) + `<p class="dicaMapa">Clique num ramo para aproximar; Ctrl ou Cmd com a roda do mouse dá zoom; arraste para mover.</p>`}</figure>`;
 }
 function telaMapa(m) {
-  app().innerHTML = cabModulo(m, 'mapa') + m.mapas.map((mp, i) => figuraMapa(mp, m, i, m.mapas.length)).join('') +
-    `<div class="ed-novo"><button class="bt" data-acao="mapa-novo">${ic('plus')} Novo mapa mental</button></div>`;
+  app().innerHTML = cabModulo(m, 'mapa') + (m.mapas.length > 1 ? `<div class="chips pulaMapa">${m.mapas.map(mp => `<button class="chip" data-pula="${mp.id}">${ic('sitemap')} ${esc(mp.titulo)}</button>`).join('')}</div>` : '') +
+    m.mapas.map((mp, i) => figuraMapa(mp, m, i, m.mapas.length)).join('') +
+    `<div class="edNovo"><button class="bt sec" data-acao="mapa-novo">${ic('plus')} Novo mapa mental</button></div>`;
+  $$('.mapaCard').forEach(ativaMapa);
   ativaEdicao();
 }
+let filtroApoio = 'todos';
 function telaApoio(m, alvo) {
+  const tipos = [...new Set(m.apoio.map(b => b.tipo))];
+  if (filtroApoio !== 'todos' && !tipos.includes(filtroApoio)) filtroApoio = 'todos';
+  if (alvo) { const b = m.apoio.find(x => x.id === alvo); if (b && b.tipo !== filtroApoio) filtroApoio = 'todos'; }
   app().innerHTML = cabModulo(m, 'apoio') + (editando ? barraEdicao() : '') +
-    `<div class="indice-apoio">${m.apoio.map(b => `<a class="pilula" href="#/${m.id}/apoio/${b.id}">${ic(TIPOS[b.tipo] ? TIPOS[b.tipo].ic : 'box')} ${esc(b.titulo)}</a>`).join('')}</div>` +
-    m.apoio.map((b, i) => blocoHtml(b, m, i, m.apoio.length)).join('') +
-    `<div class="ed-novo"><select id="novo-tipo" class="bt">${Object.entries(TIPOS).map(([k, v]) => `<option value="${k}">${v.nome}</option>`).join('')}</select><button class="bt" data-acao="bloco-novo">${ic('plus')} Novo bloco</button></div>`;
+    `<div class="chips filtroA"><button class="chip" data-filtro="todos" aria-pressed="${filtroApoio === 'todos'}">Tudo <span class="n">${m.apoio.length}</span></button>` +
+    tipos.map(t => `<button class="chip" data-filtro="${t}" aria-pressed="${filtroApoio === t}">${ic(TIPOS[t].ic)} ${TIPOS[t].plural} <span class="n">${m.apoio.filter(b => b.tipo === t).length}</span></button>`).join('') + `</div>` +
+    `<div class="anima">` + m.apoio.map((b, i) => (filtroApoio === 'todos' || b.tipo === filtroApoio) ? blocoHtml(b, i, m.apoio.length) : '').join('') + `</div>` +
+    `<div class="edNovo"><select id="novo-tipo">${Object.entries(TIPOS).map(([k, v]) => `<option value="${k}">${v.nome}</option>`).join('')}</select><button class="bt sec" data-acao="bloco-novo">${ic('plus')} Novo bloco</button></div>`;
+  $$('.anima > *').forEach((el, i) => el.style.setProperty('--i', Math.min(i, 8)));
   ativaEdicao();
-  if (alvo) { const el = document.getElementById(alvo); if (el) setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }), 30); }
+  if (alvo) { const el = document.getElementById(alvo); if (el) setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }), 40); }
 }
 
 /* ---------------- busca ---------------- */
@@ -293,59 +524,56 @@ function valores(o) { if (o == null) return ''; if (typeof o === 'string') retur
 function montaIndice() {
   indice = [];
   DADOS.modulos.forEach(m => {
-    m.topicos.forEach(t => { const tx = textoPuro(t.resumo); indice.push({ m, rota: `#/${m.id}/resumo/${t.id}`, titulo: t.titulo, tipo: 'Resumo', tx, n: semAcento(t.titulo + ' ' + tx) }); });
-    m.mapas.forEach(mp => { const tx = valores(mp.ramos); indice.push({ m, rota: `#/${m.id}/mapa`, titulo: mp.titulo, tipo: 'Mapa mental', tx, n: semAcento(mp.titulo + ' ' + tx) }); });
-    m.apoio.forEach(b => { const tx = valores(b); indice.push({ m, rota: `#/${m.id}/apoio/${b.id}`, titulo: b.titulo, tipo: (TIPOS[b.tipo] || {}).nome || 'Apoio', tx, n: semAcento(tx) }); });
+    m.topicos.forEach(t => { const tx = textoPuro(t.resumo); indice.push({ m, rota: `#/${m.id}/resumo/${t.id}`, titulo: t.titulo, tipo: 'Resumo', ic: 'book', tx, n: semAcento(t.titulo + ' ' + tx) }); });
+    m.mapas.forEach(mp => { const tx = valores(mp.ramos); indice.push({ m, rota: `#/${m.id}/mapa`, titulo: mp.titulo, tipo: 'Mapa mental', ic: 'sitemap', tx, n: semAcento(mp.titulo + ' ' + tx) }); });
+    m.apoio.forEach(b => { const tx = valores(b); indice.push({ m, rota: `#/${m.id}/apoio/${b.id}`, titulo: b.titulo, tipo: (TIPOS[b.tipo] || {}).nome || 'Apoio', ic: (TIPOS[b.tipo] || {}).ic || 'box', tx, n: semAcento(tx) }); });
   });
 }
-function telaBusca(q) {
-  document.body.style.cssText = '';
-  menuLateral(null);
+function abreBusca() {
+  fechaCamadas();
   if (!indice) montaIndice();
-  const termos = semAcento(q).split(/\s+/).filter(t => t.length > 1);
-  const achados = termos.length ? indice.filter(r => termos.every(t => r.n.includes(t))) : [];
-  const trecho = r => {
-    const n = semAcento(r.tx), p = Math.max(0, n.indexOf(termos[0]) - 80);
-    let s = esc((p ? '… ' : '') + r.tx.slice(p, p + 240) + '…');
-    termos.forEach(t => { s = s.replace(new RegExp(`(${t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'), '<mark>$1</mark>'); });
-    return s;
-  };
-  app().innerHTML = `<div class="capa-inicio"><div><h1>Busca</h1><p>${achados.length} resultado(s) para “${esc(q)}”.</p></div></div>` +
-    achados.slice(0, 80).map(r => `<a class="resultado" href="${r.rota}" style="${corVars(r.m)}"><small>Módulo ${r.m.num} · ${esc(r.tipo)}</small><b>${esc(r.titulo)}</b><p>${trecho(r)}</p></a>`).join('');
+  const v = document.createElement('div'); v.className = 'veu';
+  v.innerHTML = `<div class="caixaBusca"><div class="campoB">${ic('search')}<input type="search" placeholder="Buscar no material: fármaco, norma, tema" autocomplete="off"><kbd>Esc</kbd></div><div class="res"><p class="vazioB">Digite ao menos duas letras.</p></div></div>`;
+  v.addEventListener('mousedown', e => { if (e.target === v) v.remove(); });
+  document.body.appendChild(v);
+  const inp = $('input', v), res = $('.res', v);
+  inp.focus();
+  inp.addEventListener('input', () => {
+    const termos = semAcento(inp.value).split(/\s+/).filter(t => t.length > 1);
+    if (!termos.length) { res.innerHTML = `<p class="vazioB">Digite ao menos duas letras.</p>`; return; }
+    const ach = indice.filter(r => termos.every(t => r.n.includes(t))).slice(0, 40);
+    const trecho = r => { const n = semAcento(r.tx), p = Math.max(0, n.indexOf(termos[0]) - 60); let s = esc((p ? '… ' : '') + r.tx.slice(p, p + 170) + '…'); termos.forEach(t => { s = s.replace(new RegExp(`(${t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'), '<mark>$1</mark>'); }); return s; };
+    res.innerHTML = ach.length ? ach.map((r, i) => `<a class="itR${i ? '' : ' sel'}" href="${r.rota}" style="--k:${r.m.cor}"><span class="ic">${ic(r.ic)}</span><div><small>Módulo ${r.m.num} · ${esc(r.tipo)}</small><b>${esc(r.titulo)}</b><p>${trecho(r)}</p></div></a>`).join('') : `<p class="vazioB">Nada encontrado.</p>`;
+  });
+  inp.addEventListener('keydown', e => { if (e.key === 'Enter') { const a = $('.itR', res); if (a) { v.remove(); location.hash = a.getAttribute('href'); } } });
+  res.addEventListener('click', e => { if (e.target.closest('a')) v.remove(); });
 }
+function fechaCamadas() { $$('.veu,.gaveta').forEach(x => x.remove()); }
 
 /* ---------------- rotas ---------------- */
 function rota() {
   if (imprimindo) return;
-  document.body.classList.remove('menu');
+  fechaCamadas();
   const h = decodeURIComponent(location.hash.slice(1) || '/');
   const p = h.split('/').filter(Boolean);
-  if (p[0] === 'busca') { telaBusca(p.slice(1).join('/')); window.scrollTo(0, 0); return; }
   const m = p[0] && mod(p[0]);
   if (!m) { telaInicio(); $('#titulo-movel').textContent = DADOS.titulo; window.scrollTo(0, 0); return; }
-  document.body.style.cssText = corVars(m);
-  menuLateral(m.id);
-  $('#titulo-movel').textContent = `${m.num}. ${m.titulo}`;
+  document.body.style.cssText = `--ac:${m.cor}`;
+  moldura(m.id);
+  $('#titulo-movel').textContent = m.curto || m.titulo;
   const aba = p[1] || 'resumo';
   if (aba === 'mapa') telaMapa(m); else if (aba === 'apoio') telaApoio(m, p[2]); else telaResumo(m, p[2]);
   if (!p[2]) window.scrollTo(0, 0);
 }
-function moduloAtual() { const p = location.hash.slice(2).split('/'); return mod(p[0]); }
 
 /* ---------------- edição ---------------- */
-function ativaEdicao() {
-  $$('[data-edit]').forEach(el => {
-    el.contentEditable = editando ? 'true' : 'false';
-    if (!editando) el.removeAttribute('contenteditable');
-  });
-}
+function ativaEdicao() { $$('[data-edit]').forEach(el => { if (editando) el.contentEditable = 'true'; else el.removeAttribute('contenteditable'); }); }
+function alternaEdicao() { commitTodos(); editando = !editando; document.body.classList.toggle('editando', editando); try { document.execCommand('defaultParagraphSeparator', false, 'p'); } catch (e) { /* antigo */ } rota(); aviso(editando ? 'Modo edição ligado: clique em um texto para alterar.' : 'Modo edição desligado.'); }
 function marcaAlterado() {
-  alterado = true;
-  indice = null;
-  const ok = gravarLS('rascunho', { base: DADOS.versao, quando: new Date().toISOString(), dados: DADOS });
-  if (!ok) toast('O navegador não guardou o rascunho (sem espaço). Salve o arquivo agora.');
-  if (!$('.faixa')) app().insertAdjacentHTML('afterbegin', faixas());
-  $('#bt-salvar').classList.add('pri');
+  alterado = true; indice = null;
+  if (!gravarLS('rascunho', { base: DADOS.versao, quando: new Date().toISOString(), dados: DADOS })) aviso('O navegador não guardou o rascunho (sem espaço). Salve o arquivo agora.');
+  if (!$('.faixa')) app().insertAdjacentHTML('afterbegin', faixaAlterado());
+  $('#bt-salvar').classList.add('alerta'); $('#bt-salvar .ponto').hidden = false;
 }
 const pendentes = new Map();
 function agendaCommit(el) { clearTimeout(pendentes.get(el)); pendentes.set(el, setTimeout(() => commit(el), 500)); }
@@ -353,32 +581,23 @@ function commitTodos() { pendentes.forEach((t, el) => { clearTimeout(t); commit(
 function commit(el) {
   pendentes.delete(el);
   const [tipo, id, campo] = el.dataset.edit.split(':');
-  if (tipo === 'mod') { const m = mod(id); m[campo] = el.innerText.replace(/\s+/g, ' ').trim(); }
-  else if (tipo === 'top') {
-    const m = moduloAtual(), t = m && m.topicos.find(x => x.id === id); if (!t) return;
-    t[campo] = campo === 'titulo' ? el.innerText.replace(/\s+/g, ' ').trim() : limpaHtml(el.innerHTML);
-  } else if (tipo === 'bloco') {
-    const m = moduloAtual(), b = m && m.apoio.find(x => x.id === id); if (!b) return;
-    b.html = limpaHtml(el.innerHTML);
-  }
+  if (tipo === 'mod') { mod(id)[campo] = el.innerText.replace(/\s+/g, ' ').trim(); }
+  else if (tipo === 'top') { const m = moduloAtual(), t = m && m.topicos.find(x => x.id === id); if (!t) return; t[campo] = campo === 'titulo' ? el.innerText.replace(/\s+/g, ' ').trim() : limpaHtml(el.innerHTML); }
+  else if (tipo === 'bloco') { const m = moduloAtual(), b = m && m.apoio.find(x => x.id === id); if (!b) return; b.html = limpaHtml(el.innerHTML); }
   marcaAlterado();
 }
 function moveItem(lista, id, d) { const i = lista.findIndex(x => x.id === id), j = i + d; if (i < 0 || j < 0 || j >= lista.length) return; [lista[i], lista[j]] = [lista[j], lista[i]]; marcaAlterado(); rota(); }
-function excluiItem(lista, id, nome) { const i = lista.findIndex(x => x.id === id); if (i < 0) return; if (!confirm(`Excluir ${nome} “${lista[i].titulo}”? Dá para desfazer só recarregando sem salvar.`)) return; lista.splice(i, 1); marcaAlterado(); rota(); }
-
-function fechaModal() { $$('.modal').forEach(x => x.remove()); }
+function excluiItem(lista, id, nome) { const i = lista.findIndex(x => x.id === id); if (i < 0) return; if (!confirm(`Excluir ${nome} “${lista[i].titulo}”?`)) return; lista.splice(i, 1); marcaAlterado(); rota(); }
 function abreModal(html) {
-  fechaModal();
-  const d = document.createElement('div');
-  d.className = 'modal';
-  d.innerHTML = `<div class="caixa" role="dialog" aria-modal="true">${html}</div>`;
-  d.addEventListener('mousedown', e => { if (e.target === d) fechaModal(); });
-  document.body.appendChild(d);
-  const f = d.querySelector('input,textarea,select'); if (f) f.focus();
-  return d;
+  fechaCamadas();
+  const v = document.createElement('div'); v.className = 'veu';
+  v.innerHTML = `<div class="modal" role="dialog" aria-modal="true">${html}</div>`;
+  v.addEventListener('mousedown', e => { if (e.target === v) v.remove(); });
+  document.body.appendChild(v);
+  const f = v.querySelector('input,textarea,select'); if (f) f.focus();
+  return v;
 }
 
-/* conversões texto <-> dados dos blocos estruturados */
 const FORMATOS = {
   tabela: {
     ajuda: 'Primeira linha: nomes das colunas. Demais linhas: uma linha da tabela.\nSepare as células com  |  (barra vertical).\nPode usar <b>negrito</b>, <i>itálico</i> e <br> dentro da célula.',
@@ -472,35 +691,35 @@ const FORMATOS = {
     }
   }
 };
+
 function editaBloco(m, b, novo) {
   const f = FORMATOS[b.tipo];
   const d = abreModal(`<h2>${novo ? 'Novo bloco' : 'Editar bloco'}: ${esc(TIPOS[b.tipo].nome)}</h2>` +
-    `<label class="campo"><span>Título</span><input type="text" id="ed-tit" value="${esc(b.titulo || '')}"></label>` +
+    `<label class="campo">Título<input type="text" id="ed-tit" value="${esc(b.titulo || '')}"></label>` +
     (b.tipo === 'quadro' ? `<p class="sub">O conteúdo do quadro é editado direto na página, no modo edição.</p>` :
-      `<pre class="ajuda">${esc(f.ajuda)}</pre><label class="campo"><span>Conteúdo</span><textarea id="ed-txt" spellcheck="true">${esc(f.para(b))}</textarea></label>`) +
-    (b.tipo === 'tabela' ? `<label class="campo"><span>Nota abaixo da tabela (opcional)</span><input type="text" id="ed-nota" value="${esc(b.nota || '')}"></label>` : '') +
-    `<p class="erro-ed" id="ed-erro"></p><div class="rod"><button class="bt" data-fecha>Cancelar</button><button class="bt pri" id="ed-ok">${ic('check')} Aplicar</button></div>`);
-  d.querySelector('[data-fecha]').onclick = () => { if (novo) { m.apoio.splice(m.apoio.indexOf(b), 1); } fechaModal(); };
-  d.querySelector('#ed-ok').onclick = () => {
+      `<pre class="ajuda">${esc(f.ajuda)}</pre><label class="campo">Conteúdo<textarea id="ed-txt" spellcheck="true">${esc(f.para(b))}</textarea></label>`) +
+    (b.tipo === 'tabela' ? `<label class="campo">Nota abaixo da tabela (opcional)<input type="text" id="ed-nota" value="${esc(b.nota || '')}"></label>` : '') +
+    `<p class="erro-ed" id="ed-erro"></p><div class="rodM"><button class="bt sec" data-fecha>Cancelar</button><button class="bt" id="ed-ok">${ic('check')} Aplicar</button></div>`);
+  $('[data-fecha]', d).onclick = () => { if (novo) m.apoio.splice(m.apoio.indexOf(b), 1); d.remove(); };
+  $('#ed-ok', d).onclick = () => {
     try {
       const copia = JSON.parse(JSON.stringify(b));
       copia.titulo = $('#ed-tit', d).value.trim() || TIPOS[b.tipo].nome;
       if (f) f.de($('#ed-txt', d).value, copia);
       if (b.tipo === 'tabela') copia.nota = $('#ed-nota', d).value.trim();
-      Object.assign(b, copia);
-      fechaModal(); marcaAlterado(); rota();
+      Object.assign(b, copia); d.remove(); marcaAlterado(); rota();
     } catch (e) { $('#ed-erro', d).textContent = e.message; }
   };
 }
 function editaMapa(m, mp, novo) {
   const txt = (mp.ramos || []).map(r => r.t + '\n' + (r.itens || []).map(it => typeof it === 'string' ? '- ' + it : '- ' + it.t + '\n' + (it.itens || []).map(s => '-- ' + s).join('\n')).join('\n')).join('\n');
   const d = abreModal(`<h2>${novo ? 'Novo mapa mental' : 'Editar mapa mental'}</h2>` +
-    `<div class="duas"><label class="campo"><span>Título</span><input type="text" id="mp-tit" value="${esc(mp.titulo || '')}"></label><label class="campo"><span>Centro do mapa</span><input type="text" id="mp-cen" value="${esc(mp.centro || '')}"></label></div>` +
+    `<div class="duas"><label class="campo">Título<input type="text" id="mp-tit" value="${esc(mp.titulo || '')}"></label><label class="campo">Centro do mapa<input type="text" id="mp-cen" value="${esc(mp.centro || '')}"></label></div>` +
     `<pre class="ajuda">Linha sem traço = ramo (4 a 6 ramos).\n- item do ramo (até ~60 caracteres)\n-- subitem do item (opcional)</pre>` +
-    `<label class="campo"><span>Ramos e itens</span><textarea id="mp-txt">${esc(txt)}</textarea></label>` +
-    `<p class="erro-ed" id="ed-erro"></p><div class="rod"><button class="bt" data-fecha>Cancelar</button><button class="bt pri" id="ed-ok">${ic('check')} Aplicar</button></div>`);
-  d.querySelector('[data-fecha]').onclick = () => { if (novo) m.mapas.splice(m.mapas.indexOf(mp), 1); fechaModal(); };
-  d.querySelector('#ed-ok').onclick = () => {
+    `<label class="campo">Ramos e itens<textarea id="mp-txt">${esc(txt)}</textarea></label>` +
+    `<p class="erro-ed" id="ed-erro"></p><div class="rodM"><button class="bt sec" data-fecha>Cancelar</button><button class="bt" id="ed-ok">${ic('check')} Aplicar</button></div>`);
+  $('[data-fecha]', d).onclick = () => { if (novo) m.mapas.splice(m.mapas.indexOf(mp), 1); d.remove(); };
+  $('#ed-ok', d).onclick = () => {
     const ramos = []; let r = null, it = null;
     $('#mp-txt', d).value.split('\n').forEach(l => {
       const t = l.trim(); if (!t) return;
@@ -510,7 +729,7 @@ function editaMapa(m, mp, novo) {
     });
     if (!ramos.length) { $('#ed-erro', d).textContent = 'O mapa precisa de ao menos um ramo.'; return; }
     mp.titulo = $('#mp-tit', d).value.trim() || 'Mapa mental'; mp.centro = $('#mp-cen', d).value.trim() || mp.titulo; mp.ramos = ramos;
-    fechaModal(); marcaAlterado(); rota();
+    d.remove(); marcaAlterado(); rota();
   };
 }
 
@@ -518,8 +737,7 @@ function editaMapa(m, mp, novo) {
 function htmlComDados() {
   const json = JSON.stringify(DADOS).replace(/</g, '\\u003c');
   const abre = '<' + 'script id="sos-dados" type="application/json">';
-  const ini = ORIGEM.indexOf(abre);
-  const fim = ORIGEM.indexOf('<' + '/script>', ini);
+  const ini = ORIGEM.indexOf(abre), fim = ORIGEM.indexOf('<' + '/script>', ini);
   if (ini < 0 || fim < 0) throw new Error('Não achei o bloco de dados no arquivo.');
   return ORIGEM.slice(0, ini) + abre + json + ORIGEM.slice(fim);
 }
@@ -536,33 +754,32 @@ async function salvarArquivo() {
       const w = await fh.createWritable(); await w.write(html); await w.close();
     } else baixar(new Blob([html], { type: 'text/html' }), nome);
   } catch (e) { DADOS.versao = anterior; if (e.name !== 'AbortError') alert('Não foi possível salvar: ' + e.message); return; }
-  alterado = false; apagarLS('rascunho');
-  toast('Arquivo salvo. Abra sempre a versão nova.');
-  rota();
+  alterado = false; apagarLS('rascunho'); aviso('Arquivo salvo. Abra sempre a versão nova.'); rota();
 }
 function baixar(blob, nome) { const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = nome; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1500); }
 function verificaRascunho() {
   const r = lerLS('rascunho', null);
   if (!r || !r.dados) return;
   const quando = new Date(r.quando).toLocaleString('pt-BR');
-  const outra = r.base !== DADOS.versao;
   const d = abreModal(`<h2>Alterações não salvas</h2><p class="sub">Este navegador guardou alterações feitas em ${esc(quando)} que não foram gravadas no arquivo.` +
-    (outra ? ' Elas foram feitas sobre outra versão do arquivo; recuperar substitui o conteúdo atual por aquele rascunho.' : '') + `</p>` +
-    `<div class="rod"><button class="bt perigo" id="rs-desc">Descartar rascunho</button><button class="bt pri" id="rs-rec">${ic('restore')} Recuperar alterações</button></div>`);
-  $('#rs-desc', d).onclick = () => { if (confirm('Descartar as alterações guardadas no navegador?')) { apagarLS('rascunho'); fechaModal(); } };
-  $('#rs-rec', d).onclick = () => { Object.assign(DADOS, r.dados); alterado = true; fechaModal(); indice = null; rota(); };
+    (r.base !== DADOS.versao ? ' Elas foram feitas sobre outra versão do arquivo; recuperar substitui o conteúdo atual por aquele rascunho.' : '') + `</p>` +
+    `<div class="rodM"><button class="bt sec" id="rs-desc">Descartar</button><button class="bt" id="rs-rec">${ic('restore')} Recuperar alterações</button></div>`);
+  $('#rs-desc', d).onclick = () => { if (confirm('Descartar as alterações guardadas no navegador?')) { apagarLS('rascunho'); d.remove(); } };
+  $('#rs-rec', d).onclick = () => { Object.assign(DADOS, r.dados); alterado = true; d.remove(); indice = null; rota(); };
 }
 function ajustes() {
   const cfg = DADOS.config;
-  const d = abreModal(`<h2>Ajustes</h2><p class="sub">Marca-d'água padrão dos PDFs e cópias de segurança do conteúdo.</p>` +
-    `<div class="duas"><label class="campo"><span>Marca-d'água (linha principal)</span><input type="text" id="aj-m1" value="${esc(cfg.marca)}"></label>` +
-    `<label class="campo"><span>Segunda linha (opcional)</span><input type="text" id="aj-m2" value="${esc(cfg.marca2 || '')}" placeholder="Ex.: Licenciado para Fulano"></label></div>` +
-    `<div class="rod" style="justify-content:flex-start"><button class="bt" id="aj-exp">${ic('download')} Exportar conteúdo (.json)</button><label class="bt">${ic('upload')} Importar conteúdo (.json)<input type="file" id="aj-imp" accept=".json,application/json" hidden></label></div>` +
-    `<p class="sub" style="margin-top:12px">Versão do conteúdo: ${esc(new Date(DADOS.versao).toLocaleString('pt-BR'))}</p>` +
-    `<div class="rod"><button class="bt" data-fecha>Fechar</button><button class="bt pri" id="aj-ok">${ic('check')} Aplicar</button></div>`);
-  $('[data-fecha]', d).onclick = fechaModal;
-  $('#aj-ok', d).onclick = () => { cfg.marca = $('#aj-m1', d).value.trim() || 'SOS Farmácia Comercial'; cfg.marca2 = $('#aj-m2', d).value.trim(); fechaModal(); marcaAlterado(); };
+  const d = abreModal(`<h2>Ajustes</h2><p class="sub">Marca-d'água padrão dos PDFs e cópia de segurança do conteúdo.</p>` +
+    `<div class="duas"><label class="campo">Marca-d'água (linha principal)<input type="text" id="aj-m1" value="${esc(cfg.marca)}"></label>` +
+    `<label class="campo">Segunda linha (opcional)<input type="text" id="aj-m2" value="${esc(cfg.marca2 || '')}" placeholder="Ex.: Licenciado para Fulano"></label></div>` +
+    `<div class="linhaBt"><button class="bt sec mini" id="aj-exp">${ic('download')} Exportar conteúdo (.json)</button><label class="bt sec mini">${ic('upload')} Importar conteúdo (.json)<input type="file" id="aj-imp" accept=".json,application/json" hidden></label>` +
+    `<button class="bt sec mini" id="aj-zera">${ic('restore')} Zerar meu progresso</button></div>` +
+    `<p class="sub" style="margin-top:14px">Versão do conteúdo: ${esc(new Date(DADOS.versao).toLocaleString('pt-BR'))}</p>` +
+    `<div class="rodM"><button class="bt sec" data-fecha>Fechar</button><button class="bt" id="aj-ok">${ic('check')} Aplicar</button></div>`);
+  $('[data-fecha]', d).onclick = () => d.remove();
+  $('#aj-ok', d).onclick = () => { cfg.marca = $('#aj-m1', d).value.trim() || 'SOS Farmácia Comercial'; cfg.marca2 = $('#aj-m2', d).value.trim(); d.remove(); marcaAlterado(); };
   $('#aj-exp', d).onclick = () => { commitTodos(); baixar(new Blob([JSON.stringify(DADOS, null, 1)], { type: 'application/json' }), `sos-farmacia-conteudo-${new Date().toISOString().slice(0, 10)}.json`); };
+  $('#aj-zera', d).onclick = () => { if (confirm('Apagar tópicos estudados, respostas e cartões revisados deste aparelho?')) { ['estudado', 'resp', 'vistos', 'check'].forEach(apagarLS); d.remove(); rota(); } };
   $('#aj-imp', d).onchange = async e => {
     const f = e.target.files[0]; if (!f) return;
     try {
@@ -570,7 +787,7 @@ function ajustes() {
       if (!novo.modulos || !Array.isArray(novo.modulos)) throw new Error('arquivo sem módulos');
       if (!confirm(`Substituir todo o conteúdo pelo do arquivo ${f.name}?`)) return;
       Object.keys(DADOS).forEach(k => delete DADOS[k]); Object.assign(DADOS, novo);
-      fechaModal(); marcaAlterado(); rota(); toast('Conteúdo importado. Salve o arquivo para gravar.');
+      d.remove(); marcaAlterado(); rota(); aviso('Conteúdo importado. Salve o arquivo para gravar.');
     } catch (err) { alert('Não consegui ler: ' + err.message); }
   };
 }
@@ -579,75 +796,48 @@ function ajustes() {
 function janelaPdf() {
   commitTodos();
   const m = moduloAtual(), cfg = DADOS.config;
-  const d = abreModal(`<h2>Gerar PDF</h2><p class="sub">Na janela de impressão que vai abrir, escolha <b>Salvar como PDF</b> no destino. Todo PDF sai com marca-d'água.</p>` +
-    `<div class="opcoes">` +
-    (m ? `<label><input type="radio" name="pdf-esc" value="${m.id}" checked> Este módulo: ${esc(m.num + '. ' + m.titulo)}</label>` : '') +
+  const d = abreModal(`<h2>Gerar PDF</h2><p class="sub">Na janela de impressão, escolha <b>Salvar como PDF</b> no destino. Todo PDF sai com marca-d'água em todas as páginas.</p>` +
+    `<div class="opcoes">` + (m ? `<label><input type="radio" name="pdf-esc" value="${m.id}" checked> Este módulo: ${esc(m.num + '. ' + m.titulo)}</label>` : '') +
     `<label><input type="radio" name="pdf-esc" value="todos" ${m ? '' : 'checked'}> Todos os módulos (arquivo grande)</label>` +
-    `<label><select id="pdf-um" class="bt peq" style="flex:1">${DADOS.modulos.map(x => `<option value="${x.id}">${x.num}. ${esc(x.titulo)}</option>`).join('')}</select><input type="radio" name="pdf-esc" value="um"> Outro módulo</label></div>` +
-    `<div class="opcoes" style="grid-template-columns:repeat(auto-fit,minmax(170px,1fr))">` +
-    `<label><input type="checkbox" id="pdf-capa" checked> Capa</label><label><input type="checkbox" id="pdf-resumo" checked> Resumo para leitura</label>` +
-    `<label><input type="checkbox" id="pdf-mapa" checked> Mapas mentais</label><label><input type="checkbox" id="pdf-apoio" checked> Material de apoio</label>` +
-    `<label><input type="checkbox" id="pdf-gab" checked> Gabarito das questões</label></div>` +
-    `<div class="duas"><label class="campo"><span>Marca-d'água</span><input type="text" id="pdf-m1" value="${esc(cfg.marca)}"></label>` +
-    `<label class="campo"><span>Segunda linha (opcional)</span><input type="text" id="pdf-m2" value="${esc(cfg.marca2 || '')}" placeholder="Ex.: Licenciado para Fulano"></label></div>` +
-    `<div class="rod"><button class="bt" data-fecha>Cancelar</button><button class="bt pri" id="pdf-ok">${ic('file-type-pdf')} Gerar PDF</button></div>`);
-  $('[data-fecha]', d).onclick = fechaModal;
+    `<label><input type="radio" name="pdf-esc" value="um"> Outro módulo <select id="pdf-um" style="flex:1;width:auto">${DADOS.modulos.map(x => `<option value="${x.id}">${x.num}. ${esc(x.titulo)}</option>`).join('')}</select></label></div>` +
+    `<div class="opcoes" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr))"><label><input type="checkbox" id="pdf-capa" checked> Capa</label><label><input type="checkbox" id="pdf-resumo" checked> Resumo</label>` +
+    `<label><input type="checkbox" id="pdf-mapa" checked> Mapas mentais</label><label><input type="checkbox" id="pdf-apoio" checked> Material de apoio</label><label><input type="checkbox" id="pdf-gab" checked> Gabarito</label></div>` +
+    `<div class="duas"><label class="campo">Marca-d'água<input type="text" id="pdf-m1" value="${esc(cfg.marca)}"></label><label class="campo">Segunda linha (opcional)<input type="text" id="pdf-m2" value="${esc(cfg.marca2 || '')}" placeholder="Ex.: Licenciado para Fulano"></label></div>` +
+    `<div class="rodM"><button class="bt sec" data-fecha>Cancelar</button><button class="bt" id="pdf-ok">${ic('file-type-pdf')} Gerar PDF</button></div>`);
+  $('[data-fecha]', d).onclick = () => d.remove();
   $('#pdf-um', d).onchange = () => { $('input[value=um]', d).checked = true; };
   $('#pdf-ok', d).onclick = () => {
-    const esc_ = $('input[name=pdf-esc]:checked', d).value;
-    const ids = esc_ === 'todos' ? DADOS.modulos.map(x => x.id) : [esc_ === 'um' ? $('#pdf-um', d).value : esc_];
+    const e = $('input[name=pdf-esc]:checked', d).value;
+    const ids = e === 'todos' ? DADOS.modulos.map(x => x.id) : [e === 'um' ? $('#pdf-um', d).value : e];
     const o = { ids, capa: $('#pdf-capa', d).checked, resumo: $('#pdf-resumo', d).checked, mapa: $('#pdf-mapa', d).checked, apoio: $('#pdf-apoio', d).checked, gabarito: $('#pdf-gab', d).checked, marca: $('#pdf-m1', d).value.trim() || 'SOS Farmácia Comercial', marca2: $('#pdf-m2', d).value.trim() };
     if (!o.resumo && !o.mapa && !o.apoio) { alert('Escolha ao menos uma parte.'); return; }
-    fechaModal();
-    imprime(o);
+    d.remove(); imprimindo = true; montaImpressao(o); setTimeout(() => window.print(), 300);
   };
 }
-function montaMarcaDagua(o) {
-  const md = $('.marca-dagua');
-  const t = `<span>${esc(o.marca)}${o.marca2 ? `<small>${esc(o.marca2)}</small>` : ''}</span>`;
-  md.innerHTML = `<div class="md-g">${t.repeat(24)}</div>`;
-  md.style.setProperty('--md-cor', '#1E2A44');
-  md.style.setProperty('--md-op', '0.075');
-}
 function montaImpressao(o) {
-  const alvo = $('#impressao');
-  montaMarcaDagua(o);
+  $('.marca-dagua').innerHTML = `<div class="md-g">${`<span>${esc(o.marca)}${o.marca2 ? `<small>${esc(o.marca2)}</small>` : ''}</span>`.repeat(24)}</div>`;
   let s = '';
-  if (o.ids.length > 1 && o.capa) {
-    s += `<section class="pi pi-capa pi-capa-geral" style="--mc:#D92D20;--mc-t:#FFFFFF"><div class="faixa-cor"></div><div class="rot">Material de apoio</div><h1>${esc(DADOS.titulo)}</h1><p class="escopo">${esc(DADOS.subtitulo)}</p>` +
-      `<div class="sum">${DADOS.modulos.filter(m => o.ids.includes(m.id)).map(m => `<div><b>Módulo ${m.num}.</b> ${esc(m.titulo)}</div>`).join('')}</div>` +
-      `<div class="pe"><span class="sos">SOS</span><span>${esc(o.marca)}${o.marca2 ? ' · ' + esc(o.marca2) : ''}</span></div></section>`;
-  }
+  if (o.ids.length > 1 && o.capa) s += `<section class="pi pi-capa" style="--ac:#E5484D"><span class="bola b1"></span><span class="bola b2"></span><span class="selo">${ic('first-aid-kit')}</span><div class="rot">Material de estudo e consulta</div><h1>${esc(DADOS.titulo)}</h1><p class="escopo">${esc(DADOS.subtitulo)}</p>` +
+    `<div class="sum">${DADOS.modulos.filter(m => o.ids.includes(m.id)).map(m => `<div><b>${m.num}.</b> ${esc(m.titulo)}</div>`).join('')}</div><div class="pe"><span class="logo">${ic('first-aid-kit')}</span><span>${esc(o.marca)}${o.marca2 ? ' · ' + esc(o.marca2) : ''}</span></div></section>`;
   o.ids.forEach(id => {
     const m = mod(id);
-    s += `<div class="pi" style="${corVars(m)}">`;
-    if (o.capa) s += `<section class="pi-capa"><div class="faixa-cor"></div><div class="rot">Módulo ${m.num}</div><h1>${esc(m.titulo)}</h1><p class="escopo">${esc(m.escopo)}</p>` +
-      `<div class="sum">${m.topicos.map(t => `<div>${esc(t.titulo)}</div>`).join('')}</div><div class="pe"><span class="sos">SOS</span><span>${esc(DADOS.titulo)}</span></div></section>`;
-    if (o.resumo && m.topicos.length) {
-      s += `<div class="pi-parte">Resumo para leitura<small>Módulo ${m.num}</small></div>` +
-        m.topicos.map(t => `<article class="topico"><h2>${esc(t.titulo)}</h2><div class="texto">${t.resumo}</div></article>`).join('') +
-        (m.fontes.length ? `<section class="fontes-mod"><h2>Fontes consultadas</h2><ol>${m.fontes.map(f => `<li>${inl(f)}</li>`).join('')}</ol></section>` : '');
-    }
-    if (o.mapa && m.mapas.length) s += m.mapas.map(mp => figuraMapa(mp, m, 0, 1, true).replace('</h2>', `</h2><small>Mapa mental · Módulo ${m.num}</small>`)).join('');
-    if (o.apoio && m.apoio.length) {
-      s += `<div class="pi-parte">Material de apoio<small>Módulo ${m.num}</small></div>` +
-        m.apoio.map((b, i) => blocoHtml(b, m, i, 1, true)).join('');
-    }
+    s += `<div class="pi" style="--ac:${m.cor}">`;
+    if (o.capa) s += `<section class="pi-capa"><span class="bola b1"></span><span class="bola b2"></span><span class="selo">${ic(m.icone)}</span><div class="rot">Módulo ${m.num}</div><h1>${esc(m.titulo)}</h1><p class="escopo">${esc(m.escopo)}</p>` +
+      `<div class="sum">${m.topicos.map(t => `<div>${esc(t.titulo)}</div>`).join('')}</div><div class="pe"><span class="logo">${ic('first-aid-kit')}</span><span>${esc(DADOS.titulo)}</span></div></section>`;
+    if (o.resumo && m.topicos.length) s += `<div class="pi-parte">${ic('book')} Resumo para leitura<small>Módulo ${m.num}</small></div>` +
+      m.topicos.map(t => `<article class="topico"><h2>${esc(t.titulo)}</h2><div class="conteudo">${t.resumo}</div></article>`).join('') +
+      (m.fontes.length ? `<section class="fontesL"><h4>Fontes consultadas</h4><ol>${m.fontes.map(f => `<li>${inl(f)}</li>`).join('')}</ol></section>` : '');
+    if (o.mapa && m.mapas.length) s += m.mapas.map(mp => figuraMapa(mp, m, 0, 1, true).replace('</small></div>', ` · mapa mental do módulo ${m.num}</small></div>`)).join('');
+    if (o.apoio && m.apoio.length) s += `<div class="pi-parte">${ic('folders')} Material de apoio<small>Módulo ${m.num}</small></div>` + m.apoio.map((b, i) => blocoHtml(b, i, 1, true)).join('');
     s += `</div>`;
   });
-  alvo.innerHTML = s;
-  if (!o.gabarito) $$('.gabarito', alvo).forEach(g => g.remove());
+  $('#impressao').innerHTML = s;
+  if (!o.gabarito) $$('#impressao .gabarito').forEach(g => g.remove());
   const um = o.ids.length === 1 ? mod(o.ids[0]) : null;
   document.title = um ? `SOS Farmácia Comercial - Módulo ${String(um.num).padStart(2, '0')} - ${um.titulo}` : 'SOS Farmácia Comercial - Todos os módulos';
 }
-function imprime(o) {
-  imprimindo = true;
-  montaImpressao(o);
-  setTimeout(() => { window.print(); }, 250);
-}
 window.addEventListener('beforeprint', () => {
   if (imprimindo) return;
-  /* Impressão pelo menu do navegador: monta o módulo aberto (ou todos) com a marca-d'água padrão. */
   commitTodos();
   const m = moduloAtual();
   imprimindo = true;
@@ -666,7 +856,14 @@ document.addEventListener('click', e => {
     const ac = a.dataset.acao, id = a.dataset.id, m = moduloAtual();
     if (ac === 'salvar') salvarArquivo();
     else if (ac === 'pdf') janelaPdf();
-    else if (ac === 'estudado') { const s = estudados(); s.has(id) ? s.delete(id) : s.add(id); gravarLS('estudado', [...s]); rota(); }
+    else if (ac === 'estudado') {
+      const s = estudados(), on = !s.has(id); on ? s.add(id) : s.delete(id); gravarLS('estudado', [...s]);
+      a.classList.toggle('on', on); a.innerHTML = `${ic(on ? 'circle-check' : 'check')} ${on ? 'Estudado' : 'Marcar como estudado'}`;
+      const t = $(`.toc a[data-toc="${id}"]`); if (t) t.innerHTML = (on ? ic('circle-check') : '') + `<span>${esc(m.topicos.find(x => x.id === id).titulo)}</span>`;
+      $$('.progMini').forEach(p => { p.innerHTML = `<div class="barra"><i style="width:${progresso(m)}%"></i></div><span>${progresso(m)}%</span>`; });
+      moldura(m.id);
+      if (on) aviso('Tópico marcado como estudado.');
+    }
     else if (!m) return;
     else if (ac === 'top-subir') moveItem(m.topicos, id, -1);
     else if (ac === 'top-descer') moveItem(m.topicos, id, 1);
@@ -690,66 +887,73 @@ document.addEventListener('click', e => {
     }
     return;
   }
+  const mb = e.target.closest('[data-mapa]'); if (mb) { acaoMapa(mb.closest('.mapaCard'), mb.dataset.mapa); return; }
+  const mc = e.target.closest('.revisao .mmCartao'); if (mc) { mc.classList.add('revelado'); return; }
+  const pula = e.target.closest('[data-pula]'); if (pula) { document.getElementById(pula.dataset.pula).scrollIntoView({ behavior: 'smooth' }); return; }
+  const fl = e.target.closest('[data-filtro]'); if (fl) { filtroApoio = fl.dataset.filtro; telaApoio(moduloAtual()); return; }
   const alt = e.target.closest('button.alt');
   if (alt) {
-    const qd = alt.closest('.questao'); if (qd.dataset.resp) return;
-    const [bid, i] = qd.dataset.q.split(':'); const m = moduloAtual(); const q = m.apoio.find(b => b.id === bid).itens[+i];
-    qd.dataset.resp = '1';
-    const j = +alt.dataset.alt;
-    $$('.alt', qd).forEach((x, k) => { if (k === q.c) x.classList.add('certa'); });
-    if (j !== q.c) alt.classList.add('errada');
-    qd.insertAdjacentHTML('beforeend', `<div class="coment"><b>${j === q.c ? 'Correto.' : `Resposta: ${LETRAS[q.c]}.`}</b> ${inl(q.com)}</div>`);
+    const qz = alt.closest('[data-quiz]'), bid = qz.dataset.quiz, b = moduloAtual().apoio.find(x => x.id === bid), i = Math.min(posQ[bid] || 0, b.itens.length - 1);
+    const R = respostas(); R[bid + ':' + i] = +alt.dataset.alt; gravarLS('resp', R);
+    qz.innerHTML = questaoHtml(b); return;
+  }
+  const qn = e.target.closest('[data-qnav]');
+  if (qn) { const qz = qn.closest('[data-quiz]'), b = moduloAtual().apoio.find(x => x.id === qz.dataset.quiz); posQ[b.id] = Math.max(0, Math.min(b.itens.length - 1, (posQ[b.id] || 0) + +qn.dataset.qnav)); qz.innerHTML = questaoHtml(b); return; }
+  const vr = e.target.closest('[data-virar]');
+  if (vr) {
+    const f2 = vr.closest('[data-flash]'), bid = f2.dataset.flash, i = posC[bid] || 0;
+    vr.classList.toggle('virada');
+    if (vr.classList.contains('virada')) { const V = vistos(); if (!V.has(bid + ':' + i)) { V.add(bid + ':' + i); gravarLS('vistos', [...V]); const p = $$('.pontos i', f2)[i]; if (p) p.classList.add('v'); } }
     return;
   }
-  const fl = e.target.closest('[data-flash]');
-  if (fl) { fl.classList.toggle('virado'); return; }
-  if (e.target.closest('#bt-menu')) { document.body.classList.toggle('menu'); return; }
-  if (e.target === document.body && document.body.classList.contains('menu')) document.body.classList.remove('menu');
+  const cn = e.target.closest('[data-cnav]');
+  if (cn) { const f2 = cn.closest('[data-flash]'), b = moduloAtual().apoio.find(x => x.id === f2.dataset.flash); posC[b.id] = Math.max(0, Math.min(b.itens.length - 1, (posC[b.id] || 0) + +cn.dataset.cnav)); f2.innerHTML = cartaHtml(b); return; }
+  const bb = e.target.closest('#barra [data-b]');
+  if (bb) { const k = bb.dataset.b; if (k === 'inicio') location.hash = '#/'; else if (k === 'buscar') abreBusca(); else gaveta(k); }
 });
 document.addEventListener('change', e => {
   const c = e.target.closest('[data-check]');
   if (c) { const [bid, i] = c.dataset.check.split(':'); const all = lerLS('check', {}); const s = new Set(all[bid] || []); c.checked ? s.add(+i) : s.delete(+i); all[bid] = [...s]; gravarLS('check', all); }
 });
-document.addEventListener('input', e => { const el = e.target.closest('[data-edit][contenteditable=true]'); if (el) agendaCommit(el); });
+document.addEventListener('input', e => { const el = e.target.closest && e.target.closest('[data-edit][contenteditable=true]'); if (el) agendaCommit(el); });
 document.addEventListener('focusout', e => { const el = e.target.closest && e.target.closest('[data-edit][contenteditable=true]'); if (el && pendentes.has(el)) commit(el); });
 document.addEventListener('paste', e => {
-  const el = e.target.closest && e.target.closest('[data-edit][contenteditable=true]');
-  if (!el) return;
-  e.preventDefault();
-  const t = (e.clipboardData || window.clipboardData).getData('text/plain');
-  document.execCommand('insertText', false, t);
+  const el = e.target.closest && e.target.closest('[data-edit][contenteditable=true]'); if (!el) return;
+  e.preventDefault(); document.execCommand('insertText', false, (e.clipboardData || window.clipboardData).getData('text/plain'));
 });
 document.addEventListener('keydown', e => {
   const el = e.target.closest && e.target.closest('[data-edit^="mod:"],[data-edit$=":titulo"]');
   if (el && el.isContentEditable && e.key === 'Enter') { e.preventDefault(); el.blur(); }
-  if (e.key === 'Escape') fechaModal();
+  if (e.key === 'Escape') fechaCamadas();
+  const digitando = e.target.closest && e.target.closest('input,textarea,select,[contenteditable=true]');
+  if (!digitando && (e.key === '/' || ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k'))) { e.preventDefault(); abreBusca(); }
 });
 document.addEventListener('mousedown', e => {
   const b = e.target.closest('#ed-barra button'); if (!b) return;
   e.preventDefault();
   const sel = window.getSelection(), alvo = sel.anchorNode && (sel.anchorNode.nodeType === 1 ? sel.anchorNode : sel.anchorNode.parentElement);
-  const ed = alvo && alvo.closest('.texto[contenteditable=true]');
-  if (!ed) { toast('Clique primeiro dentro do texto que quer formatar.'); return; }
+  const ed = alvo && alvo.closest('.conteudo[contenteditable=true]');
+  if (!ed) { aviso('Clique primeiro dentro do texto que quer formatar.'); return; }
   const cmd = b.dataset.cmd, cx = b.dataset.cx;
-  if (cx) {
-    const rot = { chave: 'Ponto-chave', alerta: 'Atenção', balcao: 'No balcão', lei: 'O que diz a norma', exemplo: 'Caso' }[cx];
-    document.execCommand('insertHTML', false, `<div class="cx ${cx}"><b>${rot}</b><p>Escreva aqui.</p></div><p><br></p>`);
-  } else if (cmd === 'h3' || cmd === 'p') document.execCommand('formatBlock', false, cmd);
+  if (cx) document.execCommand('insertHTML', false, `<div class="cx ${cx}"><b>${{ chave: 'Ponto-chave', alerta: 'Atenção', balcao: 'No balcão', lei: 'O que diz a norma', exemplo: 'Caso' }[cx]}</b><p>Escreva aqui.</p></div><p><br></p>`);
+  else if (cmd === 'h3' || cmd === 'p') document.execCommand('formatBlock', false, cmd);
   else if (cmd === 'tabela') document.execCommand('insertHTML', false, '<div class="tab"><table><thead><tr><th>Coluna 1</th><th>Coluna 2</th><th>Coluna 3</th></tr></thead><tbody><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></div><p><br></p>');
   else document.execCommand(cmd, false, null);
   agendaCommit(ed);
 });
-$('#bt-editar').onclick = () => { commitTodos(); editando = !editando; document.body.classList.toggle('editando', editando); try { document.execCommand('defaultParagraphSeparator', false, 'p'); } catch (e) { /* antigo */ } rota(); toast(editando ? 'Modo edição ligado: clique em um texto para alterar.' : 'Modo edição desligado.'); };
+$('#bt-editar').onclick = alternaEdicao;
 $('#bt-salvar').onclick = salvarArquivo;
 $('#bt-pdf').onclick = janelaPdf;
 $('#bt-ajustes').onclick = ajustes;
-$('#busca').addEventListener('keydown', e => { if (e.key === 'Enter') { const q = e.target.value.trim(); if (q) location.hash = '#/busca/' + encodeURIComponent(q); } });
+$('#bt-tema').onclick = trocaTema;
+$$('[data-buscar]').forEach(b => { b.onclick = abreBusca; });
+$('#bt-mais').onclick = () => gaveta('mais');
 window.addEventListener('hashchange', () => { commitTodos(); rota(); });
 window.addEventListener('beforeunload', e => { commitTodos(); if (alterado) { e.preventDefault(); e.returnValue = ''; } });
 
 /* ---------------- início ---------------- */
 async function inicia() {
-  try { await Promise.all(['400 16px Inter', '500 16px Inter', '600 16px Inter', '700 16px Inter', '16px tabler-icons'].map(f => document.fonts.load(f))); } catch (e) { /* segue com a fonte do sistema */ }
+  try { await document.fonts.load('16px tabler-icons'); } catch (e) { /* segue */ }
   const q = new URLSearchParams(location.search);
   if (q.get('pdf')) {
     /* Geração automática (ferramentas/gera_pdfs.py): monta a impressão e avisa que terminou. */

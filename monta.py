@@ -16,11 +16,13 @@ MARCA_MONTAGEM = os.path.join(RAIZ, 'docs', '.ultima_montagem')
 TABLER_CSS = os.path.expanduser('~/Documents/Claude/_trabalho/site/vendor/tabler/tabler-icons.min.css')
 TABLER_WOFF = os.path.expanduser('~/Documents/Claude/_trabalho/site/vendor/tabler/fonts/tabler-icons.woff2')
 
-MODULOS = {  # cor (texto branco com contraste AA) e ícone Tabler de cada módulo
-    'm01': ('#2563EB', 'pill'), 'm02': ('#C2410C', 'lock'), 'm03': ('#7C3AED', 'flask'),
-    'm04': ('#DC2626', 'heartbeat'), 'm05': ('#0E7C94', 'droplet'), 'm06': ('#C2255C', 'bandage'),
-    'm07': ('#0F7F74', 'lungs'), 'm08': ('#B45309', 'prescription'), 'm09': ('#4F46E5', 'arrows-exchange'),
-    'm10': ('#4D7C0F', 'clipboard-list'), 'm11': ('#0369A1', 'temperature-snow'),
+MODULOS = {  # cor (paleta do FarmaUTI), ícone Tabler e nome curto da barra lateral
+    'm01': ('#2F7BF6', 'pill', 'Isentos de prescrição (MIP)'), 'm02': ('#F76E1E', 'lock', 'Portaria 344/98'),
+    'm03': ('#8E5AF2', 'flask', 'Farmacologia geral'), 'm04': ('#E5484D', 'heartbeat', 'Cardiovascular e renal'),
+    'm05': ('#11A870', 'droplet', 'Sistema endócrino'), 'm06': ('#E8468E', 'bandage', 'AINEs, corticoides e antialérgicos'),
+    'm07': ('#0E9384', 'lungs', 'Sistema respiratório'), 'm08': ('#E89A00', 'prescription', 'RDC 471/2021'),
+    'm09': ('#5B5BF0', 'arrows-exchange', 'Interações medicamentosas'), 'm10': ('#4D9A12', 'clipboard-list', 'POPs'),
+    'm11': ('#0AA5C2', 'temperature-snow', 'Termolábeis e armazenamento'),
 }
 GERAL_PADRAO = {
     'titulo': 'SOS Farmácia Comercial',
@@ -45,8 +47,8 @@ def le_conteudo():
         lst.sort(key=lambda x: x[0])
         base = lst[0][2]
         m = {k: base[k] for k in ('id', 'num', 'titulo', 'escopo')}
-        cor, icone = MODULOS.get(mid, ('#2563EB', 'book'))
-        m.update(cor=cor, corT=tinta_clara(cor), icone=icone, topicos=[], mapas=[], apoio=[], fontes=[])
+        cor, icone, curto = MODULOS.get(mid, ('#5B5BF0', 'book', base['titulo']))
+        m.update(cor=cor, icone=icone, curto=curto, topicos=[], mapas=[], apoio=[], fontes=[])
         for _, arq, d in lst:
             for k in ('topicos', 'mapas', 'apoio'):
                 m[k] += d.get(k, [])
@@ -60,11 +62,8 @@ def le_conteudo():
 
 def fontes_css(texto_app):
     css = []
-    for peso in (400, 500, 600, 700):
-        b = base64.b64encode(open(os.path.join(RAIZ, 'fonts', f'inter-{peso}.woff2'), 'rb').read()).decode()
-        css.append(f'@font-face{{font-family:"Inter";font-style:normal;font-weight:{peso};font-display:block;src:url(data:font/woff2;base64,{b}) format("woff2")}}')
     mapa = dict(re.findall(r'\.ti-([a-z0-9-]+):before\{content:"\\([0-9a-f]+)"', open(TABLER_CSS).read()))
-    usados = set(re.findall(r'ti-([a-z0-9-]+)', texto_app)) | {ic for _, ic in MODULOS.values()}
+    usados = set(re.findall(r'ti-([a-z0-9-]+)', texto_app)) | {v[1] for v in MODULOS.values()}
     usados |= set(re.findall(r"'([a-z0-9-]+)'", texto_app))  # nomes passados a ic('...') e em TIPOS
     usados |= {'bulb', 'alert-triangle', 'building-store', 'gavel', 'message-circle'}  # caixas do texto (CSS)
     usados = {u for u in usados if u in mapa}
@@ -81,7 +80,7 @@ def fontes_css(texto_app):
     css.append(f'@font-face{{font-family:"tabler-icons";font-style:normal;font-weight:400;font-display:block;src:url(data:font/woff2;base64,{b}) format("woff2")}}')
     css.append('.ti{font-family:"tabler-icons"!important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}')
     css += [f'.ti-{u}:before{{content:"\\{mapa[u]}"}}' for u in sorted(usados)]
-    return '\n'.join(css), len(usados)
+    return '\n'.join(css), len(usados), {u: mapa[u] for u in sorted(usados)}
 
 
 def versao_no_html(caminho):
@@ -111,7 +110,8 @@ def main():
     js = open(os.path.join(RAIZ, 'fonte', 'app.js'), encoding='utf-8').read()
     css = open(os.path.join(RAIZ, 'fonte', 'app.css'), encoding='utf-8').read()
     casca = open(os.path.join(RAIZ, 'fonte', 'casca.html'), encoding='utf-8').read()
-    fcss, nic = fontes_css(js + casca)
+    fcss, nic, glifos = fontes_css(js + casca)
+    js = js.replace('/*GLIFOS*/{}', json.dumps(glifos))
     json_txt = json.dumps(dados, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
     if '</script' in js.lower():
         sys.exit('app.js contém "</script" literal: quebraria o HTML.')
