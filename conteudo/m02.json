@@ -1,0 +1,1396 @@
+{
+ "id": "m02",
+ "num": 2,
+ "titulo": "Portaria 344/98 e medicamentos controlados",
+ "escopo": "Regras vigentes em outubro de 2026 para prescrição, dispensação, guarda e escrituração de medicamentos controlados: listas do Anexo I da Portaria SVS/MS 344/1998 (Atualização nº 101, RDC 1.036/2026), Portaria SVS/MS 6/1999, receituários físicos e eletrônicos da RDC 1.000/2025, SNCR (RDC 873/2024), SNGPC (RDC 22/2014) e penalidades da Lei 6.437/1977.",
+ "topicos": [
+  {
+   "id": "m02-estrutura",
+   "titulo": "Estrutura da Portaria 344/98 e conceitos",
+   "resumo": "\n<p>A <strong>Portaria SVS/MS nº 344, de 12 de maio de 1998</strong>, aprova o Regulamento Técnico sobre substâncias e medicamentos sujeitos a controle especial. Ela foi editada pela antiga Secretaria de Vigilância Sanitária do Ministério da Saúde e, desde a criação da Anvisa (Lei nº 9.782/1999), é atualizada por Resoluções da Diretoria Colegiada (RDC). Quem trabalha no balcão lida com ela todos os dias: é a 344 que define o que é controlado, qual receituário cada medicamento exige, quanto pode ser dispensado, por quanto tempo a receita vale e como a farmácia guarda e registra tudo.</p>\n<p>A 344 não anda sozinha. A <strong>Portaria SVS/MS nº 6, de 29 de janeiro de 1999</strong>, é a instrução normativa que detalha a execução (como preencher campos, como retirar numeração, como escriturar, o que fazer no encerramento de atividades). Em volta das duas existem normas específicas que o farmacêutico precisa conhecer pelo nome:</p>\n<div class=\"tab\"><table><thead><tr><th>Norma</th><th>Assunto</th><th>Por que importa no balcão</th></tr></thead><tbody>\n<tr><td>Portaria SVS/MS 344/1998</td><td>Regulamento técnico e listas do Anexo I</td><td>Define lista, receituário, validade e quantidade</td></tr>\n<tr><td>Portaria SVS/MS 6/1999</td><td>Instrução normativa da 344</td><td>Campos do dispensador, carimbo, verso, fracionamento</td></tr>\n<tr><td>RDC 58/2007</td><td>Notificação de Receita B2 (anorexígenos)</td><td>Modelo próprio para a lista B2</td></tr>\n<tr><td>RDC 11/2011</td><td>Talidomida</td><td>Notificação própria, só em unidade pública credenciada</td></tr>\n<tr><td>RDC 22/2014</td><td>SNGPC</td><td>Escrituração eletrônica obrigatória em farmácias e drogarias</td></tr>\n<tr><td>RDC 50/2014</td><td>Sibutramina, anfepramona, femproporex, mazindol</td><td>Dose diária máxima e termo do prescritor</td></tr>\n<tr><td>RDC 873/2024</td><td>Institui o SNCR</td><td>Numeração nacional e validade nacional das notificações</td></tr>\n<tr><td>RDC 1.000/2025</td><td>Receituários eletrônicos e novos modelos físicos</td><td>Notificação eletrônica, CPF do paciente, registro de uso</td></tr>\n<tr><td>Lei 6.437/1977</td><td>Infrações sanitárias</td><td>Penalidades por descumprimento</td></tr>\n</tbody></table></div>\n<h3>Como o regulamento é organizado</h3>\n<p>O texto da 344 segue uma ordem lógica que ajuda a estudar: definições (capítulo I), autorização (II), comércio e transporte, prescrição (V, com Notificação de Receita e Receita de Controle Especial), escrituração (VI), guarda (VII), balanços (VIII), embalagem (IX), controle e fiscalização (X) e disposições finais (XI). O <strong>Anexo I</strong> traz as listas de substâncias. Os anexos que traziam os modelos de talonários (IX a XII) foram revogados pela RDC nº 1.000, de 11 de dezembro de 2025 (art. 25): os modelos oficiais passaram a ser publicados no portal da Anvisa, na página do SNCR.</p>\n<p>O Anexo I muda com frequência. A versão consolidada no sistema de legislação da Anvisa registra, em outubro de 2026, a <strong>Atualização nº 101</strong>, feita pela RDC nº 1.036, de 9 de julho de 2026, que incluiu a MMDPPA na lista D1 e a dimetocaína na lista F1. Antes dela vieram, em 2026, a RDC 1.011 (30/01/2026), a RDC 1.017 (20/02/2026), a RDC 1.021 (09/04/2026) e a RDC 1.023 (11/05/2026). Na prática: antes de responder a um paciente ou a uma prova, confira a lista consolidada no portal da Anvisa, porque uma substância pode ter mudado de lista há poucas semanas.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Apostilas, sites de telemedicina e bancos de questões antigos costumam trazer regras revogadas: zolpidem até 10 mg em receita branca, lista C4 de antirretrovirais, visto da Vigilância Sanitária para notificação de outro estado e talonário amarelo fornecido só pela VISA. Nenhuma delas vale em outubro de 2026.</p></div>\n<h3>Conceitos que caem no dia a dia</h3>\n<ul>\n<li><strong>Medicamento sujeito a controle especial</strong>: medicamento que contém substância, planta ou fungo das listas do Anexo I da 344 (RDC 1.000/2025, art. 3º, III).</li>\n<li><strong>Notificação de Receita (NR)</strong>: documento padronizado, numerado pela autoridade sanitária, que, acompanhado da receita, autoriza a dispensação de medicamentos das listas A1, A2, A3, B1, B2 e C2 (Portaria 344, art. 35, redação da RDC 1.000/2025). A talidomida (lista C3) tem notificação própria na RDC 11/2011.</li>\n<li><strong>Receita de Controle Especial (RCE)</strong>: receita em duas vias, sem numeração oficial no papel, para as listas C1 e C5 e para os adendos das listas A1, A2 e B1 que mandam usar RCE (Portaria 344, art. 55; Portaria 6/1999, art. 84).</li>\n<li><strong>Autorização Especial (AE)</strong>: licença da Anvisa para atividades como extrair, produzir, fabricar, manipular, fracionar, importar, exportar ou distribuir substâncias das listas (Portaria 344, art. 2º). A drogaria que só dispensa medicamento industrializado em embalagem original opera com a Autorização de Funcionamento (AFE); a farmácia que manipula substâncias controladas precisa da AE.</li>\n<li><strong>Adendo</strong>: parágrafo ao final de cada lista que cria exceções, por exemplo preparações de baixa concentração que passam a exigir receita mais simples, ou formas farmacêuticas que ficam proibidas.</li>\n<li><strong>Escrituração</strong>: registro de toda entrada, saída e perda. Em farmácias e drogarias é feita no SNGPC (RDC 22/2014, art. 35).</li>\n<li><strong>SNCR</strong>: Sistema Nacional de Controle de Receituários, instituído pela RDC nº 873, de 27 de maio de 2024. Gera e distribui a numeração das notificações e, desde 30/09/2026, registra a utilização das receitas eletrônicas.</li>\n</ul>\n<h3>Quem pode prescrever</h3>\n<p>A 344 prevê três prescritores: <strong>médico</strong>, <strong>cirurgião-dentista</strong> e <strong>médico-veterinário</strong>. O dentista e o veterinário só podem prescrever para uso odontológico e veterinário, respectivamente (Portaria 344, art. 38; art. 55, § 1º). Algumas regras restringem ainda mais:</p>\n<div class=\"tab\"><table><thead><tr><th>Situação</th><th>Quem prescreve</th><th>Base</th></tr></thead><tbody>\n<tr><td>Listas A, B, C1, C5</td><td>Médico; dentista (uso odontológico); veterinário (uso veterinário)</td><td>Portaria 344, arts. 38 e 55</td></tr>\n<tr><td>Retinoides sistêmicos (C2)</td><td>Médico</td><td>Portaria 344, art. 50</td></tr>\n<tr><td>Talidomida (C3)</td><td>Médico cadastrado na autoridade sanitária</td><td>RDC 11/2011, arts. 11 e 24</td></tr>\n<tr><td>Notificações (A, B, B2, C2)</td><td>Profissional com numeração concedida pela VISA</td><td>Portaria 344, art. 35, § 1º</td></tr>\n<tr><td>Médico do Programa Mais Médicos</td><td>Registro Único do Ministério da Saúde (RMS) substitui o CRM</td><td>RDC 52/2013, citada no Perguntas e Respostas da Anvisa</td></tr>\n</tbody></table></div>\n<p>A 344 não prevê enfermeiro, farmacêutico ou nutricionista como prescritores de medicamentos das suas listas. O campo do Coren que a Anvisa incluiu no SNGPC em 2025 refere-se a antimicrobianos (receita sujeita à retenção da RDC 471/2021), prescritos nos casos amparados por protocolo.</p>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"As prescrições por cirurgiões dentistas e médicos veterinários só poderão ser feitas quando para uso odontológico e veterinário, respectivamente.\" (Portaria SVS/MS 344/1998, art. 38)</p></div>\n<h3>Validade nacional da receita</h3>\n<p>A Lei nº 13.732/2018 alterou o art. 35 da Lei nº 5.991/1973: o receituário vale em todo o território nacional, inclusive o de controle especial. A Anvisa, no Ofício nº 39/2019/GPCON, esclareceu que a validade nacional diz respeito à dispensação e que o prescritor precisa estar regular no conselho do estado onde atua. Em 2024 a RDC 873 reescreveu os arts. 41 e 50 da 344 (Notificação A e notificação de retinoides valem 30 dias em todo o território) e revogou as regras que obrigavam a farmácia a levar à VISA, em 72 horas, a Notificação A e a RCE de outro estado para visto. Em 2025 a RDC 1.000 deu a mesma redação nacional à Notificação B (art. 45).</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Receita de outro estado é aceita normalmente, com os mesmos critérios de uma receita local. Confira o conselho e a UF do prescritor, a numeração (quando for notificação) e os demais campos. Não exija carimbo de visto: essa exigência foi revogada em 2024. A única situação que ainda pede visto em 72 horas é a receita de emergência em papel não oficial.</p></div>\n<h3>Tarjas e embalagens</h3>\n<p>Os medicamentos das listas A e B saem com tarja preta; os das listas C1, C2 de uso sistêmico e C5, com tarja vermelha e a frase de venda sob prescrição com retenção da receita. As frases de alerta de bula e rótulo hoje seguem as RDC 768/2022 e 770/2022, que reescreveram a parte de rotulagem da 344. A drogaria vende controlado só na embalagem original, intacta e inviolável, e não pode fracioná-la (Portaria 344, art. 79; Portaria 6/1999, art. 109). A tarja ajuda a triagem, mas quem manda é a lista: o zolpidem, por exemplo, passou de tarja vermelha para preta com a mudança de 2024, e embalagens antigas ainda podem aparecer.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Um dentista prescreve, em Receita de Controle Especial, carbamazepina para um paciente com neuralgia do trigêmeo. A dispensação é possível: a indicação tem relação com a odontologia e a carbamazepina está na lista C1. Se o mesmo dentista prescrevesse sertralina para depressão, a farmácia deveria recusar, porque o uso não é odontológico (Portaria 344, art. 55, § 1º).</p></div>\n"
+  },
+  {
+   "id": "m02-listas",
+   "titulo": "Listas do Anexo I e adendos",
+   "resumo": "\n<p>O <strong>Anexo I</strong> da Portaria 344 reúne as listas de substâncias sob controle. Cada lista tem um título que já diz o receituário exigido, e cada uma termina com um adendo de exceções. Para o balcão, o raciocínio é sempre o mesmo: identificar a substância pela DCB, achar a lista, ler o adendo e só então decidir qual documento aceitar. A versão usada aqui é a consolidada pela Anvisa com a Atualização nº 101 (RDC 1.036, de 9 de julho de 2026).</p>\n<h3>Visão geral das listas</h3>\n<div class=\"tab\"><table><thead><tr><th>Lista</th><th>Conteúdo</th><th>Exemplos de balcão</th><th>Receituário</th></tr></thead><tbody>\n<tr><td>A1</td><td>Entorpecentes</td><td>Morfina, metadona, oxicodona, fentanila, tapentadol, buprenorfina, petidina, hidromorfona</td><td>Notificação A (amarela)</td></tr>\n<tr><td>A2</td><td>Entorpecentes permitidos em concentrações especiais</td><td>Codeína, tramadol, nalbufina, diidrocodeína</td><td>Notificação A (com adendos para RCE)</td></tr>\n<tr><td>A3</td><td>Psicotrópicos</td><td>Metilfenidato, lisdexanfetamina, fenfluramina, dronabinol, produtos de Cannabis regularizados</td><td>Notificação A</td></tr>\n<tr><td>B1</td><td>Psicotrópicos</td><td>Alprazolam, clonazepam, diazepam, bromazepam, lorazepam, midazolam, zolpidem, zopiclona, eszopiclona, modafinila, fenobarbital</td><td>Notificação B (azul)</td></tr>\n<tr><td>B2</td><td>Psicotrópicos anorexígenos</td><td>Sibutramina, anfepramona, femproporex, mazindol</td><td>Notificação B2 (azul)</td></tr>\n<tr><td>C1</td><td>Outras substâncias sujeitas a controle especial</td><td>Antidepressivos, antipsicóticos, anticonvulsivantes, lítio, pregabalina, gabapentina, bupropiona, coxibes, canabidiol sintético</td><td>Receita de Controle Especial em 2 vias</td></tr>\n<tr><td>C2</td><td>Retinoides</td><td>Isotretinoína e acitretina orais; tretinoína e adapaleno tópicos</td><td>Notificação especial (branca) para uso sistêmico</td></tr>\n<tr><td>C3</td><td>Imunossupressores</td><td>Talidomida, lenalidomida, pomalidomida</td><td>Notificação própria (normas específicas)</td></tr>\n<tr><td>C5</td><td>Anabolizantes</td><td>Testosterona, nandrolona, oxandrolona, somatropina, gestrinona</td><td>Receita de Controle Especial em 2 vias</td></tr>\n<tr><td>D1</td><td>Precursoras</td><td>Efedrina, pseudoefedrina, ergotamina, ergometrina</td><td>Receita médica sem retenção</td></tr>\n<tr><td>D2</td><td>Insumos químicos</td><td>Acetona, ácido clorídrico</td><td>Controle da Polícia Federal</td></tr>\n<tr><td>E</td><td>Plantas e fungos proscritos</td><td>Cannabis sativa (com exceções), Erythroxylum coca, Papaver somniferum</td><td>Proibidas, salvo exceções do adendo</td></tr>\n<tr><td>F1 a F4</td><td>Substâncias de uso proscrito</td><td>F1 entorpecentes; F2 psicotrópicos; F3 precursores (fenilpropanolamina); F4 outras (dexfenfluramina, etretinato, terfenadina, lindano)</td><td>Proibidas</td></tr>\n</tbody></table></div>\n<h3>Situação da lista C4</h3>\n<p>A lista C4 (antirretrovirais) <strong>não existe mais</strong> no Anexo I. A RDC nº 103, de 31 de agosto de 2016 (Atualização nº 52), retirou os antirretrovirais do controle da 344. Os artigos 54 e 58 da Portaria, que falam em C4, permanecem no texto mas ficaram sem objeto. No SUS, a dispensação de antirretrovirais segue o formulário e o sistema do programa (SICLOM); em farmácia privada, segue a regra de medicamento sob prescrição.</p>\n<h3>O que cada lista significa na prática</h3>\n<ul>\n<li><strong>A1 e A2</strong>: opioides. A A1 reúne os de maior potencial de abuso. A A2 traz os que só ficam na Notificação A acima de certas concentrações: abaixo do limite do adendo, passam à RCE.</li>\n<li><strong>A3</strong>: estimulantes e outros psicotrópicos de alto risco. Desde 2026 inclui os produtos de Cannabis regularizados pela RDC 1.015, de 2 de fevereiro de 2026, e os medicamentos registrados com derivados de Cannabis (adendos 2, 10 e 12).</li>\n<li><strong>B1</strong>: benzodiazepínicos, hipnóticos não benzodiazepínicos, barbitúricos e afins. Lista longa, com muitos adendos.</li>\n<li><strong>B2</strong>: anorexígenos. Além da Notificação B2 (RDC 58/2007), seguem a RDC 50/2014: dose diária máxima e Termo de Responsabilidade do Prescritor.</li>\n<li><strong>C1</strong>: a lista mais movimentada do balcão. Antidepressivos, antipsicóticos, anticonvulsivantes, antiparkinsonianos, anestésicos gerais, inibidores seletivos da COX-2, misoprostol (só hospitalar) e outros.</li>\n<li><strong>C2</strong>: retinoides. Os de uso sistêmico (isotretinoína, acitretina, bexaroteno) exigem notificação especial e termo; os tópicos são venda sob prescrição sem retenção (adendo 2).</li>\n<li><strong>C3</strong>: imunossupressores teratogênicos. A talidomida não é vendida em drogaria; vai só por unidades públicas credenciadas (RDC 11/2011). Lenalidomida e pomalidomida têm norma própria (adendo 4 da C3; a cartilha da Anvisa de setembro de 2026 cita a RDC 735/2022 para a lenalidomida).</li>\n<li><strong>C5</strong>: anabolizantes e hormônio do crescimento. Os de uso tópico são venda sob prescrição sem retenção (adendo 2).</li>\n<li><strong>D1</strong>: precursores. Os medicamentos são vendidos com receita médica sem retenção, como diz o título da lista.</li>\n<li><strong>E e F</strong>: proscritos. Não podem ser prescritos nem manipulados (Portaria 344, art. 61), com as exceções da Cannabis tratadas em normas próprias.</li>\n</ul>\n<h3>Adendos mais cobrados</h3>\n<p>Os adendos são o ponto em que mais se erra no balcão e nas provas. A tabela traz os vigentes na Atualização nº 101, com o efeito prático.</p>\n<div class=\"tab\"><table><thead><tr><th>Lista e adendo</th><th>Regra</th><th>Receituário resultante</th></tr></thead><tbody>\n<tr><td>A1, adendo 3</td><td>Preparações de ópio com até 5 mg de morfina anidra por mL (até 50 mg de ópio)</td><td>RCE (ex.: elixir paregórico)</td></tr>\n<tr><td>A1, adendo 5</td><td>Oxicodona em comprimido de liberação controlada com até 40 mg por unidade</td><td>RCE; acima de 40 mg, Notificação A</td></tr>\n<tr><td>A1, adendo 8</td><td>Buprenorfina em adesivo transdérmico de matriz (sem reservatório)</td><td>RCE</td></tr>\n<tr><td>A1, adendo 2</td><td>Difenoxilato até 2,5 mg por unidade com atropina (no mínimo 1% do difenoxilato)</td><td>RCE</td></tr>\n<tr><td>A1, adendo 4</td><td>Ópio, derivados sintéticos e difenoxilato em forma líquida ou xarope de uso pediátrico</td><td>Proibido</td></tr>\n<tr><td>A2, adendo 2</td><td>Codeína, diidrocodeína, etilmorfina, folcodina e afins: até 100 mg por unidade posológica e até 2,5% nas formas indivisíveis, isoladas ou associadas</td><td>RCE (ex.: paracetamol com codeína 30 mg)</td></tr>\n<tr><td>A2, adendo 3</td><td>Tramadol até 100 mg por unidade posológica, isolado ou associado</td><td>RCE</td></tr>\n<tr><td>A2, adendo 5</td><td>Nalbufina até 10 mg de cloridrato por unidade posológica</td><td>RCE</td></tr>\n<tr><td>A3, adendo 2</td><td>Medicamento registrado com derivados de Cannabis até 30 mg/mL de THC e 30 mg/mL de canabidiol</td><td>Notificação A</td></tr>\n<tr><td>A3, adendo 12</td><td>Produto de Cannabis (RDC 1.015/2026) com THC até 0,2%</td><td>RCE</td></tr>\n<tr><td>B1, adendo 2</td><td>Fenobarbital, metilfenobarbital, barbital e barbexaclona</td><td>RCE</td></tr>\n<tr><td>B1, adendo 9</td><td>Perampanel</td><td>RCE</td></tr>\n<tr><td>B1, adendos 14 e 15</td><td>Cetamina e escetamina: dispensação e uso só em estabelecimento de saúde; escetamina nasal administrada sob observação</td><td>Não se dispensa em drogaria</td></tr>\n<tr><td>B1, adendo 16</td><td>Carisoprodol</td><td>Venda sob prescrição sem retenção</td></tr>\n<tr><td>C1, adendo 2</td><td>Loperamida</td><td>Venda sob prescrição sem retenção</td></tr>\n<tr><td>C1, adendo 4</td><td>Misoprostol</td><td>Compra e uso só em hospital cadastrado</td></tr>\n<tr><td>C1, adendo 5</td><td>Tetracaína: tópico odontológico isolado sem prescrição; otológico com prescrição sem retenção; oftálmico com retenção</td><td>Depende da forma</td></tr>\n<tr><td>C1, adendos 7 e 10</td><td>Benzidamina em spray, pastilha, colutório, gel e afins; prometazina</td><td>Fora do controle da 344</td></tr>\n<tr><td>C2, adendo 2</td><td>Retinoides de uso tópico</td><td>Prescrição sem retenção</td></tr>\n<tr><td>C5, adendo 2</td><td>Anabolizantes de uso tópico</td><td>Prescrição sem retenção</td></tr>\n</tbody></table></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>O zolpidem está na lista B1 <strong>sem adendo</strong>. O antigo adendo que permitia receita de controle especial para apresentações de até 10 mg foi excluído pela Anvisa em 2024; desde 1º de agosto de 2024 qualquer medicamento com zolpidem exige Notificação de Receita B, e as embalagens passaram a ter tarja preta. Metilfenidato e lisdexanfetamina não têm adendo de concentração: qualquer apresentação exige Notificação A.</p></div>\n<h3>Como raciocinar com o adendo</h3>\n<p>Três perguntas resolvem quase todo caso: qual é a substância e a quantidade por unidade posológica; o produto é isolado ou associado; qual é a forma farmacêutica. Um comprimido de paracetamol 500 mg com fosfato de codeína 30 mg tem 30 mg de entorpecente por unidade, abaixo de 100 mg, e cai no adendo 2 da A2: RCE em duas vias. Uma ampola de tramadol 100 mg/2 mL tem 100 mg por unidade, o limite do adendo, e também vai em RCE. Já um comprimido de oxicodona de liberação controlada de 80 mg passa do limite de 40 mg e exige Notificação A.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Quando a apresentação for nova ou rara, pesquise a DCB na lista consolidada da Anvisa e leia o adendo inteiro antes de recusar ou aceitar. O sistema de gestão da loja costuma classificar o produto pela lista, mas pode estar desatualizado depois de uma RDC recente: a decisão final é do farmacêutico.</p></div>\n\n<h3>Termos exigidos além da receita</h3>\n<p>Alguns medicamentos pedem um termo assinado por prescritor e paciente. O termo é documento separado da receita: pode ser eletrônico (assinatura avançada basta) mesmo quando a receita é de papel, e vice-versa. O que muda para a farmácia é se o termo precisa ser apresentado e se uma via fica retida. A tabela resume o quadro da cartilha da Anvisa de setembro de 2026.</p>\n<div class=\"tab\"><table><thead><tr><th>Medicamento</th><th>Receituário</th><th>Termo e norma</th><th>Na farmácia</th></tr></thead><tbody>\n<tr><td>Sibutramina</td><td>Notificação B2</td><td>Termo de Responsabilidade do Prescritor (RDC 50/2014, anexo I)</td><td>Apresentado; 1 via retida</td></tr>\n<tr><td>Anfepramona, femproporex, mazindol</td><td>Notificação B2</td><td>Termo de Responsabilidade do Prescritor (RDC 50/2014, anexo II)</td><td>Apresentado; 1 via retida</td></tr>\n<tr><td>Isotretinoína e outros retinoides sistêmicos</td><td>Notificação especial C2</td><td>Termo de Consentimento Pós-Informação (Portaria 344, anexos XV e XVI)</td><td>Apresentado; 1 via retida</td></tr>\n<tr><td>Fenfluramina</td><td>Notificação A</td><td>Termo de Responsabilidade e Esclarecimento (RDC 1.017/2026)</td><td>Apresentado; sem via para a farmácia</td></tr>\n<tr><td>Cenobamato</td><td>RCE</td><td>Termo de Responsabilidade e Esclarecimento (RDC 1.017/2026)</td><td>Não exigido na dispensação</td></tr>\n<tr><td>Mavacanteno</td><td>RCE</td><td>Termo de Responsabilidade/Esclarecimento (RDC 784/2023)</td><td>Apresentado; 1 via retida</td></tr>\n<tr><td>Produtos de Cannabis</td><td>NR A ou RCE, conforme o THC</td><td>TCLE (RDC 1.015/2026)</td><td>Não exigido nem retido</td></tr>\n<tr><td>Talidomida</td><td>Notificação de talidomida</td><td>Termo de Responsabilidade/Esclarecimento (RDC 11/2011)</td><td>Apresentado; 1 via na unidade pública</td></tr>\n</tbody></table></div>\n<h3>Cannabis em 2026</h3>\n<p>A regulação mudou em 2026. A RDC 1.011/2026 (vigência em 4 de agosto de 2026) incluiu na lista C1 a Cannabis sativa com THC até 0,3%, e a lista E passou a ter adendos que remetem os produtos de Cannabis regularizados (RDC 1.015/2026) e os medicamentos registrados para a lista A3. Pelo adendo 12 da A3, incluído pela RDC 1.023/2026, os produtos com THC até 0,2% são prescritos em RCE; acima disso, em Notificação A. A cartilha da Anvisa de setembro de 2026 registra que o Termo de Consentimento Livre e Esclarecido desses produtos fica com prescritor e paciente e não é retido pela farmácia.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Cliente de 52 anos apresenta Receita de Controle Especial de tramadol 50 mg com paracetamol 325 mg, 60 comprimidos, posologia de 1 comprimido a cada 8 horas. O tramadol está na A2, mas o adendo 3 permite RCE porque há 50 mg por unidade. A quantidade corresponde a 20 dias, dentro do limite de 60 dias da RCE. A dispensação é regular, conferidos os demais campos.</p></div>\n"
+  },
+  {
+   "id": "m02-receituarios",
+   "titulo": "Receituários de controle especial",
+   "resumo": "\n<p>Cada lista tem um receituário próprio. Saber reconhecer o modelo, quem o fornece, quanto tempo vale e quanto pode ser dispensado é o núcleo da conferência no balcão. Em 2024 e 2025 houve três mudanças grandes: a numeração passou a ser nacional, gerada pelo SNCR (RDC 873/2024); as notificações passaram a valer em todo o território; e a RDC 1.000/2025 revogou os modelos dos anexos da 344, criou os modelos físicos novos e abriu a via eletrônica.</p>\n<h3>Quadro geral</h3>\n<div class=\"tab\"><table><thead><tr><th>Receituário</th><th>Listas</th><th>Validade</th><th>Quantidade máxima</th><th>Substâncias por receita</th></tr></thead><tbody>\n<tr><td>Notificação A (amarela)</td><td>A1, A2, A3</td><td>30 dias, todo o país</td><td>5 ampolas ou 30 dias de tratamento</td><td>1</td></tr>\n<tr><td>Notificação B (azul)</td><td>B1</td><td>30 dias, todo o país</td><td>5 ampolas ou 60 dias de tratamento</td><td>1</td></tr>\n<tr><td>Notificação B2 (azul)</td><td>B2</td><td>30 dias</td><td>30 dias; sibutramina 60 dias</td><td>1</td></tr>\n<tr><td>Notificação especial de retinoides (branca)</td><td>C2 sistêmicos</td><td>30 dias, todo o país</td><td>5 ampolas ou 30 dias</td><td>1</td></tr>\n<tr><td>Notificação de talidomida (branca)</td><td>C3 (talidomida)</td><td>20 dias, todo o país</td><td>30 dias de tratamento</td><td>Só talidomida</td></tr>\n<tr><td>Receita de Controle Especial (branca, 2 vias)</td><td>C1, C5 e adendos de A1, A2, B1</td><td>30 dias, todo o país</td><td>5 ampolas ou 60 dias por substância; antiparkinsonianos e anticonvulsivantes até 6 meses</td><td>Até 3</td></tr>\n</tbody></table></div>\n<p>Fontes da tabela: Portaria 344, arts. 35, 41, 43, 45, 46, 50, 52, 57 e 59 (redações das RDC 873/2024 e 1.000/2025); RDC 58/2007; RDC 50/2014, art. 5º (redação da RDC 133/2016); RDC 11/2011, art. 21.</p>\n<h3>Quem fornece a numeração e quem imprime</h3>\n<p>Até 2025 a Notificação A era impressa e entregue pela Vigilância Sanitária, com carimbo nas folhas. Isso mudou. Desde 13 de fevereiro de 2026, data de vigência da RDC 1.000/2025, <strong>todos os talonários de controlados podem ser impressos em gráfica pelo próprio prescritor ou pela instituição, à sua custa</strong>, seguindo o modelo oficial do portal da Anvisa (Portaria 344, arts. 40 e 45, redação da RDC 1.000/2025). O que continua obrigatório é a <strong>numeração fornecida pela autoridade sanitária local</strong>, que desde 1º de julho de 2025 é gerada no SNCR.</p>\n<ul>\n<li><strong>Notificação A e talidomida</strong>: o prescritor se cadastra na VISA, recebe a numeração pelo SNCR (com comprovante eletrônico) e manda imprimir. A VISA pode continuar imprimindo, se quiser: virou faculdade, não obrigação. Blocos já impressos pela VISA valem por prazo indeterminado (RDC 1.000/2025, art. 19).</li>\n<li><strong>Notificação B, B2 e retinoides</strong>: o profissional retira a numeração na VISA do local do consultório ou da instituição e imprime em gráfica (Portaria 6/1999, art. 75).</li>\n<li><strong>Receita de Controle Especial física</strong>: não tem numeração oficial. Pode usar o modelo da Anvisa ou outro leiaute, desde que traga escrito \"Receita de Controle Especial\" e todos os campos obrigatórios. Receita comum com os dados da RCE não é mais aceita para novas prescrições.</li>\n</ul>\n<p>A numeração do SNCR tem 14 dígitos no padrão AAMM, tipo de notificação, código IBGE da UF e sequencial (exemplo da cartilha da Anvisa: 2509.1-53.0012345). Por isso a sigla da UF deixou de ser um campo impresso separado (RDC 1.000/2025 revogou a alínea \"a\" do art. 36). Numeração física só serve para papel e numeração eletrônica só serve para receita eletrônica.</p>\n<h3>Modelos físicos em circulação</h3>\n<div class=\"tab\"><table><thead><tr><th>Versão</th><th>Período de impressão</th><th>Uso</th></tr></thead><tbody>\n<tr><td>Modelos dos anexos da Portaria 344</td><td>Até 12/02/2026</td><td>Válidos até acabar o estoque já impresso</td></tr>\n<tr><td>Versão 1 dos novos modelos</td><td>13/02/2026 a 17/05/2026</td><td>Válidos até acabar o estoque já impresso</td></tr>\n<tr><td>Versão 2 (vigente)</td><td>Desde 18/05/2026</td><td>Obrigatória para novas impressões</td></tr>\n</tbody></table></div>\n<p>A cartilha da Anvisa para farmácias (setembro de 2026) orienta: usar modelo anterior não é, sozinho, motivo de recusa, desde que tenha sido impresso quando estava vigente. A data de impressão não é campo obrigatório.</p>\n<h3>Campos obrigatórios da Notificação de Receita</h3>\n<p>O art. 36 da 344, com a redação da RDC 1.000/2025, lista os campos. Os itens de numeração e de identificação do emitente vêm impressos; o restante é preenchido pelo prescritor e, no verso ou por carimbo, pela farmácia.</p>\n<ul>\n<li>Identificação numérica: sequência concedida pela autoridade sanitária.</li>\n<li>Emitente: nome do profissional, inscrição no conselho com a sigla da UF, endereço completo e telefone; ou nome da instituição, CNPJ (ou CNES, se pública), endereço e telefone. O endereço do consultório ou da residência do profissional é obrigatório nos modelos da versão 2 (Lei 5.991/1973, art. 35).</li>\n<li>Paciente: nome e <strong>CPF</strong>, ou passaporte se estrangeiro; no uso veterinário, nome e CPF do proprietário e identificação do animal. Sem CPF, o prescritor pode anotar \"não possui\" (Perguntas e Respostas da Anvisa sobre a RDC 1.000/2025). Os modelos da versão 2 trazem também o endereço do paciente.</li>\n<li>Medicamento ou substância pela DCB, dosagem ou concentração, forma farmacêutica, <strong>quantidade em algarismos arábicos e por extenso</strong> e posologia.</li>\n<li>Símbolo de gestante cortada ao meio e a advertência sobre defeitos no feto, nas notificações de retinoides.</li>\n<li>Data da emissão e assinatura do prescritor (se o nome não estiver impresso, identificação legível ou carimbo).</li>\n<li>Identificação do comprador: nome e CPF, ou passaporte; endereço completo e telefone.</li>\n<li>Identificação do estabelecimento dispensador: nome, CNPJ (ou CNES), endereço, nome do responsável pela dispensação e data.</li>\n<li>Identificação da gráfica: nome, endereço e CNPJ no rodapé.</li>\n<li>Quantidade aviada anotada no verso e, em fórmula magistral, o número de registro da receita.</li>\n</ul>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>A Notificação é <strong>personalizada e intransferível</strong> e contém uma única substância ou um único medicamento (Portaria 344, art. 35, § 7º). Precisa estar legível, sem emenda ou rasura, com a quantidade em algarismos e por extenso (§ 3º). A farmácia só dispensa com todos os itens preenchidos (§ 4º). A notificação fica retida e a receita que a acompanha volta ao paciente carimbada (§ 5º).</p></div>\n<h3>Notificação de Receita A</h3>\n<p>Cor amarela, para as listas A1, A2 e A3. Vale 30 dias a partir da emissão em todo o território nacional (art. 41, redação da RDC 873/2024). Pode conter até 5 ampolas ou, nas demais formas, a quantidade para 30 dias de tratamento (art. 43). Acima disso, o prescritor entrega justificativa com CID ou diagnóstico, posologia, data e assinatura, e a farmácia a envia junto com a notificação à VISA na Relação Mensal de Notificações de Receita A (art. 43, §§ 1º e 2º). Quando em papel, a notificação vem acompanhada de receita (art. 35).</p>\n<h3>Notificação de Receita B e B2</h3>\n<p>Cor azul. A <strong>B</strong> serve à lista B1: 30 dias em todo o território (art. 45, redação da RDC 1.000/2025), até 5 ampolas ou 60 dias de tratamento (art. 46). A <strong>B2</strong> é a notificação dos anorexígenos (RDC 58/2007): até 30 dias de tratamento, com exceção da sibutramina, que pode chegar a 60 dias (RDC 50/2014, art. 5º, §§ 1º e 2º). Os medicamentos da RDC 50/2014 têm dose diária máxima (sibutramina 15 mg/dia; anfepramona 120 mg/dia; femproporex 50 mg/dia; mazindol 3 mg/dia) e exigem <strong>Termo de Responsabilidade do Prescritor</strong> em 3 vias: prontuário, farmácia e paciente (art. 6º). É proibido associar anorexígenos entre si ou com ansiolíticos, diuréticos, hormônios, laxantes e outras substâncias (Portaria 344, art. 47).</p>\n<h3>Notificação de Receita Especial para retinoides</h3>\n<p>Cor branca, para retinoides de <strong>uso sistêmico</strong> da lista C2 (isotretinoína, acitretina, bexaroteno). Vale 30 dias em todo o território e cobre até 5 ampolas ou 30 dias de tratamento (art. 50, redação da RDC 873/2024). É acompanhada do Termo de Consentimento Pós-Informação (anexos XV e XVI da 344), que pode ser eletrônico com assinatura avançada (art. 50, § 3º). A cartilha da Anvisa indica termo em 3 vias, uma retida pela farmácia. No modelo novo não há mais o campo \"tratamento inicial ou subsequente\" nem a substância pré-impressa: o prescritor escreve o nome.</p>\n<h3>Notificação de Receita de Talidomida</h3>\n<p>Cor branca, em 2 vias, regida pela RDC 11/2011. Vale 20 dias em todo o território (art. 21, § 2º, redação da RDC 873/2024) e cobre no máximo 30 dias de tratamento (§ 3º). Só pode conter talidomida e vem com o Termo de Responsabilidade/Esclarecimento em 3 vias (prontuário, unidade dispensadora, paciente). A talidomida não tem venda comercial; a dispensação ocorre apenas em unidades públicas credenciadas, o que tira esse modelo da rotina da drogaria. Mesmo assim cai em prova.</p>\n<h3>Receita de Controle Especial</h3>\n<p>Branca, em 2 vias: a 1ª fica retida na farmácia e a 2ª volta ao paciente com o carimbo do atendimento (Portaria 344, arts. 52 e 53; Portaria 6/1999, art. 84). Vale 30 dias em todo o território. Até 3 substâncias da C1 por receita (art. 57), cada uma limitada a 5 ampolas ou 60 dias; antiparkinsonianos e anticonvulsivantes, até 6 meses (art. 59). Acima disso, justificativa com CID ou diagnóstico e posologia, datada e assinada nas duas vias (art. 60). Serve para C1, C5 e para os adendos que mandam usar RCE (codeína, tramadol, fenobarbital e outros).</p>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"A Notificação de Receita é personalizada e intransferível, devendo conter somente uma substância das listas [...] ou um medicamento que as contenham.\" (Portaria SVS/MS 344/1998, art. 35, § 7º)</p></div>\n<h3>Receita eletrônica de controlados</h3>\n<p>A RDC 1.000/2025 permite emitir em meio eletrônico as Notificações A, B e B2, a de retinoides, a de talidomida, a RCE e a receita sujeita à retenção (art. 2º). As regras centrais:</p>\n<ul>\n<li>Emissão só em serviço de prescrição eletrônica integrado ao SNCR por API; serviço não integrado não pode emitir (art. 4º).</li>\n<li>Cada receita tem numeração individual concedida pelo SNCR e segue o modelo eletrônico da Anvisa (art. 7º). Para notificações, o prescritor pede a cota de numeração eletrônica à VISA; o serviço de prescrição consome essa cota. Para RCE e receita sujeita à retenção, o SNCR gera o número automaticamente.</li>\n<li>Notificação e RCE eletrônicas exigem <strong>assinatura qualificada ICP-Brasil</strong> (art. 8º; Lei 14.063/2020, art. 13). Receita sujeita à retenção aceita assinatura avançada, como a do gov.br (art. 11).</li>\n<li>A notificação eletrônica dispensa a receita que acompanhava a de papel (art. 9º). RCE e receita de retenção eletrônicas não têm duas vias (art. 10).</li>\n<li>A data da assinatura eletrônica é a data de emissão, de onde conta a validade (art. 12).</li>\n<li>Papel escaneado, foto de receita ou documento físico assinado digitalmente depois <strong>não</strong> são receita eletrônica (art. 2º, parágrafo único).</li>\n</ul>\n<p>O SNCR passou a oferecer a numeração eletrônica e o registro de uso em 30 de setembro de 2026 (art. 16, redação da RDC 1.028, de 1º de junho de 2026). Antes dessa data só RCE e receita de retenção podiam ser eletrônicas; as notificações eram apenas em papel. Pelo art. 18, RCE e receita de retenção eletrônicas sem número do SNCR ainda foram aceitas por 30 dias a partir dessa data, ou seja, até o fim de outubro de 2026; uma receita assim emitida dentro da janela continua dispensável enquanto estiver no prazo de validade.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Paciente mostra no celular uma \"Notificação B\" em PDF. Antes de tudo, confirme se é nato-digital: tem número do SNCR, QR Code e assinatura ICP-Brasil validável no Validar do ITI. Se for foto de um talão azul, não é receita eletrônica e não pode ser aceita; peça a via original em papel.</p></div>\n<h3>Receita de emergência</h3>\n<p>Em emergência, medicamento sujeito a notificação pode ser aviado com receita em papel não oficial, desde que traga diagnóstico ou CID, justificativa do caráter emergencial, data, inscrição no conselho e assinatura identificada. A farmácia anota a identificação do comprador e apresenta a receita à VISA em até 72 horas para visto (art. 36, § 2º). A regra existe também para a C1 (art. 55, § 2º). A RDC 1.000/2025 manteve essa via só para o papel e deixou claro que ela não substitui a obtenção regular de numeração.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Médica prescreve clonazepam 2 mg, 1 comprimido à noite, 90 comprimidos, em Notificação B. São 90 dias de tratamento, acima do limite de 60 dias. Sem justificativa com CID ou diagnóstico, data e assinatura entregue junto (art. 46, § 1º), a farmácia não deve dispensar a quantidade integral. Com a justificativa, a dispensação dos 90 comprimidos é regular.</p></div>\n"
+  },
+  {
+   "id": "m02-dispensacao",
+   "titulo": "Dispensação de controlados no balcão",
+   "resumo": "\n<p>Dispensar um controlado é uma sequência de conferências. Cada etapa tem base normativa, e o erro em qualquer uma delas transforma a venda em infração sanitária (Lei 6.437/1977, art. 10, XI). A ordem abaixo segue a lógica da cartilha da Anvisa para farmácias (setembro de 2026) e os arts. 35, 36, 52 e 55 da Portaria 344.</p>\n<h3>Conferência passo a passo</h3>\n<ol>\n<li><strong>Identificar o medicamento e a lista.</strong> DCB, concentração por unidade, forma farmacêutica e adendo. Isso define o receituário exigido.</li>\n<li><strong>Conferir o tipo de documento.</strong> Notificação da cor e do modelo certos; RCE identificada como \"Receita de Controle Especial\". Receita comum não serve para medicamento da 344 (Perguntas e Respostas da Anvisa, 2ª edição, perguntas 67 e 68).</li>\n<li><strong>Verificar o modelo.</strong> Modelo antigo, versão 1 ou versão 2, desde que impresso no período em que estava vigente.</li>\n<li><strong>Conferir a numeração</strong> (notificações). Se tiver o padrão do SNCR, consultar na base nacional: número idêntico, situação \"autorizada\", tipo correto, meio \"físico\" para papel, prescritor ou instituição iguais aos do documento. Numeração anterior ao SNCR não aparece no sistema e isso, sozinho, não invalida.</li>\n<li><strong>Conferir o prescritor.</strong> Nome, conselho e UF, endereço, assinatura. Dentista e veterinário só para uso odontológico ou veterinário.</li>\n<li><strong>Conferir o paciente.</strong> Nome e CPF (ou passaporte; \"não possui\" é aceito). No uso veterinário, proprietário e animal.</li>\n<li><strong>Conferir a prescrição.</strong> DCB ou nome do medicamento, concentração, forma, quantidade em algarismos e por extenso, posologia. Uma substância por notificação; até três na RCE.</li>\n<li><strong>Conferir data e validade.</strong> Contar os dias a partir da emissão (no eletrônico, da assinatura).</li>\n<li><strong>Conferir a quantidade.</strong> Dentro do limite de dias ou ampolas, ou acompanhada de justificativa.</li>\n<li><strong>Conferir exigências específicas.</strong> Termos (retinoides, B2, talidomida, fenfluramina), receita que acompanha a notificação em papel, restrições de local (cetamina e escetamina só em estabelecimento de saúde; misoprostol só hospitalar).</li>\n<li><strong>Identificar o comprador</strong> com documento.</li>\n<li><strong>Dispensar, anotar, carimbar, reter e escriturar.</strong></li>\n</ol>\n<h3>Rasura, legibilidade e quantidade</h3>\n<p>A Notificação e a RCE devem estar legíveis, com quantidade em algarismos arábicos e por extenso, <strong>sem emenda ou rasura</strong> (art. 35, § 3º; art. 52, § 1º). Divergência entre o número e o extenso, corretivo, letra sobreposta ou campo em branco impedem a dispensação, porque a farmácia só pode aviar com todos os itens preenchidos (art. 35, § 4º; art. 52, § 2º). Não cabe ao balconista completar ou corrigir: o paciente volta ao prescritor.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Dispensar notificação rasurada, ilegível ou incompleta é aviar receita em desacordo com a norma, infração prevista na Lei 6.437/1977 (art. 10, XI), com pena que vai de advertência a cancelamento da licença e multa.</p></div>\n<h3>Identificação do comprador</h3>\n<p>Quem compra pode ser o próprio paciente ou outra pessoa. Na Notificação, a farmácia registra nome e CPF (ou passaporte) do comprador, endereço completo e telefone (art. 36, \"i\"; Portaria 6/1999, art. 82, \"a\"). Na RCE, os dados do comprador e do estabelecimento podem ser apostos por carimbo e preenchidos pela farmácia (Portaria 6/1999, art. 85, \"c\"). Peça documento oficial com foto e confira com o que será escrito. Em receita eletrônica, o SNCR exige CPF válido do comprador para registrar a utilização; estrangeiro sem CPF não consegue comprar com receita puramente eletrônica e deve trazer receita em papel (Perguntas e Respostas, 2ª edição, pergunta 73).</p>\n<h3>Carimbo, verso e destino das vias</h3>\n<p>Os modelos novos tiraram do corpo da notificação os campos do estabelecimento dispensador: tudo vai para o verso ou para o carimbo. A Portaria 6/1999, art. 82, define o que a farmácia registra:</p>\n<ul>\n<li>carimbo do estabelecimento com CNPJ (ou CNES), nome e endereço completo, data e nome legível do responsável pelo atendimento abaixo do carimbo;</li>\n<li>carimbo próprio no verso com a <strong>quantidade dispensada</strong> e, em fórmula magistral, o número de registro da receita;</li>\n<li>para medicamento genérico, o nome do fabricante no campo de dispensação da RCE (Perguntas e Respostas, 1ª edição, pergunta 33).</li>\n</ul>\n<div class=\"tab\"><table><thead><tr><th>Documento</th><th>Fica na farmácia</th><th>Volta ao paciente</th></tr></thead><tbody>\n<tr><td>Notificação em papel (A, B, B2, retinoides)</td><td>A notificação</td><td>A receita que a acompanha, carimbada</td></tr>\n<tr><td>Receita de Controle Especial em papel</td><td>1ª via</td><td>2ª via, carimbada</td></tr>\n<tr><td>Termo da RDC 50/2014 (B2)</td><td>1 via</td><td>1 via (a outra fica no prontuário)</td></tr>\n<tr><td>Termo de retinoides (3 vias)</td><td>1 via</td><td>Demais vias conforme o termo</td></tr>\n<tr><td>Receita eletrônica com número SNCR</td><td>Registro de utilização no SNCR, guardado em meio eletrônico</td><td>O arquivo continua com o paciente, já marcado como utilizado</td></tr>\n</tbody></table></div>\n<h3>Receita de outra UF</h3>\n<p>Desde a RDC 873/2024 não há visto para receita de outro estado: a Notificação A, a de retinoides e a RCE valem em todo o país, e a RDC 1.000/2025 estendeu a redação à Notificação B. A Anvisa reforça que prescrições de outros municípios e estados, inclusive de sistemas públicos como o e-SUS, seguem os mesmos critérios das locais (Perguntas e Respostas, 2ª edição, pergunta 72). Normas estaduais complementares podem existir; o Ofício 39/2019 da Anvisa admite que o estado aplique regras próprias desde que não inviabilizem a validade nacional.</p>\n<h3>Emergência, internação e entrega remota</h3>\n<ul>\n<li><strong>Emergência</strong>: receita em papel não oficial com CID ou diagnóstico, justificativa, data, inscrição e assinatura; a farmácia anota o comprador e leva à VISA em 72 horas (art. 36, § 2º; art. 55, § 2º).</li>\n<li><strong>Paciente internado</strong>: dispensa a notificação; vale a prescrição do estabelecimento (art. 35, § 6º). Na alta, volta a exigência do receituário próprio.</li>\n<li><strong>Entrega remota</strong>: permitida pela RDC 812/2023 (arts. 34-A e 34-B da 344). A farmácia busca a notificação ou a RCE no endereço do paciente, ou recebe a receita eletrônica, e só entrega o medicamento depois que o farmacêutico confere a regularidade. Compra e venda de controlados pela internet continuam proibidas (art. 34-B, § 1º).</li>\n</ul>\n<h3>Quantidade dispensada e fracionamento</h3>\n<p>A farmácia dispensa até a quantidade prescrita e registra no verso o que entregou. A drogaria não fraciona embalagem de controlado (Portaria 344, art. 79; Portaria 6/1999, art. 109, § 1º); injetável pode ser dispensado pelo número de unidades da prescrição (art. 109, § 2º). Fracionamento só em farmácia, por farmacêutico, conforme legislação específica (art. 110). Notificação e RCE são de <strong>uso único</strong>: retida a via, não há saldo para buscar depois, e o SNCR não admite registro parcelado de notificação ou RCE eletrônica (Perguntas e Respostas, 2ª edição, pergunta 74).</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>RCE de escitalopram 10 mg, 1 comprimido ao dia, 60 comprimidos. A loja tem só caixas de 30. O farmacêutico dispensa 2 caixas (60 comprimidos), anota \"60 comprimidos\" no verso da 1ª via, carimba as duas vias, retém a 1ª e devolve a 2ª. Se o paciente quisesse levar só uma caixa, a 1ª via seria retida do mesmo jeito e a segunda caixa exigiria nova receita.</p></div>\n<h3>Devolução e troca</h3>\n<p>Medicamento controlado que saiu da farmácia não volta para o estoque de venda. A orientação do CFF ao divulgar a retomada do SNGPC é que troca e devolução de controlados não são permitidas, salvo desvio de qualidade comprovado. Quando o tratamento é interrompido, a Portaria 6/1999 (art. 90) prevê que o paciente entregue as sobras à Vigilância Sanitária, que dá o destino (inutilização ou doação). Na prática, oriente o paciente a procurar a VISA ou o ponto de descarte indicado por ela.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Antes de recusar uma receita, diga ao cliente exatamente o que está errado e o que ele deve pedir ao prescritor (\"falta a quantidade por extenso\", \"a validade venceu ontem\", \"esta substância exige notificação azul\"). A recusa bem explicada evita a ida a outra farmácia com o mesmo documento irregular e protege o paciente.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Rapaz de 19 anos traz Notificação A de metilfenidato 10 mg emitida há 32 dias, em nome da mãe, com CPF dela. A notificação venceu (30 dias, art. 41). O fato de o comprador ser outra pessoa não é problema: basta registrar os dados dele. A dispensação deve ser recusada pelo vencimento, com orientação para nova consulta.</p></div>\n"
+  },
+  {
+   "id": "m02-escrituracao",
+   "titulo": "Escrituração, guarda e inventário",
+   "resumo": "\n<p>Dispensar é metade do controle. A outra metade é provar, a qualquer momento, que o estoque físico de cada controlado bate com o que entrou, saiu e foi perdido. A Portaria 344 trata disso nos capítulos de escrituração (VI), guarda (VII) e balanços (VIII); a RDC 22/2014 trouxe a escrituração para o SNGPC; e a Portaria 6/1999 detalha a rotina e a troca de responsável técnico.</p>\n<h3>Guarda</h3>\n<p>Substâncias e medicamentos das listas devem ficar <strong>sob chave ou outro dispositivo que ofereça segurança, em local exclusivo</strong>, sob responsabilidade do farmacêutico (Portaria 344, art. 67). Na drogaria isso significa armário ou sala trancados, de uso só para controlados, com a chave sob controle do farmacêutico. O local de guarda da talidomida deve armazenar exclusivamente substâncias ou medicamentos sujeitos a controle especial (RDC 11/2011).</p>\n<ul>\n<li>Controlado não fica em gôndola, vitrine nem no balcão de atendimento.</li>\n<li>A chave não circula entre atendentes sem controle do farmacêutico.</li>\n<li>Medicamento vencido, avariado ou recolhido sai do estoque de venda, mas continua sob chave, segregado e identificado, até a destinação.</li>\n</ul>\n<div class=\"cx alerta\"><b>Atenção</b><p>Controlado fora do armário, sem nota fiscal ou documento hábil, pode ser apreendido, e o portador responde administrativamente (Portaria 344, art. 33). Nas listas A, B e D1, a VISA encaminha cópia do processo à autoridade policial.</p></div>\n<h3>Responsabilidade técnica</h3>\n<p>A escrituração é de responsabilidade do farmacêutico responsável técnico ou do substituto cadastrado e associado no SNGPC (RDC 22/2014, art. 10, § 1º). O RT pode delegar a digitação a terceiros, sob sua responsabilidade, mas a geração e o envio dos arquivos são funções dele (art. 18). A senha é pessoal e intransferível; o uso indevido recai sobre o RT e o responsável legal (art. 7º).</p>\n<p>A troca de RT tem rito próprio. O farmacêutico que sai apresenta à VISA o levantamento do estoque de controlados até o último dia de trabalho (Portaria 6/1999, art. 113). No SNGPC, a substituição é precedida da finalização do inventário; o novo RT confere o inventário, corrige divergências antes de começar e informa a VISA (RDC 22/2014, art. 12). Na ausência do RT sem substituto, as transmissões continuam com arquivos sem movimentação de controlados ao fim do período (art. 11).</p>\n<h3>Livros e escrituração eletrônica</h3>\n<p>O texto original da 344 exige Livro de Registro Específico para farmácias e drogarias e Livro de Receituário Geral para farmácias magistrais, com termos de abertura e encerramento lavrados pela VISA (arts. 62 e 63). Cada página do livro registra uma só substância ou medicamento, pela DCB combinada com o nome comercial, em ordem cronológica de estoque, entradas, saídas e perdas (arts. 63, § 3º, e 65). A escrituração deve ser legível, sem rasuras, atualizada semanalmente (art. 64, § 1º).</p>\n<p>Para farmácias e drogarias, a RDC 22/2014 substituiu o livro pela escrituração no SNGPC (art. 35). O livro só sobrevive em exceções: município sem acesso à internet, com autorização da VISA (art. 35, § 1º); e, no sistema informatizado da loja, apresentações fracionáveis e medicamentos com inconsistência cadastral (§ 3º). As farmácias públicas que dispensam com ressarcimento, como as do Farmácia Popular, escrituram antimicrobianos em livro ou sistema aprovado pela VISA em até 7 dias (RDC 471/2021, art. 15, redação da RDC 973/2025).</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>O estoque físico de cada controlado deve ser <strong>qualitativa e quantitativamente idêntico</strong> ao escriturado no SNGPC e no sistema da loja, respeitado o prazo de escrituração (RDC 22/2014, art. 15). Todo estoque movimentado deve estar escriturado, comercializável ou não (art. 16).</p></div>\n<h3>Balanços e relações</h3>\n<p>A 344 ainda prevê documentos periódicos enviados à VISA. Na drogaria, dois interessam:</p>\n<div class=\"tab\"><table><thead><tr><th>Documento</th><th>Conteúdo</th><th>Prazo na Portaria 344</th></tr></thead><tbody>\n<tr><td>BMPO (Balanço de Medicamentos Psicoativos e Outros Sujeitos a Controle Especial)</td><td>Vendas de medicamentos das listas A1, A2, A3 e B2</td><td>Trimestral, até o dia 15 de abril, julho, outubro e janeiro; anual até 31 de janeiro (art. 69)</td></tr>\n<tr><td>RMNRA (Relação Mensal de Notificações de Receita A)</td><td>Notificações A retidas, entregues com as próprias notificações</td><td>Mensal, até o dia 15; VISA devolve as notificações em 30 dias (art. 72)</td></tr>\n</tbody></table></div>\n<p>Esses artigos continuam no texto da 344, e a própria Anvisa, no Perguntas e Respostas de 2026, fala em \"balanços periódicos\" das listas A e B2 e admite que a VISA local peça vias impressas ou relatórios das receitas eletrônicas para conferi-los. A forma de entrega (papel, sistema estadual, relatório do SNGPC) varia entre as VISAs. Confirme a rotina com a vigilância do seu município. A falta de remessa no prazo é infração (art. 73). Notificações A eletrônicas podem ser enviadas à VISA em meio eletrônico (art. 72, § 2º-A, incluído pela RDC 1.000/2025).</p>\n<h3>Prazos de guarda</h3>\n<ul>\n<li>Livros, balanços e demais documentos de movimentação de estoque: <strong>2 anos</strong> no estabelecimento (Portaria 344, art. 64). Inclui notificações e RCE retidas.</li>\n<li>Cópia de segurança da escrituração do SNGPC: 2 anos (RDC 22/2014, art. 19, I).</li>\n<li>Registros de utilização de receitas eletrônicas: em meio eletrônico, pelo prazo da 344 e da RDC 11/2011, disponíveis à fiscalização (RDC 1.000/2025, art. 14).</li>\n<li>Talidomida: prazos maiores da RDC 11/2011 (livro da unidade pública dispensadora).</li>\n</ul>\n<h3>Perda, furto e roubo</h3>\n<p>O SNGPC trata como <strong>perda</strong> a saída por vencimento, apreensão ou recolhimento pela VISA, roubo ou furto, avaria, desvio de qualidade, exclusão da lista, amostra para controle de qualidade ou análise fiscal e devolução ao fabricante (RDC 22/2014, art. 5º, XXIV). Cada uma é escriturada como perda, com o motivo.</p>\n<ul>\n<li><strong>Furto ou roubo de medicamento</strong>: registrar boletim de ocorrência, comunicar a VISA, escriturar a perda com o motivo e guardar o B.O. como justificativa. A Portaria 6/1999 lista o boletim de ocorrência entre as justificativas de perda por extravio.</li>\n<li><strong>Furto, roubo ou extravio de talonário de notificação</strong>: obrigação do responsável (prescritor ou instituição) de informar imediatamente a VISA com o B.O. (Portaria 344, art. 39). Se a farmácia souber do fato, a VISA também costuma divulgar a numeração cancelada. No SNCR, número cancelado aparece como \"cancelada\" e não pode ser usado.</li>\n</ul>\n<h3>Vencidos e inutilização</h3>\n<p>O medicamento controlado vencido é baixado como perda por vencimento e segregado sob chave. A Portaria 6/1999 cita o termo de inutilização expedido pela VISA entre os documentos que justificam a perda. A destinação final segue o plano de gerenciamento de resíduos do estabelecimento e a orientação da VISA local, que em muitos municípios exige comunicação prévia ou termo para inutilizar controlados. Não descarte em lixo comum nem devolva ao distribuidor sem documento fiscal.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Faça contagem cega dos controlados de maior giro (clonazepam, alprazolam, zolpidem, metilfenidato) com frequência fixa, por exemplo semanal, e compare com o saldo do sistema. Divergência descoberta cedo tem explicação rastreável: nota não lançada, receita escriturada com quantidade errada, perda não registrada.</p></div>\n\n<h3>Inventário na prática</h3>\n<p>Inventário é a contagem física de todo o estoque de controlados e antimicrobianos, item a item, por lote e validade. Ele aparece em três momentos obrigatórios: no credenciamento do SNGPC (inventário inicial), na troca de responsável técnico (finalização pelo que sai e conferência pelo que entra) e no retorno às transmissões depois de um período de suspensão, quando a orientação divulgada pelo CFF foi fechar o inventário anterior e abrir um novo com contagem física. Além desses, a contagem periódica por amostragem é a ferramenta de controle interno.</p>\n<ol>\n<li>Escolher um horário sem movimento e suspender as dispensações de controlados durante a contagem.</li>\n<li>Imprimir do sistema a posição de estoque por produto, lote e validade.</li>\n<li>Contar sem olhar o saldo do sistema (contagem cega), de preferência em dupla.</li>\n<li>Comparar e investigar cada divergência: notas fiscais não lançadas, receitas escrituradas com erro, perdas não baixadas.</li>\n<li>Corrigir os lançamentos que tiverem documento; o que não tiver explicação segue o caminho de perda, com boletim de ocorrência e comunicação à VISA quando houver suspeita de desvio.</li>\n<li>Assinar e arquivar a folha de contagem com data e responsáveis.</li>\n</ol>\n<p>Vencidos, avariados e recolhidos entram na contagem, porque continuam no estoque escriturado até a baixa como perda.</p>\n<h3>Encerramento de atividades</h3>\n<p>Ao fechar a loja, o estabelecimento entrega os controlados à VISA com relação em 2 vias (quantidades, lotes, validades) ou transfere a outro estabelecimento por nota fiscal visada pela VISA do remetente; nota ao consumidor não serve (Portaria 6/1999, art. 115). Pela RDC 22/2014 (art. 13), a transferência por encerramento, mudança de atividade ou junção é escriturada no SNGPC, e quem recebe escritura a entrada pela nota do estabelecimento que encerrou.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Na contagem de segunda-feira faltam 2 caixas de alprazolam 1 mg. O farmacêutico revisa as dispensações e acha uma Notificação B escriturada como 1 caixa quando foram entregues 3. Corrige o lançamento no sistema e no SNGPC dentro do prazo e registra a correção. Se a diferença não tivesse explicação, o caminho seria boletim de ocorrência, comunicação à VISA e escrituração da perda.</p></div>\n"
+  },
+  {
+   "id": "m02-sngpc",
+   "titulo": "SNGPC",
+   "resumo": "\n<p>O <strong>Sistema Nacional de Gerenciamento de Produtos Controlados (SNGPC)</strong> é o sistema da Anvisa em que farmácias e drogarias escrituram eletronicamente a movimentação de medicamentos da Portaria 344 e de antimicrobianos. Ele substitui o livro de registro e permite à vigilância acompanhar, quase em tempo real, quanto de cada controlado entra e sai de cada loja.</p>\n<h3>Histórico curto</h3>\n<ul>\n<li><strong>2007</strong>: criado pela RDC 27/2007 para farmácias e drogarias.</li>\n<li><strong>2011</strong>: antimicrobianos passam a ser escriturados, com a RDC 20/2011 (hoje substituída pela RDC 471/2021).</li>\n<li><strong>2014</strong>: a RDC nº 22, de 29 de abril de 2014, revoga a RDC 27/2007 e passa a regular o sistema. Continua vigente.</li>\n<li><strong>2021</strong>: por instabilidade técnica, a RDC 586/2021 suspende por tempo indeterminado os prazos de transmissão. As farmácias continuam obrigadas a escriturar nos registros internos.</li>\n<li><strong>2025 e 2026</strong>: a Anvisa restabelece a transmissão obrigatória por região: Sudeste desde 1º/09/2025; Sul e Norte desde 1º/11/2025; Centro-Oeste e Nordeste desde 02/01/2026. Em 2025 o sistema ganhou o campo de inscrição no Coren para antimicrobianos prescritos por enfermeiro com amparo legal.</li>\n</ul>\n<p>Em outubro de 2026, portanto, <strong>a transmissão é obrigatória em todo o país</strong>, e o descumprimento do cronograma é infração sanitária. A Anvisa não divulgou cronograma de integração entre SNGPC e SNCR (Perguntas e Respostas sobre a RDC 1.000/2025, 2ª edição).</p>\n<h3>Abrangência</h3>\n<p>O SNGPC abrange os medicamentos sujeitos a controle especial da Portaria 344 e os antimicrobianos da RDC 471/2021, cuja lista está na IN nº 360, de 23 de abril de 2025 (RDC 22/2014, art. 2º). Todas as farmácias e drogarias são obrigadas (art. 3º). Farmácias públicas e de hospital ficam fora enquanto não houver módulo específico (art. 3º, parágrafo único). O adendo 14 da C1 é um exemplo de exceção pontual: molnupiravir apenas com autorização de uso emergencial fica fora do SNGPC e vai para livro.</p>\n<h3>Acesso e credenciamento</h3>\n<ol>\n<li>Cadastro do estabelecimento, do gestor de segurança, do farmacêutico RT e do responsável legal na Anvisa (art. 6º).</li>\n<li>Acesso por senha pessoal e intransferível (art. 7º).</li>\n<li><strong>Inventário inicial</strong>: o RT declara todo o estoque de controlados e antimicrobianos em arquivo XML; isso credencia o estabelecimento (arts. 5º, XIX, e 8º).</li>\n<li>Emissão do <strong>Certificado de Escrituração Digital</strong>, que fica impresso à disposição da fiscalização (art. 9º).</li>\n</ol>\n<p>O <strong>Certificado de Transmissão Regular</strong> é o documento que a VISA e as distribuidoras podem pedir para atestar que a loja transmite em dia (art. 5º, VI). Algumas VISAs já o exigem na renovação da licença sanitária.</p>\n<h3>Regras de transmissão</h3>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"Os dados da escrituração sanitária devem ser transmitidos eletronicamente em arquivos no intervalo de, no mínimo, 1 (um) e, no máximo, 7 (sete) dias consecutivos, ainda que nenhuma movimentação no estoque do estabelecimento tenha ocorrido no respectivo período.\" (RDC 22/2014, art. 10, § 3º)</p></div>\n<ul>\n<li>A transmissão é atualizada no mínimo uma vez por semana (art. 10, § 4º).</li>\n<li>Semana sem movimento também gera arquivo.</li>\n<li>Um arquivo novo só pode ser enviado depois que o anterior estiver \"aceito\" (a sequência é recebido, validado, aceito).</li>\n<li>Inconsistência que impeça o envio é notificada no próprio SNGPC; enquanto isso, as movimentações ficam no sistema da loja (art. 14).</li>\n<li>Instabilidade do próprio SNGPC não gera autuação por atraso (art. 33).</li>\n</ul>\n<h3>O que se escritura</h3>\n<p>Entradas (compra, transferência entre lojas da mesma raiz de CNPJ), saídas (venda ou dispensação, transferência, perda) e, nas farmácias de manipulação, transformação. Para insumos, o lote do fabricante (art. 10, § 5º). Na venda, os dados da receita: tipo, número, data, prescritor e conselho, paciente, comprador, medicamento, lote e quantidade. Na receita eletrônica a Anvisa manda informar o número do receituário no mesmo campo usado para o papel (Perguntas e Respostas, pergunta 35 da 2ª edição). O campo de número da notificação no leiaute XML aceita até 10 caracteres e o número do SNCR tem 14; o CFF divulgou a orientação de excluir os quatro primeiros dígitos (ano e mês) ao lançar números do SNCR. Siga o leiaute vigente do sistema da loja e a orientação da VISA.</p>\n<h3>Rotina diária e semanal</h3>\n<div class=\"tab\"><table><thead><tr><th>Quando</th><th>O que fazer</th></tr></thead><tbody>\n<tr><td>A cada dispensação</td><td>Lançar no sistema da loja os dados da receita, do comprador, lote e quantidade; conferir antes de salvar</td></tr>\n<tr><td>Ao receber mercadoria</td><td>Lançar a entrada pela nota fiscal, com lote e validade, no mesmo dia</td></tr>\n<tr><td>Diariamente</td><td>Revisar pendências e inconsistências; separar receitas retidas do dia por tipo</td></tr>\n<tr><td>Até 7 dias do último envio</td><td>Gerar o XML, transmitir e acompanhar até \"aceito\"</td></tr>\n<tr><td>Semanalmente</td><td>Contagem por amostragem dos itens de maior giro e comparação com o saldo</td></tr>\n<tr><td>Mensalmente</td><td>Conferir arquivamento das receitas; RMNRA quando exigida pela VISA</td></tr>\n<tr><td>Troca de RT</td><td>Finalizar inventário; novo RT confere e corrige antes de transmitir</td></tr>\n</tbody></table></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Lance a dispensação no momento do atendimento, com a receita na mão. Deixar para o fim do dia é a origem mais comum de quantidade errada, comprador trocado e lote inexistente. Se perceber erro depois de transmitido, corrija pelo procedimento do sistema e registre o motivo.</p></div>\n<h3>Sigilo dos dados</h3>\n<p>O sistema da loja deve garantir sigilo, integridade, autenticidade e disponibilidade, e é vedado repassar a terceiros dados capazes de identificar padrões de prescrição, dispensação ou consumo (RDC 22/2014, art. 21). Vender ou ceder relatórios de prescrição por médico, por exemplo, é proibido. A LGPD (Lei 13.709/2018) se soma a essa regra.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Drogaria de Fortaleza transmitiu o último arquivo numa quinta-feira e só voltou a transmitir na sexta da semana seguinte: 8 dias. Mesmo sem venda de controlado no período, o arquivo deveria ter sido enviado até a quinta. Desde 02/01/2026 a obrigatoriedade vale para o Nordeste, e o atraso pode gerar autuação, salvo se a causa for instabilidade comprovada do próprio SNGPC (art. 33).</p></div>\n"
+  },
+  {
+   "id": "m02-sncr",
+   "titulo": "SNCR",
+   "resumo": "\n<p>O <strong>Sistema Nacional de Controle de Receituários (SNCR)</strong> é o sistema da Anvisa que gera, distribui e controla a numeração das receitas de controlados. Ele foi instituído pela <strong>RDC nº 873, de 27 de maio de 2024</strong> (DOU de 03/06/2024), entrou em funcionamento em 18 de julho de 2024 e, desde 1º de julho de 2025, é de uso obrigatório pelas Vigilâncias Sanitárias para gerar a numeração das notificações. Em 30 de setembro de 2026 começou a etapa eletrônica: o SNCR passou a numerar receitas eletrônicas e as farmácias passaram a registrar nele a utilização dessas receitas (RDC 1.000/2025, art. 16, com a data dada pela RDC 1.028/2026).</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>O SNCR controla <strong>a receita</strong> (numeração, autenticidade, uso único). O SNGPC controla <strong>o medicamento</strong> (entradas, saídas, estoque). Os dois coexistem e um não substitui o outro.</p></div>\n<h3>Normas que regem o SNCR</h3>\n<div class=\"tab\"><table><thead><tr><th>Norma</th><th>Data</th><th>O que trouxe</th></tr></thead><tbody>\n<tr><td>RDC 873/2024</td><td>27/05/2024</td><td>Institui o SNCR; numeração nacional; validade nacional da Notificação A, de retinoides e de talidomida; fim do visto para receita de outro estado</td></tr>\n<tr><td>RDC 1.000/2025</td><td>11/12/2025 (DOU 15/12/2025; vigência 13/02/2026)</td><td>Receituários eletrônicos integrados ao SNCR; novos modelos físicos; CPF do paciente; impressão em gráfica pelo prescritor; registro de uso pela farmácia</td></tr>\n<tr><td>RDC 1.028/2026</td><td>01/06/2026 (DOU 02/06/2026)</td><td>Adia para 30/09/2026 a disponibilização das funções eletrônicas</td></tr>\n</tbody></table></div>\n<h3>Para quais receituários vale</h3>\n<ul>\n<li><strong>Notificações físicas (A, B, B2, retinoides, talidomida)</strong>: numeradas pelo SNCR desde 1º/07/2025. A farmácia consulta o número na base nacional para conferir, mas <strong>não registra uso</strong> de receita em papel.</li>\n<li><strong>Notificações eletrônicas</strong>: existem desde 30/09/2026. Número do SNCR, emissão por serviço integrado, consulta e registro de uso obrigatório pela farmácia.</li>\n<li><strong>RCE e receita sujeita à retenção eletrônicas</strong> (antimicrobianos, agonistas do receptor de GLP-1): passaram a receber número automático do SNCR; sem número, só foram aceitas as emitidas até o fim da janela de transição de 30 dias (RDC 1.000/2025, art. 18).</li>\n<li><strong>RCE e receita de retenção em papel</strong>: continuam <strong>sem número</strong> do SNCR.</li>\n</ul>\n<h3>Como o prescritor obtém a numeração</h3>\n<p>Para o papel, o prescritor (ou a instituição) se cadastra na Vigilância Sanitária do local onde atende e pede a numeração. A VISA gera e atribui os números no SNCR; o comprovante eletrônico do sistema formaliza a entrega, sem necessidade de comparecer para carimbar talões (Portaria 344, art. 40, § 4º; Portaria 6/1999, arts. 69, § 3º, e 75, § 2º, redação da RDC 1.000/2025). Depois, ele manda imprimir em gráfica, no modelo oficial. Quem atende em vários estados, inclusive por telemedicina, pede numeração na VISA de cada estado onde atua (Perguntas e Respostas, 2ª edição, pergunta 54).</p>\n<p>Para o eletrônico, o prescritor pede à VISA uma cota de numeração eletrônica de notificações. O serviço de prescrição integrado consome essa cota ao emitir. O prescritor não acessa o SNCR diretamente e não pode digitar um número num modelo e gerar o documento por conta própria: notificação emitida fora de serviço integrado não deve ser aceita (pergunta 49). A emissão é pessoal: instituições e terceiros não emitem em nome do prescritor (RDC 1.000/2025, art. 6º).</p>\n<h3>Situações do número na consulta</h3>\n<div class=\"tab\"><table><thead><tr><th>Situação</th><th>Significado</th><th>Conduta</th></tr></thead><tbody>\n<tr><td>Autorizada</td><td>Número válido e disponível</td><td>Prosseguir com as demais conferências</td></tr>\n<tr><td>Não atribuída ao prescritor</td><td>Número de Notificação A ou talidomida gerado mas não vinculado</td><td>Não dispensar; orientar o prescritor a regularizar com a VISA</td></tr>\n<tr><td>Cancelada</td><td>Cancelada pela VISA (ex.: talão furtado)</td><td>Não dispensar</td></tr>\n<tr><td>Inválida</td><td>Número digitado errado ou fora do padrão</td><td>Redigitar; se for numeração anterior ao SNCR, conferir com a VISA em caso de dúvida</td></tr>\n<tr><td>Receita utilizada</td><td>Receita eletrônica já registrada</td><td>Não dispensar</td></tr>\n<tr><td>Receita utilizada parcialmente</td><td>Só em receita de retenção com parcelamento permitido</td><td>Dispensar o saldo se a norma específica admitir</td></tr>\n</tbody></table></div>\n<p>Fonte: cartilha da Anvisa \"SNCR e receituários controlados\" (setembro de 2026) e Perguntas e Respostas sobre a RDC 1.000/2025.</p>\n<h3>O que a farmácia confere</h3>\n<ol>\n<li>Número idêntico ao do documento.</li>\n<li>Situação \"autorizada\".</li>\n<li>Tipo de receituário igual ao apresentado.</li>\n<li>Meio de emissão: físico para papel, eletrônico para receita eletrônica. Número de um meio não serve no outro.</li>\n<li>Prescritor ou instituição vinculados ao número iguais ao emitente.</li>\n<li>No eletrônico, também: assinatura válida no Validar do ITI (ICP-Brasil para notificação e RCE) e data da assinatura dentro da validade.</li>\n</ol>\n<p>A tela do SNCR não mostra paciente nem prescrição: esses dados continuam sendo conferidos no próprio documento (pergunta 79). \"Autorizada\" não dispensa a conferência da validade e dos campos obrigatórios.</p>\n<h3>Registro de utilização</h3>\n<p>Na dispensação de receita eletrônica, a farmácia valida a assinatura no serviço do ITI, confere a numeração e registra a utilização no SNCR preenchendo todos os campos (RDC 1.000/2025, art. 13). O registro substitui o carimbo e a anotação no verso (Portaria 344, art. 36, § 3º; Portaria 6/1999, art. 82, parágrafo único). A guarda é eletrônica, pelo prazo da 344 (art. 14). Cada receita é usada uma única vez (art. 15). O registro pode ser cancelado pelo mesmo estabelecimento em até 30 minutos. Com o SNCR fora do ar, não há como dispensar receita eletrônica numerada: o paciente aguarda o restabelecimento (pergunta 75).</p>\n<h3>Acesso da farmácia</h3>\n<p>O acesso é pelo Cadastro Anvisa, com login gov.br individual. A farmácia privada é identificada pela <strong>AFE</strong> ativa; o responsável legal atribui aos colaboradores os perfis de farmácia do SNCR. Farmácias públicas e dispensários são identificados pelo CNES (perguntas 58 a 65). Sem AFE publicada no DOU não há acesso nem dispensação. A norma não fixa prazo para o primeiro acesso, mas sem cadastro a loja não consegue atender receita eletrônica.</p>\n\n<h3>Transição das receitas brancas eletrônicas</h3>\n<p>Receita de Controle Especial e receita sujeita à retenção já podiam ser emitidas eletronicamente antes de 30/09/2026, sem número do SNCR. Nesse formato antigo, a farmácia guarda o arquivo eletrônico original e mantém uma cópia impressa só para anotar a dispensação (comprador, fornecedor, quantidade e carimbo). A impressão não transforma a receita em papel: o documento de referência continua sendo o eletrônico. Depois do fim da janela de transição de outubro de 2026, toda nova RCE ou receita de retenção eletrônica precisa ter número do SNCR, com consulta e registro de uso no sistema. Uma receita emitida sem número durante a janela continua válida até o fim do seu prazo; a cartilha da Anvisa dá o exemplo de uma RCE emitida em 02/10/2026 que pode ser dispensada até 01/11/2026.</p>\n<h3>Proteção de dados</h3>\n<p>Receita eletrônica é dado pessoal sensível. Prescritor, plataforma e farmácia são agentes de tratamento pela LGPD (Lei 13.709/2018) e devem limitar o acesso ao necessário para a finalidade sanitária. No balcão isso significa não fotografar a receita no celular pessoal, não encaminhar o arquivo por aplicativo de mensagem fora do fluxo da loja e conceder perfil no SNCR só a quem atende controlados.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Deixe pelo menos dois colaboradores habilitados no SNCR em cada turno, com o farmacêutico sempre entre eles, e um computador ou celular com leitor de QR Code no balcão. Receita eletrônica de controlado que chega sem conferência no SNCR é receita que não pode ser dispensada.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Paciente apresenta Notificação B em papel com número de 14 dígitos. Na consulta, o SNCR mostra \"autorizada\", tipo B, meio eletrônico. A dispensação deve ser recusada: um número destinado ao meio eletrônico não pode estar impresso num talão de papel.</p></div>\n"
+  },
+  {
+   "id": "m02-infracoes",
+   "titulo": "Infrações e penalidades",
+   "resumo": "\n<p>Descumprir a Portaria 344, a RDC 22/2014 ou a RDC 1.000/2025 é infração sanitária. A lei que tipifica as infrações e fixa as penas é a <strong>Lei nº 6.437, de 20 de agosto de 1977</strong>. As próprias normas remetem a ela (RDC 22/2014, art. 39; RDC 50/2014, art. 13; RDC 1.000/2025, art. 26), e a Portaria 344 (art. 73) trata como infração a falta de remessa de balanços e relações no prazo.</p>\n<h3>Infrações mais ligadas a controlados</h3>\n<div class=\"tab\"><table><thead><tr><th>Lei 6.437/1977, art. 10</th><th>Conduta</th><th>Penas previstas</th></tr></thead><tbody>\n<tr><td>Inciso XI</td><td>Aviar receita em desacordo com prescrições médicas ou com determinação expressa de lei e normas regulamentares</td><td>Advertência, interdição, cancelamento de licença e/ou multa</td></tr>\n<tr><td>Inciso XII</td><td>Fornecer ou vender medicamento cuja venda dependa de prescrição sem observar essa exigência</td><td>Advertência, interdição, cancelamento da licença e/ou multa</td></tr>\n<tr><td>Inciso X</td><td>Obstar ou dificultar a ação fiscalizadora</td><td>Advertência, intervenção, interdição, cancelamento de licença e/ou multa</td></tr>\n<tr><td>Inciso XXIX</td><td>Transgredir outras normas legais e regulamentares de proteção da saúde</td><td>Advertência a cancelamento de autorização e/ou multa</td></tr>\n</tbody></table></div>\n<h3>Penalidades e multas</h3>\n<p>O art. 2º lista as penas, aplicadas de forma isolada ou cumulativa: advertência, multa, apreensão, inutilização e interdição de produto, suspensão de vendas, cancelamento de registro, interdição parcial ou total do estabelecimento, cancelamento da autorização de funcionamento e do alvará, entre outras. As multas (art. 2º, § 1º, incluído pela MP 2.190-34/2001):</p>\n<div class=\"tab\"><table><thead><tr><th>Classificação</th><th>Critério (art. 4º)</th><th>Multa</th></tr></thead><tbody>\n<tr><td>Leve</td><td>Infrator beneficiado por circunstância atenuante</td><td>R$ 2.000 a R$ 75.000</td></tr>\n<tr><td>Grave</td><td>Uma circunstância agravante</td><td>R$ 75.000 a R$ 200.000</td></tr>\n<tr><td>Gravíssima</td><td>Duas ou mais agravantes</td><td>R$ 200.000 a R$ 1.500.000</td></tr>\n</tbody></table></div>\n<p>A multa dobra na reincidência (§ 2º) e considera a capacidade econômica do infrator (§ 3º). São agravantes, entre outras: reincidência, infração para obter vantagem pecuniária, dolo ou má-fé, e deixar de agir diante de ato lesivo conhecido (art. 8º). São atenuantes: ação não fundamental para o evento, erro escusável de compreensão, reparação espontânea e infrator primário em falta leve (art. 7º). A reincidência específica permite enquadrar como gravíssima (art. 8º, parágrafo único).</p>\n<h3>Responsabilidade além da multa</h3>\n<ul>\n<li><strong>Empresa e profissionais</strong>: a empresa responde administrativa e civilmente; o RT e o responsável legal podem responder também (RDC 22/2014, art. 39). A VISA pode comunicar o fato ao Conselho Regional de Farmácia (art. 34), o que abre processo ético.</li>\n<li><strong>Penal</strong>: substâncias das listas sem documento hábil são apreendidas e, nas listas A, B e D1, a VISA envia cópia do processo à polícia (Portaria 344, art. 33). Vender ou entregar droga \"em desacordo com determinação legal ou regulamentar\" é conduta descrita no art. 33 da Lei 11.343/2006.</li>\n<li><strong>SNCR</strong>: o serviço de prescrição que descumpre os requisitos tem o acesso suspenso de imediato (RDC 1.000/2025, art. 17).</li>\n</ul>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"São infrações sanitárias: [...] XI - aviar receita em desacordo com prescrições médicas ou determinação expressa de lei e normas regulamentares.\" (Lei 6.437/1977, art. 10, XI)</p></div>\n<h3>Erros comuns que geram autuação</h3>\n<div class=\"tab\"><table><thead><tr><th>Erro</th><th>Norma descumprida</th></tr></thead><tbody>\n<tr><td>Dispensar controlado com receita vencida</td><td>Portaria 344, arts. 41, 45, 50, 52; RDC 11/2011</td></tr>\n<tr><td>Aceitar notificação rasurada, sem quantidade por extenso ou com campo vazio</td><td>Portaria 344, art. 35, §§ 3º e 4º</td></tr>\n<tr><td>Aceitar receita comum para medicamento da 344</td><td>Portaria 344, arts. 35 e 55; Portaria 6/1999, art. 84</td></tr>\n<tr><td>Dispensar zolpidem com RCE (regra anterior a agosto de 2024)</td><td>Anexo I, lista B1</td></tr>\n<tr><td>Dispensar quantidade acima do limite sem justificativa</td><td>Portaria 344, arts. 43, 46, 59 e 60</td></tr>\n<tr><td>Não reter a notificação ou a 1ª via da RCE</td><td>Portaria 344, arts. 35, § 5º, e 53</td></tr>\n<tr><td>Não identificar comprador ou não anotar quantidade no verso</td><td>Portaria 344, art. 36; Portaria 6/1999, art. 82</td></tr>\n<tr><td>Controlado fora do armário com chave</td><td>Portaria 344, art. 67</td></tr>\n<tr><td>Estoque físico diferente do SNGPC</td><td>RDC 22/2014, art. 15</td></tr>\n<tr><td>Atraso de mais de 7 dias na transmissão</td><td>RDC 22/2014, art. 10, §§ 3º e 4º</td></tr>\n<tr><td>Fracionar embalagem de controlado em drogaria</td><td>Portaria 344, art. 79; Portaria 6/1999, art. 109</td></tr>\n<tr><td>Vender controlado pela internet</td><td>Portaria 344, art. 34-B, § 1º</td></tr>\n<tr><td>Dispensar receita eletrônica sem consultar e registrar no SNCR</td><td>RDC 1.000/2025, art. 13</td></tr>\n<tr><td>Não arquivar receitas e documentos por 2 anos</td><td>Portaria 344, art. 64</td></tr>\n<tr><td>Ceder dados de prescrição a terceiros</td><td>RDC 22/2014, art. 21, parágrafo único</td></tr>\n</tbody></table></div>\n\n<h3>Processo administrativo sanitário</h3>\n<p>A infração é apurada em processo administrativo próprio, que começa com o auto de infração lavrado pela autoridade sanitária. Os prazos principais da Lei 6.437/1977 são:</p>\n<ul>\n<li>Defesa ou impugnação do auto: 15 dias da notificação (art. 22).</li>\n<li>Pagamento da multa em até 20 dias da notificação: redução de 20%, com desistência tácita de defesa ou recurso (art. 21).</li>\n<li>Recurso contra decisão condenatória: mesmo prazo da defesa; mantida a decisão, recurso à autoridade superior em 20 dias (art. 30).</li>\n<li>Obrigação que subsiste após a autuação: edital com prazo de 30 dias para cumprimento, sob pena de multa diária (arts. 18 e 19).</li>\n<li>Prescrição das infrações sanitárias: 5 anos, interrompida pela notificação ou por ato de apuração (art. 38).</li>\n</ul>\n<p>Na defesa, a farmácia organizada leva vantagem: receitas arquivadas por mês e tipo, relatórios do SNGPC, registros de contagem e de treinamento mostram boa-fé e podem enquadrar a falta como leve, com atenuantes do art. 7º.</p>\n<h3>Como reduzir o risco</h3>\n<p>Boa parte das autuações nasce de rotina frouxa. Um procedimento operacional padrão de dispensação de controlados, treinamento periódico da equipe com casos reais, checklist no balcão, contagem regular e transmissão do SNGPC com dia fixo resolvem a maior parte. Diante de dúvida sobre uma receita, a decisão é do farmacêutico, que deve registrar o motivo de uma recusa quando houver risco de questionamento.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Na inspeção, apresente com tranquilidade o Certificado de Escrituração Digital, o relatório do SNGPC, as receitas retidas organizadas por mês e tipo, e o armário trancado. Dificultar o acesso do fiscal é infração própria (Lei 6.437/1977, art. 10, X).</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Na fiscalização, a VISA encontra 3 caixas de clonazepam 2 mg a mais no armário do que o saldo do SNGPC e transmissões atrasadas há 20 dias. Há duas infrações: divergência de estoque (RDC 22/2014, art. 15) e atraso na transmissão (art. 10). Se a farmácia já tivesse sido autuada pela mesma conduta, a reincidência agravaria a classificação e dobraria a multa (Lei 6.437/1977, art. 2º, § 2º, e art. 8º).</p></div>\n"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m02-mapa-listas",
+   "titulo": "Listas e receituários",
+   "centro": "Listas da Portaria 344",
+   "ramos": [
+    {
+     "t": "Notificação A amarela",
+     "itens": [
+      "A1 e A2: opioides (morfina, oxicodona, codeína)",
+      "A3: metilfenidato, lisdexanfetamina",
+      "30 dias, todo o país; 1 substância",
+      "Até 5 ampolas ou 30 dias de tratamento"
+     ]
+    },
+    {
+     "t": "Notificação B e B2 azuis",
+     "itens": [
+      "B1: benzodiazepínicos, zolpidem, zopiclona",
+      "B: 30 dias, todo o país; até 60 dias",
+      "B2: anorexígenos; 30 dias de tratamento",
+      "Sibutramina: até 60 dias; máx. 15 mg/dia",
+      "B2 exige termo do prescritor em 3 vias"
+     ]
+    },
+    {
+     "t": "Notificações brancas",
+     "itens": [
+      "C2 sistêmico: isotretinoína, acitretina",
+      "Retinoide: 30 dias + termo de consentimento",
+      "Talidomida: 20 dias; só unidade pública",
+      "Talidomida: até 30 dias de tratamento"
+     ]
+    },
+    {
+     "t": "RCE em 2 vias",
+     "itens": [
+      "C1 (antidepressivos, anticonvulsivantes) e C5",
+      "Até 3 substâncias; 60 dias cada",
+      "Anticonvulsivante e antiparkinsoniano: 6 meses",
+      "1ª via retida; 2ª volta carimbada"
+     ]
+    },
+    {
+     "t": "Adendos que rebaixam",
+     "itens": [
+      "Codeína até 100 mg/unidade: RCE",
+      "Tramadol até 100 mg/unidade: RCE",
+      "Fenobarbital e perampanel: RCE",
+      "Oxicodona LC até 40 mg: RCE",
+      "Zolpidem: sem adendo, sempre NR B"
+     ]
+    },
+    {
+     "t": "Listas sem retenção",
+     "itens": [
+      "D1: efedrina, pseudoefedrina; receita simples",
+      "Tópicos de C2 e C5: sem retenção",
+      "Carisoprodol e loperamida: sem retenção",
+      "C4 extinta em 2016 (RDC 103/2016)",
+      "E e F: proscritas"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m02-mapa-dispensacao",
+   "titulo": "Dispensação e guarda",
+   "centro": "Dispensar controlado",
+   "ramos": [
+    {
+     "t": "Conferir o documento",
+     "itens": [
+      "Modelo e cor certos para a lista",
+      "Numeração: consultar no SNCR",
+      "Sem rasura; quantidade em número e extenso",
+      "Prescritor: conselho, UF, endereço, assinatura",
+      "Paciente: nome e CPF ou passaporte"
+     ]
+    },
+    {
+     "t": "Prazos e limites",
+     "itens": [
+      "Validade conta da emissão (eletrônica: assinatura)",
+      "Acima do limite: justificativa com CID",
+      "Uma substância por notificação",
+      "Receita de outra UF: sem visto desde 2024"
+     ]
+    },
+    {
+     "t": "Registrar e reter",
+     "itens": [
+      "Comprador: nome, CPF, endereço, telefone",
+      "Verso: quantidade dispensada",
+      "Carimbo: CNPJ, endereço, data, atendente",
+      "Reter notificação ou 1ª via da RCE"
+     ]
+    },
+    {
+     "t": "Situações especiais",
+     "itens": [
+      "Emergência: papel comum, CID, visto em 72 h",
+      "Internado: dispensa notificação",
+      "Entrega remota: conferir antes de entregar",
+      "Drogaria não fraciona controlado"
+     ]
+    },
+    {
+     "t": "Guarda e estoque",
+     "itens": [
+      "Armário ou sala com chave, uso exclusivo",
+      "Estoque físico igual ao SNGPC",
+      "Documentos guardados por 2 anos",
+      "Furto: B.O., VISA, perda no SNGPC"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m02-mapa-sistemas",
+   "titulo": "SNGPC e SNCR",
+   "centro": "SNGPC e SNCR",
+   "ramos": [
+    {
+     "t": "SNGPC: base",
+     "itens": [
+      "RDC 22/2014; controla o medicamento",
+      "344 + antimicrobianos (RDC 471/2021)",
+      "Credenciamento pelo inventário inicial",
+      "Só o farmacêutico RT transmite"
+     ]
+    },
+    {
+     "t": "SNGPC: rotina",
+     "itens": [
+      "XML a cada 1 a 7 dias, mesmo sem venda",
+      "Novo arquivo só após o anterior aceito",
+      "Obrigatório em todo o país desde 02/01/2026",
+      "Falha do próprio sistema não gera autuação"
+     ]
+    },
+    {
+     "t": "SNCR: base",
+     "itens": [
+      "RDC 873/2024; controla a receita",
+      "Numera notificações desde 01/07/2025",
+      "Número de 14 dígitos com código da UF",
+      "Eletrônico desde 30/09/2026 (RDC 1.028/2026)"
+     ]
+    },
+    {
+     "t": "SNCR na farmácia",
+     "itens": [
+      "Acesso: Cadastro Anvisa, gov.br, AFE",
+      "Conferir número, situação, tipo, meio",
+      "Eletrônica: validar assinatura no ITI",
+      "Registrar uso; cancelamento em 30 min",
+      "Papel: só consulta, sem registro"
+     ]
+    },
+    {
+     "t": "Receita eletrônica",
+     "itens": [
+      "NR e RCE: assinatura ICP-Brasil",
+      "Retenção (antimicrobiano): assinatura avançada",
+      "NR eletrônica dispensa a receita anexa",
+      "Foto ou PDF escaneado não vale",
+      "Uso único; sem parcelamento em NR e RCE"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "receita",
+   "id": "m02-rec-nra",
+   "titulo": "Notificação de Receita A",
+   "cor": "amarela",
+   "subtitulo": "Listas A1, A2 e A3",
+   "numeracao": "Numeração concedida pela VISA local e gerada no SNCR (14 dígitos). Impressão em gráfica pelo prescritor ou instituição; a VISA pode imprimir, se quiser (RDC 1.000/2025).",
+   "secoes": [
+    {
+     "t": "Identificação numérica",
+     "campos": [
+      "Número do SNCR impresso, sem símbolos adicionais"
+     ]
+    },
+    {
+     "t": "Identificação do emitente",
+     "campos": [
+      "Nome do profissional",
+      "Inscrição no conselho com sigla da UF",
+      "Endereço completo do consultório ou residência",
+      "Telefone",
+      "Ou: nome da instituição, CNPJ (ou CNES se pública), endereço e telefone"
+     ]
+    },
+    {
+     "t": "Identificação do paciente",
+     "campos": [
+      "Nome completo do paciente",
+      "CPF (ou passaporte; sem CPF: \"não possui\")",
+      "Endereço do paciente (campo do modelo versão 2)",
+      "Uso veterinário: proprietário com CPF e identificação do animal"
+     ]
+    },
+    {
+     "t": "Prescrição",
+     "campos": [
+      "Medicamento ou substância pela DCB",
+      "Dosagem ou concentração",
+      "Forma farmacêutica",
+      "Quantidade em algarismos e por extenso",
+      "Posologia"
+     ]
+    },
+    {
+     "t": "Data e assinatura",
+     "campos": [
+      "Data da emissão",
+      "Assinatura do prescritor (com identificação legível ou carimbo se o nome não estiver impresso)"
+     ]
+    },
+    {
+     "t": "Identificação do comprador",
+     "campos": [
+      "Nome do comprador",
+      "CPF (ou passaporte)",
+      "Endereço completo e telefone"
+     ]
+    },
+    {
+     "t": "Estabelecimento dispensador (verso ou carimbo)",
+     "campos": [
+      "Carimbo: nome, CNPJ (ou CNES) e endereço do estabelecimento",
+      "Nome legível do responsável pelo atendimento",
+      "Data do atendimento",
+      "Verso: quantidade dispensada (e nº de registro, se magistral)"
+     ]
+    },
+    {
+     "t": "Rodapé",
+     "campos": [
+      "Nome, endereço e CNPJ da gráfica"
+     ]
+    }
+   ],
+   "regras": [
+    [
+     "Validade",
+     "30 dias a contar da emissão (Portaria 344, art. 41)"
+    ],
+    [
+     "Abrangência",
+     "Todo o território nacional, sem visto (RDC 873/2024)"
+    ],
+    [
+     "Quantidade máxima",
+     "5 ampolas ou 30 dias de tratamento; acima, justificativa com CID (art. 43)"
+    ],
+    [
+     "Substâncias",
+     "Uma por notificação (art. 35, § 7º)"
+    ],
+    [
+     "Acompanhamento",
+     "Em papel, vem com a receita, que volta carimbada ao paciente"
+    ],
+    [
+     "Destino",
+     "Retida na farmácia; relação mensal (RMNRA) à VISA até o dia 15 (art. 72)"
+    ]
+   ],
+   "obs": "Modelo vigente para novas impressões: versão 2 (desde 18/05/2026). Blocos antigos impressos na vigência anterior continuam válidos. Confira o leiaute no portal da Anvisa."
+  },
+  {
+   "tipo": "receita",
+   "id": "m02-rec-nrb",
+   "titulo": "Notificação de Receita B",
+   "cor": "azul",
+   "subtitulo": "Lista B1 (psicotrópicos)",
+   "numeracao": "Numeração retirada na VISA do local do consultório ou instituição, gerada no SNCR. Impressão às expensas do profissional ou da instituição, em gráfica.",
+   "secoes": [
+    {
+     "t": "Identificação numérica",
+     "campos": [
+      "Número do SNCR impresso"
+     ]
+    },
+    {
+     "t": "Identificação do emitente",
+     "campos": [
+      "Nome do profissional",
+      "Inscrição no conselho com sigla da UF",
+      "Endereço completo do consultório ou residência",
+      "Telefone",
+      "Ou: nome da instituição, CNPJ (ou CNES se pública), endereço e telefone"
+     ]
+    },
+    {
+     "t": "Identificação do paciente",
+     "campos": [
+      "Nome completo do paciente",
+      "CPF (ou passaporte; sem CPF: \"não possui\")",
+      "Endereço do paciente (campo do modelo versão 2)",
+      "Uso veterinário: proprietário com CPF e identificação do animal"
+     ]
+    },
+    {
+     "t": "Prescrição",
+     "campos": [
+      "Medicamento ou substância pela DCB",
+      "Dosagem ou concentração",
+      "Forma farmacêutica",
+      "Quantidade em algarismos e por extenso",
+      "Posologia"
+     ]
+    },
+    {
+     "t": "Data e assinatura",
+     "campos": [
+      "Data da emissão",
+      "Assinatura do prescritor"
+     ]
+    },
+    {
+     "t": "Identificação do comprador",
+     "campos": [
+      "Nome do comprador",
+      "CPF (ou passaporte)",
+      "Endereço completo e telefone"
+     ]
+    },
+    {
+     "t": "Estabelecimento dispensador (verso ou carimbo)",
+     "campos": [
+      "Carimbo: nome, CNPJ (ou CNES) e endereço do estabelecimento",
+      "Nome legível do responsável pelo atendimento",
+      "Data do atendimento",
+      "Verso: quantidade dispensada (e nº de registro, se magistral)"
+     ]
+    },
+    {
+     "t": "Rodapé",
+     "campos": [
+      "Nome, endereço e CNPJ da gráfica"
+     ]
+    }
+   ],
+   "regras": [
+    [
+     "Validade",
+     "30 dias a contar da emissão (Portaria 344, art. 45)"
+    ],
+    [
+     "Abrangência",
+     "Todo o território nacional (redação da RDC 1.000/2025)"
+    ],
+    [
+     "Quantidade máxima",
+     "5 ampolas ou 60 dias de tratamento; acima, justificativa com CID (art. 46)"
+    ],
+    [
+     "Substâncias",
+     "Uma por notificação"
+    ],
+    [
+     "Exemplos",
+     "Clonazepam, alprazolam, diazepam, zolpidem (qualquer dose)"
+    ],
+    [
+     "Destino",
+     "Retida na farmácia; escriturada no SNGPC"
+    ]
+   ],
+   "obs": "Existe modelo de Notificação B para uso veterinário, com identificação do proprietário e do animal."
+  },
+  {
+   "tipo": "receita",
+   "id": "m02-rec-nrb2",
+   "titulo": "Notificação de Receita B2",
+   "cor": "azul",
+   "subtitulo": "Lista B2 (anorexígenos)",
+   "numeracao": "Numeração da VISA local gerada no SNCR; impressão pelo prescritor em gráfica, no modelo da Anvisa (RDC 58/2007, art. 1º, redação da RDC 1.000/2025).",
+   "secoes": [
+    {
+     "t": "Identificação numérica",
+     "campos": [
+      "Número do SNCR impresso"
+     ]
+    },
+    {
+     "t": "Identificação do emitente",
+     "campos": [
+      "Nome do profissional",
+      "Inscrição no conselho com sigla da UF",
+      "Endereço completo do consultório ou residência",
+      "Telefone",
+      "Ou: nome da instituição, CNPJ (ou CNES se pública), endereço e telefone"
+     ]
+    },
+    {
+     "t": "Identificação do paciente",
+     "campos": [
+      "Nome completo do paciente",
+      "CPF (ou passaporte; sem CPF: \"não possui\")",
+      "Endereço do paciente (campo do modelo versão 2)",
+      "Uso veterinário: proprietário com CPF e identificação do animal"
+     ]
+    },
+    {
+     "t": "Prescrição",
+     "campos": [
+      "Medicamento ou substância pela DCB",
+      "Dosagem ou concentração",
+      "Forma farmacêutica",
+      "Quantidade em algarismos e por extenso",
+      "Posologia",
+      "Dose diária dentro do limite da RDC 50/2014"
+     ]
+    },
+    {
+     "t": "Data e assinatura",
+     "campos": [
+      "Data da emissão",
+      "Assinatura do prescritor"
+     ]
+    },
+    {
+     "t": "Identificação do comprador",
+     "campos": [
+      "Nome do comprador",
+      "CPF (ou passaporte)",
+      "Endereço completo e telefone"
+     ]
+    },
+    {
+     "t": "Estabelecimento dispensador (verso ou carimbo)",
+     "campos": [
+      "Carimbo: nome, CNPJ (ou CNES) e endereço do estabelecimento",
+      "Nome legível do responsável pelo atendimento",
+      "Data do atendimento",
+      "Verso: quantidade dispensada (e nº de registro, se magistral)"
+     ]
+    },
+    {
+     "t": "Anexo obrigatório",
+     "campos": [
+      "Termo de Responsabilidade do Prescritor (RDC 50/2014, anexos I e II), 3 vias"
+     ]
+    }
+   ],
+   "regras": [
+    [
+     "Validade",
+     "30 dias a contar da emissão"
+    ],
+    [
+     "Abrangência",
+     "Todo o território nacional (Lei 13.732/2018)"
+    ],
+    [
+     "Quantidade máxima",
+     "30 dias de tratamento; sibutramina até 60 dias (RDC 50/2014, art. 5º)"
+    ],
+    [
+     "Dose diária máxima",
+     "Sibutramina 15 mg; anfepramona 120 mg; femproporex 50 mg; mazindol 3 mg"
+    ],
+    [
+     "Associação",
+     "Proibida com outros anorexígenos, ansiolíticos, diuréticos, hormônios, laxantes (Portaria 344, art. 47)"
+    ],
+    [
+     "Termo",
+     "Farmácia preenche seus campos, retém 1 via e entrega 1 ao paciente (RDC 50/2014, art. 11)"
+    ]
+   ],
+   "obs": "Manipulação de anorexígenos só nas condições da RDC 50/2014 (arts. 4º e 9º)."
+  },
+  {
+   "tipo": "receita",
+   "id": "m02-rec-retinoide",
+   "titulo": "Notificação de Receita Especial para retinoides",
+   "cor": "branca",
+   "subtitulo": "Lista C2, uso sistêmico",
+   "numeracao": "Numeração da VISA local gerada no SNCR; impressão às expensas do médico ou da instituição.",
+   "secoes": [
+    {
+     "t": "Identificação numérica",
+     "campos": [
+      "Número do SNCR impresso"
+     ]
+    },
+    {
+     "t": "Identificação do emitente",
+     "campos": [
+      "Nome do profissional",
+      "Inscrição no conselho com sigla da UF",
+      "Endereço completo do consultório ou residência",
+      "Telefone",
+      "Ou: nome da instituição, CNPJ (ou CNES se pública), endereço e telefone"
+     ]
+    },
+    {
+     "t": "Identificação do paciente",
+     "campos": [
+      "Nome completo do paciente",
+      "CPF (ou passaporte; sem CPF: \"não possui\")",
+      "Endereço do paciente (campo do modelo versão 2)",
+      "Uso veterinário: proprietário com CPF e identificação do animal"
+     ]
+    },
+    {
+     "t": "Prescrição",
+     "campos": [
+      "Substância escrita pelo prescritor (sem campo pré-impresso)",
+      "Dosagem e forma farmacêutica",
+      "Quantidade em algarismos e por extenso",
+      "Posologia"
+     ]
+    },
+    {
+     "t": "Advertência",
+     "campos": [
+      "Símbolo de gestante cortada ao meio",
+      "Alerta de graves defeitos na face, orelhas, coração e sistema nervoso do feto"
+     ]
+    },
+    {
+     "t": "Data e assinatura",
+     "campos": [
+      "Data da emissão",
+      "Assinatura do médico"
+     ]
+    },
+    {
+     "t": "Identificação do comprador",
+     "campos": [
+      "Nome do comprador",
+      "CPF (ou passaporte)",
+      "Endereço completo e telefone"
+     ]
+    },
+    {
+     "t": "Estabelecimento dispensador (verso ou carimbo)",
+     "campos": [
+      "Carimbo: nome, CNPJ (ou CNES) e endereço do estabelecimento",
+      "Nome legível do responsável pelo atendimento",
+      "Data do atendimento",
+      "Verso: quantidade dispensada (e nº de registro, se magistral)"
+     ]
+    }
+   ],
+   "regras": [
+    [
+     "Validade",
+     "30 dias a contar da emissão (Portaria 344, art. 50)"
+    ],
+    [
+     "Abrangência",
+     "Todo o território nacional (RDC 873/2024)"
+    ],
+    [
+     "Quantidade máxima",
+     "5 ampolas ou 30 dias de tratamento (art. 50, § 1º)"
+    ],
+    [
+     "Prescritor",
+     "Médico"
+    ],
+    [
+     "Termo",
+     "Termo de Consentimento Pós-Informação (anexos XV e XVI da 344); cartilha da Anvisa: 3 vias, 1 retida pela farmácia"
+    ],
+    [
+     "Tópicos",
+     "Retinoide tópico não usa esta notificação: prescrição sem retenção"
+    ]
+   ],
+   "obs": "No modelo novo não há mais marcação de tratamento inicial ou subsequente. Normas estaduais podem fixar validade menor para mulheres em idade fértil."
+  },
+  {
+   "tipo": "receita",
+   "id": "m02-rec-talidomida",
+   "titulo": "Notificação de Receita de Talidomida",
+   "cor": "branca",
+   "subtitulo": "Lista C3, talidomida (RDC 11/2011)",
+   "numeracao": "Numeração distribuída pela autoridade sanitária via SNCR ao médico cadastrado; impressão no modelo da Anvisa, em 2 vias.",
+   "secoes": [
+    {
+     "t": "Identificação numérica",
+     "campos": [
+      "Número concedido pela autoridade sanitária"
+     ]
+    },
+    {
+     "t": "Diagnóstico",
+     "campos": [
+      "CID"
+     ]
+    },
+    {
+     "t": "Advertências impressas",
+     "campos": [
+      "\"Proibida para mulheres grávidas ou com chance de engravidar\"",
+      "\"Talidomida causa o nascimento de crianças sem braços e sem pernas\""
+     ]
+    },
+    {
+     "t": "Identificação do emitente",
+     "campos": [
+      "Nome completo",
+      "Endereço",
+      "Especialidade",
+      "CPF",
+      "Número do cadastro na autoridade sanitária",
+      "Data, assinatura e carimbo"
+     ]
+    },
+    {
+     "t": "Identificação do paciente",
+     "campos": [
+      "Nome completo",
+      "Documento oficial e órgão emissor",
+      "Data de nascimento",
+      "Sexo",
+      "Endereço e telefone"
+     ]
+    },
+    {
+     "t": "Responsável pelo paciente (se houver)",
+     "campos": [
+      "Nome",
+      "Documento oficial",
+      "Endereço e telefone"
+     ]
+    },
+    {
+     "t": "Medicamento",
+     "campos": [
+      "Quantidade de comprimidos em algarismos e por extenso",
+      "Dose por unidade",
+      "Posologia",
+      "Tempo de tratamento"
+     ]
+    },
+    {
+     "t": "Dispensação (farmacêutico)",
+     "campos": [
+      "Quantidade e lote",
+      "Nome, CRF, assinatura, carimbo e data",
+      "Carimbo da unidade pública dispensadora"
+     ]
+    }
+   ],
+   "regras": [
+    [
+     "Validade",
+     "20 dias a contar da emissão (RDC 11/2011, art. 21, § 2º)"
+    ],
+    [
+     "Abrangência",
+     "Todo o território nacional (RDC 873/2024)"
+    ],
+    [
+     "Quantidade máxima",
+     "30 dias de tratamento (art. 21, § 3º)"
+    ],
+    [
+     "Conteúdo",
+     "Somente talidomida"
+    ],
+    [
+     "Termo",
+     "Responsabilidade/Esclarecimento em 3 vias: prontuário, unidade dispensadora, paciente"
+    ],
+    [
+     "Onde dispensar",
+     "Somente unidade pública credenciada; venda proibida"
+    ]
+   ],
+   "obs": "Ordem dos campos segundo o art. 22 da RDC 11/2011. Não circula em drogaria comercial."
+  },
+  {
+   "tipo": "receita",
+   "id": "m02-rec-rce",
+   "titulo": "Receita de Controle Especial",
+   "cor": "branca",
+   "subtitulo": "Listas C1 e C5 e adendos de A1, A2 e B1",
+   "numeracao": "Em papel não tem numeração oficial. Na via eletrônica integrada, o SNCR gera o número automaticamente.",
+   "secoes": [
+    {
+     "t": "Cabeçalho",
+     "campos": [
+      "Dizer \"Receita de Controle Especial\"",
+      "Indicação das vias: \"1ª via: retenção da farmácia\" e \"2ª via: orientação ao paciente\""
+     ]
+    },
+    {
+     "t": "Identificação do emitente",
+     "campos": [
+      "Nome do profissional ou da instituição",
+      "Inscrição no conselho e UF",
+      "Endereço completo e telefone (CNPJ ou CNES, se instituição)",
+      "Cidade"
+     ]
+    },
+    {
+     "t": "Prescrição",
+     "campos": [
+      "Paciente: nome completo e CPF (ou passaporte)",
+      "Medicamento ou fórmula, dosagem, quantidade em algarismos e por extenso",
+      "Posologia ou modo de usar",
+      "Data",
+      "Assinatura"
+     ]
+    },
+    {
+     "t": "Identificação do comprador",
+     "campos": [
+      "Nome",
+      "Documento de identificação",
+      "Endereço e telefone"
+     ]
+    },
+    {
+     "t": "Identificação do fornecedor",
+     "campos": [
+      "Carimbo da farmácia (nome, CNPJ, endereço)",
+      "Data e nome do atendente",
+      "Genérico: nome do fabricante",
+      "Verso: quantidade dispensada"
+     ]
+    }
+   ],
+   "regras": [
+    [
+     "Validade",
+     "30 dias a contar da emissão (Portaria 344, art. 52, § 1º)"
+    ],
+    [
+     "Abrangência",
+     "Todo o território nacional"
+    ],
+    [
+     "Quantidade máxima",
+     "5 ampolas ou 60 dias por substância; antiparkinsonianos e anticonvulsivantes até 6 meses (art. 59)"
+    ],
+    [
+     "Substâncias",
+     "Até 3 por receita (art. 57)"
+    ],
+    [
+     "Vias",
+     "Papel: 2 vias, 1ª retida; eletrônica: via única com registro no SNCR"
+    ],
+    [
+     "Leiaute",
+     "Pode diferir do modelo da Anvisa se trouxer o título e todos os campos; receita comum não serve"
+    ]
+   ],
+   "obs": "Campos conforme Portaria 344, art. 55, e Portaria 6/1999, art. 85, com redação da RDC 1.000/2025. Os campos do comprador e do fornecedor podem vir por carimbo."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m02-tab-mestra",
+   "titulo": "Tabela-mestra: lista, receituário, validade e limites",
+   "colunas": [
+    "Lista",
+    "Exemplos",
+    "Receituário",
+    "Validade",
+    "Quantidade máxima",
+    "Abrangência"
+   ],
+   "linhas": [
+    [
+     "A1",
+     "Morfina, metadona, oxicodona, fentanila, tapentadol",
+     "Notificação A amarela",
+     "30 dias",
+     "5 ampolas ou 30 dias",
+     "Nacional"
+    ],
+    [
+     "A2",
+     "Codeína, tramadol, nalbufina (acima dos adendos)",
+     "Notificação A; RCE nos adendos",
+     "30 dias",
+     "NR A: 5 ampolas ou 30 dias",
+     "Nacional"
+    ],
+    [
+     "A3",
+     "Metilfenidato, lisdexanfetamina, fenfluramina",
+     "Notificação A amarela",
+     "30 dias",
+     "5 ampolas ou 30 dias",
+     "Nacional"
+    ],
+    [
+     "B1",
+     "Clonazepam, alprazolam, diazepam, zolpidem",
+     "Notificação B azul",
+     "30 dias",
+     "5 ampolas ou 60 dias",
+     "Nacional"
+    ],
+    [
+     "B2",
+     "Sibutramina, anfepramona, femproporex, mazindol",
+     "Notificação B2 azul + termo",
+     "30 dias",
+     "30 dias; sibutramina 60",
+     "Nacional"
+    ],
+    [
+     "C1",
+     "Sertralina, quetiapina, carbamazepina, pregabalina, celecoxibe",
+     "RCE em 2 vias",
+     "30 dias",
+     "3 substâncias; 60 dias cada; 6 meses p/ anticonvulsivante",
+     "Nacional"
+    ],
+    [
+     "C2",
+     "Isotretinoína, acitretina (sistêmicos)",
+     "Notificação especial branca + termo",
+     "30 dias",
+     "5 ampolas ou 30 dias",
+     "Nacional"
+    ],
+    [
+     "C3",
+     "Talidomida",
+     "Notificação de talidomida branca + termo",
+     "20 dias",
+     "30 dias",
+     "Nacional; só unidade pública"
+    ],
+    [
+     "C5",
+     "Testosterona, nandrolona, oxandrolona, somatropina",
+     "RCE em 2 vias",
+     "30 dias",
+     "5 ampolas ou 60 dias",
+     "Nacional"
+    ],
+    [
+     "D1",
+     "Pseudoefedrina, efedrina, ergotamina",
+     "Receita sem retenção",
+     "Conforme receita comum",
+     "Sem limite da 344",
+     "Nacional"
+    ],
+    [
+     "E, F",
+     "Plantas e substâncias proscritas",
+     "Proibidas",
+     "Não se aplica",
+     "Não se aplica",
+     "Não se aplica"
+    ]
+   ],
+   "nota": "Base: Portaria 344, arts. 41, 43, 45, 46, 50, 52, 57, 59 e Anexo I (Atualização nº 101, RDC 1.036/2026); RDC 50/2014; RDC 11/2011. Validade nacional: Lei 13.732/2018, RDC 873/2024 e RDC 1.000/2025. A lista C4 foi extinta pela RDC 103/2016."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m02-tab-adendos",
+   "titulo": "Adendos que mudam o receituário",
+   "colunas": [
+    "Substância",
+    "Lista",
+    "Condição do adendo",
+    "Receituário",
+    "Exemplo de balcão"
+   ],
+   "linhas": [
+    [
+     "Codeína e afins",
+     "A2",
+     "Até 100 mg por unidade e até 2,5% em forma indivisível",
+     "RCE",
+     "Paracetamol 500 mg + codeína 30 mg"
+    ],
+    [
+     "Tramadol",
+     "A2",
+     "Até 100 mg por unidade, isolado ou associado",
+     "RCE",
+     "Tramadol 50 mg cápsula"
+    ],
+    [
+     "Nalbufina",
+     "A2",
+     "Até 10 mg de cloridrato por unidade",
+     "RCE",
+     "Ampola de 10 mg"
+    ],
+    [
+     "Ópio",
+     "A1",
+     "Até 5 mg de morfina anidra por mL",
+     "RCE",
+     "Elixir paregórico"
+    ],
+    [
+     "Oxicodona",
+     "A1",
+     "Comprimido de liberação controlada até 40 mg",
+     "RCE (acima: NR A)",
+     "Oxicodona LC 20 mg"
+    ],
+    [
+     "Buprenorfina",
+     "A1",
+     "Adesivo transdérmico de matriz",
+     "RCE",
+     "Adesivo de buprenorfina"
+    ],
+    [
+     "Fenobarbital, barbexaclona",
+     "B1",
+     "Qualquer apresentação",
+     "RCE",
+     "Fenobarbital 100 mg"
+    ],
+    [
+     "Perampanel",
+     "B1",
+     "Qualquer apresentação",
+     "RCE",
+     "Perampanel 4 mg"
+    ],
+    [
+     "Carisoprodol",
+     "B1",
+     "Medicamentos com carisoprodol",
+     "Prescrição sem retenção",
+     "Associações miorrelaxantes"
+    ],
+    [
+     "Zolpidem",
+     "B1",
+     "Sem adendo desde 01/08/2024",
+     "Notificação B",
+     "Zolpidem 5 mg, 10 mg ou 12,5 mg"
+    ],
+    [
+     "Cetamina, escetamina",
+     "B1",
+     "Uso só em estabelecimento de saúde",
+     "Não se dispensa em drogaria",
+     "Escetamina spray nasal"
+    ],
+    [
+     "Produtos de Cannabis",
+     "A3",
+     "THC até 0,2% (RDC 1.015/2026)",
+     "RCE (acima: NR A)",
+     "Produto de canabidiol"
+    ],
+    [
+     "Medicamento com Cannabis",
+     "A3",
+     "Até 30 mg/mL de THC e de canabidiol",
+     "Notificação A",
+     "Spray oromucoso registrado"
+    ],
+    [
+     "Loperamida",
+     "C1",
+     "Qualquer apresentação",
+     "Prescrição sem retenção",
+     "Loperamida 2 mg"
+    ],
+    [
+     "Tetracaína",
+     "C1",
+     "Odontológico tópico; otológico; oftálmico",
+     "Isento; sem retenção; com retenção",
+     "Colírio anestésico: retenção"
+    ],
+    [
+     "Retinoides tópicos",
+     "C2",
+     "Uso tópico",
+     "Prescrição sem retenção",
+     "Tretinoína creme, adapaleno gel"
+    ],
+    [
+     "Anabolizantes tópicos",
+     "C5",
+     "Uso tópico",
+     "Prescrição sem retenção",
+     "Conforme registro do produto"
+    ]
+   ],
+   "nota": "Texto dos adendos conferido na Portaria 344 consolidada pela Anvisa (Atualização nº 101, RDC 1.036/2026). Confirme sempre na lista vigente antes de decidir."
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m02-fluxo-dispensacao",
+   "titulo": "Fluxo de dispensação de controlado",
+   "passos": [
+    {
+     "t": "Cliente apresenta receita de medicamento controlado",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Identificar substância, concentração por unidade, lista e adendo",
+     "tipo": "acao"
+    },
+    {
+     "t": "O documento é o exigido pela lista (cor, modelo, título)?",
+     "tipo": "decisao",
+     "sim": "Seguir para a conferência",
+     "nao": "Recusar e explicar qual receituário é necessário"
+    },
+    {
+     "t": "A receita é eletrônica?",
+     "tipo": "decisao",
+     "sim": "Validar assinatura no ITI e consultar o número no SNCR (meio eletrônico, situação autorizada)",
+     "nao": "Se a notificação tiver número do SNCR, consultar (meio físico, prescritor correto)"
+    },
+    {
+     "t": "Todos os campos preenchidos, legíveis, sem rasura e com quantidade por extenso?",
+     "tipo": "decisao",
+     "sim": "Conferir prazo e quantidade",
+     "nao": "Recusar e orientar retorno ao prescritor"
+    },
+    {
+     "t": "Dentro da validade e do limite de quantidade (ou com justificativa)?",
+     "tipo": "decisao",
+     "sim": "Conferir termos e restrições específicas",
+     "nao": "Recusar ou dispensar só o permitido, conforme o caso"
+    },
+    {
+     "t": "Receita rasurada, número cancelado ou divergente do prescritor indicam possível fraude",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Identificar o comprador com documento e registrar nome, CPF, endereço e telefone",
+     "tipo": "acao"
+    },
+    {
+     "t": "Dispensar, anotar quantidade no verso, carimbar e reter a via da farmácia (ou registrar uso no SNCR)",
+     "tipo": "acao"
+    },
+    {
+     "t": "Lançar no sistema da loja e transmitir ao SNGPC no prazo",
+     "tipo": "acao"
+    },
+    {
+     "t": "Orientar o paciente sobre uso, riscos e guarda do medicamento",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "id": "m02-check-notificacao",
+   "titulo": "Checklist de conferência da Notificação de Receita",
+   "itens": [
+    "Confirmar que a cor e o tipo da notificação correspondem à lista do medicamento",
+    "Verificar se o modelo é oficial (antigo, versão 1 ou versão 2 impressos na vigência)",
+    "Consultar no SNCR o número de padrão nacional: idêntico, autorizado, tipo e meio corretos",
+    "Conferir se o prescritor vinculado ao número é o emitente do documento",
+    "Conferir nome, conselho, UF, endereço e assinatura do prescritor",
+    "Conferir nome e CPF do paciente (ou passaporte ou \"não possui\")",
+    "Conferir DCB, concentração, forma farmacêutica e posologia",
+    "Conferir quantidade em algarismos e por extenso, iguais entre si",
+    "Verificar ausência de emenda, rasura ou corretivo",
+    "Confirmar uma única substância na notificação",
+    "Contar os dias desde a emissão: até 30 dias (talidomida: 20)",
+    "Calcular os dias de tratamento e comparar com o limite da lista",
+    "Exigir justificativa com CID se a quantidade passar do limite",
+    "Verificar termos obrigatórios (B2, retinoides, talidomida, fenfluramina)",
+    "Em papel, conferir a receita que acompanha a notificação e devolvê-la carimbada",
+    "Registrar nome, CPF, endereço e telefone do comprador",
+    "Anotar no verso a quantidade dispensada e carimbar com dados da farmácia, data e atendente",
+    "Reter a notificação e arquivá-la por tipo e mês"
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m02-cartoes",
+   "titulo": "Cartões de revisão",
+   "itens": [
+    {
+     "f": "Qual norma regulamenta os medicamentos controlados no Brasil?",
+     "v": "Portaria SVS/MS 344/1998, detalhada pela Portaria SVS/MS 6/1999, com listas atualizadas por RDC."
+    },
+    {
+     "f": "Qual RDC fez a atualização mais recente do Anexo I até outubro de 2026?",
+     "v": "RDC 1.036, de 9 de julho de 2026 (Atualização nº 101)."
+    },
+    {
+     "f": "Validade e abrangência da Notificação A?",
+     "v": "30 dias da emissão, em todo o território nacional."
+    },
+    {
+     "f": "Quantidade máxima na Notificação A?",
+     "v": "5 ampolas ou 30 dias de tratamento."
+    },
+    {
+     "f": "Quantidade máxima na Notificação B?",
+     "v": "5 ampolas ou 60 dias de tratamento."
+    },
+    {
+     "f": "Quantas substâncias cabem numa notificação?",
+     "v": "Uma substância ou um medicamento."
+    },
+    {
+     "f": "Quantas substâncias da C1 cabem numa RCE?",
+     "v": "Até 3, cada uma limitada a 60 dias (anticonvulsivantes e antiparkinsonianos: 6 meses)."
+    },
+    {
+     "f": "Validade da notificação de talidomida?",
+     "v": "20 dias, em todo o território nacional (RDC 11/2011, redação da RDC 873/2024)."
+    },
+    {
+     "f": "Receituário do zolpidem 10 mg?",
+     "v": "Notificação de Receita B, desde 1º de agosto de 2024, em qualquer concentração."
+    },
+    {
+     "f": "Receituário de paracetamol + codeína 30 mg?",
+     "v": "RCE em 2 vias (adendo 2 da lista A2)."
+    },
+    {
+     "f": "O que aconteceu com a lista C4?",
+     "v": "Foi extinta pela RDC 103/2016; antirretrovirais saíram da 344."
+    },
+    {
+     "f": "Receita de controlado de outro estado precisa de visto da VISA?",
+     "v": "Não. A RDC 873/2024 revogou o visto. Só a receita de emergência vai à VISA em 72 horas."
+    },
+    {
+     "f": "Quem imprime o talonário amarelo desde fevereiro de 2026?",
+     "v": "O prescritor ou a instituição, em gráfica, com numeração da VISA gerada no SNCR."
+    },
+    {
+     "f": "Qual assinatura exige a Notificação eletrônica?",
+     "v": "Assinatura qualificada ICP-Brasil."
+    },
+    {
+     "f": "Desde quando há Notificação de Receita eletrônica?",
+     "v": "30 de setembro de 2026 (RDC 1.000/2025, art. 16, redação da RDC 1.028/2026)."
+    },
+    {
+     "f": "O que a farmácia faz com receita eletrônica no SNCR?",
+     "v": "Valida a assinatura no ITI, confere o número e registra a utilização."
+    },
+    {
+     "f": "Prazo de transmissão do SNGPC?",
+     "v": "Arquivos a cada 1 a 7 dias, mesmo sem movimentação (RDC 22/2014, art. 10)."
+    },
+    {
+     "f": "Por quanto tempo guardar receitas e documentos de controlados?",
+     "v": "2 anos (Portaria 344, art. 64)."
+    },
+    {
+     "f": "Onde guardar os controlados?",
+     "v": "Sob chave ou dispositivo seguro, em local exclusivo, sob responsabilidade do farmacêutico (art. 67)."
+    },
+    {
+     "f": "Faixa de multa de infração grave na Lei 6.437/1977?",
+     "v": "R$ 75.000 a R$ 200.000; dobra na reincidência."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m02-questoes",
+   "titulo": "Questões de fixação",
+   "itens": [
+    {
+     "p": "Cliente apresenta Receita de Controle Especial em duas vias com zolpidem 10 mg, 30 comprimidos, emitida há 5 dias. Qual a conduta correta em outubro de 2026?",
+     "alt": [
+      "Dispensar, porque apresentações de até 10 mg seguem em RCE",
+      "Dispensar metade e reter a 1ª via",
+      "Recusar, porque o zolpidem exige Notificação de Receita B",
+      "Dispensar e comunicar a VISA em 72 horas",
+      "Recusar, porque o zolpidem exige Notificação A"
+     ],
+     "c": 2,
+     "com": "O zolpidem está na lista B1 sem adendo desde 1º/08/2024, quando a Anvisa excluiu a exceção para até 10 mg; toda apresentação exige Notificação B. A alternativa A descreve a regra revogada. Não há dispensação parcial nem comunicação que corrija o receituário errado. Notificação A é para as listas A."
+    },
+    {
+     "p": "Sobre a Notificação de Receita A após a RDC 1.000/2025, assinale a correta.",
+     "alt": [
+      "Continua impressa exclusivamente pela Vigilância Sanitária, que carimba cada folha",
+      "Pode ser impressa em gráfica pelo prescritor, com numeração da VISA",
+      "Dispensa numeração oficial quando impressa em gráfica privada",
+      "Passou a ter validade de 60 dias para todas as listas A",
+      "Só vale na unidade federativa que concedeu a numeração"
+     ],
+     "c": 1,
+     "com": "A RDC 1.000/2025 deu ao art. 40 da 344 a redação que permite a impressão em gráfica pelo profissional ou instituição; a impressão pela VISA virou faculdade. A numeração continua obrigatória e vem do SNCR. A validade segue em 30 dias e é nacional desde a RDC 873/2024."
+    },
+    {
+     "p": "Paciente traz Notificação B de clonazepam 2 mg, 1 comprimido à noite, 90 comprimidos, sem nenhum documento adicional. O farmacêutico deve:",
+     "alt": [
+      "Dispensar os 90 comprimidos, pois a Notificação B não tem limite de quantidade",
+      "Dispensar, porque a Notificação B vale 60 dias e cobre o tratamento",
+      "Exigir que o paciente traga uma Notificação A no lugar da B",
+      "Exigir justificativa com CID ou diagnóstico para os 90 comprimidos",
+      "Dispensar os 90 e reter também a receita comum que acompanha"
+     ],
+     "c": 3,
+     "com": "A Notificação B cobre até 60 dias de tratamento; 90 comprimidos a 1 por dia são 90 dias. Acima do limite, o prescritor deve entregar justificativa (Portaria 344, art. 46, § 1º). A validade da Notificação B é de 30 dias, não de 60. Clonazepam é B1, não A."
+    },
+    {
+     "p": "Uma drogaria em Recife recebe Receita de Controle Especial de sertralina emitida por médico de São Paulo. Qual procedimento está correto?",
+     "alt": [
+      "Levar a 1ª via à VISA em 72 horas para visto",
+      "Recusar, porque a RCE só vale no estado de emissão",
+      "Exigir notificação azul por ser de outro estado",
+      "Pedir carimbo da VISA de São Paulo",
+      "Conferir os requisitos e dispensar normalmente, sem visto"
+     ],
+     "c": 4,
+     "com": "A RCE vale em todo o território nacional, e a RDC 873/2024 revogou o § 3º do art. 52 da 344, que exigia visto para receitas de outra UF. Sertralina é C1 e usa RCE. Visto em 72 horas permanece apenas para a receita de emergência."
+    },
+    {
+     "p": "Assinale a alternativa que relaciona corretamente o medicamento e o receituário.",
+     "alt": [
+      "Paracetamol 500 mg + codeína 30 mg: Receita de Controle Especial",
+      "Metilfenidato 10 mg comprimido: Receita de Controle Especial",
+      "Fenobarbital 100 mg comprimido: Notificação de Receita B",
+      "Isotretinoína 20 mg cápsula: Receita de Controle Especial",
+      "Tretinoína creme 0,05%: Notificação especial de retinoides"
+     ],
+     "c": 0,
+     "com": "Codeína até 100 mg por unidade cai no adendo 2 da A2 e usa RCE. Metilfenidato (A3) exige Notificação A. Fenobarbital tem adendo na B1 e usa RCE. Isotretinoína oral exige notificação especial de retinoides. Retinoide tópico é prescrição sem retenção (adendo 2 da C2)."
+    },
+    {
+     "p": "Sobre a validade das notificações vigente em 2026, é correto afirmar:",
+     "alt": [
+      "Notificação de talidomida: 30 dias, só na unidade federativa de emissão",
+      "Notificação de talidomida: 20 dias, em todo o território nacional",
+      "Notificação B: 60 dias, em todo o território nacional",
+      "Notificação de retinoides: 15 dias, em todo o território nacional",
+      "Notificação A: 30 dias, só na UF de emissão e com visto da VISA"
+     ],
+     "c": 1,
+     "com": "A RDC 873/2024 deu ao art. 21, § 2º, da RDC 11/2011 a redação de 20 dias em todo o território para a talidomida. A Notificação B vale 30 dias. Retinoides: 30 dias. A Notificação A vale 30 dias em todo o país desde a mesma RDC."
+    },
+    {
+     "p": "Uma farmácia recebe Notificação B eletrônica em 05/10/2026. Qual sequência atende à RDC 1.000/2025?",
+     "alt": [
+      "Imprimir o PDF, carimbar o verso e reter a cópia, sem consulta a sistema",
+      "Exigir a via em papel, porque notificação não pode ser eletrônica",
+      "Validar a assinatura no ITI, consultar o número no SNCR e registrar o uso",
+      "Aceitar assinatura gov.br e registrar a venda somente no SNGPC",
+      "Dispensar e registrar o uso apenas no sistema da plataforma emissora"
+     ],
+     "c": 2,
+     "com": "O art. 13 da RDC 1.000/2025 manda verificar a assinatura pelo ITI, conferir a numeração concedida no SNCR e registrar a utilização. Desde 30/09/2026 notificações podem ser eletrônicas. Notificação exige assinatura ICP-Brasil; gov.br é avançada. O registro na plataforma emissora não substitui o SNCR, e o SNGPC continua obrigatório em paralelo."
+    },
+    {
+     "p": "Em relação ao SNGPC, assinale a correta.",
+     "alt": [
+      "A transmissão é mensal, até o dia 15",
+      "Semanas sem venda de controlados dispensam envio de arquivo",
+      "Qualquer atendente pode gerar e enviar o XML",
+      "O SNCR substituiu o SNGPC a partir de 30/09/2026",
+      "Os arquivos devem ser enviados a cada 1 a 7 dias, mesmo sem movimentação"
+     ],
+     "c": 4,
+     "com": "RDC 22/2014, art. 10, § 3º: intervalo mínimo de 1 e máximo de 7 dias, ainda que sem movimentação. A geração e o envio são funções do farmacêutico RT (art. 18). O SNCR controla a receita e coexiste com o SNGPC. Envio mensal até o dia 15 é a regra da RMNRA, não do SNGPC."
+    },
+    {
+     "p": "Na consulta de uma Notificação A em papel, o SNCR exibe a situação \"não atribuída ao prescritor\". O farmacêutico deve:",
+     "alt": [
+      "Não dispensar e orientar a regularização da numeração com a VISA",
+      "Dispensar, porque a numeração existe na base nacional do SNCR",
+      "Dispensar e registrar a utilização da notificação no SNCR",
+      "Dispensar metade da quantidade até a regularização",
+      "Reter a notificação e enviá-la ao Conselho de Medicina"
+     ],
+     "c": 0,
+     "com": "Número gerado mas não atribuído a prescritor ou instituição não pode ser usado (cartilha da Anvisa, 2026). A existência do número não basta. Receita em papel não tem registro de uso no SNCR. Não existe dispensação parcial como saída para numeração irregular."
+    },
+    {
+     "p": "Durante inspeção, a VISA verifica que o estoque físico de alprazolam diverge do saldo no SNGPC e que a última transmissão foi há 15 dias. A farmácia já havia sido multada pela mesma conduta. Sobre a penalidade, é correto:",
+     "alt": [
+      "Cabe apenas advertência, por ser infração leve",
+      "A multa máxima possível é de R$ 75.000",
+      "A reincidência é agravante e a multa é aplicada em dobro",
+      "Não há infração, pois o SNGPC está suspenso desde 2021",
+      "Só o Conselho Regional de Farmácia pode punir"
+     ],
+     "c": 2,
+     "com": "A Lei 6.437/1977 aplica a multa em dobro na reincidência (art. 2º, § 2º), e a reincidência é agravante (art. 8º, I). A suspensão da RDC 586/2021 terminou com o cronograma de 2025 e 2026. A VISA aplica a sanção sanitária; o conselho pode abrir processo ético à parte."
+    },
+    {
+     "p": "Sobre a guarda e a escrituração de controlados em drogaria, assinale a correta.",
+     "alt": [
+      "Podem ficar em gôndola fechada com vidro, longe do balcão",
+      "O livro de registro específico continua obrigatório junto com o SNGPC",
+      "Os documentos de controlados podem ser descartados após 6 meses",
+      "Ficam sob chave em local exclusivo, com estoque idêntico ao do SNGPC",
+      "A drogaria pode fracionar a embalagem se o paciente pedir"
+     ],
+     "c": 3,
+     "com": "Portaria 344, art. 67 (guarda sob chave em local exclusivo) e RDC 22/2014, art. 15 (estoque idêntico ao escriturado). O SNGPC substitui o livro (art. 35). Documentos ficam 2 anos (art. 64 da 344). Drogaria não fraciona controlado (art. 79)."
+    },
+    {
+     "p": "Paciente de 24 anos apresenta Notificação de Receita B2 de sibutramina 15 mg, 1 cápsula ao dia, 60 cápsulas, com o Termo de Responsabilidade do Prescritor. Qual a conduta?",
+     "alt": [
+      "Recusar, porque a B2 permite só 30 dias para qualquer substância",
+      "Recusar, porque a dose diária máxima é 10 mg",
+      "Dispensar sem reter o termo",
+      "Dispensar, preencher os campos da farmácia no termo e reter uma via",
+      "Exigir Notificação A"
+     ],
+     "c": 3,
+     "com": "A RDC 50/2014 (redação da RDC 133/2016) permite à sibutramina até 60 dias de tratamento e fixa dose máxima de 15 mg/dia. A farmácia preenche seus campos no termo, retém uma via e entrega outra ao paciente (art. 11). Sibutramina é B2, não A."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Brasil. Ministério da Saúde. Secretaria de Vigilância Sanitária. Portaria SVS/MS nº 344, de 12 de maio de 1998 (texto consolidado pela Anvisa até a Atualização nº 101, RDC nº 1.036, de 9 de julho de 2026). anvisalegis.datalegis.net",
+  "Brasil. Ministério da Saúde. Secretaria de Vigilância Sanitária. Portaria SVS/MS nº 6, de 29 de janeiro de 1999 (texto consolidado pela Anvisa). anvisalegis.datalegis.net",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 1.000, de 11 de dezembro de 2025. Diário Oficial da União, 15 dez. 2025. in.gov.br",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 1.028, de 1º de junho de 2026. Diário Oficial da União, 2 jun. 2026.",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 873, de 27 de maio de 2024 (institui o SNCR). Diário Oficial da União, 3 jun. 2024 (dispositivos conferidos no texto consolidado da Portaria 344 e da RDC 11/2011).",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 22, de 29 de abril de 2014 (SNGPC), texto consolidado. anvisalegis.datalegis.net",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 11, de 22 de março de 2011 (talidomida), texto consolidado. anvisalegis.datalegis.net",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 50, de 25 de setembro de 2014 (anorexígenos), texto consolidado com a RDC 133/2016. anvisalegis.datalegis.net",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 973, de 23 de abril de 2025 (altera a RDC 471/2021). anvisalegis.datalegis.net",
+  "Anvisa. Instrução Normativa IN nº 360, de 23 de abril de 2025 (lista de antimicrobianos). Diário Oficial da União, 24 abr. 2025.",
+  "Anvisa. Perguntas e Respostas: RDC nº 1.000/2025, 1ª edição (fevereiro de 2026) e 2ª edição. gov.br/anvisa",
+  "Anvisa. SNCR e receituários controlados: cartilha para farmácias. 1ª ed. Brasília, setembro de 2026. gov.br/anvisa",
+  "Anvisa. Webinar RDC 1.000/2025: receituários eletrônicos e físicos (Vigilâncias, fevereiro de 2026; farmácias, março de 2026). gov.br/anvisa",
+  "Anvisa. Início de nova etapa do SNCR: o que muda a partir de 30 de setembro. Notícia, 2026. gov.br/anvisa",
+  "Anvisa. Ofício nº 39/2019/SEI/GPCON/GGMON/DIRE5/ANVISA ao Conselho Federal de Farmácia: esclarecimentos sobre a Lei nº 13.732/2018. Março de 2019.",
+  "Brasil. Lei nº 6.437, de 20 de agosto de 1977 (infrações à legislação sanitária federal), texto compilado. planalto.gov.br",
+  "Brasil. Lei nº 13.732/2018 (altera o art. 35 da Lei nº 5.991/1973), conforme Ofício Anvisa nº 39/2019.",
+  "Conselho Federal de Farmácia. SNGPC: Sistema Nacional de Gerenciamento de Produtos Controlados. Notícia, 24 out. 2025; Anvisa restabelece prazos para transmissão obrigatória de arquivos ao SNGPC, 6 maio 2025. cff.org.br",
+  "Conselho Federal de Farmácia. Qualquer medicamento contendo zolpidem deverá ser prescrito por meio de Notificação de Receita B. Notícia, 16 maio 2024. cff.org.br",
+  "Ministério da Saúde. Nota Informativa nº 75/2016 (exclusão dos antirretrovirais da lista C4 pela RDC nº 103/2016), citada em gov.br/aids."
+ ]
+}

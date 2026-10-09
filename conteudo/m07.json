@@ -1,0 +1,733 @@
+{
+ "id": "m07",
+ "num": 7,
+ "titulo": "Sistema respiratório",
+ "escopo": "Fisiopatologia de asma, DPOC e rinite; broncodilatadores, corticoides inalatórios e associações; tratamento atual da asma (AIR e MART) e da DPOC (grupos ABE); dispositivos e técnica inalatória; antileucotrienos, cromonas e imunobiológicos; rinite alérgica e tosse. Fontes principais: GINA 2026, GOLD 2026, PCDT da Asma (Portaria Conjunta nº 43/2026) e PCDT da DPOC (Portaria Conjunta nº 29/2025), alertas FDA e EMA.",
+ "topicos": [
+  {
+   "id": "m07-fisiopatologia",
+   "titulo": "Asma, DPOC e rinite: bases fisiopatológicas",
+   "resumo": "<p>Asma, doença pulmonar obstrutiva crônica (DPOC) e rinite alérgica são as doenças respiratórias crônicas que mais geram movimento no balcão: compra de bombinhas, pedidos de \"remédio para chiado\", descongestionantes e xaropes. Entender o que acontece na via aérea ajuda a explicar por que cada medicamento existe e por que trocar um pelo outro dá errado.</p> <h3>A via aérea em poucas linhas</h3> <p>O ar entra pelo nariz (que filtra, aquece e umidifica), passa pela laringe, traqueia e brônquios, que se dividem até os bronquíolos e alvéolos, onde acontece a troca gasosa. Os brônquios têm músculo liso na parede, controlado pelo sistema nervoso autônomo:</p> <ul> <li><b>receptores beta-2 adrenérgicos</b>: quando estimulados, relaxam o músculo e abrem o brônquio (alvo do salbutamol e do formoterol);</li> <li><b>receptores muscarínicos M3</b>: quando estimulados pela acetilcolina (via nervo vago), contraem o músculo e aumentam o muco (alvo dos antimuscarínicos, como ipratrópio e tiotrópio).</li> </ul> <p>Doenças obstrutivas reduzem o calibre dos brônquios por três mecanismos que se somam: contração do músculo liso, inflamação com edema da parede e excesso de muco. A espirometria mede essa obstrução pela relação entre o volume expirado no primeiro segundo (VEF1) e a capacidade vital forçada (CVF).</p> <h3>Asma</h3> <p>Asma é uma doença inflamatória crônica das vias aéreas com <strong>hiper-responsividade</strong> (o brônquio se fecha com estímulos que não afetariam outra pessoa) e <strong>obstrução variável e reversível</strong>. Na maioria dos pacientes, a inflamação é do tipo 2: participam eosinófilos, mastócitos, linfócitos Th2, anticorpos IgE e interleucinas 4, 5 e 13. Por isso o corticoide inalatório, que reduz essa inflamação, é a base do tratamento.</p> <ul> <li><b>Sintomas</b>: chiado, falta de ar, aperto no peito e tosse, que variam ao longo do tempo e de intensidade, pioram à noite ou de madrugada e são desencadeados por gatilhos.</li> <li><b>Gatilhos</b>: infecções virais, poeira e ácaros, pelos de animais, mofo, fumaça de cigarro, poluição, exercício, ar frio, riso ou choro, AINE e betabloqueador em pacientes sensíveis.</li> <li><b>Exacerbação (crise)</b>: piora aguda e progressiva que exige mudança no tratamento. É a principal causa de morte por asma, que quase sempre é evitável.</li> </ul> <p>Começa geralmente na infância, mas pode surgir em qualquer idade. Muitos pacientes se sentem bem entre as crises, deixam o tratamento de manutenção e passam a usar só a \"bombinha de alívio\": esse comportamento é o principal alvo da orientação farmacêutica.</p> <h3>DPOC</h3> <p>DPOC é uma doença crônica causada principalmente pela exposição a partículas e gases nocivos: tabagismo, fumaça de fogão a lenha ou de queima de biomassa, poeiras e fumos ocupacionais. A inflamação é dominada por neutrófilos e macrófagos e leva a duas alterações:</p> <ul> <li><b>bronquite crônica e doença de pequenas vias aéreas</b>: parede espessada, muco em excesso, tosse com catarro;</li> <li><b>enfisema</b>: destruição das paredes dos alvéolos, com perda da retração elástica e aprisionamento de ar.</li> </ul> <p>A obstrução é <strong>persistente</strong> (relação VEF1/CVF menor que 0,7 após broncodilatador, pelo GOLD) e progride lentamente. Os sintomas típicos são falta de ar aos esforços, que piora com os anos, tosse crônica e expectoração. As exacerbações (piora aguda, geralmente por infecção respiratória ou poluição) aceleram a perda de função e aumentam a mortalidade, inclusive por eventos cardiovasculares. Parar de fumar é a única medida que muda a história natural da doença.</p> <h3>Rinite alérgica</h3> <p>Rinite alérgica é a inflamação da mucosa nasal mediada por IgE após contato com alérgenos (ácaros, fungos, pólen, pelos). A fase imediata, em minutos, depende de histamina: espirros em salva, coriza aquosa, coceira no nariz, olhos e palato. A fase tardia, horas depois, depende de leucotrienos e de células inflamatórias: obstrução nasal persistente. Asma e rinite andam juntas: grande parte dos asmáticos tem rinite, e rinite não tratada piora o controle da asma.</p> <div class=\"tab\"><table><thead><tr><th>Característica</th><th>Asma</th><th>DPOC</th><th>Rinite alérgica</th></tr></thead><tbody> <tr><td>Início</td><td>Qualquer idade, frequentemente infância</td><td>Geralmente após 40 anos</td><td>Infância e adolescência</td></tr> <tr><td>Causa principal</td><td>Predisposição e inflamação tipo 2</td><td>Tabaco e biomassa</td><td>Sensibilização a alérgenos</td></tr> <tr><td>Sintomas</td><td>Variáveis, com períodos sem sintomas</td><td>Persistentes e progressivos</td><td>Espirros, coriza, prurido, obstrução</td></tr> <tr><td>Obstrução</td><td>Variável e reversível</td><td>Persistente</td><td>Nasal</td></tr> <tr><td>Base do tratamento</td><td>Corticoide inalatório</td><td>Broncodilatador de longa ação e cessação do tabagismo</td><td>Corticoide nasal e anti-H1</td></tr> </tbody></table></div> <div class=\"cx chave\"><b>Ponto-chave</b><p>Na asma, o problema central é a inflamação, e o tratamento começa pelo anti-inflamatório (corticoide inalatório). Na DPOC, o problema central é a obstrução fixa com sintomas, e o tratamento começa pelos broncodilatadores de longa ação. Confundir os dois é a origem de muitos erros de prescrição e de orientação.</p></div>  <h3>Como se mede a obstrução</h3> <p>A <strong>espirometria</strong> é o exame que confirma asma e DPOC. Mede o VEF1 e a CVF antes e depois de um broncodilatador. Na asma, a obstrução melhora de forma significativa após o broncodilatador ou varia ao longo do tempo; na DPOC, a relação VEF1/CVF continua abaixo de 0,7 mesmo após o broncodilatador. O <strong>pico de fluxo expiratório</strong> (PFE), medido com um aparelho portátil e barato, ajuda o asmático a acompanhar a doença em casa e a reconhecer uma crise no início; não substitui a espirometria para diagnóstico.</p> <h3>Situações que confundem</h3> <p>Algumas pessoas têm características de asma e de DPOC ao mesmo tempo (por exemplo, asmático que fumou por décadas). Nesses casos, o corticoide inalatório não deve ser retirado, porque a parte asmática exige anti-inflamatório. Outras causas de falta de ar e chiado que o balcão pode confundir com asma ou DPOC: insuficiência cardíaca (piora deitado, inchaço nas pernas), anafilaxia, corpo estranho em criança, crise de ansiedade, anemia e embolia pulmonar. Por isso, falta de ar nova, sem diagnóstico, nunca é tratada com bombinha emprestada.</p>  <h3>Tabagismo e outras exposições</h3> <p>O tabaco piora a asma, reduz a resposta ao corticoide inalatório e é a principal causa de DPOC. Fumo passivo na infância aumenta crises de asma e infecções respiratórias. Cigarro eletrônico também irrita a via aérea e mantém a dependência de nicotina; a Anvisa mantém proibida a comercialização desses dispositivos no Brasil (decisão de 2024). Em áreas rurais, a fumaça de fogão a lenha é causa importante de DPOC em mulheres que nunca fumaram.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Ao atender alguém com queixa respiratória, pergunte: idade, se fuma ou fumou, há quanto tempo tem os sintomas, se são contínuos ou em crises, o que piora, se acorda à noite com falta de ar, quantas vezes usou a bombinha de alívio na última semana e se já foi a pronto-socorro por isso. Essas respostas orientam se é caso de orientação, ajuste com o médico ou urgência.</p></div>"
+  },
+  {
+   "id": "m07-broncodilatadores",
+   "titulo": "Broncodilatadores",
+   "resumo": "<p>Broncodilatadores relaxam o músculo liso brônquico e aliviam a falta de ar. Existem três grupos: agonistas beta-2 adrenérgicos, antimuscarínicos e metilxantinas. Os dois primeiros são usados por via inalatória, que entrega o fármaco direto no brônquio, com efeito rápido e menos efeitos sistêmicos.</p> <h3>Agonistas beta-2 de curta ação (SABA)</h3> <p><strong>Salbutamol</strong> (Aerolin®) e <strong>fenoterol</strong> (Berotec®) começam a agir em 3 a 5 minutos e duram 4 a 6 horas. São os broncodilatadores de alívio clássicos e estão disponíveis no SUS (PCDT da Asma, 2026). O salbutamol aerossol de 100 mcg por jato e a solução para nebulização de 5 mg/mL estão no Programa Farmácia Popular. Na crise leve a moderada, o PCDT da Asma (2026) prevê salbutamol de 4 a 10 jatos (100 mcg cada) a cada 20 minutos na primeira hora, preferencialmente com espaçador, e depois conforme a resposta.</p> <p>A GINA 2026 incluiu um alerta simples e importante: <strong>agitar o aerossol de salbutamol antes de cada jato</strong>, porque o frasco não agitado pode liberar doses muito irregulares.</p> <h3>Agonistas beta-2 de longa ação (LABA)</h3> <ul> <li><b>Formoterol</b>: início rápido (poucos minutos, semelhante ao salbutamol) e duração de 12 horas. É o único LABA que pode ser usado como alívio, sempre associado a corticoide inalatório (budesonida-formoterol).</li> <li><b>Salmeterol</b>: início lento (10 a 20 minutos), duração de 12 horas; usado em associação com fluticasona.</li> <li><b>Vilanterol, indacaterol e olodaterol</b>: duração de 24 horas, uma tomada ao dia; usados em associações para asma (vilanterol com fluticasona) e DPOC.</li> </ul> <div class=\"cx alerta\"><b>Atenção</b><p>LABA nunca deve ser usado sozinho na asma: sem corticoide inalatório, aumenta o risco de crise grave e morte. Na asma, o LABA vem sempre no mesmo dispositivo que o corticoide ou junto com ele. Na DPOC, LABA isolado ou com LAMA é permitido.</p></div> <h3>Antimuscarínicos de curta ação (SAMA)</h3> <p>O <strong>brometo de ipratrópio</strong> (Atrovent®) bloqueia receptores muscarínicos, começa a agir em 15 a 30 minutos e dura 6 a 8 horas. É usado na DPOC como alívio e, na crise de asma grave, em associação com SABA no serviço de saúde. Apresentações: aerossol de 20 mcg por jato e solução para nebulização de 0,25 mg/mL (esta no Farmácia Popular para DPOC, conforme o PCDT da DPOC de 2025). A associação de fenoterol com ipratrópio em aerossol também existe no mercado.</p> <h3>Antimuscarínicos de longa ação (LAMA)</h3> <ul> <li><b>Tiotrópio</b>: 24 horas; no inalador de névoa suave (Respimat), 2 jatos de 2,5 mcg uma vez ao dia.</li> <li><b>Glicopirrônio</b>: 24 horas; inalador de cápsula.</li> <li><b>Umeclidínio</b>: 24 horas; inalador Ellipta, em associação com vilanterol (62,5 mcg + 25 mcg) ou na terapia tripla.</li> </ul> <p>Os LAMA são a base do tratamento da DPOC, quase sempre associados a um LABA. Na asma, o tiotrópio é opção de etapa 5 em adultos, mas não foi incorporado ao SUS para asma (Conitec, PCDT 2026).</p> <h3>Efeitos adversos dos broncodilatadores inalatórios</h3> <div class=\"tab\"><table><thead><tr><th>Grupo</th><th>Efeitos mais comuns</th><th>Cuidado</th></tr></thead><tbody> <tr><td>Beta-2 agonistas</td><td>Tremor de mãos, taquicardia, palpitação, cãibras, hipocalemia em doses altas</td><td>Arritmia e doença coronariana; uso excessivo é sinal de asma descontrolada</td></tr> <tr><td>Antimuscarínicos</td><td>Boca seca, gosto metálico, tosse, retenção urinária, constipação</td><td>Glaucoma de ângulo fechado (névoa ou pó no olho); hiperplasia prostática</td></tr> <tr><td>Teofilina</td><td>Náusea, vômito, insônia, taquicardia, arritmia, convulsão</td><td>Índice terapêutico estreito e muitas interações</td></tr> </tbody></table></div> <h3>Teofilina e aminofilina</h3> <p>As metilxantinas (teofilina oral, aminofilina) inibem fosfodiesterases e antagonizam a adenosina. O efeito broncodilatador é fraco e o índice terapêutico é <strong>estreito</strong>: a dose eficaz fica perto da dose tóxica (faixa terapêutica clássica de 10 a 20 mg/L; muitos serviços buscam 5 a 15 mg/L para reduzir toxicidade). Por isso perderam espaço para os inalatórios e não estão entre as opções preferidas da GINA e do GOLD. Ainda aparecem em receitas de idosos e em regiões com acesso restrito.</p> <p>Interações que <b>aumentam</b> o nível (risco de intoxicação): ciprofloxacino, claritromicina e eritromicina, fluvoxamina, cimetidina, alopurinol em dose alta, insuficiência cardíaca, doença hepática, febre prolongada e <b>parar de fumar</b> (o tabaco induz o CYP1A2; ao parar, o nível sobe). Interações que <b>reduzem</b> o nível: tabagismo, carbamazepina, fenitoína, rifampicina. Sinais de intoxicação: náusea e vômitos persistentes, agitação, taquicardia, arritmia e convulsão.</p>  <h3>Broncoespasmo induzido por exercício</h3> <p>Muitos asmáticos têm chiado ou tosse durante ou logo após atividade física. Com a asma bem controlada pelo corticoide inalatório, o sintoma costuma diminuir. Para prevenção, o prescritor pode orientar o medicamento de alívio alguns minutos antes do exercício: budesonida-formoterol em dose baixa no regime 1 ou SABA no regime 2, além de aquecimento prévio (PCDT da Asma, 2026). Precisar do alívio antes de todo exercício por muito tempo sugere asma não controlada.</p> <h3>Aerossol com espaçador ou nebulização</h3> <p>Na crise leve a moderada, o aerossol com espaçador é tão eficaz quanto a nebulização, mais rápido, mais barato e com menos efeitos como taquicardia; o PCDT da Asma (2026) indica o pMDI com espaçador como via preferencial. A nebulização fica para crises graves no serviço de saúde, para quem não consegue usar o espaçador e para alguns pacientes com DPOC. Nebulizar apenas soro fisiológico não trata broncoespasmo.</p> <h3>Situações especiais</h3> <p>Na gestação, SABA e LABA são considerados seguros, segundo o PCDT da Asma (2026); asma descontrolada é que traz risco ao feto. Betabloqueadores não seletivos (propranolol, timolol em colírio) antagonizam os beta-2 agonistas e podem precipitar broncoespasmo. Doses altas de beta-2 agonista somadas a diuréticos ou corticoide sistêmico aumentam o risco de hipocalemia, relevante em cardiopatas.</p>  <h3>Pedido de bombinha sem receita</h3> <p>Os broncodilatadores inalatórios são de venda sob prescrição, conforme a embalagem de cada produto. Diante de alguém em crise sem receita, a prioridade é avaliar a gravidade (fluxo do balcão no material de apoio) e garantir atendimento. Diante de alguém que compra \"a de sempre\" todo mês sem acompanhamento, o caminho é registrar, conversar sobre controle da asma e encaminhar, porque o padrão de compra é o sinal mais visível de risco que a farmácia enxerga.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Quem compra salbutamol ou fenoterol com frequência deve ser perguntado sobre o tratamento de manutenção. Pelo PCDT da Asma (2026), usar mais de 3 frascos de 200 doses por ano corresponde a uso médio maior que diário, aumenta o risco de crise grave e indica reavaliação médica. Em usuário de teofilina, conferir antibiótico novo (ciprofloxacino, claritromicina) e mudança no hábito de fumar.</p></div> <div class=\"cx exemplo\"><b>Caso</b><p>Senhor de 68 anos, com DPOC, usa teofilina de liberação prolongada e chega com náusea, vômitos e palpitação três dias depois de começar ciprofloxacino para infecção urinária. O farmacêutico reconhece a interação (inibição do CYP1A2), orienta procurar atendimento no mesmo dia e informa o médico por escrito sobre a suspeita de intoxicação por teofilina.</p></div>"
+  },
+  {
+   "id": "m07-corticoides-inalatorios",
+   "titulo": "Corticosteroides inalatórios e associações",
+   "resumo": "<p>O corticoide inalatório (CI) reduz a inflamação brônquica, diminui a hiper-responsividade, previne crises e reduz a mortalidade por asma. Age na mesma via dos corticoides sistêmicos (módulo 6), mas a dose é medida em microgramas e chega direto ao alvo, com efeito sistêmico pequeno. O efeito sobre os sintomas aparece em dias e o efeito máximo em semanas; por isso o paciente precisa entender que o CI \"não alivia na hora\" e que deve ser usado mesmo sem sintomas, conforme a prescrição.</p> <h3>Fármacos</h3> <ul> <li><b>Beclometasona</b> (dipropionato): aerossol e cápsulas; no SUS e no Farmácia Popular (aerossol de 50 mcg e 250 mcg por jato e cápsulas ou pó de 200 mcg, conforme o PCDT da Asma 2026).</li> <li><b>Budesonida</b>: cápsulas, pó (Turbuhaler) e aerossol; também em suspensão para nebulização e em associação com formoterol.</li> <li><b>Fluticasona</b>: propionato (duas vezes ao dia, com salmeterol) e furoato (uma vez ao dia, com vilanterol, no dispositivo Ellipta).</li> <li><b>Ciclesonida</b>: pró-fármaco ativado no pulmão, com menor efeito na orofaringe; disponibilidade restrita no mercado brasileiro.</li> <li><b>Mometasona</b>: inalatória e, mais usada no Brasil, nasal.</li> </ul> <h3>Doses baixas, médias e altas</h3> <p>As doses de CI são classificadas em baixa, média e alta. A maior parte do benefício vem da dose baixa; doses altas aumentam efeitos adversos e ficam para uma minoria (PCDT da Asma, 2026).</p> <div class=\"tab\"><table><thead><tr><th>Corticoide (12 anos ou mais)</th><th>Baixa (mcg/dia)</th><th>Média (mcg/dia)</th><th>Alta (mcg/dia)</th></tr></thead><tbody> <tr><td>Beclometasona (aerossol, partícula padrão)</td><td>200 a 500</td><td>mais de 500 a 1.000</td><td>mais de 1.000</td></tr> <tr><td>Budesonida (pó ou aerossol)</td><td>200 a 400</td><td>mais de 400 a 800</td><td>mais de 800</td></tr> <tr><td>Fluticasona, propionato</td><td>100 a 250</td><td>mais de 250 a 500</td><td>mais de 500</td></tr> <tr><td>Fluticasona, furoato</td><td>100</td><td>sem faixa intermediária</td><td>200</td></tr> </tbody></table></div> <p>Beclometasona e budesonida conforme o Quadro 10 do PCDT da Asma (2026), adaptado da GINA 2025; fluticasona conforme a GINA. Para crianças de 6 a 11 anos, as faixas são menores (por exemplo, budesonida baixa de 100 a 200 mcg/dia).</p> <h3>Efeitos adversos locais e o enxágue</h3> <p>Parte da dose fica na boca e na garganta. Os efeitos locais mais comuns são <strong>candidíase oral</strong> (placas brancas removíveis, ardor), disfonia (rouquidão por miopatia das cordas vocais) e tosse irritativa. Prevenção:</p> <ul> <li>enxaguar a boca com água, gargarejar e <b>cuspir</b> após cada uso;</li> <li>usar espaçador com o aerossol, que retém as partículas grandes que se depositariam na orofaringe;</li> <li>usar a menor dose eficaz.</li> </ul> <p>Efeitos sistêmicos aparecem com doses altas por muito tempo: equimoses, catarata, glaucoma, perda óssea, supressão do eixo adrenal e pequena redução da velocidade de crescimento em crianças (cerca de 1 cm, geralmente no primeiro ano). Na DPOC, o CI aumenta o risco de pneumonia, motivo pelo qual só é indicado em grupos específicos (contagem de eosinófilos). Inibidores potentes do CYP3A4, como ritonavir e cobicistate, elevam muito o nível de fluticasona e budesonida e podem causar síndrome de Cushing; nesses pacientes, o prescritor costuma preferir beclometasona.</p> <h3>Associações em um só dispositivo</h3> <div class=\"tab\"><table><thead><tr><th>Associação</th><th>Tipo</th><th>Uso principal</th></tr></thead><tbody> <tr><td>Budesonida + formoterol</td><td>CI-LABA</td><td>Asma: manutenção e alívio (MART) ou alívio anti-inflamatório (AIR); DPOC em casos selecionados</td></tr> <tr><td>Beclometasona + formoterol</td><td>CI-LABA</td><td>Asma; também possível como MART</td></tr> <tr><td>Fluticasona (propionato) + salmeterol</td><td>CI-LABA</td><td>Asma, manutenção; não usar como alívio</td></tr> <tr><td>Fluticasona (furoato) + vilanterol</td><td>CI-LABA</td><td>Asma, manutenção uma vez ao dia; não usar como alívio</td></tr> <tr><td>Umeclidínio + vilanterol; tiotrópio + olodaterol; indacaterol + glicopirrônio</td><td>LAMA-LABA</td><td>DPOC</td></tr> <tr><td>Fluticasona (furoato) + umeclidínio + vilanterol; beclometasona + formoterol + glicopirrônio</td><td>Terapia tripla</td><td>DPOC exacerbadora com critério de eosinófilos; asma grave</td></tr> </tbody></table></div> <div class=\"cx chave\"><b>Ponto-chave</b><p>Só associações que contêm formoterol podem ser usadas como alívio. O PCDT da Asma (2026) proíbe usar CI-salmeterol, CI-vilanterol ou CI-indacaterol como alívio e também não recomenda usar CI-formoterol como alívio em quem faz manutenção com outro LABA, por falta de evidência de segurança.</p></div>  <h3>Adesão e medo do corticoide</h3> <p>A principal causa de falha do corticoide inalatório é não usar. Pais têm medo de que a criança \"fique dependente\" ou pare de crescer, adultos param quando os sintomas melhoram e muitos confundem o CI com o corticoide oral. Explicações úteis no balcão: a dose inalatória é medida em microgramas, centenas de vezes menor que a dose oral; o CI controla a inflamação e reduz a necessidade de corticoide oral, que tem muito mais efeitos adversos; a pequena redução da velocidade de crescimento observada no início não compromete a altura final de forma relevante na maioria das crianças, e a asma descontrolada também prejudica o crescimento.</p> <h3>Gestação e criança pequena</h3> <p>O PCDT da Asma (2026) considera o corticoide inalatório seguro na gestação e não recomenda suspendê-lo; durante a amamentação, os medicamentos da asma podem ser mantidos. Em crianças de até 5 anos, a dose baixa diária de referência é beclometasona 100 mcg/dia em aerossol com espaçador e máscara, e o tratamento diário é indicado quando há sintomas mais de duas vezes por semana ou crise grave no último ano. A budesonida em suspensão para nebulização é alternativa em lactentes, conforme prescrição.</p> <div class=\"cx balcao\"><b>No balcão</b><p>A cada dispensação de corticoide inalatório, pergunte se a pessoa enxágua a boca e cospe depois do uso, se está usando todos os dias e quantas doses restam no contador. Rouquidão ou placas brancas na boca são motivo para rever técnica, uso de espaçador e enxágue, e para informar o prescritor.</p></div>"
+  },
+  {
+   "id": "m07-asma",
+   "titulo": "Tratamento da asma",
+   "resumo": "<p>O tratamento da asma mudou muito desde 2019. A mensagem central, adotada pela GINA e pelo PCDT da Asma do Ministério da Saúde (Portaria Conjunta SAES/SCTIE nº 43, de 24 de março de 2026, que revogou o PCDT de 2023), é que <strong>todo asmático deve receber tratamento com corticoide inalatório</strong> e que tratar asma apenas com broncodilatador de alívio (SABA) não é recomendado, por aumentar o risco de crise grave e morte.</p> <h3>Objetivos e princípios</h3> <ul> <li>Controlar sintomas e, principalmente, <b>prevenir exacerbações graves</b>, que são prioridade em todas as etapas.</li> <li>Antes de aumentar o tratamento, confirmar o diagnóstico, corrigir técnica inalatória, adesão, exposição a gatilhos e comorbidades (rinite, obesidade, refluxo, tabagismo).</li> <li>Após 3 meses de controle, o médico pode reduzir a dose gradualmente, sem suspender o corticoide inalatório.</li> <li>A GINA 2026 reforça que uma única exacerbação que precisou de pronto atendimento ou de corticoide oral já é sinal de alerta e deve levar à revisão do tratamento.</li> </ul> <h3>Dois regimes (tracks) para adultos e adolescentes</h3> <p>O tratamento é organizado em etapas (1 a 5) e em dois regimes, definidos pelo medicamento de alívio:</p> <ul> <li><b>Regime 1 (preferencial)</b>: o alívio é feito com <strong>CI-formoterol em dose baixa</strong> (budesonida-formoterol). Nas etapas 1 e 2, ele é usado só quando há sintomas ou antes do exercício (estratégia AIR, de alívio anti-inflamatório). Nas etapas 3 a 5, o mesmo inalador é usado todo dia como manutenção e também como alívio (estratégia MART).</li> <li><b>Regime 2 (alternativo)</b>: alívio com SABA, sempre com corticoide inalatório. Na etapa 1, usa-se CI sempre que usar o SABA (no mesmo inalador ou logo depois); nas etapas seguintes, CI ou CI-LABA de manutenção diária mais SABA quando necessário. É alternativa quando o regime 1 não é viável ou o paciente está estável e aderente.</li> </ul> <p>O raciocínio do regime 1 é que cada vez que o paciente sente sintoma e usa o alívio, recebe também uma dose de corticoide. Isso reduz crises graves em comparação com o SABA isolado, mesmo em asma leve. Em crianças de 6 a 11 anos, a GINA 2026 passou a incluir budesonida-formoterol como alívio nas etapas 1 e 2.</p> <h3>Doses de budesonida-formoterol no SUS</h3> <div class=\"tab\"><table><thead><tr><th>Etapa</th><th>Uso de budesonida-formoterol 200/6 mcg por inalação</th></tr></thead><tbody> <tr><td>1 e 2 (AIR)</td><td>1 inalação quando houver sintomas ou antes do exercício</td></tr> <tr><td>3 (MART)</td><td>1 inalação uma ou duas vezes ao dia + 1 inalação quando houver sintomas</td></tr> <tr><td>4 e 5 (MART)</td><td>2 inalações duas vezes ao dia + 1 inalação quando houver sintomas</td></tr> <tr><td>Limite diário</td><td>12 inalações no total (72 mcg de formoterol), somando manutenção e alívio</td></tr> </tbody></table></div> <p>Fonte: Quadro 11 do PCDT da Asma (2026), adaptado da GINA 2025. Diferentemente do SABA, não é preciso esperar intervalo mínimo entre doses de alívio, mas o limite diário vale sempre. Se o paciente precisar de muitas inalações de alívio por vários dias, deve procurar o médico.</p> <h3>O que o SUS oferece</h3> <p>Pelo PCDT da Asma (2026): beclometasona e budesonida (CI), salbutamol e fenoterol (SABA), formoterol (LABA), budesonida-formoterol em cápsula ou pó (6/200 mcg e 12/400 mcg), prednisona e prednisolona, e os imunobiológicos omalizumabe, mepolizumabe, benralizumabe e dupilumabe para asma grave. Beclometasona e salbutamol estão no Programa Farmácia Popular. O protocolo deixa claro que, embora alguns itens sejam monofármacos, não preconiza monoterapia com SABA ou com LABA.</p> <h3>Crise de asma</h3> <p>Sinais de crise: piora da falta de ar, chiado, tosse e aperto no peito, necessidade de usar o alívio com mais frequência e menor resposta a ele. A gravidade orienta o lugar do atendimento.</p> <ul> <li><b>Crise leve</b>: fala frases completas, consegue deitar, sem uso de musculatura acessória. O paciente segue o plano de ação escrito: SABA com espaçador (ou, no regime 1, doses extras de budesonida-formoterol, respeitando o limite), reavaliação em até 1 hora. A GINA 2026 passou a aceitar CI-formoterol como alternativa ao SABA na exacerbação leve.</li> <li><b>Crise moderada a grave</b>: fala por palavras ou frases curtas, prefere ficar sentado inclinado para a frente, usa músculos do pescoço para respirar, frequência respiratória ou cardíaca alta, saturação baixa. Precisa de atendimento médico imediato.</li> <li><b>Risco de vida</b>: sonolência, confusão, lábios arroxeados, tórax silencioso (quase sem chiado por pouco ar entrando), exaustão. Acionar o SAMU (192).</li> </ul> <p>Pelo PCDT, saturação abaixo de 90% indica tratamento intensivo. Após a crise, o paciente deve sair com tratamento de manutenção contendo CI, medicamento de alívio e curso curto de corticoide oral (prednisolona ou prednisona 40 a 50 mg/dia por 5 a 7 dias em adultos), com consulta de retorno em 2 a 7 dias. Alta só com SABA não é recomendada.</p> <h3>Quando encaminhar</h3> <ul> <li>Sintomas mais de duas vezes por semana, despertar noturno ou limitação de atividades.</li> <li>Uso de alívio em quase todos os dias ou compra frequente de SABA.</li> <li>Qualquer crise que precisou de pronto-socorro ou corticoide oral no último ano.</li> <li>Asmático em uso só de SABA, sem corticoide inalatório.</li> <li>Gestante asmática (a asma não controlada é mais perigosa para o feto que os medicamentos; SABA e CI são considerados seguros na gestação, segundo o PCDT).</li> </ul> <h3>Medicamentos que pioram a asma</h3> <p>Betabloqueadores (inclusive colírios de timolol) podem causar broncoespasmo; os cardiosseletivos são mais tolerados, mas a decisão é médica. AINE e AAS pioram a asma em pacientes com doença respiratória exacerbada por AINE (módulo 6). IECA causa tosse, que pode ser confundida com descontrole.</p>  <h3>Plano de ação escrito</h3> <p>Todo asmático deve ter um plano de ação escrito, entregue pelo prescritor, que diga: quais são os medicamentos de manutenção e de alívio, como reconhecer a piora (mais sintomas, mais uso do alívio, despertar noturno, queda do pico de fluxo), o que fazer em casa e quando procurar atendimento. O farmacêutico pode pedir para ver o plano, reforçar as etapas e anotar no verso o limite diário do alívio.</p> <h3>Criança de até 5 anos</h3> <p>Pelo PCDT da Asma (2026), todas as crianças com asma ou suspeita usam SABA inalatório para alívio, com espaçador e máscara. Corticoide inalatório diário em dose baixa é indicado quando há sintomas mais de duas vezes por semana ou crise grave com atendimento não programado no último ano. Os sinais iniciais de crise na criança pequena são mais tosse (sobretudo à noite), cansaço, menos atividade, piora na alimentação e pouca resposta ao SABA. Os cuidadores devem procurar atendimento se a criança estiver prostrada, não responder ou piorar (principalmente abaixo de 1 ano), se precisar de 4 jatos ou mais de SABA em 4 horas ou de SABA em mais de 3 ocasiões nas primeiras 12 horas. O protocolo não recomenda que os cuidadores iniciem corticoide oral por conta própria.</p> <h3>Gestante</h3> <p>Na gestação, SABA, LABA e corticoide inalatório são considerados seguros e o tratamento não deve ser reduzido como prioridade (PCDT da Asma, 2026). Crise em gestante deve ser tratada cedo, porque a falta de oxigênio prejudica o feto.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Asmático comprando só \"bombinha de alívio\" deve ouvir que tratamento só com SABA não é recomendado e ser encaminhado para iniciar corticoide inalatório. Verifique técnica, se há plano de ação escrito e se o paciente sabe o limite diário do budesonida-formoterol. Crise com fala entrecortada, lábios roxos ou sonolência é caso de SAMU.</p></div> <div class=\"cx exemplo\"><b>Caso</b><p>Estudante de 22 anos compra o terceiro frasco de salbutamol em dois meses e diz que \"só tem asma leve\". O farmacêutico explica que esse consumo indica asma não controlada e risco de crise grave, revisa a técnica com espaçador, entrega orientação por escrito e encaminha à unidade de saúde para iniciar corticoide inalatório, mencionando que o SUS oferece budesonida-formoterol pelo PCDT.</p></div>"
+  },
+  {
+   "id": "m07-dpoc",
+   "titulo": "Tratamento da DPOC",
+   "resumo": "<p>O tratamento da DPOC tem três objetivos: aliviar a falta de ar, melhorar a tolerância ao esforço e <strong>prevenir exacerbações</strong>. A referência internacional é o relatório GOLD, revisado todo ano; a versão 2026 foi publicada em novembro de 2025. No Brasil, o SUS segue o PCDT da DPOC aprovado pela Portaria Conjunta SAES/SCTIE nº 29, de 27 de novembro de 2025, que revogou o protocolo de 2021 e se baseou no GOLD 2024.</p> <h3>Classificação ABE</h3> <p>O diagnóstico exige espirometria (ou estratégia alternativa quando ela não está disponível, segundo o PCDT). A gravidade da obstrução é graduada de GOLD 1 a 4 pelo VEF1. Para escolher o tratamento, o paciente é classificado em grupos pela intensidade dos sintomas (escala de dispneia mMRC ou questionário CAT) e pelo histórico de exacerbações:</p> <div class=\"tab\"><table><thead><tr><th>Grupo</th><th>Critério (PCDT 2025)</th><th>Tratamento inicial preferencial no SUS</th></tr></thead><tbody> <tr><td>A</td><td>Poucos sintomas (mMRC 0 a 1 ou CAT menor que 10) e no máximo 1 exacerbação moderada sem internação no ano</td><td>Broncodilatador de curta ação (SABA ou SAMA) para alívio; considerar LABA se sintomas frequentes</td></tr> <tr><td>B</td><td>Mais sintomas (mMRC 2 ou mais ou CAT 10 ou mais) e no máximo 1 exacerbação moderada sem internação</td><td>LAMA + LABA contínuo (umeclidínio + vilanterol) e SABA ou SAMA para alívio</td></tr> <tr><td>E</td><td>2 ou mais exacerbações moderadas ou 1 ou mais com internação nos últimos 12 meses, independentemente dos sintomas</td><td>LAMA + LABA (umeclidínio + vilanterol; tiotrópio + olodaterol se GOLD 3 ou 4); terapia tripla quando há indicação de CI</td></tr> </tbody></table></div> <p>O GOLD 2026 ajustou esses critérios: com base em estudos observacionais, passou a considerar que <strong>uma única exacerbação moderada</strong> já aumenta o risco de novos eventos e deve levar a considerar a intensificação do tratamento, com a meta de atingir um estado de baixa atividade de doença, sem exacerbações. O protocolo brasileiro, publicado antes, mantém o critério de 2 exacerbações moderadas ou 1 com internação.</p> <h3>Quando entra o corticoide inalatório</h3> <p>Na DPOC, o CI só tem benefício claro em pacientes exacerbadores com eosinófilos altos no sangue e aumenta o risco de pneumonia. Pelo PCDT (2025):</p> <ul> <li>indicar terapia tripla (LAMA + LABA + CI) quando os eosinófilos forem de 300 células/mm³ ou mais, ou entre 100 e 300 com exacerbações frequentes, ou quando as exacerbações persistirem com LAMA + LABA;</li> <li>evitar CI se eosinófilos abaixo de 100 células/mm³ ou história de pneumonia;</li> <li>LABA + CI sem LAMA não é recomendado de forma geral; se o CI for indicado, prefere-se a tripla, de preferência em um único dispositivo (furoato de fluticasona + umeclidínio + vilanterol ou beclometasona + formoterol + glicopirrônio).</li> </ul> <p>Para pacientes com VEF1 abaixo de 50% e dificuldade com inalador de pó seco, o PCDT recomenda a apresentação em névoa suave de tiotrópio + olodaterol (Respimat), que não depende de fluxo inspiratório forte. O GOLD 2026 também incluiu figura com a evidência dos imunobiológicos (dupilumabe, mepolizumabe) para pacientes com eosinófilos elevados que continuam exacerbando apesar da terapia tripla; eles não fazem parte do PCDT.</p> <h3>Exacerbação</h3> <p>Exacerbação é a piora aguda da falta de ar, da tosse ou do catarro (mais volume ou mudança de cor) em menos de 14 dias. O tratamento inclui aumentar o broncodilatador de curta ação e, conforme avaliação médica, corticoide oral por poucos dias e antibiótico quando há sinais de infecção bacteriana. Pelo PCDT, indicam internação: resposta ruim ao tratamento ambulatorial, piora importante da dispneia, prejuízo do sono ou da alimentação, alteração do estado mental e incapacidade de autocuidado. No balcão, a piora da DPOC com confusão, sonolência, lábios roxos ou falta de ar em repouso é urgência.</p> <h3>Cessação do tabagismo</h3> <p>Parar de fumar é a intervenção mais eficaz para reduzir a progressão da DPOC e deve ser reforçada em todos os contatos (PCDT, 2025). A abordagem mínima pode ser feita no balcão em poucos minutos: perguntar se fuma, aconselhar a parar, avaliar a disposição, oferecer ajuda e encaminhar ao programa de tratamento do tabagismo do SUS, que oferece abordagem cognitivo-comportamental e, conforme o protocolo de tabagismo vigente, terapia de reposição de nicotina (adesivo, goma, pastilha) e bupropiona. A dependência pode ser avaliada pelo teste de Fagerström.</p> <h3>Vacinas</h3> <p>O PCDT da DPOC (2025) preconiza, conforme o Programa Nacional de Imunizações, vacina contra influenza anual para todos os pacientes e vacinas pneumocócicas conjugada 13-valente e polissacarídica 23-valente para pacientes sintomáticos e exacerbadores ou com comorbidades de risco, com intervalo de seis meses começando pela conjugada. O GOLD 2026 atualizou as recomendações de vírus sincicial respiratório (VSR) e influenza e também cita covid-19, coqueluche (dTpa) e herpes-zóster. A disponibilidade de cada vacina no SUS e nos centros de referência deve ser conferida no calendário vigente.</p> <h3>Medidas não farmacológicas</h3> <p>Reabilitação pulmonar, atividade física regular, nutrição adequada, oxigenoterapia domiciliar quando indicada e tratamento das comorbidades (doença cardiovascular, ansiedade e depressão, osteoporose, diabetes) fazem parte do cuidado. Paciente em oxigênio domiciliar não pode fumar nem ficar perto de chama.</p>  <h3>Acesso aos medicamentos</h3> <p>Pelo PCDT da DPOC (2025), ipratrópio (solução para inalação de 0,25 mg/mL), beclometasona e salbutamol estão disponíveis no Programa Farmácia Popular. As associações LAMA + LABA e as terapias triplas são dispensadas pelo Componente Especializado da Assistência Farmacêutica, de gestão estadual, mediante laudo de solicitação (LME), prescrição e cumprimento dos critérios de inclusão do protocolo. O farmacêutico de drogaria pode orientar o paciente sobre esse caminho quando o custo do inalador impede a adesão.</p> <h3>Adesão</h3> <p>Na DPOC, os pacientes são em geral idosos, com várias doenças e muitos medicamentos. Preferir dispositivo único, uma tomada ao dia, mesmo tipo de inalador para todos os fármacos e revisar a técnica em cada visita aumenta a adesão. Interromper o LAMA + LABA porque \"melhorou\" é comum e precisa ser desestimulado: o benefício depende do uso contínuo.</p>  <h3>Oxigênio domiciliar</h3> <p>Pacientes com hipoxemia crônica grave podem receber oxigenoterapia domiciliar prolongada, que reduz a mortalidade quando usada muitas horas por dia. Orientações de segurança: não fumar e não permitir que fumem no ambiente, manter o equipamento longe de fogão, velas e aquecedores, não usar cremes à base de petróleo no rosto e seguir exatamente o fluxo prescrito, porque fluxo alto demais pode piorar a retenção de gás carbônico em alguns pacientes.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Fumante acima de 40 anos com tosse e catarro há meses ou falta de ar que piora ao subir escadas deve ser encaminhado para espirometria. Paciente com DPOC deve ter técnica inalatória revisada a cada dispensação, ser lembrado da vacina da gripe e ser perguntado sobre tabagismo em todas as visitas.</p></div> <div class=\"cx exemplo\"><b>Caso</b><p>Senhora de 66 anos, ex-tabagista, com DPOC grupo B, chega com receita de umeclidínio + vilanterol e diz que não sente \"o pó\" ao inspirar. O farmacêutico demonstra o Ellipta com o dispositivo de treino: abrir a tampa até o clique, expirar longe do bocal, selar os lábios e inspirar longa e profundamente, segurar a respiração e fechar. Explica que o pó é fino e quase sem sabor e que o contador confirma a dose.</p></div>"
+  },
+  {
+   "id": "m07-tecnica-inalatoria",
+   "titulo": "Dispositivos e técnica inalatória",
+   "resumo": "<p>O melhor medicamento inalatório não funciona se o paciente usa errado. Estudos mostram que a maioria dos pacientes comete ao menos um erro crítico, e a técnica ruim é uma das principais causas de asma e DPOC não controladas. Ensinar e revisar a técnica é uma das intervenções mais úteis que o farmacêutico pode fazer no balcão, e o PCDT da Asma (2026) recomenda verificar a técnica em toda consulta.</p> <h3>Tipos de dispositivo</h3> <ul> <li><b>Aerossol dosimetrado pressurizado</b> (pMDI, a \"bombinha\"): libera um jato com o fármaco suspenso em propelente. Exige coordenar o disparo com uma inspiração <b>lenta e profunda</b>. Com espaçador, a coordenação deixa de ser problema.</li> <li><b>Inaladores de pó seco</b> (DPI): o paciente gera o fluxo que dispersa o pó, com uma inspiração <b>rápida e forte</b>. Não precisam de coordenação, mas exigem força inspiratória e não podem receber o sopro do paciente (a umidade empedra o pó). Exemplos: Turbuhaler, Diskus, Ellipta, inaladores de cápsula (Aerolizer, Breezhaler).</li> <li><b>Inalador de névoa suave</b> (Respimat): solução liberada como névoa lenta, por cerca de 1,5 segundo; exige menos coordenação e não depende de fluxo forte.</li> <li><b>Nebulizador</b>: transforma solução em névoa com ar comprimido ou ultrassom; usado em crise no serviço de saúde, crianças pequenas e pacientes incapazes de usar outros dispositivos.</li> </ul> <h3>Espaçador</h3> <p>O espaçador (ou câmara de inalação) é um tubo acoplado à bombinha. Ele diminui a velocidade das partículas, retém as maiores (que iriam para a garganta), aumenta a deposição no pulmão e elimina a necessidade de coordenar disparo e inspiração. É indicado para crianças, idosos, quem tem dificuldade de coordenação, uso de CI em aerossol e crise de asma. Criança menor de 4 anos usa espaçador com máscara facial bem ajustada. Espaçadores caseiros de garrafa PET são alternativa quando não há outro, conforme orientação do serviço de saúde. O espaçador deve ser lavado com água e detergente neutro e secar ao ar, sem esfregar com pano (a eletricidade estática prende o fármaco nas paredes).</p> <h3>Passos essenciais em comum</h3> <ol> <li>Preparar o dispositivo (agitar o aerossol; carregar a dose no pó seco).</li> <li>Expirar completamente, <b>longe do bocal</b>.</li> <li>Selar os lábios no bocal e inspirar do jeito certo para o dispositivo (lenta no aerossol e Respimat; rápida e forte no pó seco).</li> <li>Prender a respiração por cerca de 10 segundos ou o máximo confortável.</li> <li>Expirar devagar; aguardar cerca de 30 a 60 segundos antes de repetir um jato de aerossol.</li> <li>Após corticoide inalatório, enxaguar a boca e cuspir.</li> </ol> <h3>Erros mais comuns por dispositivo</h3> <ul> <li><b>Aerossol sem espaçador</b>: disparar antes ou depois de começar a inspirar; inspirar rápido demais; não agitar; disparar dois jatos de uma vez.</li> <li><b>Turbuhaler</b>: não girar a base até o clique nos dois sentidos; segurar na horizontal ao carregar; soprar dentro; inspiração fraca.</li> <li><b>Diskus e Ellipta</b>: abrir e fechar sem inspirar, perdendo a dose; soprar dentro; inclinar o dispositivo depois de carregar.</li> <li><b>Cápsula (Aerolizer, Breezhaler)</b>: engolir a cápsula, não furar, não verificar se a cápsula ficou vazia.</li> <li><b>Respimat</b>: não montar o cartucho corretamente no primeiro uso; não girar a base antes de disparar; apontar para a garganta sem selar os lábios.</li> </ul> <h3>Como ensinar no balcão</h3> <ol> <li>Pedir ao paciente que <b>mostre</b> como usa, com o próprio dispositivo ou com o de demonstração.</li> <li>Elogiar o que está certo e corrigir no máximo dois ou três erros por vez, começando pelos críticos.</li> <li>Demonstrar em silêncio, devagar, passo a passo.</li> <li>Pedir que o paciente repita até acertar (método de \"ensinar de volta\").</li> <li>Entregar instrução escrita ou ilustrada e revisar na próxima visita.</li> </ol> <p>Ao escolher ou trocar o dispositivo, pesar a capacidade de fazer inspiração forte (idosos frágeis e pacientes com obstrução grave podem não conseguir usar pó seco), a destreza das mãos (artrite), a visão e a cognição. Evitar dispositivos diferentes para o mesmo paciente sempre que possível, porque as técnicas se misturam.</p> <h3>Contadores de dose e fim do frasco</h3> <p>Turbuhaler, Diskus, Ellipta e muitos aerossóis têm contador. No aerossol sem contador, o paciente deve anotar as doses usadas; agitar o frasco e \"ouvir líquido\" engana, porque o propelente continua saindo depois que o fármaco acabou. Boiar o frasco na água é método obsoleto e não deve ser ensinado.</p>  <h3>Dispositivo por idade</h3> <ul> <li><b>Até cerca de 4 anos</b>: aerossol com espaçador e máscara facial; nebulizador quando não for possível.</li> <li><b>Dos 4 aos 6 anos</b>: aerossol com espaçador e bocal, assim que a criança demonstrar técnica adequada.</li> <li><b>A partir de 6 anos</b>: pode-se considerar pó seco, se a criança conseguir inspiração forte; aerossol com espaçador continua sendo opção.</li> </ul> <p>O PCDT da Asma (2026) observa que dispositivos de pó não são adequados para a maioria das crianças de até 5 anos e para alguns idosos, e recomenda evitar prescrever aerossol e pó seco ao mesmo tempo para o mesmo paciente.</p> <h3>Nebulização em casa</h3> <p>Usar exatamente a dose e o diluente prescritos (em geral soro fisiológico), com máscara bem ajustada ou bocal, respirando normalmente até a névoa acabar (cerca de 10 minutos). Após o uso de antimuscarínico com máscara, proteger os olhos. Lavar copo e máscara com água e detergente, enxaguar e deixar secar ao ar após cada uso, para evitar contaminação.</p> <h3>Limpeza dos dispositivos</h3> <p>O bocal do aerossol pode ser lavado com água morna depois de retirado o frasco, e deve secar bem antes de recolocar. Inaladores de pó seco nunca devem ser lavados: limpa-se o bocal com pano seco. O Respimat é limpo com pano úmido no bocal, sem mergulhar.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Toda primeira dispensação de inalatório deve incluir demonstração. Nas seguintes, peça ao paciente que mostre o uso; muitos erram depois de meses. Se o paciente não consegue fazer inspiração forte, informe o prescritor e sugira a discussão de aerossol com espaçador ou Respimat.</p></div>"
+  },
+  {
+   "id": "m07-antileucotrienos",
+   "titulo": "Antileucotrienos, cromonas e imunobiológicos",
+   "resumo": "<h3>Montelucaste</h3> <p>O montelucaste bloqueia o receptor de leucotrienos cisteinílicos (CysLT1), reduzindo broncoconstrição, edema e muco. É oral, uma vez ao dia, à noite: 10 mg para adultos e adolescentes a partir de 15 anos, 5 mg em comprimido mastigável dos 6 aos 14 anos e 4 mg (mastigável ou sachê) dos 2 aos 5 anos, conforme a bula. Na asma, é menos eficaz que o corticoide inalatório e fica como alternativa ou complemento; na rinite alérgica, é menos eficaz que o corticoide nasal.</p> <div class=\"cx alerta\"><b>Atenção</b><p>Em março de 2020, a FDA exigiu alerta em tarja (boxed warning) sobre eventos neuropsiquiátricos graves com montelucaste: agitação, agressividade, ansiedade, depressão, alterações do sono e pesadelos, sonambulismo, alucinações, problemas de memória e atenção, tiques, gagueira, pensamentos e comportamentos suicidas. A FDA orientou reservar o montelucaste na rinite alérgica para quem não responde ou não tolera outros tratamentos. A agência britânica (MHRA) reforçou o alerta em 2024. Os eventos ocorrem em crianças e adultos, inclusive após a suspensão.</p></div> <p>Orientação ao paciente e à família: observar mudança de humor, sono e comportamento, sobretudo nas primeiras semanas; em caso de alteração, suspender e procurar o médico. O montelucaste não serve para tratar crise.</p> <h3>Cromonas</h3> <p>O cromoglicato dissódico estabiliza mastócitos e impede a liberação de mediadores. Tem efeito preventivo, começa a agir em dias e precisa de várias aplicações ao dia. A forma inalatória para asma praticamente saiu de uso por ser menos eficaz que o corticoide inalatório. Persistem as formas nasal (rinite leve, prevenção antes de exposição) e oftálmica (conjuntivite alérgica), com excelente segurança, inclusive em crianças e gestantes.</p> <h3>Imunobiológicos</h3> <p>São anticorpos monoclonais injetáveis para asma grave não controlada apesar de tratamento otimizado (etapa 5), indicados por especialista conforme o fenótipo:</p> <ul> <li><b>Anti-IgE</b>: omalizumabe (asma alérgica grave).</li> <li><b>Anti-IL-5 ou anti-receptor de IL-5</b>: mepolizumabe, benralizumabe (asma eosinofílica grave); a GINA 2026 incluiu o depemoquimabe, de aplicação semestral.</li> <li><b>Anti-receptor de IL-4</b>: dupilumabe (asma tipo 2 grave; também usado em dermatite atópica e, em outros países, na DPOC eosinofílica).</li> <li><b>Anti-TSLP</b>: tezepelumabe.</li> </ul> <p>Pelo PCDT da Asma (2026), o SUS oferece omalizumabe, mepolizumabe (com ampliação para crianças de 6 a 11 anos), benralizumabe e dupilumabe, pelo Componente Especializado da Assistência Farmacêutica. São medicamentos de cadeia fria e de dispensação especializada.</p>  <h3>Detalhes práticos do montelucaste</h3> <p>O comprimido mastigável contém aspartame, fonte de fenilalanina, e não deve ser usado em pessoas com fenilcetonúria sem orientação. O sachê pode ser misturado a alimento pastoso frio e tomado em até 15 minutos. Interações relevantes são poucas; indutores enzimáticos como fenobarbital e rifampicina reduzem o nível. Pelo PCDT da Asma (2026), os antagonistas de leucotrienos são considerados seguros na gestação quando necessários, mas não estão incorporados ao SUS para asma.</p> <p>O montelucaste tem algum papel na prevenção do broncoespasmo induzido por exercício e na asma com doença respiratória exacerbada por AINE, sempre como complemento e por decisão do prescritor.</p>  <h3>Imunobiológicos na prática</h3> <p>São medicamentos termolábeis: armazenamento entre 2 e 8 °C, sem congelar, e transporte em caixa térmica com gelo reciclável sem contato direto com a embalagem. A aplicação é subcutânea, a cada 2 a 8 semanas conforme o fármaco. Pelo PCDT da Asma (2026), as três primeiras doses de omalizumabe devem ser aplicadas por profissional de saúde ou sob sua supervisão, com suporte para tratar anafilaxia; depois, pode haver orientação médica para autoaplicação. O imunobiológico não substitui o inalador: o paciente continua com corticoide inalatório e medicamento de alívio.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Ao dispensar montelucaste, pergunte quem usa (criança, adolescente), explique o horário noturno e oriente os familiares a observar sono, humor e comportamento. Se o motivo da prescrição for apenas rinite, lembre o paciente de que há alternativas mais eficazes e mais seguras para discutir com o médico.</p></div>"
+  },
+  {
+   "id": "m07-rinite-tosse",
+   "titulo": "Rinite alérgica e tosse",
+   "resumo": "<h3>Classificação da rinite alérgica</h3> <p>A classificação ARIA divide a rinite pela duração (intermitente: menos de 4 dias por semana ou menos de 4 semanas seguidas; persistente: mais que isso) e pela gravidade (leve: não atrapalha sono, trabalho, escola ou lazer; moderada a grave: atrapalha). Essa classificação orienta a escolha:</p> <ul> <li><b>Intermitente leve</b>: anti-H1 oral de segunda geração ou anti-H1 nasal, lavagem nasal, controle ambiental.</li> <li><b>Persistente ou moderada a grave</b>: <strong>corticoide nasal</strong> é o tratamento mais eficaz, inclusive para obstrução; pode ser associado a anti-H1.</li> </ul> <h3>Corticoide nasal</h3> <p>Budesonida, beclometasona, propionato e furoato de fluticasona, furoato de mometasona e triancinolona são os mais usados. O efeito começa em horas, mas o benefício completo leva dias a 2 semanas de uso regular, o que precisa ser explicado para o paciente não abandonar. Absorção sistêmica é baixa; os efeitos adversos mais comuns são ressecamento, ardor e pequenos sangramentos nasais. A idade mínima varia conforme o produto e deve ser conferida na bula.</p> <p>Técnica: assoar o nariz; agitar o frasco; inclinar levemente a cabeça para a frente; usar a mão direita para a narina esquerda e vice-versa, apontando o jato para a parede lateral do nariz (em direção ao canto do olho), longe do septo; inspirar suavemente, sem fungar forte; limpar o bico. Apontar para o septo causa sangramento e, raramente, perfuração.</p> <h3>Descongestionantes</h3> <p>Os descongestionantes tópicos (nafazolina, oximetazolina, fenoxazolina) são agonistas alfa-adrenérgicos que contraem os vasos da mucosa e desentopem o nariz em minutos. O uso prolongado causa congestão de rebote e <strong>rinite medicamentosa</strong>: o nariz entope quando o efeito passa, o paciente reaplica e cria dependência. As bulas limitam o uso a <strong>3 a 5 dias</strong>. As apresentações de uso adulto de nafazolina são contraindicadas para menores de 12 anos, e esses produtos estão entre causas frequentes de intoxicação em crianças (sonolência, bradicardia, hipotermia, hipotensão ou hipertensão, até coma). Também devem ser evitados em hipertensão não controlada, doença coronariana, glaucoma de ângulo fechado e em usuários de inibidores da MAO.</p> <p>Descongestionantes orais (pseudoefedrina e fenilefrina, comuns em antigripais) causam taquicardia, aumento da pressão, insônia e retenção urinária. Em 2023, um comitê consultivo da FDA concluiu que a fenilefrina oral nas doses usuais não é eficaz como descongestionante.</p> <h3>Lavagem nasal</h3> <p>A lavagem com soro fisiológico (cloreto de sódio 0,9%) ou solução salina hipertônica remove alérgenos, secreção e mediadores, melhora sintomas e reduz a necessidade de medicamentos. É segura em todas as idades, inclusive em gestantes e lactentes. Em adultos, volumes maiores (seringa ou frasco próprio) limpam melhor que gotas; em bebês, gotas ou pequenos volumes com o bebê de lado. Solução caseira exige água fervida ou filtrada e utensílios limpos.</p> <h3>Tosse</h3> <p>Tosse é um reflexo de defesa que limpa a via aérea. Ela é classificada pela duração:</p> <div class=\"tab\"><table><thead><tr><th>Tipo</th><th>Duração</th><th>Causas frequentes</th><th>Conduta</th></tr></thead><tbody> <tr><td>Aguda</td><td>Menos de 3 semanas</td><td>Resfriado e outras infecções virais</td><td>Medidas gerais; autolimitada</td></tr> <tr><td>Subaguda</td><td>3 a 8 semanas</td><td>Tosse pós-infecciosa, coqueluche</td><td>Avaliação médica se persistir ou piorar</td></tr> <tr><td>Crônica</td><td>Mais de 8 semanas</td><td>Rinite e gotejamento pós-nasal, asma, refluxo, IECA, tabagismo, DPOC</td><td>Encaminhar para investigação</td></tr> </tbody></table></div> <p>Pessoa com tosse por 3 semanas ou mais é considerada sintomática respiratória e deve ser avaliada para tuberculose pela unidade de saúde. Outros sinais de alarme: falta de ar, chiado, febre alta ou por mais de 3 dias, sangue no escarro, perda de peso, dor no peito, tosse em bebê, tosse em acessos com guincho ou vômito (coqueluche).</p> <h3>Antitussígenos, expectorantes e mucolíticos</h3> <ul> <li><b>Antitussígenos de ação central</b>: dextrometorfano (pode causar síndrome serotoninérgica com ISRS, IMAO e outros serotoninérgicos; potencial de abuso em doses altas) e codeína (opioide, sujeita a controle especial; módulo 2). A EMA (2015) contraindicou codeína para tosse em menores de 12 anos e a FDA (2017) fez o mesmo, pelo risco de depressão respiratória em metabolizadores ultrarrápidos do CYP2D6.</li> <li><b>Antitussígenos de ação periférica</b>: levodropropizina e dropropizina.</li> <li><b>Expectorantes</b>: guaifenesina, que aumentaria o volume da secreção; evidência fraca.</li> <li><b>Mucolíticos</b>: acetilcisteína, carbocisteína, ambroxol e bromexina alteram a viscosidade do muco. Na tosse aguda do resfriado, a evidência de benefício é limitada. Na DPOC, o prescritor pode usá-los para reduzir exacerbações em pacientes selecionados.</li> </ul> <div class=\"cx alerta\"><b>Atenção</b><p>Acetilcisteína e carbocisteína são contraindicadas em menores de 2 anos pelas bulas, porque o lactente não consegue expectorar o muco fluidificado e pode ter piora respiratória; o ambroxol nessa idade só com prescrição; xaropes de hera (<i>Hedera helix</i>) também são contraindicados em menores de 2 anos. Associar antitussígeno (que suprime a tosse) com expectorante ou mucolítico (que aumenta a secreção a ser eliminada) é combinação sem lógica.</p></div> <p>Para tosse aguda de resfriado em adulto, nenhum xarope tem benefício consistente. Hidratação, mel (somente acima de 1 ano, pelo risco de botulismo no lactente), pastilhas, lavagem nasal e tratar a rinite associada costumam bastar. Em criança pequena com resfriado, antigripais e antitussígenos não são recomendados: a FDA desaconselha esses produtos de venda livre em menores de 2 anos desde 2008. Tosse seca persistente em usuário de IECA (enalapril, captopril) é efeito adverso conhecido e pede contato com o prescritor, que pode trocar por um BRA.</p>  <h3>Controle ambiental</h3> <p>Medidas que ajudam na rinite e na asma alérgica: reduzir poeira e ácaros (capas impermeáveis em colchão e travesseiro, lavar roupa de cama semanalmente, retirar tapetes, cortinas e bichos de pelúcia do quarto), controlar mofo e umidade, evitar fumaça de cigarro, incensos e produtos de limpeza com cheiro forte. O efeito isolado de cada medida é modesto; o conjunto e o tratamento medicamentoso trazem o controle.</p> <h3>Rinossinusite e quando encaminhar</h3> <p>A maioria das rinossinusites agudas é viral e melhora em 7 a 10 dias com lavagem nasal e analgésico. Sugerem quadro bacteriano ou complicação: sintomas por mais de 10 dias sem melhora, febre alta com secreção purulenta e dor facial por 3 a 4 dias seguidos, piora depois de uma melhora inicial, dor ou inchaço ao redor dos olhos, alteração da visão, dor de cabeça intensa ou rigidez de nuca. Nesses casos, encaminhar; antibiótico só com prescrição.</p> <h3>Rinite na gestação</h3> <p>Congestão nasal é comum na gravidez mesmo sem alergia. Lavagem nasal é a primeira medida. Descongestionantes orais devem ser evitados, principalmente no primeiro trimestre, e os tópicos só por poucos dias com orientação. Corticoide nasal e anti-H1 de segunda geração ficam a critério do prescritor; a budesonida é o corticoide nasal com mais dados na gestação.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Antes de qualquer xarope, pergunte idade, duração, se a tosse é seca ou com catarro, febre, falta de ar, chiado, tabagismo e medicamentos em uso (IECA, ISRS). Em adulto com resfriado, priorize medidas gerais e lavagem nasal. Em criança menor de 2 anos, não dispense mucolítico, antitussígeno ou antigripal sem prescrição. Tosse há 3 semanas ou mais vai para a unidade de saúde.</p></div> <div class=\"cx exemplo\"><b>Caso</b><p>Senhor de 58 anos pede xarope para tosse seca que começou há dois meses. Usa enalapril há três meses e nega febre e falta de ar. O farmacêutico relaciona a tosse ao IECA, explica que nenhum xarope resolve esse caso e encaminha ao médico com uma nota sugerindo a avaliação da troca do anti-hipertensivo, orientando não suspender o enalapril por conta própria.</p></div>"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m07-mapa-farmacos",
+   "titulo": "Broncodilatadores e corticoides inalatórios",
+   "centro": "Fármacos respiratórios",
+   "ramos": [
+    {
+     "t": "SABA",
+     "itens": [
+      "Salbutamol, fenoterol: 3 a 5 min, 4 a 6 h",
+      "Alívio; agitar antes de cada jato",
+      "Mais de 3 frascos/ano: asma descontrolada",
+      "Tremor, taquicardia, hipocalemia"
+     ]
+    },
+    {
+     "t": "LABA",
+     "itens": [
+      "Formoterol: início rápido, 12 h",
+      "Salmeterol: início lento, 12 h",
+      "Vilanterol, indacaterol, olodaterol: 24 h",
+      "Na asma, nunca sem corticoide inalatório"
+     ]
+    },
+    {
+     "t": "Antimuscarínicos",
+     "itens": [
+      "SAMA: ipratrópio, 6 a 8 h",
+      "LAMA: tiotrópio, glicopirrônio, umeclidínio",
+      "Base da DPOC",
+      "Boca seca, retenção urinária, glaucoma"
+     ]
+    },
+    {
+     "t": "Corticoide inalatório",
+     "itens": [
+      "Beclometasona, budesonida, fluticasona",
+      "Efeito em dias a semanas",
+      "Enxaguar a boca e cuspir",
+      "Candidíase oral, rouquidão",
+      "DPOC: risco de pneumonia"
+     ]
+    },
+    {
+     "t": "Associações",
+     "itens": [
+      "CI-formoterol: único que serve de alívio",
+      "CI-salmeterol e CI-vilanterol: só manutenção",
+      "LAMA-LABA: DPOC",
+      "Tripla: DPOC exacerbadora com eosinófilos"
+     ]
+    },
+    {
+     "t": "Teofilina",
+     "itens": [
+      "Índice terapêutico estreito",
+      "Ciprofloxacino e claritromicina sobem nível",
+      "Parar de fumar sobe nível",
+      "Náusea, arritmia, convulsão"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m07-mapa-asma-dpoc",
+   "titulo": "Asma e DPOC: tratamento atual",
+   "centro": "Asma e DPOC",
+   "ramos": [
+    {
+     "t": "Asma: princípios",
+     "itens": [
+      "Todo asmático usa corticoide inalatório",
+      "SABA isolado não é recomendado",
+      "Prioridade: evitar crise grave",
+      "1 crise com corticoide oral = revisar (GINA 2026)"
+     ]
+    },
+    {
+     "t": "Asma: regime 1",
+     "itens": [
+      "Etapas 1 e 2: budesonida-formoterol se sintoma",
+      "Etapas 3 a 5: MART, mesmo inalador",
+      "Máximo 12 inalações/dia de 200/6 mcg",
+      "PCDT 2026: Portaria Conjunta 43/2026"
+     ]
+    },
+    {
+     "t": "Asma: crise",
+     "itens": [
+      "SABA 4 a 10 jatos com espaçador, 20/20 min",
+      "Fala entrecortada ou lábio roxo: 192",
+      "Prednisona 40 a 50 mg por 5 a 7 dias",
+      "Retorno em 2 a 7 dias"
+     ]
+    },
+    {
+     "t": "DPOC: grupos",
+     "itens": [
+      "A: pouco sintoma, sem exacerbação",
+      "B: mais sintomas: LAMA + LABA",
+      "E: exacerbador: LAMA + LABA, talvez tripla",
+      "GOLD 2026: 1 exacerbação moderada já pesa"
+     ]
+    },
+    {
+     "t": "DPOC: corticoide",
+     "itens": [
+      "Eosinófilos 300/mm³ ou mais: tripla",
+      "Menos de 100/mm³ ou pneumonia: evitar CI",
+      "LABA + CI sem LAMA: não preferido"
+     ]
+    },
+    {
+     "t": "DPOC: além do remédio",
+     "itens": [
+      "Parar de fumar muda a história",
+      "Influenza anual e pneumocócicas",
+      "Reabilitação e atividade física",
+      "PCDT 2025: Portaria Conjunta 29/2025"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m07-mapa-dispositivos",
+   "titulo": "Dispositivos e técnica inalatória",
+   "centro": "Técnica inalatória",
+   "ramos": [
+    {
+     "t": "Aerossol (pMDI)",
+     "itens": [
+      "Agitar antes de cada jato",
+      "Inspiração lenta e profunda",
+      "Espaçador: dispensa coordenação",
+      "Erro: disparar fora da inspiração"
+     ]
+    },
+    {
+     "t": "Pó seco (DPI)",
+     "itens": [
+      "Inspiração rápida e forte",
+      "Nunca soprar dentro",
+      "Turbuhaler: girar até o clique",
+      "Diskus e Ellipta: abriu, inalou"
+     ]
+    },
+    {
+     "t": "Cápsula",
+     "itens": [
+      "Aerolizer, Breezhaler",
+      "Cápsula é para inalar, não engolir",
+      "Furar e conferir se esvaziou"
+     ]
+    },
+    {
+     "t": "Respimat e nebulizador",
+     "itens": [
+      "Respimat: névoa lenta, menos força",
+      "Bom para VEF1 baixo",
+      "Nebulizador: crise, criança pequena"
+     ]
+    },
+    {
+     "t": "Passos comuns",
+     "itens": [
+      "Expirar longe do bocal",
+      "Prender a respiração por cerca de 10 s",
+      "Corticoide: enxaguar e cuspir",
+      "Conferir o contador de doses"
+     ]
+    },
+    {
+     "t": "Ensinar",
+     "itens": [
+      "Pedir para o paciente mostrar",
+      "Corrigir até 3 erros por vez",
+      "Paciente repete até acertar",
+      "Revisar em toda dispensação"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m07-tab-dispositivos",
+   "titulo": "Dispositivos inalatórios",
+   "colunas": [
+    "Dispositivo",
+    "Exemplos de medicamentos no Brasil",
+    "Como usar (passos)",
+    "Erro mais comum"
+   ],
+   "linhas": [
+    [
+     "Aerossol dosimetrado (pMDI) sem espaçador",
+     "Salbutamol, fenoterol, ipratrópio, beclometasona, fluticasona + salmeterol, beclometasona + formoterol + glicopirrônio",
+     "Agitar; expirar; bocal nos lábios; iniciar inspiração lenta e disparar; continuar inspirando; prender 10 s",
+     "Falta de coordenação entre disparo e inspiração"
+    ],
+    [
+     "Aerossol com espaçador",
+     "Os mesmos aerossóis; preferido em crianças, idosos e na crise",
+     "Agitar; acoplar; expirar; disparar 1 jato; inspirar lenta e profundamente (ou 4 a 6 respirações em volume corrente com máscara)",
+     "Disparar vários jatos de uma vez na câmara"
+    ],
+    [
+     "Turbuhaler (pó seco)",
+     "Budesonida + formoterol (Symbicort® Turbuhaler)",
+     "Desrosquear; em pé, girar a base para um lado e voltar até o clique; expirar fora; inspirar rápido e forte; prender",
+     "Carregar na horizontal ou inspirar fraco"
+    ],
+    [
+     "Diskus (pó seco)",
+     "Fluticasona + salmeterol (Seretide® Diskus)",
+     "Abrir; empurrar a alavanca até o clique; expirar fora; inspirar rápido e forte; prender; fechar",
+     "Soprar dentro ou mexer na alavanca sem inalar"
+    ],
+    [
+     "Cápsula (Aerolizer, Breezhaler)",
+     "Formoterol, budesonida, budesonida + formoterol em cápsulas; indacaterol, glicopirrônio, indacaterol + glicopirrônio",
+     "Abrir; colocar a cápsula; furar uma vez; expirar fora; inspirar rápido e forte; conferir cápsula vazia",
+     "Engolir a cápsula ou não furar"
+    ],
+    [
+     "Ellipta (pó seco)",
+     "Umeclidínio + vilanterol; fluticasona furoato + vilanterol; fluticasona furoato + umeclidínio + vilanterol",
+     "Abrir a tampa até o clique; expirar fora; selar lábios sem tapar a entrada de ar; inspirar longa e profundamente; prender; fechar",
+     "Abrir e fechar sem inalar, perdendo a dose"
+    ],
+    [
+     "Respimat (névoa suave)",
+     "Tiotrópio; tiotrópio + olodaterol",
+     "Tampa fechada, girar a base meia volta; abrir; expirar; selar lábios; iniciar inspiração lenta e apertar; prender",
+     "Não girar a base ou não montar o cartucho"
+    ],
+    [
+     "Nebulizador",
+     "Salbutamol, fenoterol e ipratrópio em solução; budesonida suspensão",
+     "Diluir conforme prescrição; máscara ou bocal; respirar normalmente até acabar; limpar e secar",
+     "Usar soro sem medicamento achando que trata a crise"
+    ]
+   ],
+   "nota": "Marcas citadas uma vez como exemplo de dispositivo; a disponibilidade de cada apresentação deve ser conferida na lista de preços e no Bulário da Anvisa."
+  },
+  {
+   "tipo": "checklist",
+   "id": "m07-check-espacador",
+   "titulo": "Técnica: aerossol com espaçador",
+   "itens": [
+    "Retirar a tampa e conferir se o bocal está limpo",
+    "Agitar o aerossol por alguns segundos",
+    "Acoplar o aerossol ao espaçador na posição vertical",
+    "Expirar completamente, longe do bocal",
+    "Selar os lábios no bocal (ou ajustar bem a máscara no rosto da criança)",
+    "Disparar um único jato",
+    "Inspirar lenta e profundamente e prender a respiração por cerca de 10 segundos (ou 4 a 6 respirações com máscara)",
+    "Esperar 30 a 60 segundos e agitar de novo antes do próximo jato",
+    "Após corticoide inalatório, enxaguar a boca e cuspir",
+    "Lavar o espaçador com detergente neutro e deixar secar ao ar"
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "id": "m07-check-po",
+   "titulo": "Técnica: inalador de pó seco",
+   "itens": [
+    "Carregar a dose conforme o dispositivo (girar, abrir, deslizar ou furar a cápsula)",
+    "Manter o dispositivo na posição indicada depois de carregar",
+    "Expirar completamente, longe do bocal (nunca soprar dentro)",
+    "Selar os lábios no bocal",
+    "Inspirar de forma rápida, forte e profunda desde o início",
+    "Prender a respiração por cerca de 10 segundos",
+    "Fechar o dispositivo e guardar em local seco",
+    "Conferir o contador de doses ou se a cápsula ficou vazia",
+    "Após corticoide inalatório, enxaguar a boca e cuspir"
+   ]
+  },
+  {
+   "tipo": "tabela",
+   "id": "m07-tab-farmacos",
+   "titulo": "Fármacos respiratórios",
+   "colunas": [
+    "Classe",
+    "Exemplos",
+    "Início / duração",
+    "Uso",
+    "Efeito adverso"
+   ],
+   "linhas": [
+    [
+     "SABA",
+     "Salbutamol, fenoterol",
+     "3 a 5 min / 4 a 6 h",
+     "Alívio; crise; antes do exercício",
+     "Tremor, taquicardia, hipocalemia"
+    ],
+    [
+     "LABA",
+     "Formoterol, salmeterol",
+     "Formoterol minutos, salmeterol 10 a 20 min / 12 h",
+     "Manutenção com CI (asma) ou LAMA (DPOC)",
+     "Tremor, palpitação"
+    ],
+    [
+     "LABA 24 h",
+     "Vilanterol, indacaterol, olodaterol",
+     "Minutos / 24 h",
+     "Associações de uso diário",
+     "Tremor, tosse"
+    ],
+    [
+     "SAMA",
+     "Ipratrópio",
+     "15 a 30 min / 6 a 8 h",
+     "Alívio na DPOC; crise grave com SABA",
+     "Boca seca, gosto metálico"
+    ],
+    [
+     "LAMA",
+     "Tiotrópio, glicopirrônio, umeclidínio",
+     "30 min / 24 h",
+     "Manutenção na DPOC; asma grave",
+     "Boca seca, retenção urinária, glaucoma"
+    ],
+    [
+     "Corticoide inalatório",
+     "Beclometasona, budesonida, fluticasona, ciclesonida, mometasona",
+     "Dias / efeito máximo em semanas",
+     "Base da asma; DPOC exacerbadora com eosinófilos",
+     "Candidíase oral, disfonia; pneumonia na DPOC"
+    ],
+    [
+     "Antileucotrieno",
+     "Montelucaste",
+     "Horas / 24 h",
+     "Alternativa na asma e rinite",
+     "Eventos neuropsiquiátricos (alerta FDA 2020)"
+    ],
+    [
+     "Metilxantina",
+     "Teofilina, aminofilina",
+     "Horas / 12 a 24 h (liberação prolongada)",
+     "Raro; terceira linha",
+     "Náusea, arritmia, convulsão; muitas interações"
+    ],
+    [
+     "Corticoide oral",
+     "Prednisona, prednisolona",
+     "Horas / dias",
+     "Crise de asma e exacerbação de DPOC",
+     "Hiperglicemia, insônia, aumento da PA"
+    ]
+   ]
+  },
+  {
+   "tipo": "tabela",
+   "id": "m07-tab-rinite",
+   "titulo": "Rinite e tosse: o que usar e quando evitar",
+   "colunas": [
+    "Produto",
+    "Para que serve",
+    "Limite ou cuidado"
+   ],
+   "linhas": [
+    [
+     "Soro fisiológico nasal",
+     "Limpeza, alívio, reduz necessidade de remédio",
+     "Seguro em todas as idades"
+    ],
+    [
+     "Corticoide nasal",
+     "Rinite persistente ou moderada a grave, inclusive obstrução",
+     "Efeito pleno em dias; jato para a lateral"
+    ],
+    [
+     "Anti-H1 oral de 2ª geração",
+     "Espirros, coriza, prurido",
+     "Pouco efeito na obstrução"
+    ],
+    [
+     "Descongestionante tópico",
+     "Desentupir por curto período",
+     "No máximo 3 a 5 dias; nafazolina adulto: proibida abaixo de 12 anos"
+    ],
+    [
+     "Descongestionante oral",
+     "Congestão em antigripais",
+     "Hipertensão, arritmia, glaucoma, próstata; fenilefrina oral pouco eficaz"
+    ],
+    [
+     "Antitussígeno",
+     "Tosse seca que impede o sono",
+     "Codeína: contraindicada abaixo de 12 anos; dextrometorfano com ISRS: risco"
+    ],
+    [
+     "Mucolítico",
+     "Secreção espessa",
+     "Acetilcisteína e carbocisteína: contraindicadas abaixo de 2 anos"
+    ]
+   ]
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m07-fluxo-falta-ar",
+   "titulo": "Cliente com falta de ar ou chiado no balcão",
+   "passos": [
+    {
+     "t": "Cliente relata falta de ar, chiado ou aperto no peito",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Há sinais de gravidade: fala por palavras, lábios roxos, sonolência ou confusão, esforço intenso para respirar, dor no peito, inchaço de lábios ou língua?",
+     "tipo": "decisao",
+     "sim": "Acionar SAMU (192), manter sentado, não deixar sozinho",
+     "nao": "Seguir a avaliação"
+    },
+    {
+     "t": "Há urticária, inchaço ou exposição recente a alérgeno conhecido?",
+     "tipo": "decisao",
+     "sim": "Suspeitar de anafilaxia: SAMU e adrenalina antes do broncodilatador",
+     "nao": "Seguir a avaliação"
+    },
+    {
+     "t": "É asmático ou tem DPOC com plano de ação e medicamento de alívio próprio?",
+     "tipo": "decisao",
+     "sim": "Orientar o alívio do plano (SABA com espaçador ou budesonida-formoterol, respeitando o limite)",
+     "nao": "Primeiro episódio ou causa desconhecida: encaminhar para atendimento no mesmo dia"
+    },
+    {
+     "t": "Conferir a técnica inalatória e usar espaçador se houver",
+     "tipo": "acao"
+    },
+    {
+     "t": "Melhorou de forma sustentada em até 1 hora?",
+     "tipo": "decisao",
+     "sim": "Orientar consulta em poucos dias para revisar o tratamento de manutenção",
+     "nao": "Encaminhar para pronto atendimento imediatamente"
+    },
+    {
+     "t": "Perguntar quantas vezes usou alívio na semana e se usa corticoide inalatório",
+     "tipo": "acao"
+    },
+    {
+     "t": "Usa só SABA ou compra muitos frascos: risco de crise grave",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Registrar o atendimento e encaminhar por escrito ao médico",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m07-cartoes",
+   "titulo": "Cartões de revisão",
+   "itens": [
+    {
+     "f": "Qual receptor o salbutamol estimula?",
+     "v": "Beta-2 adrenérgico do músculo liso brônquico."
+    },
+    {
+     "f": "Qual LABA pode ser usado como alívio?",
+     "v": "Formoterol, sempre associado a corticoide inalatório."
+    },
+    {
+     "f": "Tratar asma só com SABA é recomendado?",
+     "v": "Não; aumenta o risco de crise grave e morte (GINA; PCDT da Asma 2026)."
+    },
+    {
+     "f": "Limite diário de budesonida-formoterol 200/6 mcg no regime MART/AIR?",
+     "v": "12 inalações (72 mcg de formoterol), segundo o PCDT da Asma 2026."
+    },
+    {
+     "f": "Consumo de SABA que indica asma descontrolada?",
+     "v": "Mais de 3 frascos de 200 doses por ano."
+    },
+    {
+     "f": "Que portaria aprovou o PCDT da Asma vigente?",
+     "v": "Portaria Conjunta SAES/SCTIE nº 43, de 24/03/2026."
+    },
+    {
+     "f": "Que portaria aprovou o PCDT da DPOC vigente?",
+     "v": "Portaria Conjunta SAES/SCTIE nº 29, de 27/11/2025."
+    },
+    {
+     "f": "Tratamento inicial preferencial da DPOC grupo B no SUS?",
+     "v": "LAMA + LABA: umeclidínio + vilanterol."
+    },
+    {
+     "f": "Quando considerar corticoide inalatório na DPOC?",
+     "v": "Exacerbador com eosinófilos de 300/mm³ ou mais (ou 100 a 300 com exacerbações frequentes)."
+    },
+    {
+     "f": "O que mudou no GOLD 2026 sobre exacerbações?",
+     "v": "Uma única exacerbação moderada já deve levar a considerar intensificar o tratamento."
+    },
+    {
+     "f": "Como prevenir candidíase pelo corticoide inalatório?",
+     "v": "Enxaguar a boca e cuspir após o uso; usar espaçador com aerossol."
+    },
+    {
+     "f": "Tipo de inspiração no inalador de pó seco?",
+     "v": "Rápida, forte e profunda, sem soprar dentro do dispositivo."
+    },
+    {
+     "f": "Tipo de inspiração no aerossol?",
+     "v": "Lenta e profunda, coordenada com o disparo (ou com espaçador)."
+    },
+    {
+     "f": "Por que parar de fumar altera a teofilina?",
+     "v": "O tabaco induz o CYP1A2; ao parar, o nível de teofilina sobe."
+    },
+    {
+     "f": "Alerta da FDA (2020) para montelucaste?",
+     "v": "Eventos neuropsiquiátricos graves, inclusive pensamentos suicidas."
+    },
+    {
+     "f": "Prazo máximo de descongestionante nasal tópico?",
+     "v": "3 a 5 dias, pelo risco de rinite medicamentosa."
+    },
+    {
+     "f": "Mucolíticos contraindicados abaixo de 2 anos?",
+     "v": "Acetilcisteína e carbocisteína; ambroxol só com prescrição."
+    },
+    {
+     "f": "Tosse por quanto tempo exige avaliação para tuberculose?",
+     "v": "3 semanas ou mais (sintomático respiratório)."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m07-questoes",
+   "titulo": "Questões de fixação",
+   "itens": [
+    {
+     "p": "Segundo o PCDT da Asma (2026) e a GINA, para um adulto com asma e sintomas 1 a 2 dias por semana, o tratamento preferencial é:",
+     "alt": [
+      "Budesonida-formoterol em dose baixa quando houver sintomas",
+      "Salbutamol quando houver sintomas, sem outro medicamento",
+      "Salmeterol isolado duas vezes ao dia, de manutenção",
+      "Montelucaste 10 mg à noite como única medicação",
+      "Teofilina de liberação prolongada a cada 12 horas"
+     ],
+     "c": 0,
+     "com": "No regime preferencial (etapas 1 e 2), o alívio é feito com CI-formoterol em dose baixa (estratégia AIR). SABA isolado não é recomendado por aumentar crises graves e morte. LABA isolado na asma é perigoso. Montelucaste é menos eficaz que o CI e teofilina não é opção preferida."
+    },
+    {
+     "p": "Paciente em MART com budesonida-formoterol 200/6 mcg pergunta quantas inalações pode fazer por dia. Pelo PCDT da Asma (2026), o limite total é:",
+     "alt": [
+      "4 inalações",
+      "6 inalações",
+      "8 inalações",
+      "12 inalações",
+      "Sem limite, por conter corticoide"
+     ],
+     "c": 3,
+     "com": "O Quadro 11 do PCDT da Asma (2026) fixa o máximo de 12 inalações ao dia (72 mcg de formoterol), somando manutenção e alívio. Não há intervalo mínimo entre doses de alívio, mas o teto diário vale sempre; necessidade frequente de muitas doses exige reavaliação médica."
+    },
+    {
+     "p": "Qual associação NÃO deve ser usada como medicamento de alívio na asma?",
+     "alt": [
+      "Budesonida + formoterol em pó",
+      "Fluticasona + salmeterol em pó",
+      "Beclometasona + formoterol em aerossol",
+      "Budesonida + formoterol em cápsula",
+      "Budesonida + formoterol em aerossol"
+     ],
+     "c": 1,
+     "com": "Só associações com formoterol (início rápido) servem de alívio. O PCDT da Asma (2026) proíbe CI-salmeterol como alívio pelo início de ação lento, e CI-vilanterol ou CI-indacaterol pela falta de segurança com uso mais de uma vez ao dia."
+    },
+    {
+     "p": "Paciente de 64 anos, ex-tabagista, com DPOC, falta de ar ao subir uma escada (mMRC 2) e nenhuma exacerbação no último ano. Pelo PCDT da DPOC (2025), o tratamento inicial preferencial é:",
+     "alt": [
+      "Budesonida + formoterol duas vezes ao dia",
+      "Beclometasona isolada duas vezes ao dia",
+      "Salbutamol apenas quando necessário",
+      "Terapia tripla em dispositivo único",
+      "Umeclidínio + vilanterol uma vez ao dia"
+     ],
+     "c": 4,
+     "com": "Mais sintomas sem exacerbações caracteriza o grupo B, cujo tratamento preferencial no SUS é LAMA + LABA (umeclidínio + vilanterol), com SABA ou SAMA para alívio. CI isolado ou CI-LABA não são preferidos na DPOC; tripla é para exacerbadores com critério de eosinófilos; só SABA é próprio do grupo A."
+    },
+    {
+     "p": "Em paciente com DPOC exacerbador, o corticoide inalatório deve ser evitado quando:",
+     "alt": [
+      "Os eosinófilos estão acima de 300 células/mm³",
+      "As exacerbações continuam com LAMA + LABA",
+      "Os eosinófilos estão abaixo de 100 células/mm³",
+      "O paciente tem asma associada",
+      "O paciente já usa terapia tripla com boa resposta"
+     ],
+     "c": 2,
+     "com": "O PCDT da DPOC (2025) recomenda evitar CI com eosinófilos abaixo de 100 células/mm³ ou história de pneumonia, pelo pouco benefício e maior risco de pneumonia. Eosinófilos altos, exacerbações persistentes e asma associada favorecem o CI; em quem já responde à tripla, não é preciso nova contagem para manter."
+    },
+    {
+     "p": "Qual erro é típico do uso de inalador de pó seco e compromete a dose?",
+     "alt": [
+      "Soprar dentro do dispositivo antes de inalar",
+      "Inspirar de forma rápida e forte",
+      "Fechar o dispositivo depois do uso",
+      "Prender a respiração por 10 segundos",
+      "Expirar longe do bocal antes de inalar"
+     ],
+     "c": 0,
+     "com": "Soprar dentro do inalador de pó seco umedece e dispersa o pó, perdendo a dose. A inspiração rápida e forte é a correta no pó seco (no aerossol é lenta). Fechar, prender a respiração e expirar longe do bocal são passos corretos."
+    },
+    {
+     "p": "Idosa de 80 anos com DPOC grave (VEF1 35%) não consegue gerar fluxo inspiratório forte. O dispositivo mais adequado para o LAMA + LABA, segundo o PCDT da DPOC, é:",
+     "alt": [
+      "Turbuhaler",
+      "Inalador de cápsula",
+      "Diskus",
+      "Respimat (névoa suave)",
+      "Ellipta"
+     ],
+     "c": 3,
+     "com": "O PCDT da DPOC (2025) recomenda a apresentação em névoa suave de tiotrópio + olodaterol para pacientes com VEF1 abaixo de 50% e dificuldade com pó seco. Turbuhaler, cápsula, Diskus e Ellipta são inaladores de pó seco e dependem de inspiração forte."
+    },
+    {
+     "p": "Paciente com DPOC em uso de teofilina parou de fumar há 2 semanas e começou ciprofloxacino. Chega com náusea, vômitos e palpitação. A hipótese mais provável é:",
+     "alt": [
+      "Exacerbação viral da DPOC com broncoespasmo",
+      "Intoxicação por teofilina por aumento do nível sérico",
+      "Abstinência de nicotina, sem outra causa",
+      "Anafilaxia por alergia ao ciprofloxacino",
+      "Efeito adverso sistêmico do corticoide inalatório"
+     ],
+     "c": 1,
+     "com": "A cessação do tabagismo retira a indução do CYP1A2, e o ciprofloxacino inibe o mesmo citocromo: os dois elevam o nível de teofilina, de índice terapêutico estreito. Náusea, vômitos e arritmia são sinais clássicos de intoxicação; o caso exige atendimento no mesmo dia."
+    },
+    {
+     "p": "Pais relatam que o filho de 8 anos, em uso de montelucaste há 3 semanas, passou a ter pesadelos e irritabilidade. A orientação correta é:",
+     "alt": [
+      "Manter, pois são efeitos que desaparecem sozinhos",
+      "Dobrar a dose para melhorar o controle da asma",
+      "Trocar a tomada da noite para a manhã sem avisar o médico",
+      "Associar anti-histamínico sedativo para melhorar o sono",
+      "Suspender e procurar o médico, por possível evento neuropsiquiátrico"
+     ],
+     "c": 4,
+     "com": "A FDA (2020) exige alerta em tarja sobre eventos neuropsiquiátricos com montelucaste (pesadelos, agitação, depressão, ideação suicida) e orienta suspender e procurar o médico se surgirem. Mudar dose ou horário sem orientação e associar sedativo são condutas inadequadas."
+    },
+    {
+     "p": "Cliente de 35 anos usa nafazolina nasal há 3 semanas e diz que o nariz \"entope cada vez mais\". O quadro e a conduta mais adequados são:",
+     "alt": [
+      "Rinite alérgica sazonal; aumentar a frequência da nafazolina",
+      "Sinusite bacteriana; dispensar antibiótico sem receita",
+      "Rinite medicamentosa; suspender e encaminhar ao médico",
+      "Desvio de septo; usar oximetazolina no lugar da nafazolina",
+      "Efeito esperado; manter por mais duas semanas"
+     ],
+     "c": 2,
+     "com": "O uso de vasoconstritor tópico além de 3 a 5 dias (limite das bulas) causa rebote e rinite medicamentosa. A conduta é suspender, com apoio médico (que pode indicar corticoide nasal e lavagem para a transição). Trocar por outro vasoconstritor mantém o problema; antibiótico exige prescrição."
+    },
+    {
+     "p": "Mãe pede xarope de acetilcisteína para bebê de 14 meses com resfriado e tosse com catarro. A conduta correta é:",
+     "alt": [
+      "Dispensar acetilcisteína pediátrica na menor dose prevista na bula",
+      "Dispensar xarope com codeína para controlar a tosse noturna",
+      "Dispensar antigripal infantil com descongestionante e analgésico",
+      "Não dispensar; orientar lavagem nasal, hidratação e sinais de alarme",
+      "Dispensar xarope adulto de bromexina em dose reduzida para o bebê"
+     ],
+     "c": 3,
+     "com": "Acetilcisteína e carbocisteína são contraindicadas abaixo de 2 anos pelas bulas (risco de obstrução por secreção que o lactente não expectora). Codeína é contraindicada abaixo de 12 anos (EMA 2015, FDA 2017). Antigripais de venda livre não são recomendados abaixo de 2 anos (FDA 2008). Adaptar xarope adulto para lactente é erro de dose. A conduta é medidas gerais e encaminhamento se houver alarme."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Brasil. Ministério da Saúde. Portaria Conjunta SAES/SCTIE nº 43, de 24 de março de 2026. Aprova o Protocolo Clínico e Diretrizes Terapêuticas da Asma; revoga a Portaria Conjunta SAES/SECTICS/MS nº 32/2023. Texto no Relatório de Recomendação Conitec nº 1078 (dez. 2025). https://www.gov.br/conitec/",
+  "Brasil. Ministério da Saúde. Portaria Conjunta SAES/SCTIE nº 29, de 27 de novembro de 2025. Aprova o Protocolo Clínico e Diretrizes Terapêuticas da Doença Pulmonar Obstrutiva Crônica; revoga a Portaria Conjunta nº 19/2021. Texto no Relatório de Recomendação Conitec nº 1046 (set. 2025). https://www.gov.br/conitec/",
+  "Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention, 2026 update (maio 2026); conferido por resumo da Guideline Central, 'May 2026 GINA asthma guideline spotlight'. https://ginasthma.org/reports/",
+  "Global Initiative for Chronic Obstructive Lung Disease (GOLD). GOLD Report 2026: Key Changes Summary, 10 nov. 2025. https://goldcopd.org/",
+  "FDA. Drug Safety Communication: FDA requires Boxed Warning about serious mental health side effects for asthma and allergy drug montelukast (Singulair). 4 mar. 2020.",
+  "MHRA. Montelukast: reminder of the risk of neuropsychiatric reactions. Drug Safety Update, 2024.",
+  "European Medicines Agency. Codeine not to be used in children below 12 years for cough and cold (Article 31 referral). EMA, 2015.",
+  "Bulas de cloridrato de nafazolina, acetilcisteína, carbocisteína e ambroxol registradas no Brasil (consultadas em reproduções de bula, out. 2026); Cebrim/CFF, resposta técnica sobre mucolíticos e Hedera helix em menores de 2 anos.",
+  "Pizzichini MMM, et al. Recomendações para o manejo da asma da Sociedade Brasileira de Pneumologia e Tisiologia, 2020. J Bras Pneumol. 2020;46(1):e20190307.",
+  "Sociedade Brasileira de Pneumologia e Tisiologia. Recomendações para o tratamento farmacológico da DPOC: perguntas e respostas. J Bras Pneumol. 2017;43(4):290-301."
+ ]
+}

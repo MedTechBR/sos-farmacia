@@ -1,0 +1,986 @@
+{
+ "id": "m03",
+ "num": 3,
+ "parte": "b",
+ "titulo": "Farmacologia geral",
+ "escopo": "Farmacocinética, farmacodinâmica e formas farmacêuticas aplicadas ao balcão, fármacos do sistema nervoso central e antimicrobianos, com mecanismo, uso, efeitos adversos, interações e orientação ao paciente.",
+ "topicos": [
+  {
+   "id": "m03-atb-principios",
+   "titulo": "Princípios da antibioticoterapia",
+   "resumo": "<p>Antimicrobiano é todo fármaco que mata ou inibe micro-organismos: bactérias (antibacterianos, chamados no dia a dia de antibióticos), fungos, vírus e parasitas. A escolha de um antibacteriano cruza três informações: o micro-organismo provável, o local da infecção e o paciente (alergia, idade, gestação, função renal e hepática, outros medicamentos em uso). No balcão, o farmacêutico raramente escolhe o antibiótico, mas confere se a prescrição faz sentido para aquele paciente, procura interações e garante que o tratamento seja tomado do jeito certo, pelo tempo certo.</p><p>Boa parte das infecções que chegam à farmácia é viral: resfriado comum, a maioria das faringites e das sinusites agudas nos primeiros dias, bronquite aguda e grande parte das diarreias agudas. Antibiótico não encurta nenhuma delas, expõe o paciente a efeitos adversos e alimenta a resistência bacteriana.</p><h3>Bactericida e bacteriostático</h3><p><strong>Bactericida</strong> é o fármaco que mata a bactéria nas concentrações alcançadas no organismo. Bacteriostático impede a multiplicação e depende do sistema imune para eliminar a infecção. Em laboratório, chama-se bactericida o antimicrobiano cuja concentração bactericida mínima (CBM) fica próxima da concentração inibitória mínima (CIM), em geral até quatro vezes maior.</p><p>A diferença pesa quando a defesa do hospedeiro falha ou o local é de difícil acesso: endocardite, meningite e paciente neutropênico pedem fármaco bactericida. Para as infecções comuns da comunidade, os ensaios clínicos não mostram vantagem consistente de um grupo sobre o outro. O comportamento também varia com a bactéria: a linezolida, por exemplo, é bactericida contra estreptococos e bacteriostática contra estafilococos e enterococos.</p><div class=\"tab\"><table><thead><tr><th>Comportamento predominante</th><th>Exemplos</th></tr></thead><tbody><tr><td>Bactericidas</td><td>Betalactâmicos, aminoglicosídeos, quinolonas, glicopeptídeos (vancomicina, de ação lenta), metronidazol, nitrofurantoína, fosfomicina, sulfametoxazol-trimetoprima (a associação)</td></tr><tr><td>Bacteriostáticos</td><td>Macrolídeos, tetraciclinas, clindamicina, cloranfenicol, linezolida (contra estafilococo), sulfonamida isolada</td></tr></tbody></table></div><h3>Espectro e grupos de bactérias</h3><p>Espectro é o conjunto de micro-organismos que o fármaco atinge. Espectro estreito (penicilina benzatina, cefalexina) poupa a microbiota; espectro amplo (amoxicilina-clavulanato, quinolonas, carbapenêmicos) cobre mais agentes, mas seleciona resistência em mais espécies. Para raciocinar sobre espectro, divide-se as bactérias em quatro grupos práticos.</p><p>As <strong>Gram-positivas</strong> têm parede espessa de peptidoglicano e nenhuma membrana externa. As Gram-negativas têm parede fina coberta por uma membrana externa com porinas, que funciona como barreira a muitos fármacos (por isso a vancomicina, molécula grande, não age nelas). Os atípicos não se coram bem pelo Gram: o Mycoplasma não tem parede celular e Chlamydophila e Legionella vivem dentro das células, de modo que betalactâmicos não funcionam contra eles. Os anaeróbios crescem sem oxigênio e predominam em abscessos, infecções dentárias, intra-abdominais e pélvicas.</p><div class=\"tab\"><table><thead><tr><th>Grupo</th><th>Exemplos de bactérias</th><th>Infecções típicas</th><th>Fármacos com atividade</th></tr></thead><tbody><tr><td>Gram-positivos</td><td><i>Staphylococcus aureus</i>, <i>Streptococcus pyogenes</i>, <i>S. pneumoniae</i>, <i>Enterococcus</i></td><td>Pele e partes moles, faringite, pneumonia, otite</td><td>Penicilinas, cefalosporinas de 1ª geração, macrolídeos, clindamicina, vancomicina, linezolida</td></tr><tr><td>Gram-negativos</td><td><i>Escherichia coli</i>, <i>Klebsiella</i>, <i>Proteus</i>, <i>Haemophilus influenzae</i>, <i>Pseudomonas aeruginosa</i></td><td>Infecção urinária, intra-abdominal, pneumonia hospitalar</td><td>Cefalosporinas de 3ª e 4ª geração, quinolonas, aminoglicosídeos, carbapenêmicos, nitrofurantoína e fosfomicina (urina)</td></tr><tr><td>Atípicos</td><td><i>Mycoplasma pneumoniae</i>, <i>Chlamydophila pneumoniae</i>, <i>Legionella</i></td><td>Pneumonia comunitária</td><td>Macrolídeos, tetraciclinas, quinolonas respiratórias</td></tr><tr><td>Anaeróbios</td><td><i>Bacteroides fragilis</i>, <i>Prevotella</i>, <i>Peptostreptococcus</i>, <i>Clostridioides difficile</i></td><td>Abscessos, infecção dentária, intra-abdominal, pélvica</td><td>Metronidazol, clindamicina (acima do diafragma), amoxicilina-clavulanato, carbapenêmicos</td></tr></tbody></table></div><h3>Farmacocinética e farmacodinâmica (PK/PD)</h3><p>A eficácia de um antibiótico depende de como a concentração no sangue se relaciona com a CIM da bactéria ao longo do tempo. Três padrões orientam dose e intervalo.</p><div class=\"tab\"><table><thead><tr><th>Padrão</th><th>Índice que prediz eficácia</th><th>Exemplos</th><th>Consequência prática</th></tr></thead><tbody><tr><td>Tempo-dependente</td><td>Fração do intervalo com concentração acima da CIM (T &gt; CIM)</td><td>Betalactâmicos</td><td>Doses fracionadas em horários regulares; atrasos repetidos reduzem a eficácia</td></tr><tr><td>Concentração-dependente</td><td>Pico sobre a CIM (Cmáx/CIM)</td><td>Aminoglicosídeos, metronidazol, daptomicina</td><td>Dose única diária maior, com efeito pós-antibiótico prolongado</td></tr><tr><td>Exposição total</td><td>Área sob a curva sobre a CIM (AUC/CIM)</td><td>Quinolonas, vancomicina, azitromicina, tetraciclinas, linezolida</td><td>Importa a dose diária total; para a vancomicina, a monitorização é feita pela AUC</td></tr></tbody></table></div><p>Efeito pós-antibiótico é a supressão do crescimento bacteriano que persiste depois que a concentração cai abaixo da CIM. É longo para aminoglicosídeos e quinolonas e curto para a maioria dos betalactâmicos contra Gram-negativos, o que reforça a importância do horário regular para amoxicilina, cefalexina e afins.</p><h3>Resistência bacteriana</h3><p>Resistência é a capacidade da bactéria de crescer em concentrações do fármaco que antes a inibiam. Ela surge por mutação ou é adquirida de outras bactérias por plasmídeos e transposons (conjugação), por DNA livre (transformação) ou por vírus bacteriófagos (transdução). Os mecanismos são poucos e se repetem entre as classes:</p><ul><li><strong>Inativação enzimática</strong>: betalactamases que abrem o anel betalactâmico; enzimas que modificam aminoglicosídeos.</li><li>Alteração do alvo: PBP2a no estafilococo resistente à oxacilina; mutações na DNA girase (quinolonas); metilação do ribossomo (macrolídeos e clindamicina).</li><li>Redução da entrada: perda de porinas em Gram-negativos.</li><li>Bombas de efluxo: expulsam tetraciclinas, macrolídeos e quinolonas.</li><li>Via metabólica alternativa: bactérias que passam a usar folato pré-formado escapam das sulfonamidas.</li></ul><p>Betalactamases de espectro estendido (<strong>ESBL</strong>) são enzimas de enterobactérias, sobretudo <i>E. coli</i> e <i>Klebsiella</i>, que inativam penicilinas, cefalosporinas de até 4ª geração e aztreonam. Em infecção grave por ESBL, o tratamento de referência é um carbapenêmico: no ensaio MERINO (2018), piperacilina-tazobactam teve mortalidade maior que meropeném em bacteremia por esses agentes. Na cistite por ESBL, nitrofurantoína e fosfomicina costumam manter atividade. As carbapenemases (KPC, NDM e outras) inativam até os carbapenêmicos e são um problema hospitalar grave no Brasil.</p><p><strong>MRSA</strong> (<i>S. aureus</i> resistente à meticilina, equivalente à oxacilina) carrega o gene <i>mecA</i>, que produz a PBP2a, de baixa afinidade pelos betalactâmicos. Resulta resistência a praticamente todos eles, com exceção das cefalosporinas de 5ª geração (ceftarolina). O MRSA comunitário, que causa furúnculos e abscessos de repetição, costuma responder a sulfametoxazol-trimetoprima, doxiciclina e, conforme o antibiograma, clindamicina.</p><p>A pressão seletiva explica por que o uso desnecessário importa: cada exposição elimina as bactérias sensíveis da microbiota e deixa espaço para as resistentes, que se multiplicam e são transmitidas a outras pessoas. Tratamento curto demais, dose baixa e uso sem indicação contribuem; o fator de maior peso é o volume total de antibiótico consumido.</p><h3>Classificação AWaRe da OMS</h3><p>A Organização Mundial da Saúde agrupa os antibióticos em três categorias conforme o impacto sobre a resistência. A edição vigente é a de 2025 (documento técnico publicado em 5 de setembro de 2025), revista a cada dois anos pelo comitê da Lista de Medicamentos Essenciais.</p><div class=\"tab\"><table><thead><tr><th>Grupo</th><th>Definição</th><th>Exemplos de uso comunitário</th></tr></thead><tbody><tr><td>Access (acesso)</td><td>Primeira ou segunda escolha para infecções comuns, menor potencial de selecionar resistência; devem estar sempre disponíveis</td><td>Amoxicilina, amoxicilina-clavulanato, cefalexina, doxiciclina, nitrofurantoína, sulfametoxazol-trimetoprima, metronidazol, clindamicina</td></tr><tr><td>Watch (vigilância)</td><td>Maior potencial de resistência; indicações restritas e uso monitorado</td><td>Azitromicina, claritromicina, ciprofloxacino, levofloxacino, ceftriaxona, cefuroxima, fosfomicina oral</td></tr><tr><td>Reserve (reserva)</td><td>Último recurso para bactérias multirresistentes</td><td>Linezolida, colistina, polimixina B, ceftazidima-avibactam, fosfomicina intravenosa</td></tr></tbody></table></div><p>A declaração política da Assembleia Geral da ONU sobre resistência antimicrobiana (setembro de 2024) fixou a meta de que pelo menos 70% do consumo humano de antibióticos no mundo seja de fármacos do grupo Access até 2030. Pertencer ao grupo Access não significa ser mais fraco: indica que o fármaco resolve a maioria das infecções comuns com menor custo ecológico.</p><div class=\"cx chave\"><b>Ponto-chave</b><p>Os exemplos acima seguem as edições mais recentes da lista. A classificação muda de tempos em tempos, e alguns países publicam adaptações próprias; antes de usar um exemplo em indicador ou protocolo, confira o anexo da edição de 2025.</p></div><h3>Uso racional e papel do farmacêutico comunitário</h3><p>No Brasil, antimicrobianos de uso sistêmico só são dispensados com receita, que fica retida e vale por 10 dias a partir da emissão (RDC 471/2021, alterada pela RDC 973/2025; lista de substâncias na IN 360/2025). Os detalhes regulatórios estão no módulo 8. Do ponto de vista clínico, a dispensação é o último momento em que alguém de saúde conversa com o paciente antes da primeira dose, e o farmacêutico deve aproveitá-lo para:</p><ul><li>Confirmar alergias e o tipo de reação prévia, gestação, amamentação e doença renal ou hepática conhecida.</li><li>Conferir dose, intervalo e duração contra a indicação provável e a idade (em criança, contra o peso).</li><li>Rastrear interações relevantes no histórico de medicamentos e de suplementos.</li><li>Explicar horário, relação com alimento, o que fazer se esquecer uma dose e quais sinais exigem retorno.</li><li>Reforçar adesão: tomar exatamente como prescrito, sem guardar sobras nem repassar a outra pessoa.</li><li>Notificar reação adversa ou falha terapêutica suspeita à Anvisa pelo VigiMed.</li></ul><div class=\"cx balcao\"><b>No balcão</b><p>Cliente de 29 anos pede \"um antibiótico forte\" para dor de garganta com coriza e tosse há dois dias, sem febre. O quadro sugere infecção viral: explique que antibiótico não acelera a melhora, oriente sintomáticos isentos de prescrição, hidratação e repouso, e encaminhe a consulta se surgirem febre alta persistente, placas no fundo da garganta sem tosse, dificuldade para engolir a saliva, falta de ar ou piora depois de melhora inicial.</p><p>Sem receita não há dispensação de antimicrobiano sistêmico. Registre a orientação dada, se a farmácia mantiver registro de atendimento farmacêutico.</p></div>"
+  },
+  {
+   "id": "m03-atb-betalactamicos",
+   "titulo": "Betalactâmicos",
+   "resumo": "<p>Betalactâmicos são os antibióticos mais dispensados na farmácia comercial. Todos têm o anel betalactâmico, que se liga às proteínas ligadoras de penicilina (PBP), as transpeptidases que fazem as ligações cruzadas do peptidoglicano. Sem essas ligações, a parede fica frágil e a bactéria em multiplicação sofre lise: o efeito é bactericida e tempo-dependente. A toxicidade em humanos é baixa, porque células humanas não têm parede; os problemas principais são alergia, diarreia e alteração da microbiota.</p><p>A família inclui penicilinas, cefalosporinas, carbapenêmicos e monobactâmicos. Associada a eles, há os inibidores de betalactamase, que protegem o anel da enzima bacteriana.</p><h3>Penicilinas</h3><div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Via e apresentação</th><th>Espectro principal</th><th>Usos típicos</th></tr></thead><tbody><tr><td>Benzilpenicilina benzatina (Benzetacil®)</td><td>Intramuscular profunda, depósito de liberação lenta</td><td>Estreptococos, <i>Treponema pallidum</i></td><td>Sífilis, profilaxia secundária da febre reumática, faringite estreptocócica</td></tr><tr><td>Benzilpenicilina cristalina</td><td>Intravenosa, uso hospitalar</td><td>Estreptococos, meningococo, treponema</td><td>Neurossífilis, endocardite estreptocócica</td></tr><tr><td>Amoxicilina</td><td>Oral (cápsula, comprimido, suspensão)</td><td>Estreptococos, pneumococo, <i>Enterococcus faecalis</i>, <i>H. influenzae</i> e <i>E. coli</i> sem betalactamase, <i>Listeria</i></td><td>Otite, sinusite e pneumonia comunitária, faringite estreptocócica, erradicação do <i>H. pylori</i></td></tr><tr><td>Ampicilina</td><td>Intravenosa (a oral é pouco absorvida e o alimento reduz ainda mais)</td><td>Semelhante à amoxicilina</td><td>Uso hospitalar, inclusive meningite por <i>Listeria</i></td></tr><tr><td>Oxacilina</td><td>Intravenosa</td><td>Estafilococo sensível à oxacilina</td><td>Infecções estafilocócicas graves em hospital</td></tr><tr><td>Piperacilina-tazobactam</td><td>Intravenosa</td><td>Gram-negativos, inclusive <i>Pseudomonas</i>, e anaeróbios</td><td>Infecção hospitalar</td></tr></tbody></table></div><p>A benzatina mantém concentrações baixas e prolongadas por semanas. Na sífilis recente, a dose de adulto é 2,4 milhões de UI por via intramuscular (1,2 milhão de UI em cada glúteo), conforme o protocolo do Ministério da Saúde para infecções sexualmente transmissíveis. A aplicação dói, deve ser feita em músculo de grande massa e só em local preparado para atender reação anafilática, que é rara. Depois da primeira dose na sífilis pode ocorrer a reação de Jarisch-Herxheimer (febre, mal-estar e piora transitória das lesões nas primeiras 24 horas), que não é alergia e não contraindica as doses seguintes.</p><p>A amoxicilina tem boa absorção oral com ou sem alimento e é o antibiótico de primeira escolha em muitas infecções respiratórias da comunidade. Exantema maculopapular durante tratamento de faringite pode ser mononucleose infecciosa, situação em que a aminopenicilina provoca erupção com frequência alta sem que isso signifique alergia verdadeira; o paciente deve ser reavaliado pelo prescritor.</p><h3>Inibidores de betalactamase</h3><p>Betalactamases são a principal defesa das bactérias contra este grupo. Os inibidores clássicos têm pouca ação antibacteriana própria: funcionam como isca que se liga irreversivelmente à enzima.</p><ul><li><strong>Clavulanato</strong>: associado à amoxicilina por via oral. Amplia o espectro para <i>H. influenzae</i> e <i>Moraxella</i> produtores de betalactamase, <i>S. aureus</i> sensível à oxacilina e anaeróbios (mordedura, infecção dentária, sinusite que não respondeu). É responsável por boa parte da diarreia e da náusea da associação e, raramente, por hepatite colestática, mais comum em idosos e em cursos longos.</li><li><strong>Sulbactam</strong>: associado à ampicilina por via intravenosa; tem atividade própria contra <i>Acinetobacter</i>.</li><li><strong>Tazobactam</strong>: associado à piperacilina, uso hospitalar.</li><li>Inibidores mais novos, como o avibactam (ceftazidima-avibactam), atuam também sobre algumas carbapenemases e ficam no grupo Reserve.</li></ul><div class=\"cx balcao\"><b>No balcão</b><p>Amoxicilina-clavulanato deve ser tomada no início de uma refeição, o que melhora a tolerância gastrintestinal e a absorção do clavulanato (conforme bula do produto de referência). Diarreia leve é comum; oriente hidratação e procurar o prescritor se houver sangue ou muco nas fezes, febre, dor abdominal forte ou mais de seis evacuações por dia, inclusive semanas depois do fim do tratamento.</p><p>Amoxicilina pura pode ser tomada com ou sem alimento. Em ambas, horários regulares (8/8 h ou 12/12 h) importam mais do que a refeição.</p></div><h3>Cefalosporinas</h3><p>As cefalosporinas são agrupadas em gerações. De modo geral, as primeiras gerações são mais ativas contra Gram-positivos e as seguintes ganham Gram-negativos. Nenhuma age contra enterococo ou <i>Listeria</i>, e só a 5ª geração age contra MRSA.</p><div class=\"tab\"><table><thead><tr><th>Geração</th><th>Exemplos e via</th><th>Espectro</th><th>Usos típicos</th></tr></thead><tbody><tr><td>1ª</td><td>Cefalexina (oral), cefadroxila (oral), cefazolina (intravenosa)</td><td>Estafilococo sensível à oxacilina, estreptococos; <i>E. coli</i>, <i>Proteus</i> e <i>Klebsiella</i> comunitárias</td><td>Celulite, impetigo extenso, infecção urinária baixa, profilaxia cirúrgica (cefazolina)</td></tr><tr><td>2ª</td><td>Cefuroxima (oral e intravenosa), cefaclor (oral), cefoxitina (intravenosa)</td><td>Acrescenta <i>H. influenzae</i> e <i>Moraxella</i>; cefoxitina cobre anaeróbios</td><td>Otite, sinusite, pneumonia comunitária leve; profilaxia em cirurgia abdominal (cefoxitina)</td></tr><tr><td>3ª</td><td>Ceftriaxona (intramuscular e intravenosa), cefotaxima, ceftazidima</td><td>Gram-negativos amplos; ceftriaxona mantém pneumococo; ceftazidima cobre <i>Pseudomonas</i> e é fraca para Gram-positivos</td><td>Pneumonia, meningite, pielonefrite, gonorreia</td></tr><tr><td>4ª</td><td>Cefepima (intravenosa)</td><td>Gram-negativos, inclusive <i>Pseudomonas</i>, e Gram-positivos</td><td>Infecção hospitalar, neutropenia febril</td></tr><tr><td>5ª</td><td>Ceftarolina (intravenosa)</td><td>MRSA e Gram-negativos comunitários, sem <i>Pseudomonas</i></td><td>Pele e partes moles, pneumonia comunitária, uso hospitalar</td></tr></tbody></table></div><p>Pontos de atenção por fármaco: a cefuroxima axetila oral é mais bem absorvida com alimento; a cefalexina pode ser tomada com ou sem alimento; o cefaclor se associa a reação semelhante à doença do soro em crianças (febre, exantema e dor articular). A ceftriaxona é eliminada em parte pela bile e pode formar barro biliar (pseudolitíase), e não deve ser administrada junto com soluções intravenosas de cálcio em recém-nascidos, pelo risco de precipitação. A cefepima acumula na insuficiência renal e pode causar encefalopatia e convulsões quando a dose não é ajustada pela TFG (estimada por CKD-EPI 2021).</p><h3>Carbapenêmicos e monobactâmico</h3><p>Carbapenêmicos (imipeném-cilastatina, meropeném, ertapeném) têm o espectro mais amplo entre os betalactâmicos: Gram-positivos sensíveis à oxacilina, Gram-negativos produtores de ESBL e anaeróbios. O ertapeném, de dose única diária, não cobre <i>Pseudomonas</i> nem <i>Acinetobacter</i>. São fármacos hospitalares, reservados a infecções graves ou por bactérias resistentes. O imipeném reduz o limiar convulsivo.</p><p>O <strong>aztreonam</strong>, único monobactâmico em uso, age apenas em Gram-negativos aeróbios, inclusive <i>Pseudomonas</i>. Quase não tem reatividade cruzada com penicilinas; a exceção é a ceftazidima, com a qual compartilha cadeia lateral idêntica.</p><div class=\"cx alerta\"><b>Atenção</b><p>Carbapenêmicos derrubam a concentração de ácido valproico em poucas horas, e o efeito não se corrige aumentando a dose do anticonvulsivante. Paciente epiléptico em uso de valproato que recebe meropeném ou ertapeném pode convulsionar; a associação deve ser evitada e, se inevitável, exige outro anticonvulsivante de cobertura.</p></div><h3>Alergia a penicilina</h3><p>Cerca de 10% dos pacientes relatam alergia a penicilina, mas, quando avaliados, menos de 1% tem alergia confirmada (CDC, orientação a profissionais sobre alergia a penicilina). Os anticorpos IgE contra penicilina tendem a diminuir com os anos, e muitas reações atribuídas ao antibiótico eram sintomas da própria infecção viral. O rótulo falso de alergia empurra o paciente para quinolonas, clindamicina e vancomicina, com mais efeitos adversos, mais diarreia por <i>C. difficile</i>, mais resistência e custo maior.</p><div class=\"tab\"><table><thead><tr><th>Tipo de reação</th><th>Quando e como aparece</th><th>Implicação</th></tr></thead><tbody><tr><td>Imediata (mediada por IgE)</td><td>Minutos até cerca de 1 a 6 horas após a dose: urticária, angioedema, broncoespasmo, hipotensão, anafilaxia</td><td>Evitar penicilinas até avaliação especializada; testes cutâneos e provocação conforme risco</td></tr><tr><td>Tardia benigna</td><td>Dias após o início: exantema maculopapular sem acometimento de mucosas e sem febre alta</td><td>Muitas vezes de baixo risco e candidata a desrotulagem por provocação oral supervisionada</td></tr><tr><td>Tardia grave</td><td>Síndrome de Stevens-Johnson, necrólise epidérmica tóxica, DRESS, nefrite intersticial, anemia hemolítica</td><td>Nunca reexpor ao fármaco; registrar de forma destacada</td></tr><tr><td>Intolerância</td><td>Náusea, diarreia, dor abdominal, cefaleia</td><td>Não é alergia; não justifica o rótulo</td></tr></tbody></table></div><p>A reatividade cruzada com cefalosporinas é menor que os 10% citados em textos antigos. Na atualização do parâmetro prático de alergia a medicamentos das academias americanas de alergia (AAAAI e ACAAI, 2022), a chance de reação a cefalosporina em quem tem história de alergia a penicilina fica abaixo de 2%, e ela depende sobretudo da semelhança da cadeia lateral R1. Amoxicilina e ampicilina compartilham cadeia lateral com cefalexina, cefadroxila e cefaclor; ceftriaxona, cefazolina e cefuroxima têm cadeias diferentes. O mesmo documento admite cefalosporina de cadeia lateral diferente, sem teste prévio, mesmo em quem teve anafilaxia à penicilina (recomendação condicional). A reatividade com carbapenêmicos fica abaixo de 1%.</p><p><strong>Desrotulagem</strong> é a retirada do registro de alergia depois de avaliação. Usa estratificação de risco (escores validados, como o PEN-FAST), teste cutâneo quando indicado e provocação oral supervisionada com amoxicilina nos pacientes de baixo risco. O farmacêutico comunitário não faz a provocação, mas pode qualificar a história (qual fármaco, que reação, quanto tempo depois, como foi tratada, se já usou outro betalactâmico depois) e encaminhar para avaliação.</p><div class=\"cx exemplo\"><b>Caso</b><p>Cliente de 45 anos traz receita de cefalexina 500 mg de 6/6 h para celulite e diz ser alérgico a penicilina. Perguntado, conta que aos 6 anos teve manchas na pele dias depois de começar amoxicilina, sem falta de ar e sem bolhas. É história tardia benigna e antiga; mesmo assim, como a cefalexina compartilha cadeia lateral com a amoxicilina, o farmacêutico contata o prescritor, relata a história e registra a decisão. Se a história fosse de bolhas, descamação ou lesão em boca e olhos, a dispensação seria suspensa até contato com o médico.</p></div><h3>Interações e orientação</h3><ul><li><strong>Metotrexato</strong>: penicilinas reduzem a eliminação renal e aumentam a toxicidade, sobretudo com doses altas de metotrexato.</li><li>Varfarina: há relatos de aumento do RNI com amoxicilina e amoxicilina-clavulanato; orientar controle do RNI se o curso for longo ou houver sangramento.</li><li>Alopurinol: aumenta a frequência de exantema com ampicilina e amoxicilina.</li><li>Probenecida: reduz a excreção renal das penicilinas e prolonga seu efeito (associação às vezes intencional).</li><li>Anticoncepcional hormonal: a eficácia não é reduzida por betalactâmicos (ver tópico de orientação ao paciente).</li></ul><div class=\"cx chave\"><b>Ponto-chave</b><p>Betalactâmico é tempo-dependente: em 8/8 h, distribuir as doses ao longo das 24 horas (por exemplo 6 h, 14 h e 22 h) vale mais do que concentrá-las no horário de vigília. Suspensões de amoxicilina e amoxicilina-clavulanato reconstituídas têm validade curta e exigem conservação conforme bula (ver tabela de suspensões no material de apoio).</p></div>"
+  },
+  {
+   "id": "m03-atb-sintese-proteica",
+   "titulo": "Inibidores da síntese proteica",
+   "resumo": "<p>O ribossomo bacteriano (70S) é formado pelas subunidades 30S e 50S, diferentes do ribossomo humano (80S). Essa diferença permite inibir a síntese de proteínas da bactéria com toxicidade aceitável. Atuam na <strong>subunidade 30S</strong> os aminoglicosídeos e as tetraciclinas; na subunidade 50S, macrolídeos, lincosamidas, cloranfenicol e oxazolidinonas. Exceto os aminoglicosídeos, que são bactericidas, o grupo é predominantemente bacteriostático.</p><p>Como vários desses fármacos interagem com o citocromo P450, prolongam o intervalo QT ou dependem de cuidados com alimento e cátions, este é o grupo que mais exige conferência de interações no balcão.</p><h3>Macrolídeos</h3><p>Azitromicina, claritromicina e eritromicina se ligam à porção 23S da subunidade 50S e bloqueiam o alongamento da cadeia proteica. Cobrem estreptococos (com resistência crescente do pneumococo), atípicos (<i>Mycoplasma</i>, <i>Chlamydophila</i>, <i>Legionella</i>), <i>Bordetella pertussis</i>, <i>Chlamydia trachomatis</i> e, no caso da claritromicina, o <i>Helicobacter pylori</i>. São alternativa em alérgicos a betalactâmicos e componente de esquemas para pneumonia comunitária.</p><div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Posologia usual adulto</th><th>Farmacocinética e CYP3A4</th><th>Ponto de atenção</th></tr></thead><tbody><tr><td>Azitromicina</td><td>500 mg 1 vez ao dia por 3 dias, ou 500 mg no 1º dia e 250 mg do 2º ao 5º; outros esquemas conforme indicação</td><td>Meia-vida longa (cerca de 68 horas) e alta concentração tecidual; inibição fraca do CYP3A4</td><td>Prolongamento do QT; cardiopatas e uso com outros fármacos que prolongam o QT</td></tr><tr><td>Claritromicina</td><td>250 a 500 mg de 12/12 h</td><td>Inibidor potente do CYP3A4 e da glicoproteína P</td><td>Muitas interações graves; gosto metálico; alerta da FDA (2018) sobre mortalidade em cardiopatas</td></tr><tr><td>Eritromicina</td><td>Conforme sal e indicação (uso hoje restrito)</td><td>Inibidor potente do CYP3A4</td><td>Intolerância gastrintestinal (é agonista da motilina); QT; o estolato causa hepatite colestática</td></tr></tbody></table></div><p>A FDA alertou em 2013 para risco de arritmia fatal com azitromicina em pacientes com QT longo, hipocalemia, hipomagnesemia, bradicardia ou em uso de antiarrítmicos, e em 2018 recomendou cautela com claritromicina em cardiopatas, depois de um estudo que mostrou excesso de mortalidade no seguimento de longo prazo. Em recém-nascidos, eritromicina e azitromicina se associam a estenose hipertrófica do piloro.</p><div class=\"cx alerta\"><b>Atenção</b><p>Claritromicina com sinvastatina ou lovastatina é contraindicada (rabdomiólise). Também são perigosas as associações com colchicina (toxicidade fatal, especialmente em doença renal), derivados do ergot, alguns antiarrítmicos, anticoagulantes orais diretos e varfarina (sangramento), bloqueadores de canal de cálcio (hipotensão) e alguns benzodiazepínicos. Diante de qualquer um desses na lista do paciente, contate o prescritor: em geral a azitromicina, com interação bem menor pelo CYP3A4, é a troca possível.</p></div><h3>Tetraciclinas</h3><p>Doxiciclina, minociclina e tetraciclina se ligam à subunidade 30S. A doxiciclina é a mais usada: cobre atípicos, <i>Chlamydia trachomatis</i>, riquétsias (febre maculosa), leptospira, <i>Borrelia</i>, MRSA comunitário em pele, acne inflamatória e é usada na profilaxia da malária. A posologia usual de adulto é 100 mg de 12/12 h. A minociclina causa mais tontura e vertigem, hiperpigmentação de pele e dentes e, raramente, reações autoimunes (lúpus induzido, hepatite).</p><p>A tigeciclina, derivada intravenosa, é de uso hospitalar para bactérias multirresistentes.</p><div class=\"tab\"><table><thead><tr><th>Problema</th><th>Mecanismo</th><th>Orientação</th></tr></thead><tbody><tr><td>Quelação com cátions</td><td>Cálcio, magnésio, alumínio, ferro, zinco e bismuto formam complexos não absorvíveis</td><td>Separar de antiácidos, suplementos minerais, multivitamínicos e leite; tetraciclina sofre mais que doxiciclina e minociclina</td></tr><tr><td>Esofagite e úlcera esofágica</td><td>Comprimido parado no esôfago libera fármaco ácido</td><td>Tomar com um copo cheio de água, sentado ou em pé, e não deitar nos 30 minutos seguintes; não tomar ao deitar</td></tr><tr><td>Fotossensibilidade</td><td>Reação fototóxica</td><td>Evitar exposição solar intensa; usar protetor e roupa; maior com doxiciclina</td></tr><tr><td>Dentes e ossos em formação</td><td>Deposição de complexo com cálcio</td><td>Evitar na gestação (sobretudo a partir do 2º trimestre) e em menores de 8 anos para infecções comuns</td></tr><tr><td>Hipertensão intracraniana benigna</td><td>Mecanismo incerto</td><td>Cefaleia intensa e alteração visual exigem avaliação; não associar a isotretinoína</td></tr></tbody></table></div><p>A restrição em crianças foi relativizada para a doxiciclina em cursos curtos. O CDC dos Estados Unidos publicou estudo em que crianças tratadas com doxiciclina antes dos 8 anos para febre maculosa não tiveram diferença de coloração dentária, e a Academia Americana de Pediatria recomenda doxiciclina como fármaco de escolha para febre maculosa suspeita em qualquer idade. Para infecções comuns, a recomendação de evitar tetraciclinas abaixo de 8 anos continua.</p><div class=\"cx balcao\"><b>No balcão</b><p>Cliente em uso de carbonato de cálcio e sulfato ferroso recebe doxiciclina 100 mg de 12/12 h. Monte com ele uma tabela de horários: doxiciclina às 8 h e às 20 h, com água e longe de deitar; ferro e cálcio no meio da tarde, pelo menos 2 a 3 horas distantes das doses. Se a bula do produto indicar outro intervalo, siga a bula.</p></div><h3>Aminoglicosídeos</h3><p>Gentamicina, amicacina, tobramicina e estreptomicina se ligam à subunidade 30S e causam leitura errada do RNA mensageiro; são bactericidas e concentração-dependentes, o que fundamenta a dose única diária. Praticamente não são absorvidos por via oral; o uso sistêmico é hospitalar, por via intravenosa ou intramuscular, para Gram-negativos aeróbios graves, em sinergia com betalactâmico na endocardite por enterococo e, no caso da estreptomicina e da amicacina, em micobactérias.</p><ul><li><strong>Nefrotoxicidade</strong>: lesão do túbulo proximal, em geral reversível; piora com idade avançada, desidratação, uso prolongado e associação a vancomicina, anfotericina B, contraste iodado e anti-inflamatórios.</li><li>Ototoxicidade: coclear (perda auditiva de altas frequências, zumbido) e vestibular (vertigem, desequilíbrio), frequentemente irreversível; diuréticos de alça somam risco.</li><li>Bloqueio neuromuscular: raro, relevante na miastenia gravis e após bloqueadores neuromusculares.</li><li>Monitorização: concentrações séricas e creatinina, com ajuste pela função renal.</li><li>Gestação: risco de ototoxicidade fetal (documentado com estreptomicina).</li></ul><p>Na farmácia comercial, os aminoglicosídeos aparecem sobretudo em produtos tópicos: colírios de tobramicina e gentamicina, cremes e pomadas de gentamicina e neomicina. A neomicina tópica é causa frequente de dermatite de contato alérgica, e o uso em pele lesada extensa ou em perfuração timpânica traz risco de absorção e ototoxicidade.</p><h3>Lincosamidas</h3><p>A clindamicina se liga à subunidade 50S. Cobre estreptococos, estafilococos (incluindo parte do MRSA comunitário) e anaeróbios acima do diafragma; é útil em infecções dentárias, de pele e partes moles, em alérgicos a penicilina e, associada à pirimetamina, na toxoplasmose. A posologia oral de adulto costuma ser 300 a 450 mg de 6/6 h ou de 8/8 h, conforme indicação. Estafilococos com resistência induzível a macrolídeos podem falhar à clindamicina mesmo com antibiograma aparentemente sensível; o laboratório detecta isso pelo teste D.</p><p>O efeito adverso marcante é a diarreia por <strong><i>Clostridioides difficile</i></strong>, que pode ocorrer durante o tratamento ou semanas depois. A clindamicina está entre os antibióticos de maior risco, ao lado de cefalosporinas, quinolonas e amoxicilina-clavulanato. A cápsula deve ser tomada com um copo cheio de água, pelo risco de esofagite.</p><div class=\"cx alerta\"><b>Atenção</b><p>Diarreia aquosa intensa (três ou mais evacuações em 24 horas), com febre, cólica ou sangue, durante ou até cerca de oito semanas depois de antibiótico, exige avaliação médica. Antidiarreicos como a loperamida não devem ser usados por conta própria nessa situação.</p></div><h3>Cloranfenicol</h3><p>Bloqueia a peptidiltransferase na subunidade 50S. Tem espectro amplo e boa penetração no sistema nervoso central, mas o uso sistêmico caiu por causa da toxicidade hematológica: supressão medular dose-dependente e reversível, e aplasia de medula idiossincrática, rara, não relacionada à dose e frequentemente fatal. Em recém-nascidos, a imaturidade da glicuronidação causa a síndrome do bebê cinzento (vômitos, hipotermia, colapso circulatório). No balcão, aparece quase só em colírios e pomadas oftálmicas e em associações tópicas.</p><h3>Oxazolidinonas</h3><p>A linezolida se liga à subunidade 50S e impede a formação do complexo de iniciação. Tem biodisponibilidade oral próxima de 100%, o que permite trocar a via intravenosa pela oral na mesma dose (600 mg de 12/12 h). Atua em Gram-positivos resistentes: MRSA, enterococo resistente à vancomicina e pneumococo resistente. Pertence ao grupo Reserve da OMS e costuma ser prescrita na alta hospitalar, chegando à farmácia comercial com receita de especialista.</p><ul><li><strong>Síndrome serotoninérgica</strong>: a linezolida é inibidor fraco e reversível da monoamina oxidase. Com ISRS, IRSN, tricíclicos, tramadol, meperidina, triptanos ou buspirona, pode surgir agitação, tremor, hipertermia, mioclonia e diarreia. A FDA emitiu alerta específico em 2011 para o uso com antidepressivos serotoninérgicos.</li><li>Tiramina: alimentos ricos (queijos curados, embutidos fermentados, molho de soja, chope e vinho tinto em quantidade) podem elevar a pressão arterial; orientar moderação.</li><li>Simpatomiméticos: pseudoefedrina e fenilefrina de antigripais aumentam a pressão; evitar.</li><li>Mielossupressão: trombocitopenia e anemia, mais comuns após duas semanas de uso; hemograma semanal.</li><li>Neuropatia periférica e óptica e acidose lática em uso prolongado; alteração visual exige suspensão e avaliação.</li></ul><div class=\"cx balcao\"><b>No balcão</b><p>Paciente com receita de linezolida e sertralina em uso: não dispense sem contato com o prescritor. Se a decisão for manter os dois, oriente reconhecer tremor, febre, confusão e rigidez como sinais de procura imediata de atendimento, e evite somar outro serotoninérgico, como tramadol para dor.</p></div>"
+  },
+  {
+   "id": "m03-atb-acidos-nucleicos",
+   "titulo": "Inibidores de ácidos nucleicos e outros antibacterianos",
+   "resumo": "<p>Este grupo reúne fármacos de mecanismos variados que têm em comum o uso frequente na comunidade: a rifampicina, que bloqueia a síntese de RNA; os nitroimidazólicos (metronidazol, secnidazol e tinidazol) e a nitrofurantoína, que geram intermediários reativos que lesam o DNA; e a fosfomicina, que age na primeira etapa da síntese da parede celular. Todos exigem orientação específica no balcão.</p><h3>Rifampicina e outras rifamicinas</h3><p>A rifampicina inibe a RNA polimerase dependente de DNA da bactéria. É bactericida, atinge bem tecidos e biofilmes, mas seleciona resistência rapidamente quando usada sozinha; por isso entra sempre em associação. Usos principais: tuberculose (esquema com rifampicina, isoniazida, pirazinamida e etambutol, fornecido pelo SUS), hanseníase (poliquimioterapia), quimioprofilaxia de contatos de doença meningocócica e associação em infecções estafilocócicas de prótese e osso.</p><ul><li><strong>Indução enzimática</strong>: é um dos indutores mais potentes conhecidos (CYP3A4, CYP2C9, CYP2C19, glicoproteína P e glicuroniltransferases). Reduz a concentração de anticoncepcionais hormonais, varfarina, anticoagulantes orais diretos, antirretrovirais (inibidores de protease e outros), azóis, corticoides, metadona, tacrolimo e ciclosporina, levotiroxina, sulfonilureias, estatinas, anticonvulsivantes e muitos outros. O efeito começa em dias e persiste por semanas após a suspensão.</li><li>Coloração alaranjada a avermelhada de urina, suor, lágrimas, saliva e fezes; mancha lentes de contato gelatinosas de forma permanente.</li><li>Hepatotoxicidade, maior em associação com isoniazida e pirazinamida, em etilistas e em hepatopatas.</li><li>Síndrome pseudogripal, trombocitopenia e reações de hipersensibilidade, mais associadas ao uso intermitente.</li><li>Absorção reduzida por alimento: no tratamento da tuberculose, a orientação usual é tomar em jejum, de uma só vez, pela manhã.</li></ul><p>A rifabutina tem indução menor e é preferida com alguns antirretrovirais; pode causar uveíte. A rifaximina quase não é absorvida e é usada na encefalopatia hepática e na diarreia do viajante, sem os problemas sistêmicos da rifampicina.</p><div class=\"cx balcao\"><b>No balcão</b><p>Mulher em tratamento de tuberculose usa anticoncepcional oral combinado. Explique que a rifampicina reduz a eficácia da pílula (assim como do adesivo, do anel e da pílula só de progestagênio) e que ela precisa de método que não dependa do metabolismo hepático, como DIU de cobre ou hormonal, ou injetável trimestral, conforme decisão com o prescritor. O efeito indutor persiste por semanas depois do fim da rifampicina, e o preservativo deve ser mantido nesse período. Avise também sobre a urina e as lágrimas alaranjadas, para que ela não interrompa o tratamento por susto.</p></div><h3>Nitroimidazólicos</h3><p>Metronidazol, secnidazol e tinidazol entram na célula como pró-fármacos e são reduzidos apenas por micro-organismos anaeróbios e protozoários, gerando radicais que fragmentam o DNA. O espectro é por isso muito específico: anaeróbios estritos (<i>Bacteroides</i>, <i>Clostridioides</i>, <i>Prevotella</i>), <i>Gardnerella</i> na vaginose bacteriana, <i>Trichomonas vaginalis</i>, <i>Giardia lamblia</i> e <i>Entamoeba histolytica</i>. O metronidazol também compõe esquemas para <i>H. pylori</i> e infecções intra-abdominais.</p><div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Esquemas de adulto citados em bula</th><th>Orientação sobre álcool na bula brasileira</th></tr></thead><tbody><tr><td>Metronidazol</td><td>Tricomoníase: 2 g dose única ou 400 mg de 12/12 h por 7 dias; vaginite por <i>Gardnerella</i>: 400 a 500 mg de 12/12 h por 7 dias; giardíase: 250 mg de 8/8 h por 5 dias</td><td>Evitar durante o tratamento e por pelo menos 1 dia após a última dose</td></tr><tr><td>Secnidazol</td><td>Tricomoníase, amebíase intestinal e giardíase: 2 g dose única, com uma refeição, de preferência à noite</td><td>Evitar durante o tratamento e por 4 dias após a última dose</td></tr><tr><td>Tinidazol</td><td>Dose única de 2 g na maior parte das indicações</td><td>Conforme bula do produto</td></tr></tbody></table></div><p>Efeitos adversos comuns são gosto metálico, náusea, cefaleia e urina escurecida, avermelhada. Em uso prolongado ou em doses altas, o metronidazol causa neuropatia periférica e, raramente, encefalopatia com ataxia cerebelar e convulsões; formigamento em mãos e pés exige retorno ao prescritor. Interações relevantes: aumento do efeito da varfarina (inibição do CYP2C9, com risco de sangramento), aumento do lítio, aumento do bussulfano e reações psicóticas com dissulfiram. O secnidazol é contraindicado na gestação e na amamentação, segundo a bula brasileira.</p><h4>Álcool e metronidazol: o que a evidência mostra</h4><p>A orientação de evitar álcool vem de relatos de casos antigos de reação semelhante à do dissulfiram (rubor, náusea, vômitos, taquicardia). Estudos posteriores questionaram o mecanismo: o metronidazol não inibe de forma consistente a aldeído desidrogenase hepática, e ensaio controlado em voluntários sadios não mostrou elevação de acetaldeído no sangue. Um estudo caso-controle publicado em 2023 (Feldman e Jaszczenski, WMJ) revisou atendimentos de emergência e não encontrou reação dissulfiram-símile em 18 pacientes que receberam metronidazol com etanol detectável no sangue, comparados a 18 controles; a amostra é pequena e retrospectiva.</p><p>Na prática, a interação verdadeira é improvável, mas não foi descartada, e o álcool piora náusea e intolerância gástrica. As bulas brasileiras mantêm a restrição, e o farmacêutico deve orientar conforme a bula, sem alarmismo e sem afirmar que a reação é certa.</p><h3>Nitrofurantoína</h3><p>A nitrofurantoína é reduzida por flavoproteínas bacterianas a intermediários que lesam DNA, ribossomos e enzimas; como atua em vários alvos, a resistência é pouco frequente, inclusive entre <i>E. coli</i> produtoras de ESBL. Concentra-se apenas na urina, sem nível sanguíneo terapêutico: serve para cistite não complicada e profilaxia, e não deve ser usada em pielonefrite ou quando há febre e dor lombar. A apresentação comum no Brasil é a cápsula de macrocristais de 100 mg, em geral de 6/6 h por 5 a 7 dias, conforme prescrição.</p><ul><li>Tomar com alimento: melhora a absorção e reduz náusea.</li><li>Urina amarelo-escura ou acastanhada é esperada e sem significado.</li><li><strong>Função renal</strong>: com TFG baixa, o fármaco não chega à urina em concentração eficaz e se acumula no sangue. A bula profissional brasileira contraindica o uso com depuração de creatinina abaixo de 60 mL/min/1,73 m²; bulas europeias aceitam curso curto, com cautela, com TFG estimada entre 30 e 44 mL/min/1,73 m². Na dúvida, o farmacêutico segue a bula do produto e aciona o prescritor.</li><li>Reações pulmonares: aguda (febre, tosse, dispneia nos primeiros dias, de natureza alérgica) e crônica (pneumonite intersticial e fibrose em uso prolongado, como na profilaxia de meses).</li><li>Hepatite, neuropatia periférica e hemólise em deficientes de G6PD.</li><li>Gestação: usada na cistite da gestante, mas evitada a termo (38 a 42 semanas), durante o trabalho de parto e em recém-nascidos com menos de 1 mês, pelo risco de hemólise neonatal.</li></ul><h3>Fosfomicina</h3><p>A fosfomicina inibe a enzima MurA, que catalisa o primeiro passo da síntese do peptidoglicano; é bactericida. A forma oral, fosfomicina trometamol (Monuril®), é um sachê de 3 g em dose única para cistite não complicada da mulher. Mantém atividade contra muitas <i>E. coli</i> produtoras de ESBL. A forma oral está no grupo Watch da OMS e a intravenosa, no grupo Reserve.</p><ul><li>Dissolver o sachê em 50 a 75 mL de água, mexer e tomar logo; não guardar a solução.</li><li>Tomar com o estômago vazio, de preferência à noite, depois de esvaziar a bexiga, para manter o fármaco na urina durante a noite; a bula admite 2 a 3 horas após refeição.</li><li>Efeitos: diarreia, náusea, cefaleia, vulvovaginite.</li><li>Metoclopramida reduz a concentração sérica e urinária; não associar.</li><li>Contraindicada, segundo a bula, com depuração de creatinina abaixo de 10 mL/min e em hemodiálise.</li><li>Sintomas que persistem 2 a 3 dias após a dose, febre, dor lombar ou sangue na urina exigem reavaliação.</li></ul><div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 72 anos, com TFG estimada de 38 mL/min/1,73 m² (CKD-EPI 2021) em exame recente, traz receita de nitrofurantoína para cistite. A bula brasileira contraindica o uso nessa faixa. O farmacêutico explica a situação à paciente, contata o prescritor com o valor da TFG e anota a conduta. Fosfomicina em dose única é uma das alternativas que o médico pode considerar.</p></div>"
+  },
+  {
+   "id": "m03-atb-quinolonas",
+   "titulo": "Quinolonas",
+   "resumo": "<p>As fluoroquinolonas inibem a DNA girase (topoisomerase II, alvo principal em Gram-negativos) e a topoisomerase IV (alvo principal em Gram-positivos), enzimas que desenrolam e separam o DNA durante a replicação. São bactericidas, dependentes de concentração e de AUC/CIM, com ótima absorção oral e boa penetração em tecidos. Essas qualidades levaram a uso excessivo, com aumento da resistência de <i>E. coli</i> comunitária e reconhecimento de efeitos adversos graves e às vezes permanentes. Hoje são antibióticos de uso restrito, classificados como Watch pela OMS.</p><h3>Fármacos e espectro</h3><div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Posologia usual adulto</th><th>Espectro e uso</th><th>Observação</th></tr></thead><tbody><tr><td>Norfloxacino</td><td>400 mg de 12/12 h</td><td>Gram-negativos urinários; só infecção urinária baixa</td><td>Concentração sérica baixa; uso em queda</td></tr><tr><td>Ciprofloxacino</td><td>250 a 750 mg de 12/12 h, conforme indicação (500 mg de 12/12 h é a mais comum)</td><td>Gram-negativos, inclusive <i>Pseudomonas</i>; fraco para pneumococo</td><td>Inibe o CYP1A2</td></tr><tr><td>Levofloxacino</td><td>500 a 750 mg 1 vez ao dia</td><td>Pneumococo, atípicos e Gram-negativos (quinolona respiratória)</td><td>Ajuste pela TFG</td></tr><tr><td>Moxifloxacino</td><td>400 mg 1 vez ao dia</td><td>Pneumococo, atípicos e anaeróbios</td><td>Não serve para infecção urinária (baixa excreção renal); maior efeito sobre o QT</td></tr></tbody></table></div><h3>Alertas de segurança</h3><p>A partir de 2016, a FDA passou a recomendar que fluoroquinolonas sistêmicas não sejam usadas em sinusite aguda, exacerbação de bronquite crônica e cistite não complicada quando houver alternativa, porque efeitos incapacitantes e potencialmente permanentes em tendões, músculos, articulações, nervos e sistema nervoso central superam o benefício nessas situações. Em 2018, acrescentou alertas sobre hipoglicemia grave e efeitos na saúde mental e, em dezembro do mesmo ano, sobre aneurisma e dissecção de aorta. A Agência Europeia de Medicamentos (EMA) concluiu revisão em 2018 recomendando não usar quinolonas em infecções leves ou autolimitadas, em prevenção de diarreia do viajante ou de infecção urinária recorrente, nem em pacientes com reação grave prévia à classe, e reforçou a restrição em comunicado de 2023. As bulas brasileiras trazem advertências sobre esses efeitos; confira a versão vigente no Bulário Eletrônico da Anvisa.</p><div class=\"tab\"><table><thead><tr><th>Efeito</th><th>Quem tem mais risco</th><th>Sinal para orientar</th></tr></thead><tbody><tr><td>Tendinite e ruptura de tendão (sobretudo Aquiles)</td><td>Maiores de 60 anos, uso de corticoide, transplantados de rim, coração ou pulmão, atividade física intensa</td><td>Dor, inchaço ou estalo no tendão: parar o esforço e procurar o prescritor; pode surgir até meses depois</td></tr><tr><td>Neuropatia periférica</td><td>Qualquer paciente; pode ser permanente</td><td>Formigamento, queimação, dormência, fraqueza em mãos e pés</td></tr><tr><td>Efeitos no sistema nervoso central</td><td>Idosos, epilepsia, doença renal</td><td>Insônia, agitação, confusão, alucinações, convulsões</td></tr><tr><td>Hipoglicemia e hiperglicemia</td><td>Diabéticos em uso de sulfonilureia ou insulina, idosos</td><td>Tremor, suor frio, confusão; monitorar glicemia capilar</td></tr><tr><td>Aneurisma e dissecção de aorta</td><td>Idosos, hipertensos, aneurisma conhecido, doença vascular periférica, síndromes de Marfan e Ehlers-Danlos</td><td>Dor súbita e intensa no peito, abdome ou costas: emergência</td></tr><tr><td>Prolongamento do QT</td><td>Moxifloxacino mais que levofloxacino e ciprofloxacino; associação com outros fármacos que prolongam o QT, hipocalemia</td><td>Palpitação, desmaio</td></tr><tr><td>Piora da miastenia gravis</td><td>Pacientes com miastenia</td><td>Fraqueza muscular, dificuldade para respirar</td></tr></tbody></table></div><p>Outros efeitos: fotossensibilidade, diarreia por <i>C. difficile</i> e náusea. Em crianças e adolescentes, estudos em animais jovens mostraram lesão de cartilagem, e o uso fica limitado a situações específicas sem alternativa. Na gestação, devem ser evitadas.</p><h3>Interações</h3><ul><li><strong>Quelação com cátions polivalentes</strong>: antiácidos com alumínio ou magnésio, sucralfato, ferro, zinco, cálcio e multivitamínicos reduzem muito a absorção. Para o ciprofloxacino, a bula americana orienta tomar pelo menos 2 horas antes ou 6 horas depois desses produtos; para as demais quinolonas, os intervalos variam, e vale o da bula do produto.</li><li>Leite e iogurte: o ciprofloxacino não deve ser tomado só com laticínio ou suco enriquecido com cálcio; tomado junto a uma refeição que contenha laticínio, a interferência é pequena.</li><li>Ciprofloxacino inibe o CYP1A2: aumenta teofilina (convulsões), tizanidina (hipotensão e sedação, associação contraindicada), cafeína, clozapina e olanzapina.</li><li>Varfarina: aumento do RNI; controlar.</li><li>Corticoides sistêmicos: somam risco de ruptura de tendão.</li><li>Antidiabéticos: sulfonilureias e insulina somam risco de hipoglicemia.</li><li>Fármacos que prolongam o QT (antiarrítmicos, alguns antipsicóticos, macrolídeos, ondansetrona em dose alta): risco aditivo.</li></ul><h3>Onde as quinolonas ainda têm lugar</h3><p>Apesar das restrições, há situações em que a quinolona é a melhor opção oral: pielonefrite não complicada tratada em casa, quando o perfil local de resistência permite (ciprofloxacino 500 mg de 12/12 h por 7 dias é esquema clássico das diretrizes de infecção urinária); prostatite bacteriana, pela boa penetração na próstata; infecções por <i>Pseudomonas</i> em que se precisa de via oral; pneumonia comunitária em paciente com alergia grave a betalactâmicos ou com comorbidades (levofloxacino ou moxifloxacino); algumas diarreias bacterianas invasivas; e esquemas especiais de tuberculose resistente. Por via tópica, em colírios e gotas otológicas, as quinolonas tratam conjuntivite bacteriana e otite externa sem os riscos sistêmicos.</p><p>A resistência de <i>E. coli</i> comunitária ao ciprofloxacino é elevada em várias regiões do Brasil, o que por si só já limita o uso empírico em infecção urinária e reforça a importância da urocultura com antibiograma quando o paciente tem infecções de repetição ou falha de tratamento.</p><div class=\"cx exemplo\"><b>Caso</b><p>Rapaz de 30 anos com pielonefrite sem sinais de gravidade recebe ciprofloxacino 500 mg de 12/12 h por 7 dias. Ele toma suplemento de whey protein com minerais e um polivitamínico com zinco no café da manhã. O farmacêutico combina ciprofloxacino às 10 h e às 22 h, com o suplemento e o polivitamínico às 7 h, mantendo pelo menos 2 horas antes e 6 horas depois dos cátions, e orienta retorno se a febre persistir após 48 a 72 horas de tratamento.</p></div><div class=\"cx balcao\"><b>No balcão</b><p>Cliente de 68 anos, diabético em uso de glibenclamida e prednisona para doença reumática, traz receita de ciprofloxacino para infecção urinária. Há três fatores de risco somados: idade, corticoide (tendão) e sulfonilureia (hipoglicemia). O farmacêutico contata o prescritor para confirmar se não há alternativa; se a quinolona for mantida, orienta medir a glicemia capilar com mais frequência, reconhecer hipoglicemia, interromper esforço físico se surgir dor em tendão e separar o ciprofloxacino de antiácidos e suplementos.</p></div><div class=\"cx chave\"><b>Ponto-chave</b><p>Na comunidade, quinolonas ficam para situações sem alternativa adequada. Cistite não complicada tem opções de primeira linha (nitrofurantoína, fosfomicina e, conforme perfil local de resistência, sulfametoxazol-trimetoprima); quinolona para cistite simples, sinusite ou bronquite deve ser questionada com o prescritor quando não houver motivo registrado, como alergia ou falha prévia.</p></div>"
+  },
+  {
+   "id": "m03-atb-sulfonamidas",
+   "titulo": "Sulfonamidas",
+   "resumo": "<p>Bactérias precisam sintetizar o próprio ácido fólico, enquanto as células humanas o obtêm da dieta. As sulfonamidas exploram essa diferença: são análogas do ácido para-aminobenzoico (PABA) e inibem competitivamente a di-hidropteroato sintetase. A trimetoprima age um passo adiante, inibindo a di-hidrofolato redutase bacteriana, com afinidade milhares de vezes maior pela enzima da bactéria do que pela humana. Usadas juntas, produzem <strong>bloqueio sequencial</strong> da mesma via: a associação é sinérgica, bactericida e menos sujeita a resistência do que cada componente isolado.</p><h3>Sulfametoxazol-trimetoprima</h3><p>A associação (cotrimoxazol, Bactrim®) vem na proporção de 5 para 1: comprimido de 400/80 mg, comprimido \"F\" de 800/160 mg e suspensão oral de 200/40 mg por 5 mL, pronta para uso. A posologia mais comum de adulto é 800/160 mg de 12/12 h; doses mais altas, por peso, são usadas em pneumocistose. Espectro e usos:</p><ul><li>Infecção urinária, quando a resistência local de <i>E. coli</i> é baixa ou há antibiograma sensível.</li><li>MRSA comunitário em infecções de pele e partes moles (furúnculo, abscesso drenado).</li><li><i>Pneumocystis jirovecii</i>: tratamento e profilaxia em pessoas com HIV e outros imunossuprimidos; também previne toxoplasmose cerebral.</li><li>Nocardiose, <i>Stenotrophomonas maltophilia</i> e algumas diarreias bacterianas.</li><li>Não cobre bem estreptococo do grupo A (faringite) nem anaeróbios.</li></ul><div class=\"tab\"><table><thead><tr><th>Efeito adverso</th><th>Mecanismo ou fator de risco</th><th>O que fazer</th></tr></thead><tbody><tr><td>Exantema e hipersensibilidade</td><td>As sulfonamidas estão entre as principais causas de síndrome de Stevens-Johnson e necrólise epidérmica tóxica; risco maior em pessoas com HIV</td><td>Suspender ao primeiro sinal de lesão em mucosa, bolha ou febre com exantema e procurar atendimento</td></tr><tr><td><strong>Hipercalemia</strong></td><td>A trimetoprima bloqueia o canal de sódio do túbulo distal, como a amilorida; soma com IECA, BRA, espironolactona, doença renal e idade avançada</td><td>Evitar a associação ou medir potássio em poucos dias</td></tr><tr><td>Elevação da creatinina</td><td>A trimetoprima reduz a secreção tubular de creatinina sem queda real da filtração</td><td>Interpretar com o prescritor; não confundir com lesão renal</td></tr><tr><td>Mielossupressão</td><td>Antifolato: anemia megaloblástica, leucopenia, trombocitopenia, maior em deficiência de folato e com metotrexato</td><td>Hemograma em uso prolongado</td></tr><tr><td>Hemólise</td><td>Deficiência de G6PD</td><td>Evitar em deficientes conhecidos</td></tr><tr><td>Hipoglicemia</td><td>Potencializa sulfonilureias</td><td>Monitorar glicemia</td></tr><tr><td>Cristalúria</td><td>Precipitação da sulfonamida na urina ácida</td><td>Ingerir bastante líquido</td></tr><tr><td>Kernicterus</td><td>A sulfonamida desloca a bilirrubina da albumina no recém-nascido</td><td>Evitar no fim da gestação e em menores de 2 meses</td></tr></tbody></table></div><p>Na gestação, a trimetoprima, como antifolato, se associa a defeitos do tubo neural quando usada no primeiro trimestre, e a sulfonamida, a kernicterus perto do parto; o uso fica restrito a situações em que o benefício supera o risco, decisão do prescritor.</p><h3>Uso em infecção urinária e resistência</h3><p>Na cistite não complicada, a diretriz internacional da IDSA e da ESCMID (2011) aceita sulfametoxazol-trimetoprima 800/160 mg de 12/12 h por 3 dias apenas onde a resistência local de <i>E. coli</i> não passa de cerca de 20%. Em muitas cidades brasileiras a resistência comunitária é maior que isso, e por isso nitrofurantoína e fosfomicina costumam ser preferidas como primeira escolha empírica. Com antibiograma mostrando sensibilidade, a associação volta a ser opção barata e eficaz.</p><p>Na profilaxia de pneumocistose em pessoas com HIV e contagem baixa de linfócitos CD4, o esquema usual é de um comprimido ao dia, conforme protocolo; o uso é prolongado, e a adesão depende de orientação sobre exantema, hidratação e sinais de anemia. Em uso prolongado ou em doses altas, a fotossensibilidade também pede proteção solar.</p><h3>Interações de maior gravidade</h3><ul><li><strong>Varfarina</strong>: o sulfametoxazol inibe o CYP2C9 e desloca a varfarina da albumina; o RNI sobe de forma importante em poucos dias, com risco de sangramento. Preferir outro antibiótico ou controlar o RNI de perto.</li><li><strong>Metotrexato</strong>: soma de efeito antifolato com redução da eliminação renal, com casos de pancitopenia fatal, mesmo em doses baixas semanais de metotrexato para artrite. Associação a evitar.</li><li>Fenitoína: aumento da concentração e risco de toxicidade.</li><li>IECA, BRA, espironolactona e suplementos de potássio: hipercalemia.</li><li>Sulfonilureias: hipoglicemia.</li></ul><h3>Sulfadiazina e uso tópico</h3><p>A sulfadiazina oral é usada, associada à pirimetamina e ao ácido folínico, no tratamento da toxoplasmose (ocular, cerebral e congênita). Exige hidratação abundante por causa da cristalúria e hemograma pelo efeito antifolato da pirimetamina; o ácido folínico (e não o ácido fólico) protege a medula do paciente sem anular o efeito sobre o parasita. A sulfadiazina de prata 1% em creme é usada em queimaduras, com absorção limitada; em áreas extensas pode causar leucopenia transitória.</p><h3>Alergia a sulfa e outros fármacos sulfonamídicos</h3><p>Furosemida, hidroclorotiazida, sulfonilureias, acetazolamida e celecoxibe têm grupo sulfonamida, mas não o anel aromático com amina que está ligado às reações alérgicas das sulfonamidas antibacterianas. Os estudos disponíveis indicam que a reatividade cruzada entre os dois grupos é baixa, e o paciente com alergia a antibiótico sulfonamídico também tem mais reações a outros fármacos em geral, sem relação estrutural. A decisão de usar um diurético em quem tem história de alergia grave a sulfametoxazol é do prescritor, que conhece o tipo de reação.</p><div class=\"cx balcao\"><b>No balcão</b><p>Senhora de 70 anos em uso de varfarina e losartana traz receita de sulfametoxazol-trimetoprima 800/160 mg de 12/12 h por 7 dias para infecção urinária. São duas interações relevantes: aumento do RNI e risco de hipercalemia. O farmacêutico contata o prescritor; se a prescrição for mantida, combina com a paciente um RNI em 3 a 5 dias, orienta reconhecer sangramento (gengiva, urina escura, manchas roxas, fezes pretas) e fraqueza muscular ou palpitação, e reforça a ingestão de líquidos.</p></div>"
+  },
+  {
+   "id": "m03-atb-glicopeptideos",
+   "titulo": "Glicopeptídeos",
+   "resumo": "<p>Glicopeptídeos são moléculas grandes que se ligam à extremidade D-alanil-D-alanina dos precursores do peptidoglicano e impedem que eles sejam incorporados à parede. Por serem grandes, não atravessam a membrana externa dos Gram-negativos: o espectro é restrito a <strong>Gram-positivos</strong>. A vancomicina e a teicoplanina são de uso hospitalar por via parenteral; a farmácia comercial encontra a vancomicina sobretudo na forma oral, para colite por <i>Clostridioides difficile</i>, e em pacientes que saem do hospital para completar tratamento.</p><h3>Vancomicina intravenosa</h3><p>Indicada em infecções graves por MRSA (bacteremia, endocardite, pneumonia, osteomielite), por estafilococos coagulase-negativos em próteses e cateteres, por enterococo sensível em alérgicos a penicilina e no esquema empírico de meningite bacteriana e sepse. É bactericida lenta, e seu índice farmacodinâmico é a AUC/CIM.</p><p>A atualização do consenso de monitorização da vancomicina (ASHP, IDSA, PIDS e SIDP, 2020) mudou a prática: para infecções graves por MRSA, recomenda alvo de AUC de 24 horas sobre CIM entre 400 e 600 mg·h/L (assumindo CIM de 1 mg/L por microdiluição), estimada de preferência por software bayesiano, ou por duas concentrações (pico e vale). A monitorização só pelo vale, com alvo de 15 a 20 mg/L, deixou de ser recomendada, porque expõe o paciente a mais nefrotoxicidade sem ganho de eficácia. A AUC acima de 600 mg·h/L se associa a mais lesão renal aguda.</p><div class=\"tab\"><table><thead><tr><th>Efeito adverso</th><th>Características</th><th>Prevenção e manejo</th></tr></thead><tbody><tr><td><strong>Nefrotoxicidade</strong></td><td>Aumento da creatinina, em geral reversível; risco maior com AUC elevada, uso prolongado, piperacilina-tazobactam, aminoglicosídeos, contraste e anti-inflamatórios</td><td>Dose ajustada pela função renal e monitorização da AUC; hidratação</td></tr><tr><td>Reação de infusão (\"síndrome do homem vermelho\")</td><td>Liberação direta de histamina, sem IgE: rubor em face, pescoço e tronco, prurido e às vezes hipotensão, durante ou logo após a infusão rápida</td><td>Infundir em pelo menos 60 minutos (mais para doses maiores); anti-histamínico antes nas doses seguintes; não é alergia e não impede o reuso</td></tr><tr><td>Ototoxicidade</td><td>Rara; maior com outros ototóxicos</td><td>Atenção a zumbido e perda auditiva</td></tr><tr><td>Neutropenia e trombocitopenia</td><td>Em uso prolongado, por mecanismo imune</td><td>Hemograma em cursos longos</td></tr><tr><td>Flebite</td><td>Solução irritante em veia periférica</td><td>Diluição adequada e rodízio de acesso</td></tr></tbody></table></div><p>O nome \"síndrome do homem vermelho\" vem sendo substituído por \"reação de infusão à vancomicina\", termo mais descritivo e sem conotação de gênero ou etnia. A distinção prática é com a anafilaxia verdadeira (rara), que tem urticária generalizada, broncoespasmo ou angioedema e não melhora apenas reduzindo a velocidade.</p><h3>Resistência à vancomicina e outros fármacos anti-MRSA</h3><p>Enterococos resistentes à vancomicina (VRE) adquirem genes, como <i>vanA</i> e <i>vanB</i>, que trocam a extremidade D-alanil-D-alanina por D-alanil-D-lactato, à qual o glicopeptídeo não se liga. Também há estafilococos com sensibilidade intermediária (VISA), de parede espessada. Nessas situações, e em pacientes que não toleram a vancomicina, entram outros fármacos com ação em Gram-positivos resistentes:</p><ul><li>Daptomicina: lipopeptídeo intravenoso, bactericida, uma vez ao dia; inativada pelo surfactante pulmonar, não serve para pneumonia; causa miopatia com elevação de CPK, com risco maior junto a estatinas.</li><li>Linezolida: opção oral para MRSA e VRE (ver inibidores da síntese proteica).</li><li>Ceftarolina: cefalosporina com ação em MRSA.</li><li>Para MRSA comunitário em pele e partes moles, fora do hospital: sulfametoxazol-trimetoprima, doxiciclina e, conforme antibiograma, clindamicina.</li></ul><h3>Teicoplanina</h3><p>Tem espectro semelhante ao da vancomicina, meia-vida longa e pode ser dada uma vez ao dia, por via intravenosa ou intramuscular, depois de doses de ataque. Causa menos nefrotoxicidade e menos reação de infusão. A monitorização, quando feita, é pela concentração de vale. Está no grupo Watch da OMS.</p><h3>Vancomicina oral para <i>Clostridioides difficile</i></h3><p>Por via oral, a vancomicina praticamente não é absorvida: age só na luz intestinal, o que a torna inútil para infecções sistêmicas e eficaz contra o <i>C. difficile</i>. O esquema usual de adulto para o episódio inicial é 125 mg de 6/6 h por 10 dias. Na atualização de 2021 da diretriz da IDSA e da SHEA, a fidaxomicina passou a ser preferida para o episódio inicial quando disponível, e a vancomicina oral continua como alternativa aceita; o metronidazol ficou restrito a episódios não graves quando nenhum dos dois está disponível. Recorrências podem exigir esquemas de vancomicina com redução gradual e pulsos.</p><p>Quando não há apresentação oral industrializada à mão, a dose oral pode ser preparada a partir do pó para solução injetável, com orientação da farmácia hospitalar ou de manipulação. O sabor é amargo, e a solução pode ser misturada a um pouco de suco.</p><ul><li>Orientar a lavagem das mãos com água e sabão: os esporos do <i>C. difficile</i> resistem ao álcool em gel.</li><li>Evitar antidiarreicos (loperamida) e inibidores da bomba de prótons sem indicação clara, que se associam a recorrência.</li><li>Retorno imediato se houver febre alta, distensão abdominal, piora da dor ou parada súbita da diarreia com barriga distendida (sinal de íleo ou megacólon).</li><li>Evitar novos antibióticos sem necessidade nos meses seguintes, pelo risco de recorrência.</li></ul><div class=\"cx balcao\"><b>No balcão</b><p>Paciente que recebeu alta com vancomicina oral 125 mg de 6/6 h pergunta se pode parar quando a diarreia melhorar no terceiro dia. Oriente completar os 10 dias prescritos, porque o esquema foi definido para reduzir recorrência; explique que a melhora começa em poucos dias e que piora, febre ou sangue nas fezes exigem retorno. Reforce a higiene das mãos com água e sabão para toda a família e a limpeza do banheiro com produto à base de cloro.</p></div><div class=\"cx chave\"><b>Ponto-chave</b><p>Vancomicina oral trata só o intestino; vancomicina intravenosa trata infecções sistêmicas e não serve para colite por <i>C. difficile</i>, porque não chega à luz intestinal em concentração eficaz.</p></div>"
+  },
+  {
+   "id": "m03-atb-antifungicos-antivirais",
+   "titulo": "Antifúngicos, antivirais e antiparasitários de uso comum",
+   "resumo": "<p>Além dos antibacterianos, a farmácia comercial dispensa todos os dias antifúngicos, antivirais e antiparasitários. Muitos são de dose única ou curso curto, e o paciente tende a vê-los como \"remédios simples\". Os pontos críticos são interações (fluconazol, terbinafina), contraindicações na gestação (albendazol, secnidazol, ivermectina sem orientação médica) e o uso sem indicação.</p><h3>Antifúngicos</h3><p><strong>Fluconazol</strong> é um azólico que inibe a 14-alfa-desmetilase fúngica (enzima do citocromo P450), bloqueando a síntese de ergosterol da membrana. Tem boa absorção oral, independente de alimento, e meia-vida longa (cerca de 30 horas), o que permite a dose única de 150 mg por via oral na candidíase vulvovaginal não complicada. Na candidíase recorrente (quatro ou mais episódios por ano), há esquemas de indução e manutenção semanal por meses, definidos pelo prescritor. Também é usado em candidíase oral e esofágica e em criptococose.</p><ul><li><strong>Interações</strong>: inibe fortemente o CYP2C9 e o CYP2C19 e moderadamente o CYP3A4. Aumenta o efeito da varfarina (sangramento), da fenitoína, das sulfonilureias (hipoglicemia), de sinvastatina e atorvastatina (miopatia), de alguns benzodiazepínicos e do tacrolimo. Prolonga o QT, com risco aditivo com outros fármacos que também o fazem.</li><li>Mesmo a dose única de 150 mg pode elevar o RNI de quem usa varfarina; comunicar o prescritor ou orientar controle.</li><li>Gestação: preferir azólico tópico vaginal; o fluconazol oral, sobretudo em doses altas e no primeiro trimestre, se associa a malformações.</li><li>Hepatotoxicidade rara; exantema.</li></ul><p><strong>Nistatina</strong> é um polieno que se liga ao ergosterol e forma poros na membrana. Não é absorvida pelo trato digestivo: age só no local. Na candidíase oral, a suspensão de 100 mil UI/mL é usada, no adulto, em geral 4 a 6 mL quatro vezes ao dia, mantida na boca o maior tempo possível antes de engolir, e continuada por cerca de 48 horas após o desaparecimento das lesões (conforme bula). Retirar e higienizar próteses dentárias. Praticamente não tem interações.</p><p><strong>Terbinafina</strong> inibe a esqualeno epoxidase e é fungicida para dermatófitos. Por via oral, 250 mg uma vez ao dia, é usada em onicomicose (em geral 6 semanas para unhas das mãos e 12 semanas para unhas dos pés) e em tinha do couro cabeludo. Riscos: hepatotoxicidade rara e grave (recomenda-se avaliar função hepática antes; orientar parar e procurar atendimento se houver icterícia, urina escura, náusea persistente ou cansaço intenso), alteração de paladar e olfato que pode durar meses, exantema grave e lúpus induzido. É inibidor potente do CYP2D6: aumenta tricíclicos, metoprolol e alguns antipsicóticos, e reduz a ativação de codeína e tramadol. A terbinafina tópica é isenta de prescrição; a oral exige receita.</p><h3>Antivirais</h3><p><strong>Aciclovir e valaciclovir</strong> são análogos de guanosina ativados pela timidina quinase do vírus herpes e, depois, inibem a DNA polimerase viral. O valaciclovir é pró-fármaco do aciclovir com biodisponibilidade três a cinco vezes maior, o que permite menos tomadas. O benefício é maior quando o tratamento começa cedo: no herpes-zóster, até 72 horas após o surgimento das lesões.</p><div class=\"tab\"><table><thead><tr><th>Indicação (adulto)</th><th>Aciclovir</th><th>Valaciclovir</th></tr></thead><tbody><tr><td>Herpes genital, primeiro episódio</td><td>400 mg de 8/8 h por 7 a 10 dias</td><td>1 g de 12/12 h por 7 a 10 dias</td></tr><tr><td>Herpes genital, recorrência</td><td>400 mg de 8/8 h por 5 dias</td><td>500 mg de 12/12 h por 3 dias ou 1 g 1 vez ao dia por 5 dias</td></tr><tr><td>Herpes-zóster</td><td>800 mg cinco vezes ao dia por 7 dias</td><td>1 g de 8/8 h por 7 dias</td></tr><tr><td>Herpes labial recorrente</td><td>Uso oral pouco vantajoso; creme tópico isento de prescrição com benefício modesto</td><td>2 g de 12/12 h por 1 dia, iniciado nos primeiros sintomas</td></tr></tbody></table></div><p>Os esquemas acima são os mais usados em diretrizes de IST e de herpes-zóster; a dose final depende da prescrição e exige ajuste pela TFG (CKD-EPI 2021). Os efeitos adversos são leves (náusea, cefaleia), mas, em idosos e em doença renal, podem ocorrer nefrotoxicidade por cristais e neurotoxicidade (confusão, alucinações, tremor). Orientar boa hidratação. Interações relevantes são poucas.</p><p><strong>Oseltamivir</strong> inibe a neuraminidase dos vírus influenza A e B e impede a liberação de novas partículas da célula infectada. Pelo guia de manejo e tratamento de influenza do Ministério da Saúde (2023), o tratamento é indicado a todos os casos de síndrome respiratória aguda grave e aos casos de síndrome gripal em pessoas com fator de risco (gestantes e puérperas, menores de 5 anos, idosos a partir de 60 anos, doenças crônicas pulmonares, cardíacas, renais, hepáticas, neurológicas e metabólicas, imunossupressão, obesidade grave, indígenas aldeados, entre outros). O maior benefício ocorre com início em até 48 horas dos sintomas, mas, em grupos de risco e casos graves, o tratamento iniciado depois ainda é indicado.</p><ul><li>Tratamento de adulto: 75 mg de 12/12 h por 5 dias; quimioprofilaxia: 75 mg uma vez ao dia por 10 dias, nas situações previstas no guia.</li><li>Ajuste renal: com depuração entre 30 e 60 mL/min, 30 mg de 12/12 h; entre 10 e 30 mL/min, 30 mg uma vez ao dia (tabela do guia; conferir a versão vigente).</li><li>Tomar com alimento reduz náusea e vômito, os efeitos mais comuns.</li><li>Relatos raros de alterações neuropsiquiátricas (confusão, comportamento anormal), sobretudo em crianças e adolescentes; família deve observar.</li><li>Não substitui a vacina anual contra influenza.</li></ul><h3>Antiparasitários</h3><div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Mecanismo</th><th>Posologia de adulto (bula)</th><th>Alimento</th><th>Cuidados</th></tr></thead><tbody><tr><td><strong>Ivermectina</strong></td><td>Abre canais de cloreto dependentes de glutamato do parasita, causando paralisia</td><td>Dose única de cerca de 200 mcg/kg (estrongiloidíase, escabiose, pediculose, ascaridíase); 150 mcg/kg na oncocercose</td><td>Com água; a bula brasileira não estabelece relação com alimento</td><td>Não usar abaixo de 15 kg ou de 5 anos; gestação e amamentação só com orientação médica; na escabiose, reavaliar em 1 a 2 semanas e tratar contactantes</td></tr><tr><td><strong>Albendazol</strong></td><td>Liga-se à beta-tubulina e bloqueia a captação de glicose pelo verme</td><td>400 mg dose única (ascaridíase, enterobíase); 400 mg por dia por 3 dias (estrongiloidíase, teníase); 1 a 3 dias na larva migrans cutânea</td><td>Com ou sem alimento; refeição gordurosa aumenta muito a absorção</td><td>Contraindicado na gestação; a partir de 2 anos; comprimido mastigável; uso prolongado exige controle hepático e hemograma</td></tr><tr><td><strong>Nitazoxanida</strong></td><td>Interfere no metabolismo energético anaeróbio (enzima PFOR) de protozoários e helmintos</td><td>500 mg de 12/12 h por 3 dias; suspensão de 20 mg/mL na criança: 7,5 mg/kg de 12/12 h</td><td>Sempre com alimento</td><td>A partir de 1 ano; urina e sêmen amarelo-esverdeados sem significado clínico; suspensão vale 7 dias após o preparo</td></tr></tbody></table></div><p>A ivermectina não tem benefício demonstrado no tratamento ou na prevenção da COVID-19 em ensaios clínicos randomizados, e o uso repetido sem indicação expõe o paciente a efeitos adversos e interações (há relatos de aumento do RNI com varfarina). Na enterobíase (oxiuríase), é comum repetir a dose do anti-helmíntico após cerca de duas semanas e tratar todos os moradores da casa, com cuidados de higiene (unhas curtas, troca de roupa de cama e lavagem das mãos).</p><div class=\"cx balcao\"><b>No balcão</b><p>Mulher de 26 anos pede albendazol para toda a família. Antes de dispensar, pergunte se há gestante ou possibilidade de gravidez (contraindicado), criança com menos de 2 anos e se houve diagnóstico ou apenas desconfiança. Confira o enquadramento sanitário do produto (tarja e lista de isentos de prescrição vigente, assunto do módulo 1) e, sem diagnóstico, oriente consulta, higiene dos alimentos e lavagem das mãos. Na mesma situação, se a pessoa já usa varfarina e recebe receita de fluconazol 150 mg, avise o prescritor sobre o risco de aumento do RNI.</p></div>"
+  },
+  {
+   "id": "m03-atb-orientacao",
+   "titulo": "Orientação ao paciente em uso de antimicrobiano",
+   "resumo": "<p>A orientação na dispensação decide boa parte do resultado de um tratamento antimicrobiano. Falhas de adesão, doses em horários errados, interação com antiácido ou ferro e suspensão mal conservada reduzem a eficácia e aumentam a chance de recaída e de resistência. A conversa deve ser curta, objetiva e confirmada: ao final, peça ao paciente que repita como vai tomar.</p><h3>Horários e doses esquecidas</h3><p>Intervalo de 8/8 h significa três doses distribuídas nas 24 horas, e não \"de manhã, à tarde e à noite\" com 12 horas de jejum noturno. Ajude o paciente a escolher horários compatíveis com a rotina (6 h, 14 h e 22 h; ou 7 h, 15 h e 23 h) e a usar alarme no celular. Em 12/12 h, horários fixos como 8 h e 20 h. Para as doses esquecidas, a regra geral é tomar assim que lembrar, a não ser que esteja perto da dose seguinte; nesse caso, pular a esquecida e seguir o horário normal. Nunca dobrar a dose.</p><h3>Alimento, laticínios e antiácidos</h3><div class=\"tab\"><table><thead><tr><th>Situação</th><th>Fármacos</th><th>Orientação</th></tr></thead><tbody><tr><td>Tomar com alimento</td><td>Amoxicilina-clavulanato (no início da refeição), cefuroxima axetila, nitrofurantoína, nitazoxanida, secnidazol (em uma refeição), metronidazol (reduz náusea), oseltamivir (reduz náusea)</td><td>Melhora absorção ou tolerância</td></tr><tr><td>Tomar em jejum</td><td>Fosfomicina trometamol (ou 2 a 3 horas após refeição), rifampicina no tratamento da tuberculose</td><td>Alimento reduz ou atrasa a absorção</td></tr><tr><td>Indiferente</td><td>Amoxicilina, cefalexina, azitromicina comprimido, doxiciclina, fluconazol, sulfametoxazol-trimetoprima, aciclovir, valaciclovir, linezolida</td><td>Escolher o que favorecer a adesão</td></tr><tr><td>Separar de cátions (cálcio, magnésio, alumínio, ferro, zinco)</td><td>Tetraciclinas e quinolonas</td><td>Antiácidos, suplementos minerais, multivitamínicos, sucralfato e leite afastados das doses, no intervalo indicado na bula</td></tr><tr><td>Copo cheio de água e não deitar</td><td>Doxiciclina, minociclina, clindamicina</td><td>Prevenção de esofagite</td></tr></tbody></table></div><h3>Álcool</h3><p>Para a maioria dos antibióticos, quantidades moderadas de álcool não alteram a eficácia, mas o álcool piora náusea, tontura e hepatotoxicidade e atrapalha o descanso e a hidratação. Há situações específicas:</p><ul><li>Nitroimidazólicos: as bulas brasileiras pedem evitar álcool durante o tratamento e por 1 dia (metronidazol) ou 4 dias (secnidazol) depois; a evidência de reação dissulfiram-símile é fraca, mas a orientação da bula vale.</li><li>Linezolida: bebidas fermentadas ricas em tiramina (chope e vinho tinto) somam risco de elevação da pressão.</li><li>Rifampicina, isoniazida e pirazinamida: o álcool aumenta o risco de hepatite medicamentosa.</li><li>Lembrar que xaropes e soluções orais podem conter álcool.</li></ul><h3>Anticoncepcional hormonal</h3><p>A ideia de que \"todo antibiótico corta o efeito da pílula\" não se sustenta. Os critérios médicos de elegibilidade dos Estados Unidos (CDC, US MEC, edição de 2024) classificam os antibióticos de amplo espectro, os antifúngicos e os antiparasitários na categoria 1 com anticoncepcionais combinados (sem restrição). A redução de eficácia comprovada ocorre com os indutores enzimáticos: entre os antimicrobianos, rifampicina e rifabutina (categoria 3 com anticoncepcionais combinados, pílula de progestagênio isolado e adesivo ou anel). A griseofulvina, antifúngico também indutor, entra na mesma preocupação.</p><p>A orientação útil é outra: se houver <strong>vômito em até 3 a 4 horas</strong> depois de tomar a pílula, ou diarreia intensa, a absorção pode ter falhado, e vale a regra de pílula esquecida da bula do anticoncepcional. Com rifampicina, a paciente precisa de método não afetado pela indução (DIU de cobre ou hormonal, ou injetável trimestral), conforme decisão com o prescritor, mantido por semanas depois de suspender o indutor.</p><h3>Suspensões orais reconstituídas</h3><p>Antibióticos em pó para suspensão são instáveis em solução e por isso vêm secos. A reconstituição é feita pelo paciente ou, quando a farmácia oferece o serviço, pelo farmacêutico. Passo a passo geral (siga sempre a bula do produto):</p><ul><li>Bater o frasco fechado para soltar o pó.</li><li>Usar água filtrada ou fervida e já fria, em temperatura ambiente; nunca água quente.</li><li>Acrescentar a água até a marca em duas etapas, agitando entre elas, e completar até a marca depois que a espuma baixar.</li><li>Anotar no rótulo a data de preparo e a data de descarte.</li><li>Agitar antes de cada dose e medir com a seringa ou o copo dosador do produto; colher de cozinha não é medida confiável.</li><li>Conservar como a bula indica: algumas suspensões vão à geladeira (amoxicilina-clavulanato, cefuroxima), outras não podem ser refrigeradas (claritromicina) e outras ficam em temperatura ambiente (azitromicina).</li><li>Descartar o que sobrar ao fim do prazo, mesmo que pareça bom.</li></ul><p>A validade após o preparo varia entre fabricantes e concentrações do mesmo fármaco; a tabela do material de apoio traz exemplos conferidos em bulas, mas a regra é sempre a bula do produto dispensado.</p><h3>Completar o tratamento ou duração mais curta</h3><p>Durante décadas a mensagem foi \"tome até o fim, mesmo que melhore\". Em 2017, uma análise publicada no BMJ (Llewelyn e colaboradores) mostrou que essa recomendação nunca foi baseada em estudos e que não há evidência de que parar cedo cause resistência; o que aumenta a resistência é a exposição mais longa do que o necessário. Desde então, ensaios clínicos confirmaram cursos mais curtos em várias infecções comuns, e diretrizes passaram a recomendar, por exemplo, duração mínima de 5 dias na pneumonia comunitária de adulto com boa evolução (ATS e IDSA, 2019) e cursos de 3 a 7 dias na cistite, conforme o fármaco.</p><p>A mensagem atual é <strong>tomar exatamente como prescrito</strong> e não interromper por conta própria. Se o paciente melhorou muito antes do previsto, quem decide encurtar é o prescritor. Existem exceções em que o curso longo é indispensável: tuberculose, endocardite, osteomielite, infecções de prótese e algumas ISTs. Sobra de antibiótico em casa não deve ser guardada para \"a próxima vez\" nem oferecida a outra pessoa; o descarte deve ser feito nos pontos de coleta de medicamentos domiciliares previstos no sistema de logística reversa (Decreto nº 10.388/2020).</p><h3>Sinais de reação grave</h3><div class=\"tab\"><table><thead><tr><th>Sinal</th><th>Possível causa</th><th>Orientação</th></tr></thead><tbody><tr><td>Falta de ar, chiado, inchaço de lábios, língua ou garganta, urticária generalizada, desmaio, minutos a horas após a dose</td><td>Anafilaxia</td><td>Emergência: SAMU 192; não tomar nova dose</td></tr><tr><td>Febre, mal-estar e lesões em boca, olhos ou genitais, bolhas ou descamação da pele</td><td>Síndrome de Stevens-Johnson ou necrólise epidérmica tóxica</td><td>Suspender e procurar atendimento de urgência</td></tr><tr><td>Exantema com febre, ínguas e inchaço do rosto 2 a 8 semanas após o início</td><td>DRESS</td><td>Procurar atendimento; exige exames</td></tr><tr><td>Diarreia intensa, com sangue ou febre, durante ou semanas depois</td><td>Colite por <i>C. difficile</i></td><td>Procurar o prescritor; não usar antidiarreico por conta própria</td></tr><tr><td>Dor ou inchaço em tendão</td><td>Quinolona</td><td>Repouso do membro e contato com o prescritor</td></tr><tr><td>Pele ou olhos amarelos, urina escura</td><td>Hepatite medicamentosa</td><td>Suspender e procurar atendimento</td></tr><tr><td>Palpitação, desmaio</td><td>Prolongamento do QT (macrolídeos, quinolonas, fluconazol)</td><td>Atendimento de urgência</td></tr><tr><td>Zumbido, perda auditiva, tontura rotatória</td><td>Aminoglicosídeo, vancomicina</td><td>Contato imediato com o prescritor</td></tr></tbody></table></div><p>Suspeita de reação adversa ou de falha terapêutica deve ser notificada à Anvisa pelo VigiMed, sistema aberto a profissionais e cidadãos. Registre também a reação no histórico do paciente na farmácia, com o fármaco, o tipo de reação e a data.</p><div class=\"cx balcao\"><b>No balcão</b><p>Mãe recebe amoxicilina-clavulanato suspensão para o filho de 3 anos com otite. Roteiro rápido: confirmar peso e alergias; reconstituir junto com ela ou demonstrar; anotar a data de descarte no frasco (7 dias, em geladeira, segundo as bulas consultadas); mostrar a dose na seringa; combinar horários de 12/12 h no início das refeições; explicar que diarreia leve pode ocorrer e que vômito, manchas na pele, febre que não cede em 48 a 72 horas ou sonolência excessiva exigem retorno; e pedir que ela repita as instruções.</p></div><div class=\"cx chave\"><b>Ponto-chave</b><p>Antes de entregar o antimicrobiano, confirme cinco pontos com o paciente: para que serve, como e quando tomar, por quantos dias, o que evitar junto e quando voltar ou procurar atendimento.</p></div>"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m03-atb-mapa-principios",
+   "titulo": "Princípios e resistência",
+   "centro": "Antibioticoterapia",
+   "ramos": [
+    {
+     "t": "Ação",
+     "itens": [
+      "Bactericida: betalactâmicos, aminoglicosídeos, quinolonas",
+      "Bacteriostático: macrolídeos, tetraciclinas, clindamicina",
+      "Bactericida importa: endocardite, meningite, neutropenia"
+     ]
+    },
+    {
+     "t": "Grupos de bactérias",
+     "itens": [
+      "Gram+: estafilo, estrepto, pneumo, enterococo",
+      "Gram-: E. coli, Klebsiella, Pseudomonas, Haemophilus",
+      "Atípicos: sem parede ou intracelulares; betalactâmico falha",
+      "Anaeróbios: metronidazol, clindamicina, amox-clav"
+     ]
+    },
+    {
+     "t": "PK/PD",
+     "itens": [
+      "Tempo-dependente (T > CIM): betalactâmicos",
+      "Pico/CIM: aminoglicosídeos, dose única diária",
+      "AUC/CIM: quinolonas, vancomicina, azitromicina",
+      "Horário regular pesa mais nos betalactâmicos"
+     ]
+    },
+    {
+     "t": "Resistência",
+     "itens": [
+      "Enzimas, alvo alterado, porinas, efluxo",
+      "ESBL: tratar infecção grave com carbapenêmico",
+      "MRSA: PBP2a; só ceftarolina entre betalactâmicos",
+      "Pressão seletiva: volume de uso é o principal motor"
+     ]
+    },
+    {
+     "t": "AWaRe (OMS 2025)",
+     "itens": [
+      "Access: amoxicilina, cefalexina, doxiciclina",
+      "Watch: azitromicina, quinolonas, ceftriaxona",
+      "Reserve: linezolida, polimixinas",
+      "Meta ONU 2024: 70% do uso em Access até 2030"
+     ]
+    },
+    {
+     "t": "Farmacêutico",
+     "itens": [
+      "Receita retida, validade de 10 dias (RDC 471/2021)",
+      "Conferir alergia, gestação, rim, interações",
+      "Orientar horário, alimento, duração, sinais de alerta",
+      "Notificar reação adversa no VigiMed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m03-atb-mapa-betalactamicos",
+   "titulo": "Betalactâmicos",
+   "centro": "Betalactâmicos",
+   "ramos": [
+    {
+     "t": "Mecanismo",
+     "itens": [
+      "Ligam PBP e bloqueiam a parede",
+      "Bactericidas e tempo-dependentes",
+      "Baixa toxicidade; alergia é o problema principal"
+     ]
+    },
+    {
+     "t": "Penicilinas",
+     "itens": [
+      "Benzatina IM: sífilis 2,4 milhões de UI",
+      "Amoxicilina: com ou sem alimento",
+      "Amox-clav: no início da refeição; diarreia",
+      "Exantema na mononucleose não é alergia IgE"
+     ]
+    },
+    {
+     "t": "Cefalosporinas",
+     "itens": [
+      "1ª: cefalexina, cefadroxila (pele, ITU)",
+      "2ª: cefuroxima com alimento (otite, sinusite)",
+      "3ª: ceftriaxona; 4ª: cefepima",
+      "5ª: ceftarolina, ativa contra MRSA",
+      "Nenhuma cobre enterococo nem Listeria"
+     ]
+    },
+    {
+     "t": "Carbapenêmicos e outros",
+     "itens": [
+      "Meropeném, imipeném, ertapeném: ESBL",
+      "Carbapenêmico derruba ácido valproico",
+      "Aztreonam: só Gram-; cruza com ceftazidima"
+     ]
+    },
+    {
+     "t": "Alergia a penicilina",
+     "itens": [
+      "10% relatam; menos de 1% confirmados (CDC)",
+      "Cefalosporina: reação abaixo de 2%",
+      "Risco segue a cadeia lateral R1",
+      "SSJ, NET, DRESS: nunca reexpor",
+      "Desrotulagem: estratificar e provocar"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m03-atb-mapa-demais",
+   "titulo": "Demais classes antibacterianas",
+   "centro": "Demais classes",
+   "ramos": [
+    {
+     "t": "Síntese proteica",
+     "itens": [
+      {
+       "t": "Macrolídeos",
+       "itens": [
+        "QT; claritromicina inibe CYP3A4",
+        "Claritro + sinvastatina: contraindicado"
+       ]
+      },
+      {
+       "t": "Tetraciclinas",
+       "itens": [
+        "Cátions, sol, esôfago",
+        "Doxiciclina: febre maculosa em toda idade"
+       ]
+      },
+      "Aminoglicosídeos: rim e ouvido, uso hospitalar",
+      "Clindamicina: alto risco de C. difficile",
+      "Linezolida: serotoninérgica, mielossupressão"
+     ]
+    },
+    {
+     "t": "Ácidos nucleicos e outros",
+     "itens": [
+      "Rifampicina: indutor potente, secreções laranja",
+      "Metronidazol: álcool conforme bula; varfarina",
+      "Nitrofurantoína: só cistite; bula BR: ClCr 60",
+      "Fosfomicina 3 g em jejum, à noite"
+     ]
+    },
+    {
+     "t": "Quinolonas",
+     "itens": [
+      "Tendão, nervo, SNC, glicemia, aorta, QT",
+      "Separar de cátions e antiácidos",
+      "Cipro inibe CYP1A2: teofilina, tizanidina",
+      "Evitar em infecção leve (FDA 2016, EMA 2018)"
+     ]
+    },
+    {
+     "t": "Sulfonamidas",
+     "itens": [
+      "SMX-TMP: bloqueio sequencial do folato",
+      "Hipercalemia com IECA, BRA, espironolactona",
+      "Varfarina: RNI sobe; metotrexato: pancitopenia",
+      "SSJ: suspender ao primeiro sinal"
+     ]
+    },
+    {
+     "t": "Glicopeptídeos",
+     "itens": [
+      "Vancomicina IV: alvo AUC 400 a 600 (2020)",
+      "Reação de infusão: infundir em 60 min ou mais",
+      "Vancomicina oral só para C. difficile",
+      "Teicoplanina: 1 vez ao dia, menos nefrotóxica"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m03-atb-tab-mestra",
+   "titulo": "Tabela-mestra das classes antibacterianas",
+   "colunas": [
+    "Classe",
+    "Exemplos",
+    "Mecanismo",
+    "Espectro",
+    "Efeitos adversos marcantes",
+    "Orientação ao paciente"
+   ],
+   "linhas": [
+    [
+     "Penicilinas",
+     "Benzatina, amoxicilina, ampicilina, oxacilina",
+     "Inibem PBP (parede)",
+     "Estreptococos, treponema; amoxicilina amplia para alguns Gram-",
+     "Alergia, diarreia, exantema",
+     "Horário regular; amoxicilina com ou sem alimento"
+    ],
+    [
+     "Penicilina + inibidor",
+     "Amoxicilina-clavulanato, ampicilina-sulbactam, piperacilina-tazobactam",
+     "Inibidor protege da betalactamase",
+     "Acrescenta produtores de betalactamase e anaeróbios",
+     "Diarreia, hepatite colestática rara",
+     "No início da refeição; procurar se diarreia com sangue"
+    ],
+    [
+     "Cefalosporinas",
+     "Cefalexina, cefadroxila, cefuroxima, ceftriaxona, cefepima, ceftarolina",
+     "Inibem PBP",
+     "Varia por geração; nenhuma cobre enterococo",
+     "Alergia, diarreia, <i>C. difficile</i>",
+     "Cefuroxima com alimento"
+    ],
+    [
+     "Carbapenêmicos",
+     "Meropeném, imipeném, ertapeném",
+     "Inibem PBP",
+     "Muito amplo, inclusive ESBL",
+     "Convulsão (imipeném), <i>C. difficile</i>",
+     "Uso hospitalar; interação com valproato"
+    ],
+    [
+     "Monobactâmico",
+     "Aztreonam",
+     "Inibe PBP3 de Gram-",
+     "Gram- aeróbios",
+     "Exantema, flebite",
+     "Uso hospitalar"
+    ],
+    [
+     "Macrolídeos",
+     "Azitromicina, claritromicina, eritromicina",
+     "Subunidade 50S",
+     "Atípicos, estreptococos, clamídia",
+     "QT, náusea, interações CYP3A4",
+     "Informar estatinas, colchicina e anticoagulantes em uso"
+    ],
+    [
+     "Tetraciclinas",
+     "Doxiciclina, minociclina",
+     "Subunidade 30S",
+     "Atípicos, riquétsias, clamídia, MRSA comunitário",
+     "Esofagite, fotossensibilidade, dentes",
+     "Copo cheio de água, não deitar; separar de cátions"
+    ],
+    [
+     "Aminoglicosídeos",
+     "Gentamicina, amicacina, tobramicina",
+     "Subunidade 30S",
+     "Gram- aeróbios",
+     "Nefro e ototoxicidade",
+     "Uso hospitalar; tópicos na farmácia"
+    ],
+    [
+     "Lincosamidas",
+     "Clindamicina",
+     "Subunidade 50S",
+     "Gram+ e anaeróbios",
+     "Diarreia por <i>C. difficile</i>",
+     "Copo cheio de água; procurar se diarreia intensa"
+    ],
+    [
+     "Cloranfenicol",
+     "Cloranfenicol",
+     "Subunidade 50S",
+     "Amplo",
+     "Aplasia de medula",
+     "Na farmácia, quase só colírio e pomada"
+    ],
+    [
+     "Oxazolidinonas",
+     "Linezolida",
+     "Subunidade 50S (iniciação)",
+     "Gram+ resistentes (MRSA, VRE)",
+     "Síndrome serotoninérgica, mielossupressão",
+     "Evitar antigripais simpatomiméticos e excesso de tiramina"
+    ],
+    [
+     "Rifamicinas",
+     "Rifampicina, rifabutina",
+     "RNA polimerase",
+     "Micobactérias, estafilococo (associada)",
+     "Hepatotoxicidade, indução enzimática",
+     "Secreções alaranjadas; método contraceptivo não hormonal oral"
+    ],
+    [
+     "Nitroimidazólicos",
+     "Metronidazol, secnidazol, tinidazol",
+     "Radicais que lesam DNA",
+     "Anaeróbios e protozoários",
+     "Gosto metálico, neuropatia",
+     "Evitar álcool conforme bula"
+    ],
+    [
+     "Nitrofuranos",
+     "Nitrofurantoína",
+     "Intermediários reativos (DNA, ribossomo)",
+     "Gram- urinários",
+     "Reações pulmonares, hemólise",
+     "Com alimento; urina escura esperada"
+    ],
+    [
+     "Fosfonatos",
+     "Fosfomicina trometamol",
+     "Inibe MurA (parede)",
+     "Gram- urinários, inclusive ESBL",
+     "Diarreia",
+     "Dose única em jejum, à noite"
+    ],
+    [
+     "Fluoroquinolonas",
+     "Ciprofloxacino, levofloxacino, moxifloxacino, norfloxacino",
+     "DNA girase e topoisomerase IV",
+     "Gram-; respiratórias cobrem pneumococo",
+     "Tendão, nervo, SNC, glicemia, aorta, QT",
+     "Separar de cátions; avisar dor em tendão"
+    ],
+    [
+     "Sulfonamida + trimetoprima",
+     "Sulfametoxazol-trimetoprima, sulfadiazina",
+     "Bloqueio sequencial do folato",
+     "Gram- urinários, MRSA comunitário, <i>Pneumocystis</i>",
+     "SSJ, hipercalemia, mielossupressão",
+     "Bastante líquido; suspender se lesão de pele ou mucosa"
+    ],
+    [
+     "Glicopeptídeos",
+     "Vancomicina, teicoplanina",
+     "Ligam D-Ala-D-Ala (parede)",
+     "Só Gram+, inclusive MRSA",
+     "Nefrotoxicidade, reação de infusão",
+     "Oral apenas para <i>C. difficile</i>"
+    ]
+   ],
+   "nota": "Exemplos e espectros simplificados para estudo. A escolha depende do perfil local de resistência e da diretriz vigente."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m03-atb-tab-balcao",
+   "titulo": "Antimicrobianos de balcão: posologia, alimento e interação",
+   "colunas": [
+    "Fármaco",
+    "Posologia usual adulto",
+    "Com ou sem alimento",
+    "Interação principal"
+   ],
+   "linhas": [
+    [
+     "Amoxicilina",
+     "500 mg de 8/8 h ou 875 mg de 12/12 h",
+     "Indiferente",
+     "Metotrexato (toxicidade); alopurinol (exantema)"
+    ],
+    [
+     "Amoxicilina-clavulanato",
+     "500/125 mg de 8/8 h ou 875/125 mg de 12/12 h",
+     "No início da refeição",
+     "Varfarina (RNI); metotrexato"
+    ],
+    [
+     "Benzilpenicilina benzatina",
+     "2,4 milhões de UI IM dose única (sífilis recente)",
+     "Não se aplica",
+     "Poucas relevantes"
+    ],
+    [
+     "Cefalexina",
+     "500 mg de 6/6 h",
+     "Indiferente",
+     "Poucas relevantes; probenecida aumenta o nível"
+    ],
+    [
+     "Cefadroxila",
+     "500 mg a 1 g de 12/12 h",
+     "Indiferente",
+     "Poucas relevantes"
+    ],
+    [
+     "Cefuroxima axetila",
+     "250 a 500 mg de 12/12 h",
+     "Com alimento",
+     "Antiácidos e anti-H2 reduzem absorção"
+    ],
+    [
+     "Azitromicina",
+     "500 mg 1 vez ao dia por 3 dias (ou 500 mg + 250 mg por 4 dias)",
+     "Indiferente (comprimido)",
+     "Fármacos que prolongam o QT"
+    ],
+    [
+     "Claritromicina",
+     "500 mg de 12/12 h",
+     "Indiferente",
+     "Sinvastatina, lovastatina, colchicina, ergot (contraindicadas ou graves)"
+    ],
+    [
+     "Doxiciclina",
+     "100 mg de 12/12 h",
+     "Pode ser com alimento; copo cheio de água",
+     "Cálcio, ferro, antiácidos; isotretinoína"
+    ],
+    [
+     "Clindamicina",
+     "300 a 450 mg de 6/6 h ou 8/8 h",
+     "Indiferente; copo cheio de água",
+     "Bloqueadores neuromusculares (hospital)"
+    ],
+    [
+     "Ciprofloxacino",
+     "500 mg de 12/12 h",
+     "Indiferente, mas não só com leite",
+     "Cátions; teofilina; tizanidina (contraindicada)"
+    ],
+    [
+     "Levofloxacino",
+     "500 a 750 mg 1 vez ao dia",
+     "Indiferente",
+     "Cátions; fármacos que prolongam o QT; corticoide"
+    ],
+    [
+     "Norfloxacino",
+     "400 mg de 12/12 h",
+     "Longe das refeições e de laticínios (conforme bula)",
+     "Cátions; teofilina"
+    ],
+    [
+     "Sulfametoxazol-trimetoprima",
+     "800/160 mg de 12/12 h",
+     "Indiferente; bastante líquido",
+     "Varfarina; metotrexato; IECA, BRA e espironolactona"
+    ],
+    [
+     "Nitrofurantoína",
+     "100 mg de 6/6 h por 5 a 7 dias",
+     "Com alimento",
+     "Antiácidos com magnésio reduzem absorção"
+    ],
+    [
+     "Fosfomicina trometamol",
+     "3 g dose única",
+     "Em jejum, à noite",
+     "Metoclopramida"
+    ],
+    [
+     "Metronidazol",
+     "400 a 500 mg de 12/12 h (conforme indicação)",
+     "Com alimento reduz náusea",
+     "Varfarina; lítio; álcool (bula)"
+    ],
+    [
+     "Secnidazol",
+     "2 g dose única",
+     "Com uma refeição, à noite",
+     "Álcool (bula: 4 dias); dissulfiram"
+    ],
+    [
+     "Rifampicina",
+     "Conforme esquema (tuberculose: dose por peso, combinada)",
+     "Em jejum",
+     "Anticoncepcionais, varfarina, antirretrovirais, muitas outras"
+    ],
+    [
+     "Fluconazol",
+     "150 mg dose única (candidíase vaginal)",
+     "Indiferente",
+     "Varfarina; sulfonilureias; fármacos que prolongam o QT"
+    ],
+    [
+     "Terbinafina oral",
+     "250 mg 1 vez ao dia",
+     "Indiferente",
+     "Substratos do CYP2D6 (tricíclicos, metoprolol)"
+    ],
+    [
+     "Nistatina suspensão",
+     "4 a 6 mL quatro vezes ao dia (candidíase oral)",
+     "Após alimentação, manter na boca",
+     "Praticamente nenhuma"
+    ],
+    [
+     "Aciclovir",
+     "400 a 800 mg, 3 a 5 vezes ao dia conforme indicação",
+     "Indiferente; hidratação",
+     "Fármacos nefrotóxicos"
+    ],
+    [
+     "Valaciclovir",
+     "500 mg a 2 g, 1 a 3 vezes ao dia conforme indicação",
+     "Indiferente; hidratação",
+     "Fármacos nefrotóxicos"
+    ],
+    [
+     "Oseltamivir",
+     "75 mg de 12/12 h por 5 dias",
+     "Com alimento reduz náusea",
+     "Poucas relevantes"
+    ],
+    [
+     "Ivermectina",
+     "Cerca de 200 mcg/kg dose única",
+     "Com água (bula)",
+     "Varfarina (relatos de RNI aumentado)"
+    ],
+    [
+     "Albendazol",
+     "400 mg dose única ou por 3 dias conforme parasita",
+     "Indiferente (gordura aumenta absorção)",
+     "Carbamazepina e fenitoína reduzem nível"
+    ],
+    [
+     "Nitazoxanida",
+     "500 mg de 12/12 h por 3 dias",
+     "Com alimento",
+     "Varfarina (alta ligação proteica; monitorar)"
+    ]
+   ],
+   "nota": "Doses de adulto com função renal normal, para orientação de estudo. Confirme indicação, dose e duração na prescrição e na bula do produto; ajustar pela TFG (CKD-EPI 2021) quando aplicável."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m03-atb-tab-suspensoes",
+   "titulo": "Suspensões orais: conservação e validade após o preparo",
+   "colunas": [
+    "Produto (exemplo consultado)",
+    "Reconstituição",
+    "Conservação após preparo",
+    "Validade após preparo",
+    "Observação"
+   ],
+   "linhas": [
+    [
+     "Amoxicilina (Amoxil®)",
+     "Água filtrada até a marca, em duas etapas",
+     "Geladeira (2 a 8 °C)",
+     "14 dias",
+     "Genéricos e similares podem diferir; ver bula"
+    ],
+    [
+     "Amoxicilina-clavulanato (Clavulin® e genéricos)",
+     "Água filtrada até a marca, em duas etapas",
+     "Geladeira (2 a 8 °C), não congelar",
+     "7 dias",
+     "Dar no início da refeição"
+    ],
+    [
+     "Azitromicina (genéricos)",
+     "Volume de água indicado no frasco",
+     "Temperatura ambiente (15 a 30 °C)",
+     "5 dias",
+     "Não precisa de geladeira"
+    ],
+    [
+     "Claritromicina (Klaricid®)",
+     "Água até a marca",
+     "Temperatura ambiente, sem refrigerar, frasco tampado",
+     "14 dias",
+     "Refrigerar deixa a suspensão espessa"
+    ],
+    [
+     "Cefalexina (genéricos)",
+     "Água até a marca",
+     "Geladeira",
+     "7 a 14 dias, conforme fabricante",
+     "Prazo varia entre produtos"
+    ],
+    [
+     "Cefadroxila (Cefamox®)",
+     "Água até a marca",
+     "Ambiente ou geladeira",
+     "10 dias em ambiente ou 14 dias em geladeira",
+     "Não congelar"
+    ],
+    [
+     "Cefuroxima (Zinnat®)",
+     "Água até a marca",
+     "Geladeira (2 a 8 °C) logo após o preparo",
+     "10 dias",
+     "Tomar com alimento; não congelar"
+    ],
+    [
+     "Nitazoxanida (Annita®)",
+     "Água até a marca",
+     "Temperatura ambiente",
+     "7 dias",
+     "Urina amarelo-esverdeada sem significado"
+    ],
+    [
+     "Sulfametoxazol-trimetoprima",
+     "Pronta para uso",
+     "Temperatura ambiente",
+     "Validade de fábrica após aberta, conforme bula",
+     "Agitar antes de usar"
+    ],
+    [
+     "Nistatina",
+     "Pronta para uso",
+     "Temperatura ambiente",
+     "Conforme bula do fabricante após aberta",
+     "Agitar; manter na boca antes de engolir"
+    ]
+   ],
+   "nota": "Dados conferidos em bulas disponíveis em outubro de 2026 para os produtos citados. Prazo e temperatura variam entre fabricantes e concentrações: confira sempre a bula do produto dispensado e escreva a data de descarte no rótulo."
+  },
+  {
+   "tipo": "checklist",
+   "id": "m03-atb-checklist-dispensacao",
+   "titulo": "Checklist da orientação na dispensação de antimicrobiano",
+   "itens": [
+    "Confirmar para quem é o medicamento, idade e, em criança, o peso atual",
+    "Perguntar sobre alergias e qual foi a reação (tipo e tempo após a dose)",
+    "Perguntar sobre gestação, possibilidade de gravidez e amamentação",
+    "Perguntar sobre doença renal ou hepática e consultar TFG recente, se houver",
+    "Listar medicamentos, suplementos e antiácidos em uso e checar interações",
+    "Conferir dose, intervalo e duração contra a indicação provável",
+    "Combinar horários concretos distribuídos nas 24 horas",
+    "Explicar a relação com alimento, laticínios e cátions",
+    "Explicar o que fazer em caso de dose esquecida",
+    "Orientar sobre álcool quando a bula restringir",
+    "Esclarecer o efeito sobre anticoncepcional (só indutores como rifampicina reduzem)",
+    "Em suspensão: reconstituir ou demonstrar, anotar data de descarte, orientar conservação",
+    "Entregar ou mostrar o dosador correto e a medida da dose",
+    "Reforçar tomar exatamente como prescrito e não guardar sobras",
+    "Descrever sinais de reação grave e de falha (sem melhora em 48 a 72 horas)",
+    "Pedir que o paciente repita as instruções principais",
+    "Registrar a orientação e notificar reação adversa no VigiMed quando ocorrer"
+   ]
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m03-atb-fluxo-alergia",
+   "titulo": "Relato de alergia a penicilina diante de receita de betalactâmico",
+   "passos": [
+    {
+     "t": "Paciente com receita de betalactâmico relata alergia a penicilina",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Qualificar a história: fármaco, sintomas, tempo até a reação, tratamento, uso posterior de outro betalactâmico",
+     "tipo": "acao"
+    },
+    {
+     "t": "Houve bolhas, descamação, lesão de mucosa, febre com exantema extenso ou acometimento de órgão (SSJ, NET, DRESS)?",
+     "tipo": "decisao",
+     "sim": "Não dispensar; contatar o prescritor e registrar como reação grave",
+     "nao": "Seguir para a próxima pergunta"
+    },
+    {
+     "t": "Reação imediata (até cerca de 1 a 6 horas) com urticária, angioedema, falta de ar ou hipotensão?",
+     "tipo": "decisao",
+     "sim": "Contatar o prescritor antes de dispensar penicilina; cefalosporina de cadeia lateral diferente é decisão médica",
+     "nao": "Considerar história de baixo risco"
+    },
+    {
+     "t": "A receita é de penicilina ou de cefalosporina com cadeia lateral semelhante à amoxicilina (cefalexina, cefadroxila, cefaclor)?",
+     "tipo": "decisao",
+     "sim": "Informar o prescritor sobre a história e registrar a decisão",
+     "nao": "Dispensar com orientação e registro da história"
+    },
+    {
+     "t": "Orientar sinais de anafilaxia e o que fazer (SAMU 192)",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Sugerir avaliação para desrotulagem em história antiga e de baixo risco",
+     "tipo": "acao"
+    },
+    {
+     "t": "Registrar no histórico do paciente o fármaco, a reação e a conduta",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m03-atb-cartoes",
+   "titulo": "Cartões de revisão: antimicrobianos",
+   "itens": [
+    {
+     "f": "Índice PK/PD dos betalactâmicos",
+     "v": "Tempo com concentração acima da CIM (tempo-dependentes); horário regular é essencial"
+    },
+    {
+     "f": "Índice PK/PD dos aminoglicosídeos",
+     "v": "Pico sobre a CIM; por isso dose única diária"
+    },
+    {
+     "f": "Por que betalactâmico não trata Mycoplasma?",
+     "v": "Mycoplasma não tem parede celular"
+    },
+    {
+     "f": "O que é ESBL?",
+     "v": "Betalactamase de enterobactéria que inativa penicilinas, cefalosporinas até 4ª geração e aztreonam"
+    },
+    {
+     "f": "Mecanismo do MRSA",
+     "v": "Gene mecA produz PBP2a, de baixa afinidade pelos betalactâmicos"
+    },
+    {
+     "f": "Meta global de uso de antibióticos Access",
+     "v": "Pelo menos 70% do consumo humano até 2030 (declaração da ONU, 2024)"
+    },
+    {
+     "f": "Amoxicilina-clavulanato: quando tomar?",
+     "v": "No início da refeição"
+    },
+    {
+     "f": "Reatividade cruzada penicilina e cefalosporina",
+     "v": "Abaixo de 2%, guiada pela cadeia lateral R1 (AAAAI/ACAAI, 2022)"
+    },
+    {
+     "f": "Cefalosporinas com cadeia lateral semelhante à amoxicilina",
+     "v": "Cefalexina, cefadroxila e cefaclor"
+    },
+    {
+     "f": "Carbapenêmico e ácido valproico",
+     "v": "Queda rápida do valproato com risco de convulsão; evitar a associação"
+    },
+    {
+     "f": "Claritromicina com sinvastatina",
+     "v": "Contraindicada: inibição do CYP3A4 e risco de rabdomiólise"
+    },
+    {
+     "f": "Doxiciclina: três orientações",
+     "v": "Copo cheio de água e não deitar; separar de cátions; proteção solar"
+    },
+    {
+     "f": "Linezolida com sertralina",
+     "v": "Risco de síndrome serotoninérgica"
+    },
+    {
+     "f": "Quais antimicrobianos reduzem com certeza o anticoncepcional?",
+     "v": "Rifampicina e rifabutina (indutores enzimáticos)"
+    },
+    {
+     "f": "Nitrofurantoína: limite renal da bula brasileira",
+     "v": "Contraindicada com depuração abaixo de 60 mL/min/1,73 m²"
+    },
+    {
+     "f": "Fosfomicina trometamol: como tomar",
+     "v": "3 g dissolvidos em água, em jejum, à noite após esvaziar a bexiga"
+    },
+    {
+     "f": "Ciprofloxacino e cátions",
+     "v": "Tomar 2 horas antes ou 6 horas depois de antiácidos, ferro, zinco ou cálcio"
+    },
+    {
+     "f": "SMX-TMP com varfarina",
+     "v": "Aumento importante do RNI; evitar ou monitorar"
+    },
+    {
+     "f": "Alvo de monitorização da vancomicina (2020)",
+     "v": "AUC/CIM de 400 a 600 mg·h/L em infecção grave por MRSA"
+    },
+    {
+     "f": "Vancomicina oral serve para quê?",
+     "v": "Só para colite por C. difficile; não é absorvida"
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m03-atb-questoes",
+   "titulo": "Questões de fixação: antimicrobianos",
+   "itens": [
+    {
+     "p": "Sobre os princípios de farmacodinâmica dos antimicrobianos, assinale a alternativa correta.",
+     "alt": [
+      "Aminoglicosídeos são tempo-dependentes e devem ser fracionados",
+      "Betalactâmicos dependem do tempo acima da CIM",
+      "Quinolonas não têm efeito pós-antibiótico",
+      "Vancomicina é monitorada só pelo vale de 15 a 20 mg/L",
+      "Macrolídeos são bactericidas para todos os germes"
+     ],
+     "c": 1,
+     "com": "Betalactâmicos são tempo-dependentes: o índice que prediz eficácia é T > CIM. Aminoglicosídeos são concentração-dependentes (dose única diária). Quinolonas têm efeito pós-antibiótico prolongado contra Gram-negativos. O consenso ASHP/IDSA de 2020 recomenda AUC/CIM de 400 a 600 e abandonou a monitorização só pelo vale. Macrolídeos são predominantemente bacteriostáticos."
+    },
+    {
+     "p": "Cliente de 52 anos usa sinvastatina 40 mg e colchicina para gota e traz receita de claritromicina 500 mg de 12/12 h para pneumonia comunitária. A conduta mais adequada do farmacêutico é:",
+     "alt": [
+      "Dispensar e orientar tomar a claritromicina longe da sinvastatina",
+      "Dispensar e orientar suspender só a colchicina",
+      "Contatar o prescritor pelas interações graves via CYP3A4",
+      "Trocar por azitromicina por conta própria",
+      "Dispensar, pois a interação só ocorre após 14 dias"
+     ],
+     "c": 2,
+     "com": "A claritromicina é inibidora potente do CYP3A4 e da glicoproteína P: com sinvastatina é contraindicada (rabdomiólise) e com colchicina pode causar toxicidade grave. Separar horários não resolve inibição enzimática. Suspender medicamento ou trocar antibiótico é decisão do prescritor, que deve ser contatado. A interação ocorre em poucos dias."
+    },
+    {
+     "p": "Paciente relata que, aos 8 anos, apresentou manchas vermelhas no corpo no quinto dia de amoxicilina, sem falta de ar ou bolhas. Hoje recebe receita de ceftriaxona IM. Segundo o parâmetro prático de alergia da AAAAI/ACAAI (2022), é correto afirmar:",
+     "alt": [
+      "A reatividade cruzada com cefalosporinas é de cerca de 10%",
+      "Toda cefalosporina está contraindicada",
+      "Ceftriaxona tem cadeia lateral R1 idêntica à da amoxicilina",
+      "História tardia benigna e antiga é de baixo risco",
+      "Carbapenêmicos têm a mesma reatividade das cefalosporinas"
+     ],
+     "c": 3,
+     "com": "Exantema tardio, sem acometimento de mucosa ou sistêmico, é história de baixo risco. A reatividade com cefalosporinas fica abaixo de 2% e depende da cadeia lateral R1; ceftriaxona tem cadeia diferente da amoxicilina (cefalexina, cefadroxila e cefaclor é que se parecem). Carbapenêmicos têm reatividade abaixo de 1%."
+    },
+    {
+     "p": "Mulher de 24 anos em uso de anticoncepcional oral combinado recebe amoxicilina por 7 dias para sinusite e pergunta se precisa de método adicional. Com base nos critérios de elegibilidade do CDC (US MEC 2024), a resposta correta é:",
+     "alt": [
+      "Sim, todo antibiótico reduz a eficácia da pílula",
+      "Sim, mas só nos 7 dias seguintes ao fim do antibiótico",
+      "Não; atenção só se houver vômito ou diarreia intensa",
+      "Não, porque a amoxicilina é indutora enzimática fraca",
+      "Sim, se ela também usar ferro"
+     ],
+     "c": 2,
+     "com": "Antibióticos de amplo espectro estão na categoria 1 com anticoncepcionais combinados; só indutores como rifampicina e rifabutina reduzem a eficácia de forma comprovada. A amoxicilina não é indutora. Vômito em até 3 a 4 horas ou diarreia intensa podem prejudicar a absorção da pílula, e então vale a regra de pílula esquecida da bula."
+    },
+    {
+     "p": "Homem de 70 anos, em uso de prednisona e glibenclamida, recebe levofloxacino para infecção respiratória. Qual orientação está correta?",
+     "alt": [
+      "Tomar junto com o antiácido para proteger o estômago",
+      "Suspender o corticoide por conta própria",
+      "Exercício intenso ajuda a recuperação do tendão",
+      "Hipoglicemia não ocorre com quinolonas",
+      "Procurar o prescritor se surgir dor em tendão"
+     ],
+     "c": 4,
+     "com": "Idade acima de 60 anos e corticoide aumentam o risco de tendinopatia e ruptura de tendão por quinolona; dor ou inchaço exige parar o esforço e procurar o prescritor. Antiácidos com cátions reduzem a absorção. Corticoide não deve ser suspenso sem orientação. Quinolonas causam hipo e hiperglicemia, sobretudo com sulfonilureias (alerta FDA, 2018)."
+    },
+    {
+     "p": "Senhora em uso de varfarina com RNI estável recebe sulfametoxazol-trimetoprima 800/160 mg de 12/12 h. O risco principal e seu mecanismo são:",
+     "alt": [
+      "Sangramento por inibição do CYP2C9 e deslocamento proteico",
+      "Trombose por indução enzimática do metabolismo da varfarina",
+      "Hipocalemia grave por efeito diurético da trimetoprima",
+      "Nenhum, pois a interação é só teórica",
+      "Convulsão por inibição do CYP1A2 hepático pela sulfonamida"
+     ],
+     "c": 0,
+     "com": "O sulfametoxazol inibe o CYP2C9 e desloca a varfarina da albumina, elevando o RNI de forma importante. A trimetoprima causa hipercalemia (não hipocalemia) por bloqueio do canal de sódio distal. Indução que reduz a varfarina é típica da rifampicina. Inibição do CYP1A2 é característica do ciprofloxacino."
+    },
+    {
+     "p": "Sobre a nitrofurantoína, assinale a alternativa correta.",
+     "alt": [
+      "Atinge nível sérico adequado para pielonefrite",
+      "Resistência é rara mesmo em E. coli com ESBL",
+      "Pode ser usada sem restrição até o parto",
+      "A urina escura indica hepatotoxicidade",
+      "Deve ser tomada em jejum para melhor absorção"
+     ],
+     "c": 1,
+     "com": "Por agir em vários alvos, a nitrofurantoína mantém atividade contra muitas E. coli produtoras de ESBL. Não alcança nível sérico e não serve para pielonefrite. É evitada a termo e no trabalho de parto (hemólise neonatal). Urina escura é esperada. O alimento melhora a absorção e a tolerância."
+    },
+    {
+     "p": "Paciente em tratamento de tuberculose com esquema contendo rifampicina procura a farmácia assustada com urina e lágrimas alaranjadas. Ela usa lente de contato gelatinosa e varfarina. A orientação correta inclui:",
+     "alt": [
+      "Suspender a rifampicina até a cor das secreções normalizar",
+      "Avisar que a varfarina terá o efeito anticoagulante aumentado",
+      "Informar que a cor é esperada e evitar a lente gelatinosa",
+      "Tomar a rifampicina após o almoço para reduzir a cor",
+      "A cor indica hepatite e exige suspensão imediata"
+     ],
+     "c": 2,
+     "com": "A coloração alaranjada de secreções é esperada e mancha lentes gelatinosas de forma permanente. A rifampicina é indutora potente e reduz (não aumenta) o efeito da varfarina, exigindo controle de RNI. Deve ser tomada em jejum. Não se suspende tratamento de tuberculose por conta própria."
+    },
+    {
+     "p": "Sobre a vancomicina, assinale a alternativa correta.",
+     "alt": [
+      "A forma intravenosa trata colite por C. difficile",
+      "A reação de infusão é mediada por IgE",
+      "É ativa contra E. coli por ser molécula pequena",
+      "Por via oral age apenas na luz intestinal",
+      "O alvo atual é vale de 15 a 20 mg/L"
+     ],
+     "c": 3,
+     "com": "Por via oral, a vancomicina não é absorvida e age só no intestino, por isso é usada no C. difficile; a via intravenosa não chega à luz intestinal em concentração eficaz. A reação de infusão é liberação direta de histamina, não IgE. É molécula grande e não age em Gram-negativos. O consenso de 2020 recomenda AUC/CIM de 400 a 600."
+    },
+    {
+     "p": "Paciente usa sertralina 100 mg por dia e recebe alta hospitalar com linezolida 600 mg de 12/12 h por 14 dias. O farmacêutico deve:",
+     "alt": [
+      "Dispensar sem orientação, pois o risco é só com IMAO clássico",
+      "Orientar tomar a linezolida em jejum para evitar interação",
+      "Sugerir pseudoefedrina se houver congestão nasal",
+      "Recomendar tramadol para dor durante o curso",
+      "Contatar o prescritor pelo risco de síndrome serotoninérgica"
+     ],
+     "c": 4,
+     "com": "A linezolida é inibidor fraco e reversível da MAO; com ISRS há risco de síndrome serotoninérgica (alerta FDA, 2011). O horário não altera essa interação farmacodinâmica. Pseudoefedrina eleva a pressão com linezolida, e tramadol soma efeito serotoninérgico."
+    },
+    {
+     "p": "Sobre o uso de metronidazol e álcool, é correto afirmar:",
+     "alt": [
+      "Ensaios clínicos mostram reação grave em quase todos os casos",
+      "A bula brasileira não traz nenhuma restrição",
+      "Evidência recente questiona a reação, mas a bula restringe",
+      "A restrição vale só para o metronidazol vaginal",
+      "O secnidazol dispensa qualquer restrição ao consumo de álcool"
+     ],
+     "c": 2,
+     "com": "Estudos controlados e um caso-controle de 2023 (WMJ) não demonstraram reação dissulfiram-símile, mas a evidência é limitada e as bulas brasileiras mantêm a orientação: evitar álcool durante e por 1 dia após o metronidazol oral e por 4 dias após o secnidazol."
+    },
+    {
+     "p": "Mãe recebe amoxicilina-clavulanato em suspensão para criança de 4 anos. Qual orientação está de acordo com as bulas consultadas?",
+     "alt": [
+      "Guardar a suspensão no armário por até 14 dias",
+      "Medir a dose com colher de sopa da cozinha",
+      "Conservar em geladeira e descartar após 7 dias",
+      "Reconstituir com água morna para dissolver melhor",
+      "Congelar o que sobrar para outro episódio"
+     ],
+     "c": 2,
+     "com": "As bulas de amoxicilina-clavulanato consultadas orientam conservação entre 2 e 8 °C por até 7 dias, sem congelar, com descarte da sobra. A medida deve ser feita com a seringa ou copo dosador do produto. A reconstituição usa água filtrada em temperatura ambiente, nunca quente."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Organização Mundial da Saúde. The selection and use of essential medicines, 2025: WHO AWaRe (Access, Watch, Reserve) classification of antibiotics for evaluation and monitoring of use. Documento técnico B09489, 5 de setembro de 2025. https://www.who.int/publications/i/item/B09489",
+  "Organização Mundial da Saúde. World leaders commit to decisive action on antimicrobial resistance (declaração política da Assembleia Geral da ONU sobre resistência antimicrobiana), 26 de setembro de 2024. https://www.who.int/news/item/26-09-2024-world-leaders-commit-to-decisive-action-on-antimicrobial-resistance",
+  "Anvisa. Resolução RDC nº 471, de 23 de fevereiro de 2021 (dispensação de antimicrobianos), alterada pela Resolução RDC nº 973, de 23 de abril de 2025; Instrução Normativa nº 360, de 23 de abril de 2025 (lista de substâncias). Diário Oficial da União.",
+  "U.S. Food and Drug Administration. Drug Safety Communications sobre fluoroquinolonas sistêmicas: restrição de uso (2016), hipoglicemia e efeitos na saúde mental (2018), aneurisma e dissecção de aorta (dezembro de 2018).",
+  "European Medicines Agency. Direct Healthcare Professional Communication: systemic and inhaled fluoroquinolone antibiotics (restrição de uso, 2018; lembrete do PRAC, 2023).",
+  "Khan DA, Banerji A, Blumenthal KG, et al. Drug allergy: a 2022 practice parameter update. J Allergy Clin Immunol. 2022;150(6):1333-1393.",
+  "Centers for Disease Control and Prevention. Clinical features of penicillin allergy / evaluation of penicillin allergy (orientação a profissionais). https://www.cdc.gov/antibiotic-use/clinicians/penicillin-allergy.html",
+  "Rybak MJ, Le J, Lodise TP, et al. Therapeutic monitoring of vancomycin for serious methicillin-resistant Staphylococcus aureus infections: a revised consensus guideline and review by ASHP, IDSA, PIDS e SIDP. Am J Health Syst Pharm. 2020;77(11):835-864.",
+  "Feldman R, Jaszczenski R. Can metronidazole cause a disulfiram reaction? A case-control study. WMJ. 2023;122(3):171-177.",
+  "Centers for Disease Control and Prevention. U.S. Medical Eligibility Criteria for Contraceptive Use, 2024. MMWR Recomm Rep. 2024;73(4).",
+  "Centers for Disease Control and Prevention. Research on doxycycline and tooth staining (febre maculosa). https://www.cdc.gov/rmsf/doxycycline/",
+  "Llewelyn MJ, Fitzpatrick JM, Darwin E, et al. The antibiotic course has had its day. BMJ. 2017;358:j3418.",
+  "Ministério da Saúde (Brasil). Guia de manejo e tratamento de influenza 2023. Brasília: Ministério da Saúde, 2023 (consultado por reproduções em notas técnicas estaduais).",
+  "Bulas brasileiras consultadas (Bulário Eletrônico da Anvisa e reproduções): nitrofurantoína (bula profissional, 2024; Macrodantina®), Flagyl® (metronidazol), Secnidal® (secnidazol), Monuril® (fosfomicina trometamol), Annita® (nitazoxanida), Revectina® (ivermectina), Zentel® (albendazol), Amoxil® (amoxicilina), Clavulin® e genéricos de amoxicilina-clavulanato, Zinnat® (cefuroxima), Klaricid® (claritromicina), Cefamox® (cefadroxila), azitromicina e cefalexina suspensão (genéricos).",
+  "Health Products Regulatory Authority (Irlanda). Resumo das características do medicamento de nitrofurantoína (uso com TFG de 30 a 44 mL/min), versão de 2026."
+ ]
+}

@@ -1,0 +1,1213 @@
+{
+ "id": "m10",
+ "num": 10,
+ "titulo": "Procedimentos operacionais padrão",
+ "escopo": "O que é POP e como se diferencia do Manual, da instrução de trabalho e do registro; estrutura e ciclo de vida; lista dos POPs exigidos na farmácia comercial com o artigo de cada norma; POPs dos serviços farmacêuticos, biossegurança, resíduos e preparo para a inspeção sanitária. Normas centrais: RDC 44/2009 (com as alterações da RDC 786/2023), RDC 978/2025, RDC 80/2006, RDC 197/2017, Lei 14.675/2023, RDC 222/2018, RDC 430/2020, Lei 13.021/2014 e Decreto 10.388/2020.",
+ "topicos": [
+  {
+   "id": "m10-pop-conceito",
+   "titulo": "Documentação da qualidade e o lugar do POP",
+   "resumo": "\n<p>A farmácia comercial funciona com muitas mãos: farmacêutico responsável técnico (RT), farmacêutico substituto, balconistas, operador de caixa, estoquista, entregador e equipe de limpeza. Para que todos façam a mesma tarefa do mesmo modo e com o mesmo cuidado, a tarefa precisa estar escrita. O documento que descreve, passo a passo, como uma atividade rotineira deve ser executada é o <strong>Procedimento Operacional Padrão (POP)</strong>.</p>\n<p>A RDC 430/2020, norma de boas práticas de distribuição, armazenagem e transporte, traz uma definição que serve também para a farmácia: POP é o \"procedimento escrito e autorizado que fornece instruções para a realização de operações não necessariamente específicas a um dado produto ou material, mas de natureza geral\" (RDC 430/2020, art. 3º, XIX). Três ideias saem dessa definição. O POP é <em>escrito</em> (não vale a tradição oral do \"sempre fizemos assim\"), é <em>autorizado</em> (alguém com responsabilidade técnica aprovou) e trata de <em>operações gerais</em> (receber mercadoria, limpar a sala de serviços, medir a pressão), e não de um único produto.</p>\n<h3>Níveis da documentação</h3>\n<p>Na farmácia, o POP convive com outros documentos. Cada um responde a uma pergunta diferente, e a confusão entre eles é causa frequente de não conformidade na inspeção.</p>\n<div class=\"tab\"><table><thead><tr><th>Documento</th><th>Pergunta que responde</th><th>Exemplo</th><th>Base normativa</th></tr></thead><tbody>\n<tr><td>Manual de Boas Práticas Farmacêuticas</td><td>O que a farmácia faz, como se organiza e quais políticas adota</td><td>Organograma, atribuições de cada cargo, política para produtos próximos do vencimento</td><td>RDC 44/2009, arts. 2º, V; 19; 38, §4º; 85</td></tr>\n<tr><td>POP</td><td>Como executar uma atividade, quem faz, quando e com que material</td><td>POP de recebimento de medicamentos</td><td>RDC 44/2009, arts. 86 e 87</td></tr>\n<tr><td>Instrução de trabalho</td><td>Como operar um equipamento ou detalhar uma etapa</td><td>Como reiniciar o termômetro de máxima e mínima</td><td>Não citada pela RDC 44; complementa o POP</td></tr>\n<tr><td>Registro</td><td>Prova de que a atividade aconteceu</td><td>Planilha de temperatura assinada; lista de presença do treinamento</td><td>RDC 44/2009, arts. 88 e 89</td></tr>\n</tbody></table></div>\n<p>Uma forma simples de fixar: o <strong>Manual</strong> diz o quê e por quê; o <strong>POP</strong> diz como; a <strong>instrução de trabalho</strong> detalha um ponto do como; o <strong>registro</strong> prova que foi feito. O Manual é obrigatório no estabelecimento (RDC 44/2009, art. 2º, V) e deve ser específico para aquela farmácia, de acordo com as atividades que ela realiza (art. 85). Os POPs devem existir \"de acordo com o previsto no Manual\" (art. 86), ou seja, os dois documentos precisam conversar: se o Manual diz que a farmácia aplica injetáveis, tem de existir POP de administração de medicamentos.</p>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"O estabelecimento deve manter Procedimentos Operacionais Padrão (POPs), de acordo com o previsto no Manual de Boas Práticas Farmacêuticas, no mínimo, referentes às atividades relacionadas a:\" higiene de cada ambiente; aquisição, recebimento e armazenamento; exposição e organização; dispensação; destino dos vencidos; destino dos próximos ao vencimento; serviços farmacêuticos, quando houver; materiais descartáveis e seu destino; e outros já exigidos na própria Resolução (RDC 44/2009, art. 86, I a IX).</p></div>\n<h3>Por que a vigilância sanitária cobra POP</h3>\n<p>A cobrança decorre de quatro amarras da própria RDC 44/2009:</p>\n<ul>\n<li><strong>Obrigação expressa.</strong> O art. 86 lista os POPs mínimos e o art. 87 fixa como devem ser aprovados. O descumprimento de qualquer disposição da Resolução constitui infração sanitária nos termos da Lei 6.437/1977 (RDC 44/2009, art. 99).</li>\n<li><strong>Delegação segura.</strong> Os técnicos auxiliares executam as atividades não privativas do farmacêutico \"respeitando os Procedimentos Operacionais Padrão (POPs) do estabelecimento\", sob supervisão do RT ou do substituto (art. 22). Sem POP, não há limite claro do que o balconista pode fazer.</li>\n<li><strong>Capacitação comprovável.</strong> Todos os funcionários devem ser capacitados na legislação sanitária e nos POPs (art. 24), com registro do treinamento (art. 28) e da divulgação dos POPs (art. 88, III).</li>\n<li><strong>Rastreabilidade.</strong> Toda a documentação fica no estabelecimento por, no mínimo, 5 anos, à disposição da fiscalização (art. 89).</li>\n</ul>\n<p>Na inspeção, o fiscal costuma cruzar três fontes: o POP escrito, a prática que ele observa e o registro que deveria existir. Se o POP diz que a temperatura da geladeira é registrada duas vezes ao dia e a planilha tem lacunas de uma semana, a não conformidade está na prática, mesmo com o POP impecável. Se a equipe faz tudo certo, mas nada está escrito nem registrado, a não conformidade está na documentação.</p>\n<h3>Características de um bom POP</h3>\n<ul>\n<li><strong>Específico</strong>: descreve a farmácia real, com os equipamentos, o leiaute e a equipe que ela tem.</li>\n<li><strong>Exequível</strong>: quem executa consegue cumprir no tempo e com o material disponíveis.</li>\n<li><strong>Claro</strong>: sem ambiguidade e compreensível para quem executa. A RDC 430/2020 (arts. 20 a 22), escrita para distribuidoras, resume bem a ideia: o POP deve estar disponível no local de trabalho, atualizado conforme a prática e sem ambiguidades.</li>\n<li><strong>Verificável</strong>: diz que registro a atividade gera, de modo que se possa conferir depois.</li>\n<li><strong>Atual</strong>: cita normas vigentes e é revisto periodicamente (RDC 44/2009, art. 87, §3º).</li>\n</ul>\n<h3>Quem escreve e quem usa</h3>\n<p>O farmacêutico RT responde pelo conjunto de POPs, mas o melhor rascunho costuma sair de quem executa a tarefa todos os dias. O estoquista descreve como a mercadoria chega; o farmacêutico confere se a descrição atende à norma e acrescenta os pontos de controle (o que conferir, o que fazer quando falha, o que registrar). Esse modo de trabalhar tem duas vantagens: o texto fica fiel à rotina, e a equipe se reconhece no documento, o que facilita o cumprimento. Em redes de farmácias, é comum haver POPs corporativos; mesmo nesse caso, cada loja verifica se o texto corresponde aos seus equipamentos e serviços licenciados, porque o Manual e os POPs devem ser específicos para o estabelecimento (RDC 44/2009, art. 85).</p>\n<p>Os usuários do POP são todos os que executam ou supervisionam a atividade, inclusive terceirizados. A equipe de limpeza, por exemplo, também recebe treinamento inicial e continuado sobre higiene, conduta e noções de microbiologia (art. 25), e por isso precisa conhecer o POP de limpeza.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>POP copiado de outra loja ou baixado da internet costuma citar equipamentos que a farmácia não tem, normas revogadas (por exemplo, a RDC 306/2004 de resíduos, revogada pela RDC 222/2018, art. 92) e responsáveis que não existem. Para o fiscal, isso mostra que o documento não descreve a rotina real.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Farmacêutica recém-formada assume a responsabilidade técnica de uma drogaria de bairro. Encontra uma pasta com 14 POPs datados de 2016, sem assinatura, um deles citando a RDC 306/2004. Conduta: listar os POPs existentes e as atividades reais da loja; comparar com o art. 86 da RDC 44/2009 e com os serviços licenciados; reescrever o que estiver desatualizado; aprovar, assinar e datar cada POP (art. 87); treinar a equipe e registrar o treinamento (art. 28); arquivar as versões antigas como obsoletas.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Quando um balconista pergunta \"o que eu faço se a geladeira apitar à noite?\" ou \"posso receber o pedido sem o farmacêutico?\", a resposta deve estar em um POP que ele já leu e assinou. O RT deixa cópia controlada dos POPs de uso diário perto do ponto de uso (balcão, recebimento, sala de serviços) e orienta a equipe a consultar antes de improvisar.</p></div>\n"
+  },
+  {
+   "id": "m10-pop-estrutura",
+   "titulo": "Estrutura e ciclo de vida do POP",
+   "resumo": "\n<p>Não existe modelo oficial de POP para farmácias. A RDC 44/2009 diz o que o POP precisa ter em alguns casos (por exemplo, equipamentos, técnica, critérios de interpretação, referências e EPI nos serviços: arts. 72, 80 e 83) e como ele deve ser aprovado e mantido (art. 87). O formato fica a critério do estabelecimento. A estrutura abaixo reúne o que as normas pedem e o que a prática de gestão da qualidade consagrou.</p>\n<h3>Cabeçalho</h3>\n<div class=\"tab\"><table><thead><tr><th>Campo</th><th>O que escrever</th><th>Exemplo</th></tr></thead><tbody>\n<tr><td>Identificação do estabelecimento</td><td>Razão social ou nome fantasia, unidade</td><td>Drogaria Bairro Novo, loja 2</td></tr>\n<tr><td>Título</td><td>Substantivo que nomeia a atividade</td><td>Recebimento de medicamentos</td></tr>\n<tr><td>Código</td><td>Sigla do processo e número sequencial</td><td>POP-REC-01</td></tr>\n<tr><td>Versão e vigência</td><td>Número da revisão e data a partir da qual vale</td><td>Versão 03, vigente desde 01/10/2026</td></tr>\n<tr><td>Paginação</td><td>Página atual e total</td><td>Página 2 de 4</td></tr>\n<tr><td>Elaboração, revisão e aprovação</td><td>Nome, cargo, data e assinatura; aprovação sempre do RT</td><td>Aprovado por: farmacêutica RT, CRF-XX 0000</td></tr>\n</tbody></table></div>\n<h3>Corpo do POP</h3>\n<ol>\n<li><strong>Objetivo</strong>: uma frase com a finalidade. Exemplo: \"Garantir que somente produtos regulares, íntegros e transportados nas condições do fabricante entrem no estoque\".</li>\n<li><strong>Abrangência</strong>: onde e a quem se aplica (setor, turno, loja).</li>\n<li><strong>Responsáveis</strong>: por cargo, não por nome (quem executa, quem supervisiona, quem aprova exceções). Nomes mudam; cargos ficam.</li>\n<li><strong>Definições e siglas</strong>: PVPS, FEFO, DSF, EPI, quarentena.</li>\n<li><strong>Materiais e equipamentos</strong>: tudo o que precisa estar à mão, com especificação quando importa (termômetro calibrado, aparelho de pressão validado).</li>\n<li><strong>Procedimento</strong>: passos numerados, na ordem em que acontecem, cada um com uma ação.</li>\n<li><strong>Cuidados e ações corretivas</strong>: o que fazer quando algo foge do previsto. A RDC 44/2009 exige isso de forma expressa para o armazenamento: o POP \"deverá definir medidas a serem tomadas quando forem verificadas condições inadequadas\" (art. 35, §5º).</li>\n<li><strong>Registros</strong>: nome do formulário gerado, onde fica e por quanto tempo é guardado (mínimo de 5 anos, art. 89).</li>\n<li><strong>Referências</strong>: normas e bibliografia. Nos POPs de aferição de parâmetros e exames, e no de perfuração de lóbulo, a referência bibliográfica é exigência da norma (arts. 72 e 80, §1º).</li>\n<li><strong>Anexos</strong>: modelos de formulário, fluxogramas, tabelas de referência.</li>\n<li><strong>Histórico de revisões</strong>: versão, data, o que mudou e por quê.</li>\n</ol>\n<h3>Como escrever o procedimento</h3>\n<ul>\n<li>Comece cada passo com verbo de ação: \"Conferir\", \"Registrar\", \"Segregar\", \"Comunicar\".</li>\n<li>Uma ação por passo. \"Conferir a nota e guardar os produtos\" são dois passos, porque podem falhar em momentos diferentes.</li>\n<li>Troque adjetivos vagos por critério verificável. \"Manter em temperatura adequada\" não serve; \"manter entre 2 °C e 8 °C, conforme a embalagem\" serve.</li>\n<li>Diga o que fazer quando o critério não é atendido. Todo \"conferir\" pede um \"se não conferir, então\".</li>\n<li>Teste o rascunho com quem executa. Se o estoquista não consegue seguir sem perguntar, o texto precisa mudar.</li>\n<li>Evite repetir a norma inteira. Cite o artigo e escreva a rotina da loja.</li>\n</ul>\n<p>Compare duas versões do mesmo passo de um POP de recebimento:</p>\n<div class=\"tab\"><table><thead><tr><th>Versão fraca</th><th>Versão adequada</th></tr></thead><tbody>\n<tr><td>Conferir a mercadoria com atenção.</td><td>Conferir, item a item, nome, apresentação, quantidade, lote e fabricante da nota fiscal contra o produto recebido.</td></tr>\n<tr><td>Guardar a insulina rapidamente.</td><td>Abrir primeiro os volumes refrigerados, registrar a temperatura de chegada e guardar na geladeira em até 15 minutos após a abertura do volume.</td></tr>\n<tr><td>Se houver problema, avisar.</td><td>Em divergência, preencher o formulário de não conformidade, colocar etiqueta de quarentena e comunicar o farmacêutico no mesmo turno.</td></tr>\n</tbody></table></div>\n<p>O prazo de 15 minutos do exemplo é uma escolha do estabelecimento, não um número da norma. O POP pode e deve fixar limites internos quando a norma diz apenas \"minimizar\" ou \"em tempo adequado\", desde que o limite seja razoável e seguido.</p>\n<h3>Ciclo de vida</h3>\n<p>O POP nasce, é usado, envelhece e é substituído. A RDC 44/2009 (art. 87) estabelece os pontos obrigatórios desse ciclo:</p>\n<div class=\"tab\"><table><thead><tr><th>Etapa</th><th>O que acontece</th><th>Exigência</th></tr></thead><tbody>\n<tr><td>Elaboração</td><td>Quem executa a atividade descreve a rotina; o farmacêutico ajusta à norma</td><td>Coerência com o Manual (art. 86)</td></tr>\n<tr><td>Aprovação</td><td>RT aprova, assina e data</td><td>Art. 87, caput</td></tr>\n<tr><td>Divulgação e treinamento</td><td>Equipe envolvida lê, recebe treinamento e assina</td><td>Art. 87, §2º; art. 88, III; art. 28</td></tr>\n<tr><td>Uso</td><td>Cópia controlada no local de trabalho; registros preenchidos</td><td>Art. 88</td></tr>\n<tr><td>Revisão periódica</td><td>Atualização ou correção</td><td>Art. 87, §3º (prazo definido pela farmácia)</td></tr>\n<tr><td>Alteração</td><td>Nova versão que preserve o conhecimento do texto original e justifique a mudança</td><td>Art. 87, §1º</td></tr>\n<tr><td>Obsolescência</td><td>Cópias antigas recolhidas; original arquivado</td><td>Guarda de 5 anos (art. 89)</td></tr>\n</tbody></table></div>\n<p>A RDC 44/2009 não fixa a periodicidade da revisão. O usual é definir no Manual um prazo (anual ou a cada dois anos, por exemplo) e prever revisão extraordinária quando: muda a norma; troca o equipamento; muda o leiaute; acontece um incidente, uma reclamação ou um erro de dispensação; a inspeção aponta falha; um novo serviço é licenciado.</p>\n<h3>Registro do treinamento</h3>\n<p>Treinamento sem registro não existe para a fiscalização. A RDC 44/2009 (art. 28) exige que o registro contenha, no mínimo: descrição da atividade de capacitação; data e carga horária; conteúdo ministrado; trabalhadores treinados e suas assinaturas; identificação e assinatura de quem ministrou; e resultado da avaliação. Uma lista de presença sem conteúdo e sem avaliação não atende ao artigo.</p>\n<h3>Controle de cópias</h3>\n<ul>\n<li>Mantenha uma <strong>lista mestra</strong> com código, título, versão vigente, data de aprovação e data prevista de revisão de cada POP.</li>\n<li>Identifique as cópias de uso como \"cópia controlada\" e saiba onde cada uma está.</li>\n<li>Ao aprovar nova versão, recolha as cópias antigas no mesmo dia; versão obsoleta circulando é fonte clássica de erro.</li>\n<li>Se os POPs forem eletrônicos, controle quem pode editar e garanta que a versão impressa, quando houver, seja a vigente.</li>\n</ul>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>POP válido é POP aprovado, assinado e datado pelo farmacêutico RT (RDC 44/2009, art. 87). Assinatura do gerente ou do proprietário não substitui a do RT. O RT pode delegar atribuições a outro farmacêutico, exceto as indelegáveis e as de supervisão da assistência técnica (art. 20, parágrafo único).</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>A farmácia troca o termômetro analógico da geladeira por um registrador eletrônico (datalogger) com alarme. O POP de controle de temperatura descrevia leitura manual e reinício do termômetro. Conduta: revisar o POP (nova versão, com motivo \"troca de equipamento\"), incluir como baixar e arquivar os dados, como responder ao alarme e quem recebe o aviso fora do horário; treinar a equipe; recolher a versão antiga.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Farmacêutico substituto que cobre folgas e plantões precisa conhecer os POPs tanto quanto o RT. No primeiro dia, ele lê a lista mestra, assina o registro de divulgação e confere onde ficam as cópias e os formulários.</p></div>\n"
+  },
+  {
+   "id": "m10-pop-obrigatorios",
+   "titulo": "POPs exigidos pelas normas",
+   "resumo": "\n<p>O art. 86 da RDC 44/2009 traz a lista mínima de POPs, mas termina com o inciso IX, \"outros já exigidos nesta Resolução\". Isso obriga o farmacêutico a ler a Resolução inteira, porque vários artigos espalhados pedem procedimento escrito. Outras normas acrescentam exigências conforme o que a farmácia faz: fracionamento, vacinação, exames de análises clínicas, resíduos, controlados.</p>\n<h3>RDC 44/2009: o que precisa estar escrito</h3>\n<div class=\"tab\"><table><thead><tr><th>Artigo</th><th>O que a norma exige</th><th>POP correspondente</th></tr></thead><tbody>\n<tr><td>Art. 12</td><td>Procedimentos escritos para limpeza da caixa d'água própria e registros da limpeza</td><td>Limpeza da caixa d'água</td></tr>\n<tr><td>Arts. 16, 83 e 86, I</td><td>Higiene de cada ambiente; limpeza da sala de serviços registrada no início e no fim do dia</td><td>Limpeza e higienização</td></tr>\n<tr><td>Arts. 31, 32 e 86, II</td><td>Critérios de aquisição; recebimento em área específica, por pessoa treinada, conforme POP</td><td>Aquisição e recebimento</td></tr>\n<tr><td>Art. 35, §§ 4º e 5º</td><td>Metodologia de verificação de temperatura e umidade, faixa de horário de maior risco e medidas corretivas</td><td>Controle de temperatura e umidade</td></tr>\n<tr><td>Art. 39</td><td>Justificativa e guarda de corrosivos, inflamáveis e explosivos, longe de calor e faíscas</td><td>Armazenamento de inflamáveis e corrosivos</td></tr>\n<tr><td>Art. 86, III</td><td>Exposição e organização dos produtos</td><td>Exposição e organização</td></tr>\n<tr><td>Art. 86, IV</td><td>Dispensação de medicamentos</td><td>Dispensação (geral, controlados, antimicrobianos)</td></tr>\n<tr><td>Arts. 51 e 86, V e VI</td><td>Destino dos vencidos; política para próximos do vencimento, descrita em POP e no Manual</td><td>Controle de validade</td></tr>\n<tr><td>Art. 56, §3º</td><td>Condições de transporte de medicamentos solicitados por meio remoto</td><td>Entrega e transporte</td></tr>\n<tr><td>Arts. 64 e 65</td><td>Protocolos de atenção farmacêutica e metodologia de avaliação dos resultados</td><td>Serviços farmacêuticos</td></tr>\n<tr><td>Art. 72</td><td>Instruções escritas para aferição de parâmetros fisiológicos e exames de análises clínicas: equipamento, técnica, interpretação, referências e EPI</td><td>Pressão arterial; temperatura; glicemia capilar</td></tr>\n<tr><td>Art. 80</td><td>Antissepsia do lóbulo e das mãos, uso e assepsia do aparelho, EPI e referência bibliográfica</td><td>Perfuração de lóbulo auricular</td></tr>\n<tr><td>Art. 86, VII e VIII</td><td>Serviços farmacêuticos prestados; uso e destino dos materiais descartáveis</td><td>Cada serviço; resíduos</td></tr>\n</tbody></table></div>\n<p>A redação do art. 72 foi alterada pela RDC 786/2023 (art. 155), que passou a falar em \"instruções escritas\" e incluiu os exames de análises clínicas. Na prática, essas instruções escritas são os POPs dos serviços.</p>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"Deve ser definida em Procedimento Operacional Padrão (POP) a metodologia de verificação da temperatura e umidade, especificando faixa de horário para medida considerando aquela na qual há maior probabilidade de se encontrar a maior temperatura e umidade do dia\" (RDC 44/2009, art. 35, §4º).</p></div>\n<h3>Outras normas</h3>\n<div class=\"tab\"><table><thead><tr><th>Norma</th><th>Quando se aplica</th><th>O que pede por escrito</th></tr></thead><tbody>\n<tr><td>RDC 80/2006 (fracionamento)</td><td>Farmácia que fraciona a partir de embalagem fracionável</td><td>Procedimentos escritos para prevenir trocas ou misturas, com vedação de fracionar mais de um medicamento ao mesmo tempo (Anexo I, Parte II, item 4.6); procedimentos para rotulagem e embalagem dos fracionados (item 4.8.2)</td></tr>\n<tr><td>RDC 222/2018 (resíduos)</td><td>Toda farmácia e drogaria (art. 2º, §1º)</td><td>PGRSS com procedimentos de geração, segregação, acondicionamento, identificação, coleta, armazenamento, transporte, tratamento e disposição final, ações em emergências e acidentes, controle de pragas e capacitação (arts. 5º e 6º)</td></tr>\n<tr><td>RDC 197/2017 (vacinação)</td><td>Farmácia licenciada para vacinar</td><td>Procedimentos para preservar as vacinas no transporte (art. 12); gerenciamento de tecnologias e processos, inclusive conservação em falta de energia e registro diário de máxima e mínima (art. 11)</td></tr>\n<tr><td>Lei 14.675/2023</td><td>Serviços privados de vacinação</td><td>Gerenciar tecnologias, processos e procedimentos; adotar procedimentos para manter as vacinas na rede de frio, inclusive no transporte (art. 5º, II e III)</td></tr>\n<tr><td>Manual de Rede de Frio do PNI, 6ª ed., 2025</td><td>Serviços privados que armazenam vacinas</td><td>POP específico para excursão de temperatura, com fluxo de notificação e contatos dos laboratórios</td></tr>\n<tr><td>RDC 978/2025 (exames de análises clínicas)</td><td>Farmácia licenciada como Serviço Tipo I</td><td>Instruções escritas de biossegurança (art. 110); de limpeza e desinfecção (art. 112); procedimentos de registro e liberação de resultados e de resultados potencialmente críticos (art. 119)</td></tr>\n<tr><td>Decreto 10.388/2020 (logística reversa)</td><td>Farmácia que é ponto fixo de recebimento</td><td>Não exige POP nominalmente, mas exige armazenamento primário e registro da massa recebida no manifesto de transporte (art. 12)</td></tr>\n</tbody></table></div>\n<h3>POPs esperados pela boa prática</h3>\n<p>Alguns procedimentos não aparecem com o nome \"POP\" na norma, mas o fiscal espera encontrá-los porque a norma exige o resultado que eles produzem:</p>\n<ul>\n<li><strong>Reclamações, queixas técnicas e farmacovigilância</strong>: o farmacêutico deve notificar evento adverso e queixa técnica (RDC 44/2009, art. 67; Lei 13.021/2014, art. 13, I); suspeita de falsificação exige segregação e notificação imediata (RDC 44/2009, art. 34, §§ 1º e 2º).</li>\n<li><strong>Recolhimento</strong>: produtos recolhidos por ato da vigilância ou por iniciativa do fabricante seguem regulamentação específica (art. 38, §3º).</li>\n<li><strong>Dispensação de controlados e antimicrobianos</strong>: Portaria SVS/MS 344/1998, RDC 22/2014 (SNGPC), RDC 471/2021 e suas alterações.</li>\n<li><strong>Higienização das mãos e conduta em acidentes</strong>: antissepsia das mãos antes de qualquer serviço (art. 84) e instrução sobre acidentes (art. 27).</li>\n<li><strong>Calibração e manutenção de equipamentos</strong>: registros obrigatórios (arts. 71 e 77, parágrafo único; art. 88, V).</li>\n<li><strong>Controle de pragas</strong>: executado por empresa licenciada, com registros (art. 7º).</li>\n<li><strong>Contingência para termolábeis</strong>: o que fazer em queda de energia ou pane da geladeira, como desdobramento do art. 35, §5º.</li>\n</ul>\n<h3>Fracionamento e dispensação remota</h3>\n<p>Duas atividades costumam ser esquecidas na lista de POPs porque nem toda farmácia as pratica. No <strong>fracionamento</strong>, a RDC 80/2006 exige que a operação ocorra só depois da apresentação da prescrição, na quantidade exata prescrita e com dispensação imediata, sendo vedado fracionar antecipadamente (Anexo I, Parte II, item 4.1), a partir de embalagem original fracionável (item 4.3), com registro prévio à dispensação (item 4.5). O POP descreve a prevenção de trocas, com um medicamento fracionado por vez (item 4.6), e a rotulagem da embalagem secundária para fracionados (item 4.8.2). Na <strong>dispensação remota</strong> (telefone, site, aplicativo), o transporte é responsabilidade da farmácia, com embalagem que mantenha a temperatura dos termossensíveis e sem misturar medicamentos com produtos que os afetem, e o POP de transporte precisa ser incorporado à rotina de maneira sistemática (RDC 44/2009, art. 56, §§ 1º a 3º). Junto do pedido vai cartão com nome do farmacêutico, telefone e endereço (art. 58, §2º).</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Na inspeção de uma drogaria, o fiscal encontra álcool etílico 70% líquido e acetona estocados ao lado do quadro de energia. Não há POP sobre inflamáveis. Resultado: não conformidade pelo art. 39 da RDC 44/2009, que exige justificativa em POP e guarda longe de fontes de calor e de materiais que provoquem faíscas. Correção: mudar o local, escrever o POP e treinar o estoquista.</p></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>Serviço farmacêutico só é regular se estiver indicado no licenciamento do estabelecimento (RDC 44/2009, art. 61, §3º). Ter POP de aplicação de injetáveis não autoriza o serviço; a licença sanitária precisa citá-lo, após inspeção prévia (art. 61, §4º).</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Antes de oferecer um serviço novo (por exemplo, teste rápido), o farmacêutico confere três coisas na ordem: se a norma permite, se a licença da loja inclui a atividade e se o POP está aprovado e a equipe treinada.</p></div>\n"
+  },
+  {
+   "id": "m10-pop-servicos",
+   "titulo": "Serviços farmacêuticos e seus POPs",
+   "resumo": "\n<p>A Lei 13.021/2014 define a farmácia como \"unidade de prestação de serviços destinada a prestar assistência farmacêutica, assistência à saúde e orientação sanitária individual e coletiva\" (art. 3º) e permite que ela disponha de vacinas e soros conforme o perfil epidemiológico da região (art. 7º). Os requisitos sanitários dos serviços estão na RDC 44/2009, com as mudanças feitas pela RDC 786/2023, e em normas específicas para exames, vacinas e resíduos.</p>\n<h3>Base legal atual</h3>\n<p>Desde a RDC 786/2023 (art. 155), a RDC 44/2009 diz que a atenção farmacêutica compreende \"a atenção farmacêutica domiciliar, a aferição de parâmetros fisiológicos, a execução de Exames de Análises Clínicas nos termos da legislação vigente e a administração de medicamentos\" (art. 61, §2º). Continuam serviços permitidos a atenção farmacêutica e a perfuração de lóbulo auricular (art. 61, §1º). Três regras valem para todos:</p>\n<ul>\n<li>só é regular o serviço indicado no licenciamento do estabelecimento (art. 61, §3º), permitido após inspeção prévia (§4º);</li>\n<li>é vedado prestar serviço não abrangido pela Resolução (§5º) e usar dependência da farmácia como consultório (art. 90);</li>\n<li>o ambiente de serviços é separado da área de dispensação, com privacidade, lavatório com sabonete líquido, toalha descartável, gel antisséptico, lixeira com pedal e tampa, e material de primeiros socorros (art. 15); a limpeza é registrada no início e no fim do funcionamento (art. 16).</li>\n</ul>\n<div class=\"tab\"><table><thead><tr><th>Serviço</th><th>Base normativa</th><th>O POP precisa trazer</th><th>Registro</th></tr></thead><tbody>\n<tr><td>Pressão arterial</td><td>RDC 44/2009, arts. 69, §1º, 71 e 72</td><td>Aparelho, técnica, interpretação, referência, EPI, condutas</td><td>Ficha do atendimento e DSF</td></tr>\n<tr><td>Temperatura corporal</td><td>RDC 44/2009, art. 69, §1º</td><td>Termômetro, local de medida, valores de referência</td><td>DSF</td></tr>\n<tr><td>Glicemia capilar e outros exames</td><td>RDC 44/2009, art. 61, §2º; RDC 978/2025</td><td>Técnica, controle de qualidade, resultados críticos, biossegurança</td><td>Registro do exame e DSF</td></tr>\n<tr><td>Administração de medicamentos</td><td>RDC 44/2009, arts. 74 a 77</td><td>Avaliação da receita, técnica por via, EPI, conduta em reação</td><td>DSF com lote e registro na Anvisa</td></tr>\n<tr><td>Vacinação</td><td>RDC 197/2017; Lei 14.675/2023; Resolução CFF 654/2018</td><td>Rede de frio, triagem, preparo, aplicação, eventos adversos</td><td>Cartão, sistema do Ministério da Saúde, prontuário</td></tr>\n<tr><td>Perfuração de lóbulo</td><td>RDC 44/2009, arts. 78 a 80</td><td>Antissepsia, aparelho, EPI, referência bibliográfica</td><td>DSF</td></tr>\n</tbody></table></div>\n<h3>Aferição de pressão arterial e temperatura</h3>\n<p>Os parâmetros fisiológicos permitidos continuam sendo a pressão arterial e a temperatura corporal (RDC 44/2009, art. 69, §1º). A aferição serve à assistência farmacêutica e à orientação sanitária, \"não possuindo, em nenhuma hipótese, o objetivo de diagnóstico\" (art. 69, caput, redação da RDC 786/2023). Diante de valor fora da referência, o usuário é orientado a procurar assistência médica (§3º), e o farmacêutico não pode indicar nem alterar medicamento de venda sob prescrição (§4º).</p>\n<p>O POP de pressão arterial segue a Diretriz Brasileira de Hipertensão Arterial 2025: aparelho automático de braço validado (recomendação da diretriz para reduzir erros), manguito adequado à circunferência do braço, repouso sentado, três medidas com intervalo de 1 minuto e uso da média das duas últimas, com medidas adicionais se a diferença passar de 10 mmHg. Para interpretação, a diretriz classifica a PA de consultório em adultos como normal (abaixo de 120/80 mmHg), pré-hipertensão (120 a 139 e/ou 80 a 89 mmHg) e hipertensão a partir de 140 e/ou 90 mmHg. Valores iguais ou acima de 180/110 mmHg indicam elevação importante, e a presença de sintomas como dor no peito, falta de ar ou déficit neurológico pede encaminhamento de urgência.</p>\n<h3>Glicemia capilar e exames de análises clínicas</h3>\n<p>Esse é o ponto que mais mudou. A RDC 786/2023 revogou o §2º do art. 69 e o art. 70 da RDC 44/2009, que limitavam o parâmetro bioquímico à glicemia capilar por equipamento de autoteste. A própria RDC 786/2023 foi revogada e substituída pela <strong>RDC 978/2025</strong> (vigente desde 10/06/2025), que regula todos os serviços que executam exames de análises clínicas (EAC).</p>\n<ul>\n<li>A farmácia pode ser classificada como <strong>Serviço Tipo I</strong> (RDC 978/2025, art. 8º) se executar exames apenas em amostra obtida por punção capilar ou swab naso e orofaríngeo, fizer todas as etapas no próprio local, inclusive controle interno e externo da qualidade, não guardar nem transportar material biológico, não usar metodologia própria e não usar água reagente produzida no serviço (art. 10).</li>\n<li>O exame é feito exclusivamente por profissional legalmente habilitado (art. 11) e tem finalidade de triagem, sem fins confirmatórios (art. 60). O resultado consta na Declaração de Serviço Farmacêutico (art. 60, §2º).</li>\n<li>A licença precisa indicar as atividades de EAC (art. 63). A sala de coleta e execução tem lavatório, bancada, mesa, cadeira, recipientes para perfurocortantes e resíduos e, se houver reagente que exija frio, refrigeração exclusiva com registro de máxima, mínima e momento (art. 14).</li>\n<li>Segundo o documento de perguntas e respostas da Anvisa sobre a RDC 978/2025 (versão revisada de agosto de 2025), a glicemia capilar feita pelo farmacêutico é permitida em farmácia Serviço Tipo I que cumpra os requisitos; quando um autoteste é usado pelo farmacêutico dentro da farmácia, a atividade é EAC e exige controle interno e externo da qualidade. A venda de autoteste para uso do cliente em casa continua livre.</li>\n</ul>\n<div class=\"cx alerta\"><b>Atenção</b><p>Farmácia que mede glicemia sem licença que inclua EAC, sem controle de qualidade registrado e sem descarte correto das lancetas está irregular, ainda que o glicosímetro seja de autoteste. Confirme também a legislação estadual e municipal, que pode trazer exigências adicionais.</p></div>\n<h3>Administração de medicamentos</h3>\n<p>A farmácia pode administrar medicamentos no contexto do acompanhamento farmacoterapêutico, vedados os de uso exclusivo hospitalar (RDC 44/2009, art. 74). Medicamento de venda sob prescrição só é administrado com receita avaliada pelo farmacêutico, que contata o prescritor em caso de dúvida e confere a validade antes de aplicar (art. 75). Se o cliente comprou na loja um frasco de múltiplas doses, a sobra é entregue a ele, com orientação de conservação, e a farmácia não pode armazenar medicamento com embalagem primária violada (art. 76). Materiais e aparelhos devem ser regularizados na Anvisa, com registro de manutenção e calibração (art. 77).</p>\n<h3>Vacinação</h3>\n<p>A farmácia que vacina segue a RDC 197/2017 e a Lei 14.675/2023: licença sanitária para a atividade, inscrição no CNES, calendário do SUS afixado, responsável técnico e substituto (a lei admite RT com formação médica, farmacêutica ou de enfermagem, art. 2º), profissional habilitado durante todo o período do serviço, capacitação periódica registrada, sala de vacinação com refrigerador exclusivo regularizado na Anvisa, termômetro de momento com máxima e mínima e caixa térmica (RDC 197/2017, arts. 4º a 10). Vacinas fora do Calendário Nacional, em estabelecimento privado, só com prescrição médica (art. 14). O serviço registra a vacina no cartão e no sistema definido pelo Ministério da Saúde, mantém prontuário, notifica eventos adversos e erros de vacinação (art. 15; Lei 14.675/2023, art. 5º). O usuário tem direito de acompanhar a retirada da vacina da geladeira e conferir nome e validade (Lei 14.675/2023, art. 8º). A atuação do farmacêutico é disciplinada pela Resolução CFF 654/2018, mantida pelo TRF1 em 2026.</p>\n<h3>Perfuração de lóbulo auricular</h3>\n<p>Continua permitida (RDC 44/2009, art. 61, §1º). Exige aparelho específico que use o próprio brinco como material perfurante; é vedado usar agulha de injeção, agulha de sutura ou outro objeto (art. 78). Brincos e pistola regularizados na Anvisa, brinco estéril aberto só no ambiente do serviço, à vista do usuário, após a antissepsia (art. 79). O POP descreve a antissepsia do lóbulo e das mãos, o uso e a assepsia do aparelho, os EPIs e a referência bibliográfica (art. 80). Alguns estados têm lei própria, como São Paulo (Lei 16.660/2018) e Ceará (Lei 16.503/2017), que vedam a reutilização de brincos. A norma fala apenas em lóbulo; cartilagem não está incluída.</p>\n<h3>Registro do serviço e Declaração de Serviço Farmacêutico</h3>\n<p>As atividades de atenção farmacêutica são documentadas com consentimento expresso do usuário, com nome, endereço e telefone, orientações, intervenções, resultados e identificação do farmacêutico com inscrição no CRF (art. 64). Após o serviço, o usuário recebe a <strong>Declaração de Serviço Farmacêutico (DSF)</strong> (art. 81), em papel com identificação do estabelecimento (nome, endereço, telefone, CNPJ) e do usuário, contendo conforme o caso: medicamento prescrito e dados do prescritor; medicamento isento indicado e posologia; valores medidos e resultados de exames com os valores de referência; dados do medicamento administrado (nome comercial, exceto genérico; DCB; concentração e forma; via; lote; registro na Anvisa); orientação; plano de intervenção; data, assinatura e carimbo com o CRF. Quando houver aferição ou exame, entra a frase, na redação dada pela RDC 786/2023: \"ESTE PROCEDIMENTO NÃO TEM FINALIDADE DE DIAGNÓSTICO E NÃO SUBSTITUI A CONSULTA MÉDICA\". Os dados são sigilosos (art. 82).</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Cliente de 58 anos, sem sintomas, mede a PA na farmácia: média de 168/102 mmHg. O farmacêutico registra, entrega a DSF com os valores e a referência, orienta procurar a unidade de saúde nos próximos dias e não sugere anti-hipertensivo. Se o mesmo cliente relatasse dor no peito ou fraqueza em um lado do corpo, a conduta seria acionar o SAMU (192) sem demora.</p></div>\n"
+  },
+  {
+   "id": "m10-pop-biosseguranca",
+   "titulo": "Biossegurança e gerenciamento de resíduos",
+   "resumo": "\n<p>Biossegurança é o conjunto de medidas que protege o trabalhador, o cliente e o ambiente dos riscos dos procedimentos. Na farmácia, os riscos mais comuns são a picada com lanceta ou agulha usada, o contato com sangue, a transmissão de microrganismos pelas mãos e o descarte errado de medicamentos e perfurocortantes. A RDC 44/2009 trata do tema nos serviços (arts. 18, 26, 27, 73, 83 e 84) e remete o descarte à RDC 222/2018.</p>\n<h3>Higienização das mãos</h3>\n<p>\"A execução de qualquer serviço farmacêutico deve ser precedida da anti-sepsia das mãos do profissional, independente do uso de Equipamentos de Proteção Individual (EPI)\" (RDC 44/2009, art. 84). Luva não substitui a higienização. O POP define:</p>\n<ul>\n<li><strong>quando</strong>: antes de tocar o cliente, antes de procedimento que rompe a pele (punção, injeção, perfuração), depois de risco de contato com sangue, depois de tocar o cliente e depois de tocar superfícies próximas a ele (os momentos recomendados pela OMS e pela Anvisa);</li>\n<li><strong>como</strong>: água e sabonete líquido quando as mãos estão visivelmente sujas; preparação alcoólica nas demais situações; técnica com todas as faces das mãos, entre os dedos, polegares e pontas dos dedos;</li>\n<li><strong>com quê</strong>: lavatório com água corrente, sabonete líquido, toalha descartável e gel antisséptico na sala de serviços (art. 15, §2º).</li>\n</ul>\n<h3>Equipamentos de proteção individual</h3>\n<p>A farmácia disponibiliza EPI a quem presta serviços (art. 18) e oferece treinamento inicial e contínuo sobre uso e descarte, de acordo com o PGRSS (art. 26). Os POPs de serviços especificam o EPI de cada procedimento (arts. 72 e 80, §2º): luvas de procedimento para punção capilar, injeções e perfuração; jaleco; proteção ocular e máscara quando houver risco de respingo. Luvas são trocadas a cada cliente e descartadas como resíduo, e as mãos são higienizadas depois de retirá-las.</p>\n<div class=\"tab\"><table><thead><tr><th>Procedimento</th><th>EPI mínimo sugerido</th><th>Observação</th></tr></thead><tbody>\n<tr><td>Pressão arterial e temperatura</td><td>Nenhum obrigatório; higienização das mãos</td><td>Luvas se houver lesão de pele ou secreção</td></tr>\n<tr><td>Glicemia capilar e testes por punção</td><td>Luvas de procedimento, jaleco</td><td>Trocar luvas a cada cliente</td></tr>\n<tr><td>Teste por swab nasal ou orofaríngeo</td><td>Luvas, jaleco, máscara, proteção ocular</td><td>Conforme instrução escrita de biossegurança (RDC 978/2025, art. 110)</td></tr>\n<tr><td>Injetáveis e vacinas</td><td>Luvas de procedimento, jaleco</td><td>Proteção ocular se houver risco de respingo</td></tr>\n<tr><td>Perfuração de lóbulo</td><td>Luvas de procedimento, jaleco</td><td>EPI especificado no POP (RDC 44/2009, art. 80, §2º)</td></tr>\n<tr><td>Limpeza e manuseio de resíduos</td><td>Luvas de borracha, calçado fechado</td><td>Nunca manipular conteúdo de coletor de perfurocortantes</td></tr>\n</tbody></table></div>\n<p>A tabela é um ponto de partida. O POP de cada serviço define o EPI com base no risco do procedimento e nas instruções dos fabricantes dos produtos usados.</p>\n<h3>Perfurocortantes</h3>\n<p>Lancetas, agulhas, ampolas de vidro e escalpes são resíduos do <strong>Grupo E</strong> (RDC 222/2018, Anexo I). Regras do POP:</p>\n<ul>\n<li>descartar em recipiente identificado, rígido, com tampa, resistente à punctura, ruptura e vazamento (art. 86), posicionado ao alcance da mão de quem aplica;</li>\n<li>substituir o recipiente quando atingir 3/4 da capacidade, ou conforme o fabricante, sendo proibido esvaziá-lo ou reaproveitá-lo (art. 87);</li>\n<li>não reencapar nem desconectar a agulha manualmente; a separação seringa e agulha só com dispositivo de segurança (art. 89, parágrafo único);</li>\n<li>agulhas de aplicação de vacinas, se não desconectadas, seguem o manejo de perfurocortante (art. 47, parágrafo único).</li>\n</ul>\n<div class=\"cx alerta\"><b>Atenção</b><p>Acidente com material perfurocortante é emergência. O POP de biossegurança (RDC 44/2009, art. 27) orienta: lavar o local com água e sabão, sem espremer; comunicar o farmacêutico RT; identificar, se possível, a fonte (o cliente atendido); encaminhar o trabalhador logo ao serviço de referência para avaliação de profilaxia; registrar o acidente e emitir a comunicação de acidente de trabalho quando cabível.</p></div>\n<h3>PGRSS</h3>\n<p>Farmácias e drogarias são geradoras de resíduos de serviços de saúde (RDC 222/2018, art. 2º, §1º) e devem possuir Plano de Gerenciamento de Resíduos de Serviços de Saúde, o <strong>PGRSS</strong> (RDC 44/2009, art. 97; RDC 222/2018, art. 5º). Se a farmácia gera só resíduos do Grupo D (comuns), o PGRSS pode ser substituído por notificação à vigilância sanitária, conforme orientação local (art. 5º, §1º). O PGRSS estima a quantidade gerada por grupo, descreve o manejo da geração à disposição final, as ações em emergências, o controle de pragas e a capacitação, e traz cópia do contrato e da licença ambiental das empresas que coletam e tratam os resíduos (art. 6º). Ele é monitorado e atualizado (art. 7º).</p>\n<div class=\"tab\"><table><thead><tr><th>Resíduo na farmácia</th><th>Grupo (RDC 222/2018)</th><th>Destino</th></tr></thead><tbody>\n<tr><td>Lancetas, agulhas, ampolas</td><td>E</td><td>Coletor rígido; troca a 3/4; coleta por empresa licenciada</td></tr>\n<tr><td>Algodão e gaze com pequena quantidade de sangue (sem sangue livre)</td><td>A4</td><td>Saco branco leitoso; não exige tratamento prévio (art. 53)</td></tr>\n<tr><td>Vacina vencida, com sobra ou frasco aberto</td><td>A1</td><td>Tratamento antes da disposição final (art. 47)</td></tr>\n<tr><td>Medicamentos vencidos ou avariados do estoque</td><td>B</td><td>Conforme PGRSS e empresa licenciada; hormônios, antimicrobianos, citostáticos, antineoplásicos, imunossupressores, digitálicos, imunomoduladores e antirretrovirais vão para tratamento ou aterro Classe I (art. 59)</td></tr>\n<tr><td>Embalagem secundária limpa (cartucho)</td><td>D</td><td>Descaracterizar a rotulagem; pode ir para reciclagem (art. 62)</td></tr>\n<tr><td>Luvas sem contato com sangue, papel, copos</td><td>D</td><td>Lixo comum ou reciclável conforme PGRSS</td></tr>\n</tbody></table></div>\n<h3>Medicamentos vencidos da própria farmácia</h3>\n<p>Vencidos, violados e suspeitos de falsificação são segregados em ambiente seguro, fora da área de dispensação, identificados quanto à condição e ao destino, para que não voltem ao consumo (RDC 44/2009, art. 38). Não podem ser vendidos nem usados, e a inutilização segue a legislação de resíduos e as normas locais (art. 38, §§ 1º e 2º). Controlados vencidos seguem, além disso, as regras de baixa e inutilização da Portaria 344/1998 e da vigilância local. A política para produtos próximos do vencimento fica clara para todos e descrita no Manual (art. 38, §4º) e em POP (art. 51).</p>\n<h3>Medicamentos trazidos pelos clientes</h3>\n<p>O Decreto 10.388/2020 instituiu a logística reversa de medicamentos domiciliares vencidos ou em desuso. Farmácias e drogarias que são pontos fixos de recebimento mantêm, às suas expensas, <strong>dispensador contentor</strong> com sistema antirretorno, na proporção mínima de um ponto para cada 10 mil habitantes nos municípios com mais de 100 mil habitantes (art. 10). O dispensador traz a frase \"Descarte aqui os medicamentos domiciliares vencidos ou em desuso\" (art. 11). A farmácia disponibiliza local de armazenamento primário quando necessário e registra a massa recebida, em quilogramas, no manifesto de transporte de resíduos antes da transferência ao distribuidor (art. 12). Os distribuidores coletam (art. 14), e fabricantes e importadores custeiam a destinação final (arts. 15 e 18). A RDC 44/2009 também permite que farmácias participem de programas de coleta (art. 93).</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>O Decreto 10.388/2020 não se aplica a medicamentos descartados por prestadores de serviços de saúde (art. 5º, III). O vencido do estoque da farmácia não vai para o coletor do cliente; ele segue o PGRSS, como resíduo do serviço.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Cliente chega com uma sacola de remédios vencidos da mãe, incluindo canetas de insulina com agulha acoplada. O balconista orienta a depositar comprimidos, frascos e cartelas no dispensador contentor, conforme as instruções afixadas nele. As agulhas não vão soltas no coletor: o farmacêutico verifica se o ponto aceita perfurocortantes ou indica o serviço público que recebe, e orienta, nas próximas vezes, guardar as agulhas em frasco rígido com tampa.</p></div>\n"
+  },
+  {
+   "id": "m10-pop-inspecao",
+   "titulo": "Inspeção sanitária",
+   "resumo": "\n<p>A inspeção sanitária é a visita do fiscal da vigilância sanitária (municipal, estadual ou, em situações específicas, da Anvisa) para verificar se o estabelecimento cumpre as normas. Ela acontece antes da concessão ou renovação da licença, antes de liberar novo serviço (RDC 44/2009, art. 61, §4º), por denúncia, em ações programadas ou após alerta sanitário. O Conselho Regional de Farmácia faz uma fiscalização diferente, voltada ao exercício profissional (presença do farmacêutico, responsabilidade técnica, ética), com base na Lei 13.021/2014.</p>\n<h3>Documentos que devem estar à mão</h3>\n<div class=\"tab\"><table><thead><tr><th>Documento</th><th>Exigência</th></tr></thead><tbody>\n<tr><td>Autorização de Funcionamento (AFE) da Anvisa; Autorização Especial (AE), quando aplicável</td><td>RDC 44/2009, art. 2º, I e II</td></tr>\n<tr><td>Licença ou alvará sanitário, afixado em local visível</td><td>Art. 2º, III, e §1º</td></tr>\n<tr><td>Certidão de Regularidade Técnica do CRF, afixada em local visível</td><td>Art. 2º, IV, e §1º</td></tr>\n<tr><td>Cartaz com razão social, CNPJ, AFE, AE, nome e CRF do RT e substitutos, horário de cada farmacêutico, quando esses dados não constarem dos documentos afixados</td><td>Art. 2º, §2º</td></tr>\n<tr><td>Manual de Boas Práticas Farmacêuticas</td><td>Arts. 2º, V, e 85</td></tr>\n<tr><td>POPs aprovados, assinados e datados pelo RT</td><td>Arts. 86 e 87</td></tr>\n<tr><td>Registros de treinamento e de divulgação dos POPs</td><td>Arts. 28 e 88, I e III</td></tr>\n<tr><td>Registros de temperatura e umidade</td><td>Art. 35, §§ 3º e 4º</td></tr>\n<tr><td>Registros de limpeza (incluindo sala de serviços e caixa d'água)</td><td>Arts. 12 e 16</td></tr>\n<tr><td>Comprovantes de desratização e desinsetização por empresa licenciada</td><td>Arts. 7º e 88, IV</td></tr>\n<tr><td>Registros de manutenção e calibração de equipamentos</td><td>Arts. 71, 77 e 88, V</td></tr>\n<tr><td>Registros dos serviços farmacêuticos e cópias de DSF</td><td>Arts. 64, 81 e 88, II</td></tr>\n<tr><td>Notas fiscais com nome, lote e fabricante dos produtos</td><td>Art. 31, §2º</td></tr>\n<tr><td>PGRSS e contrato com empresa de coleta</td><td>Art. 97; RDC 222/2018, art. 6º</td></tr>\n<tr><td>Escrituração de controlados e antimicrobianos (SNGPC) e receitas retidas</td><td>Portaria 344/1998; RDC 22/2014; RDC 471/2021</td></tr>\n<tr><td>Lista atualizada de genéricos e lista de serviços públicos de saúde próximos</td><td>Arts. 42, §1º, e 62</td></tr>\n</tbody></table></div>\n<p>O SNGPC merece atenção especial em 2026. Depois de anos de suspensão, a transmissão obrigatória dos arquivos foi retomada de forma escalonada por região, a partir de 1º de setembro de 2025 no Sudeste, 1º de novembro de 2025 no Sul e no Norte e 2 de janeiro de 2026 no Centro-Oeste e no Nordeste, com envio em intervalos de 1 a 7 dias consecutivos (comunicado do CFF sobre o cronograma da Anvisa, 2025). Desde 30/09/2026, o Sistema Nacional de Controle de Receituários (SNCR, RDC 873/2024) oferece funcionalidades para emissão e baixa eletrônica de receitas de controle especial; as receitas em papel continuam válidas.</p>\n<h3>O que o fiscal observa na loja</h3>\n<ul>\n<li>presença do farmacêutico durante todo o horário (RDC 44/2009, art. 3º; Lei 13.021/2014, art. 6º, I) e identificação que o distinga dos demais (art. 17);</li>\n<li>medicamentos em área restrita aos funcionários, salvo os isentos de prescrição permitidos ao alcance do público, e cartaz \"Medicamentos podem causar efeitos indesejados...\" (arts. 40 e 41);</li>\n<li>produtos afastados de piso, parede e teto (art. 36), protegidos de sol, umidade e calor (art. 35);</li>\n<li>controlados em armário ou sala com chave, sob guarda do farmacêutico (art. 37);</li>\n<li>área segregada e identificada para vencidos, violados e suspeitos (art. 38);</li>\n<li>geladeira exclusiva com termômetro e registro em dia;</li>\n<li>sala de serviços limpa, com lavatório completo e coletor de perfurocortantes adequado;</li>\n<li>validade dos produtos expostos e dispensados (arts. 46 e 51).</li>\n</ul>\n<h3>Erros que mais geram autuação</h3>\n<ul>\n<li>ausência do farmacêutico no horário declarado;</li>\n<li>POP inexistente, sem assinatura do RT, desatualizado ou que não corresponde à prática;</li>\n<li>planilha de temperatura em branco, preenchida de uma vez (\"tudo 5 °C\" em letra idêntica) ou sem ação registrada nas leituras fora da faixa;</li>\n<li>alimento ou bebida dentro da geladeira de medicamentos;</li>\n<li>vencidos misturados ao estoque ou sem identificação;</li>\n<li>serviço prestado sem constar da licença (por exemplo, teste rápido ou vacina);</li>\n<li>receitas de controlados ou de antimicrobianos sem os dados de dispensação, escrituração atrasada;</li>\n<li>perfurocortante em lixo comum ou coletor transbordando;</li>\n<li>treinamento sem registro, ou com registro sem conteúdo e sem avaliação.</li>\n</ul>\n<h3>Consequências e defesa</h3>\n<p>O descumprimento da RDC 44/2009 é infração sanitária nos termos da Lei 6.437/1977 (art. 99), sem prejuízo de responsabilidade civil, administrativa e penal. As penalidades previstas na lei vão de advertência e multa a apreensão de produtos, interdição e cancelamento de autorização e de licença, conforme a gravidade. O fiscal lavra os termos de inspeção e, se for o caso, o auto de infração; o autuado pode apresentar defesa ou impugnação no prazo de quinze dias contados da notificação (Lei 6.437/1977, art. 22). Problemas sem risco imediato costumam gerar exigência com prazo para adequação; risco iminente pode levar a interdição cautelar.</p>\n<h3>Postura durante a inspeção</h3>\n<ul>\n<li>o farmacêutico acompanha o fiscal, com cordialidade e sem obstruir o trabalho;</li>\n<li>apresenta o que for pedido, sem improvisar documento na hora;</li>\n<li>responde com fatos e, quando não souber, diz que vai verificar;</li>\n<li>lê o termo antes de assinar, pede cópia e anota prazos;</li>\n<li>depois da visita, transforma cada exigência em ação com responsável e data, e revisa os POPs envolvidos.</li>\n</ul>\n<h3>Autoinspeção</h3>\n<p>Autoinspeção é a verificação interna, feita pela própria farmácia, com roteiro escrito, para encontrar falhas antes do fiscal. Um modo prático de organizar:</p>\n<ol>\n<li>Definir no Manual a frequência (por exemplo, trimestral) e quem conduz. De preferência, alguém que não executa diariamente a atividade avaliada, como o farmacêutico de outro turno ou de outra loja da rede.</li>\n<li>Usar um roteiro fixo, com itens verificáveis (documento existe, está assinado, registro está em dia, local está organizado).</li>\n<li>Percorrer a loja na mesma ordem em que o fiscal costuma andar: fachada e documentos afixados, área de dispensação, estoque, geladeira, armário de controlados, sala de serviços, sanitário e área de resíduos.</li>\n<li>Conferir uma amostra de registros: alguns dias da planilha de temperatura, algumas DSF, algumas receitas retidas contra a escrituração.</li>\n<li>Registrar cada não conformidade com ação corretiva, responsável e prazo, e verificar o fechamento na autoinspeção seguinte.</li>\n</ol>\n<p>Os resultados das autoinspeções alimentam a revisão dos POPs e o plano de treinamento. Falha que se repete em duas autoinspeções seguidas indica que o POP é inexequível ou que o treinamento não funcionou.</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>A melhor preparação para a inspeção é a autoinspeção periódica com o mesmo roteiro que o fiscal usa. A RDC 430/2020 exige autoinspeções das distribuidoras (arts. 37 a 39); para a farmácia, é uma boa prática que o Manual pode prever, com frequência e responsável definidos.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Na renovação da licença, o fiscal encontra a planilha da geladeira com leituras de 10 °C em três dias seguidos e nenhuma anotação de ação. As insulinas continuaram sendo vendidas. Além da exigência de corrigir o equipamento e o POP, o fiscal pode determinar a segregação dos lotes expostos até avaliação do fabricante. A falha principal está na ausência de ação corretiva, que o art. 35, §5º, manda prever em POP.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Fiscal chega e o RT está em horário de almoço, coberto pela farmacêutica substituta. Ela se identifica, mostra a escala de farmacêuticos afixada, acompanha a inspeção e liga para o RT apenas se o fiscal pedir algo que ela não consiga localizar.</p></div>\n"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m10-mapa-estrutura",
+   "titulo": "Estrutura e ciclo do POP",
+   "centro": "POP na farmácia",
+   "ramos": [
+    {
+     "t": "Conceito",
+     "itens": [
+      "Escrito, autorizado, de natureza geral",
+      "Manual: o quê; POP: como; registro: prova",
+      "Exigido pela RDC 44/2009, art. 86"
+     ]
+    },
+    {
+     "t": "Cabeçalho",
+     "itens": [
+      "Título e código (POP-REC-01)",
+      "Versão e data de vigência",
+      "Elaborado, revisado e aprovado",
+      "Aprovação, assinatura e data do RT"
+     ]
+    },
+    {
+     "t": "Corpo",
+     "itens": [
+      "Objetivo e abrangência",
+      "Responsáveis por cargo, não por nome",
+      "Materiais e equipamentos",
+      "Passos numerados, um verbo por passo",
+      "Ação corretiva, registros e referências"
+     ]
+    },
+    {
+     "t": "Treinamento",
+     "itens": [
+      "Divulgar a quem executa (art. 87, §2º)",
+      "Registro: data, carga horária, conteúdo",
+      "Assinatura dos treinados e avaliação"
+     ]
+    },
+    {
+     "t": "Revisão",
+     "itens": [
+      "Periódica, com prazo fixado no Manual",
+      "Extra: norma, equipamento, incidente",
+      "Alteração preserva o original e o motivo"
+     ]
+    },
+    {
+     "t": "Guarda e cópias",
+     "itens": [
+      "Documentação por 5 anos (art. 89)",
+      "Cópia controlada no local de uso",
+      "Lista mestra; recolher obsoletas"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m10-mapa-obrigatorios",
+   "titulo": "POPs obrigatórios",
+   "centro": "POPs exigidos",
+   "ramos": [
+    {
+     "t": "RDC 44: art. 86",
+     "itens": [
+      "Higiene de cada ambiente",
+      "Aquisição, recebimento e armazenamento",
+      "Exposição, organização e dispensação",
+      "Vencidos e próximos do vencimento",
+      "Serviços e materiais descartáveis"
+     ]
+    },
+    {
+     "t": "RDC 44: outros artigos",
+     "itens": [
+      "Caixa d'água (art. 12)",
+      "Temperatura, umidade e ação corretiva (art. 35)",
+      "Inflamáveis e corrosivos (art. 39)",
+      "Transporte na venda remota (art. 56)",
+      "Lóbulo auricular (art. 80)"
+     ]
+    },
+    {
+     "t": "Serviços",
+     "itens": [
+      "PA e temperatura: arts. 69 e 72",
+      "Glicemia: EAC, RDC 978/2025, Tipo I",
+      "Injetáveis: arts. 74 a 77",
+      "Vacinas: RDC 197/2017 e Lei 14.675/2023",
+      "DSF após cada serviço (art. 81)"
+     ]
+    },
+    {
+     "t": "Resíduos",
+     "itens": [
+      "PGRSS (RDC 222/2018, arts. 5º e 6º)",
+      "Perfurocortante: trocar a 3/4",
+      "Vencido do estoque: PGRSS, grupo B",
+      "Do cliente: Decreto 10.388/2020"
+     ]
+    },
+    {
+     "t": "Fracionamento",
+     "itens": [
+      "Prevenir trocas: item 4.6 da RDC 80/2006",
+      "Rotulagem e embalagem: item 4.8.2",
+      "Um medicamento fracionado por vez"
+     ]
+    },
+    {
+     "t": "Esperados",
+     "itens": [
+      "Reclamação, VigiMed e Notivisa",
+      "Recolhimento de lotes (art. 38, §3º)",
+      "Controlados e antimicrobianos",
+      "Mãos (art. 84) e acidentes (art. 27)"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m10-tab-norma-pop",
+   "titulo": "Norma, POP exigido e artigo",
+   "colunas": [
+    "Norma",
+    "Artigo ou item",
+    "POP ou instrução escrita",
+    "Código sugerido",
+    "Registro gerado"
+   ],
+   "linhas": [
+    [
+     "RDC 44/2009",
+     "Art. 12",
+     "Limpeza da caixa d'água",
+     "POP-LIM-02",
+     "Comprovante de limpeza"
+    ],
+    [
+     "RDC 44/2009",
+     "Arts. 16, 83 e 86, I",
+     "Limpeza e higienização dos ambientes",
+     "POP-LIM-01",
+     "Planilha de limpeza diária"
+    ],
+    [
+     "RDC 44/2009",
+     "Arts. 31, 32 e 86, II",
+     "Aquisição e recebimento",
+     "POP-REC-01",
+     "Conferência da nota; não conformidades"
+    ],
+    [
+     "RDC 44/2009",
+     "Art. 35, §§ 4º e 5º",
+     "Controle de temperatura e umidade",
+     "POP-TEMP-01",
+     "Planilha diária; ações corretivas"
+    ],
+    [
+     "RDC 44/2009",
+     "Arts. 35 a 38 e 86, II",
+     "Armazenamento e controle de validade",
+     "POP-ARM-01",
+     "Relatório de validade; segregados"
+    ],
+    [
+     "RDC 44/2009",
+     "Art. 39",
+     "Inflamáveis, corrosivos e explosivos",
+     "POP-ARM-02",
+     "Inventário do local"
+    ],
+    [
+     "RDC 44/2009",
+     "Art. 86, III",
+     "Exposição e organização",
+     "POP-EXP-01",
+     "Não se aplica"
+    ],
+    [
+     "RDC 44/2009",
+     "Arts. 43 a 47 e 86, IV",
+     "Dispensação de medicamentos",
+     "POP-DIS-01",
+     "Registro de intervenções"
+    ],
+    [
+     "Portaria 344/1998; RDC 22/2014",
+     "Art. 49 da RDC 44/2009",
+     "Dispensação de controlados",
+     "POP-DIS-02",
+     "Receitas retidas; SNGPC"
+    ],
+    [
+     "RDC 471/2021",
+     "Retenção e escrituração",
+     "Dispensação de antimicrobianos e agonistas de GLP-1",
+     "POP-DIS-03",
+     "2ª via retida; SNGPC"
+    ],
+    [
+     "RDC 44/2009",
+     "Arts. 38, 51 e 86, V e VI",
+     "Vencidos e próximos do vencimento",
+     "POP-VAL-01",
+     "Termo de segregação e baixa"
+    ],
+    [
+     "RDC 44/2009",
+     "Art. 56, §3º",
+     "Transporte na dispensação remota",
+     "POP-ENT-01",
+     "Registro de entrega"
+    ],
+    [
+     "RDC 44/2009",
+     "Arts. 64, 65 e 72",
+     "Serviços: PA, temperatura, protocolos",
+     "POP-SF-01",
+     "Ficha do atendimento; DSF"
+    ],
+    [
+     "RDC 978/2025",
+     "Arts. 10, 110, 112 e 119",
+     "Glicemia capilar e outros EAC",
+     "POP-SF-02",
+     "Resultados; CIQ e CEQ; DSF"
+    ],
+    [
+     "RDC 44/2009",
+     "Arts. 74 a 77",
+     "Administração de medicamentos",
+     "POP-SF-03",
+     "DSF com lote; registro"
+    ],
+    [
+     "RDC 44/2009",
+     "Art. 80",
+     "Perfuração de lóbulo auricular",
+     "POP-SF-04",
+     "DSF"
+    ],
+    [
+     "RDC 197/2017; Lei 14.675/2023",
+     "Arts. 11 e 12; art. 5º",
+     "Vacinação: rede de frio e transporte",
+     "POP-VAC-01",
+     "Mapa de temperatura; cartão"
+    ],
+    [
+     "RDC 80/2006",
+     "Anexo I, Parte II, itens 4.6 e 4.8.2",
+     "Fracionamento: trocas, rotulagem e embalagem",
+     "POP-FRA-01",
+     "Registro do fracionamento"
+    ],
+    [
+     "RDC 222/2018",
+     "Arts. 5º, 6º, 86 a 89",
+     "PGRSS e descarte de resíduos",
+     "POP-RES-01",
+     "Comprovantes de coleta"
+    ],
+    [
+     "Decreto 10.388/2020",
+     "Arts. 10 a 12",
+     "Recebimento de medicamentos dos clientes",
+     "POP-RES-02",
+     "Massa no manifesto de transporte"
+    ],
+    [
+     "RDC 44/2009; Lei 13.021/2014",
+     "Arts. 34, 38 e 67; art. 13, I",
+     "Reclamações, recolhimento e farmacovigilância",
+     "POP-QUA-01",
+     "Notificações; termo de recolhimento"
+    ],
+    [
+     "RDC 44/2009",
+     "Arts. 24 a 28",
+     "Capacitação da equipe",
+     "POP-RH-01",
+     "Registro de treinamento"
+    ]
+   ],
+   "nota": "Códigos ilustrativos. A farmácia adapta a lista às atividades que constam do seu licenciamento e do Manual de Boas Práticas."
+  },
+  {
+   "tipo": "quadro",
+   "id": "m10-quadro-modelo",
+   "titulo": "Modelo de cabeçalho e fechamento de POP",
+   "html": "\n<div class=\"tab\"><table><thead><tr><th>Campo</th><th>Preenchimento</th></tr></thead><tbody>\n<tr><td>Estabelecimento</td><td>Nome fantasia, CNPJ, unidade</td></tr>\n<tr><td>Título</td><td>Recebimento de medicamentos</td></tr>\n<tr><td>Código / versão</td><td>POP-REC-01 / versão 02</td></tr>\n<tr><td>Vigência</td><td>A partir de __/__/____ ; próxima revisão até __/__/____</td></tr>\n<tr><td>Página</td><td>__ de __</td></tr>\n<tr><td>Elaborado por</td><td>Nome, cargo, data, assinatura</td></tr>\n<tr><td>Revisado por</td><td>Nome, cargo, data, assinatura</td></tr>\n<tr><td>Aprovado por</td><td>Farmacêutico RT, CRF, data, assinatura (RDC 44/2009, art. 87)</td></tr>\n</tbody></table></div>\n<p><b>Seções do corpo:</b> 1. Objetivo; 2. Abrangência; 3. Responsáveis; 4. Definições; 5. Materiais e equipamentos; 6. Procedimento; 7. Cuidados e ações corretivas; 8. Registros; 9. Referências; 10. Anexos.</p>\n<div class=\"tab\"><table><thead><tr><th>Versão</th><th>Data</th><th>Alteração</th><th>Motivo</th></tr></thead><tbody>\n<tr><td>01</td><td>__/__/____</td><td>Emissão inicial</td><td>Implantação</td></tr>\n<tr><td>02</td><td>__/__/____</td><td>Inclusão da conferência de termolábeis</td><td>Reclamação de cliente</td></tr>\n</tbody></table></div>\n<p><b>Registro de divulgação:</b> nome, função, data, assinatura de cada funcionário que leu e foi treinado nesta versão (RDC 44/2009, arts. 28 e 88, III).</p>\n"
+  },
+  {
+   "tipo": "pop",
+   "id": "m10-pop-recebimento",
+   "titulo": "Recebimento de medicamentos",
+   "codigo": "POP-REC-01",
+   "objetivo": "Garantir que somente produtos regularizados, íntegros, autênticos e transportados nas condições do fabricante entrem no estoque.",
+   "abrangencia": "Área de recebimento da loja; todos os turnos; produtos adquiridos de distribuidores.",
+   "responsaveis": [
+    "Estoquista ou auxiliar treinado: executa a conferência",
+    "Farmacêutico: confere controlados, termolábeis e decide sobre não conformidades",
+    "Farmacêutico RT: aprova o POP e os fornecedores qualificados"
+   ],
+   "materiais": [
+    "Nota fiscal e pedido de compra",
+    "Lista de fornecedores qualificados com AFE e licença",
+    "Termômetro ou leitor do indicador de temperatura da carga",
+    "Etiquetas de quarentena e de devolução",
+    "Formulário de não conformidade"
+   ],
+   "procedimento": [
+    "Conferir se o fornecedor consta da lista de distribuidores autorizados e licenciados (RDC 44/2009, art. 31, §1º).",
+    "Receber a carga somente na área de recebimento e por pessoa treinada (art. 32).",
+    "Priorizar os volumes refrigerados: abrir primeiro, conferir a temperatura de chegada e guardar na geladeira em seguida.",
+    "Conferir a integridade dos volumes: caixas amassadas, molhadas, violadas ou com lacre rompido.",
+    "Confrontar nota fiscal e pedido: nome, apresentação, quantidade, lote e fabricante, que devem estar discriminados na nota (art. 31, §2º).",
+    "Para cada item, verificar bom estado, legibilidade de lote e validade e presença do mecanismo de autenticidade da embalagem (art. 34).",
+    "Conferir se a validade é compatível com a política de compra da loja e com o giro do produto.",
+    "Separar controlados para conferência pelo farmacêutico e guarda imediata no armário com chave (art. 37).",
+    "Em divergência (falta, sobra, lote diferente, avaria), registrar no formulário, identificar o item como quarentena e comunicar o farmacêutico.",
+    "Em suspeita de falsificação, adulteração ou alteração, segregar o produto fora da área de dispensação com identificação de que não se destina à venda e acionar o farmacêutico (art. 34, §1º).",
+    "Dar entrada no sistema somente dos itens aprovados.",
+    "Guardar os produtos seguindo PVPS/FEFO, com validade mais curta à frente.",
+    "Arquivar a nota fiscal e o registro de conferência."
+   ],
+   "cuidados": [
+    "Não receber carga transportada fora das condições do fabricante (art. 33).",
+    "Termolábil com temperatura de chegada fora da faixa fica em quarentena refrigerada até resposta do fornecedor.",
+    "Suspeita de falsificação deve ser notificada pelo farmacêutico à autoridade sanitária imediatamente (art. 34, §2º)."
+   ],
+   "registros": [
+    "Nota fiscal conferida e rubricada",
+    "Formulário de não conformidade no recebimento",
+    "Registro de temperatura de chegada dos termolábeis",
+    "Escrituração de entrada de controlados no SNGPC"
+   ],
+   "referencias": [
+    "RDC 44/2009, arts. 30 a 34, 37",
+    "RDC 430/2020, arts. 56 e 57 (referência de boas práticas)",
+    "Portaria SVS/MS 344/1998",
+    "RDC 22/2014"
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m10-pop-armazenamento",
+   "titulo": "Armazenamento e controle de validade",
+   "codigo": "POP-ARM-01",
+   "objetivo": "Manter os produtos ordenados, nas condições do fabricante e dispensados antes do vencimento, segregando vencidos e avariados.",
+   "abrangencia": "Estoque, prateleiras de dispensação e área de autosserviço.",
+   "responsaveis": [
+    "Auxiliar de estoque: organização e verificação mensal de validade",
+    "Farmacêutico: supervisão, decisão sobre próximos do vencimento e segregados"
+   ],
+   "materiais": [
+    "Relatório de validade do sistema",
+    "Etiquetas de validade próxima",
+    "Caixas identificadas para segregação",
+    "Formulário de baixa por vencimento ou avaria"
+   ],
+   "procedimento": [
+    "Armazenar os produtos em prateleiras, gavetas ou estrados, afastados do piso, das paredes e do teto (RDC 44/2009, art. 36).",
+    "Organizar por critério definido no Manual (ordem alfabética por DCB ou nome, por forma farmacêutica ou por classe), com etiqueta de endereço.",
+    "Separar fisicamente apresentações parecidas e nomes semelhantes; sinalizar medicamentos potencialmente perigosos.",
+    "Aplicar PVPS (primeiro que vence, primeiro que sai) ou FEFO: validade mais curta à frente.",
+    "Emitir mensalmente o relatório de validades e conferir fisicamente por amostragem.",
+    "Identificar com etiqueta os produtos que vencem nos próximos meses, conforme a política do Manual (art. 38, §4º).",
+    "Na dispensação de produto com validade próxima, alertar o usuário (art. 51, §1º) e não dispensar se o tratamento não puder ser concluído antes do vencimento (art. 51, §2º).",
+    "Retirar no primeiro dia útil do mês os produtos vencidos ou que vencem naquele mês, conforme regra do Manual.",
+    "Levar vencidos, violados e avariados para a área segregada, identificados quanto à condição e ao destino (art. 38).",
+    "Dar baixa no sistema e, para controlados, seguir a rotina de baixa e inutilização prevista na Portaria 344/1998 e na vigilância local.",
+    "Encaminhar os segregados ao descarte conforme o PGRSS ou à devolução ao fornecedor, quando acordado.",
+    "Registrar quantidades, lotes e destino."
+   ],
+   "cuidados": [
+    "Validade expressa em mês e ano vale até o último dia do mês, salvo indicação do fabricante.",
+    "Vencido nunca volta à prateleira, nem para troca.",
+    "Proteger do sol, da umidade e do calor (art. 35, §2º)."
+   ],
+   "registros": [
+    "Relatório mensal de validade com rubrica",
+    "Formulário de baixa por vencimento ou avaria",
+    "Comprovante de destinação pelo PGRSS"
+   ],
+   "referencias": [
+    "RDC 44/2009, arts. 35 a 38 e 51",
+    "RDC 222/2018",
+    "Manual de Boas Práticas Farmacêuticas do estabelecimento"
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m10-pop-temperatura",
+   "titulo": "Controle de temperatura e umidade",
+   "codigo": "POP-TEMP-01",
+   "objetivo": "Monitorar e registrar a temperatura e a umidade do estoque, da área de dispensação e da geladeira, e agir quando saírem da faixa.",
+   "abrangencia": "Áreas de armazenamento e dispensação; refrigerador de medicamentos.",
+   "responsaveis": [
+    "Balconista ou auxiliar designado por turno: leitura e registro",
+    "Farmacêutico: análise das leituras e ações corretivas",
+    "Farmacêutico RT: aprovação, calibração e revisão"
+   ],
+   "materiais": [
+    "Termo-higrômetro calibrado no ambiente",
+    "Termômetro de máxima e mínima calibrado ou registrador eletrônico na geladeira",
+    "Planilha de registro",
+    "Certificados de calibração"
+   ],
+   "procedimento": [
+    "Identificar os pontos de medição: área de estoque, área de dispensação e geladeira.",
+    "Fazer a leitura do ambiente na faixa de horário de maior temperatura e umidade do dia, definida pela farmácia a partir do mapeamento (RDC 44/2009, art. 35, §4º); se a loja tiver ar-condicionado desligado à noite, incluir leitura na abertura.",
+    "Registrar temperatura e umidade do ambiente com hora e rubrica.",
+    "Ler a geladeira no mínimo duas vezes ao dia, na abertura e no fechamento, anotando temperatura de momento, máxima e mínima.",
+    "Reiniciar o termômetro de máxima e mínima após cada leitura.",
+    "Comparar as leituras com as faixas: ambiente de 15 °C a 30 °C (ou o limite mais restritivo dos produtos, como até 25 °C); geladeira de 2 °C a 8 °C.",
+    "Se o ambiente passar do limite, acionar ventilação ou climatização, afastar produtos da fonte de calor e comunicar o farmacêutico.",
+    "Se a geladeira sair de 2 °C a 8 °C, aplicar o fluxo de excursão: manter a porta fechada, verificar energia e vedação, comunicar o farmacêutico e registrar a hora.",
+    "Em excursão confirmada, segregar os produtos afetados dentro de equipamento na faixa correta, identificar \"aguardando avaliação\" e consultar o fabricante.",
+    "Registrar a ação tomada na própria planilha, com a decisão final e a assinatura do farmacêutico.",
+    "Calibrar os instrumentos na periodicidade definida e sempre que houver suspeita de erro.",
+    "Arquivar as planilhas e os certificados."
+   ],
+   "cuidados": [
+    "Planilha é preenchida no momento da leitura, nunca depois.",
+    "Leitura fora da faixa sem ação registrada é não conformidade.",
+    "A umidade aceitável é definida no POP com base nas especificações dos produtos."
+   ],
+   "registros": [
+    "Planilha diária de temperatura e umidade",
+    "Registro de excursão e decisão",
+    "Certificado de calibração dos instrumentos"
+   ],
+   "referencias": [
+    "RDC 44/2009, art. 35, §§ 2º a 5º",
+    "Farmacopeia Brasileira, 6ª ed., Generalidades: faixas de temperatura",
+    "Manual de Rede de Frio do PNI, 6ª ed., 2025"
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m10-pop-limpeza",
+   "titulo": "Limpeza e higienização do ambiente",
+   "codigo": "POP-LIM-01",
+   "objetivo": "Manter cada ambiente da farmácia limpo e livre de contaminação, com registro da rotina.",
+   "abrangencia": "Área de dispensação, estoque, sala de serviços, sanitário, depósito de material de limpeza e área administrativa.",
+   "responsaveis": [
+    "Auxiliar de limpeza: execução",
+    "Farmacêutico: supervisão e conferência do registro",
+    "Farmacêutico RT: treinamento e aprovação"
+   ],
+   "materiais": [
+    "Saneantes regularizados na Anvisa (RDC 44/2009, art. 8º)",
+    "Panos e baldes identificados por área",
+    "Luvas de borracha, calçado fechado",
+    "Álcool 70% para superfícies da sala de serviços",
+    "Planilha de limpeza"
+   ],
+   "procedimento": [
+    "Guardar materiais de limpeza no local designado e identificado (art. 8º).",
+    "Usar panos e baldes exclusivos por área, identificados por cor.",
+    "Limpar a sala de serviços no início e ao término do expediente e registrar (art. 16).",
+    "Verificar a necessidade de nova limpeza da sala após cada atendimento, garantindo ambiente limpo antes do próximo (art. 16, §§ 1º e 2º).",
+    "Na sala de serviços, limpar primeiro as superfícies mais limpas e depois as mais sujas, de cima para baixo, terminando pelo piso.",
+    "Desinfetar com álcool 70% bancada, maca e braçadeira entre atendimentos, conforme o POP do serviço.",
+    "Limpar prateleiras retirando os produtos, sem molhar embalagens, conforme cronograma do estoque.",
+    "Limpar piso da área de dispensação diariamente, sinalizando piso molhado.",
+    "Limpar o sanitário e repor sabonete líquido, papel toalha e lixeira com pedal e tampa (art. 9º).",
+    "Recolher resíduos comuns e encaminhar os de saúde conforme o PGRSS.",
+    "Limpar a geladeira de medicamentos conforme o POP de termolábeis, nunca no fim do expediente.",
+    "Registrar na planilha data, hora, área e assinatura."
+   ],
+   "cuidados": [
+    "Não misturar saneantes.",
+    "Não varrer a seco áreas de serviços.",
+    "Caixa d'água própria tem POP e registro específicos (art. 12)."
+   ],
+   "registros": [
+    "Planilha de limpeza por ambiente",
+    "Registro de limpeza da sala de serviços (início e fim)",
+    "Comprovante de limpeza da caixa d'água"
+   ],
+   "referencias": [
+    "RDC 44/2009, arts. 6º a 9º, 12, 16 e 83",
+    "Fichas técnicas dos saneantes utilizados"
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m10-pop-dispensacao",
+   "titulo": "Dispensação de medicamentos",
+   "codigo": "POP-DIS-01",
+   "objetivo": "Entregar o medicamento correto, ao paciente correto, com orientação suficiente para o uso seguro.",
+   "abrangencia": "Balcão de atendimento e dispensação remota.",
+   "responsaveis": [
+    "Farmacêutico: avaliação da receita, orientação e intervenção",
+    "Balconista: separação e conferência, sob supervisão (art. 22)"
+   ],
+   "materiais": [
+    "Sistema de vendas com alerta de interação e de validade",
+    "Fontes de informação (bulário, compêndios)",
+    "Lista atualizada de genéricos",
+    "Formulário de intervenção farmacêutica"
+   ],
+   "procedimento": [
+    "Acolher o cliente e identificar quem vai usar o medicamento.",
+    "Para medicamento de venda sob prescrição, exigir a receita (RDC 44/2009, art. 43).",
+    "Avaliar a receita: legibilidade, ausência de rasuras, identificação do usuário, medicamento, concentração, forma, quantidade, posologia, duração, local, data, assinatura e conselho do prescritor (art. 44).",
+    "Não dispensar receita ilegível ou que possa induzir a erro; contatar o prescritor em caso de dúvida (arts. 44, parágrafo único, e 45).",
+    "Verificar se o medicamento exige receituário especial ou retenção e aplicar o POP próprio (controlados, antimicrobianos).",
+    "Na intercambialidade, seguir a legislação de genéricos (art. 47).",
+    "Separar o produto e fazer inspeção visual: identificação, validade e integridade da embalagem (art. 46).",
+    "Conferir a separação contra a receita em dupla checagem para medicamentos potencialmente perigosos e nomes parecidos.",
+    "Orientar posologia, influência de alimentos, interações, reações adversas possíveis e conservação (art. 42, §2º).",
+    "Alertar se a validade estiver próxima e não dispensar se o tratamento não terminar antes do vencimento (art. 51).",
+    "Oferecer serviço ou encaminhamento quando identificar problema relacionado ao medicamento.",
+    "Registrar intervenções relevantes."
+   ],
+   "cuidados": [
+    "Na venda remota, a receita é apresentada e avaliada pelo farmacêutico; controlados não podem ser vendidos por meio remoto (art. 52).",
+    "Termolábil entregue com orientação de transporte e conservação."
+   ],
+   "registros": [
+    "Registro de intervenção farmacêutica",
+    "Receitas retidas, quando exigido"
+   ],
+   "referencias": [
+    "RDC 44/2009, arts. 42 a 52",
+    "Lei 13.021/2014, arts. 13 e 14",
+    "Lei 9.787/1999 e normas de intercambialidade"
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m10-pop-controlados",
+   "titulo": "Dispensação de medicamentos sujeitos a controle especial",
+   "codigo": "POP-DIS-02",
+   "objetivo": "Dispensar controlados somente diante de receituário válido, com retenção, registro e escrituração corretos.",
+   "abrangencia": "Balcão; armário de controlados; dispensação presencial (vedada a remota).",
+   "responsaveis": [
+    "Farmacêutico: avaliação, dispensação, guarda das chaves e escrituração",
+    "Balconista: não dispensa controlado sem conferência do farmacêutico"
+   ],
+   "materiais": [
+    "Armário ou sala com chave (RDC 44/2009, art. 37)",
+    "Portaria SVS/MS 344/1998 e listas atualizadas",
+    "Acesso ao SNGPC e ao SNCR",
+    "Carimbo e caneta"
+   ],
+   "procedimento": [
+    "Identificar a substância e a lista a que pertence, consultando a versão atualizada das listas da Portaria 344/1998.",
+    "Verificar o tipo de receituário exigido para a lista (notificação de receita ou receita de controle especial).",
+    "Conferir validade, abrangência territorial, quantidade e campos obrigatórios do receituário, conforme a Portaria 344/1998.",
+    "Em receita eletrônica, validar autenticidade, dados do prescritor e numeração pelo SNCR e fazer a baixa no sistema.",
+    "Recusar receituário vencido, rasurado, incompleto ou com quantidade acima do permitido, explicando o motivo ao cliente.",
+    "Identificar o comprador com documento e registrar os dados exigidos.",
+    "Retirar o medicamento do armário trancado e conferir lote e validade.",
+    "Anotar no receituário os dados de dispensação exigidos e rubricar.",
+    "Reter a notificação ou a via destinada à farmácia e devolver a via do paciente, quando houver.",
+    "Orientar o uso, os riscos (sedação, dependência, interação com álcool) e a guarda segura em casa.",
+    "Escriturar a saída no SNGPC e transmitir dentro do prazo (intervalo de 1 a 7 dias).",
+    "Arquivar as receitas retidas em ordem e pelo prazo legal."
+   ],
+   "cuidados": [
+    "Controlado não pode ser vendido por telefone, internet ou aplicativo (RDC 44/2009, art. 52, §2º).",
+    "Chave do armário sob guarda do farmacêutico.",
+    "Divergência de estoque é investigada e comunicada conforme a Portaria 344/1998."
+   ],
+   "registros": [
+    "Receitas e notificações retidas",
+    "Escrituração no SNGPC",
+    "Registro de recusa, quando houver"
+   ],
+   "referencias": [
+    "Portaria SVS/MS 344/1998 e atualizações",
+    "RDC 22/2014 (SNGPC)",
+    "RDC 873/2024 (SNCR)",
+    "RDC 44/2009, arts. 37, 49 e 52"
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m10-pop-antimicrobianos",
+   "titulo": "Dispensação de antimicrobianos",
+   "codigo": "POP-DIS-03",
+   "objetivo": "Dispensar antimicrobianos e demais medicamentos sujeitos à RDC 471/2021 com retenção da receita e escrituração.",
+   "abrangencia": "Balcão; inclui agonistas de GLP-1 controlados pela RDC 471/2021 desde a RDC 973/2025.",
+   "responsaveis": [
+    "Farmacêutico: avaliação, dispensação e escrituração",
+    "Balconista: separação sob supervisão"
+   ],
+   "materiais": [
+    "Receita em duas vias",
+    "Acesso ao SNGPC",
+    "Carimbo"
+   ],
+   "procedimento": [
+    "Conferir se a receita está legível, sem rasuras, em duas vias, com identificação do paciente e do prescritor e dados do medicamento.",
+    "Conferir a validade: 10 dias a contar da emissão para antimicrobianos, considerando o dia da emissão como dia 0.",
+    "Para agonistas de GLP-1 (semaglutida, liraglutida, dulaglutida, tirzepatida, lixisenatida), aplicar a validade de 90 dias definida pela RDC 973/2025.",
+    "Em tratamento prolongado de antimicrobiano, aceitar a receita por até 90 dias se ela indicar uso contínuo e a quantidade para cada 30 dias; a primeira compra ocorre nos 10 primeiros dias.",
+    "Recusar receita vencida.",
+    "Separar o medicamento e conferir lote e validade.",
+    "Registrar nas duas vias: data da dispensação, quantidade aviada, número do lote e rubrica do farmacêutico no verso.",
+    "Reter a segunda via e devolver a primeira ao paciente.",
+    "Orientar dose, intervalo, duração completa, interações e conservação (suspensão reconstituída: conforme bula).",
+    "Escriturar a saída no SNGPC no prazo.",
+    "Arquivar as segundas vias."
+   ],
+   "cuidados": [
+    "Suspensões reconstituídas podem exigir geladeira; orientar conforme bula do produto.",
+    "Não fracionar a quantidade prescrita fora das regras de fracionamento (RDC 80/2006)."
+   ],
+   "registros": [
+    "Segunda via retida com dados de dispensação",
+    "Escrituração no SNGPC"
+   ],
+   "referencias": [
+    "RDC 471/2021 e alterações, incluindo RDC 973/2025",
+    "IN Anvisa 360/2025 (lista de agonistas de GLP-1)",
+    "RDC 22/2014"
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m10-pop-pa",
+   "titulo": "Aferição de pressão arterial",
+   "codigo": "POP-SF-01",
+   "objetivo": "Aferir a pressão arterial com técnica padronizada, interpretar conforme diretriz vigente e orientar ou encaminhar, sem finalidade diagnóstica.",
+   "abrangencia": "Sala de serviços farmacêuticos licenciada.",
+   "responsaveis": [
+    "Farmacêutico: aferição, interpretação, orientação e DSF"
+   ],
+   "materiais": [
+    "Aparelho automático de braço validado e calibrado",
+    "Manguitos de tamanhos diferentes",
+    "Fita métrica",
+    "Álcool 70% e papel toalha",
+    "Ficha de registro e DSF"
+   ],
+   "procedimento": [
+    "Higienizar as mãos (RDC 44/2009, art. 84).",
+    "Explicar o procedimento e obter o consentimento do cliente para registro (art. 64, §1º).",
+    "Perguntar sobre sintomas no momento (dor no peito, falta de ar, fraqueza em um lado do corpo, alteração da fala ou da visão); se presentes, acionar o SAMU (192) sem atrasar o socorro.",
+    "Confirmar o preparo: sem fumar, sem cafeína e sem exercício nos minutos anteriores, bexiga vazia; se não, aguardar.",
+    "Manter o cliente sentado, em repouso, costas apoiadas, pernas descruzadas, pés no chão, sem falar, por pelo menos 5 minutos.",
+    "Medir a circunferência do braço e escolher o manguito adequado.",
+    "Posicionar o manguito sem folga, 2 a 3 cm acima da fossa cubital, com a bolsa centralizada sobre a artéria braquial e o braço apoiado na altura do coração.",
+    "Fazer três medidas com intervalo de 1 minuto e usar a média das duas últimas; se a diferença passar de 10 mmHg, fazer medidas adicionais.",
+    "Classificar pela DBHA 2025: abaixo de 120/80 normal; 120 a 139 e/ou 80 a 89 pré-hipertensão; a partir de 140 e/ou 90, valor elevado.",
+    "Orientar procura de assistência médica quando o valor estiver fora da referência (art. 69, §3º), com urgência se 180/110 mmHg ou mais com sintomas.",
+    "Não indicar nem alterar medicamento de venda sob prescrição (art. 69, §4º).",
+    "Registrar valores e orientação e entregar a DSF com valores de referência e a frase obrigatória (art. 81).",
+    "Desinfetar a braçadeira e higienizar as mãos."
+   ],
+   "cuidados": [
+    "Aparelho de pulso não é preferido para medida na farmácia.",
+    "Manguito pequeno superestima a PA.",
+    "A medida isolada não fecha diagnóstico."
+   ],
+   "registros": [
+    "Ficha do atendimento",
+    "Cópia ou registro da DSF",
+    "Registro de calibração do aparelho (art. 71, parágrafo único)"
+   ],
+   "referencias": [
+    "RDC 44/2009, arts. 69, 71, 72, 81 e 84 (redação da RDC 786/2023)",
+    "Diretriz Brasileira de Hipertensão Arterial 2025, Arq Bras Cardiol 2025;122(9)"
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m10-pop-glicemia",
+   "titulo": "Glicemia capilar",
+   "codigo": "POP-SF-02",
+   "objetivo": "Realizar a glicemia capilar como exame de triagem, com controle de qualidade, biossegurança e encaminhamento adequado.",
+   "abrangencia": "Sala de coleta e execução de EAC da farmácia licenciada como Serviço Tipo I.",
+   "responsaveis": [
+    "Farmacêutico: execução, interpretação, liberação do resultado e DSF",
+    "Farmacêutico RT: controle interno e externo da qualidade"
+   ],
+   "materiais": [
+    "Glicosímetro regularizado na Anvisa",
+    "Tiras reagentes dentro da validade e lote registrado",
+    "Lancetas de uso único",
+    "Algodão, álcool 70%, luvas de procedimento",
+    "Coletor de perfurocortantes",
+    "Material de controle de qualidade"
+   ],
+   "procedimento": [
+    "Conferir o registro do controle interno da qualidade do glicosímetro no dia, conforme o fabricante e o programa da farmácia.",
+    "Higienizar as mãos e calçar luvas de procedimento (RDC 44/2009, art. 84).",
+    "Identificar o cliente, obter consentimento, perguntar horário da última refeição e medicamentos em uso.",
+    "Pedir que o cliente lave as mãos com água e sabão ou fazer antissepsia com álcool 70% e esperar secar.",
+    "Puncionar a face lateral da polpa digital com lanceta de uso único.",
+    "Desprezar a primeira gota se o fabricante orientar e aplicar a gota na tira conforme instrução.",
+    "Descartar a lanceta imediatamente no coletor rígido.",
+    "Fazer hemostasia com algodão seco; descartar o algodão conforme o PGRSS.",
+    "Ler e registrar o resultado com hora e condição (jejum ou pós-prandial).",
+    "Interpretar com os valores de referência citados no POP e aplicar o procedimento para resultado potencialmente crítico (RDC 978/2025, art. 119).",
+    "Orientar e encaminhar; o exame é de triagem, sem fins confirmatórios (art. 60).",
+    "Entregar a DSF com resultado, referência e frase obrigatória (RDC 44/2009, art. 81; RDC 978/2025, art. 60, §2º).",
+    "Retirar as luvas, higienizar as mãos e limpar a bancada."
+   ],
+   "cuidados": [
+    "Resultado muito baixo com sintomas: oferecer carboidrato de absorção rápida se o cliente estiver consciente e acionar ajuda.",
+    "Resultado muito alto com sintomas (sede intensa, vômitos, confusão): encaminhar com urgência.",
+    "Tira fora da validade ou armazenada fora da faixa não é usada."
+   ],
+   "registros": [
+    "Registro do exame",
+    "Registros de controle interno e externo da qualidade",
+    "DSF"
+   ],
+   "referencias": [
+    "RDC 978/2025, arts. 8º a 14, 60, 63, 110 a 113 e 119",
+    "Anvisa. Perguntas e respostas da RDC 978/2025, 2025",
+    "RDC 44/2009, arts. 61, 69, 81 e 84",
+    "Diretriz da Sociedade Brasileira de Diabetes vigente"
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m10-pop-injetaveis",
+   "titulo": "Aplicação de medicamentos injetáveis",
+   "codigo": "POP-SF-03",
+   "objetivo": "Administrar medicamentos injetáveis com segurança, mediante receita avaliada, técnica correta e registro.",
+   "abrangencia": "Sala de serviços farmacêuticos licenciada para administração de medicamentos.",
+   "responsaveis": [
+    "Farmacêutico ou profissional habilitado: avaliação da receita e aplicação",
+    "Farmacêutico RT: aprovação e treinamento"
+   ],
+   "materiais": [
+    "Seringas e agulhas regularizadas, de calibre adequado à via",
+    "Algodão, álcool 70%, luvas de procedimento",
+    "Coletor de perfurocortantes",
+    "Kit de primeiros socorros identificado (RDC 44/2009, art. 15, §4º)",
+    "DSF"
+   ],
+   "procedimento": [
+    "Avaliar a receita e confirmar que o medicamento não é de uso exclusivo hospitalar (RDC 44/2009, arts. 74 e 75).",
+    "Contatar o prescritor se houver dúvida sobre dose, via ou indicação (art. 75, §1º).",
+    "Perguntar sobre alergias, reações anteriores e uso de anticoagulantes.",
+    "Conferir nome, concentração, via, lote e validade do medicamento diante do cliente (art. 75, §2º).",
+    "Higienizar as mãos e calçar luvas (art. 84).",
+    "Preparar a dose com técnica asséptica, sem reencapar agulha com as mãos.",
+    "Escolher o local de aplicação conforme a via (intramuscular ou subcutânea) e o volume.",
+    "Fazer antissepsia da pele com álcool 70% e esperar secar.",
+    "Aplicar com técnica da via e observar a reação do cliente.",
+    "Descartar seringa e agulha juntas no coletor rígido.",
+    "Manter o cliente em observação pelo tempo definido no POP, com atenção a sinais de reação alérgica.",
+    "Entregar a sobra de frasco multidose ao cliente com orientação de conservação; não armazenar embalagem violada (art. 76).",
+    "Emitir a DSF com nome comercial (exceto genérico), DCB, concentração, forma, via, lote e registro na Anvisa (art. 81)."
+   ],
+   "cuidados": [
+    "Reação grave (falta de ar, inchaço de face, queda de pressão): acionar o SAMU (192) e seguir o protocolo de primeiros socorros da farmácia.",
+    "Medicamento trazido pelo cliente com conservação duvidosa (termolábil fora da geladeira) não é aplicado."
+   ],
+   "registros": [
+    "Registro da administração",
+    "DSF",
+    "Registro de intercorrências"
+   ],
+   "referencias": [
+    "RDC 44/2009, arts. 15, 74 a 77, 81, 83 e 84",
+    "RDC 222/2018, arts. 86 a 89",
+    "Bula do medicamento administrado"
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m10-pop-residuos",
+   "titulo": "Descarte de resíduos e de medicamentos vencidos",
+   "codigo": "POP-RES-01",
+   "objetivo": "Segregar, acondicionar e destinar os resíduos da farmácia conforme o PGRSS e receber corretamente os medicamentos descartados pelos clientes.",
+   "abrangencia": "Toda a loja; sala de serviços; área segregada; ponto de recebimento de descarte.",
+   "responsaveis": [
+    "Toda a equipe: segregação na origem",
+    "Auxiliar designado: acondicionamento e entrega à coleta",
+    "Farmacêutico RT: PGRSS, contratos e registros"
+   ],
+   "materiais": [
+    "Coletor rígido para perfurocortantes",
+    "Sacos brancos leitosos identificados",
+    "Caixas identificadas para medicamentos vencidos",
+    "Dispensador contentor (ponto fixo de recebimento)",
+    "EPI: luvas de borracha"
+   ],
+   "procedimento": [
+    "Segregar cada resíduo no momento em que é gerado, conforme o grupo definido no PGRSS.",
+    "Descartar lancetas, agulhas e ampolas no coletor rígido, sem reencapar (RDC 222/2018, arts. 86 e 89).",
+    "Fechar e substituir o coletor quando atingir 3/4 da capacidade (art. 87).",
+    "Descartar algodão e gaze com pequena quantidade de sangue em saco branco leitoso identificado.",
+    "Encaminhar vacinas vencidas ou com sobra como resíduo que exige tratamento (art. 47).",
+    "Retirar medicamentos vencidos ou avariados do estoque, registrar e acondicionar em caixa identificada na área segregada (RDC 44/2009, art. 38).",
+    "Descaracterizar a rotulagem das embalagens secundárias limpas antes da reciclagem (RDC 222/2018, art. 62).",
+    "Manter os resíduos no abrigo temporário até a coleta pela empresa licenciada.",
+    "Conferir e arquivar o comprovante de coleta e destinação.",
+    "No ponto de recebimento, orientar o cliente a usar o dispensador contentor conforme as instruções afixadas (Decreto 10.388/2020, art. 11).",
+    "Retirar o recipiente cheio do dispensador, lacrar, pesar e guardar no armazenamento primário (art. 12).",
+    "Registrar a massa em quilogramas no manifesto de transporte de resíduos antes da entrega ao distribuidor (art. 12, §§ 2º e 3º)."
+   ],
+   "cuidados": [
+    "Medicamento vencido do estoque não vai para o coletor dos clientes (Decreto 10.388/2020, art. 5º, III).",
+    "Nunca jogar medicamentos na pia ou no vaso sanitário.",
+    "Acidente com perfurocortante segue o POP de biossegurança."
+   ],
+   "registros": [
+    "Planilha de resíduos por grupo",
+    "Comprovantes de coleta e destinação",
+    "Manifesto de transporte de resíduos (ponto fixo)"
+   ],
+   "referencias": [
+    "RDC 222/2018",
+    "RDC 44/2009, arts. 38, 73, 93 e 97",
+    "Decreto 10.388/2020"
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m10-pop-reclamacoes",
+   "titulo": "Reclamações, recolhimento e farmacovigilância",
+   "codigo": "POP-QUA-01",
+   "objetivo": "Registrar e investigar reclamações, notificar eventos adversos e queixas técnicas e executar recolhimentos de forma rastreável.",
+   "abrangencia": "Todos os canais de atendimento (balcão, telefone, internet).",
+   "responsaveis": [
+    "Qualquer funcionário: receber a reclamação e acionar o farmacêutico",
+    "Farmacêutico: avaliação, notificação e comunicação com o cliente",
+    "Farmacêutico RT: execução de recolhimentos e análise de tendências"
+   ],
+   "materiais": [
+    "Formulário de reclamação",
+    "Acesso ao VigiMed e ao Notivisa",
+    "Contatos do SAC dos fabricantes e da vigilância sanitária local",
+    "Etiquetas de segregação"
+   ],
+   "procedimento": [
+    "Registrar a reclamação: data, cliente, produto, lote, validade, onde foi comprado e descrição do problema.",
+    "Recolher, se possível, a amostra e a embalagem, sem descartar.",
+    "Classificar: evento adverso (dano ou efeito indesejado no paciente), queixa técnica (desvio de qualidade, defeito, rótulo, suspeita de falsificação) ou erro de dispensação.",
+    "Se houver risco clínico, orientar o cliente a procurar atendimento imediatamente.",
+    "Evento adverso suspeito: notificar no VigiMed; a suspeita basta (RDC 44/2009, art. 67).",
+    "Queixa técnica: notificar no Notivisa como profissional ou serviço cadastrado, comunicar o SAC do fabricante e a vigilância local conforme o caso.",
+    "Suspeita de falsificação ou adulteração: segregar o lote em estoque e notificar a autoridade sanitária imediatamente (art. 34, §2º).",
+    "Erro de dispensação: contatar o cliente, corrigir, registrar e investigar a causa para revisar o POP.",
+    "Ao receber alerta de recolhimento da Anvisa ou comunicado do detentor do registro, localizar lotes no sistema e no estoque e bloquear a venda no mesmo dia.",
+    "Segregar os itens recolhidos em área identificada como \"recolhido, não comercializar\" (art. 38, §3º).",
+    "Devolver ou destinar conforme as instruções do recolhimento e guardar o comprovante.",
+    "Dar retorno ao cliente com a conclusão.",
+    "Revisar mensalmente as reclamações para identificar repetição."
+   ],
+   "cuidados": [
+    "Não trocar produto suspeito sem registrar o lote.",
+    "Não descartar a amostra antes da conclusão.",
+    "Usar iniciais do paciente nas notificações para proteger dados."
+   ],
+   "registros": [
+    "Formulário de reclamação e conclusão",
+    "Comprovantes de notificação (VigiMed, Notivisa)",
+    "Termo de recolhimento com quantidades e lotes"
+   ],
+   "referencias": [
+    "RDC 44/2009, arts. 34, 38 e 67",
+    "Lei 13.021/2014, art. 13, I",
+    "Anvisa: VigiMed e Notivisa (portal gov.br/anvisa)"
+   ]
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m10-fluxo-reclamacao",
+   "titulo": "Reclamação sobre medicamento",
+   "passos": [
+    {
+     "t": "Cliente relata problema com medicamento comprado na loja",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Registrar dados do cliente, produto, lote, validade e relato; guardar amostra e embalagem",
+     "tipo": "acao"
+    },
+    {
+     "t": "Há sintoma grave agora?",
+     "tipo": "decisao",
+     "sim": "Orientar atendimento imediato ou acionar SAMU (192) e depois seguir",
+     "nao": "Seguir para a classificação"
+    },
+    {
+     "t": "Houve efeito indesejado no paciente?",
+     "tipo": "decisao",
+     "sim": "Notificar evento adverso no VigiMed",
+     "nao": "Seguir"
+    },
+    {
+     "t": "Há defeito no produto ou suspeita de falsificação?",
+     "tipo": "decisao",
+     "sim": "Segregar o lote em estoque; notificar queixa técnica no Notivisa e a vigilância local; SAC do fabricante",
+     "nao": "Investigar erro de dispensação ou de uso"
+    },
+    {
+     "t": "Suspeita de falsificação exige notificação imediata à autoridade sanitária (RDC 44/2009, art. 34, §2º)",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Dar retorno ao cliente e registrar a conclusão",
+     "tipo": "acao"
+    },
+    {
+     "t": "Revisar POP envolvido se a causa for interna; arquivar por 5 anos",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "id": "m10-check-autoinspecao",
+   "titulo": "Autoinspeção para a vigilância sanitária",
+   "itens": [
+    "AFE, AE (se aplicável), licença sanitária e certidão do CRF válidas",
+    "Licença sanitária e certidão do CRF afixadas em local visível",
+    "Cartaz com dados da empresa, RT, substitutos e horários de cada farmacêutico",
+    "Farmacêutico presente e identificado em todo o horário de funcionamento",
+    "Manual de Boas Práticas específico, atualizado e assinado",
+    "Lista mestra de POPs com versão vigente e data de revisão",
+    "Todos os POPs aprovados, assinados e datados pelo RT",
+    "Registros de treinamento com conteúdo, carga horária, assinaturas e avaliação",
+    "Registro de divulgação dos POPs para cada funcionário",
+    "Planilha de temperatura e umidade do ambiente preenchida no horário definido",
+    "Planilha da geladeira com leituras de abertura e fechamento, máxima e mínima",
+    "Ações corretivas registradas nas leituras fora da faixa",
+    "Certificados de calibração dos termômetros e aparelhos de serviços dentro do prazo",
+    "Geladeira exclusiva, sem alimentos, com produtos fora da porta",
+    "Produtos afastados de piso, parede e teto e protegidos do sol",
+    "Controlados em armário com chave sob guarda do farmacêutico",
+    "Área segregada identificada para vencidos, avariados, suspeitos e recolhidos",
+    "Nenhum produto vencido na área de venda ou no estoque utilizável",
+    "Inflamáveis e corrosivos longe de fonte de calor, com POP",
+    "Cartaz sobre automedicação visível na área de medicamentos",
+    "Lista de genéricos e de serviços públicos de saúde disponível",
+    "Serviços prestados coincidem com os da licença sanitária",
+    "Sala de serviços limpa, com registro de limpeza no início e no fim do dia",
+    "Lavatório com sabonete líquido, toalha descartável, gel e lixeira com pedal e tampa",
+    "Coletor de perfurocortantes abaixo de 3/4",
+    "Cópias de DSF e registros de serviços com consentimento",
+    "PGRSS atualizado, contrato e comprovantes de coleta arquivados",
+    "Comprovante de desratização e desinsetização por empresa licenciada",
+    "Comprovante de limpeza da caixa d'água, se houver",
+    "SNGPC transmitido dentro do prazo; receitas retidas organizadas",
+    "Notas fiscais com lote e fabricante arquivadas"
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m10-cartoes",
+   "titulo": "Cartões de revisão: POPs",
+   "itens": [
+    {
+     "f": "Quem aprova o POP na farmácia?",
+     "v": "O farmacêutico responsável técnico, que aprova, assina e data (RDC 44/2009, art. 87)."
+    },
+    {
+     "f": "Diferença entre Manual de Boas Práticas e POP",
+     "v": "O Manual diz o que a farmácia faz e suas políticas; o POP descreve como executar cada atividade."
+    },
+    {
+     "f": "Por quanto tempo a documentação fica na farmácia?",
+     "v": "No mínimo 5 anos, à disposição da vigilância (RDC 44/2009, art. 89)."
+    },
+    {
+     "f": "Conteúdo mínimo do registro de treinamento",
+     "v": "Atividade, data e carga horária, conteúdo, treinados com assinatura, instrutor e resultado da avaliação (art. 28)."
+    },
+    {
+     "f": "O que o POP de temperatura precisa definir, além da leitura?",
+     "v": "A faixa de horário de maior temperatura e umidade e as medidas quando houver condição inadequada (art. 35, §§ 4º e 5º)."
+    },
+    {
+     "f": "Que artigo da RDC 44/2009 exige POP para inflamáveis?",
+     "v": "Art. 39: justificativa em POP e guarda longe de calor e faíscas."
+    },
+    {
+     "f": "Parâmetros fisiológicos permitidos na farmácia",
+     "v": "Pressão arterial e temperatura corporal (RDC 44/2009, art. 69, §1º)."
+    },
+    {
+     "f": "Que norma regula hoje a glicemia capilar feita pelo farmacêutico?",
+     "v": "RDC 978/2025: a farmácia precisa ser Serviço Tipo I, com controle interno e externo da qualidade."
+    },
+    {
+     "f": "Frase obrigatória na DSF após aferição ou exame",
+     "v": "\"ESTE PROCEDIMENTO NÃO TEM FINALIDADE DE DIAGNÓSTICO E NÃO SUBSTITUI A CONSULTA MÉDICA\" (redação da RDC 786/2023)."
+    },
+    {
+     "f": "Quando trocar o coletor de perfurocortantes?",
+     "v": "Ao atingir 3/4 da capacidade ou conforme o fabricante; proibido esvaziar e reaproveitar (RDC 222/2018, art. 87)."
+    },
+    {
+     "f": "Vencido do estoque vai para o coletor de descarte dos clientes?",
+     "v": "Não. Segue o PGRSS; o Decreto 10.388/2020 não se aplica a serviços de saúde (art. 5º, III)."
+    },
+    {
+     "f": "Frase obrigatória no dispensador contentor",
+     "v": "\"Descarte aqui os medicamentos domiciliares vencidos ou em desuso\" (Decreto 10.388/2020, art. 11)."
+    },
+    {
+     "f": "Validade da receita de antimicrobiano",
+     "v": "10 dias a partir da emissão, que conta como dia 0 (RDC 471/2021)."
+    },
+    {
+     "f": "Onde notificar evento adverso a medicamento?",
+     "v": "No VigiMed, da Anvisa; a simples suspeita basta."
+    },
+    {
+     "f": "Prazo para defesa contra auto de infração sanitária",
+     "v": "Quinze dias contados da notificação (Lei 6.437/1977, art. 22)."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m10-questoes",
+   "titulo": "Questões: POPs, serviços e inspeção",
+   "itens": [
+    {
+     "p": "Uma drogaria tem POPs elaborados pela gerente administrativa, assinados por ela e pelo proprietário. Segundo a RDC 44/2009, esses documentos:",
+     "alt": [
+      "Estão regulares, pois o responsável legal provê as condições de funcionamento",
+      "Estão regulares se a equipe tiver sido treinada e o treinamento registrado",
+      "Precisam ser aprovados, assinados e datados pelo farmacêutico RT",
+      "Precisam ser homologados pela vigilância sanitária antes do uso",
+      "Precisam ser registrados no Conselho Regional de Farmácia"
+     ],
+     "c": 2,
+     "com": "O art. 87 da RDC 44/2009 exige que os POPs sejam aprovados, assinados e datados pelo farmacêutico responsável técnico. O responsável legal provê recursos (art. 23), mas não aprova POP. Treinamento é obrigatório, porém não supre a aprovação. A norma não prevê homologação pela vigilância nem registro no CRF."
+    },
+    {
+     "p": "Farmacêutico de uma drogaria quer oferecer glicemia capilar usando glicosímetro de autoteste. Em outubro de 2026, a situação normativa é:",
+     "alt": [
+      "É exame de análise clínica: exige Serviço Tipo I e controle de qualidade",
+      "O autoteste nunca é considerado exame quando operado dentro da farmácia, por ser produto de venda livre",
+      "A glicemia capilar foi proibida em farmácias e drogarias pela RDC 786/2023",
+      "Basta constar em POP aprovado, pois a licença sanitária não precisa citar o serviço",
+      "O exame só pode ser feito por técnico de laboratório contratado"
+     ],
+     "c": 0,
+     "com": "A RDC 786/2023 revogou o art. 70 da RDC 44/2009 e a RDC 978/2025 passou a regular os exames. Segundo as perguntas e respostas da Anvisa sobre a RDC 978/2025, o uso de autoteste pelo farmacêutico na farmácia caracteriza exame de análise clínica, com exigência de controle interno e externo da qualidade, e a glicemia é permitida em farmácia Serviço Tipo I. A licença precisa indicar a atividade (RDC 978/2025, art. 63; RDC 44/2009, art. 61, §3º). O exame é feito por profissional legalmente habilitado, como o farmacêutico."
+    },
+    {
+     "p": "Na sala de serviços, o coletor de perfurocortantes está quase cheio. A conduta correta, segundo a RDC 222/2018, é:",
+     "alt": [
+      "Usar até o limite da tampa e então lacrar",
+      "Esvaziar o conteúdo em saco branco leitoso e reaproveitar o coletor",
+      "Trocar uma vez por semana, independentemente do volume",
+      "Substituir ao atingir 3/4 da capacidade ou conforme o fabricante",
+      "Transferir o conteúdo para outro coletor maior, de uso exclusivo da sala"
+     ],
+     "c": 3,
+     "com": "O art. 87 da RDC 222/2018 determina a substituição quando o preenchimento atingir 3/4 da capacidade ou conforme o fabricante, sendo proibidos o esvaziamento manual e o reaproveitamento. Encher até a tampa aumenta o risco de acidente; troca por calendário fixo ignora o volume; transferir conteúdo equivale a esvaziamento manual."
+    },
+    {
+     "p": "Drogaria em município de 600 mil habitantes é ponto fixo de recebimento de medicamentos domiciliares. Um cliente traz cartelas vencidas. Pelo Decreto 10.388/2020, a farmácia deve:",
+     "alt": [
+      "Receber e incluir os produtos na caixa de vencidos do próprio estoque da loja",
+      "Manter dispensador contentor e registrar a massa recebida",
+      "Recusar, porque a logística reversa cabe só às unidades de saúde",
+      "Receber apenas se o cliente apresentar a nota fiscal de compra",
+      "Encaminhar o cliente diretamente ao distribuidor da região"
+     ],
+     "c": 1,
+     "com": "Os arts. 10 a 12 do Decreto 10.388/2020 obrigam a farmácia ponto fixo a manter dispensador contentor, armazenamento primário quando necessário e registro da massa, em quilogramas, no manifesto de transporte de resíduos. Misturar com vencidos do estoque é errado, porque estes seguem o PGRSS (art. 5º, III). Não há exigência de nota fiscal, e a coleta pelo distribuidor ocorre a partir da farmácia (art. 14)."
+    },
+    {
+     "p": "Após aferir a pressão arterial de um cliente, o farmacêutico emite a Declaração de Serviço Farmacêutico. Com a redação atual da RDC 44/2009, ela deve conter:",
+     "alt": [
+      "Diagnóstico provável e sugestão de anti-hipertensivo",
+      "Apenas o valor medido, sem valores de referência, para não induzir interpretação do cliente",
+      "Valor medido, referência e frase de que substitui exames laboratoriais",
+      "Assinatura do cliente e do médico responsável pela farmácia",
+      "Valores, referência, orientação e alerta de que não tem fim diagnóstico"
+     ],
+     "c": 4,
+     "com": "O art. 81 exige valores medidos seguidos dos valores de referência, orientação, data, assinatura e carimbo do farmacêutico, além da frase de alerta, que após a RDC 786/2023 diz: \"ESTE PROCEDIMENTO NÃO TEM FINALIDADE DE DIAGNÓSTICO E NÃO SUBSTITUI A CONSULTA MÉDICA\". A aferição não tem finalidade diagnóstica (art. 69) e é vedado indicar medicamento de venda sob prescrição (art. 69, §4º). Não existe médico responsável pela farmácia."
+    },
+    {
+     "p": "Na documentação de uma farmácia, a planilha da geladeira preenchida e assinada pelo balconista é classificada como:",
+     "alt": [
+      "Manual de Boas Práticas",
+      "Procedimento operacional padrão",
+      "Registro",
+      "Instrução de trabalho",
+      "Plano de gerenciamento"
+     ],
+     "c": 2,
+     "com": "Registro é o documento que prova que a atividade foi feita (RDC 44/2009, arts. 35, §3º, e 88). O POP descreve como fazer a leitura; o Manual traz políticas e organização; a instrução de trabalho detalha uma etapa, como operar o termômetro; o plano de gerenciamento refere-se a resíduos (PGRSS)."
+    },
+    {
+     "p": "Receita de amoxicilina emitida em 03/03. A cliente chega à farmácia em 13/03, sem indicação de uso contínuo. Pela RDC 471/2021, o farmacêutico:",
+     "alt": [
+      "Recusa, porque a receita venceu em 10/03, com 7 dias de validade",
+      "Dispensa, porque 13/03 é o 10º dia, ainda dentro da validade",
+      "Recusa, porque o dia da emissão conta como dia 1",
+      "Dispensa somente metade da quantidade prescrita",
+      "Dispensa, porque antimicrobiano oral não exige retenção"
+     ],
+     "c": 1,
+     "com": "A receita de antimicrobiano vale por 10 dias a contar da emissão, e o dia da emissão é o dia 0. Assim, 13/03 é o dia 10, ainda válido. Não existe validade de 7 dias, a contagem não começa em 1, não há dispensação de metade como regra, e a retenção da segunda via é obrigatória."
+    },
+    {
+     "p": "Durante a inspeção, o fiscal pergunta quais documentos precisam estar afixados em local visível ao público. Segundo a RDC 44/2009, art. 2º, §1º, são:",
+     "alt": [
+      "Manual de Boas Práticas e lista de POPs",
+      "Certificado de calibração dos aparelhos e o PGRSS completo",
+      "AFE e notas fiscais de compra",
+      "Licença ou alvará sanitário e Certidão de Regularidade Técnica",
+      "Contrato de coleta de resíduos e laudo de dedetização do último semestre"
+     ],
+     "c": 3,
+     "com": "O art. 2º, §1º, exige que a licença ou alvará sanitário e a Certidão de Regularidade Técnica fiquem afixados em local visível ao público. Os demais documentos devem existir no estabelecimento e ser apresentados quando solicitados, mas não precisam ficar expostos."
+    },
+    {
+     "p": "Farmácia privada licenciada para vacinação recebe cliente que pede vacina não incluída no Calendário Nacional de Vacinação, sem prescrição. Conforme a RDC 197/2017:",
+     "alt": [
+      "A aplicação exige prescrição médica nesse caso",
+      "Pode aplicar, pois toda vacina registrada é de venda livre",
+      "Pode aplicar se o cliente assinar termo de responsabilidade",
+      "Pode dispensar a vacina para aplicação em outro local",
+      "Deve recusar, porque farmácia só aplica vacinas do calendário"
+     ],
+     "c": 0,
+     "com": "O art. 14 da RDC 197/2017 determina que a administração, em estabelecimento privado, de vacinas não contempladas no Calendário Nacional seja feita mediante prescrição médica, e a dispensação deve estar vinculada à administração. Termo de responsabilidade não supre a exigência. Farmácias podem aplicar vacinas fora do calendário com prescrição."
+    },
+    {
+     "p": "Sobre a perfuração de lóbulo auricular em farmácias, é correto afirmar:",
+     "alt": [
+      "Foi excluída dos serviços permitidos pela RDC 786/2023",
+      "Pode ser feita com agulha de injeção estéril de grosso calibre",
+      "O brinco pode ser reutilizado se for esterilizado na própria farmácia, em estufa",
+      "Dispensa POP, por ser procedimento estético",
+      "Exige aparelho que use o próprio brinco como material perfurante"
+     ],
+     "c": 4,
+     "com": "O art. 78 da RDC 44/2009 exige aparelho específico que use o brinco como material perfurante e veda agulhas de injeção, de sutura ou outros objetos. A RDC 786/2023 não retirou o serviço do art. 61, §1º. O art. 80 exige POP com antissepsia, assepsia do aparelho, EPI e referência. Leis estaduais como a de São Paulo vedam a reutilização de brincos."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Anvisa. Resolução RDC nº 44, de 17 de agosto de 2009. Boas Práticas Farmacêuticas em farmácias e drogarias. Diário Oficial da União, 2009. https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2009/rdc0044_17_08_2009.html",
+  "Anvisa. Resolução RDC nº 786, de 5 de maio de 2023. Serviços que executam exames de análises clínicas; art. 155 altera a RDC 44/2009 e art. 157 revoga o §2º do art. 69 e o art. 70. Diário Oficial da União, 10 maio 2023. https://www.in.gov.br/en/web/dou/-/resolucao-rdc-n-786-de-5-de-maio-de-2023-482394228",
+  "Anvisa. Resolução RDC nº 978, de 6 de junho de 2025. Funcionamento de serviços que executam exames de análises clínicas. Diário Oficial da União, 10 jun. 2025. https://www.in.gov.br/en/web/dou/-/resolucao-anvisa-n-978-de-6-de-junho-de-2025-635044217",
+  "Anvisa. Perguntas e respostas: RDC nº 978/2025, 1ª versão revisada. Gerência-Geral de Tecnologia em Serviços de Saúde, ago. 2025.",
+  "Anvisa. Resolução RDC nº 80, de 11 de maio de 2006. Fracionamento de medicamentos em farmácias e drogarias. Diário Oficial da União, 2006. https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2006/rdc0080_11_05_2006.html",
+  "Anvisa. Resolução RDC nº 197, de 26 de dezembro de 2017. Requisitos mínimos para o funcionamento dos serviços de vacinação humana. Diário Oficial da União, 2017.",
+  "Anvisa. Resolução RDC nº 222, de 28 de março de 2018. Boas Práticas de Gerenciamento dos Resíduos de Serviços de Saúde. Diário Oficial da União, 2018.",
+  "Anvisa. Resolução RDC nº 430, de 8 de outubro de 2020. Boas Práticas de Distribuição, Armazenagem e de Transporte de Medicamentos. Diário Oficial da União, 9 out. 2020. https://www.in.gov.br/en/web/dou/-/resolucao-de-diretoria-colegiada-rdc-n-430-de-8-de-outubro-de-2020-282070593",
+  "Anvisa. Resolução RDC nº 471, de 23 de fevereiro de 2021, e alteração pela RDC nº 973/2025 (agonistas de GLP-1); Instrução Normativa nº 360/2025.",
+  "Brasil. Lei nº 13.021, de 8 de agosto de 2014. Exercício e fiscalização das atividades farmacêuticas. https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13021.htm",
+  "Brasil. Lei nº 14.675, de 14 de setembro de 2023. Funcionamento dos serviços privados de vacinação humana. https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14675.htm",
+  "Brasil. Decreto nº 10.388, de 5 de junho de 2020. Logística reversa de medicamentos domiciliares vencidos ou em desuso. https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10388.htm",
+  "Brasil. Lei nº 6.437, de 20 de agosto de 1977. Infrações à legislação sanitária federal e sanções.",
+  "Ministério da Saúde. Manual de Rede de Frio do Programa Nacional de Imunizações. 6ª ed. Brasília, 2025.",
+  "Conselho Federal de Farmácia. Justiça mantém resolução do CFF sobre vacinação por farmacêuticos (Resolução CFF nº 654/2018). Notícia, 12 jun. 2026. https://site.cff.org.br",
+  "Conselho Federal de Farmácia. Anvisa reestabelece prazos para transmissão obrigatória de arquivos eletrônicos ao SNGPC (2025) e SNCR: o que muda para farmácias e drogarias (2026). https://site.cff.org.br",
+  "Conselho Federal de Farmácia. Anvisa estabelece novas regras para prescrição e dispensação de medicamentos agonistas de GLP-1. Notícia, 16 jan. 2026.",
+  "Conselho Federal de Farmácia. Farmacêuticos propõem norma para furo na orelha com foco em atendimento humanizado. Notícia, 28 jul. 2025.",
+  "São Paulo (Estado). Lei nº 16.660, de 12 de janeiro de 2018. Ceará (Estado). Lei nº 16.503, de 19 de dezembro de 2017.",
+  "Brandão AA et al. Diretriz Brasileira de Hipertensão Arterial 2025. Arq Bras Cardiol. 2025;122(9):e20250624. doi:10.36660/abc.20250624",
+  "Anvisa. VigiMed e Notivisa: sistemas de notificação. Portal gov.br/anvisa, consultado em out. 2026."
+ ]
+}

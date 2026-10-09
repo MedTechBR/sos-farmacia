@@ -1,0 +1,1025 @@
+{
+ "id": "m03",
+ "num": 3,
+ "parte": "a",
+ "titulo": "Farmacologia geral",
+ "escopo": "Farmacocinética, farmacodinâmica e formas farmacêuticas aplicadas ao balcão, fármacos do sistema nervoso central e antimicrobianos, com mecanismo, uso, efeitos adversos, interações e orientação ao paciente.",
+ "topicos": [
+  {
+   "id": "m03-farmacocinetica",
+   "titulo": "Farmacocinética aplicada ao balcão",
+   "resumo": "<p>Farmacocinética descreve o que o organismo faz com o medicamento: absorção, distribuição, metabolismo e excreção (ADME). Para quem trabalha no balcão, esses conceitos explicam orientações do dia a dia, como tomar a levotiroxina em jejum, separar o ciprofloxacino do leite ou desconfiar quando um anticonvulsivante e um anticoncepcional aparecem na mesma receita.</p>\n<h3>Absorção</h3>\n<p>Absorção é a passagem do fármaco do local de administração para a corrente sanguínea. Por via oral, quase tudo é absorvido no intestino delgado, por difusão passiva da forma não ionizada e lipossolúvel. Interferem na absorção o pH do meio, o esvaziamento gástrico, a presença de alimento, o fluxo sanguíneo local e a formação de complexos insolúveis.</p>\n<ul>\n<li><strong>Jejum</strong>: levotiroxina e alendronato têm absorção reduzida por alimento; a bula orienta tomar em jejum, com água, e aguardar antes do café da manhã (o alendronato exige ainda permanecer em pé).</li>\n<li>Quelação: tetraciclinas e fluoroquinolonas formam complexos com cálcio, magnésio, alumínio, ferro e zinco (leite, antiácidos, suplementos). O intervalo entre as tomadas vem na bula de cada produto.</li>\n<li>Alimento que aumenta absorção: alguns fármacos precisam de refeição, como lurasidona e ziprasidona (ver antipsicóticos).</li>\n<li>pH gástrico: inibidores da bomba de prótons reduzem a absorção de fármacos que dependem de meio ácido, como o itraconazol em cápsula e o sal carbonato de cálcio.</li>\n</ul>\n<h3>Biodisponibilidade e efeito de primeira passagem</h3>\n<p>Biodisponibilidade (F) é a fração da dose que chega inalterada à circulação sistêmica. Por via intravenosa, F é 100% por definição. Por via oral, parte do fármaco se perde na parede intestinal e no fígado antes de alcançar a circulação: é o efeito de primeira passagem. Fármacos com primeira passagem intensa têm dose oral bem maior que a parenteral. A morfina oral tem biodisponibilidade baixa e variável, por isso a dose oral equivalente é cerca de 3 vezes a parenteral. A nitroglicerina e o dinitrato de isossorbida sublinguais escapam da primeira passagem porque a mucosa oral drena para a veia cava, sem passar pelo fígado.</p>\n<p>Genéricos e similares intercambiáveis demonstram bioequivalência com o referência: a velocidade e a extensão da absorção (Cmáx e área sob a curva) ficam dentro de limites estatísticos aceitos pela Anvisa.</p>\n<h3>Distribuição</h3>\n<p>Depois de absorvido, o fármaco se distribui para os tecidos. O volume de distribuição (Vd) é um volume aparente que relaciona a quantidade no corpo com a concentração no plasma. Vd alto (amiodarona, antidepressivos tricíclicos) indica grande acúmulo nos tecidos; Vd baixo (varfarina) indica fármaco preso ao plasma.</p>\n<p>Só a fração livre (não ligada à albumina) atravessa membranas e age. Fármacos muito ligados a proteínas, como varfarina, fenitoína e ácido valproico, podem ter mais efeito quando a albumina cai (desnutrição, cirrose, síndrome nefrótica, idoso frágil). A barreira hematoencefálica limita a entrada de fármacos polares no sistema nervoso central: a domperidona age pouco no cérebro, enquanto a metoclopramida atravessa e causa efeitos extrapiramidais. Placenta e leite materno recebem fármacos lipossolúveis e de baixo peso molecular.</p>\n<h3>Metabolismo e o sistema CYP450</h3>\n<p>O metabolismo transforma o fármaco em compostos mais polares, fáceis de excretar. Na fase I (oxidação, redução, hidrólise) atuam principalmente as enzimas do citocromo P450 (CYP). Na fase II, o fármaco ou seu metabólito é conjugado (glicuronidação, sulfatação, acetilação, conjugação com glutationa). O fígado concentra a maior parte dessa atividade, mas o intestino também contribui, sobretudo com a CYP3A4.</p>\n<div class=\"tab\"><table><thead><tr><th>Isoenzima</th><th>Substratos de balcão</th><th>Observação</th></tr></thead><tbody>\n<tr><td>CYP3A4</td><td>Sinvastatina, atorvastatina, anlodipino, sildenafila, midazolam, alprazolam, carbamazepina, fentanil, ciclosporina</td><td>Metaboliza cerca de metade dos fármacos de uso clínico</td></tr>\n<tr><td>CYP2D6</td><td>Codeína, tramadol, metoprolol, tricíclicos, risperidona, tamoxifeno</td><td>Polimorfismo genético: metabolizadores lentos e ultrarrápidos</td></tr>\n<tr><td>CYP2C9</td><td>Varfarina, fenitoína, AINE, losartana, glibenclamida</td><td>Interação com varfarina causa sangramento</td></tr>\n<tr><td>CYP2C19</td><td>Clopidogrel, omeprazol, citalopram, escitalopram, diazepam</td><td>Ativa o clopidogrel</td></tr>\n<tr><td>CYP1A2</td><td>Teofilina, clozapina, olanzapina, cafeína, agomelatina</td><td>Induzida pelo tabaco fumado</td></tr>\n</tbody></table></div>\n<p><strong>Indutores</strong> aumentam a quantidade de enzima. O efeito começa devagar, em cerca de 1 a 2 semanas, e também demora a desaparecer depois da suspensão. Exemplos: carbamazepina, fenitoína, fenobarbital, rifampicina, erva-de-são-joão (hipérico) e o tabagismo (CYP1A2, pelos hidrocarbonetos da fumaça, não pela nicotina). Consequência típica: falha terapêutica do outro fármaco, como gravidez com anticoncepcional hormonal em quem usa carbamazepina.</p>\n<p>Inibidores bloqueiam a enzima e o efeito aparece em horas a poucos dias. Exemplos: claritromicina, eritromicina, cetoconazol, itraconazol, fluconazol, ritonavir, suco de toranja (CYP3A4 intestinal), fluoxetina, paroxetina e bupropiona (CYP2D6), fluvoxamina e ciprofloxacino (CYP1A2), omeprazol (CYP2C19). Consequência típica: toxicidade do outro fármaco, como miopatia com sinvastatina associada a claritromicina.</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Indutor reduz o efeito do substrato e a resposta demora a aparecer. Inibidor aumenta o efeito do substrato e a resposta é rápida. Quando o substrato é um pró-fármaco, a lógica se inverte: inibir a enzima reduz o efeito.</p></div>\n<h4>Pró-fármacos</h4>\n<p>Pró-fármaco é inativo (ou pouco ativo) e depende do metabolismo para gerar a forma ativa. Exemplos: codeína em morfina e tramadol em O-desmetiltramadol (CYP2D6), clopidogrel no metabólito ativo (CYP2C19), enalapril em enalaprilato (esterases), valaciclovir em aciclovir, levodopa em dopamina. Paciente que usa fluoxetina ou paroxetina (inibidores fortes da CYP2D6) pode ter pouca analgesia com codeína ou tramadol.</p>\n<h3>Excreção</h3>\n<p>Os rins eliminam fármacos e metabólitos polares por filtração glomerular e secreção tubular; parte pode ser reabsorvida. A via biliar elimina pelas fezes e alguns compostos voltam ao sangue pela circulação êntero-hepática. Fármacos de eliminação renal predominante acumulam quando a função renal cai: gabapentina, pregabalina, levetiracetam, lítio, metformina, digoxina, aciclovir, a maioria dos antibióticos betalactâmicos e os metabólitos da morfina.</p>\n<h3>Meia-vida e estado de equilíbrio</h3>\n<p>Meia-vida (t½) é o tempo para a concentração plasmática cair pela metade. Depois de 4 a 5 meias-vidas, praticamente todo o fármaco foi eliminado (cerca de 94 a 97%). O mesmo número de meias-vidas é necessário para atingir o estado de equilíbrio (steady state) quando o fármaco é tomado em doses regulares: a quantidade que entra por intervalo se iguala à que sai.</p>\n<ul>\n<li>Fármaco de meia-vida longa demora a atingir o equilíbrio. Quando o efeito precisa ser rápido, o médico usa dose de ataque.</li>\n<li>A fluoxetina e seu metabólito ativo (norfluoxetina) têm meia-vida longa. Por isso a troca de fluoxetina por um inibidor da monoaminoxidase (IMAO) exige intervalo de semanas, conforme a bula.</li>\n<li>Meia-vida curta exige várias tomadas ao dia ou forma de liberação prolongada.</li>\n</ul>\n<h3>Função renal: estimativa pela CKD-EPI 2021</h3>\n<p>A referência atual para estimar a taxa de filtração glomerular (TFG) é a equação CKD-EPI 2021, sem coeficiente de raça (KDIGO 2024). Ela usa creatinina sérica, idade e sexo:</p>\n<p>TFGe = 142 × min(Scr/κ; 1)<sup>α</sup> × max(Scr/κ; 1)<sup>-1,200</sup> × 0,9938<sup>idade</sup> × 1,012 (se mulher), em que κ = 0,7 (mulher) ou 0,9 (homem) e α = -0,241 (mulher) ou -0,302 (homem). Resultado em mL/min/1,73 m².</p>\n<p>Laboratórios já liberam a TFGe junto com a creatinina. A bula de cada medicamento indica o ajuste por faixa de TFG. Exemplos de balcão: metformina contraindicada com TFG abaixo de 30 mL/min/1,73 m² (bula); gabapentina, pregabalina e levetiracetam com redução de dose; AINE a evitar na doença renal crônica.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Creatinina “normal” não garante rim normal no idoso com pouca massa muscular. Sempre que houver ajuste renal na bula, o dado a usar é a TFG estimada, e não a creatinina isolada.</p></div>\n<h3>Função hepática</h3>\n<p>Não existe um exame único que estime a capacidade de metabolizar fármacos. Usa-se a classificação de Child-Pugh (bilirrubina, albumina, tempo de protrombina, ascite, encefalopatia) e a bula de cada produto. Em hepatopatas, benzodiazepínicos que dependem só de glicuronidação (lorazepam, oxazepam) acumulam menos que diazepam e alprazolam. Paracetamol exige dose diária menor e cautela com álcool. Fármacos com grande primeira passagem ficam mais biodisponíveis na cirrose.</p>\n<h3>Idoso</h3>\n<p>Com o envelhecimento aumenta a gordura corporal e diminuem a água total, a massa muscular e a TFG. Fármacos lipossolúveis (diazepam) acumulam por mais tempo; fármacos hidrossolúveis (lítio, digoxina) atingem concentração maior. A sensibilidade do sistema nervoso central também aumenta, o que explica quedas e confusão com sedativos.</p>\n<h3>Gestação e lactação</h3>\n<p>Na gestação, o volume plasmático, a TFG e a atividade de algumas enzimas aumentam, e a concentração de vários fármacos cai (lamotrigina, levetiracetam, lítio). A placenta deixa passar fármacos lipossolúveis e de baixo peso molecular, e o risco para o feto depende da fase: no primeiro trimestre predominam as malformações; depois, efeitos sobre crescimento e função. No leite materno passam fármacos lipossolúveis, pouco ligados a proteínas e de meia-vida longa. A exposição do lactente é estimada pela dose relativa infantil; bases como o LactMed (NIH) e o manual do Ministério da Saúde sobre amamentação e uso de medicamentos ajudam na consulta. O farmacêutico deve perguntar sobre gravidez e amamentação antes de qualquer indicação.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Perguntas que revelam problema farmacocinético: “Toma algum outro remédio, chá ou suplemento?”, “Fuma? Parou de fumar recentemente?”, “Tem problema nos rins ou no fígado?”, “Toma com comida ou em jejum?”. Parar de fumar reduz a indução da CYP1A2 e pode elevar a concentração de clozapina e olanzapina em poucas semanas: o prescritor precisa saber.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 52 anos usa levotiroxina e começou carbonato de cálcio com vitamina D, tomando os dois juntos pela manhã. O TSH subiu. O farmacêutico orienta tomar a levotiroxina em jejum, com água, e o cálcio só horas depois, em outra refeição, e comunica ao médico a mudança no horário.</p></div>"
+  },
+  {
+   "id": "m03-farmacodinamica",
+   "titulo": "Farmacodinâmica e segurança",
+   "resumo": "<p>Farmacodinâmica estuda o que o fármaco faz no organismo: onde se liga, que resposta provoca e com que intensidade. Os conceitos de agonista, antagonista, potência e eficácia explicam por que a naloxona reverte a morfina, por que a buprenorfina tem efeito teto e por que alguns medicamentos exigem tanto cuidado com a dose.</p>\n<h3>Alvos dos fármacos</h3>\n<p>A maioria dos fármacos age em proteínas: receptores, enzimas, canais iônicos e transportadores. Os receptores se agrupam em quatro famílias principais.</p>\n<div class=\"tab\"><table><thead><tr><th>Tipo de receptor</th><th>Velocidade</th><th>Exemplos</th></tr></thead><tbody>\n<tr><td>Canal iônico controlado por ligante</td><td>Milissegundos</td><td>GABA-A (benzodiazepínicos, barbitúricos, drogas Z), nicotínico</td></tr>\n<tr><td>Acoplado à proteína G</td><td>Segundos</td><td>Opioides, adrenérgicos, dopaminérgicos, serotoninérgicos, muscarínicos, histamínicos</td></tr>\n<tr><td>Ligado a enzima (quinase)</td><td>Minutos</td><td>Insulina, fatores de crescimento</td></tr>\n<tr><td>Nuclear</td><td>Horas a dias</td><td>Corticoides, hormônio tireoidiano, estrogênio</td></tr>\n</tbody></table></div>\n<p>Outros alvos: enzimas (AINE inibem a cicloxigenase, IMAO inibem a monoaminoxidase), transportadores (inibidores seletivos da recaptação de serotonina bloqueiam o transportador SERT) e canais iônicos dependentes de voltagem (anestésicos locais e vários anticonvulsivantes bloqueiam canais de sódio).</p>\n<h3>Agonistas e antagonistas</h3>\n<ul>\n<li><strong>Agonista pleno</strong>: liga-se e produz a resposta máxima do sistema. Exemplos: morfina e fentanil no receptor mu.</li>\n<li>Agonista parcial: liga-se mas produz resposta submáxima, mesmo com todos os receptores ocupados. Na presença de agonista pleno, comporta-se como antagonista parcial. Exemplos: buprenorfina (mu) e aripiprazol (D2). A buprenorfina tem efeito teto para depressão respiratória e pode precipitar abstinência em quem usa morfina ou metadona.</li>\n<li>Antagonista competitivo: ocupa o receptor sem ativá-lo e pode ser deslocado por dose maior de agonista. Exemplos: naloxona (opioides), flumazenil (benzodiazepínicos).</li>\n<li>Antagonista não competitivo: bloqueio que não se desfaz com mais agonista (ligação irreversível ou em outro sítio).</li>\n<li>Modulador alostérico positivo: liga-se em sítio diferente e potencializa o ligante natural. Os benzodiazepínicos aumentam o efeito do GABA, mas não abrem o canal sozinhos, o que explica a margem de segurança maior que a dos barbitúricos.</li>\n</ul>\n<h3>Potência e eficácia</h3>\n<p>Potência é a dose necessária para produzir determinado efeito (quanto menor a dose, mais potente). Eficácia é o efeito máximo alcançável. Fentanil é muito mais potente que a morfina (microgramas contra miligramas), mas a eficácia analgésica dos dois é semelhante. Tramadol e codeína têm eficácia menor que a morfina para dor intensa. Na prática, eficácia importa mais que potência: um fármaco potente só exige dose menor.</p>\n<h3>Índice terapêutico</h3>\n<p>Índice terapêutico (IT) é a relação entre a dose tóxica e a dose eficaz (DT50/DE50). Quanto mais estreito, menor a distância entre tratar e intoxicar. Fármacos de IT estreito pedem dose exata, monitorização de nível sérico ou de efeito, cuidado com interações e com troca de fabricante.</p>\n<div class=\"tab\"><table><thead><tr><th>Fármaco de IT estreito</th><th>O que monitorar</th><th>Risco típico</th></tr></thead><tbody>\n<tr><td>Varfarina</td><td>RNI</td><td>Sangramento com antibióticos, AINE, fluconazol, amiodarona</td></tr>\n<tr><td>Digoxina</td><td>Nível sérico, potássio, função renal</td><td>Náusea, arritmia, visão amarelada</td></tr>\n<tr><td>Lítio</td><td>Litemia, função renal, TSH</td><td>Intoxicação com AINE, diurético tiazídico, IECA, desidratação</td></tr>\n<tr><td>Fenitoína</td><td>Nível sérico, albumina</td><td>Cinética saturável: pequeno aumento de dose, grande aumento de nível</td></tr>\n<tr><td>Carbamazepina</td><td>Nível sérico, sódio, hemograma</td><td>Toxicidade com claritromicina, fluconazol</td></tr>\n<tr><td>Ácido valproico</td><td>Nível sérico, enzimas hepáticas, plaquetas</td><td>Queda grave com carbapenêmicos</td></tr>\n<tr><td>Fenobarbital</td><td>Nível sérico, sedação</td><td>Depressão do sistema nervoso central</td></tr>\n<tr><td>Teofilina</td><td>Nível sérico</td><td>Convulsão e arritmia com ciprofloxacino, fluvoxamina</td></tr>\n<tr><td>Levotiroxina</td><td>TSH</td><td>Variação de resposta com troca de produto e com cálcio ou ferro</td></tr>\n<tr><td>Tacrolimo e ciclosporina</td><td>Nível sérico, função renal</td><td>Rejeição com indutores, toxicidade com inibidores da CYP3A4</td></tr>\n<tr><td>Metotrexato oral</td><td>Hemograma, função renal e hepática</td><td>Erro de tomada diária no lugar de semanal</td></tr>\n</tbody></table></div>\n<h3>Tolerância, dependência e abstinência</h3>\n<p>Tolerância é a perda de efeito com o uso repetido, exigindo dose maior para o mesmo resultado. Pode ser farmacodinâmica (dessensibilização ou redução de receptores, como nos opioides e benzodiazepínicos) ou farmacocinética (autoindução do metabolismo, como na carbamazepina). Taquifilaxia é a tolerância que surge em horas ou dias: descongestionantes nasais tópicos (nafazolina, oximetazolina) perdem efeito e causam congestão de rebote quando usados por mais de poucos dias.</p>\n<p>Dependência física é a adaptação que gera síndrome de abstinência na suspensão abrupta. Acontece com opioides, benzodiazepínicos, barbitúricos, gabapentinoides, antidepressivos (síndrome de descontinuação) e até com betabloqueadores (rebote de taquicardia). Dependência física é diferente de transtorno por uso de substância, que envolve perda de controle, compulsão e prejuízo funcional.</p>\n<h3>Reações adversas a medicamentos</h3>\n<p>A Organização Mundial da Saúde define reação adversa a medicamento (RAM) como resposta nociva e não intencional que ocorre com doses normalmente usadas em seres humanos. A classificação clássica de Rawlins e Thompson separa dois grandes tipos, depois ampliada.</p>\n<div class=\"tab\"><table><thead><tr><th>Tipo</th><th>Característica</th><th>Exemplos</th></tr></thead><tbody>\n<tr><td>A (aumentada)</td><td>Dose-dependente, previsível pela farmacologia, frequente, baixa letalidade</td><td>Hipoglicemia por sulfonilureia, sangramento por varfarina, constipação por opioide</td></tr>\n<tr><td>B (bizarra)</td><td>Não depende da dose, imprevisível, rara, alta gravidade</td><td>Anafilaxia por penicilina, síndrome de Stevens-Johnson por lamotrigina, agranulocitose por clozapina</td></tr>\n<tr><td>C (crônica)</td><td>Ligada ao uso prolongado</td><td>Osteoporose por corticoide</td></tr>\n<tr><td>D (tardia)</td><td>Aparece muito depois</td><td>Teratogenicidade, discinesia tardia</td></tr>\n<tr><td>E (fim de uso)</td><td>Na suspensão</td><td>Abstinência de benzodiazepínico, rebote de clonidina</td></tr>\n<tr><td>F (falha)</td><td>Falha terapêutica, muitas vezes por interação</td><td>Gravidez com anticoncepcional e carbamazepina</td></tr>\n</tbody></table></div>\n<p>Para avaliar se o medicamento causou o evento, usa-se a relação temporal, a melhora com a retirada (dechallenge), a recorrência com a reintrodução (rechallenge) e a exclusão de outras causas. O algoritmo de Naranjo organiza essas perguntas em pontos e classifica a causalidade como definida, provável, possível ou duvidosa.</p>\n<h3>Interações farmacodinâmicas</h3>\n<p>Nem toda interação passa pelo CYP. Interações farmacodinâmicas acontecem quando dois fármacos agem sobre o mesmo sistema, sem alterar a concentração um do outro.</p>\n<ul>\n<li>Efeito aditivo ou sinérgico: benzodiazepínico com opioide ou álcool (depressão respiratória); dois serotoninérgicos (síndrome serotoninérgica); varfarina com AINE ou ácido acetilsalicílico (sangramento por mecanismos diferentes); vários fármacos que prolongam o QT; vários anticolinérgicos no idoso (confusão, retenção urinária); IECA ou bloqueador do receptor de angiotensina com espironolactona (hiperpotassemia).</li>\n<li>Antagonismo: AINE reduz o efeito de anti-hipertensivos e diuréticos; betabloqueador não seletivo reduz a resposta ao salbutamol; metoclopramida e antipsicóticos anulam a levodopa.</li>\n</ul>\n<p>A interação farmacodinâmica costuma ser previsível pela farmacologia de cada fármaco, e o raciocínio do farmacêutico começa por verificar se os dois fármacos sedam, causam sangramento, prolongam o QT, elevam serotonina, elevam potássio ou têm efeito anticolinérgico.</p>\n<h3>Farmacovigilância e VigiMed</h3>\n<p>Farmacovigilância é o conjunto de atividades de detecção, avaliação, compreensão e prevenção de efeitos adversos e outros problemas relacionados a medicamentos. Muitas reações raras só aparecem depois da comercialização, quando milhões de pessoas usam o produto. No Brasil, a notificação de eventos adversos a medicamentos e vacinas é feita no <strong>VigiMed</strong>, sistema da Anvisa baseado na plataforma da OMS, aberto a profissionais de saúde e cidadãos. Queixas técnicas (desvio de qualidade: comprimido quebrado, cor alterada, frasco sem lacre, suspeita de falsificação) seguem pelo canal de queixas técnicas da Anvisa.</p>\n<p>A notificação não exige certeza de causalidade. Basta a suspeita. Notificações de farmacêuticos de farmácia comunitária têm valor porque o balcão vê o paciente depois que ele sai do consultório.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Ao ouvir “desde que comecei este remédio, estou com…”, registre: nome do produto, lote, data de início, dose, o que aconteceu, quando começou, se melhorou ao parar e outros medicamentos em uso. Reação grave (falta de ar, inchaço de lábios, bolhas na pele, icterícia, sangramento) exige encaminhamento imediato ao serviço de urgência. Depois do atendimento, notifique no VigiMed.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Rapaz de 24 anos começou lamotrigina há três semanas e chega com febre, ardor nos olhos e lesões na boca. O farmacêutico reconhece sinal de alerta para reação cutânea grave, orienta procurar urgência sem tomar a próxima dose sem avaliação médica e notifica a suspeita no VigiMed.</p></div>"
+  },
+  {
+   "id": "m03-formas-vias",
+   "titulo": "Formas farmacêuticas e vias de administração",
+   "resumo": "<p>Boa parte dos erros de medicação depois da dispensação acontece em casa: o comprimido de liberação prolongada partido ao meio, as gotas medidas em mililitros, a suspensão sem agitar, o comprimido triturado para a sonda. A forma farmacêutica foi desenhada para controlar onde e quando o fármaco é liberado, e alterá-la muda o perfil de absorção e de segurança.</p>\n<h3>Formas de liberação modificada</h3>\n<p>Formas de liberação imediata liberam o fármaco logo após a desintegração. Formas de liberação modificada mudam o tempo ou o local da liberação:</p>\n<ul>\n<li><strong>Liberação prolongada</strong> (siglas comuns no nome comercial: LP, XR, ER, SR, CR, LA, retard, OROS, HBS): liberam a dose aos poucos, permitindo uma ou duas tomadas ao dia. Partir, triturar ou mastigar pode liberar a dose inteira de uma vez (dose dumping), com risco de intoxicação. Exemplos: oxicodona de liberação controlada, venlafaxina XR, metformina XR, nifedipino de liberação prolongada, levodopa com benserazida HBS, pramipexol de liberação prolongada.</li>\n<li>Liberação retardada ou gastrorresistente (revestimento entérico): o revestimento resiste ao ácido do estômago e só se dissolve no intestino. Protege o fármaco do ácido (omeprazol, pantoprazol) ou o estômago do fármaco (diclofenaco sódico, ácido acetilsalicílico com revestimento entérico). Triturar destrói essa proteção.</li>\n</ul>\n<p>Há exceções. Alguns comprimidos de liberação prolongada têm sulco funcional e a bula autoriza partir (sem mastigar ou triturar). Algumas cápsulas de liberação retardada contêm microgrânulos que podem ser abertos e dispersos em líquido ou alimento pastoso, desde que os grânulos não sejam mastigados. A regra segura é: só partir, abrir ou triturar quando a bula do produto autoriza.</p>\n<h3>Sublingual, orodispersível e mastigável</h3>\n<ul>\n<li>Sublingual: colocado sob a língua até dissolver, sem engolir; absorção rápida pela mucosa e sem primeira passagem. Exemplos: dinitrato de isossorbida sublingual, zolpidem sublingual. Engolir o comprimido reduz o efeito ou atrasa o início.</li>\n<li>Orodispersível: desintegra sobre a língua em segundos e é engolido com a saliva, sem água. A absorção ocorre, em geral, no trato digestivo. Útil para quem tem náusea ou dificuldade de engolir (ondansetrona orodispersível).</li>\n<li>Mastigável: deve ser mastigado (alguns antiácidos, montelucaste pediátrico). Engolir inteiro pode reduzir o efeito.</li>\n<li>Efervescente: dissolver totalmente em água antes de beber. Contém sódio, o que interessa ao hipertenso e ao paciente com insuficiência cardíaca.</li>\n</ul>\n<h3>Outros motivos para não partir ou triturar</h3>\n<ul>\n<li>Revestimento que protege quem manipula: fármacos teratogênicos ou citotóxicos (finasterida, dutasterida, metotrexato, talidomida). Gestante não deve manusear comprimido partido ou triturado de finasterida, e a cápsula de dutasterida não deve ser aberta.</li>\n<li>Gosto muito amargo ou irritação de mucosa.</li>\n<li>Fármaco sensível à luz ou à umidade.</li>\n<li>Cápsula mole com conteúdo líquido (dose imprecisa se perfurada).</li>\n</ul>\n<p>Sulco no comprimido nem sempre significa que as metades têm a mesma dose: há sulcos apenas decorativos ou para facilitar a deglutição. A bula informa se o comprimido é divisível.</p>\n<h3>Gotas e mililitros</h3>\n<p>Não existe equivalência universal entre gota e mililitro. O número de gotas por mL depende da viscosidade, da tensão superficial e do gotejador de cada produto. A bula informa quantas gotas correspondem a 1 mL e quanto de fármaco há em cada gota. Exemplos: a dipirona gotas 500 mg/mL tem 20 gotas por mL (25 mg por gota) segundo as bulas usuais; o clonazepam solução oral 2,5 mg/mL tem 0,1 mg por gota (bula do Rivotril®).</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Confundir gotas com mililitros multiplica a dose por 20 ou mais. Em criança, oriente com o dispositivo dosador do próprio produto (gotejador, seringa ou copo graduado). Colher de cozinha não serve como medida. Escreva a dose no rótulo ou na receita na unidade do dispositivo (“10 gotas” ou “2,5 mL”).</p></div>\n<h3>Suspensões e pós para reconstituição</h3>\n<p>Antibióticos pediátricos (amoxicilina, amoxicilina com clavulanato, azitromicina, cefalexina) vêm como pó para reconstituir. Orientação básica:</p>\n<ol>\n<li>Agitar o frasco fechado para soltar o pó.</li>\n<li>Adicionar água filtrada ou fervida e fria até perto da marca, agitar, aguardar a espuma baixar e completar até a marca exata.</li>\n<li>Agitar bem antes de cada dose: o fármaco suspenso decanta e a primeira dose sairia diluída, a última concentrada.</li>\n<li>Conservar e descartar conforme a bula: o prazo de validade após o preparo (em geral de 5 a 14 dias, conforme o produto) e a necessidade de geladeira variam. A amoxicilina com clavulanato costuma exigir refrigeração.</li>\n</ol>\n<p>A farmácia pode reconstituir o produto para o cliente se tiver procedimento escrito, e deve anotar a data do preparo no frasco.</p>\n<h3>Administração por sonda</h3>\n<p>Paciente com sonda nasoenteral ou gastrostomia precisa de plano para cada medicamento:</p>\n<ul>\n<li>Preferir forma líquida (solução, suspensão) ou comprimido de liberação imediata que possa ser triturado.</li>\n<li>Nunca triturar liberação prolongada ou revestimento entérico; pedir ao prescritor alternativa.</li>\n<li>Triturar cada comprimido separadamente até pó fino, dispersar em água e administrar um de cada vez.</li>\n<li>Lavar a sonda com água antes, entre os medicamentos e depois (volumes definidos pelo serviço, em geral 15 a 30 mL no adulto).</li>\n<li>Interações com a dieta enteral: a absorção da fenitoína cai com a nutrição enteral contínua (muitos serviços pausam a dieta antes e depois); a levotiroxina e as quinolonas sofrem efeito semelhante; a vitamina K da dieta interfere na varfarina.</li>\n</ul>\n<h3>Outras vias frequentes no balcão</h3>\n<ul>\n<li>Transdérmica: adesivos de fentanil, buprenorfina, rotigotina, nicotina e hormônios liberam o fármaco de forma contínua. Aplicar em pele íntegra, seca e sem pelos, alternar o local, não cortar o adesivo salvo autorização da bula e evitar calor sobre ele.</li>\n<li>Inalatória: a técnica correta do inalador dosimetrado (agitar, expirar, acionar no início de inspiração lenta, prender a respiração) ou do inalador de pó (inspiração rápida e profunda) determina quanto fármaco chega ao pulmão. Espaçador melhora a deposição e reduz candidíase oral com corticoide inalatório.</li>\n<li>Oftálmica: uma gota basta (o fundo de saco conjuntival comporta pouco volume); intervalo de cerca de 5 minutos entre colírios diferentes; pressionar o canto interno do olho reduz a absorção sistêmica (importante com colírio de timolol). Frasco aberto tem prazo de uso definido na bula.</li>\n<li>Retal: supositórios e enemas, úteis em vômitos ou quando a via oral não é possível; absorção mais irregular.</li>\n<li>Vaginal: aplicar à noite, deitada, para reduzir o escoamento; a conduta durante a menstruação segue a bula do produto.</li>\n</ul>\n<h3>Intercambialidade</h3>\n<p>O mercado brasileiro tem três categorias de medicamento com o mesmo fármaco:</p>\n<div class=\"tab\"><table><thead><tr><th>Categoria</th><th>O que é</th><th>Identificação</th></tr></thead><tbody>\n<tr><td>Referência</td><td>Inovador, com eficácia e segurança comprovadas em estudos clínicos</td><td>Nome comercial</td></tr>\n<tr><td>Genérico</td><td>Bioequivalente ao referência, intercambiável por lei</td><td>Nome pela DCB e faixa amarela com a letra G (Lei 9.787/1999)</td></tr>\n<tr><td>Similar</td><td>Mesmo fármaco, dose e forma; identificado por nome comercial</td><td>Nome comercial</td></tr>\n<tr><td>Similar intercambiável</td><td>Similar com equivalência ou bioequivalência aprovada pela Anvisa</td><td>Informação de intercambialidade na bula (RDC 58/2014)</td></tr>\n</tbody></table></div>\n<p>O farmacêutico pode trocar o referência pelo genérico ou pelo similar intercambiável com aquele referência, salvo restrição escrita do prescritor, e deve registrar a troca na receita. A troca entre dois genéricos, entre genérico e similar ou entre dois similares não é intercambialidade prevista. A lista de similares intercambiáveis é consultada no portal da Anvisa (consulta de medicamentos), atualizado continuamente (CFF, 2024).</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Em fármacos de índice terapêutico estreito (fenitoína, carbamazepina, levotiroxina, lítio), a troca é permitida quando intercambiável, mas a troca frequente entre fabricantes pode alterar a resposta. Oriente o paciente a manter o mesmo produto e avise o prescritor quando a troca for inevitável.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Ao dispensar qualquer forma especial, mostre o produto e diga como tomar: “Este é de liberação prolongada, engula inteiro, não parta”; “Este dissolve embaixo da língua”; “Agite antes de cada dose e guarde na geladeira”. Pergunte se o paciente tem dificuldade de engolir: é a deixa para descobrir que ele tritura tudo em casa.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Filha de paciente idoso pergunta se pode triturar a venlafaxina XR do pai para misturar na papa, porque ele engasga. O farmacêutico explica que a trituração libera a dose toda de uma vez, entra em contato com o prescritor e sugere avaliar uma alternativa, como cápsula que possa ser aberta conforme a bula ou outro antidepressivo em solução.</p></div>"
+  },
+  {
+   "id": "m03-antidepressivos",
+   "titulo": "Antidepressivos",
+   "resumo": "<p>Antidepressivos estão entre os psicotrópicos mais dispensados na farmácia comercial. Além da depressão, são usados em transtornos de ansiedade, transtorno obsessivo-compulsivo, dor neuropática, fibromialgia, enxaqueca, insônia e cessação do tabagismo. Quase todos agem aumentando a disponibilidade de monoaminas (serotonina, noradrenalina, dopamina) na fenda sináptica, por bloqueio de recaptação, bloqueio de receptores ou inibição da enzima que as degrada.</p>\n<h3>Latência e duração do tratamento</h3>\n<p>O bloqueio da recaptação acontece em horas, mas a melhora clínica depende de adaptações dos receptores que levam semanas. Em geral, alguma melhora aparece em 2 a 4 semanas e o efeito pleno em 4 a 8 semanas. Os efeitos adversos, por outro lado, surgem nos primeiros dias. Essa diferença explica boa parte dos abandonos: o paciente sente náusea e insônia antes de sentir melhora.</p>\n<p>Depois da remissão, as diretrizes recomendam manter o antidepressivo por meses (no primeiro episódio, em geral de 6 a 12 meses), e por mais tempo em quem teve vários episódios (CANMAT 2023). A suspensão é decisão do prescritor e deve ser gradual.</p>\n<h3>Inibidores seletivos da recaptação de serotonina (ISRS)</h3>\n<p>Fluoxetina, sertralina, paroxetina, citalopram, escitalopram e fluvoxamina bloqueiam o transportador de serotonina. São a primeira escolha na maioria dos casos pela segurança em superdosagem.</p>\n<ul>\n<li>Efeitos comuns: náusea, diarreia, cefaleia, insônia ou sonolência, inquietação nas primeiras semanas, sudorese, disfunção sexual (redução da libido, retardo ejaculatório, anorgasmia), que costuma persistir.</li>\n<li>Hiponatremia por secreção inapropriada de hormônio antidiurético, mais frequente em idosos e com diuréticos.</li>\n<li>Aumento de sangramento, porque a plaqueta depende da serotonina captada do plasma. O risco cresce com AINE, ácido acetilsalicílico e anticoagulantes.</li>\n<li>Prolongamento do intervalo QT com citalopram, dose-dependente: a FDA limita a dose a 40 mg/dia e a 20 mg/dia acima de 60 anos (FDA, 2012). O escitalopram tem efeito menor, mas também exige cautela.</li>\n</ul>\n<p>Particularidades: a fluoxetina tem meia-vida longa e inibe fortemente a CYP2D6; a paroxetina tem efeito anticolinérgico, inibe a CYP2D6 e causa a síndrome de descontinuação mais intensa do grupo; a fluvoxamina inibe fortemente a CYP1A2 (eleva clozapina, teofilina, cafeína e agomelatina); sertralina e escitalopram têm menos interações.</p>\n<h3>Inibidores da recaptação de serotonina e noradrenalina (IRSN)</h3>\n<p>Venlafaxina, desvenlafaxina, duloxetina e milnaciprana bloqueiam os dois transportadores. A ação noradrenérgica ajuda na dor neuropática e na fibromialgia (duloxetina). A venlafaxina eleva a pressão arterial de forma dose-dependente e tem descontinuação intensa. A duloxetina pede cautela em hepatopatas e em quem consome muito álcool.</p>\n<h3>Tricíclicos</h3>\n<p>Amitriptilina, nortriptilina, imipramina e clomipramina bloqueiam a recaptação de serotonina e noradrenalina, mas também receptores muscarínicos, histamínicos H1 e alfa-1 adrenérgicos. Daí os efeitos: boca seca, constipação, retenção urinária, visão turva, confusão no idoso (anticolinérgicos), sonolência e ganho de peso (H1), hipotensão ortostática e quedas (alfa-1). Hoje são mais usados em dose baixa para dor crônica, enxaqueca e insônia associada à dor.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Tricíclicos são cardiotóxicos em superdosagem (alargamento do QRS, arritmias, convulsões) e uma caixa inteira pode ser letal. Em paciente com depressão e risco de suicídio, quantidades grandes em casa são um perigo concreto. O farmacêutico pode sugerir ao prescritor dispensação fracionada ou envolvimento da família.</p></div>\n<h3>Inibidores da monoaminoxidase (IMAO)</h3>\n<p>A tranilcipromina inibe de forma irreversível as MAO-A e MAO-B; a moclobemida inibe a MAO-A de forma reversível. São reservados para casos resistentes. Os riscos principais são dois:</p>\n<ul>\n<li>Crise hipertensiva com alimentos ricos em tiramina (queijos curados, embutidos e carnes curadas, chope e cervejas não pasteurizadas, molho de soja, extrato de levedura, alimentos fermentados ou estragados), com o IMAO irreversível.</li>\n<li>Síndrome serotoninérgica ou crise hipertensiva com outros medicamentos: ISRS, IRSN, tricíclicos, tramadol, meperidina, metadona, dextrometorfano, triptanos e simpaticomiméticos de balcão (pseudoefedrina, fenilefrina).</li>\n</ul>\n<p>Trocas entre IMAO e outros antidepressivos exigem intervalo sem medicamento, definido pela bula (em geral cerca de 2 semanas depois de suspender o IMAO irreversível e cerca de 5 semanas depois de suspender a fluoxetina).</p>\n<h3>Antidepressivos atípicos</h3>\n<ul>\n<li><strong>Bupropiona</strong>: inibe a recaptação de dopamina e noradrenalina. Não causa disfunção sexual nem ganho de peso e é usada na cessação do tabagismo. Reduz o limiar convulsivo: contraindicada em epilepsia, bulimia, anorexia e na retirada abrupta de álcool ou benzodiazepínico. Inibe a CYP2D6. Pode causar insônia, ansiedade e aumento da pressão arterial.</li>\n<li>Mirtazapina: antagoniza receptores alfa-2 (aumentando a liberação de serotonina e noradrenalina), 5-HT2, 5-HT3 e H1. Causa sonolência e aumento de apetite e de peso. Útil quando há insônia e perda de apetite; menos náusea e disfunção sexual.</li>\n<li>Trazodona: antagonista 5-HT2A e inibidor fraco da recaptação de serotonina. Em dose baixa, é usada para insônia. Efeitos: sonolência, hipotensão ortostática, tontura e, raramente, priapismo (ereção dolorosa e prolongada, emergência urológica).</li>\n<li>Vortioxetina: inibe a recaptação de serotonina e modula vários receptores serotoninérgicos (ação multimodal). Náusea é o efeito mais comum; disfunção sexual menos frequente que com ISRS.</li>\n<li>Agomelatina: agonista dos receptores de melatonina MT1 e MT2 e antagonista 5-HT2C. Pouca disfunção sexual. Risco de hepatotoxicidade: a bula exige dosar transaminases antes de iniciar e periodicamente nos primeiros meses. É contraindicada com inibidores potentes da CYP1A2 (fluvoxamina, ciprofloxacino) e em hepatopatia.</li>\n</ul>\n<h3>Síndrome serotoninérgica</h3>\n<p>É a toxicidade por excesso de serotonina, geralmente pela associação de dois fármacos serotoninérgicos ou por aumento de dose. Instala-se em horas. A tríade clássica tem:</p>\n<ol>\n<li>Alteração do estado mental: agitação, ansiedade, confusão.</li>\n<li>Hiperatividade autonômica: taquicardia, sudorese, hipertermia, midríase, diarreia, pressão instável.</li>\n<li>Alterações neuromusculares: tremor, clônus (especialmente induzível no tornozelo e ocular), hiperreflexia, rigidez.</li>\n</ol>\n<p>Associações perigosas frequentes: ISRS ou IRSN com tramadol, meperidina, metadona, IMAO, linezolida, azul de metileno, dextrometorfano, erva-de-são-joão, lítio ou triptanos (risco baixo, mas descrito). O diagnóstico usa os critérios de Hunter. Casos moderados a graves são emergência.</p>\n<h3>Síndrome de descontinuação</h3>\n<p>A suspensão abrupta, ou até o esquecimento de doses, pode causar tontura, sensação de “choques” ou formigamento, náusea, sintomas gripais, insônia, sonhos vívidos, irritabilidade e ansiedade. Aparece em poucos dias e é mais intensa com paroxetina e venlafaxina (meia-vida curta) e rara com fluoxetina. Não é sinal de dependência no sentido de uso compulsivo, mas exige retirada gradual planejada pelo prescritor.</p>\n<h3>Risco de suicídio em jovens</h3>\n<p>Em crianças, adolescentes e adultos jovens (até 24 anos), os antidepressivos foram associados a aumento de pensamentos e comportamentos suicidas no início do tratamento e nas mudanças de dose, o que gerou alerta em caixa na bula americana (FDA). O tratamento não deve ser negado por isso; a recomendação é acompanhamento próximo nas primeiras semanas e orientação à família para sinais de alerta: agitação, insônia intensa, impulsividade, fala sobre morte.</p>\n<h3>Lista e receituário</h3>\n<p>Todos os antidepressivos citados (incluindo bupropiona, mirtazapina, trazodona, vortioxetina, agomelatina, tianeptina, moclobemida e tranilcipromina) estão na <strong>Lista C1</strong> da Portaria SVS/MS 344/1998 (Anexo I, Atualização n. 100, publicada pela RDC 1.023/2026). Exigem Receita de Controle Especial em duas vias: a primeira fica retida na farmácia e a segunda é devolvida ao paciente com a identificação da dispensação. A receita vale por 30 dias a partir da emissão e a quantidade fica limitada a 60 dias de tratamento (Portaria 344/1998). Os modelos gráficos de receituário passaram a ser os publicados no portal da Anvisa, e a emissão eletrônica integrada ao SNCR é facultativa (RDC 1.000/2025). A escetamina em spray nasal, também usada na depressão, é da Lista B1 e só pode ser dispensada e usada em estabelecimento de saúde.</p>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>Lista C1 da Portaria 344/1998: “Lista das outras substâncias sujeitas a controle especial (Sujeitas à Receita de Controle Especial em duas vias)” (Anexo I, Atualização n. 100, RDC 1.023/2026).</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Na primeira dispensação, explique três coisas: a melhora demora semanas, os efeitos incômodos iniciais costumam diminuir e o remédio não deve ser parado por conta própria. Pergunte por tramadol, triptanos, xarope com dextrometorfano, chás e suplementos. Desaconselhe automedicação com descongestionante em quem usa IMAO. Se o cliente relatar ideias de morte, não encerre o atendimento: acolha, oriente procurar o médico ou o serviço de urgência no mesmo dia e informe o CVV (telefone 188).</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Homem de 45 anos, em uso de sertralina 100 mg, pede tramadol com receita do dentista após extração. O farmacêutico identifica risco de síndrome serotoninérgica, orienta sobre sinais de alerta (tremor, agitação, febre, diarreia), contata o dentista e sugere considerar analgésico não serotoninérgico, como dipirona ou paracetamol associado a AINE se não houver contraindicação.</p></div>"
+  },
+  {
+   "id": "m03-antipsicoticos",
+   "titulo": "Antipsicóticos",
+   "resumo": "<p>Antipsicóticos tratam esquizofrenia, transtorno bipolar, agitação psicótica e, em doses e indicações específicas, depressão resistente, transtornos de comportamento e delirium. No balcão, aparecem também prescritos em dose baixa para insônia (quetiapina) e em idosos com demência, situações que pedem atenção redobrada.</p>\n<h3>Mecanismo e vias dopaminérgicas</h3>\n<p>Todos os antipsicóticos bloqueiam, em algum grau, o receptor dopaminérgico D2. O bloqueio em cada via explica efeito e reação adversa:</p>\n<div class=\"tab\"><table><thead><tr><th>Via</th><th>Função</th><th>Consequência do bloqueio D2</th></tr></thead><tbody>\n<tr><td>Mesolímbica</td><td>Recompensa, sintomas positivos</td><td>Redução de delírios e alucinações (efeito desejado)</td></tr>\n<tr><td>Mesocortical</td><td>Cognição, afeto</td><td>Piora de sintomas negativos e cognitivos</td></tr>\n<tr><td>Nigroestriatal</td><td>Movimento</td><td>Efeitos extrapiramidais</td></tr>\n<tr><td>Tuberoinfundibular</td><td>Inibe a prolactina</td><td>Hiperprolactinemia</td></tr>\n</tbody></table></div>\n<p>Os antipsicóticos atípicos (segunda geração) bloqueiam também o receptor 5-HT2A, o que reduz os efeitos extrapiramidais. O aripiprazol e o brexpiprazol são agonistas parciais D2.</p>\n<h3>Típicos e atípicos</h3>\n<ul>\n<li>Típicos de alta potência (haloperidol, flufenazina): mais efeitos extrapiramidais, menos sedação.</li>\n<li>Típicos de baixa potência (clorpromazina, levomepromazina, tioridazina): mais sedação, efeito anticolinérgico e hipotensão.</li>\n<li>Atípicos: risperidona e paliperidona (mais prolactina), olanzapina (mais ganho de peso e alterações metabólicas), quetiapina (sedação, hipotensão, metabólico), aripiprazol (acatisia, pouca alteração metabólica e de prolactina), ziprasidona e lurasidona (devem ser tomadas com refeição para absorção adequada; a ziprasidona prolonga o QT), clozapina (reservada para esquizofrenia resistente).</li>\n</ul>\n<h3>Efeitos extrapiramidais</h3>\n<div class=\"tab\"><table><thead><tr><th>Efeito</th><th>Quando aparece</th><th>Como se apresenta</th></tr></thead><tbody>\n<tr><td>Distonia aguda</td><td>Horas a dias</td><td>Contração involuntária: torcicolo, crise oculógira, protrusão de língua, trismo; mais em jovens</td></tr>\n<tr><td>Acatisia</td><td>Dias a semanas</td><td>Inquietação interna, incapacidade de ficar parado</td></tr>\n<tr><td>Parkinsonismo</td><td>Semanas</td><td>Rigidez, lentidão, tremor, face inexpressiva</td></tr>\n<tr><td>Discinesia tardia</td><td>Meses a anos</td><td>Movimentos involuntários da boca e da língua, às vezes irreversíveis</td></tr>\n</tbody></table></div>\n<p>A distonia aguda responde a anticolinérgico (biperideno) e assusta muito o paciente. Antieméticos antidopaminérgicos de uso comum, como <strong>metoclopramida</strong> e bromoprida, causam os mesmos efeitos, sobretudo em crianças e jovens.</p>\n<h3>Síndrome metabólica</h3>\n<p>Olanzapina, clozapina e quetiapina são os que mais causam ganho de peso, resistência à insulina, diabetes e dislipidemia. O consenso das sociedades americanas de diabetes e psiquiatria (ADA/APA, 2004) recomenda medir peso, circunferência abdominal, pressão arterial, glicemia e perfil lipídico antes de iniciar, em 12 semanas e depois periodicamente. A farmácia pode apoiar com aferição de pressão, peso e glicemia capilar, registrando e encaminhando resultados alterados.</p>\n<h3>Síndrome neuroléptica maligna</h3>\n<p>Reação rara e grave, mais comum no início do tratamento, em aumentos rápidos de dose e com antipsicóticos de alta potência ou injetáveis. Sinais: febre alta, rigidez muscular intensa (em “cano de chumbo”), alteração de consciência, instabilidade autonômica (taquicardia, pressão variável, sudorese) e elevação da creatinofosfoquinase (CK). É emergência médica. A suspensão abrupta de levodopa produz quadro semelhante.</p>\n<h3>Hiperprolactinemia</h3>\n<p>Mais comum com risperidona, paliperidona, amissulprida, sulpirida e típicos. Causa galactorreia, amenorreia, irregularidade menstrual, redução da libido, disfunção erétil, ginecomastia e, a longo prazo, perda de massa óssea. Pacientes raramente relatam espontaneamente; perguntar com tato ajuda a detectar.</p>\n<h3>Intervalo QT</h3>\n<p>Vários antipsicóticos prolongam o QT (tioridazina, pimozida, ziprasidona, haloperidol em dose alta ou intravenoso, quetiapina). O risco de arritmia (torsades de pointes) aumenta com outras drogas que prolongam o QT (macrolídeos, quinolonas, ondansetrona, hidroxicloroquina, citalopram, metadona), com hipopotassemia (diuréticos, diarreia) e com bradicardia.</p>\n<h3>Clozapina</h3>\n<p>É o antipsicótico mais eficaz na esquizofrenia resistente, mas causa agranulocitose (queda grave dos neutrófilos), miocardite nas primeiras semanas, convulsões dose-dependentes, constipação grave que pode evoluir para íleo, sialorreia noturna, sedação e alterações metabólicas.</p>\n<p>A monitorização hematológica é obrigatória. A bula brasileira do produto de referência exige leucócitos de pelo menos 3.500/mm³ e neutrófilos de pelo menos 2.000/mm³ para iniciar, contagem semanal nos 6 primeiros meses e quinzenal depois, mantida até 4 semanas após a suspensão (bula Leponex®). O protocolo do SUS para esquizofrenia prevê esquema semelhante, com hemograma semanal nas primeiras 18 semanas e mensal depois. Em 2025, a agência europeia flexibilizou o esquema após o primeiro ano; no Brasil, vale a bula vigente e o protocolo do serviço.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Paciente em uso de clozapina com febre, dor de garganta, aftas ou sinais de infecção precisa de hemograma no mesmo dia. Constipação persistente também é alerta. Parar de fumar eleva o nível da clozapina (a fumaça induz a CYP1A2) e pode causar intoxicação: o médico precisa ser avisado.</p></div>\n<h3>Idosos com demência</h3>\n<p>Antipsicóticos aumentam a mortalidade (principalmente por eventos cardiovasculares e infecções) em idosos com demência, o que gerou alerta em caixa da FDA para toda a classe. O uso para agitação nessa população deve ser pontual, na menor dose e por tempo curto, segundo os critérios de Beers (AGS, 2023).</p>\n<h3>Interações e adesão</h3>\n<p>O tabagismo induz a CYP1A2 e reduz os níveis de clozapina e olanzapina; parar de fumar, inclusive em internação, eleva esses níveis. A fluvoxamina e o ciprofloxacino (inibidores da CYP1A2) aumentam a clozapina. A carbamazepina reduz os níveis de quase todos os antipsicóticos. Álcool, benzodiazepínicos e opioides somam sedação e risco de queda. Anticolinérgicos associados (biperideno, tricíclicos, anti-histamínicos de primeira geração) somam boca seca, constipação e confusão, e a constipação com clozapina pode ser grave.</p>\n<p>A baixa adesão é a principal causa de recaída na esquizofrenia. Formas injetáveis de depósito (decanoato de haloperidol, palmitato de paliperidona, aripiprazol de liberação prolongada) são aplicadas em serviços de saúde a cada algumas semanas e garantem a exposição. Na farmácia, o farmacêutico pode notar atrasos na retirada do medicamento, pista importante de abandono.</p>\n<p>A quetiapina em dose baixa é usada com frequência para insônia, prática sem respaldo das diretrizes para esse uso isolado e com os mesmos riscos metabólicos, de queda e de hipotensão, além de interações com outros sedativos.</p>\n<h3>Lítio</h3>\n<p>O carbonato de lítio, estabilizador de humor de primeira linha no transtorno bipolar, costuma aparecer na mesma receita que antipsicóticos. Tem índice terapêutico estreito e eliminação exclusivamente renal, com reabsorção ligada ao sódio. Desidratação, dieta pobre em sal, diarreia, vômitos, febre, AINE, diuréticos tiazídicos, IECA e bloqueadores do receptor de angiotensina elevam a litemia. Sinais de intoxicação: tremor grosseiro, diarreia, vômitos, sonolência, confusão, ataxia e fala arrastada. A longo prazo, o lítio pode causar hipotireoidismo, poliúria e perda de função renal, motivo da monitorização periódica de litemia, TSH e creatinina com TFG.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Paciente em uso de lítio que pede anti-inflamatório para dor muscular deve ser orientado a preferir paracetamol ou dipirona e a falar com o médico antes de qualquer AINE, inclusive em gel aplicado em grandes áreas por muitos dias.</p></div>\n<h3>Lista e receituário</h3>\n<p>Os antipsicóticos de uso clínico (haloperidol, clorpromazina, levomepromazina, flufenazina, periciazina, pimozida, sulpirida, amissulprida, risperidona, paliperidona, olanzapina, quetiapina, aripiprazol, brexpiprazol, ziprasidona, lurasidona, asenapina, zuclopentixol e clozapina) estão na Lista C1 (Portaria 344/1998, Atualização n. 100). O lítio, estabilizador de humor de índice terapêutico estreito, também é C1. Receituário: Receita de Controle Especial em duas vias, válida por 30 dias, com até 60 dias de tratamento.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Pergunte ao cuidador sobre rigidez, tremor, inquietação, sono excessivo e ganho de peso. Oriente levantar devagar (hipotensão ortostática) e evitar álcool. Em jovem com torcicolo ou olhos “virados para cima” após metoclopramida ou antipsicótico, encaminhe ao serviço de urgência: é distonia aguda e tem tratamento rápido.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Senhora de 79 anos com demência começou quetiapina para agitação noturna e teve duas quedas em uma semana. A filha pergunta se pode dar meio comprimido a mais. O farmacêutico orienta não aumentar a dose, relaciona as quedas à sedação e à hipotensão e contata o médico para reavaliação.</p></div>"
+  },
+  {
+   "id": "m03-anticonvulsivantes",
+   "titulo": "Anticonvulsivantes",
+   "resumo": "<p>Os anticonvulsivantes (antiepilépticos) tratam epilepsia, mas também dor neuropática, enxaqueca, transtorno bipolar e ansiedade. Vários deles têm índice terapêutico estreito, interações graves por indução enzimática e risco teratogênico, o que torna essa classe uma das mais importantes para o farmacêutico.</p>\n<h3>Mecanismos principais</h3>\n<div class=\"tab\"><table><thead><tr><th>Mecanismo</th><th>Fármacos</th></tr></thead><tbody>\n<tr><td>Bloqueio de canais de sódio</td><td>Carbamazepina, oxcarbazepina, fenitoína, lamotrigina, lacosamida, topiramato (em parte)</td></tr>\n<tr><td>Aumento da ação do GABA</td><td>Fenobarbital, benzodiazepínicos, ácido valproico (em parte), topiramato (em parte)</td></tr>\n<tr><td>Ligação à proteína SV2A</td><td>Levetiracetam, brivaracetam</td></tr>\n<tr><td>Subunidade alfa-2-delta de canais de cálcio</td><td>Gabapentina, pregabalina</td></tr>\n<tr><td>Múltiplos</td><td>Ácido valproico, topiramato</td></tr>\n</tbody></table></div>\n<h3>Carbamazepina</h3>\n<p>Usada em epilepsia focal, neuralgia do trigêmeo e transtorno bipolar. É indutor potente (CYP3A4 e outras) e induz o próprio metabolismo (autoindução): nas primeiras semanas a concentração cai, e a dose costuma ser ajustada. Faixa terapêutica usual de 4 a 12 mcg/mL. Efeitos: tontura, diplopia, ataxia, hiponatremia, leucopenia, alterações hepáticas, exantema. Inibidores da CYP3A4 (claritromicina, eritromicina, fluconazol, diltiazem, verapamil, suco de toranja) elevam o nível e causam intoxicação.</p>\n<p>A carbamazepina pode causar síndrome de Stevens-Johnson e necrólise epidérmica tóxica (SSJ/NET), mais frequentes nos primeiros meses. O alelo <strong>HLA-B*1502</strong>, comum em pessoas de ascendência asiática (sobretudo do sudeste asiático e chineses Han), aumenta muito esse risco; a bula americana recomenda testar esses pacientes antes de iniciar. O alelo HLA-A*3101 se associa a outras reações de hipersensibilidade.</p>\n<h3>Oxcarbazepina</h3>\n<p>Parecida com a carbamazepina, com menos interações e sem autoindução relevante, mas com mais hiponatremia. Também reduz a eficácia de anticoncepcionais hormonais.</p>\n<h3>Fenitoína</h3>\n<p>Tem cinética saturável (não linear): quando a enzima satura, pequenos aumentos de dose causam grandes aumentos de concentração. Faixa terapêutica usual de 10 a 20 mcg/mL; muito ligada à albumina. Efeitos agudos de excesso: nistagmo, ataxia, fala arrastada, sonolência. Uso crônico: hiperplasia gengival, hirsutismo, acne, traços faciais grosseiros, osteomalácia, anemia megaloblástica. É indutor potente e teratogênica. Absorção reduzida pela dieta enteral.</p>\n<h3>Fenobarbital</h3>\n<p>Barbitúrico de meia-vida longa (vários dias no adulto), usado em epilepsia, inclusive em crianças. Causa sedação, prejuízo cognitivo, alterações de comportamento em crianças e dependência; suspensão abrupta pode precipitar crises. É indutor enzimático potente. Está na Lista B1, mas o adendo da lista sujeita os medicamentos com fenobarbital à Receita de Controle Especial em duas vias.</p>\n<h3>Ácido valproico e valproato</h3>\n<p>Ácido valproico, valproato de sódio e divalproato de sódio têm amplo espectro (crises generalizadas e focais), além de uso em transtorno bipolar e profilaxia de enxaqueca. Efeitos: náusea, tremor, ganho de peso, queda de cabelo, trombocitopenia, hiperamonemia, pancreatite e hepatotoxicidade (risco maior em crianças pequenas e em politerapia). É inibidor enzimático: aumenta muito o nível da lamotrigina. Antibióticos carbapenêmicos derrubam o nível do valproato em horas, com risco de crise.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>O valproato é o anticonvulsivante mais teratogênico. Exposição na gestação associa-se a malformações em cerca de 10% dos bebês (defeitos de tubo neural, cardíacos, fenda palatina) e a transtornos do neurodesenvolvimento em 30 a 40% (EMA, 2018). A bula brasileira contraindica o uso em meninas e mulheres com potencial de engravidar, salvo se cumprido o programa de prevenção da gravidez: avaliação do potencial reprodutivo, teste de gravidez, contracepção eficaz, revisão anual com especialista e termo de esclarecimento assinado pela paciente.</p></div>\n<p>A mulher que usa valproato e descobre a gravidez não deve suspender por conta própria (risco de crises graves): precisa de avaliação médica urgente. A EMA também recomendou precaução em homens que planejam ter filhos (2024).</p>\n<h3>Lamotrigina</h3>\n<p>Usada em epilepsia e na prevenção de depressão bipolar. O principal risco é exantema, incluindo SSJ/NET, mais provável com dose inicial alta, escalonamento rápido, associação com valproato e em crianças. Por isso a titulação é lenta, seguindo rigorosamente o esquema da bula (com doses menores quando associada ao valproato). Quem interrompe o uso por mais de alguns dias pode precisar reiniciar a titulação. Anticoncepcionais com estrogênio reduzem a concentração de lamotrigina à metade por induzirem a glicuronidação, e as crises podem voltar; na semana sem pílula, o nível sobe.</p>\n<h3>Levetiracetam</h3>\n<p>Poucas interações, eliminação renal (ajustar pela TFG). Efeito adverso marcante: alterações de humor e comportamento, como irritabilidade, agressividade e depressão.</p>\n<h3>Topiramato</h3>\n<p>Usado em epilepsia e profilaxia de enxaqueca. Efeitos: parestesias, perda de apetite e de peso, lentidão cognitiva e dificuldade de encontrar palavras, cálculo renal, acidose metabólica e, raramente, glaucoma agudo de ângulo fechado (dor ocular e visão turva súbitas, emergência). Em doses mais altas reduz a eficácia de anticoncepcionais. É teratogênico (fenda labial e palatina, baixo peso), e a agência europeia instituiu programa de prevenção da gravidez também para ele (EMA, 2023).</p>\n<h3>Gabapentina e pregabalina</h3>\n<p>Ligam-se à subunidade alfa-2-delta de canais de cálcio e reduzem a liberação de neurotransmissores excitatórios. Indicações principais: dor neuropática, epilepsia focal (adjuvante) e, para a pregabalina, transtorno de ansiedade generalizada e fibromialgia. Efeitos: tontura, sonolência, edema periférico, ganho de peso, visão turva. Eliminação renal: dose reduzida pela TFG. Têm potencial de uso indevido, sobretudo em pessoas com histórico de uso de opioides, e a associação com opioides ou outros depressores aumenta o risco de depressão respiratória (FDA, 2019).</p>\n<p>Situação regulatória em outubro de 2026: gabapentina e pregabalina permanecem na Lista C1 (Portaria 344/1998, Anexo I, Atualização n. 100, RDC 1.023/2026), com Receita de Controle Especial em duas vias. A pregabalina foi incluída na C1 pela RDC 280/2004. Outros países endureceram o controle desses fármacos; no Brasil não houve mudança de lista até a data de revisão.</p>\n<h3>Indução enzimática e contracepção</h3>\n<p>Carbamazepina, oxcarbazepina, fenitoína, fenobarbital, primidona e topiramato em dose alta reduzem a eficácia de pílulas combinadas, pílulas só de progestagênio, adesivo, anel e implante. A orientação de serviços de planejamento familiar (FSRH, 2022) é preferir métodos não afetados: DIU de cobre, DIU hormonal de levonorgestrel ou injetável trimestral de medroxiprogesterona. A indução persiste por semanas após a suspensão do indutor. Na contracepção de emergência, o DIU de cobre é preferível; se for usado levonorgestrel oral, a mesma diretriz recomenda dose dupla (3 mg), decisão que cabe ao prescritor.</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Mulher em idade fértil com anticonvulsivante na receita gera duas perguntas no balcão: “Usa algum método para evitar gravidez?” e “Planeja engravidar?”. As respostas mudam a conduta: interação com o método e risco teratogênico.</p></div>\n<h3>Adesão, esquecimento e gravidez</h3>\n<p>A causa mais comum de crise em quem tem epilepsia controlada é a dose esquecida ou suspensa. Privação de sono, álcool em excesso, febre e alguns medicamentos (bupropiona, tramadol, quinolonas em dose alta, alguns antipsicóticos) reduzem o limiar convulsivo. Quando o paciente esquece uma dose, a conduta depende do fármaco e do intervalo até a próxima tomada; a regra geral das bulas é não dobrar a dose seguinte.</p>\n<p>Mulheres com epilepsia podem engravidar com segurança se o tratamento for planejado: escolha do fármaco de menor risco (lamotrigina e levetiracetam têm os menores riscos de malformação entre os principais), menor dose eficaz, ácido fólico antes da concepção em dose definida pelo médico e acompanhamento dos níveis séricos, que caem na gestação, especialmente o da lamotrigina. Suspender o anticonvulsivante ao descobrir a gravidez expõe mãe e feto ao risco de crises.</p>\n<h3>Lista e receituário</h3>\n<p>Ácido valproico, valproato de sódio, divalproato, carbamazepina, oxcarbazepina, fenitoína, lamotrigina, levetiracetam, topiramato, lacosamida, gabapentina, pregabalina, primidona, vigabatrina e cenobamato estão na Lista C1. Fenobarbital é B1 com adendo que exige Receita de Controle Especial. Clonazepam e clobazam, usados em epilepsia, são B1 com Notificação de Receita B. A Portaria 344/1998 permite, para anticonvulsivantes da C1, quantidade de até 6 meses de tratamento por receita.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Reforce: tomar no mesmo horário, não suspender de repente, não trocar de marca sem necessidade, evitar álcool, avisar sobre qualquer manchas na pele ou febre nas primeiras semanas (lamotrigina, carbamazepina) e procurar o médico antes de engravidar. Antes de dispensar antibiótico, antifúngico ou anticoncepcional para quem usa anticonvulsivante, confira a interação.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Jovem de 22 anos com epilepsia em uso de carbamazepina pede pílula do dia seguinte. O farmacêutico identifica a interação com o indutor, explica que a eficácia do levonorgestrel em dose habitual pode estar reduzida e orienta procurar com urgência um serviço que possa inserir DIU de cobre ou avaliar o esquema, e conversar com o neurologista sobre um método contraceptivo adequado.</p></div>"
+  },
+  {
+   "id": "m03-anestesicos",
+   "titulo": "Anestésicos gerais e locais",
+   "resumo": "<p>Anestésicos gerais são de uso hospitalar, mas o farmacêutico de drogaria atende pacientes no pré e no pós-operatório e precisa entender os conceitos básicos. Anestésicos locais, por outro lado, estão no balcão todos os dias: pomadas para hemorroida, géis bucais, pastilhas e sprays para garganta, cremes antes de procedimentos.</p>\n<h3>Anestesia geral: conceitos essenciais</h3>\n<p>Anestesia geral é um estado reversível e induzido por fármacos que combina inconsciência (hipnose), amnésia, analgesia, imobilidade e controle das respostas autonômicas. Raramente um só fármaco faz tudo: o anestesiologista associa hipnótico, opioide, bloqueador neuromuscular e, às vezes, sedativo.</p>\n<div class=\"tab\"><table><thead><tr><th>Grupo</th><th>Fármacos</th><th>Pontos principais</th></tr></thead><tbody>\n<tr><td>Inalatórios halogenados</td><td>Sevoflurano, desflurano, isoflurano</td><td>Potência medida pela concentração alveolar mínima (CAM); podem desencadear hipertermia maligna em suscetíveis</td></tr>\n<tr><td>Gás</td><td>Óxido nitroso</td><td>Analgésico, pouco potente como anestésico isolado</td></tr>\n<tr><td>Venosos</td><td>Propofol, etomidato, tiopental</td><td>Indução rápida; propofol causa hipotensão e dor à injeção</td></tr>\n<tr><td>Venosos com analgesia</td><td>Cetamina, escetamina</td><td>Antagonistas NMDA; mantêm reflexos de via aérea; podem causar alucinações</td></tr>\n<tr><td>Sedativos</td><td>Midazolam, dexmedetomidina</td><td>Ansiólise e sedação; dexmedetomidina é agonista alfa-2</td></tr>\n</tbody></table></div>\n<p>A hipertermia maligna é uma reação hereditária a halogenados e à succinilcolina: rigidez, aumento rápido de CO<sub>2</sub> expirado, febre e acidose, tratada com dantroleno. Paciente com história familiar deve informar antes de qualquer cirurgia.</p>\n<p>Sevoflurano, desflurano, isoflurano, propofol, etomidato e dexmedetomidina constam da Lista C1; cetamina e escetamina são B1 e só podem ser dispensadas e usadas em estabelecimentos de saúde (Portaria 344/1998, Atualização n. 100).</p>\n<p>No pós-operatório, o paciente chega à farmácia com analgésicos, às vezes opioides, antieméticos e anticoagulantes profiláticos. Sonolência, náusea, constipação e retenção urinária são esperadas nos primeiros dias, mas sonolência intensa ou respiração lenta exigem avaliação.</p>\n<h3>Pré-operatório no balcão</h3>\n<p>Antes de cirurgias e procedimentos, a equipe médica decide quais medicamentos suspender e quando. O farmacêutico ajuda o paciente a levar a lista completa, incluindo fitoterápicos e suplementos: ginkgo, alho em cápsula, ômega 3 em dose alta e erva-de-são-joão interferem em sangramento ou em anestésicos. Anticoagulantes, antiagregantes, antidiabéticos (incluindo análogos de GLP-1, que retardam o esvaziamento gástrico) e IMAO têm regras próprias de manejo perioperatório definidas pela equipe. A orientação de jejum também é da equipe; o balcão não deve substituí-la.</p>\n<h3>Anestésicos locais: mecanismo</h3>\n<p>Anestésicos locais bloqueiam canais de sódio dependentes de voltagem pelo lado de dentro da membrana do neurônio e impedem a condução do impulso. Para chegar lá, o fármaco atravessa a membrana na forma não ionizada (base). Em tecido inflamado ou infectado, o pH é mais ácido, a fração ionizada aumenta e o efeito diminui: por isso um abscesso é difícil de anestesiar.</p>\n<p>As fibras finas são bloqueadas primeiro: dor e temperatura somem antes do tato, da pressão e da força muscular.</p>\n<h3>Ésteres e amidas</h3>\n<div class=\"tab\"><table><thead><tr><th>Grupo</th><th>Exemplos</th><th>Metabolismo</th><th>Alergia</th></tr></thead><tbody>\n<tr><td>Ésteres</td><td>Benzocaína, tetracaína, procaína</td><td>Colinesterase plasmática, rápido</td><td>Mais frequente, pelo metabólito ácido para-aminobenzoico (PABA)</td></tr>\n<tr><td>Amidas</td><td>Lidocaína, prilocaína, bupivacaína, ropivacaína, mepivacaína, articaína</td><td>Hepático</td><td>Rara; quando ocorre, muitas vezes é ao conservante</td></tr>\n</tbody></table></div>\n<p>Truque de memória: as amidas têm a letra “i” antes de “caína” no prefixo (lidocaína, prilocaína, bupivacaína, mepivacaína, ropivacaína); os ésteres não (benzocaína, procaína, tetracaína).</p>\n<h3>Toxicidade sistêmica</h3>\n<p>Quando muito anestésico chega ao sangue (dose alta, injeção intravascular acidental, aplicação em grande área de pele lesada ou mucosa), surgem sinais em sequência: formigamento ao redor da boca, gosto metálico, zumbido, tontura, agitação, convulsões e, depois, depressão cardiovascular e arritmias. A bupivacaína é a mais cardiotóxica. O tratamento hospitalar inclui suporte e emulsão lipídica.</p>\n<h3>Vasoconstritor</h3>\n<p>A epinefrina (adrenalina) associada ao anestésico local reduz o fluxo sanguíneo local, prolonga o efeito, diminui o sangramento e reduz a absorção sistêmica, permitindo dose total maior. Na odontologia, outros vasoconstritores também são usados. Pacientes cardiopatas, hipertensos descompensados e usuários de betabloqueador não seletivo ou tricíclico exigem avaliação do profissional que vai aplicar. Para o balcão, a informação útil é: o paciente deve contar ao dentista quais medicamentos usa.</p>\n<h3>Uso tópico em farmácia</h3>\n<ul>\n<li>Lidocaína: pomadas e cremes para hemorroidas (associada a outros ativos), géis bucais, soluções para garganta, sprays e géis para pequenos procedimentos. Algumas associações com lidocaína e com benzocaína constam da Lista de Medicamentos Isentos de Prescrição (IN 285/2024, com a lista atualizada pela IN 404/2025).</li>\n<li>Benzocaína: pastilhas e soluções para dor de garganta, em associação com antissépticos.</li>\n<li>Lidocaína com prilocaína em creme: anestesia da pele antes de punções e pequenos procedimentos, com oclusão e tempo de aplicação definidos na bula; em lactentes há limite de área e de dose.</li>\n<li>Tetracaína: está na Lista C1, com adendo que libera da prescrição as preparações tópicas odontológicas isoladas, exige prescrição sem retenção para preparações otológicas e prescrição com retenção para as oftálmicas. Outros anestésicos oftálmicos (proximetacaína, oxibuprocaína) também são C1.</li>\n</ul>\n<div class=\"cx alerta\"><b>Atenção</b><p>Colírio anestésico não se vende para alívio de dor ocular em casa. O uso repetido lesa a córnea e mascara doenças graves. Essas substâncias estão na Lista C1 e as preparações oftálmicas exigem receita retida (Portaria 344/1998, adendo da Lista C1).</p></div>\n<h3>Uso correto dos anestésicos tópicos</h3>\n<p>Anestésicos tópicos aliviam sintomas, mas não tratam a causa. Pomadas para hemorroidas com lidocaína devem ser usadas por poucos dias; sangramento retal, dor intensa ou sintomas que persistem pedem avaliação médica. Aplicações repetidas em pele lesada, queimada ou em mucosa extensa aumentam a absorção sistêmica. Uso prolongado de produtos com benzocaína ou outros ésteres pode causar dermatite de contato. Sprays e géis bucais reduzem o reflexo de deglutição por algum tempo: comer logo após a aplicação, sobretudo em crianças e idosos, aumenta o risco de engasgo e de morder a língua ou a bochecha.</p>\n<h3>Metemoglobinemia por benzocaína e prilocaína</h3>\n<p>Benzocaína e prilocaína (por um metabólito) oxidam o ferro da hemoglobina, formando metemoglobina, que não transporta oxigênio. Bebês e crianças pequenas são mais suscetíveis. A FDA determinou, em 2018, a retirada do mercado americano dos produtos de venda livre com benzocaína para dentição em menores de 2 anos, pelo risco de metemoglobinemia e pela falta de benefício, e exigiu advertência sobre metemoglobinemia nos demais produtos com benzocaína.</p>\n<p>Sinais: pele, lábios e unhas acinzentados ou azulados, que não melhoram com oxigênio, cansaço, cefaleia, falta de ar, taquicardia, confusão. Surgem minutos a poucas horas após o uso. O tratamento hospitalar é com azul de metileno.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Para dor de dentição, oriente medidas sem fármaco (mordedor de borracha firme, que pode ser resfriado mas não congelado, e massagem na gengiva com dedo limpo) e analgésico oral em dose por peso quando necessário, conforme orientação pediátrica. Não indique gel anestésico com benzocaína para bebês. Para dor de garganta em adulto, pastilha com anestésico é aceitável por poucos dias; febre alta, dificuldade de engolir saliva ou duração maior que alguns dias exigem encaminhamento.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Mãe pede gel para passar na gengiva do filho de 10 meses. O farmacêutico explica o risco da benzocaína nessa idade, orienta medidas não farmacológicas e sinais que exigem consulta (febre alta, recusa alimentar, irritabilidade intensa) e não dispensa o gel.</p></div>"
+  },
+  {
+   "id": "m03-sedativos-hipnoticos",
+   "titulo": "Sedativos e hipnóticos",
+   "resumo": "<p>Insônia e ansiedade levam muitas pessoas à farmácia pedindo “algo para dormir”. Benzodiazepínicos, drogas Z, antidepressivos sedativos, anti-histamínicos e melatonina têm perfis e regras muito diferentes. A primeira linha para insônia crônica é a terapia cognitivo-comportamental para insônia (TCC-I) e a revisão de hábitos; hipnóticos são para uso curto e criterioso.</p>\n<h3>Benzodiazepínicos: mecanismo e efeitos</h3>\n<p>Benzodiazepínicos ligam-se ao receptor GABA-A em sítio próprio e aumentam a frequência de abertura do canal de cloreto quando o GABA está presente. O resultado é hiperpolarização e menor excitabilidade neuronal. Os efeitos são ansiolítico, hipnótico, anticonvulsivante, relaxante muscular e amnésia anterógrada. Isolados, têm margem de segurança maior que os barbitúricos; associados a álcool, opioides ou outros depressores, podem causar depressão respiratória grave.</p>\n<h3>Classificação pela meia-vida</h3>\n<div class=\"tab\"><table><thead><tr><th>Grupo</th><th>Exemplos</th><th>Implicação</th></tr></thead><tbody>\n<tr><td>Curta ação</td><td>Midazolam</td><td>Indução do sono, procedimentos; mais insônia de rebote e amnésia</td></tr>\n<tr><td>Ação intermediária</td><td>Alprazolam, lorazepam, bromazepam</td><td>Ansiedade; alprazolam tem retirada difícil por meia-vida curta e alta potência</td></tr>\n<tr><td>Longa ação</td><td>Diazepam, clonazepam, clobazam, cloxazolam, flurazepam</td><td>Efeito residual no dia seguinte, acúmulo no idoso; retirada mais suave</td></tr>\n</tbody></table></div>\n<p>O diazepam gera metabólito ativo (desmetildiazepam) de meia-vida muito longa. Lorazepam e oxazepam só sofrem glicuronidação e acumulam menos em hepatopatas e idosos. A equivalência de doses entre benzodiazepínicos é aproximada e varia entre fontes; serve para planejar troca e retirada, nunca como conversão exata (ver material de apoio).</p>\n<h3>Tolerância, dependência e retirada</h3>\n<p>Tolerância ao efeito hipnótico aparece em poucas semanas; ao efeito ansiolítico, mais lentamente. Dependência física pode surgir após 2 a 4 semanas de uso contínuo. A retirada abrupta causa ansiedade, insônia de rebote, irritabilidade, tremor, sudorese, hipersensibilidade a luz e som e, em uso de doses altas ou prolongado, convulsões e delirium.</p>\n<p>A retirada deve ser gradual, com reduções pequenas e espaçadas, ajustadas à tolerância do paciente, durante semanas a meses. Uma estratégia comum é trocar um benzodiazepínico de meia-vida curta por um de meia-vida longa (diazepam ou clonazepam) e reduzir este (Ashton, 2002). A decisão é do prescritor; o farmacêutico apoia o paciente com calendário de doses e acompanhamento.</p>\n<h3>Idosos e quedas</h3>\n<p>Os critérios de Beers (AGS, 2023) recomendam evitar benzodiazepínicos em idosos pelo aumento de prejuízo cognitivo, delirium, quedas, fraturas e acidentes de trânsito. A mesma recomendação vale para as drogas Z. Quando o idoso já usa há anos, a conduta é planejar retirada, não suspender de uma vez.</p>\n<h3>Drogas Z</h3>\n<p>Zolpidem, zopiclona e eszopiclona agem no mesmo receptor GABA-A, com seletividade maior para subunidades ligadas ao sono. Têm meia-vida curta (o zolpidem de liberação imediata, cerca de 2 a 3 horas). Riscos: comportamentos complexos durante o sono (sonambulismo, dirigir, cozinhar ou sair de casa sem lembrar depois), que levaram a FDA a incluir alerta em caixa em 2019; sonolência e prejuízo psicomotor na manhã seguinte, maiores em mulheres e com formas de liberação prolongada; dependência e uso abusivo. Tomar só ao deitar e com 7 a 8 horas disponíveis para dormir.</p>\n<div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Particularidade</th><th>Lista</th></tr></thead><tbody>\n<tr><td>Zolpidem liberação imediata</td><td>Início rápido; dificuldade para iniciar o sono</td><td>B1</td></tr>\n<tr><td>Zolpidem sublingual</td><td>Doses menores, usado conforme bula; risco de prejuízo se tomado com pouco tempo de sono restante</td><td>B1</td></tr>\n<tr><td>Zolpidem liberação prolongada</td><td>Ajuda a manter o sono; mais sonolência residual</td><td>B1</td></tr>\n<tr><td>Zopiclona e eszopiclona</td><td>Meia-vida um pouco maior; gosto metálico ou amargo é comum</td><td>B1</td></tr>\n<tr><td>Lemborexante</td><td>Antagonista dos receptores de orexina, mecanismo diferente</td><td>B1</td></tr>\n</tbody></table></div>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>Desde 1º de agosto de 2024, todos os medicamentos à base de zolpidem, em qualquer concentração, exigem Notificação de Receita B (azul). A Anvisa excluiu o adendo da Lista B1 que permitia prescrever zolpidem até 10 mg por unidade em Receita de Controle Especial (Anvisa e CFF, 2024). Zolpidem, zopiclona, eszopiclona e lemborexante estão na Lista B1 (Atualização n. 100, RDC 1.023/2026).</p></div>\n<h3>Melatonina</h3>\n<p>No Brasil, a melatonina não é aprovada como medicamento. É autorizada apenas como suplemento alimentar, para pessoas com 19 anos ou mais, com consumo máximo de 0,21 mg por dia, sem qualquer alegação de melhora do sono ou de tratamento de insônia, e com advertência de não uso por gestantes, lactantes, crianças e pessoas em atividades que exigem atenção constante (Anvisa, alteração da IN 28/2018 aprovada em 2021; Ministério da Saúde). Produtos com dose maior, para crianças ou com indicação terapêutica no rótulo são irregulares, e a Anvisa tem suspendido produtos de melatonina sublingual (2025 e 2026). A ramelteona, agonista de receptores de melatonina, consta da Lista C1.</p>\n<h3>Anti-histamínicos sedativos e outros</h3>\n<p>Difenidramina, hidroxizina, prometazina e dexclorfeniramina causam sonolência por bloqueio H1 central. A tolerância ao efeito sedativo surge em dias, a sonolência residual é comum e o efeito anticolinérgico causa confusão, retenção urinária e constipação no idoso (evitar, segundo Beers 2023). Em crianças pequenas podem causar agitação paradoxal; a prometazina é contraindicada abaixo de 2 anos pelo risco de depressão respiratória fatal (alerta em caixa da FDA). Antidepressivos sedativos em dose baixa (trazodona, mirtazapina, amitriptilina) e antipsicóticos como quetiapina são usados para insônia sem evidência robusta para esse fim isolado. Fitoterápicos como valeriana e passiflora têm evidência limitada e também potencializam outros depressores.</p>\n<h3>Quem pede algo para dormir</h3>\n<p>A insônia pode ser sintoma de outra condição: dor, ansiedade, depressão, apneia do sono, refluxo, noctúria, pernas inquietas, hipertireoidismo, uso de cafeína, álcool, descongestionantes, corticoides, bupropiona, ISRS ou broncodilatadores. Antes de qualquer sugestão, o farmacêutico investiga a duração, o padrão (dificuldade para iniciar, manter ou despertar precoce) e o impacto no dia.</p>\n<p>Medidas de higiene do sono que podem ser orientadas no balcão:</p>\n<ul>\n<li>Horário regular para deitar e levantar, inclusive nos fins de semana.</li>\n<li>Usar a cama só para dormir e para atividade sexual; sair da cama se não adormecer em cerca de 20 minutos.</li>\n<li>Evitar cafeína à tarde e à noite, álcool perto de deitar e refeições pesadas tarde.</li>\n<li>Reduzir telas e luz forte antes de dormir; quarto escuro, silencioso e com temperatura agradável.</li>\n<li>Atividade física regular, longe do horário de deitar.</li>\n<li>Evitar cochilos longos durante o dia.</li>\n</ul>\n<p>Insônia que dura mais de algumas semanas, ronco com pausas respiratórias, sonolência ao dirigir ou insônia associada a tristeza persistente exigem avaliação médica.</p>\n<h3>Associação com álcool e opioides</h3>\n<p>Álcool, benzodiazepínicos, drogas Z, barbitúricos, opioides, gabapentinoides, anti-histamínicos sedativos e antipsicóticos somam efeito depressor no sistema nervoso central e na respiração. A associação de opioide e benzodiazepínico tem alerta em caixa da FDA (2016) pelo aumento de mortes por overdose. O risco é maior em idosos, pessoas com apneia do sono, doença pulmonar e doença renal.</p>\n<h3>Receituário</h3>\n<p>Benzodiazepínicos (alprazolam, bromazepam, clonazepam, clobazam, cloxazolam, diazepam, flunitrazepam, lorazepam, midazolam, nitrazepam) e drogas Z estão na Lista B1 e exigem Notificação de Receita B (azul), com numeração fornecida pela vigilância sanitária, validade de 30 dias e quantidade de até 60 dias de tratamento (Portaria 344/1998). A notificação fica retida na farmácia.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Antes de dispensar hipnótico ou benzodiazepínico, pergunte sobre álcool, opioides, outros calmantes e se o paciente dirige ou opera máquinas. Oriente: não associar com bebida alcoólica, não dirigir se estiver sonolento, levantar à noite com luz acesa (idosos), não aumentar a dose e não parar de repente após uso prolongado. Para quem pede “algo para dormir” sem receita, investigue a causa (dor, ansiedade, cafeína, telas, horários irregulares, apneia), oriente higiene do sono e encaminhe insônia que dura mais de algumas semanas.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Senhor de 74 anos, em uso de clonazepam há 10 anos, caiu no banheiro de madrugada. Ele pede para aumentar a dose porque “o remédio não faz mais efeito”. O farmacêutico explica a tolerância, relaciona a queda ao sedativo, não orienta mudança de dose e contata o médico sugerindo plano de redução gradual, entregando ao paciente um registro de doses para levar à consulta.</p></div>"
+  },
+  {
+   "id": "m03-antiparkinsonianos",
+   "titulo": "Antiparkinsonianos",
+   "resumo": "<p>A doença de Parkinson resulta da perda progressiva de neurônios dopaminérgicos da substância negra, com redução da dopamina no corpo estriado e predomínio relativo da acetilcolina. As manifestações motoras são bradicinesia (lentidão), rigidez, tremor de repouso e instabilidade postural; há também sintomas não motores, como constipação, depressão, alterações do sono e hipotensão ortostática. O tratamento repõe a dopamina, imita sua ação ou reduz sua degradação.</p>\n<h3>Levodopa com inibidor da descarboxilase</h3>\n<p>A dopamina não atravessa a barreira hematoencefálica; a levodopa, sua precursora, atravessa e é convertida em dopamina no cérebro. Sozinha, porém, seria transformada em dopamina na periferia, com náusea e hipotensão e pouca chegada ao cérebro. Por isso é sempre associada a um inibidor periférico da dopa-descarboxilase: <strong>carbidopa</strong> (Sinemet® e genéricos) ou benserazida (Prolopa®). É o fármaco mais eficaz para os sintomas motores.</p>\n<ul>\n<li>Proteína da dieta: aminoácidos neutros da proteína competem com a levodopa pelo transporte no intestino e na barreira hematoencefálica. Em pacientes com flutuações, orienta-se tomar a levodopa cerca de 30 a 60 minutos antes das refeições e, se necessário, concentrar a proteína à noite, sem reduzir o total diário sem orientação nutricional.</li>\n<li>Ferro oral reduz a absorção; separar as tomadas.</li>\n<li>Efeitos: náusea, hipotensão ortostática, sonolência, alucinações e confusão (idosos), discinesias (movimentos involuntários no pico de dose).</li>\n<li>Flutuações motoras com a progressão: <em>wearing-off</em> (o efeito acaba antes da próxima dose) e fenômeno <em>on-off</em> (alternância imprevisível). O médico ajusta horários, fraciona doses ou associa outros fármacos.</li>\n<li>Apresentações especiais: liberação prolongada (HBS, não partir nem mastigar) e dispersível (dissolver em água, início mais rápido).</li>\n</ul>\n<div class=\"cx alerta\"><b>Atenção</b><p>A suspensão abrupta da levodopa pode causar síndrome semelhante à síndrome neuroléptica maligna (febre, rigidez, confusão). Em internação ou jejum para exames, o paciente e o cuidador devem lembrar a equipe da medicação. Metoclopramida, bromoprida e antipsicóticos típicos pioram o Parkinson; a domperidona, que quase não entra no cérebro, é o antiemético preferido nessa população.</p></div>\n<h3>Agonistas dopaminérgicos</h3>\n<p>Pramipexol e ropinirol (orais) e rotigotina (adesivo transdérmico) estimulam diretamente o receptor de dopamina. São usados no início da doença em pacientes mais jovens, em associação com levodopa e na síndrome das pernas inquietas, em doses menores.</p>\n<ul>\n<li>Transtornos do controle de impulsos: jogo patológico, compras compulsivas, hipersexualidade, compulsão alimentar. Pacientes raramente contam espontaneamente; o cuidador muitas vezes percebe antes.</li>\n<li>Sonolência excessiva e episódios de sono súbito, inclusive dirigindo.</li>\n<li>Edema de membros inferiores, hipotensão, náusea, alucinações (mais em idosos).</li>\n<li>Rotigotina: aplicar um adesivo por dia, alternando o local, em pele limpa e sem pelos; retirar antes de ressonância magnética e cardioversão, conforme a bula.</li>\n</ul>\n<h3>Inibidores da MAO-B</h3>\n<p>Rasagilina e selegilina inibem a monoaminoxidase B e reduzem a degradação da dopamina. Efeito sintomático modesto, usados no início ou como adjuvantes. Interações: são contraindicados ou exigem extremo cuidado com meperidina, tramadol, metadona, dextrometorfano e outros IMAO (risco de síndrome serotoninérgica); antidepressivos serotoninérgicos e simpaticomiméticos pedem avaliação médica. Em doses usuais, a restrição de tiramina é menos rigorosa que com IMAO não seletivos, mas o paciente deve evitar excessos.</p>\n<h3>Amantadina</h3>\n<p>Antagonista do receptor NMDA com efeito dopaminérgico leve. Reduz discinesias induzidas pela levodopa. Efeitos: livedo reticular (pele com aspecto rendado nas pernas), edema, alucinações, confusão, boca seca. Eliminação renal: ajuste pela TFG.</p>\n<h3>Anticolinérgicos</h3>\n<p>Biperideno e triexifenidil restabelecem o equilíbrio dopamina e acetilcolina e são úteis no tremor em pacientes mais jovens e nos efeitos extrapiramidais de antipsicóticos. Causam boca seca, constipação, retenção urinária, visão turva, piora de glaucoma de ângulo fechado e confusão. Os critérios de Beers recomendam evitá-los em idosos. Têm potencial de uso indevido pelo efeito euforizante.</p>\n<h3>Inibidores da COMT</h3>\n<p>A entacapona inibe a catecol-O-metiltransferase periférica, prolongando a meia-vida da levodopa e reduzindo o wearing-off. É tomada junto com cada dose de levodopa e existe em associação fixa (levodopa, carbidopa e entacapona). Pode aumentar discinesias, causar diarreia e deixar a urina castanho-alaranjada, sem significado clínico. A tolcapona, do mesmo grupo, exige monitorização hepática.</p>\n<h3>Parkinsonismo induzido por medicamentos e pernas inquietas</h3>\n<p>Nem todo tremor e lentidão em idoso é doença de Parkinson. Bloqueadores de receptores de dopamina causam parkinsonismo reversível: antipsicóticos, metoclopramida, bromoprida e os antivertiginosos <strong>flunarizina</strong> e cinarizina, muito usados no Brasil para tontura, às vezes por anos. Ácido valproico e lítio também podem causar tremor e parkinsonismo. Diante de um idoso com sintomas novos que usa um desses fármacos, o farmacêutico leva a hipótese ao médico: a retirada pode resolver o quadro em semanas a meses.</p>\n<p>Na síndrome das pernas inquietas, agonistas dopaminérgicos em dose baixa à noite aliviam o desconforto, mas com o tempo podem causar aumento (augmentation): sintomas mais cedo no dia, mais intensos e em outras partes do corpo. A deficiência de ferro piora a síndrome, e a dosagem de ferritina faz parte da avaliação médica. Anti-histamínicos sedativos, antidepressivos serotoninérgicos e antieméticos antidopaminérgicos costumam piorar os sintomas.</p>\n<h3>Sintomas não motores e medicamentos de balcão</h3>\n<p>Constipação é muito frequente no Parkinson e piora com anticolinérgicos e opioides; o farmacêutico orienta líquidos, fibras e laxantes osmóticos quando indicados. Hipotensão ortostática piora com anti-hipertensivos, alfabloqueadores para próstata e tricíclicos. Antigripais com anti-histamínicos de primeira geração e descongestionantes podem causar confusão e retenção urinária no idoso. Depressão e ansiedade são comuns e tratadas com antidepressivos, o que exige atenção às interações com IMAO-B. Alucinações e psicose induzidas pelos dopaminérgicos não devem ser tratadas com haloperidol ou risperidona; o médico usa antipsicóticos com menor bloqueio D2, como quetiapina ou clozapina.</p>\n<h3>Lista e receituário</h3>\n<div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Lista (Portaria 344/1998)</th><th>Receituário</th></tr></thead><tbody>\n<tr><td>Levodopa com carbidopa ou benserazida</td><td>Não consta das listas</td><td>Receita comum (venda sob prescrição)</td></tr>\n<tr><td>Pramipexol, ropinirol, rotigotina</td><td>C1</td><td>Receita de Controle Especial em duas vias</td></tr>\n<tr><td>Rasagilina, selegilina</td><td>C1</td><td>Receita de Controle Especial em duas vias</td></tr>\n<tr><td>Amantadina, entacapona, tolcapona</td><td>C1</td><td>Receita de Controle Especial em duas vias</td></tr>\n<tr><td>Biperideno</td><td>C1</td><td>Receita de Controle Especial em duas vias</td></tr>\n<tr><td>Triexifenidil</td><td>B1</td><td>Notificação de Receita B (azul)</td></tr>\n</tbody></table></div>\n<p>Para antiparkinsonianos da Lista C1, a Portaria 344/1998 admite quantidade de até 6 meses de tratamento por receita. O triexifenidil consta nominalmente da Lista B1 na atualização vigente (Atualização n. 100, RDC 1.023/2026), o que muda o receituário em relação ao biperideno.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Ajude o paciente a montar uma tabela de horários e respeite-a na dispensação: no Parkinson, atraso de dose piora os sintomas. Pergunte ao cuidador sobre alucinações, quedas, sonolência e mudanças de comportamento (jogo, compras). Desaconselhe metoclopramida e bromoprida e consulte o médico antes de dispensar antieméticos, descongestionantes ou xaropes para tosse a quem usa rasagilina ou selegilina.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>A esposa de um paciente de 66 anos em uso de pramipexol conta que ele passou a gastar o salário em apostas online, algo que nunca fez. O farmacêutico explica que o comportamento pode ser efeito do medicamento, orienta não suspender por conta própria e contatar o neurologista com urgência.</p></div>"
+  },
+  {
+   "id": "m03-opioides",
+   "titulo": "Analgésicos opioides",
+   "resumo": "<p>Opioides são os analgésicos mais eficazes para dor aguda intensa e para dor oncológica, mas carregam riscos sérios: depressão respiratória, dependência, constipação e interações. No balcão, o farmacêutico confere o receituário correto, orienta o uso seguro, previne a constipação e reconhece sinais de intoxicação.</p>\n<h3>Receptores opioides</h3>\n<div class=\"tab\"><table><thead><tr><th>Receptor</th><th>Efeitos principais</th></tr></thead><tbody>\n<tr><td>Mu (MOP)</td><td>Analgesia, euforia, depressão respiratória, miose, constipação, náusea, prurido, dependência física</td></tr>\n<tr><td>Kappa (KOP)</td><td>Analgesia espinhal, sedação, disforia, diurese</td></tr>\n<tr><td>Delta (DOP)</td><td>Analgesia, modulação do humor</td></tr>\n</tbody></table></div>\n<p>Pela ação no receptor mu, os opioides se dividem em agonistas plenos (morfina, oxicodona, metadona, fentanil e, com eficácia menor, codeína), agonista parcial (buprenorfina), agonista-antagonista (nalbufina) e antagonistas (naloxona, naltrexona). O tramadol é agonista mu fraco (principalmente pelo metabólito O-desmetiltramadol) e inibe a recaptação de serotonina e noradrenalina.</p>\n<h3>Fármacos de uso comum</h3>\n<ul>\n<li><strong>Morfina</strong>: referência para comparação. Metabólitos renais (morfina-6-glicuronídeo, ativo, e morfina-3-glicuronídeo, neuroexcitatório) acumulam na doença renal: sedação, mioclonias, confusão.</li>\n<li>Codeína: pró-fármaco convertido em morfina pela CYP2D6; analgesia moderada, muito usada em associação com paracetamol; também antitussígena.</li>\n<li>Tramadol: dor moderada. Riscos próprios: convulsões (dose alta, associação com bupropiona e outros fármacos que reduzem o limiar), síndrome serotoninérgica com antidepressivos, hipoglicemia e hiponatremia.</li>\n<li>Oxicodona: agonista pleno potente; o comprimido de liberação controlada deve ser engolido inteiro.</li>\n<li>Metadona: meia-vida longa e muito variável, acúmulo nos primeiros dias, prolongamento do QT, muitas interações (CYP3A4 e CYP2B6). A titulação e a conversão de outros opioides para metadona são complexas e feitas só por especialista.</li>\n<li>Fentanil transdérmico: adesivo trocado a cada 72 horas, para dor crônica estável em pacientes já tolerantes a opioides; não serve para dor aguda nem para quem nunca usou opioide. Calor (febre, bolsa térmica, sauna, banho muito quente) aumenta a absorção e pode causar overdose.</li>\n<li>Buprenorfina: agonista parcial de alta afinidade, com efeito teto na depressão respiratória; no Brasil, usada em adesivo transdérmico para dor crônica. Pode precipitar abstinência em quem usa agonista pleno, e a reversão com naloxona exige doses maiores.</li>\n<li>Tapentadol: agonista mu e inibidor da recaptação de noradrenalina.</li>\n</ul>\n<h3>Equivalência analgésica aproximada</h3>\n<p>Para estimar a carga total de opioide, usa-se a dose diária em equivalentes de morfina oral (MME). Fatores da diretriz do CDC (2022): codeína 0,15; tramadol 0,2; morfina 1; oxicodona 1,5; hidromorfona 5; metadona 4,7; fentanil transdérmico 2,4 (aplicado à dose em mcg/h). Assim, oxicodona 20 mg/dia corresponde a cerca de 30 MME, e um adesivo de fentanil de 12 mcg/h, a cerca de 30 MME. A própria diretriz alerta: os fatores são estimativas, não servem para converter um opioide em outro (a troca começa com dose bem menor, pela tolerância cruzada incompleta) e não se aplicam à buprenorfina. A morfina oral equivale a cerca de um terço da potência da parenteral.</p>\n<h3>Efeitos adversos e como preveni-los</h3>\n<ul>\n<li>Constipação: acontece em quase todos e não diminui com o tempo (não há tolerância). Todo paciente em uso regular de opioide deve receber laxante profilático, de preferência estimulante (bisacodil, senosídeos) associado ou não a osmótico (macrogol, lactulose), além de líquidos. Fibras isoladas, sem água suficiente, podem piorar.</li>\n<li>Náusea e vômitos: comuns no início, com tolerância em dias.</li>\n<li>Sedação e prejuízo psicomotor: maiores no início e nos aumentos de dose. Não dirigir nesse período.</li>\n<li>Depressão respiratória: o efeito mais grave. Risco maior no início do tratamento, em aumentos de dose, em idosos, com apneia do sono, doença pulmonar, doença renal e com associação a benzodiazepínicos, álcool e gabapentinoides.</li>\n<li>Prurido, retenção urinária, miose, hipotensão.</li>\n<li>Uso prolongado: tolerância, dependência física, hiperalgesia induzida por opioide, hipogonadismo.</li>\n</ul>\n<h3>Intoxicação e naloxona</h3>\n<p>Sinais de overdose: sonolência profunda ou inconsciência, respiração lenta ou ausente, pupilas puntiformes, lábios arroxeados, ronco anormal. A conduta é chamar o SAMU (192), manter a via aérea e ventilar. A naloxona, antagonista competitivo, reverte o quadro em minutos, mas tem duração mais curta que muitos opioides (metadona, formas de liberação prolongada, fentanil adesivo), e o paciente pode voltar a dormir: precisa de observação em serviço de saúde. No Brasil, as apresentações registradas de uso corrente são injetáveis (0,4 mg/mL), e a naloxona consta da Lista C1.</p>\n<h3>Metabolizadores da CYP2D6</h3>\n<p>Codeína e tramadol dependem da CYP2D6 para gerar o metabólito mais ativo. Metabolizadores lentos (cerca de 5 a 10% de pessoas de ascendência europeia) têm pouca analgesia. Metabolizadores ultrarrápidos produzem morfina em excesso e podem ter intoxicação grave com dose usual; há mortes descritas em crianças após amigdalectomia e em lactentes amamentados por mães ultrarrápidas. Por isso a FDA contraindicou codeína e tramadol em menores de 12 anos, e em menores de 18 anos após amigdalectomia ou adenoidectomia, e desaconselhou o uso na amamentação (FDA, 2017). Inibidores da CYP2D6 (fluoxetina, paroxetina, bupropiona) imitam o metabolizador lento.</p>\n<h3>Uso racional e armazenamento</h3>\n<p>Na dor aguda (pós-operatório, fraturas, extrações), o opioide deve ser usado na menor dose eficaz e pelo menor tempo, em geral poucos dias, associado a analgésicos não opioides (paracetamol, dipirona, AINE quando não contraindicados), que reduzem a dose necessária. Na dor oncológica e em cuidados paliativos, o objetivo é controle contínuo, com doses regulares em horário fixo e doses de resgate. Opioides em uso prolongado não devem ser suspensos de repente: a redução é gradual, planejada pelo prescritor, para evitar abstinência (bocejos, lacrimejamento, coriza, pupilas dilatadas, arrepios, diarreia, cólicas, ansiedade, insônia).</p>\n<p>Comprimidos e adesivos guardados em casa são a principal fonte de uso indevido por familiares e de intoxicação acidental em crianças. Oriente guardar em local trancado ou fora do alcance e descartar sobras em pontos de coleta de medicamentos.</p>\n<h3>Listas e receituário</h3>\n<p>A regra geral: substâncias das Listas A1 e A2 exigem Notificação de Receita A (amarela), com numeração fornecida pela vigilância sanitária, validade de 30 dias e quantidade de até 30 dias de tratamento (Portaria 344/1998). Os adendos das listas, porém, deslocam várias apresentações para a Receita de Controle Especial em duas vias.</p>\n<div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Lista</th><th>Receituário (Atualização n. 100, RDC 1.023/2026)</th></tr></thead><tbody>\n<tr><td>Morfina, metadona, fentanil, tapentadol, hidromorfona</td><td>A1</td><td>Notificação de Receita A</td></tr>\n<tr><td>Oxicodona</td><td>A1</td><td>Notificação A; comprimidos de liberação controlada com até 40 mg por unidade: Receita de Controle Especial (adendo 5)</td></tr>\n<tr><td>Buprenorfina</td><td>A1</td><td>Notificação A; adesivo transdérmico em matriz: Receita de Controle Especial (adendo 8)</td></tr>\n<tr><td>Codeína</td><td>A2</td><td>Até 100 mg por unidade e concentração até 2,5% nas formas indivisíveis: Receita de Controle Especial (adendo 2); acima disso, Notificação A</td></tr>\n<tr><td>Tramadol</td><td>A2</td><td>Até 100 mg por unidade: Receita de Controle Especial (adendo 3); acima disso, Notificação A</td></tr>\n<tr><td>Nalbufina</td><td>A2</td><td>Até 10 mg por unidade: Receita de Controle Especial (adendo 5)</td></tr>\n<tr><td>Naloxona, naltrexona</td><td>C1</td><td>Receita de Controle Especial</td></tr>\n</tbody></table></div>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>Adendo 3 da Lista A2: “preparações à base de tramadol, inclusive as misturadas a um ou mais componentes, em que a quantidade não exceda 100 miligramas de tramadol por unidade posológica ficam sujeitas a prescrição da Receita de Controle Especial, em 2 (duas) vias” (Portaria 344/1998, Anexo I, Atualização n. 100).</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Confira lista, adendo e tipo de receituário antes de separar o produto. Na entrega, oriente: tomar só a dose prescrita, nunca associar com álcool ou calmantes sem orientação, iniciar o laxante junto com o opioide, guardar fora do alcance de crianças, não dividir com outras pessoas e devolver sobras em ponto de coleta. Para o adesivo de fentanil: não cortar, evitar calor sobre o local, trocar no dia certo e descartar dobrado ao meio com as faces adesivas para dentro. Ensine o familiar a reconhecer sonolência excessiva e respiração lenta e a chamar o SAMU (192).</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 38 anos, amamentando um bebê de 1 mês, apresenta receita de paracetamol com codeína após cesariana. O farmacêutico informa a recomendação contrária ao uso na amamentação, orienta observar no bebê sonolência excessiva, dificuldade para mamar e respiração lenta, e contata o médico para discutir alternativa analgésica compatível.</p></div>"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m03-mapa-farmaco",
+   "titulo": "Farmacocinética e farmacodinâmica",
+   "centro": "Farmacocinética e dinâmica",
+   "ramos": [
+    {
+     "t": "Absorção e 1ª passagem",
+     "itens": [
+      "Jejum: levotiroxina e alendronato",
+      "Quinolona e tetraciclina + Ca, Fe, Mg, Al: quelação",
+      "Sublingual escapa do fígado (nitratos)",
+      "Morfina oral: cerca de 3 vezes a dose parenteral"
+     ]
+    },
+    {
+     "t": "Metabolismo e CYP",
+     "itens": [
+      "3A4: metade dos fármacos; toranja inibe",
+      "Indutor: carbamazepina, fenitoína, rifampicina, fumo",
+      "Inibidor: claritromicina, azóis, fluoxetina",
+      "Pró-fármaco: codeína, tramadol, clopidogrel"
+     ]
+    },
+    {
+     "t": "Eliminação e meia-vida",
+     "itens": [
+      "4 a 5 meias-vidas: equilíbrio ou eliminação",
+      "TFG pela CKD-EPI 2021, sem raça",
+      "Ajuste renal: gabapentinoides, levetiracetam, lítio",
+      "Hepatopata: lorazepam e oxazepam acumulam menos"
+     ]
+    },
+    {
+     "t": "Receptores",
+     "itens": [
+      "Agonista pleno: morfina, fentanil",
+      "Parcial com teto: buprenorfina, aripiprazol",
+      "Antagonista: naloxona, flumazenil",
+      "Potência não é eficácia (fentanil x morfina)"
+     ]
+    },
+    {
+     "t": "Segurança",
+     "itens": [
+      "IT estreito: varfarina, lítio, digoxina, fenitoína",
+      "RAM tipo A: dose-dependente e previsível",
+      "RAM tipo B: imprevisível e grave (SSJ, anafilaxia)",
+      "Notificar no VigiMed: basta a suspeita"
+     ]
+    },
+    {
+     "t": "Formas farmacêuticas",
+     "itens": [
+      "LP, XR, CR, retard: não partir nem triturar",
+      "Entérico: não triturar (omeprazol, diclofenaco)",
+      "Gota não é mL: ver bula e gotejador",
+      "Suspensão: agitar antes de cada dose",
+      "Troca: genérico ou similar intercambiável"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m03-mapa-humor-psicose",
+   "titulo": "Antidepressivos e antipsicóticos",
+   "centro": "Humor e psicose",
+   "ramos": [
+    {
+     "t": "ISRS e IRSN",
+     "itens": [
+      "Efeito em 2 a 4 semanas; pleno em 4 a 8",
+      "Náusea, insônia, disfunção sexual",
+      "Sangram com AINE; hiponatremia no idoso",
+      "Venlafaxina eleva PA; citalopram prolonga QT"
+     ]
+    },
+    {
+     "t": "Tricíclicos e IMAO",
+     "itens": [
+      "Tricíclico: anticolinérgico, ortostase, letal em excesso",
+      "IMAO + tiramina: crise hipertensiva",
+      "IMAO + descongestionante ou tramadol: perigo",
+      "Fluoxetina: cerca de 5 semanas antes de IMAO"
+     ]
+    },
+    {
+     "t": "Atípicos",
+     "itens": [
+      "Bupropiona: reduz limiar convulsivo",
+      "Mirtazapina: sono, apetite e peso",
+      "Trazodona: insônia; priapismo raro",
+      "Agomelatina: transaminases; não com fluvoxamina"
+     ]
+    },
+    {
+     "t": "Riscos dos antidepressivos",
+     "itens": [
+      "Serotoninérgica: mental, autonômico, clônus",
+      "Descontinuação: tontura e choques (paroxetina)",
+      "Até 24 anos: vigiar ideação suicida no início"
+     ]
+    },
+    {
+     "t": "Antipsicóticos",
+     "itens": [
+      "Bloqueio D2; atípicos também 5-HT2A",
+      "EPS: distonia, acatisia, parkinsonismo, discinesia",
+      "Metabólico: olanzapina, clozapina, quetiapina",
+      "SNM: febre, rigidez, CK alta: emergência",
+      {
+       "t": "Clozapina",
+       "itens": [
+        "Hemograma conforme bula",
+        "Parar de fumar eleva o nível",
+        "Febre ou dor de garganta: hemograma"
+       ]
+      }
+     ]
+    },
+    {
+     "t": "Receituário",
+     "itens": [
+      "Antidepressivos e antipsicóticos: lista C1",
+      "Receita de Controle Especial em 2 vias",
+      "Validade 30 dias; até 60 dias de tratamento",
+      "Escetamina spray: B1, só em serviço de saúde"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m03-mapa-neuro",
+   "titulo": "Anticonvulsivantes, sedativos e antiparkinsonianos",
+   "centro": "Crises, sono e Parkinson",
+   "ramos": [
+    {
+     "t": "Indutores",
+     "itens": [
+      "Carbamazepina, fenitoína, fenobarbital",
+      "Reduzem anticoncepcional: preferir DIU",
+      "Oxcarbazepina e topiramato em dose alta também"
+     ]
+    },
+    {
+     "t": "Teratogenia e pele",
+     "itens": [
+      "Valproato: programa de prevenção da gravidez",
+      "Lamotrigina: titulação lenta; risco de SSJ",
+      "Carbamazepina: HLA-B*1502 em asiáticos",
+      "Topiramato: fenda labial e glaucoma agudo"
+     ]
+    },
+    {
+     "t": "Gabapentinoides",
+     "itens": [
+      "Gabapentina e pregabalina: lista C1",
+      "Dose ajustada pela TFG",
+      "Com opioide: depressão respiratória"
+     ]
+    },
+    {
+     "t": "Benzodiazepínicos e Z",
+     "itens": [
+      "B1: Notificação de Receita B (azul)",
+      "Zolpidem: Notificação B desde 1º/8/2024",
+      "Idoso: Beers 2023 recomenda evitar",
+      "Retirada gradual, nunca abrupta",
+      "Com álcool ou opioide: depressão respiratória"
+     ]
+    },
+    {
+     "t": "Melatonina",
+     "itens": [
+      "Só suplemento: até 0,21 mg/dia, 19 anos ou mais",
+      "Sem alegação para sono; não é medicamento"
+     ]
+    },
+    {
+     "t": "Parkinson",
+     "itens": [
+      "Levodopa longe da proteína; não suspender",
+      "Agonistas: compulsões e sono súbito",
+      "Triexifenidil B1; biperideno C1",
+      "Evitar metoclopramida; preferir domperidona"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m03-mapa-opioides-anestesicos",
+   "titulo": "Opioides e anestésicos",
+   "centro": "Opioides e anestésicos",
+   "ramos": [
+    {
+     "t": "Receptores e fármacos",
+     "itens": [
+      "Mu: analgesia, miose, depressão respiratória",
+      "Buprenorfina: agonista parcial, efeito teto",
+      "Tramadol: mu fraco e serotoninérgico",
+      "Metadona: meia-vida longa e QT"
+     ]
+    },
+    {
+     "t": "Equivalência CDC 2022",
+     "itens": [
+      "Codeína 0,15; tramadol 0,2; oxicodona 1,5",
+      "Fentanil adesivo: 2,4 x dose em mcg/h",
+      "Fator não serve para trocar de opioide"
+     ]
+    },
+    {
+     "t": "Segurança",
+     "itens": [
+      "Laxante profilático desde o início",
+      "Naloxona reverte, mas dura menos",
+      "CYP2D6 ultrarrápido: codeína tóxica",
+      "Codeína e tramadol: não usar abaixo de 12 anos"
+     ]
+    },
+    {
+     "t": "Receituário",
+     "itens": [
+      "A1 e A2: Notificação de Receita A (amarela)",
+      "Tramadol até 100 mg/unidade: Controle Especial",
+      "Codeína até 100 mg/unidade: Controle Especial",
+      "Oxicodona LC até 40 mg: Controle Especial"
+     ]
+    },
+    {
+     "t": "Anestésicos locais",
+     "itens": [
+      "Bloqueiam canal de sódio por dentro",
+      "Ésteres (benzocaína): alergia ao PABA",
+      "Amida tem i antes de caína (lidocaína)",
+      "Vasoconstritor prolonga e reduz toxicidade"
+     ]
+    },
+    {
+     "t": "Riscos dos tópicos",
+     "itens": [
+      "Benzocaína abaixo de 2 anos: metemoglobinemia",
+      "Colírio anestésico: C1 com receita retida",
+      "Toxicidade: gosto metálico, zumbido, convulsão"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m03-tab-cyp",
+   "titulo": "Indutores e inibidores do CYP450 frequentes no balcão",
+   "colunas": [
+    "Isoenzima",
+    "Indutores",
+    "Inibidores",
+    "Substratos sensíveis",
+    "Consequência típica"
+   ],
+   "linhas": [
+    [
+     "CYP3A4",
+     "Carbamazepina, fenitoína, fenobarbital, rifampicina, erva-de-são-joão",
+     "Claritromicina, eritromicina, cetoconazol, itraconazol, fluconazol, ritonavir, diltiazem, verapamil, suco de toranja",
+     "Sinvastatina, atorvastatina, anticoncepcionais, midazolam, alprazolam, fentanil, sildenafila",
+     "Inibidor: miopatia, sedação, hipotensão. Indutor: falha do anticoncepcional"
+    ],
+    [
+     "CYP2D6",
+     "Pouco induzível",
+     "Fluoxetina, paroxetina, bupropiona, quinidina, terbinafina",
+     "Codeína, tramadol (pró-fármacos), metoprolol, tricíclicos, tamoxifeno",
+     "Inibidor reduz analgesia de codeína e tramadol"
+    ],
+    [
+     "CYP2C9",
+     "Rifampicina, carbamazepina",
+     "Fluconazol, amiodarona, metronidazol, sulfametoxazol",
+     "Varfarina, fenitoína, glibenclamida, AINE",
+     "Sangramento com varfarina; hipoglicemia"
+    ],
+    [
+     "CYP2C19",
+     "Rifampicina, carbamazepina",
+     "Omeprazol, esomeprazol, fluvoxamina, fluconazol",
+     "Clopidogrel (pró-fármaco), citalopram, diazepam",
+     "Menor ativação do clopidogrel"
+    ],
+    [
+     "CYP1A2",
+     "Tabaco fumado, carbamazepina, rifampicina",
+     "Fluvoxamina, ciprofloxacino",
+     "Clozapina, olanzapina, teofilina, cafeína, agomelatina",
+     "Parar de fumar ou iniciar inibidor: intoxicação"
+    ]
+   ],
+   "nota": "Indução leva cerca de 1 a 2 semanas para se instalar e para desaparecer; inibição age em horas a dias. Lista não exaustiva: confirme cada par em base de interações e na bula."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m03-tab-antidepressivos",
+   "titulo": "Antidepressivos: classes, efeitos e receituário",
+   "colunas": [
+    "Classe",
+    "Exemplos",
+    "Mecanismo",
+    "Efeitos marcantes",
+    "Receituário"
+   ],
+   "linhas": [
+    [
+     "ISRS",
+     "Fluoxetina, sertralina, paroxetina, citalopram, escitalopram, fluvoxamina",
+     "Inibe a recaptação de serotonina",
+     "Náusea, insônia, disfunção sexual, sangramento, hiponatremia; QT com citalopram",
+     "C1: Receita de Controle Especial em 2 vias"
+    ],
+    [
+     "IRSN",
+     "Venlafaxina, desvenlafaxina, duloxetina, milnaciprana",
+     "Inibe a recaptação de serotonina e noradrenalina",
+     "Como ISRS; aumento de PA (venlafaxina); descontinuação intensa",
+     "C1: Receita de Controle Especial em 2 vias"
+    ],
+    [
+     "Tricíclicos",
+     "Amitriptilina, nortriptilina, imipramina, clomipramina",
+     "Inibe a recaptação e bloqueia M, H1 e alfa-1",
+     "Boca seca, constipação, sonolência, ortostase, ganho de peso; cardiotóxico em excesso",
+     "C1: Receita de Controle Especial em 2 vias"
+    ],
+    [
+     "IMAO",
+     "Tranilcipromina, moclobemida",
+     "Inibe a monoaminoxidase",
+     "Crise hipertensiva com tiramina e simpaticomiméticos; síndrome serotoninérgica",
+     "C1: Receita de Controle Especial em 2 vias"
+    ],
+    [
+     "Atípicos",
+     "Bupropiona",
+     "Inibe a recaptação de dopamina e noradrenalina",
+     "Insônia, convulsão em dose alta; sem disfunção sexual",
+     "C1: Receita de Controle Especial em 2 vias"
+    ],
+    [
+     "Atípicos",
+     "Mirtazapina",
+     "Antagonista alfa-2, 5-HT2, 5-HT3 e H1",
+     "Sonolência, apetite, ganho de peso",
+     "C1: Receita de Controle Especial em 2 vias"
+    ],
+    [
+     "Atípicos",
+     "Trazodona",
+     "Antagonista 5-HT2A e inibe recaptação",
+     "Sonolência, ortostase, priapismo raro",
+     "C1: Receita de Controle Especial em 2 vias"
+    ],
+    [
+     "Atípicos",
+     "Vortioxetina",
+     "Multimodal serotoninérgico",
+     "Náusea; menos disfunção sexual",
+     "C1: Receita de Controle Especial em 2 vias"
+    ],
+    [
+     "Atípicos",
+     "Agomelatina",
+     "Agonista MT1 e MT2, antagonista 5-HT2C",
+     "Hepatotoxicidade: transaminases conforme bula",
+     "C1: Receita de Controle Especial em 2 vias"
+    ]
+   ],
+   "nota": "Lista C1 da Portaria SVS/MS 344/1998, Anexo I, Atualização n. 100 (RDC 1.023/2026). Receita válida por 30 dias, com até 60 dias de tratamento (Portaria 344/1998)."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m03-tab-benzodiazepinicos",
+   "titulo": "Benzodiazepínicos e drogas Z: meia-vida e equivalência aproximada",
+   "colunas": [
+    "Fármaco",
+    "Meia-vida aproximada (h)",
+    "Dose equivalente a 10 mg de diazepam",
+    "Observação",
+    "Receituário"
+   ],
+   "linhas": [
+    [
+     "Alprazolam",
+     "6 a 12",
+     "0,5 mg",
+     "Retirada difícil; ansiedade entre doses",
+     "Notificação B"
+    ],
+    [
+     "Bromazepam",
+     "10 a 20",
+     "5 a 6 mg",
+     "Ação intermediária",
+     "Notificação B"
+    ],
+    [
+     "Clobazam",
+     "12 a 60",
+     "20 mg",
+     "Também usado em epilepsia",
+     "Notificação B"
+    ],
+    [
+     "Clonazepam",
+     "18 a 50",
+     "0,5 mg",
+     "Gotas 2,5 mg/mL: 0,1 mg por gota",
+     "Notificação B"
+    ],
+    [
+     "Diazepam",
+     "20 a 100 (metabólito ativo até cerca de 200)",
+     "10 mg",
+     "Acúmulo no idoso; usado para retirada",
+     "Notificação B"
+    ],
+    [
+     "Flunitrazepam",
+     "18 a 26",
+     "1 mg",
+     "Potente; risco de uso criminoso",
+     "Notificação B"
+    ],
+    [
+     "Lorazepam",
+     "10 a 20",
+     "1 mg",
+     "Só glicuronidação: melhor no hepatopata",
+     "Notificação B"
+    ],
+    [
+     "Nitrazepam",
+     "15 a 38",
+     "10 mg",
+     "Hipnótico de ação longa",
+     "Notificação B"
+    ],
+    [
+     "Midazolam",
+     "1,5 a 2,5",
+     "Não estabelecida para uso crônico",
+     "Indução do sono e procedimentos",
+     "Notificação B"
+    ],
+    [
+     "Zolpidem",
+     "2",
+     "20 mg",
+     "Comportamentos complexos no sono",
+     "Notificação B (desde 1º/8/2024)"
+    ],
+    [
+     "Zopiclona",
+     "5 a 6",
+     "15 mg",
+     "Gosto amargo",
+     "Notificação B"
+    ]
+   ],
+   "nota": "Meias-vidas e equivalências segundo o Manual Ashton (2002); outras fontes trazem valores diferentes. Equivalência é estimativa para planejar trocas e retiradas com o prescritor, não conversão exata. Lista B1 (Portaria 344/1998, Atualização n. 100)."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m03-tab-opioides",
+   "titulo": "Opioides: lista, receituário, equivalência e alertas",
+   "colunas": [
+    "Fármaco",
+    "Lista",
+    "Receituário",
+    "Fator MME (CDC 2022)",
+    "Alerta"
+   ],
+   "linhas": [
+    [
+     "Codeína",
+     "A2",
+     "Até 100 mg/unidade e até 2,5% (indivisível): Receita de Controle Especial; acima: Notificação A",
+     "0,15",
+     "Pró-fármaco CYP2D6; não usar abaixo de 12 anos nem na amamentação"
+    ],
+    [
+     "Tramadol",
+     "A2",
+     "Até 100 mg/unidade: Receita de Controle Especial; acima: Notificação A",
+     "0,2",
+     "Convulsão, síndrome serotoninérgica, hipoglicemia"
+    ],
+    [
+     "Morfina",
+     "A1",
+     "Notificação A",
+     "1",
+     "Metabólitos acumulam na doença renal"
+    ],
+    [
+     "Oxicodona",
+     "A1",
+     "Liberação controlada até 40 mg/unidade: Receita de Controle Especial; demais: Notificação A",
+     "1,5",
+     "Não partir nem mastigar"
+    ],
+    [
+     "Metadona",
+     "A1",
+     "Notificação A",
+     "4,7 (estimativa grosseira)",
+     "Meia-vida longa, acúmulo, QT; conversão só por especialista"
+    ],
+    [
+     "Fentanil transdérmico",
+     "A1",
+     "Notificação A",
+     "2,4 x mcg/h",
+     "Só para tolerante a opioide; calor aumenta absorção"
+    ],
+    [
+     "Buprenorfina",
+     "A1",
+     "Adesivo em matriz: Receita de Controle Especial; demais: Notificação A",
+     "Não se aplica",
+     "Agonista parcial; pode precipitar abstinência"
+    ],
+    [
+     "Tapentadol",
+     "A1",
+     "Notificação A",
+     "0,4",
+     "Também noradrenérgico"
+    ],
+    [
+     "Naloxona",
+     "C1",
+     "Receita de Controle Especial",
+     "Não se aplica",
+     "Duração menor que a de muitos opioides"
+    ]
+   ],
+   "nota": "Listas e adendos: Portaria 344/1998, Anexo I, Atualização n. 100 (RDC 1.023/2026). Fatores MME: Dowell et al., CDC 2022; servem para estimar a carga diária, não para converter um opioide em outro."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m03-tab-anticonvulsivantes",
+   "titulo": "Anticonvulsivantes: interações, alertas e lista",
+   "colunas": [
+    "Fármaco",
+    "Efeito enzimático",
+    "Alerta principal",
+    "IT estreito",
+    "Lista"
+   ],
+   "linhas": [
+    [
+     "Carbamazepina",
+     "Indutor potente e autoindução",
+     "SSJ/NET (HLA-B*1502), hiponatremia, teratogenia",
+     "Sim",
+     "C1"
+    ],
+    [
+     "Oxcarbazepina",
+     "Indutor moderado",
+     "Hiponatremia; reduz anticoncepcional",
+     "Não",
+     "C1"
+    ],
+    [
+     "Fenitoína",
+     "Indutor potente",
+     "Cinética saturável, hiperplasia gengival, teratogenia",
+     "Sim",
+     "C1"
+    ],
+    [
+     "Fenobarbital",
+     "Indutor potente",
+     "Sedação, dependência, teratogenia",
+     "Sim",
+     "B1 com adendo: Receita de Controle Especial"
+    ],
+    [
+     "Ácido valproico",
+     "Inibidor",
+     "Teratogenia grave, hepatotoxicidade, pancreatite; dobra a lamotrigina",
+     "Sim",
+     "C1"
+    ],
+    [
+     "Lamotrigina",
+     "Sem efeito relevante; nível cai com estrogênio",
+     "Exantema e SSJ: titulação lenta",
+     "Não",
+     "C1"
+    ],
+    [
+     "Levetiracetam",
+     "Sem efeito relevante",
+     "Irritabilidade e depressão; ajuste renal",
+     "Não",
+     "C1"
+    ],
+    [
+     "Topiramato",
+     "Indutor fraco em dose alta",
+     "Parestesia, cálculo renal, glaucoma agudo, teratogenia",
+     "Não",
+     "C1"
+    ],
+    [
+     "Gabapentina e pregabalina",
+     "Sem efeito relevante",
+     "Sedação, edema, uso indevido; ajuste renal",
+     "Não",
+     "C1"
+    ]
+   ],
+   "nota": "Lista conforme Portaria 344/1998, Anexo I, Atualização n. 100. Para anticonvulsivantes da C1, a Portaria permite até 6 meses de tratamento por receita."
+  },
+  {
+   "tipo": "quadro",
+   "id": "m03-quadro-nao-partir",
+   "titulo": "Não partir, não triturar, não mastigar",
+   "html": "<div class=\"tab\"><table><thead><tr><th>Forma</th><th>Como reconhecer</th><th>Por que não alterar</th><th>Exemplos</th></tr></thead><tbody>\n<tr><td>Liberação prolongada</td><td>LP, XR, ER, SR, CR, LA, retard, OROS, HBS no nome</td><td>Libera a dose inteira de uma vez: intoxicação</td><td>Oxicodona LC, venlafaxina XR, metformina XR, nifedipino LP, levodopa HBS</td></tr>\n<tr><td>Gastrorresistente</td><td>“Revestimento entérico”, “liberação retardada”</td><td>Ácido destrói o fármaco ou o fármaco lesa o estômago</td><td>Omeprazol, pantoprazol, diclofenaco sódico</td></tr>\n<tr><td>Sublingual</td><td>“Sublingual”, “SL”</td><td>Engolido perde a absorção rápida e sofre primeira passagem</td><td>Dinitrato de isossorbida SL, zolpidem SL</td></tr>\n<tr><td>Orodispersível</td><td>“Orodispersível”, “ODT”</td><td>Feito para desintegrar na língua; não exige água</td><td>Ondansetrona orodispersível</td></tr>\n<tr><td>Risco a quem manipula</td><td>Teratogênico ou citotóxico</td><td>Pó ou contato com o fármaco expõe gestante ou cuidador</td><td>Finasterida, dutasterida, metotrexato, talidomida</td></tr>\n<tr><td>Cápsula mole</td><td>Conteúdo líquido ou oleoso</td><td>Dose imprecisa e perda do conteúdo</td><td>Vitaminas lipossolúveis, nifedipino cápsula</td></tr>\n</tbody></table></div>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Sulco não garante divisão exata. Só parta, abra ou triture quando a bula do produto autorizar. Na dúvida, procure apresentação líquida, dose menor pronta ou outra opção com o prescritor.</p></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>Alguns produtos de liberação prolongada têm sulco funcional e podem ser partidos ao meio, mas nunca mastigados ou triturados. Algumas cápsulas com microgrânulos podem ser abertas e dispersas, sem triturar os grânulos. A autorização está sempre na bula.</p></div>"
+  },
+  {
+   "tipo": "checklist",
+   "id": "m03-check-psicotropico",
+   "titulo": "Dispensação de psicotrópico: checklist de orientação",
+   "itens": [
+    "Conferir a lista do fármaco e o tipo de receituário exigido (Notificação A, Notificação B ou Receita de Controle Especial)",
+    "Conferir validade de 30 dias a partir da emissão e quantidade máxima permitida para a lista",
+    "Conferir identificação do paciente, do prescritor, dose, forma, posologia e quantidade",
+    "Verificar adendos de lista (tramadol, codeína, oxicodona, fenobarbital) antes de recusar ou aceitar a receita",
+    "Perguntar por álcool, outros calmantes, opioides, antidepressivos e suplementos",
+    "Checar interações graves: serotoninérgicos, depressores do SNC, indutores e inibidores do CYP",
+    "Perguntar sobre gravidez, planejamento de gravidez e método contraceptivo",
+    "Explicar o tempo para início do efeito e os efeitos adversos esperados",
+    "Orientar não parar de repente nem mudar a dose por conta própria",
+    "Orientar não dirigir nem operar máquinas se houver sonolência",
+    "Orientar guarda segura, fora do alcance de crianças, e descarte de sobras em ponto de coleta",
+    "Informar sinais de alerta que exigem procurar serviço de saúde",
+    "Escriturar a dispensação no sistema exigido e reter a via ou notificação devida",
+    "Registrar a orientação e oferecer retorno para acompanhamento"
+   ]
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m03-fluxo-opioide",
+   "titulo": "Receita de opioide no balcão: qual receituário é o correto",
+   "passos": [
+    {
+     "t": "Cliente apresenta receita de analgésico opioide",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Identificar o fármaco e localizar a lista (A1, A2 ou C1) na atualização vigente do Anexo I da Portaria 344/1998",
+     "tipo": "acao"
+    },
+    {
+     "t": "O fármaco é tramadol, codeína, oxicodona de liberação controlada ou buprenorfina em adesivo?",
+     "tipo": "decisao",
+     "sim": "Conferir o adendo: dose por unidade (tramadol e codeína até 100 mg; oxicodona LC até 40 mg) ou adesivo em matriz",
+     "nao": "Exigir Notificação de Receita A (amarela) para A1 e A2"
+    },
+    {
+     "t": "A apresentação se enquadra no adendo?",
+     "tipo": "decisao",
+     "sim": "Aceitar Receita de Controle Especial em 2 vias",
+     "nao": "Exigir Notificação de Receita A"
+    },
+    {
+     "t": "A receita está dentro da validade de 30 dias e da quantidade permitida, com campos completos?",
+     "tipo": "decisao",
+     "sim": "Seguir para a avaliação clínica",
+     "nao": "Não dispensar e orientar o paciente a retornar ao prescritor"
+    },
+    {
+     "t": "Há benzodiazepínico, álcool, gabapentinoide, antidepressivo serotoninérgico ou criança menor de 12 anos envolvida?",
+     "tipo": "decisao",
+     "sim": "Contatar o prescritor e registrar a intervenção antes de dispensar",
+     "nao": "Dispensar"
+    },
+    {
+     "t": "Orientar dose, laxante profilático, sinais de intoxicação, guarda e descarte",
+     "tipo": "acao"
+    },
+    {
+     "t": "Sonolência intensa ou respiração lenta: chamar o SAMU (192)",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Reter a via ou a notificação e escriturar no sistema de controle",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m03-cartoes",
+   "titulo": "Cartões de revisão",
+   "itens": [
+    {
+     "f": "Indutor enzimático: o efeito aparece rápido ou devagar?",
+     "v": "Devagar, em cerca de 1 a 2 semanas, e também demora a sumir após a suspensão."
+    },
+    {
+     "f": "Por que fluoxetina reduz a analgesia da codeína?",
+     "v": "Inibe a CYP2D6, que converte codeína em morfina."
+    },
+    {
+     "f": "Equação recomendada para estimar a TFG?",
+     "v": "CKD-EPI 2021, sem coeficiente de raça."
+    },
+    {
+     "f": "Diferença entre potência e eficácia?",
+     "v": "Potência é a dose para um efeito; eficácia é o efeito máximo possível."
+    },
+    {
+     "f": "Cite quatro fármacos de índice terapêutico estreito.",
+     "v": "Varfarina, lítio, digoxina, fenitoína (também carbamazepina, valproato, teofilina, levotiroxina)."
+    },
+    {
+     "f": "Onde notificar suspeita de reação adversa a medicamento?",
+     "v": "No VigiMed, sistema da Anvisa; basta a suspeita."
+    },
+    {
+     "f": "Comprimido com XR ou LP no nome pode ser triturado?",
+     "v": "Não. Libera a dose inteira de uma vez; só altere se a bula autorizar."
+    },
+    {
+     "f": "Receituário dos antidepressivos?",
+     "v": "Lista C1: Receita de Controle Especial em 2 vias, válida 30 dias."
+    },
+    {
+     "f": "Tríade da síndrome serotoninérgica?",
+     "v": "Alteração mental, hiperatividade autonômica e alterações neuromusculares (clônus, hiperreflexia)."
+    },
+    {
+     "f": "Antidepressivo que reduz o limiar convulsivo e não causa disfunção sexual?",
+     "v": "Bupropiona."
+    },
+    {
+     "f": "O que acontece com a clozapina quando o paciente para de fumar?",
+     "v": "O nível sobe, porque cessa a indução da CYP1A2: risco de toxicidade."
+    },
+    {
+     "f": "Sinais da síndrome neuroléptica maligna?",
+     "v": "Febre, rigidez intensa, alteração de consciência, instabilidade autonômica e CK elevada."
+    },
+    {
+     "f": "Valproato em mulher com potencial de engravidar?",
+     "v": "Contraindicado, salvo programa de prevenção da gravidez cumprido (bula)."
+    },
+    {
+     "f": "O que o estrogênio faz com a lamotrigina?",
+     "v": "Reduz o nível em cerca de metade; crises podem voltar."
+    },
+    {
+     "f": "Receituário do zolpidem desde 1º/8/2024?",
+     "v": "Notificação de Receita B (azul), em qualquer concentração."
+    },
+    {
+     "f": "Situação da melatonina no Brasil?",
+     "v": "Só suplemento alimentar, até 0,21 mg/dia, para 19 anos ou mais, sem alegação para sono."
+    },
+    {
+     "f": "Antiemético preferido no Parkinson?",
+     "v": "Domperidona; evitar metoclopramida e bromoprida."
+    },
+    {
+     "f": "Receituário do triexifenidil?",
+     "v": "Lista B1: Notificação de Receita B. O biperideno é C1."
+    },
+    {
+     "f": "Tramadol 50 mg cápsula: qual receituário?",
+     "v": "Receita de Controle Especial em 2 vias (adendo 3 da Lista A2)."
+    },
+    {
+     "f": "Por que não usar benzocaína em gengiva de bebê?",
+     "v": "Risco de metemoglobinemia em menores de 2 anos, sem benefício comprovado."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m03-questoes",
+   "titulo": "Questões de fixação",
+   "itens": [
+    {
+     "p": "Homem de 63 anos usa sinvastatina 40 mg/dia e recebe claritromicina para pneumonia. Três dias depois, relata dor muscular difusa e urina escura. O mecanismo mais provável é:",
+     "alt": [
+      "Indução da CYP3A4 pela claritromicina, com queda da sinvastatina",
+      "Inibição da CYP2D6, com acúmulo do metabólito ativo",
+      "Inibição da CYP3A4, com aumento da exposição à sinvastatina",
+      "Deslocamento da sinvastatina da albumina pela claritromicina",
+      "Antagonismo farmacodinâmico no receptor muscular"
+     ],
+     "c": 2,
+     "com": "A claritromicina é inibidor potente da CYP3A4, via principal de metabolismo da sinvastatina; a exposição aumenta e surge miopatia ou rabdomiólise. Não é indutora (A). A CYP2D6 não é a via da sinvastatina (B). Deslocamento de albumina tem pouca relevância clínica nesse caso (D) e não há antagonismo de receptor (E)."
+    },
+    {
+     "p": "Mulher de 41 anos apresenta Receita de Controle Especial em duas vias para zolpidem 10 mg, emitida há 5 dias. Em outubro de 2026, a conduta correta do farmacêutico é:",
+     "alt": [
+      "Dispensar, pois o zolpidem até 10 mg segue o regime da Lista C1",
+      "Não dispensar e orientar que o zolpidem exige Notificação de Receita B",
+      "Dispensar metade da quantidade e reter a primeira via",
+      "Dispensar, desde que a quantidade não ultrapasse 60 dias",
+      "Não dispensar, pois o zolpidem exige Notificação de Receita A"
+     ],
+     "c": 1,
+     "com": "Desde 1º de agosto de 2024 todos os medicamentos com zolpidem, em qualquer concentração, exigem Notificação de Receita B, após a exclusão do adendo da Lista B1 que equiparava doses até 10 mg à C1 (Anvisa e CFF, 2024). A, C e D seguem a regra antiga. O zolpidem não é da Lista A3 (E)."
+    },
+    {
+     "p": "Paciente apresenta receita de tramadol 50 mg cápsulas, 30 unidades. Pela atualização vigente da Portaria 344/1998, o receituário adequado é:",
+     "alt": [
+      "Receita comum em uma via, sem retenção",
+      "Notificação de Receita A, por ser substância da Lista A2",
+      "Notificação de Receita B, por ser psicotrópico",
+      "Receita de Controle Especial em duas vias, pelo adendo da Lista A2",
+      "Receita de Controle Especial em uma via, sem retenção"
+     ],
+     "c": 3,
+     "com": "O tramadol está na Lista A2, mas o adendo 3 sujeita as preparações com até 100 mg por unidade posológica à Receita de Controle Especial em duas vias, com retenção (Atualização n. 100, RDC 1.023/2026). Notificação A (B) vale para apresentações acima desse limite. Não é B1 (C), nem receita comum (A, E)."
+    },
+    {
+     "p": "Mulher de 26 anos, sem método contraceptivo, recebe prescrição inicial de valproato de sódio para transtorno bipolar. Segundo a bula brasileira, o uso nessa paciente:",
+     "alt": [
+      "É contraindicado, salvo se cumpridas as condições do programa de prevenção da gravidez",
+      "É livre, pois o risco teratogênico se limita à epilepsia",
+      "Exige apenas ácido fólico em dose alta para eliminar o risco",
+      "É permitido desde que a dose fique abaixo de 500 mg/dia",
+      "Depende só de teste de gravidez negativo na primeira consulta"
+     ],
+     "c": 0,
+     "com": "A bula contraindica o valproato em mulheres com potencial de engravidar, salvo cumprimento do programa de prevenção da gravidez (avaliação, teste, contracepção eficaz, revisão anual, termo assinado). O risco vale para qualquer indicação (B). Ácido fólico não elimina o risco (C), não há dose segura comprovada (D) e um teste isolado não basta (E)."
+    },
+    {
+     "p": "Homem de 50 anos, em uso de fluoxetina, começou tramadol há 2 dias. Chega agitado, sudoreico, com tremor, diarreia e clônus nos tornozelos. A hipótese principal e a conduta são:",
+     "alt": [
+      "Abstinência de opioide; orientar aumentar o tramadol",
+      "Reação alérgica ao tramadol; indicar anti-histamínico",
+      "Intoxicação por opioide; orientar observação em casa",
+      "Hipoglicemia pelo tramadol; oferecer açúcar e liberar",
+      "Síndrome serotoninérgica; encaminhar ao serviço de urgência"
+     ],
+     "c": 4,
+     "com": "Agitação, sinais autonômicos (sudorese, diarreia) e alterações neuromusculares (tremor, clônus) após associar dois serotoninérgicos configuram síndrome serotoninérgica, que exige avaliação urgente. Abstinência (A) e intoxicação por opioide (C) não cursam com clônus; intoxicação dá miose e sonolência. Alergia (B) e hipoglicemia (D) não explicam o quadro."
+    },
+    {
+     "p": "Paciente com epilepsia controlada com lamotrigina começa anticoncepcional combinado oral e volta a ter crises. A explicação mais provável é:",
+     "alt": [
+      "O anticoncepcional inibe a CYP2D6 e acumula lamotrigina",
+      "O estrogênio induz a glicuronidação e reduz o nível de lamotrigina",
+      "A lamotrigina induz o metabolismo do anticoncepcional",
+      "O progestagênio bloqueia o canal de sódio e anula o efeito",
+      "A pílula reduz a absorção intestinal por quelação"
+     ],
+     "c": 1,
+     "com": "O estrogênio aumenta a glicuronidação da lamotrigina e pode reduzir seu nível à metade, com retorno das crises. A lamotrigina não é metabolizada pela CYP2D6 (A) e não é indutor relevante do anticoncepcional (C). D e E não têm base farmacológica."
+    },
+    {
+     "p": "Mãe pede gel anestésico com benzocaína para a gengiva do filho de 9 meses, que está com os dentes nascendo. A melhor orientação é:",
+     "alt": [
+      "Dispensar e orientar aplicar até 4 vezes ao dia",
+      "Dispensar lidocaína gel no lugar, que não tem riscos",
+      "Não indicar o gel, pelo risco de metemoglobinemia, e orientar medidas sem fármaco",
+      "Dispensar e orientar observar só se houver vermelhidão local",
+      "Indicar o gel apenas à noite, quando a dor piora"
+     ],
+     "c": 2,
+     "com": "Benzocaína em menores de 2 anos se associa a metemoglobinemia e não tem benefício comprovado na dentição (FDA, 2018). A orientação é mordedor firme, massagem gengival e analgésico oral quando necessário, conforme o pediatra. Lidocaína tópica também tem riscos em bebês (B). A, D e E expõem a criança ao risco."
+    },
+    {
+     "p": "Homem de 35 anos com esquizofrenia em uso de clozapina estável conta que parou de fumar há 2 semanas e está muito sonolento e salivando mais. O farmacêutico deve considerar:",
+     "alt": [
+      "Abstinência de nicotina, que não interfere na clozapina",
+      "Agranulocitose, que se manifesta tipicamente por sonolência",
+      "Indução da CYP3A4 pela cessação do tabagismo",
+      "Aumento do nível de clozapina pela perda da indução da CYP1A2",
+      "Síndrome neuroléptica maligna, que se apresenta só com sialorreia"
+     ],
+     "c": 3,
+     "com": "Hidrocarbonetos da fumaça induzem a CYP1A2, principal via da clozapina; ao parar de fumar, o nível sobe em poucas semanas, com sedação, sialorreia e risco de convulsão. O médico precisa ajustar a dose. A nicotina não é a causa da indução (A). Agranulocitose se manifesta por infecção (B). SNM tem febre e rigidez (E). C confunde a isoenzima."
+    },
+    {
+     "p": "Idoso com doença de Parkinson em uso de levodopa com benserazida apresenta náusea. A filha pede metoclopramida. A orientação adequada é:",
+     "alt": [
+      "Evitar metoclopramida e discutir domperidona com o médico",
+      "Dispensar metoclopramida, que melhora a absorção da levodopa",
+      "Dispensar bromoprida, que não atravessa a barreira hematoencefálica",
+      "Suspender a levodopa até a náusea passar",
+      "Associar haloperidol em dose baixa para a náusea"
+     ],
+     "c": 0,
+     "com": "Metoclopramida e bromoprida bloqueiam receptores D2 centrais e pioram o Parkinson; a domperidona quase não atravessa a barreira hematoencefálica e é a opção usual. B e C erram o mecanismo. Suspender levodopa (D) é perigoso. Haloperidol (E) piora o parkinsonismo."
+    },
+    {
+     "p": "Cuidadora pergunta se pode partir ao meio o comprimido de oxicodona de liberação controlada de 20 mg para dar meia dose ao paciente que está muito sonolento. O farmacêutico deve:",
+     "alt": [
+      "Autorizar, pois metade terá exatamente 10 mg de liberação controlada",
+      "Autorizar, desde que a metade seja engolida com bastante água",
+      "Orientar triturar e dissolver em água para dosar melhor",
+      "Orientar não partir e contatar o prescritor para ajuste da dose",
+      "Orientar dar o comprimido inteiro em dias alternados"
+     ],
+     "c": 3,
+     "com": "Partir comprimido de liberação controlada pode liberar a dose de uma vez (dose dumping), com risco de depressão respiratória. Sonolência excessiva exige reavaliação pelo prescritor, que pode indicar apresentação de dose menor. A, B e C expõem ao risco; E altera o esquema sem base."
+    },
+    {
+     "p": "Puérpera que amamenta recebe paracetamol com codeína. O motivo farmacocinético da recomendação contrária ao uso na amamentação é:",
+     "alt": [
+      "A codeína não passa para o leite, mas reduz a produção láctea",
+      "O paracetamol é convertido em morfina pela CYP3A4",
+      "Mães metabolizadoras ultrarrápidas da CYP2D6 produzem morfina em excesso, que chega ao bebê",
+      "A codeína é antagonista mu e causa abstinência no bebê",
+      "A codeína induz a CYP2D6 do lactente"
+     ],
+     "c": 2,
+     "com": "A codeína é convertida em morfina pela CYP2D6; em mães ultrarrápidas, a morfina no leite pode intoxicar o lactente, com sedação e depressão respiratória (FDA, 2017). A codeína passa para o leite (A). O paracetamol não gera morfina (B). A codeína é agonista (D) e não induz enzimas do bebê (E)."
+    },
+    {
+     "p": "Receita para tratamento de efeitos extrapiramidais traz triexifenidil 2 mg. Pela atualização vigente das listas da Portaria 344/1998, o receituário exigido é:",
+     "alt": [
+      "Receita comum sem retenção",
+      "Receita de Controle Especial em duas vias, como o biperideno",
+      "Notificação de Receita A",
+      "Notificação de Receita B, por estar na Lista B1",
+      "Receita de Controle Especial com quantidade para 6 meses"
+     ],
+     "c": 3,
+     "com": "O triexifenidil consta nominalmente da Lista B1 (Atualização n. 100, RDC 1.023/2026) e exige Notificação de Receita B. O biperideno é C1, com Receita de Controle Especial (B e E aplicam a regra da C1). Não é A (C) nem isento de controle (A)."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Brasil. Ministério da Saúde. Secretaria de Vigilância Sanitária. Portaria SVS/MS nº 344, de 12 de maio de 1998. Regulamento técnico sobre substâncias e medicamentos sujeitos a controle especial. DOU, 1998 (republicada em 1º/2/1999).",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 1.023, de 11 de maio de 2026. Atualiza o Anexo I (Listas de Substâncias Entorpecentes, Psicotrópicas, Precursoras e Outras sob Controle Especial) da Portaria SVS/MS nº 344/1998: Atualização n. 100. DOU, maio de 2026. Texto consultado em legisweb.com.br.",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 1.000/2025. Receituários eletrônicos e físicos de medicamentos sujeitos a controle especial e SNCR. Webinar RDC 1000/2025: farmácias e profissionais. Gerência de Produtos Controlados, março de 2026. https://www.gov.br/anvisa",
+  "Conselho Federal de Farmácia. Medicamento contendo zolpidem deverá ser prescrito por meio de Notificação de Receita B. Notícia de 16/07/2024. https://site.cff.org.br",
+  "Anvisa. RDC nº 280, de 22 de novembro de 2004. Inclusão de duloxetina e pregabalina na Lista C1 da Portaria SVS/MS nº 344/1998.",
+  "Anvisa. Instrução Normativa nº 285, de 7 de março de 2024, e Instrução Normativa nº 404, de 10 de novembro de 2025. Lista de Medicamentos Isentos de Prescrição. DOU, 13/11/2025.",
+  "Brasil. Ministério da Saúde. Melatonina. Saúde de A a Z, gov.br/saude, 2025. Anvisa: alteração da IN nº 28/2018 que autorizou melatonina em suplementos alimentares (2021).",
+  "Brasil. Lei nº 9.787, de 10 de fevereiro de 1999 (medicamento genérico). Anvisa. RDC nº 58, de 10 de outubro de 2014 (medicamento similar intercambiável). CFF: plataforma de consulta de similares intercambiáveis, 2024.",
+  "Dowell D, Ragan KR, Jones CM, Baldwin GT, Chou R. CDC Clinical Practice Guideline for Prescribing Opioids for Pain, United States, 2022. MMWR Recomm Rep 2022;71(RR-3):1-95.",
+  "Leponex (clozapina). Bula para o profissional de saúde. Viatris (Brasil). Bulário Eletrônico da Anvisa.",
+  "Brasil. Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Esquizofrenia. Portaria SAS/MS nº 364/2013.",
+  "Valpakine e Depacon (valproato). Bulas brasileiras: contraindicação em mulheres com potencial de engravidar sem programa de prevenção da gravidez. European Medicines Agency. New measures to avoid valproate exposure in pregnancy endorsed, 2018.",
+  "U.S. Food and Drug Administration. Drug Safety Communication: FDA takes action against the use of OTC benzocaine teething products due to serious safety risk and lack of benefit, maio de 2018.",
+  "Faculty of Sexual and Reproductive Healthcare (FSRH). Clinical Guidance: Drug Interactions with Hormonal Contraception. Statement do Clinical Effectiveness Unit sobre levonorgestrel 3 mg para contracepção de emergência em usuárias de indutores enzimáticos, 2016. NHS Specialist Pharmacy Service: Using contraception with enzyme-inducing medicines.",
+  "U.S. Food and Drug Administration. Drug Safety Communications: codeína e tramadol em crianças e na amamentação (2017); comportamentos complexos do sono com zolpidem, zopiclona e eszopiclona (2019); gabapentinoides e depressão respiratória (2019); opioides associados a benzodiazepínicos (2016); citalopram e intervalo QT (2012).",
+  "American Geriatrics Society Beers Criteria Update Expert Panel. American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults. J Am Geriatr Soc 2023;71(7):2052-2081.",
+  "Inker LA et al. New creatinine- and cystatin C-based equations to estimate GFR without race. N Engl J Med 2021;385:1737-1749. KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD.",
+  "Ashton CH. Benzodiazepines: how they work and how to withdraw (The Ashton Manual). Newcastle University, 2002.",
+  "American Diabetes Association, American Psychiatric Association et al. Consensus development conference on antipsychotic drugs and obesity and diabetes. Diabetes Care 2004;27(2):596-601.",
+  "Lam RW et al. Canadian Network for Mood and Anxiety Treatments (CANMAT) 2023 Update on Clinical Guidelines for Management of Major Depressive Disorder in Adults. Can J Psychiatry 2024.",
+  "Edwards IR, Aronson JK. Adverse drug reactions: definitions, diagnosis, and management. Lancet 2000;356:1255-1259. Naranjo CA et al. A method for estimating the probability of adverse drug reactions. Clin Pharmacol Ther 1981;30:239-245."
+ ]
+}

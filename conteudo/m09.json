@@ -1,0 +1,1142 @@
+{
+ "id": "m09",
+ "num": 9,
+ "titulo": "Interações medicamentosas na atenção básica",
+ "escopo": "Mecanismos farmacocinéticos e farmacodinâmicos e os pares de maior risco no balcão (anticoagulantes, cardiovasculares, SNC, anti-infecciosos, endócrinos, alimentos e fitoterápicos), sempre com precipitante, objeto, mecanismo e manejo, conferidos em bulas (FDA e brasileiras), na tabela de inibidores e indutores da FDA e em orientação da FSRH.",
+ "topicos": [
+  {
+   "id": "m09-conceitos",
+   "titulo": "Conceitos, mecanismos e pacientes de risco",
+   "resumo": "\n<p>Interação medicamentosa é a alteração do efeito de um medicamento causada por outro medicamento, por alimento, por bebida, por fitoterápico ou por suplemento usado ao mesmo tempo. Toda interação tem dois papéis. O <strong>precipitante</strong> é quem causa a mudança; o <strong>objeto</strong> é quem sofre a mudança. Na combinação claritromicina e sinvastatina, a claritromicina é o precipitante (inibe a enzima CYP3A4) e a sinvastatina é o objeto (tem sua exposição aumentada). Descrever a interação sempre nessa ordem evita o erro clássico de dizer que \"um potencializa o outro\" sem saber quem muda o quê.</p>\n<p>Interação não é sinônimo de proibição. Muitas combinações com interação conhecida são prescritas de propósito (IECA com diurético, por exemplo) e pedem apenas monitoramento. O trabalho do farmacêutico é separar as que exigem ação imediata das que só exigem orientação.</p>\n<h3>Interações farmacocinéticas</h3>\n<p>Na interação farmacocinética, o precipitante muda a quantidade do objeto que chega ao local de ação. As vias são as etapas do caminho do fármaco no organismo.</p>\n<h4>Absorção</h4>\n<ul>\n<li><b>Quelação e adsorção</b>: cátions di e trivalentes (cálcio, magnésio, alumínio, ferro, zinco) formam complexos insolúveis com quinolonas, tetraciclinas, levotiroxina e bifosfonatos no intestino. O objeto não é absorvido. O manejo é separar os horários.</li>\n<li><b>pH gástrico</b>: inibidores da bomba de prótons (IBP) e antiácidos elevam o pH do estômago e reduzem a absorção de fármacos que precisam de meio ácido, como sais de ferro, itraconazol em cápsula e a própria levotiroxina.</li>\n<li><b>Transportadores intestinais</b>: a glicoproteína P (P-gp) do enterócito bombeia fármacos de volta para a luz intestinal. Inibir a P-gp aumenta a absorção do objeto (digoxina, dabigatrana); induzi-la reduz.</li>\n</ul>\n<h4>Metabolismo</h4>\n<p>As enzimas do citocromo P450 (CYP) no fígado e no intestino oxidam a maior parte dos fármacos. As isoformas mais importantes no balcão são CYP3A4, CYP2C9, CYP2C19, CYP2D6 e CYP1A2.</p>\n<ul>\n<li><b>Inibição</b>: o precipitante bloqueia a enzima e o objeto se acumula. O efeito aparece em horas a poucos dias. Exemplo: fluconazol inibe CYP2C9 e eleva a exposição à varfarina, com aumento do INR.</li>\n<li><b>Indução</b>: o precipitante aumenta a síntese da enzima (via receptor nuclear PXR) e o objeto é eliminado mais depressa, com perda de efeito. A indução leva de 1 a 2 semanas para atingir o máximo e também demora semanas para desaparecer após a suspensão. Exemplo: rifampicina induz CYP3A4 e reduz os níveis de etinilestradiol e progestagênios, com risco de falha contraceptiva.</li>\n<li><b>Pró-fármacos</b>: quando o objeto precisa ser ativado pela enzima, a lógica se inverte. Inibir CYP2C19 reduz a formação do metabólito ativo do clopidogrel; inibir CYP2D6 reduz a formação de endoxifeno a partir do tamoxifeno.</li>\n</ul>\n<h4>Distribuição</h4>\n<p>O deslocamento da ligação a proteínas plasmáticas foi muito citado no passado, mas raramente tem relevância clínica isolada, porque a fração livre aumentada também é eliminada mais depressa. Quando uma interação era atribuída a deslocamento (sulfonamidas com varfarina, por exemplo), o mecanismo principal costuma ser inibição enzimática.</p>\n<h4>Excreção renal</h4>\n<ul>\n<li><b>Secreção tubular</b>: trimetoprima e AINE reduzem a secreção renal de metotrexato, que se acumula.</li>\n<li><b>Reabsorção de sódio e lítio</b>: diuréticos tiazídicos, IECA e AINE aumentam a reabsorção proximal de lítio e elevam a litemia.</li>\n<li><b>Hemodinâmica renal</b>: AINE inibem prostaglandinas vasodilatadoras da arteríola aferente; IECA e BRA dilatam a eferente. Juntos, com diurético, reduzem a filtração glomerular.</li>\n</ul>\n<h3>Interações farmacodinâmicas</h3>\n<p>Na interação farmacodinâmica, a concentração do objeto não muda; o que muda é o efeito, porque os dois fármacos agem no mesmo sistema.</p>\n<ul>\n<li><b>Efeito somado ou sinérgico</b>: dois depressores do sistema nervoso central (benzodiazepínico e opioide), dois fármacos que prolongam o intervalo QT (claritromicina e hidroxicloroquina), dois que elevam o potássio (IECA e espironolactona), dois que aumentam a serotonina (sertralina e tramadol), um anticoagulante e um antiagregante.</li>\n<li><b>Antagonismo</b>: um fármaco se opõe ao efeito do outro. Corticoide eleva a glicemia e antagoniza o antidiabético; AINE retém sódio e antagoniza o anti-hipertensivo; vitamina K da dieta antagoniza a varfarina.</li>\n</ul>\n<div class=\"tab\"><table><thead><tr><th>Via</th><th>Precipitante típico</th><th>Objeto típico</th><th>Resultado</th></tr></thead><tbody>\n<tr><td>Quelação</td><td>Cálcio, ferro, antiácido</td><td>Quinolona, tetraciclina, levotiroxina</td><td>Menos absorção</td></tr>\n<tr><td>Inibição de CYP3A4</td><td>Claritromicina, itraconazol</td><td>Sinvastatina, colchicina</td><td>Mais exposição, toxicidade</td></tr>\n<tr><td>Inibição de CYP2C9</td><td>Fluconazol, amiodarona, sulfametoxazol</td><td>Varfarina, sulfonilureias</td><td>Sangramento, hipoglicemia</td></tr>\n<tr><td>Indução</td><td>Rifampicina, carbamazepina</td><td>Anticoncepcional, DOAC</td><td>Perda de efeito</td></tr>\n<tr><td>Inibição de P-gp</td><td>Amiodarona, verapamil, claritromicina</td><td>Digoxina, dabigatrana</td><td>Mais exposição</td></tr>\n<tr><td>Renal</td><td>Tiazídico, IECA, AINE</td><td>Lítio</td><td>Intoxicação por lítio</td></tr>\n<tr><td>Farmacodinâmica</td><td>Opioide</td><td>Benzodiazepínico</td><td>Depressão respiratória</td></tr>\n</tbody></table></div>\n<h3>Tempo de início e de término</h3>\n<p>O momento em que a interação aparece depende do mecanismo. A quelação é imediata e some quando os horários são separados. A inibição enzimática aparece em horas a poucos dias e some à medida que o inibidor é eliminado; com inibidores de meia-vida longa, como amiodarona e fluoxetina, o efeito dura semanas após a suspensão. A indução é lenta para começar e lenta para acabar: quem termina um curso de rifampicina continua com enzimas induzidas por algumas semanas. Isso explica por que um paciente pode ter sangramento com varfarina depois que o antibiótico já acabou, ou ficar com o INR baixo semanas depois de parar a carbamazepina.</p>\n<h3>Variação entre pacientes</h3>\n<p>A mesma combinação pode ser inofensiva em um paciente e perigosa em outro. Pesam a dose do precipitante (fluconazol 150 mg em dose única inibe menos que 200 mg por dia durante semanas), a dependência do objeto daquela via (sinvastatina depende quase toda de CYP3A4; rosuvastatina, pouco), a função renal e hepática e a genética. Pessoas metabolizadoras lentas de CYP2C19 ou CYP2D6, por exemplo, já têm pouca atividade da enzima, e um inibidor muda pouco; metabolizadoras ultrarrápidas reagem de outra forma. Na farmácia comercial não se faz genotipagem de rotina, mas reconhecer que existe variação ajuda a entender por que um paciente tolera bem uma combinação que intoxicou outro.</p>\n<h3>Interações úteis</h3>\n<p>Nem toda interação é indesejada. Algumas são usadas de propósito: o ácido clavulânico inibe betalactamases e protege a amoxicilina; a carbidopa inibe a descarboxilase periférica e aumenta a levodopa que chega ao cérebro; o ritonavir em dose baixa inibe CYP3A4 para elevar o nível de outro antirretroviral ou do nirmatrelvir. Reconhecer essas associações evita alertas desnecessários ao prescritor.</p>\n<h3>Gravidade e documentação</h3>\n<p>Os compêndios classificam as interações por gravidade (o tamanho do dano possível) e por documentação (a qualidade da evidência). As categorias variam entre fontes. Uma forma prática de usar no balcão:</p>\n<ul>\n<li><b>Contraindicada</b>: a combinação deve ser evitada (sinvastatina com claritromicina; sildenafila com nitrato).</li>\n<li><b>Grave</b>: pode causar dano sério, como sangramento, arritmia, hipercalemia ou falha terapêutica importante; exige contato com o prescritor ou ajuste.</li>\n<li><b>Moderada</b>: exige monitoramento, ajuste de horário ou orientação.</li>\n<li><b>Leve</b>: efeito pequeno; geralmente basta orientar.</li>\n</ul>\n<p>A documentação vai de estudos clínicos controlados a relatos de caso isolados. Uma interação grave com documentação fraca (ginkgo e varfarina, por exemplo) pede cautela e orientação; uma grave e bem documentada (amiodarona e varfarina) pede ação.</p>\n<h3>Quem tem mais risco</h3>\n<ul>\n<li><b>Idosos</b>: menor função renal e hepática, mais medicamentos, mais sensibilidade a sedativos e a quedas.</li>\n<li><b>Polifarmácia</b>: o número de pares possíveis cresce rapidamente com o número de medicamentos. Com 5 medicamentos há 10 pares; com 10, há 45.</li>\n<li><b>Fármacos de índice terapêutico estreito</b>: varfarina, digoxina, lítio, fenitoína, carbamazepina, levotiroxina, ciclosporina, tacrolimo, teofilina. Pequenas mudanças de nível causam toxicidade ou falha.</li>\n<li><b>Doenças de base</b>: insuficiência renal ou hepática, insuficiência cardíaca, epilepsia, QT longo congênito.</li>\n<li><b>Vários prescritores</b>: o cardiologista não sabe do antibiótico do dentista; a farmácia pode ser o único lugar onde tudo se encontra.</li>\n</ul>\n<h3>Objetos de índice terapêutico estreito e o que monitorar</h3>\n<div class=\"tab\"><table><thead><tr><th>Objeto</th><th>O que se monitora</th><th>Sinal de toxicidade a orientar</th></tr></thead><tbody>\n<tr><td>Varfarina</td><td>INR</td><td>Sangramentos, hematomas, fezes pretas</td></tr>\n<tr><td>Digoxina</td><td>Digoxinemia, potássio, função renal</td><td>Náusea, visão amarelada, pulso lento</td></tr>\n<tr><td>Lítio</td><td>Litemia, função renal, sódio</td><td>Tremor grosseiro, diarreia, confusão</td></tr>\n<tr><td>Fenitoína, carbamazepina</td><td>Nível sérico</td><td>Tontura, visão dupla, ataxia</td></tr>\n<tr><td>Levotiroxina</td><td>TSH</td><td>Palpitação, insônia (excesso); cansaço (falta)</td></tr>\n<tr><td>Teofilina</td><td>Nível sérico</td><td>Náusea, taquicardia, convulsão</td></tr>\n<tr><td>Metotrexato</td><td>Hemograma, função renal e hepática</td><td>Feridas na boca, febre, sangramento</td></tr>\n</tbody></table></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Homem de 74 anos usa 9 medicamentos prescritos por 4 médicos diferentes e compra mais 2 sem receita. O software da farmácia mostra 14 alertas. O farmacêutico filtra: dois são graves e relevantes (AINE com losartana e furosemida; omeprazol com clopidogrel), os demais são teóricos ou já conhecidos e monitorados. Concentra a intervenção nos dois, orienta a troca do AINE por paracetamol e encaminha ao cardiologista uma nota sobre o omeprazol. Tratar todos os alertas como iguais teria diluído a mensagem.</p></div>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Ao identificar uma interação, responda quatro perguntas: quem é o precipitante, quem é o objeto, por qual via (absorção, enzima, transportador, rim, efeito somado) e o que acontece com o paciente. Só então decida a conduta.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>A pergunta \"o senhor usa algum outro remédio?\" capta pouco. Pergunte de forma dirigida: remédio para pressão, coração, sangue \"ralo\", tireoide, diabetes, depressão ou sono, anticoncepcional, chás, vitaminas e suplementos, e bebida alcoólica.</p></div>\n"
+  },
+  {
+   "id": "m09-anticoagulantes",
+   "titulo": "Anticoagulantes e antiagregantes",
+   "resumo": "\n<p>Interações com anticoagulantes estão entre as que mais causam internação por evento adverso. A <strong>varfarina</strong> tem índice terapêutico estreito, é metabolizada principalmente por CYP2C9 (o enantiômero S, mais potente) e também por CYP3A4 e CYP1A2 (o enantiômero R), e seu efeito depende da vitamina K da dieta. A bula norte-americana resume os mecanismos: interações por inibidores e indutores de CYP2C9, 1A2 e 3A4, por sinergismo na hemostasia e por antagonismo competitivo com a vitamina K, e recomenda INR mais frequente ao iniciar ou suspender qualquer medicamento ou fitoterápico, inclusive antibióticos de curta duração.</p>\n<h3>Varfarina com AINE e AAS</h3>\n<p>AINE (ibuprofeno, diclofenaco, naproxeno, cetoprofeno) e AAS são precipitantes farmacodinâmicos: inibem a COX-1 plaquetária (o AAS de forma irreversível) e lesam a mucosa gástrica. O INR pode não mudar, mas o risco de sangramento digestivo aumenta. É uma das combinações mais perigosas do balcão, porque o AINE é comprado sem receita. Para dor e febre, o analgésico de escolha no paciente com varfarina é o paracetamol em dose moderada, ou a dipirona, conforme avaliação. Quando o AAS em baixa dose é associado à varfarina por indicação cardiológica, a decisão é do médico e a orientação é vigiar sinais de sangramento.</p>\n<h3>Varfarina com amiodarona</h3>\n<p>A amiodarona inibe CYP2C9 e CYP3A4 e aumenta a exposição à varfarina. A bula da amiodarona orienta reduzir a dose de varfarina em um terço a metade e monitorar o tempo de protrombina. O efeito começa em dias, atinge o máximo em semanas e persiste por meses após a suspensão da amiodarona, que tem meia-vida muito longa.</p>\n<h3>Varfarina com antimicrobianos</h3>\n<div class=\"tab\"><table><thead><tr><th>Precipitante</th><th>Mecanismo sobre a varfarina</th><th>Efeito</th></tr></thead><tbody>\n<tr><td>Sulfametoxazol + trimetoprima</td><td>Sulfametoxazol inibe CYP2C9</td><td>INR sobe muito; sangramento</td></tr>\n<tr><td>Metronidazol</td><td>Inibe o metabolismo da S-varfarina (CYP2C9)</td><td>INR sobe muito</td></tr>\n<tr><td>Fluconazol, miconazol (inclusive gel oral)</td><td>Inibem CYP2C9 e CYP3A4</td><td>INR sobe muito</td></tr>\n<tr><td>Claritromicina, eritromicina</td><td>Inibem CYP3A4 (via da R-varfarina)</td><td>INR sobe</td></tr>\n<tr><td>Ciprofloxacino</td><td>Inibe CYP1A2 (via da R-varfarina)</td><td>INR pode subir</td></tr>\n<tr><td>Rifampicina</td><td>Induz CYP2C9 e CYP3A4</td><td>INR cai; risco de trombose</td></tr>\n</tbody></table></div>\n<p>Além da enzima, a própria infecção (febre, inapetência, menor ingestão de vitamina K) tende a elevar o INR. Por isso, qualquer antibiótico em paciente com varfarina pede INR de controle em poucos dias, conforme orientação do serviço que acompanha a anticoagulação.</p>\n<h3>Varfarina com paracetamol em dose alta</h3>\n<p>Paracetamol em dose alta e regular (acima de cerca de 2 g por dia, por vários dias seguidos) eleva o INR em usuários de varfarina. O mecanismo proposto é a interferência de um metabólito do paracetamol nas enzimas do ciclo da vitamina K. Doses ocasionais não costumam alterar o INR. A orientação é usar a menor dose eficaz por pouco tempo e avisar o serviço de anticoagulação se o uso for diário por vários dias.</p>\n<h3>Varfarina e vitamina K da dieta</h3>\n<p>Folhas verde-escuras (couve, espinafre, brócolis, rúcula, agrião), alguns óleos vegetais e suplementos com vitamina K antagonizam a varfarina. A conduta não é proibir esses alimentos: é manter o consumo constante de semana a semana. Aumento brusco (começar uma \"dieta verde\") reduz o INR; corte brusco eleva.</p>\n<h3>Anticoagulantes orais diretos</h3>\n<p>Rivaroxabana, apixabana, edoxabana e dabigatrana (DOAC) têm menos interações que a varfarina, mas as que existem passam por dois caminhos: CYP3A4 e P-gp.</p>\n<ul>\n<li><b>Rivaroxabana</b>: substrato de CYP3A4 e P-gp. A bula orienta evitar inibidores combinados de P-gp e CYP3A4 fortes (cetoconazol, itraconazol, ritonavir) e evitar indutores combinados (rifampicina, carbamazepina, fenitoína, erva-de-são-joão).</li>\n<li><b>Apixabana</b>: mesmo perfil. A bula norte-americana orienta reduzir a dose em 50% com inibidores combinados fortes, ou evitar a combinação se a dose já for 2,5 mg duas vezes ao dia, e evitar indutores combinados.</li>\n<li><b>Dabigatrana</b>: pró-fármaco, substrato de P-gp, sem metabolismo relevante por CYP. Inibidores de P-gp (cetoconazol sistêmico, dronedarona, verapamil, amiodarona, claritromicina) aumentam sua exposição, sobretudo com função renal reduzida; a bula traz ajustes conforme a indicação e a função renal. Indutores de P-gp (rifampicina) reduzem sua exposição e devem ser evitados.</li>\n</ul>\n<p>Os DOAC também somam efeito com AINE, AAS e ISRS (sangramento), pelo mesmo mecanismo farmacodinâmico descrito para a varfarina.</p>\n<h3>Clopidogrel e omeprazol</h3>\n<p>O clopidogrel é pró-fármaco ativado em parte por CYP2C19. Omeprazol e esomeprazol inibem CYP2C19, reduzem a formação do metabólito ativo e diminuem a ação antiplaquetária. A bula do clopidogrel orienta evitar o uso concomitante com omeprazol ou esomeprazol. Quando o paciente precisa de gastroproteção, o prescritor costuma escolher pantoprazol, que tem menor efeito sobre CYP2C19. Separar horários não resolve, porque a inibição é enzimática e dura o dia inteiro.</p>\n<h3>AAS em baixa dose e ibuprofeno</h3>\n<p>O ibuprofeno ocupa o sítio da COX-1 plaquetária e impede o acesso do AAS, que inibe a enzima de forma irreversível. Em uso regular, o ibuprofeno pode reduzir a proteção cardiovascular do AAS. A orientação clássica da FDA (2006) para quem usa AAS de liberação imediata e precisa de ibuprofeno ocasional é tomar o ibuprofeno pelo menos 30 minutos depois do AAS ou mais de 8 horas antes dele.</p>\n<h3>DOAC no balcão</h3>\n<p>Na prática da atenção básica, as interações de DOAC mais vistas são com AINE comprado sem receita, com antiagregante associado pelo cardiologista e com indutores (carbamazepina e fenitoína em pacientes com epilepsia, rifampicina no tratamento de tuberculose). A claritromicina e a amiodarona são inibidores de P-gp e, no caso da claritromicina, de CYP3A4; elevam moderadamente a exposição à rivaroxabana, apixabana e dabigatrana, o que pode ser relevante em idosos e em quem tem função renal reduzida. Como os DOAC não têm exame de rotina equivalente ao INR, a orientação de sinais de sangramento ganha ainda mais peso.</p>\n<h3>Terapia antitrombótica combinada</h3>\n<p>Após infarto ou implante de stent, alguns pacientes usam dupla antiagregação (AAS com clopidogrel, ticagrelor ou prasugrel), e quem também tem fibrilação atrial pode usar anticoagulante junto com antiagregante. Essas combinações são decididas pelo cardiologista, com tempo definido, e o risco de sangramento é somado de forma intencional. O papel do farmacêutico é não acrescentar mais um fator: nada de AINE, cuidado com ISRS novos e com fitoterápicos de efeito antiplaquetário, e reforço da orientação sobre sinais de sangramento. O ticagrelor é substrato de CYP3A4, e inibidores fortes dessa enzima (claritromicina, cetoconazol) aumentam sua exposição.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Homem de 70 anos com apixabana chega com dor lombar e pede \"um anti-inflamatório forte\". O farmacêutico explica o risco de sangramento digestivo da combinação, oferece paracetamol em dose adequada, orienta calor local e repouso relativo e encaminha para avaliação se a dor não melhorar em poucos dias ou se surgirem sinais de alerta, como perda de força nas pernas, febre ou alteração urinária.</p></div>\n<h3>Analgesia no paciente anticoagulado</h3>\n<div class=\"tab\"><table><thead><tr><th>Opção</th><th>Comentário</th></tr></thead><tbody>\n<tr><td>Paracetamol</td><td>Primeira escolha; com varfarina, evitar uso diário prolongado em dose alta sem avisar o serviço</td></tr>\n<tr><td>Dipirona</td><td>Sem efeito antiplaquetário relevante em dose usual; atenção às contraindicações próprias</td></tr>\n<tr><td>AINE oral</td><td>Evitar: sangramento digestivo e, com varfarina, possível alteração do INR</td></tr>\n<tr><td>AINE tópico</td><td>Menor absorção; evitar grandes áreas e uso prolongado sem orientação</td></tr>\n<tr><td>AAS como analgésico</td><td>Evitar</td></tr>\n</tbody></table></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>Paciente com anticoagulante que pede \"algo para dor muscular\" não deve sair com AINE oral, nem com AINE tópico em grande área por vários dias, sem avaliação. Sinais de alerta para orientar: fezes pretas, vômito com sangue ou \"borra de café\", urina avermelhada, hematomas sem trauma, sangramento gengival persistente, dor de cabeça súbita e intensa.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 72 anos, com varfarina por fibrilação atrial, traz receita de sulfametoxazol com trimetoprima para infecção urinária. O farmacêutico identifica: sulfametoxazol (precipitante) inibe CYP2C9 e aumenta a exposição à S-varfarina (objeto), com risco de INR elevado e sangramento em poucos dias. Contata o prescritor, que troca o antibiótico, e orienta a paciente a fazer INR de controle conforme o serviço de anticoagulação. A intervenção é registrada.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Para todo usuário de anticoagulante: perguntar qual anticoagulante usa, se faz controle de INR (no caso da varfarina), se usa AAS ou anti-inflamatório, e orientar a avisar o serviço de anticoagulação antes de iniciar qualquer antibiótico, antifúngico, fitoterápico ou suplemento.</p></div>\n"
+  },
+  {
+   "id": "m09-cardiovasculares",
+   "titulo": "Interações de medicamentos cardiovasculares",
+   "resumo": "\n<p>Pacientes cardiovasculares usam, em média, vários medicamentos de uso contínuo e são o grupo em que interações graves mais aparecem no balcão. Os pares a seguir respondem pela maior parte dos problemas.</p>\n<h3>Hipercalemia: IECA, BRA, espironolactona e potássio</h3>\n<p>IECA (enalapril, captopril, ramipril) e BRA (losartana, valsartana, olmesartana) reduzem a aldosterona e, com ela, a excreção renal de potássio. Espironolactona e eplerenona bloqueiam o receptor da aldosterona; amilorida e triantereno bloqueiam o canal de sódio do túbulo coletor. Todos retêm potássio. A soma é farmacodinâmica: o potássio sobe, sobretudo em idosos, diabéticos, desidratados e com doença renal crônica. Suplementos de cloreto de potássio e substitutos de sal à base de potássio (\"sal light\") somam ao mesmo efeito. A trimetoprima, por bloquear o canal de sódio do túbulo como a amilorida, também eleva o potássio e é um precipitante esquecido.</p>\n<p>A combinação IECA ou BRA com espironolactona é usada na insuficiência cardíaca com benefício comprovado, mas exige potássio e creatinina monitorados. O problema no balcão é o acréscimo não planejado: suplemento de potássio, sal light, AINE ou sulfametoxazol com trimetoprima.</p>\n<h3>Triple whammy</h3>\n<p>A associação de IECA ou BRA, diurético e AINE é conhecida como \"triple whammy\". O diurético reduz a volemia; o IECA ou BRA dilata a arteríola eferente; o AINE contrai a aferente ao bloquear prostaglandinas. A pressão de filtração glomerular cai e o resultado pode ser lesão renal aguda, especialmente nas primeiras semanas, em idosos e em situações de desidratação (diarreia, calor, vômitos). O AINE também retém sódio e reduz o efeito anti-hipertensivo.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Homem de 68 anos usa losartana e hidroclorotiazida e pede diclofenaco para dor no joelho, que pretende tomar por duas semanas. O farmacêutico explica o risco renal da combinação, recomenda paracetamol em dose adequada ou dipirona por curto período e medidas não farmacológicas, e orienta procurar o médico se a dor persistir. Ao saber que ele teve diarreia na semana anterior, reforça a necessidade de hidratação.</p></div>\n<h3>Estatinas</h3>\n<p>Sinvastatina e lovastatina são substratos sensíveis de CYP3A4: inibidores dessa enzima multiplicam a exposição e o risco de miopatia e rabdomiólise. A atorvastatina também depende de CYP3A4, em menor grau. Rosuvastatina e pravastatina dependem pouco de CYP3A4. A bula norte-americana da sinvastatina traz limites claros:</p>\n<div class=\"tab\"><table><thead><tr><th>Precipitante</th><th>Mecanismo</th><th>Conduta com a sinvastatina</th></tr></thead><tbody>\n<tr><td>Claritromicina, eritromicina, itraconazol, cetoconazol, posaconazol, voriconazol, inibidores de protease, nefazodona</td><td>Inibição forte de CYP3A4</td><td>Contraindicada (suspender a estatina durante o curso do antimicrobiano, a critério do prescritor)</td></tr>\n<tr><td>Genfibrozila</td><td>Inibe a glicuronidação e o transportador OATP1B1</td><td>Contraindicada</td></tr>\n<tr><td>Ciclosporina, danazol</td><td>Inibição de CYP3A4 e transportadores</td><td>Contraindicada</td></tr>\n<tr><td>Verapamil, diltiazem, dronedarona</td><td>Inibição moderada de CYP3A4</td><td>Máximo de 10 mg/dia</td></tr>\n<tr><td>Amiodarona, anlodipino, ranolazina</td><td>Inibição de CYP3A4</td><td>Máximo de 20 mg/dia</td></tr>\n<tr><td>Suco de toranja (grapefruit)</td><td>Inibição de CYP3A4 intestinal</td><td>Evitar grandes quantidades</td></tr>\n</tbody></table></div>\n<p>Quando o paciente precisa de um fibrato, o fenofibrato é preferido à genfibrozila. Quando precisa de macrolídeo e usa sinvastatina, a azitromicina tem efeito mínimo sobre CYP3A4. Sintomas a orientar: dor ou fraqueza muscular sem explicação e urina escura (\"cor de coca-cola\").</p>\n<h3>Digoxina</h3>\n<p>A digoxina tem índice terapêutico estreito e é substrato de P-gp, que controla sua absorção intestinal e sua secreção renal. Inibidores de P-gp elevam o nível sérico:</p>\n<ul>\n<li><b>Amiodarona</b>: inibe P-gp e aumenta a digoxinemia; a bula da amiodarona orienta reduzir a digoxina à metade ou suspendê-la. Além disso, as duas somam efeito de bradicardia e bloqueio atrioventricular.</li>\n<li><b>Verapamil</b>: inibe P-gp e soma efeito cronotrópico negativo.</li>\n<li><b>Claritromicina e eritromicina</b>: inibem P-gp e elevam a digoxina; há relatos de intoxicação em idosos.</li>\n</ul>\n<p>Sinais de intoxicação digitálica para orientar: náusea, vômito, perda de apetite, confusão, visão amarelada ou borrada, pulso muito lento ou irregular. Diuréticos que causam hipocalemia aumentam a sensibilidade do coração à digoxina, mesmo sem mudar o nível.</p>\n<h3>Inibidores da PDE-5 e nitratos</h3>\n<p>Sildenafila, tadalafila e vardenafila inibem a fosfodiesterase 5 e impedem a degradação do GMPc. Nitratos (isossorbida, nitroglicerina) e nitritos inalatórios (\"poppers\") aumentam a produção de GMPc via óxido nítrico. Juntos, causam vasodilatação intensa e hipotensão grave. A combinação é contraindicada nas bulas. Em situação de emergência, o intervalo usado na prática cardiológica é de 24 horas após sildenafila e de 48 horas após tadalafila antes de um nitrato. A sildenafila também é substrato sensível de CYP3A4, e inibidores fortes dessa enzima aumentam sua exposição.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Homem que compra sildenafila ou tadalafila e usa \"remédio de coração\" deve ser perguntado diretamente sobre isossorbida ou nitroglicerina sublingual. Se usar, a venda não deve ser feita e o paciente deve ser encaminhado ao cardiologista.</p></div>\n<h3>Betabloqueadores com verapamil ou diltiazem</h3>\n<p>Betabloqueadores (atenolol, metoprolol, propranolol, carvedilol, bisoprolol) e os bloqueadores de canal de cálcio não di-hidropiridínicos (verapamil, diltiazem) reduzem a frequência cardíaca, a condução atrioventricular e a contratilidade. A soma é farmacodinâmica e pode causar bradicardia grave, bloqueio atrioventricular e piora de insuficiência cardíaca. Anlodipino e nifedipino (di-hidropiridínicos) não têm esse efeito relevante sobre o nó atrioventricular e são combinados com betabloqueadores com frequência.</p>\n<h3>Betabloqueadores e broncodilatadores</h3>\n<p>Betabloqueadores não seletivos (propranolol, nadolol, timolol, inclusive em colírio) bloqueiam os receptores beta-2 dos brônquios e antagonizam o salbutamol e o fenoterol. Em asmáticos, podem precipitar broncoespasmo. É antagonismo farmacodinâmico. Os cardiosseletivos (bisoprolol, metoprolol, atenolol) têm risco menor, mas a seletividade diminui em doses altas. No balcão, asmático que inicia propranolol para enxaqueca ou tremor, ou colírio de timolol para glaucoma, deve ser orientado a relatar piora da falta de ar.</p>\n<h3>Descongestionantes e anti-hipertensivos</h3>\n<p>Antigripais e descongestionantes nasais com fenilefrina, pseudoefedrina ou nafazolina são agonistas alfa-adrenérgicos: contraem vasos e podem elevar a pressão arterial. É um antagonismo farmacodinâmico com qualquer anti-hipertensivo, e o efeito é mais relevante em hipertensos mal controlados e em cardiopatas. No balcão, o hipertenso gripado deve receber preferencialmente lavagem nasal com soro fisiológico e analgésico simples; o descongestionante tópico, se usado, por poucos dias.</p>\n<h3>Inibidores da PDE-5 com alfabloqueadores</h3>\n<p>Doxazosina, prazosina e, em menor grau, tansulosina causam vasodilatação e hipotensão postural. Somadas à sildenafila ou à tadalafila, podem causar tontura e queda de pressão, sobretudo no início do tratamento. As bulas recomendam que o paciente esteja estável com o alfabloqueador antes de iniciar o inibidor da PDE-5, com a menor dose. Orientar levantar devagar e sentar se houver tontura.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 63 anos usa sinvastatina 40 mg e o cardiologista acrescentou anlodipino 5 mg. Na dispensação, o farmacêutico verifica que a bula norte-americana da sinvastatina limita a dose a 20 mg/dia com anlodipino, pela inibição de CYP3A4. Contata o prescritor, que reduz a dose ou troca para outra estatina menos dependente de CYP3A4. A paciente é orientada sobre dor muscular e urina escura.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Em paciente cardiovascular, revise a lista completa a cada nova receita: estatina com antimicrobiano novo, AINE com IECA ou BRA, suplemento de potássio com espironolactona, sildenafila com nitrato. Pergunte por tontura, desmaio, cansaço intenso e dor muscular.</p></div>\n"
+  },
+  {
+   "id": "m09-snc",
+   "titulo": "Interações no sistema nervoso central",
+   "resumo": "\n<p>Antidepressivos, ansiolíticos, analgésicos opioides, anticonvulsivantes e estabilizadores de humor concentram interações graves. Muitas são farmacodinâmicas (efeito somado sobre serotonina, sedação ou sangramento); outras são farmacocinéticas, porque fluoxetina, paroxetina e fluvoxamina são inibidores potentes de CYP e carbamazepina e fenitoína são indutores fortes.</p>\n<h3>Síndrome serotoninérgica</h3>\n<p>A síndrome serotoninérgica resulta do excesso de serotonina nas sinapses. Manifesta-se com alteração mental (agitação, confusão), hiperatividade autonômica (taquicardia, sudorese, febre, diarreia) e alterações neuromusculares (tremor, clônus, hiper-reflexia, rigidez). Pode ser fatal. Os precipitantes somam efeitos por mecanismos diferentes:</p>\n<div class=\"tab\"><table><thead><tr><th>Combinação</th><th>Mecanismo</th><th>Gravidade</th></tr></thead><tbody>\n<tr><td>ISRS ou IRSN + IMAO (tranilcipromina, selegilina, rasagilina)</td><td>Inibição da recaptação somada à inibição da degradação da serotonina</td><td>Contraindicada</td></tr>\n<tr><td>ISRS ou IRSN + linezolida</td><td>A linezolida é inibidor fraco e reversível da MAO</td><td>Grave</td></tr>\n<tr><td>ISRS ou IRSN + tramadol</td><td>Tramadol inibe a recaptação de serotonina; fluoxetina e paroxetina ainda inibem CYP2D6 e acumulam o tramadol original</td><td>Grave</td></tr>\n<tr><td>ISRS ou IRSN + triptanos</td><td>Agonismo 5-HT1B/1D somado; risco real considerado baixo</td><td>Moderada</td></tr>\n<tr><td>ISRS + erva-de-são-joão</td><td>A erva tem ação serotoninérgica própria</td><td>Grave</td></tr>\n</tbody></table></div>\n<p>Na troca entre antidepressivos, a regra é respeitar intervalos de eliminação: 14 dias entre a suspensão de um IMAO irreversível e o início de um ISRS, e cerca de 5 semanas após a suspensão da fluoxetina, que tem metabólito de meia-vida longa, antes de um IMAO. Esses intervalos são decisão do prescritor, mas o farmacêutico deve reconhecê-los.</p>\n<h3>Tramadol e inibidores de CYP2D6</h3>\n<p>O tramadol age por dois caminhos: o fármaco original inibe a recaptação de serotonina e noradrenalina; o metabólito O-desmetiltramadol, formado por CYP2D6, é o agonista opioide. Fluoxetina e paroxetina são inibidores fortes de CYP2D6. O resultado é duplo: menos analgesia opioide e mais tramadol original, com mais risco serotoninérgico e de convulsão. A bula do tramadol lista ISRS, IRSN e tricíclicos entre os fármacos que aumentam o risco de convulsões.</p>\n<h3>ISRS com AINE ou anticoagulante</h3>\n<p>As plaquetas não sintetizam serotonina; captam-na do plasma pelo mesmo transportador que os ISRS bloqueiam. Com o ISRS, a plaqueta fica com menos serotonina e agrega menos. Somado ao AINE (que inibe a COX-1 plaquetária e lesa a mucosa) ou ao anticoagulante, o risco de sangramento digestivo aumenta. A conduta habitual é evitar AINE em quem usa ISRS ou, quando indispensável, o prescritor avaliar gastroproteção com IBP.</p>\n<h3>Depressores do SNC</h3>\n<p>Benzodiazepínicos (clonazepam, diazepam, alprazolam), opioides (codeína, tramadol, morfina), álcool, anti-histamínicos sedativos (dexclorfeniramina, prometazina, hidroxizina), relaxantes musculares de ação central (ciclobenzaprina), hipnóticos (zolpidem) e alguns antipsicóticos somam depressão do SNC. O resultado vai de sonolência e quedas até depressão respiratória. Em 2016 a FDA incluiu advertência em destaque nas bulas de opioides e benzodiazepínicos sobre o uso combinado, pelo risco de depressão respiratória e morte.</p>\n<p>No balcão, o caso típico é o idoso que usa clonazepam para dormir e compra um antigripal com anti-histamínico sedativo, ou o paciente com codeína que bebe à noite. O anti-histamínico sedativo também tem efeito anticolinérgico (confusão, retenção urinária, constipação), que se soma ao de outros fármacos do idoso.</p>\n<h3>Lítio</h3>\n<p>O lítio tem índice terapêutico estreito e é eliminado quase todo pelo rim, que o trata como sódio. Situações que fazem o rim reter sódio fazem reter lítio. Os principais precipitantes que elevam a litemia:</p>\n<ul>\n<li><b>Diuréticos tiazídicos</b> (hidroclorotiazida, clortalidona): a perda de sódio no túbulo distal aumenta a reabsorção proximal de sódio e lítio.</li>\n<li><b>IECA e BRA</b>: reduzem a filtração e aumentam a reabsorção de lítio.</li>\n<li><b>AINE</b>: reduzem prostaglandinas renais, a filtração e a excreção de lítio.</li>\n<li><b>Metronidazol</b>: citado na bula do lítio entre os fármacos que exigem monitorar a litemia.</li>\n</ul>\n<p>A bula do lítio recomenda dosar a litemia após qualquer mudança de medicação concomitante (diuréticos, AINE, antagonistas do sistema renina-angiotensina, metronidazol) e evitar restrição de sódio. Sinais de intoxicação: tremor grosseiro, diarreia, vômitos, sonolência, confusão, ataxia e fala arrastada.</p>\n<h3>Fluoxetina e paroxetina como inibidores de CYP2D6</h3>\n<ul>\n<li><b>Tamoxifeno</b>: pró-fármaco ativado por CYP2D6 em endoxifeno. Fluoxetina e paroxetina (precipitantes) reduzem a formação do metabólito ativo, com possível perda de eficácia contra o câncer de mama. Para a paciente com tamoxifeno que precisa de antidepressivo, o prescritor costuma preferir fármacos com pouca inibição de CYP2D6, como venlafaxina, escitalopram ou citalopram.</li>\n<li><b>Metoprolol</b>: substrato de CYP2D6. Fluoxetina e paroxetina elevam seu nível e podem causar bradicardia e hipotensão.</li>\n<li>Outros substratos de CYP2D6 afetados: codeína (menos conversão em morfina e menos analgesia), tricíclicos (mais toxicidade), alguns antipsicóticos.</li>\n</ul>\n<h3>Carbamazepina e fenitoína como indutores</h3>\n<p>Carbamazepina e fenitoína induzem fortemente CYP3A4, CYP2C9 e outras vias. Reduzem o efeito de anticoncepcionais hormonais, DOAC, varfarina, estatinas, muitos antirretrovirais, corticoides e outros antiepilépticos. A carbamazepina induz o próprio metabolismo (autoindução), por isso a dose costuma ser ajustada nas primeiras semanas. No sentido inverso, inibidores de CYP3A4 (claritromicina, eritromicina, fluconazol) elevam o nível da carbamazepina e causam tontura, visão dupla e ataxia, e o fluconazol eleva o nível da fenitoína.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Homem de 50 anos, com lítio há anos e litemia estável, começou a tomar ibuprofeno três vezes ao dia por tendinite há uma semana. Volta à farmácia com tremor nas mãos, diarreia e sonolência. O farmacêutico reconhece sinais compatíveis com intoxicação por lítio (o AINE reduz a excreção renal de lítio) e orienta procurar atendimento no mesmo dia, levando a lista de medicamentos. Registra a ocorrência e comunica o psiquiatra.</p></div>\n<h3>Metoclopramida e antipsicóticos</h3>\n<p>A metoclopramida bloqueia receptores de dopamina no SNC. Somada a antipsicóticos (haloperidol, risperidona) ou a outros bloqueadores dopaminérgicos, aumenta o risco de sintomas extrapiramidais, como rigidez, tremor, inquietação e espasmos de face e pescoço, e, raramente, de síndrome neuroléptica maligna. Também antagoniza o efeito da levodopa no paciente com Parkinson. Para náusea nesses pacientes, a escolha do antiemético deve ser feita pelo prescritor.</p>\n<h3>Valproato e lamotrigina</h3>\n<p>O ácido valproico (precipitante) inibe a glicuronidação da lamotrigina (objeto), cuja meia-vida aproximadamente dobra. Níveis altos de lamotrigina aumentam o risco de exantema grave, inclusive síndrome de Stevens-Johnson. Por isso a lamotrigina é iniciada em doses menores e titulada mais devagar em quem usa valproato, conforme a bula. No sentido oposto, indutores (carbamazepina, fenitoína) e anticoncepcionais com estrogênio reduzem o nível da lamotrigina.</p>\n<h3>Codeína e metabolismo</h3>\n<p>A codeína é convertida em morfina por CYP2D6. Inibidores fortes dessa enzima (fluoxetina, paroxetina, bupropiona) reduzem a analgesia. No outro extremo, metabolizadores ultrarrápidos formam morfina em excesso, motivo das restrições ao uso de codeína em crianças. Para o balcão, a mensagem prática é: paciente com fluoxetina ou paroxetina que relata que \"a codeína não faz efeito\" pode estar descrevendo uma interação, não falta de adesão.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 45 anos, em uso de sertralina, traz receita de tramadol para dor lombar. O farmacêutico identifica soma serotoninérgica (tramadol inibe a recaptação de serotonina, sertralina também) e risco de convulsão. Como a sertralina é inibidor fraco de CYP2D6, o efeito analgésico tende a ser preservado. Contata o prescritor, que mantém o tramadol por poucos dias na menor dose. O farmacêutico orienta a paciente a procurar atendimento se surgirem agitação, tremor, febre, sudorese intensa ou contrações musculares involuntárias.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Em quem usa antidepressivo, pergunte qual é antes de dispensar tramadol, triptano, linezolida, AINE por vários dias ou antigripal com anti-histamínico. Em quem usa lítio, qualquer diurético, IECA, BRA ou AINE novo exige contato com o prescritor para programar litemia.</p></div>\n"
+  },
+  {
+   "id": "m09-antiinfecciosos",
+   "titulo": "Interações de anti-infecciosos",
+   "resumo": "\n<p>Antimicrobianos são prescritos por pouco tempo e por profissionais diferentes daqueles que acompanham o uso contínuo do paciente. Por isso, a dispensação do antibiótico é o momento em que a interação costuma ser detectada.</p>\n<h3>Anticoncepcional hormonal com indutores enzimáticos</h3>\n<p>Rifampicina e rifabutina (precipitantes) induzem CYP3A4 e a glicuronidação, aumentando a eliminação de etinilestradiol e progestagênios (objetos). O mesmo vale para carbamazepina, fenitoína, fenobarbital, oxcarbazepina em doses usuais, topiramato em doses altas, efavirenz e erva-de-são-joão. A consequência é falha contraceptiva. Segundo a orientação da Faculty of Sexual and Reproductive Healthcare (FSRH, 2022), quem usa contraceptivo hormonal combinado com indutor por pouco tempo deve usar preservativo durante o uso do indutor e por 28 dias após a suspensão; para uso prolongado, métodos não afetados por indutores (DIU de cobre, SIU de levonorgestrel, acetato de medroxiprogesterona injetável) são preferíveis. Na contracepção de emergência com levonorgestrel em usuária de indutor (ou nos 28 dias seguintes), a FSRH orienta dose total de 3 mg, fora do previsto em bula.</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Antibióticos que não são indutores (amoxicilina, cefalexina, azitromicina, doxiciclina, ciprofloxacino, nitrofurantoína) não reduzem a eficácia do anticoncepcional hormonal, segundo a FSRH. O cuidado nesses casos é com vômito ou diarreia intensa logo após a tomada da pílula, que podem impedir sua absorção.</p></div>\n<h3>Quinolonas e tetraciclinas com cátions</h3>\n<p>Cálcio, magnésio, alumínio, ferro e zinco (precipitantes) formam quelatos com quinolonas e tetraciclinas (objetos) no intestino. A absorção do antibiótico cai muito e o tratamento pode falhar. Fontes desses cátions: antiácidos, sucralfato, suplementos de cálcio, sais de ferro, polivitamínicos com minerais, leite e derivados (para as tetraciclinas). As bulas norte-americanas trazem intervalos específicos:</p>\n<ul>\n<li>Ciprofloxacino: tomar pelo menos 2 horas antes ou 6 horas depois de antiácidos com magnésio ou alumínio, sucralfato e produtos com cálcio, ferro ou zinco.</li>\n<li>Levofloxacino: pelo menos 2 horas antes ou 2 horas depois.</li>\n<li>Moxifloxacino: pelo menos 4 horas antes ou 8 horas depois.</li>\n<li>Tetraciclinas: a absorção é reduzida por antiácidos com alumínio, cálcio ou magnésio e por preparações com ferro ou zinco; a tetraciclina também tem a absorção reduzida por alimentos, especialmente os ricos em cálcio. A doxiciclina é menos afetada por alimentos, mas também deve ser separada de antiácidos e ferro.</li>\n</ul>\n<p>Ciprofloxacino também é inibidor moderado de CYP1A2: eleva cafeína, teofilina e tizanidina. A combinação com tizanidina é contraindicada na bula do ciprofloxacino, por hipotensão e sedação intensas.</p>\n<h3>Metronidazol com álcool e com varfarina</h3>\n<p>O metronidazol pode causar reação semelhante à do dissulfiram com álcool: rubor, cólica abdominal, náusea, vômito, cefaleia e taquicardia. O mecanismo clássico atribuído é a inibição da aldeído desidrogenase, com acúmulo de acetaldeído; a força da evidência é discutida, mas as bulas mantêm a advertência. As bulas brasileiras pedem evitar álcool durante o tratamento e por pelo menos 1 dia após; a bula norte-americana pede pelo menos 3 dias e inclui produtos com propilenoglicol. Na orientação, o prazo mais conservador é o mais seguro. Lembrar que xaropes, enxaguatórios bucais e alguns medicamentos líquidos contêm álcool. Com a varfarina, o metronidazol inibe o metabolismo da S-varfarina e eleva o INR de forma importante.</p>\n<h3>Macrolídeos e intervalo QT</h3>\n<p>Eritromicina, claritromicina e, em menor grau, azitromicina prolongam o intervalo QT por bloqueio de canais de potássio cardíacos (efeito de classe). O risco de arritmia grave (torsades de pointes) aumenta com outros fármacos que prolongam o QT: quinolonas, hidroxicloroquina, domperidona, ondansetrona em dose alta, citalopram e escitalopram em dose alta, haloperidol, amiodarona, sotalol, metadona. Fatores que somam risco: hipocalemia, hipomagnesemia, bradicardia, sexo feminino, idade avançada, cardiopatia. Claritromicina e eritromicina ainda são inibidores de CYP3A4: elevam sinvastatina, lovastatina, colchicina, carbamazepina, sildenafila, alguns benzodiazepínicos e antiarrítmicos. A bula da colchicina relata toxicidade fatal com claritromicina.</p>\n<h3>Fluconazol</h3>\n<p>O fluconazol é inibidor moderado de CYP2C9 e CYP3A4 e forte de CYP2C19. Interações principais:</p>\n<ul>\n<li><b>Varfarina</b>: inibição de CYP2C9 e CYP3A4; o INR sobe de forma importante. Mesmo a dose única de 150 mg para candidíase vaginal merece orientação ao usuário de varfarina.</li>\n<li><b>Sulfonilureias</b> (glibenclamida, glimepirida, glipizida): inibição de CYP2C9, com aumento da exposição e risco de hipoglicemia.</li>\n<li><b>Fenitoína</b>: inibição do metabolismo; a bula relata aumento médio de 88% na exposição.</li>\n<li><b>Fármacos que prolongam o QT</b>: soma de efeito.</li>\n</ul>\n<h3>Sulfametoxazol com trimetoprima</h3>\n<ul>\n<li><b>Varfarina</b>: sulfametoxazol inibe CYP2C9 e eleva o INR; é uma das interações mais perigosas com varfarina.</li>\n<li><b>Metotrexato</b>: trimetoprima reduz a secreção tubular do metotrexato e soma efeito antifolato; risco de pancitopenia, mesmo com metotrexato em dose baixa semanal.</li>\n<li><b>IECA, BRA e espironolactona</b>: trimetoprima bloqueia o canal de sódio do túbulo coletor (efeito semelhante ao da amilorida) e reduz a excreção de potássio. A bula alerta para hipercalemia com fármacos que elevam o potássio, insuficiência renal ou distúrbios do potássio.</li>\n<li><b>Sulfonilureias</b>: sulfametoxazol inibe CYP2C9 e pode causar hipoglicemia.</li>\n</ul>\n<h3>Quando a azitromicina é a alternativa</h3>\n<p>Entre os macrolídeos, a azitromicina quase não inibe CYP3A4. Quando o paciente usa sinvastatina, colchicina, carbamazepina ou varfarina e precisa de macrolídeo, ela costuma ser a opção com menos interações enzimáticas, embora mantenha o risco de prolongar o QT. A sugestão de troca deve ser feita ao prescritor, que avalia se a indicação clínica permite.</p>\n<h3>Amoxicilina e metotrexato</h3>\n<p>Penicilinas competem com o metotrexato pela secreção tubular renal e podem elevar seu nível. A relevância é maior com metotrexato em dose alta (oncologia), mas há relatos de toxicidade com doses baixas semanais em pacientes com função renal reduzida. No balcão, paciente com metotrexato que recebe antibiótico deve ser orientado a relatar febre, feridas na boca ou sangramento.</p>\n<h3>Nirmatrelvir com ritonavir</h3>\n<p>O nirmatrelvir com ritonavir, usado no tratamento precoce da covid-19 em pacientes de risco, contém ritonavir como reforçador: um inibidor forte de CYP3A4 e de P-gp. Em cinco dias de tratamento, pode elevar perigosamente sinvastatina, lovastatina, colchicina, amiodarona, alguns benzodiazepínicos, sildenafila em dose para hipertensão pulmonar, tacrolimo e outros. É o exemplo atual de antimicrobiano de curta duração com interações extensas. A checagem deve ser feita em base específica (como a da Universidade de Liverpool) antes da dispensação.</p>\n<h3>Quinolonas e glicemia</h3>\n<p>As quinolonas podem causar hipoglicemia e hiperglicemia, e a FDA reforçou em 2018 a advertência sobre hipoglicemia grave, sobretudo em idosos e em diabéticos com sulfonilureia ou insulina. O mecanismo atribuído é a ação sobre canais de potássio da célula beta pancreática. No diabético que recebe ciprofloxacino ou levofloxacino, a orientação inclui monitorar a glicemia com mais frequência.</p>\n<h3>Isotretinoína e tetraciclinas</h3>\n<p>Isotretinoína e tetraciclinas (doxiciclina, minociclina, limeciclina) podem, cada uma, causar hipertensão intracraniana benigna. O uso conjunto, que pode acontecer no tratamento da acne, é contraindicado nas bulas da isotretinoína. Sinais de alerta: cefaleia intensa, náusea, alteração visual.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Jovem de 22 anos, usuária de pílula combinada, traz receita do esquema de tratamento de tuberculose com rifampicina. O farmacêutico explica que a rifampicina reduz a eficácia da pílula, orienta preservativo em todas as relações durante o tratamento e por 28 dias após o fim, e sugere conversar com a equipe da unidade de saúde sobre um método não afetado pelo indutor, como DIU ou injetável trimestral.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Ao dispensar antibiótico ou antifúngico, pergunte por: varfarina, anticoncepcional, estatina, antiácido ou suplemento de cálcio e ferro, metotrexato, medicamentos para coração e para diabetes. Essas classes cobrem a maior parte das interações relevantes desse grupo.</p></div>\n"
+  },
+  {
+   "id": "m09-endocrino",
+   "titulo": "Interações de medicamentos endócrinos",
+   "resumo": "\n<p>Levotiroxina e antidiabéticos são medicamentos de uso contínuo muito dispensados. As interações desses grupos aparecem como perda de controle (TSH alterado, glicemia alta) ou como evento agudo (hipoglicemia).</p>\n<h3>Levotiroxina</h3>\n<p>A levotiroxina tem absorção intestinal incompleta e variável, e pequenas variações mudam o TSH. A bula norte-americana orienta tomar uma vez ao dia, em jejum, de 30 minutos a 1 hora antes do café da manhã, com um copo de água, e com pelo menos 4 horas de distância de fármacos que interferem na absorção.</p>\n<div class=\"tab\"><table><thead><tr><th>Precipitante</th><th>Mecanismo sobre a levotiroxina</th><th>Manejo</th></tr></thead><tbody>\n<tr><td>Carbonato de cálcio, sulfato ferroso, antiácidos com alumínio ou magnésio</td><td>Complexos insolúveis no intestino</td><td>Separar por pelo menos 4 horas</td></tr>\n<tr><td>Sequestrantes de ácidos biliares (colestiramina)</td><td>Adsorção</td><td>Separar por pelo menos 4 horas</td></tr>\n<tr><td>IBP (omeprazol e outros)</td><td>pH gástrico mais alto reduz a dissolução</td><td>Monitorar TSH ao iniciar ou suspender</td></tr>\n<tr><td>Café, leite de soja, fibras, refeição</td><td>Reduzem a absorção</td><td>Tomar em jejum, 30 a 60 minutos antes do café</td></tr>\n<tr><td>Indutores (carbamazepina, fenitoína, rifampicina)</td><td>Aumentam a eliminação hepática do hormônio</td><td>Monitorar TSH</td></tr>\n<tr><td>Estrogênio oral</td><td>Aumenta a globulina ligadora de tiroxina</td><td>Monitorar TSH ao iniciar</td></tr>\n</tbody></table></div>\n<p>No sentido inverso, a levotiroxina pode aumentar o efeito da varfarina (o hormônio acelera a degradação dos fatores de coagulação), e a correção do hipotireoidismo pode aumentar a necessidade de antidiabéticos.</p>\n<h3>Metformina e álcool</h3>\n<p>O álcool reduz a gliconeogênese hepática e aumenta a produção de lactato. Com a metformina (objeto no sentido farmacodinâmico), o consumo excessivo, agudo ou crônico, aumenta o risco de acidose lática e de hipoglicemia. A orientação é evitar o consumo excessivo e não beber em jejum. Outros fatores que somam risco: desidratação, insuficiência renal (função estimada por CKD-EPI 2021), contraste iodado, insuficiência hepática e cardíaca descompensada.</p>\n<h3>Sulfonilureias com fluconazol e claritromicina</h3>\n<p>Glibenclamida, glimepirida e glipizida são metabolizadas por CYP2C9 (e a glibenclamida também por CYP3A4). Fluconazol e sulfametoxazol (inibidores de CYP2C9) e claritromicina (inibidor de CYP3A4 e de transportadores) aumentam a exposição à sulfonilureia. O resultado é hipoglicemia, às vezes grave e prolongada em idosos. A orientação é reforçar a monitorização da glicemia capilar durante o antimicrobiano e reconhecer sinais de hipoglicemia; quando o risco é alto, o prescritor pode ajustar a dose ou escolher outro anti-infeccioso.</p>\n<h3>Corticoides e antidiabéticos</h3>\n<p>Prednisona, prednisolona, dexametasona e outros corticoides sistêmicos aumentam a produção hepática de glicose e a resistência à insulina. É antagonismo farmacodinâmico: o antidiabético continua no mesmo nível, mas a glicemia sobe, principalmente à tarde e à noite quando o corticoide é tomado pela manhã. Em diabético, um curso de prednisona por 5 a 7 dias já pode descompensar o controle. A orientação é monitorar glicemia com mais frequência e avisar o médico se os valores subirem; corticoide inalatório ou tópico em dose usual tem pouco efeito sistêmico.</p>\n<h3>Betabloqueadores e hipoglicemia</h3>\n<p>Betabloqueadores mascaram os sinais adrenérgicos da hipoglicemia (tremor, taquicardia, palpitação); a sudorese, que é colinérgica, costuma persistir. Os não seletivos (propranolol) também podem prolongar a recuperação da hipoglicemia, por bloquear a glicogenólise mediada por receptores beta-2. Em quem usa insulina ou sulfonilureia, a orientação é que a sudorese fria, a fome súbita e a confusão continuam sendo sinais de alerta mesmo sem palpitação. Betabloqueadores cardiosseletivos (metoprolol, bisoprolol) têm menor efeito sobre a recuperação.</p>\n<h3>Bifosfonatos</h3>\n<p>Alendronato, risedronato e ibandronato orais têm absorção mínima, praticamente anulada por alimentos, café, leite, cálcio, ferro e antiácidos. A bula do alendronato orienta tomar ao acordar, com água pura, pelo menos 30 minutos antes do primeiro alimento, bebida ou medicamento do dia, e não deitar nesse período; a do ibandronato oral pede 60 minutos. O suplemento de cálcio, quando prescrito, vai para outro horário do dia.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 61 anos, diabética em uso de metformina e gliclazida, recebe prednisona 40 mg por 5 dias para crise de asma. O farmacêutico explica que o corticoide eleva a glicemia, sobretudo à tarde, orienta medir a glicemia capilar duas a três vezes ao dia durante o curso e procurar o médico se os valores ficarem persistentemente altos ou se surgirem sede intensa e urina em excesso. Lembra que, ao terminar o corticoide, a glicemia tende a voltar ao padrão anterior.</p></div>\n<h3>Diuréticos e glicemia</h3>\n<p>Diuréticos tiazídicos em dose alta podem elevar a glicemia, em parte pela hipocalemia, que reduz a secreção de insulina. Em doses baixas usuais (hidroclorotiazida 12,5 a 25 mg), o efeito é pequeno, mas pode aparecer como piora gradual da hemoglobina glicada. Inibidores do SGLT2 (dapagliflozina, empagliflozina) aumentam a diurese e somam risco de desidratação e hipotensão com diuréticos, sobretudo em idosos e em dias de calor ou diarreia.</p>\n<h3>Insulina, sulfonilureias e álcool</h3>\n<p>O álcool inibe a gliconeogênese hepática. Em quem usa insulina ou sulfonilureia, beber em jejum ou à noite sem comer pode causar hipoglicemia horas depois, inclusive durante o sono, e os sintomas podem ser confundidos com embriaguez. A orientação é não beber em jejum, comer junto, monitorar a glicemia antes de dormir e avisar quem acompanha o paciente.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 58 anos toma levotiroxina 75 mcg junto com o carbonato de cálcio e o café da manhã, e o TSH subiu na última consulta. O farmacêutico explica a quelação pelo cálcio e o efeito da refeição. Monta com ela uma rotina: levotiroxina ao acordar, com água, 30 a 60 minutos antes do café; cálcio no almoço ou no jantar. Registra a orientação e sugere que ela informe o endocrinologista sobre a mudança antes do próximo TSH.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Para quem usa levotiroxina, pergunte o horário em que toma e se usa cálcio, ferro, antiácido ou omeprazol. Para diabéticos que recebem corticoide, antifúngico ou antibiótico, oriente sobre sinais de hiperglicemia e de hipoglicemia e sobre medir a glicemia com mais frequência.</p></div>\n"
+  },
+  {
+   "id": "m09-alimentos",
+   "titulo": "Alimentos, fitoterápicos e suplementos",
+   "resumo": "\n<p>Pacientes raramente contam que usam chás, cápsulas naturais e suplementos, porque não os consideram remédios. Muitos são vendidos na própria farmácia. A pergunta precisa ser explícita.</p>\n<h3>Toranja (grapefruit)</h3>\n<p>Furanocumarinas do suco de toranja (como a bergamotina) inibem de forma irreversível a CYP3A4 do intestino. O objeto é absorvido em maior quantidade. Como a enzima precisa ser ressintetizada, o efeito persiste por cerca de um dia ou mais após um copo de suco, e espaçar horários não resolve. Objetos mais afetados: sinvastatina, lovastatina, felodipina, nifedipina, sildenafila, alguns imunossupressores. A atorvastatina é afetada em menor grau. A toranja é pouco consumida no Brasil, mas aparece em sucos importados e em dietas.</p>\n<h3>Tiramina e IMAO</h3>\n<p>A tiramina, presente em alimentos fermentados ou envelhecidos, é normalmente degradada pela MAO-A do intestino e do fígado. Com IMAO não seletivo e irreversível (tranilcipromina), a tiramina chega à circulação e libera noradrenalina das terminações nervosas, causando crise hipertensiva (cefaleia occipital intensa, palpitação, sudorese, risco de AVC). Alimentos ricos em tiramina: queijos curados, embutidos e carnes curadas, molho de soja e outros fermentados de soja, extratos de levedura, chope e cervejas não pasteurizadas, alimentos estragados. A moclobemida (IMAO-A reversível) e a selegilina em dose baixa (IMAO-B) têm risco bem menor, mas a orientação dietética segue a bula de cada produto.</p>\n<h3>Erva-de-são-joão</h3>\n<p>A erva-de-são-joão (<i>Hypericum perforatum</i>) é indutora forte de CYP3A4 (lista da FDA) e também induz a P-gp. Reduz o efeito de anticoncepcionais hormonais, DOAC, varfarina, ciclosporina, tacrolimo, digoxina, sinvastatina e muitos antirretrovirais. Além disso, tem ação serotoninérgica e soma risco de síndrome serotoninérgica com ISRS, IRSN, triptanos e tramadol. É o fitoterápico com interações mais bem documentadas e não deve ser usado junto com esses medicamentos sem avaliação.</p>\n<h3>Ginkgo e alho</h3>\n<p>O <i>Ginkgo biloba</i> tem efeito antiplaquetário atribuído ao antagonismo do fator de ativação plaquetária. O alho em suplemento concentrado também tem efeito antiplaquetário. Há relatos de sangramento com anticoagulantes e antiplaquetários, mas os estudos controlados mostram efeito pequeno ou inconsistente. A conduta prudente é desaconselhar o uso junto com varfarina, DOAC, clopidogrel ou AAS e suspender antes de cirurgias, conforme orientação médica. O alho como tempero não é o problema; o suplemento concentrado é.</p>\n<h3>Cálcio, ferro e outros minerais</h3>\n<p>Suplementos de cálcio, ferro, zinco e magnésio, e polivitamínicos com minerais, são precipitantes de quelação para quinolonas, tetraciclinas, levotiroxina e bifosfonatos. O ferro também tem a absorção reduzida por cálcio, chá preto, café e IBP, e aumentada por vitamina C. Na prática, o paciente que toma \"um monte de comprimidos de manhã\" precisa de um quadro de horários.</p>\n<h3>Leite e tetraciclinas</h3>\n<p>O cálcio do leite, iogurte e queijo forma quelato com tetraciclina, oxitetraciclina e limeciclina e reduz sua absorção. A bula da tetraciclina orienta tomá-la 1 hora antes ou 2 horas após refeições. A doxiciclina e a minociclina são menos afetadas por alimentos, mas a recomendação de não tomar com leite continua válida.</p>\n<h3>Cafeína</h3>\n<p>A cafeína é metabolizada por CYP1A2. Ciprofloxacino (inibidor moderado de CYP1A2) e fluvoxamina (inibidor forte) reduzem sua eliminação; o paciente sente palpitação, insônia e tremor com a quantidade habitual de café. A cafeína também aparece em analgésicos combinados, termogênicos e bebidas energéticas, e soma efeito estimulante com descongestionantes como a fenilefrina.</p>\n<h3>Álcool</h3>\n<p>O álcool é o \"medicamento\" que mais interage: soma depressão do SNC com benzodiazepínicos, opioides e anti-histamínicos sedativos; aumenta o risco de hipoglicemia com sulfonilureias e insulina; aumenta o risco de lesão gástrica com AINE; causa reação com metronidazol; e o uso crônico induz enzimas hepáticas, enquanto o uso agudo pode inibi-las.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Paciente de 48 anos em uso de tranilcipromina pergunta se pode ir a uma festa com queijos curados, salame e chope. O farmacêutico explica que esses alimentos têm tiramina e que, com o antidepressivo, podem causar crise hipertensiva. Orienta evitar esses itens, reconhecer sinais de alarme (dor de cabeça forte na nuca, palpitação, suor intenso) e procurar atendimento imediato se ocorrerem.</p></div>\n<h3>Outros suplementos e anticoagulantes</h3>\n<p>Ômega-3 em dose alta, cúrcuma em cápsula, gengibre concentrado e vitamina E em dose alta são citados com efeito antiplaquetário ou com relatos de sangramento em usuários de anticoagulante. A evidência é fraca e, na maioria dos casos, baseada em relatos isolados. A bula da varfarina recomenda INR mais frequente ao iniciar ou suspender produtos botânicos. A conduta prática é registrar o suplemento na lista do paciente, desaconselhar doses altas sem acompanhamento e orientar a avisar o serviço de anticoagulação.</p>\n<h3>Vitamina C e ferro</h3>\n<p>Nem toda interação com alimento é prejudicial. A vitamina C reduz o ferro férrico a ferroso e mantém o ferro solúvel no intestino, aumentando sua absorção. Por isso, o sal de ferro oral pode ser tomado com suco de laranja ou outra fonte de vitamina C, longe de leite, café, chá preto e suplementos de cálcio. Tomar o ferro em jejum também aumenta a absorção, mas piora o desconforto gástrico; quando a intolerância compromete a adesão, tomar com pequena refeição é aceitável, conforme orientação do prescritor.</p>\n<h3>Fibras e psyllium</h3>\n<p>Fibras solúveis e psyllium podem reduzir a absorção de fármacos tomados ao mesmo tempo, incluindo levotiroxina, digoxina e lítio. A orientação geral é tomar o medicamento pelo menos 1 a 2 horas antes da fibra, ou conforme a bula do produto.</p>\n<h3>Suplementos de academia</h3>\n<p>Termogênicos com cafeína, sinefrina ou ioimbina somam efeito estimulante com descongestionantes, metilfenidato e hormônio tireoidiano em excesso, e elevam a pressão arterial. Em hipertensos, cardiopatas e usuários de antidepressivos, o farmacêutico deve perguntar sobre esses produtos e ler a composição.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 30 anos, com anticoncepcional oral combinado, quer comprar cápsulas de erva-de-são-joão \"para ansiedade\". O farmacêutico explica que a erva induz as enzimas que eliminam os hormônios da pílula e pode causar gravidez, além de interagir com antidepressivos. Desaconselha a compra e encaminha para avaliação da ansiedade na unidade básica.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Inclua sempre na entrevista: chás, cápsulas naturais, vitaminas, minerais, suplementos de academia, sucos e bebida alcoólica. Pergunte o nome exato do produto e leia o rótulo: muitos \"naturais\" são misturas com vários extratos.</p></div>\n"
+  },
+  {
+   "id": "m09-manejo",
+   "titulo": "Manejo das interações no balcão",
+   "resumo": "\n<p>Detectar uma interação é metade do trabalho. A outra metade é decidir o que fazer com ela, comunicar ao paciente e ao prescritor e registrar.</p>\n<h3>Passo a passo</h3>\n<ol>\n<li><b>Levantar a lista completa</b>: receitas atuais, medicamentos sem receita, fitoterápicos, suplementos, álcool. Conferir doses e horários reais, que podem diferir dos prescritos.</li>\n<li><b>Identificar o par</b>: precipitante, objeto, via e efeito esperado.</li>\n<li><b>Consultar uma fonte confiável</b>: bula do profissional, compêndio de interações, base de dados.</li>\n<li><b>Avaliar o paciente</b>: idade, função renal (estimada por CKD-EPI 2021, quando houver creatinina), doenças, há quanto tempo usa a combinação, se já há sintomas.</li>\n<li><b>Classificar a urgência</b>: contraindicada ou grave e ainda não iniciada (intervir antes da dispensação); grave já em uso há tempo e sem sintomas (contatar o prescritor sem interromper por conta própria); moderada (orientar e monitorar); leve (orientar).</li>\n<li><b>Agir</b>: separar horários, orientar sinais de alerta, sugerir alternativa ao prescritor, encaminhar.</li>\n<li><b>Registrar</b>: o que foi detectado, o que foi feito, com quem se falou, o desfecho.</li>\n</ol>\n<h3>Quando basta separar horários</h3>\n<p>Interações de absorção por quelação ou adsorção se resolvem com intervalo entre as tomadas: quinolonas, tetraciclinas, levotiroxina e bifosfonatos com cálcio, ferro, zinco, magnésio, alumínio e leite. O intervalo depende do objeto (ver tabela de horários). Interações enzimáticas, por transportador, renais e farmacodinâmicas não se resolvem com horário, porque o efeito do precipitante dura o dia todo.</p>\n<h3>Quando contatar o prescritor</h3>\n<ul>\n<li>Combinação contraindicada em bula (sinvastatina com claritromicina; sildenafila com nitrato; ciprofloxacino com tizanidina).</li>\n<li>Fármaco de índice terapêutico estreito com precipitante novo (varfarina com antimicrobiano ou antifúngico; lítio com diurético, IECA ou AINE; digoxina com amiodarona ou claritromicina; carbamazepina com macrolídeo).</li>\n<li>Risco de sangramento, arritmia, hipercalemia, hipoglicemia grave, síndrome serotoninérgica ou falha de tratamento crítico (anticoncepção, anticoagulação, transplante).</li>\n<li>Paciente já com sintoma compatível com a interação: encaminhar para atendimento, com urgência quando houver sinal de gravidade.</li>\n</ul>\n<p>A comunicação com o prescritor deve ser objetiva: identificar-se, identificar o paciente, citar os dois medicamentos, o mecanismo e o risco em uma frase, e propor uma alternativa. Exemplo: \"A paciente usa varfarina; o sulfametoxazol com trimetoprima inibe o metabolismo da varfarina e pode elevar o INR em poucos dias. O senhor considera outro antibiótico, como nitrofurantoína, ou prefere manter com INR de controle?\"</p>\n<h3>Documentação da intervenção</h3>\n<p>O registro protege o paciente e o profissional e dá continuidade ao cuidado. A Resolução CFF nº 585/2013 regulamenta as atribuições clínicas do farmacêutico, e a RDC 44/2009 prevê a declaração de serviço farmacêutico entregue ao paciente. Um registro mínimo contém data, paciente, medicamentos envolvidos, problema identificado, conduta (orientação, contato com prescritor, encaminhamento), resposta do prescritor e desfecho.</p>\n<h3>Fontes de consulta</h3>\n<div class=\"tab\"><table><thead><tr><th>Fonte</th><th>Acesso</th><th>Uso no balcão</th></tr></thead><tbody>\n<tr><td>Bulário eletrônico da Anvisa (bula do profissional)</td><td>Gratuito</td><td>Interações e conduta do produto registrado no Brasil</td></tr>\n<tr><td>DailyMed e Drugs@FDA (bulas norte-americanas)</td><td>Gratuito</td><td>Detalhe de interações, ajustes e intervalos</td></tr>\n<tr><td>Tabela de inibidores e indutores da FDA</td><td>Gratuito</td><td>Classificar força de inibidores e indutores</td></tr>\n<tr><td>Formulário Terapêutico Nacional e RENAME (Ministério da Saúde)</td><td>Gratuito</td><td>Medicamentos do SUS</td></tr>\n<tr><td>Liverpool Drug Interactions (HIV, hepatites)</td><td>Gratuito</td><td>Antirretrovirais e antivirais de hepatite</td></tr>\n<tr><td>Verificadores gratuitos (Drugs.com, Medscape)</td><td>Gratuito</td><td>Triagem rápida; conferir em outra fonte</td></tr>\n<tr><td>Stockley's Drug Interactions</td><td>Pago</td><td>Referência detalhada com mecanismo e evidência</td></tr>\n<tr><td>Lexicomp, Micromedex, UpToDate</td><td>Pago ou institucional</td><td>Gravidade, documentação e conduta</td></tr>\n</tbody></table></div>\n<p>Verificadores automáticos geram muitos alertas de baixa relevância e às vezes deixam de apontar interações importantes. Use-os para triagem e confirme as interações graves em bula ou compêndio.</p>\n<h3>Registro mínimo da intervenção</h3>\n<div class=\"tab\"><table><thead><tr><th>Campo</th><th>Exemplo</th></tr></thead><tbody>\n<tr><td>Data e farmacêutico</td><td>08/10/2026, nome e CRF</td></tr>\n<tr><td>Paciente</td><td>Iniciais, idade, contato</td></tr>\n<tr><td>Medicamentos envolvidos</td><td>Varfarina 5 mg/dia; sulfametoxazol com trimetoprima</td></tr>\n<tr><td>Problema</td><td>Inibição de CYP2C9 com risco de INR elevado</td></tr>\n<tr><td>Conduta</td><td>Contato telefônico com o prescritor; proposta de troca</td></tr>\n<tr><td>Resposta</td><td>Prescritor trocou para nitrofurantoína</td></tr>\n<tr><td>Orientação ao paciente</td><td>Sinais de sangramento; INR conforme o serviço</td></tr>\n<tr><td>Desfecho</td><td>Retorno em 7 dias sem intercorrências</td></tr>\n</tbody></table></div>\n<h3>Pares que não passam sem intervenção</h3>\n<ol>\n<li>Sinvastatina ou lovastatina com claritromicina, eritromicina, itraconazol ou cetoconazol.</li>\n<li>Sildenafila, tadalafila ou vardenafila com nitrato.</li>\n<li>Varfarina com sulfametoxazol, metronidazol, fluconazol ou amiodarona nova.</li>\n<li>Anticoagulante com AINE.</li>\n<li>IECA ou BRA com espironolactona e suplemento de potássio, ou com trimetoprima no idoso.</li>\n<li>IECA ou BRA com diurético e AINE.</li>\n<li>Lítio com tiazídico, IECA, BRA ou AINE novo.</li>\n<li>Digoxina com amiodarona, verapamil ou claritromicina.</li>\n<li>ISRS ou IRSN com IMAO, linezolida ou tramadol.</li>\n<li>Benzodiazepínico com opioide.</li>\n<li>Anticoncepcional hormonal com rifampicina, carbamazepina, fenitoína ou erva-de-são-joão.</li>\n<li>Colchicina com claritromicina; ciprofloxacino com tizanidina.</li>\n</ol>\n<h3>Alertas demais</h3>\n<p>Sistemas de farmácia e verificadores online geram dezenas de alertas, muitos teóricos ou de baixa relevância. O excesso leva à \"fadiga de alerta\": o profissional passa a ignorar todos, inclusive os graves. Uma rotina útil é definir uma lista curta de pares que sempre exigem ação (os da tabela-mestra classificados como contraindicados ou graves) e tratar os demais com orientação e registro.</p>\n<h3>Como orientar o paciente</h3>\n<ul>\n<li>Use linguagem simples: \"este antibiótico faz o seu remédio do sangue ficar mais forte\" é mais claro que \"inibe CYP2C9\".</li>\n<li>Diga o que fazer e o que observar: horário, sinal de alerta, quando procurar atendimento.</li>\n<li>Escreva os horários na caixa ou entregue um quadro.</li>\n<li>Peça que o paciente repita a orientação com as próprias palavras.</li>\n<li>Diante de interação grave, explique que o prescritor será contatado e que o paciente não deve parar o remédio de uso contínuo por conta própria.</li>\n</ul>\n<h3>Revisão da farmacoterapia</h3>\n<p>Para o paciente polimedicado, a revisão periódica de todos os medicamentos, com o paciente e as embalagens em mãos (\"revisão da sacola\"), encontra interações, duplicidades (dois AINE, dois sedativos), doses inadequadas e medicamentos que já não têm indicação. É um serviço clínico previsto na Resolução CFF nº 585/2013 e pode ser oferecido com agendamento em farmácias que dispõem de sala de serviços farmacêuticos.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Não suspenda por conta própria um medicamento de uso contínuo prescrito (antiarrítmico, anticoagulante, antiepiléptico, antidepressivo, lítio). A conduta do farmacêutico diante de interação em fármaco já em uso é contatar o prescritor e orientar o paciente; a suspensão abrupta pode causar mais dano que a interação.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Idoso de 80 anos usa digoxina, furosemida e enalapril e traz receita de claritromicina para pneumonia. O farmacêutico identifica duas questões: claritromicina inibe P-gp e eleva a digoxina; furosemida pode causar hipocalemia, que aumenta a toxicidade digitálica. Liga para o prescritor, que troca para outro antibiótico adequado ao quadro. O farmacêutico registra a intervenção e orienta a família sobre sinais de intoxicação digitálica.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Ofereça ao paciente polimedicado um quadro de horários escrito e uma lista atualizada dos medicamentos para levar a todas as consultas. A lista ajuda o próximo prescritor a evitar a interação antes que ela chegue ao balcão.</p></div>\n"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m09-mapa-mecanismos",
+   "titulo": "Mecanismos de interação",
+   "centro": "Como interagem",
+   "ramos": [
+    {
+     "t": "Papéis",
+     "itens": [
+      "Precipitante: causa a mudança",
+      "Objeto: sofre a mudança",
+      "Dizer via e efeito, nunca só 'potencializa'"
+     ]
+    },
+    {
+     "t": "Absorção",
+     "itens": [
+      "Quelação: Ca, Fe, Mg, Al, Zn",
+      "Objetos: quinolona, tetraciclina, T4, bifosfonato",
+      "pH: IBP reduz ferro e levotiroxina",
+      "Manejo: separar horários"
+     ]
+    },
+    {
+     "t": "Metabolismo (CYP)",
+     "itens": [
+      "Inibição: efeito em horas a dias",
+      "Indução: 1 a 2 semanas para surgir e sumir",
+      "Pró-fármaco: inibir reduz efeito",
+      "Ex.: clopidogrel com omeprazol"
+     ]
+    },
+    {
+     "t": "P-gp e rim",
+     "itens": [
+      "P-gp: digoxina, dabigatrana",
+      "Inibidores: amiodarona, verapamil, claritromicina",
+      "Lítio retido por tiazídico, IECA, AINE",
+      "Trimetoprima reduz secreção de metotrexato"
+     ]
+    },
+    {
+     "t": "Farmacodinâmica",
+     "itens": [
+      "Somada: sedação, QT, potássio, serotonina",
+      "Antagonismo: corticoide e antidiabético",
+      "Vitamina K antagoniza varfarina"
+     ]
+    },
+    {
+     "t": "Maior risco",
+     "itens": [
+      "Idoso e polifarmácia",
+      "Índice estreito: varfarina, lítio, digoxina",
+      "Doença renal ou hepática",
+      "Vários prescritores"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m09-mapa-cardio",
+   "titulo": "Pares de alto risco cardiovascular e anticoagulante",
+   "centro": "Coração e coagulação",
+   "ramos": [
+    {
+     "t": "Varfarina sobe o INR",
+     "itens": [
+      "Amiodarona: reduzir 1/3 a 1/2 da dose",
+      "SMX-TMP, metronidazol, fluconazol: CYP2C9",
+      "Paracetamol acima de ~2 g/dia por dias",
+      "AINE e AAS: sangram sem mudar INR"
+     ]
+    },
+    {
+     "t": "Varfarina perde efeito",
+     "itens": [
+      "Rifampicina, carbamazepina: indução",
+      "Mais folhas verdes: mais vitamina K",
+      "Manter dieta constante"
+     ]
+    },
+    {
+     "t": "DOAC",
+     "itens": [
+      "Rivaroxabana e apixabana: CYP3A4 e P-gp",
+      "Evitar indutores fortes",
+      "Dabigatrana: só P-gp",
+      "Clopidogrel: evitar omeprazol"
+     ]
+    },
+    {
+     "t": "Potássio e rim",
+     "itens": [
+      "IECA/BRA + espironolactona: hipercalemia",
+      "Sal light e KCl somam",
+      "Triple whammy: IECA + diurético + AINE"
+     ]
+    },
+    {
+     "t": "Estatinas",
+     "itens": [
+      "Sinvastatina + claritromicina: contraindicada",
+      "Genfibrozila: contraindicada",
+      "Verapamil/diltiazem: sinva até 10 mg",
+      "Anlodipino/amiodarona: sinva até 20 mg"
+     ]
+    },
+    {
+     "t": "Ritmo e pressão",
+     "itens": [
+      "Digoxina + amiodarona: reduzir à metade",
+      "Betabloqueador + verapamil: bradicardia",
+      "PDE-5 + nitrato: hipotensão grave"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m09-mapa-snc-infec",
+   "titulo": "SNC, anti-infecciosos e alimentos",
+   "centro": "SNC, infecção e dieta",
+   "ramos": [
+    {
+     "t": "Serotonina",
+     "itens": [
+      "ISRS + IMAO: contraindicada",
+      "ISRS + linezolida ou tramadol: grave",
+      "ISRS + triptano: risco baixo, orientar",
+      "Erva-de-são-joão soma efeito"
+     ]
+    },
+    {
+     "t": "Sedação e lítio",
+     "itens": [
+      "Benzo + opioide + álcool: depressão respiratória",
+      "Anti-H1 sedativo no idoso: quedas",
+      "Lítio sobe com tiazídico, IECA, AINE"
+     ]
+    },
+    {
+     "t": "CYP2D6 e indutores",
+     "itens": [
+      "Fluoxetina/paroxetina: menos endoxifeno",
+      "Fluoxetina/paroxetina elevam metoprolol",
+      "Carbamazepina, fenitoína: indutores fortes"
+     ]
+    },
+    {
+     "t": "Anti-infecciosos",
+     "itens": [
+      "Rifampicina: pílula falha, 28 dias extra",
+      "Quinolona/tetraciclina + cátion: separar",
+      "Metronidazol + álcool: evitar",
+      "Macrolídeo + outro QT: arritmia"
+     ]
+    },
+    {
+     "t": "Endócrino",
+     "itens": [
+      "Levotiroxina: jejum, 4 h de cálcio e ferro",
+      "Sulfonilureia + fluconazol: hipoglicemia",
+      "Corticoide eleva a glicemia",
+      "Betabloqueador mascara hipoglicemia"
+     ]
+    },
+    {
+     "t": "Alimentos e plantas",
+     "itens": [
+      "Toranja inibe CYP3A4 intestinal",
+      "Tiramina + IMAO: crise hipertensiva",
+      "Ginkgo e alho: cautela com anticoagulante",
+      "Cipro e fluvoxamina acumulam cafeína"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m09-tab-mestra",
+   "titulo": "Tabela-mestra de interações na atenção básica",
+   "colunas": [
+    "Precipitante",
+    "Objeto",
+    "Mecanismo",
+    "Efeito",
+    "Gravidade",
+    "Manejo"
+   ],
+   "linhas": [
+    [
+     "Amiodarona",
+     "Varfarina",
+     "Inibe CYP2C9 e CYP3A4",
+     "INR elevado, sangramento",
+     "Grave",
+     "Prescritor reduz varfarina 1/3 a 1/2; INR frequente"
+    ],
+    [
+     "Sulfametoxazol (SMX-TMP)",
+     "Varfarina",
+     "Sulfametoxazol inibe CYP2C9",
+     "INR muito elevado",
+     "Grave",
+     "Preferir outro antibiótico; se mantido, INR em poucos dias"
+    ],
+    [
+     "Metronidazol",
+     "Varfarina",
+     "Inibe metabolismo da S-varfarina (CYP2C9)",
+     "INR muito elevado",
+     "Grave",
+     "Contatar prescritor; INR de controle"
+    ],
+    [
+     "Fluconazol, miconazol",
+     "Varfarina",
+     "Inibem CYP2C9 e CYP3A4",
+     "INR elevado",
+     "Grave",
+     "Contatar prescritor; INR de controle"
+    ],
+    [
+     "Claritromicina, eritromicina",
+     "Varfarina",
+     "Inibem CYP3A4 (R-varfarina)",
+     "INR elevado",
+     "Moderada",
+     "INR de controle; azitromicina tem menos efeito"
+    ],
+    [
+     "Rifampicina",
+     "Varfarina",
+     "Induz CYP2C9 e CYP3A4",
+     "INR cai, risco de trombose",
+     "Grave",
+     "Contatar prescritor; INR frequente, inclusive após suspensão"
+    ],
+    [
+     "AINE (ibuprofeno, diclofenaco, naproxeno)",
+     "Varfarina, DOAC",
+     "Inibição da COX-1 plaquetária e lesão gástrica (farmacodinâmica)",
+     "Sangramento digestivo",
+     "Grave",
+     "Evitar; preferir paracetamol ou dipirona"
+    ],
+    [
+     "AAS",
+     "Varfarina, DOAC",
+     "Antiagregação somada e lesão gástrica",
+     "Sangramento",
+     "Grave",
+     "Só por indicação médica; orientar sinais de sangramento"
+    ],
+    [
+     "Paracetamol acima de ~2 g/dia por vários dias",
+     "Varfarina",
+     "Interferência proposta no ciclo da vitamina K",
+     "INR elevado",
+     "Moderada",
+     "Menor dose, menor tempo; avisar serviço de anticoagulação"
+    ],
+    [
+     "Vitamina K da dieta (folhas verdes)",
+     "Varfarina",
+     "Antagonismo competitivo",
+     "INR cai com aumento do consumo",
+     "Moderada",
+     "Manter consumo constante"
+    ],
+    [
+     "Cetoconazol, itraconazol, ritonavir",
+     "Rivaroxabana, apixabana",
+     "Inibem CYP3A4 e P-gp",
+     "Mais exposição, sangramento",
+     "Grave",
+     "Evitar (rivaroxabana); reduzir dose (apixabana) conforme bula"
+    ],
+    [
+     "Rifampicina, carbamazepina, fenitoína, erva-de-são-joão",
+     "Rivaroxabana, apixabana, dabigatrana",
+     "Induzem CYP3A4 e P-gp",
+     "Perda de efeito, trombose",
+     "Grave",
+     "Evitar a combinação"
+    ],
+    [
+     "Dronedarona, cetoconazol, verapamil, amiodarona",
+     "Dabigatrana",
+     "Inibem P-gp",
+     "Mais exposição, sangramento",
+     "Grave",
+     "Seguir ajuste da bula por indicação e função renal"
+    ],
+    [
+     "Omeprazol, esomeprazol",
+     "Clopidogrel",
+     "Inibem CYP2C19 e a ativação do pró-fármaco",
+     "Menor antiagregação",
+     "Grave",
+     "Evitar; prescritor costuma preferir pantoprazol"
+    ],
+    [
+     "Ibuprofeno",
+     "AAS em baixa dose",
+     "Bloqueia o acesso do AAS à COX-1",
+     "Menor proteção cardiovascular",
+     "Moderada",
+     "Ibuprofeno 30 min após AAS ou mais de 8 h antes"
+    ],
+    [
+     "Espironolactona, amilorida",
+     "IECA, BRA",
+     "Retenção de potássio somada",
+     "Hipercalemia",
+     "Grave",
+     "Monitorar potássio e creatinina; evitar KCl extra"
+    ],
+    [
+     "Cloreto de potássio, sal light",
+     "IECA, BRA, espironolactona",
+     "Aporte de potássio com excreção reduzida",
+     "Hipercalemia",
+     "Grave",
+     "Não usar sem orientação médica"
+    ],
+    [
+     "AINE",
+     "IECA ou BRA + diurético",
+     "Vasoconstrição aferente somada a dilatação eferente e hipovolemia",
+     "Lesão renal aguda",
+     "Grave",
+     "Evitar AINE; hidratação; procurar médico"
+    ],
+    [
+     "AINE",
+     "Anti-hipertensivos",
+     "Retenção de sódio e inibição de prostaglandinas",
+     "Pressão sobe",
+     "Moderada",
+     "Uso curto; monitorar pressão"
+    ],
+    [
+     "Claritromicina, eritromicina, itraconazol, cetoconazol",
+     "Sinvastatina, lovastatina",
+     "Inibição forte de CYP3A4",
+     "Miopatia, rabdomiólise",
+     "Contraindicada",
+     "Suspender a estatina no curso, a critério do prescritor"
+    ],
+    [
+     "Genfibrozila",
+     "Sinvastatina",
+     "Inibe glicuronidação e OATP1B1",
+     "Rabdomiólise",
+     "Contraindicada",
+     "Fenofibrato é a alternativa usual"
+    ],
+    [
+     "Verapamil, diltiazem",
+     "Sinvastatina",
+     "Inibição moderada de CYP3A4",
+     "Miopatia",
+     "Grave",
+     "Sinvastatina até 10 mg/dia"
+    ],
+    [
+     "Anlodipino, amiodarona",
+     "Sinvastatina",
+     "Inibição de CYP3A4",
+     "Miopatia",
+     "Moderada",
+     "Sinvastatina até 20 mg/dia"
+    ],
+    [
+     "Amiodarona",
+     "Digoxina",
+     "Inibe P-gp; soma bradicardia",
+     "Intoxicação digitálica, bloqueio AV",
+     "Grave",
+     "Reduzir digoxina à metade (bula); dosar nível"
+    ],
+    [
+     "Verapamil",
+     "Digoxina",
+     "Inibe P-gp; soma efeito no nó AV",
+     "Intoxicação, bradicardia",
+     "Grave",
+     "Ajuste e monitorização pelo prescritor"
+    ],
+    [
+     "Claritromicina",
+     "Digoxina",
+     "Inibe P-gp",
+     "Intoxicação digitálica",
+     "Grave",
+     "Preferir outro antibiótico ou monitorar"
+    ],
+    [
+     "Nitratos (isossorbida, nitroglicerina)",
+     "Sildenafila, tadalafila",
+     "Aumento de GMPc somado",
+     "Hipotensão grave",
+     "Contraindicada",
+     "Não dispensar PDE-5; encaminhar"
+    ],
+    [
+     "Verapamil, diltiazem",
+     "Betabloqueadores",
+     "Efeito cronotrópico e dromotrópico negativo somado",
+     "Bradicardia, bloqueio AV, IC",
+     "Grave",
+     "Só com acompanhamento; orientar tontura e desmaio"
+    ],
+    [
+     "IMAO",
+     "ISRS, IRSN",
+     "Menor degradação somada a menor recaptação de serotonina",
+     "Síndrome serotoninérgica",
+     "Contraindicada",
+     "Respeitar intervalos de troca"
+    ],
+    [
+     "Linezolida",
+     "ISRS, IRSN",
+     "Inibição fraca da MAO",
+     "Síndrome serotoninérgica",
+     "Grave",
+     "Contatar prescritor; orientar sinais"
+    ],
+    [
+     "Tramadol",
+     "ISRS, IRSN",
+     "Recaptação de serotonina somada; menor limiar convulsivo",
+     "Síndrome serotoninérgica, convulsão",
+     "Grave",
+     "Menor dose e menor tempo; orientar sinais"
+    ],
+    [
+     "Fluoxetina, paroxetina",
+     "Tramadol",
+     "Inibem CYP2D6",
+     "Menos analgesia, mais toxicidade serotoninérgica",
+     "Grave",
+     "Contatar prescritor"
+    ],
+    [
+     "ISRS",
+     "AINE, anticoagulante",
+     "Menos serotonina plaquetária somada a COX-1 e lesão gástrica",
+     "Sangramento digestivo",
+     "Moderada",
+     "Evitar AINE; IBP se indicado pelo prescritor"
+    ],
+    [
+     "Opioides, álcool, anti-H1 sedativos",
+     "Benzodiazepínicos",
+     "Depressão do SNC somada",
+     "Sedação, quedas, depressão respiratória",
+     "Grave",
+     "Evitar; não vender antigripal sedativo"
+    ],
+    [
+     "Hidroclorotiazida, clortalidona",
+     "Lítio",
+     "Mais reabsorção proximal de lítio",
+     "Intoxicação por lítio",
+     "Grave",
+     "Contatar prescritor; litemia"
+    ],
+    [
+     "IECA, BRA, AINE",
+     "Lítio",
+     "Menor filtração e excreção de lítio",
+     "Intoxicação por lítio",
+     "Grave",
+     "Contatar prescritor; litemia"
+    ],
+    [
+     "Fluoxetina, paroxetina",
+     "Tamoxifeno",
+     "Inibem CYP2D6 e a formação de endoxifeno",
+     "Possível perda de eficácia",
+     "Grave",
+     "Prescritor prefere venlafaxina ou escitalopram"
+    ],
+    [
+     "Fluoxetina, paroxetina",
+     "Metoprolol",
+     "Inibem CYP2D6",
+     "Bradicardia, hipotensão",
+     "Moderada",
+     "Monitorar pulso e pressão"
+    ],
+    [
+     "Carbamazepina, fenitoína",
+     "Anticoncepcional hormonal, DOAC, estatinas",
+     "Indução de CYP3A4 e outras vias",
+     "Perda de efeito",
+     "Grave",
+     "Método contraceptivo não hormonal ou DIU; avaliar troca"
+    ],
+    [
+     "Claritromicina, eritromicina",
+     "Carbamazepina",
+     "Inibem CYP3A4",
+     "Tontura, diplopia, ataxia",
+     "Grave",
+     "Preferir outro antibiótico"
+    ],
+    [
+     "Rifampicina, rifabutina",
+     "Anticoncepcional hormonal",
+     "Indução de CYP3A4 e glicuronidação",
+     "Falha contraceptiva",
+     "Grave",
+     "Preservativo durante e por 28 dias após"
+    ],
+    [
+     "Cálcio, magnésio, alumínio, ferro, zinco",
+     "Ciprofloxacino",
+     "Quelação",
+     "Falha do antibiótico",
+     "Moderada",
+     "Cipro 2 h antes ou 6 h depois"
+    ],
+    [
+     "Cálcio, magnésio, alumínio, ferro, zinco",
+     "Levofloxacino",
+     "Quelação",
+     "Falha do antibiótico",
+     "Moderada",
+     "2 h antes ou 2 h depois"
+    ],
+    [
+     "Leite, cálcio, antiácidos, ferro",
+     "Tetraciclinas",
+     "Quelação",
+     "Falha do antibiótico",
+     "Moderada",
+     "Tetraciclina 1 h antes ou 2 h após refeições"
+    ],
+    [
+     "Ciprofloxacino",
+     "Tizanidina",
+     "Inibe CYP1A2",
+     "Hipotensão, sedação intensa",
+     "Contraindicada",
+     "Não dispensar a combinação; contatar prescritor"
+    ],
+    [
+     "Ciprofloxacino, fluvoxamina",
+     "Cafeína, teofilina",
+     "Inibem CYP1A2",
+     "Palpitação, insônia; toxicidade da teofilina",
+     "Moderada",
+     "Reduzir cafeína; monitorar teofilina"
+    ],
+    [
+     "Álcool",
+     "Metronidazol",
+     "Reação tipo dissulfiram atribuída ao acetaldeído",
+     "Rubor, vômito, taquicardia",
+     "Moderada",
+     "Evitar álcool no tratamento e por 1 a 3 dias após"
+    ],
+    [
+     "Claritromicina, eritromicina, azitromicina",
+     "Outros fármacos que prolongam o QT",
+     "Bloqueio de canais de potássio cardíacos somado",
+     "Torsades de pointes",
+     "Grave",
+     "Evitar em cardiopata; corrigir potássio e magnésio"
+    ],
+    [
+     "Claritromicina",
+     "Colchicina",
+     "Inibe CYP3A4 e P-gp",
+     "Toxicidade grave, fatal",
+     "Contraindicada",
+     "Evitar, sobretudo com doença renal ou hepática"
+    ],
+    [
+     "Fluconazol, sulfametoxazol",
+     "Glibenclamida, glimepirida",
+     "Inibem CYP2C9",
+     "Hipoglicemia",
+     "Grave",
+     "Glicemia capilar; orientar sinais"
+    ],
+    [
+     "Claritromicina",
+     "Sulfonilureias",
+     "Inibe CYP3A4 e transportadores",
+     "Hipoglicemia",
+     "Moderada",
+     "Glicemia capilar; orientar sinais"
+    ],
+    [
+     "Trimetoprima",
+     "Metotrexato",
+     "Menor secreção tubular e efeito antifolato somado",
+     "Pancitopenia",
+     "Grave",
+     "Evitar; contatar prescritor"
+    ],
+    [
+     "Trimetoprima",
+     "IECA, BRA, espironolactona",
+     "Bloqueio do canal de sódio do túbulo coletor",
+     "Hipercalemia",
+     "Grave",
+     "Preferir outro antibiótico em idoso; potássio"
+    ],
+    [
+     "Cálcio, ferro, antiácidos",
+     "Levotiroxina",
+     "Quelação e adsorção",
+     "TSH sobe",
+     "Moderada",
+     "Separar por pelo menos 4 h"
+    ],
+    [
+     "IBP",
+     "Levotiroxina",
+     "pH gástrico mais alto reduz dissolução",
+     "TSH sobe",
+     "Leve",
+     "Monitorar TSH"
+    ],
+    [
+     "Álcool",
+     "Metformina",
+     "Aumento de lactato e menor gliconeogênese",
+     "Acidose lática, hipoglicemia",
+     "Moderada",
+     "Evitar excesso e beber em jejum"
+    ],
+    [
+     "Corticoides sistêmicos",
+     "Antidiabéticos",
+     "Antagonismo: resistência à insulina",
+     "Hiperglicemia",
+     "Moderada",
+     "Glicemia mais frequente; avisar médico"
+    ],
+    [
+     "Betabloqueadores",
+     "Insulina, sulfonilureias",
+     "Mascaram sinais adrenérgicos; não seletivos atrasam recuperação",
+     "Hipoglicemia não percebida",
+     "Moderada",
+     "Orientar sudorese e fome como alerta"
+    ],
+    [
+     "Alimentos, café, cálcio, ferro",
+     "Alendronato, risedronato, ibandronato",
+     "Quelação e adsorção",
+     "Absorção quase nula",
+     "Moderada",
+     "Jejum: 30 min (alendronato) ou 60 min (ibandronato)"
+    ],
+    [
+     "Suco de toranja",
+     "Sinvastatina, lovastatina, felodipina",
+     "Inibe CYP3A4 intestinal de forma irreversível",
+     "Mais exposição e toxicidade",
+     "Moderada",
+     "Evitar o suco; espaçar não resolve"
+    ],
+    [
+     "Alimentos com tiramina",
+     "IMAO (tranilcipromina)",
+     "Tiramina não degradada libera noradrenalina",
+     "Crise hipertensiva",
+     "Grave",
+     "Dieta restrita conforme bula"
+    ],
+    [
+     "Erva-de-são-joão",
+     "Anticoncepcional, DOAC, varfarina, digoxina",
+     "Induz CYP3A4 e P-gp",
+     "Perda de efeito",
+     "Grave",
+     "Desaconselhar o uso"
+    ],
+    [
+     "Ginkgo, alho concentrado",
+     "Anticoagulantes, antiagregantes",
+     "Efeito antiplaquetário (evidência fraca)",
+     "Possível sangramento",
+     "Moderada",
+     "Desaconselhar; suspender antes de cirurgia"
+    ]
+   ],
+   "nota": "Gravidade em escala didática (contraindicada, grave, moderada, leve); os compêndios usam escalas próprias. Ajustes de dose citados vêm das bulas norte-americanas (FDA) e devem ser conferidos na bula brasileira do produto."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m09-tab-horarios",
+   "titulo": "Horários para separar a administração",
+   "colunas": [
+    "Objeto",
+    "Separar de",
+    "Intervalo recomendado",
+    "Fonte"
+   ],
+   "linhas": [
+    [
+     "Levotiroxina",
+     "Café da manhã e alimentos",
+     "Jejum, 30 a 60 min antes do café",
+     "Bula FDA da levotiroxina"
+    ],
+    [
+     "Levotiroxina",
+     "Cálcio, ferro, antiácidos, colestiramina",
+     "Pelo menos 4 h",
+     "Bula FDA da levotiroxina"
+    ],
+    [
+     "Ciprofloxacino",
+     "Antiácidos com Mg ou Al, sucralfato, cálcio, ferro, zinco",
+     "2 h antes ou 6 h depois",
+     "Bula FDA do ciprofloxacino"
+    ],
+    [
+     "Levofloxacino",
+     "Antiácidos, sucralfato, ferro, zinco",
+     "2 h antes ou 2 h depois",
+     "Bula FDA do levofloxacino"
+    ],
+    [
+     "Moxifloxacino",
+     "Magnésio, alumínio, ferro, zinco, sucralfato",
+     "4 h antes ou 8 h depois",
+     "Bula FDA do moxifloxacino"
+    ],
+    [
+     "Tetraciclina",
+     "Refeições, leite, antiácidos, ferro, zinco",
+     "1 h antes ou 2 h após refeições",
+     "Bula FDA da tetraciclina"
+    ],
+    [
+     "Doxiciclina",
+     "Antiácidos, ferro, cálcio",
+     "Não tomar junto; separar algumas horas",
+     "Bula FDA da doxiciclina"
+    ],
+    [
+     "Alendronato, risedronato",
+     "Alimento, bebida e outros medicamentos",
+     "Água pura, 30 min antes; sem deitar",
+     "Bula FDA do alendronato"
+    ],
+    [
+     "Ibandronato oral",
+     "Alimento, bebida e outros medicamentos",
+     "Água pura, 60 min antes; sem deitar",
+     "Bula FDA do ibandronato"
+    ],
+    [
+     "Sais de ferro",
+     "Cálcio, antiácidos, chá, café, leite",
+     "Separar; a bula do produto define o intervalo",
+     "Bula do produto"
+    ],
+    [
+     "Cálcio (suplemento)",
+     "Levotiroxina, quinolonas, tetraciclinas, bifosfonatos, ferro",
+     "Mover para almoço ou jantar",
+     "Derivado das bulas acima"
+    ],
+    [
+     "Antiácidos (Al, Mg, Ca)",
+     "Quinolonas, tetraciclinas, levotiroxina, ferro",
+     "Usar o intervalo do objeto",
+     "Derivado das bulas acima"
+    ]
+   ],
+   "nota": "Quando a bula brasileira do produto trouxer intervalo diferente, siga a bula do produto dispensado."
+  },
+  {
+   "tipo": "quadro",
+   "id": "m09-quadro-cyp",
+   "titulo": "Inibidores e indutores fortes de CYP3A4 e de P-gp de uso comum",
+   "html": "\n<p>Classificação conforme a tabela de exemplos da FDA (Drug Development and Drug Interactions). Inclui apenas fármacos usados no Brasil com alguma frequência fora do hospital.</p>\n<div class=\"tab\"><table><thead><tr><th>Grupo</th><th>Fármacos</th><th>Efeito sobre o objeto</th></tr></thead><tbody>\n<tr><td>Inibidores fortes de CYP3A4</td><td>claritromicina, cetoconazol, itraconazol, posaconazol, voriconazol, ritonavir e cobicistat (reforçadores de antirretrovirais), nefazodona</td><td>Aumentam muito a exposição de substratos sensíveis</td></tr>\n<tr><td>Inibidores moderados de CYP3A4</td><td>eritromicina, fluconazol, diltiazem, verapamil, ciprofloxacino, dronedarona, aprepitanto, suco de toranja</td><td>Aumento intermediário</td></tr>\n<tr><td>Indutores fortes de CYP3A4</td><td>rifampicina, carbamazepina, fenitoína, erva-de-são-joão (também apalutamida, enzalutamida, mitotano)</td><td>Reduzem muito a exposição</td></tr>\n<tr><td>Indutores moderados de CYP3A4</td><td>fenobarbital, primidona, efavirenz, bosentana</td><td>Redução intermediária</td></tr>\n<tr><td>Inibidores de P-gp</td><td>amiodarona, claritromicina, eritromicina, cetoconazol, itraconazol, verapamil, ciclosporina, dronedarona, propafenona, quinidina, ranolazina</td><td>Aumentam digoxina, dabigatrana, edoxabana, colchicina</td></tr>\n<tr><td>Indutores de P-gp</td><td>rifampicina, erva-de-são-joão, carbamazepina, fenitoína</td><td>Reduzem dabigatrana, digoxina e DOAC</td></tr>\n</tbody></table></div>\n<h4>Substratos sensíveis de CYP3A4 vistos no balcão</h4>\n<p>sinvastatina, lovastatina, sildenafila, vardenafila, felodipina, midazolam, triazolam, buspirona, quetiapina, ticagrelor, budesonida, eplerenona, ivabradina, tacrolimo. A atorvastatina é afetada em grau intermediário; rosuvastatina e pravastatina, pouco.</p>\n<h4>Outras enzimas que importam</h4>\n<ul>\n<li><b>CYP2C9</b>, inibidores moderados: amiodarona, fluconazol, miconazol; o sulfametoxazol também inibe. Objetos: varfarina, sulfonilureias, fenitoína.</li>\n<li><b>CYP2C19</b>, inibidores fortes: fluconazol, fluoxetina, fluvoxamina; o omeprazol é inibidor fraco, mas suficiente para reduzir a ativação do clopidogrel.</li>\n<li><b>CYP2D6</b>, inibidores fortes: fluoxetina, paroxetina, bupropiona, terbinafina, quinidina. Objetos: tamoxifeno, codeína, tramadol, metoprolol.</li>\n<li><b>CYP1A2</b>, inibidores: fluvoxamina (forte), ciprofloxacino e anticoncepcionais orais (moderados). Objetos: cafeína, teofilina, tizanidina, clozapina.</li>\n</ul>\n"
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m09-fluxo-decisao",
+   "titulo": "Decisão ao detectar uma interação no balcão",
+   "passos": [
+    {
+     "t": "Interação suspeita na receita ou na entrevista",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Identificar precipitante, objeto, via e efeito; confirmar em bula ou compêndio",
+     "tipo": "acao"
+    },
+    {
+     "t": "A interação é real e clinicamente relevante para este paciente?",
+     "tipo": "decisao",
+     "sim": "Seguir",
+     "nao": "Dispensar e orientar; registrar se houver dúvida"
+    },
+    {
+     "t": "O paciente já tem sintomas compatíveis (sangramento, confusão, desmaio, palpitação)?",
+     "tipo": "decisao",
+     "sim": "Encaminhar para atendimento, com urgência se houver sinal de gravidade",
+     "nao": "Seguir"
+    },
+    {
+     "t": "É interação de absorção resolvível por horário?",
+     "tipo": "decisao",
+     "sim": "Montar quadro de horários e orientar",
+     "nao": "Seguir"
+    },
+    {
+     "t": "É contraindicada ou grave e ainda não iniciada?",
+     "tipo": "decisao",
+     "sim": "Contatar o prescritor antes de dispensar e propor alternativa",
+     "nao": "Seguir"
+    },
+    {
+     "t": "É grave com medicamento já em uso há tempo?",
+     "tipo": "decisao",
+     "sim": "Contatar o prescritor sem suspender por conta própria",
+     "nao": "Orientar sinais de alerta e monitoramento"
+    },
+    {
+     "t": "Não suspender medicamento de uso contínuo sem o prescritor",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Orientar o paciente com linguagem simples e conferir o entendimento",
+     "tipo": "acao"
+    },
+    {
+     "t": "Registrar problema, conduta, contato e desfecho",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m09-cartoes",
+   "titulo": "Cartões de revisão: interações",
+   "itens": [
+    {
+     "f": "Precipitante e objeto: o que são?",
+     "v": "Precipitante causa a alteração; objeto é o fármaco cujo efeito muda."
+    },
+    {
+     "f": "Claritromicina + sinvastatina: mecanismo?",
+     "v": "Claritromicina inibe CYP3A4 e aumenta a exposição à sinvastatina; risco de rabdomiólise; contraindicada."
+    },
+    {
+     "f": "Teto de sinvastatina com anlodipino?",
+     "v": "20 mg/dia (bula FDA)."
+    },
+    {
+     "f": "Teto de sinvastatina com verapamil ou diltiazem?",
+     "v": "10 mg/dia (bula FDA)."
+    },
+    {
+     "f": "Amiodarona + varfarina: conduta da bula?",
+     "v": "Reduzir a varfarina em 1/3 a 1/2 e monitorar o INR."
+    },
+    {
+     "f": "Amiodarona + digoxina: conduta da bula?",
+     "v": "Reduzir a digoxina à metade ou suspender; inibição de P-gp."
+    },
+    {
+     "f": "Por que omeprazol atrapalha o clopidogrel?",
+     "v": "Inibe CYP2C19, que ativa o pró-fármaco; menos antiagregação."
+    },
+    {
+     "f": "O que é triple whammy?",
+     "v": "IECA ou BRA + diurético + AINE: queda da filtração e lesão renal aguda."
+    },
+    {
+     "f": "Por que a trimetoprima eleva o potássio?",
+     "v": "Bloqueia o canal de sódio do túbulo coletor, como a amilorida."
+    },
+    {
+     "f": "Sildenafila + nitrato?",
+     "v": "Contraindicada: GMPc somado, hipotensão grave."
+    },
+    {
+     "f": "ISRS + linezolida: risco?",
+     "v": "Síndrome serotoninérgica; a linezolida inibe a MAO."
+    },
+    {
+     "f": "Fluoxetina + tamoxifeno?",
+     "v": "Fluoxetina inibe CYP2D6 e reduz o endoxifeno; possível perda de eficácia."
+    },
+    {
+     "f": "Três precipitantes que elevam o lítio?",
+     "v": "Tiazídicos, IECA ou BRA, AINE."
+    },
+    {
+     "f": "Rifampicina e pílula: orientação FSRH?",
+     "v": "Preservativo durante o uso e por 28 dias após a suspensão."
+    },
+    {
+     "f": "Amoxicilina reduz a eficácia da pílula?",
+     "v": "Não, segundo a FSRH; só indutores enzimáticos reduzem."
+    },
+    {
+     "f": "Ciprofloxacino e antiácido: intervalo?",
+     "v": "Cipro 2 h antes ou 6 h depois (bula FDA)."
+    },
+    {
+     "f": "Levotiroxina e cálcio: intervalo?",
+     "v": "Pelo menos 4 horas (bula FDA)."
+    },
+    {
+     "f": "Metronidazol e álcool: prazo após o fim?",
+     "v": "Bula brasileira: pelo menos 1 dia; bula FDA: 3 dias."
+    },
+    {
+     "f": "Por que espaçar a toranja não resolve?",
+     "v": "A inibição de CYP3A4 intestinal é irreversível e dura cerca de um dia ou mais."
+    },
+    {
+     "f": "Tiramina + tranilcipromina?",
+     "v": "Crise hipertensiva por liberação de noradrenalina."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m09-questoes",
+   "titulo": "Questões: interações medicamentosas",
+   "itens": [
+    {
+     "p": "Homem de 66 anos usa sinvastatina 40 mg e recebe claritromicina para pneumonia. Assinale a descrição correta da interação:",
+     "alt": [
+      "a sinvastatina inibe CYP3A4 e eleva a claritromicina",
+      "a claritromicina induz CYP3A4 e reduz a sinvastatina",
+      "a claritromicina inibe CYP3A4 e eleva a sinvastatina",
+      "as duas competem pela P-gp sem efeito clínico",
+      "a interação é só farmacodinâmica, sobre o QT"
+     ],
+     "c": 2,
+     "com": "A claritromicina é inibidor forte de CYP3A4 (lista da FDA) e é o precipitante; a sinvastatina, substrato sensível, é o objeto. A bula da sinvastatina contraindica a combinação pelo risco de miopatia e rabdomiólise. As demais alternativas invertem os papéis ou erram o mecanismo."
+    },
+    {
+     "p": "Paciente com varfarina e INR estável recebe receita de sulfametoxazol com trimetoprima. A conduta mais adequada é:",
+     "alt": [
+      "contatar o prescritor, pois o sulfametoxazol inibe CYP2C9",
+      "dispensar, pois antibióticos sempre reduzem o INR da varfarina",
+      "orientar a comer mais verduras para compensar o efeito",
+      "separar os horários em 4 horas",
+      "suspender a varfarina durante o antibiótico"
+     ],
+     "c": 0,
+     "com": "O sulfametoxazol inibe CYP2C9, via da S-varfarina, e eleva o INR com risco de sangramento. Separar horários não resolve interação enzimática, mudar a dieta não é manejo seguro e o farmacêutico não suspende anticoagulante por conta própria."
+    },
+    {
+     "p": "Sobre clopidogrel e inibidores da bomba de prótons, é correto afirmar:",
+     "alt": [
+      "o pantoprazol é contraindicado com clopidogrel",
+      "o omeprazol aumenta a formação do metabólito ativo",
+      "basta tomar o omeprazol 12 horas após o clopidogrel",
+      "o clopidogrel inibe CYP2C19 e eleva o omeprazol",
+      "a bula orienta evitar omeprazol e esomeprazol"
+     ],
+     "c": 4,
+     "com": "A bula do clopidogrel orienta evitar omeprazol e esomeprazol, que inibem CYP2C19 e reduzem a ativação do pró-fármaco. Separar horários não resolve inibição enzimática. Pantoprazol tem menor efeito sobre CYP2C19 e costuma ser a escolha."
+    },
+    {
+     "p": "Idosa de 79 anos usa enalapril e hidroclorotiazida e quer comprar naproxeno para tomar por 15 dias. O principal risco da combinação é:",
+     "alt": [
+      "hipoglicemia",
+      "lesão renal aguda",
+      "síndrome serotoninérgica",
+      "falha contraceptiva",
+      "hipotireoidismo"
+     ],
+     "c": 1,
+     "com": "IECA, diurético e AINE formam o 'triple whammy': hipovolemia, dilatação eferente e constrição aferente reduzem a filtração glomerular. O AINE também reduz o efeito anti-hipertensivo. As outras alternativas não decorrem dessa combinação."
+    },
+    {
+     "p": "Paciente usa sertralina e recebe linezolida para infecção de pele. O risco a orientar é de:",
+     "alt": [
+      "hipercalemia por retenção renal de potássio somada",
+      "síndrome serotoninérgica, pois a linezolida inibe a MAO",
+      "falha da sertralina por indução enzimática hepática intensa",
+      "hipoglicemia por inibição de CYP2C9 pela linezolida",
+      "nenhum, pois a linezolida não tem interações"
+     ],
+     "c": 1,
+     "com": "A linezolida é inibidor reversível e fraco da MAO; somada ao ISRS, aumenta a serotonina sináptica. A bula da linezolida relata síndrome serotoninérgica, inclusive fatal, e orienta monitorar ou suspender um dos fármacos."
+    },
+    {
+     "p": "Paciente em uso de lítio inicia hidroclorotiazida para hipertensão. Qual é o mecanismo esperado?",
+     "alt": [
+      "o tiazídico aumenta a reabsorção renal de lítio",
+      "o lítio inibe CYP3A4 e eleva o nível do diurético tiazídico",
+      "o tiazídico quela o lítio no intestino",
+      "o tiazídico induz o metabolismo hepático do lítio por CYP",
+      "não há interação, pois o lítio não é eliminado pelo rim"
+     ],
+     "c": 0,
+     "com": "O lítio é eliminado quase todo pelo rim e reabsorvido como o sódio. A perda de sódio induzida pelo tiazídico aumenta a reabsorção proximal de sódio e lítio. A bula do lítio orienta monitorar a litemia após iniciar diuréticos, AINE ou antagonistas do sistema renina-angiotensina."
+    },
+    {
+     "p": "Jovem usuária de pílula combinada inicia rifampicina. Segundo a FSRH, a orientação adequada é:",
+     "alt": [
+      "dobrar a dose da pílula por conta própria",
+      "nenhuma, pois antibióticos não interferem",
+      "suspender a pílula durante o tratamento",
+      "usar preservativo durante e por 28 dias após",
+      "trocar a pílula por adesivo combinado, que não sofre indução"
+     ],
+     "c": 3,
+     "com": "A rifampicina induz CYP3A4 e a glicuronidação e reduz os hormônios. A FSRH orienta preservativo durante o indutor e por 28 dias após; para uso prolongado, preferir métodos não afetados (DIU, injetável de medroxiprogesterona). Adesivo e anel combinados também sofrem indução."
+    },
+    {
+     "p": "Paciente vai tomar ciprofloxacino e usa antiácido com hidróxido de alumínio e magnésio. A orientação segundo a bula norte-americana é tomar o ciprofloxacino:",
+     "alt": [
+      "junto com o antiácido, para proteger o estômago",
+      "30 minutos após o antiácido",
+      "pelo menos 2 h antes ou 6 h depois do antiácido",
+      "somente à noite, longe das refeições",
+      "pelo menos 4 h antes ou 8 h depois do antiácido"
+     ],
+     "c": 2,
+     "com": "Alumínio e magnésio formam quelatos com o ciprofloxacino e reduzem sua absorção. A bula do ciprofloxacino pede pelo menos 2 h antes ou 6 h depois. O intervalo de 4 h antes ou 8 h depois é o do moxifloxacino."
+    },
+    {
+     "p": "Mulher de 55 anos com levotiroxina, carbonato de cálcio e omeprazol tem TSH em elevação. Assinale a intervenção mais adequada do farmacêutico:",
+     "alt": [
+      "aumentar a dose de levotiroxina por conta própria",
+      "orientar jejum para a levotiroxina e cálcio 4 h depois",
+      "suspender o omeprazol imediatamente",
+      "tomar a levotiroxina junto com o cálcio para fixar melhor o hormônio",
+      "trocar a levotiroxina por outra marca sem avisar o médico"
+     ],
+     "c": 1,
+     "com": "Cálcio forma complexos com a levotiroxina e o IBP reduz sua dissolução. A bula orienta jejum de 30 a 60 minutos antes do café e 4 horas de distância de cálcio e ferro. Mudar dose, suspender IBP ou trocar marca são decisões do prescritor, que deve ser informado."
+    },
+    {
+     "p": "Diabético de 70 anos com glibenclamida recebe fluconazol 150 mg por 7 dias. O risco principal é:",
+     "alt": [
+      "hiperglicemia por indução de CYP2C9",
+      "hipoglicemia, pois o fluconazol inibe CYP2C9",
+      "falha do fluconazol por quelação",
+      "hipercalemia por bloqueio de ENaC",
+      "nenhum, pois a dose é baixa"
+     ],
+     "c": 1,
+     "com": "O fluconazol inibe CYP2C9 e aumenta a exposição a sulfonilureias, com risco de hipoglicemia, maior em idosos. A bula do fluconazol descreve o efeito com glipizida, glibenclamida e tolbutamida. Orientar glicemia capilar e sinais de hipoglicemia, e informar o prescritor."
+    },
+    {
+     "p": "Cliente com isossorbida sublingual na carteira pede tadalafila. A conduta correta é:",
+     "alt": [
+      "dispensar a menor dose disponível",
+      "dispensar e orientar a esperar 4 horas entre os dois remédios",
+      "dispensar sildenafila no lugar da tadalafila",
+      "não dispensar e encaminhar ao cardiologista",
+      "dispensar se a pressão medida estiver normal"
+     ],
+     "c": 3,
+     "com": "Inibidores da PDE-5 e nitratos aumentam o GMPc por vias complementares e causam hipotensão grave; a combinação é contraindicada nas bulas. Trocar por sildenafila não muda o risco, e pressão normal no momento não protege."
+    },
+    {
+     "p": "Idoso usa clonazepam à noite e quer um antigripal com dexclorfeniramina. A interação a considerar é:",
+     "alt": [
+      "indução de CYP3A4 pelo anti-histamínico sedativo",
+      "quelação no intestino",
+      "aumento da serotonina sináptica",
+      "inibição de P-gp pelo clonazepam",
+      "sedação somada e efeito anticolinérgico"
+     ],
+     "c": 4,
+     "com": "Anti-histamínicos de primeira geração somam sedação à do benzodiazepínico e têm efeito anticolinérgico (confusão, retenção urinária), aumentando o risco de quedas no idoso. A interação é farmacodinâmica; as demais alternativas descrevem mecanismos que não se aplicam."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "U.S. Food and Drug Administration. For Healthcare Professionals: FDA's Examples of Drugs that Interact with CYP Enzymes and Transporter Systems (Drug Development and Drug Interactions). https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems (consultado em out. 2026).",
+  "U.S. Food and Drug Administration. Bulas (prescribing information) consultadas via openFDA/DailyMed em out. 2026: sinvastatina, clopidogrel, amiodarona, sildenafila, tadalafila, rivaroxabana (Xarelto), apixabana, dabigatrana (Pradaxa), linezolida, tramadol, carbonato de lítio, fluconazol, sulfametoxazol com trimetoprima, colchicina, varfarina, metronidazol, ciprofloxacino, levofloxacino, moxifloxacino, tetraciclina, doxiciclina, levotiroxina, alendronato, ibandronato.",
+  "U.S. Food and Drug Administration. FDA Drug Safety Communication: new restrictions, contraindications, and dose limitations for Zocor (simvastatin), 2011, e revisão do limite com amiodarona (dez. 2011), conforme resumos consultados.",
+  "Faculty of Sexual and Reproductive Healthcare (FSRH). Drug interactions with hormonal contraception. Clinical guidance, maio de 2022, conforme resumos do NHS (Specialist Pharmacy Service; NHS Lothian; NHS Dumfries and Galloway) consultados em out. 2026.",
+  "Bulas brasileiras de metronidazol comprimido (seção de interações com álcool), consultadas em out. 2026."
+ ]
+}

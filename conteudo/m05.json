@@ -1,0 +1,734 @@
+{
+ "id": "m05",
+ "num": 5,
+ "titulo": "Sistema endócrino",
+ "escopo": "Diabetes (diagnóstico e metas da SBD 2026, glicemia capilar na farmácia, antidiabéticos orais, agonistas de GLP-1 e tirzepatida com a regra de retenção de receita da RDC 973/2025, insulinas, técnica, conservação e hipoglicemia) e tireoide (levotiroxina, antitireoidianos e fármacos que alteram a função tireoidiana).",
+ "topicos": [
+  {
+   "id": "m05-dm-diagnostico",
+   "titulo": "Diabetes: fisiopatologia, diagnóstico e glicemia capilar",
+   "resumo": "<p>Diabetes mellitus (DM) é um grupo de doenças com hiperglicemia crônica causada por falta de insulina, resistência à ação da insulina ou ambas. A insulina, produzida pelas células beta do pâncreas, permite que músculo e tecido adiposo captem glicose e freia a produção de glicose pelo fígado. Quando ela falta ou age mal, a glicose sobe no sangue e, ao longo dos anos, lesa pequenos vasos (retina, rim, nervos) e acelera a aterosclerose (infarto, AVC, doença arterial periférica).</p> <h3>Tipos principais</h3> <ul> <li><strong>DM tipo 1 (DM1)</strong>: destruição autoimune das células beta, com deficiência absoluta de insulina. Costuma surgir em crianças e adultos jovens, de forma rápida, com sede, muita urina, perda de peso e risco de cetoacidose. O tratamento é insulina desde o início, para sempre.</li> <li><strong>DM tipo 2 (DM2)</strong>: cerca de 90% dos casos. Combina resistência à insulina (ligada a excesso de peso, gordura visceral, sedentarismo e genética) com falência progressiva das células beta. Pode ficar anos sem sintomas. Outros mecanismos participam: excesso de glucagon, menor efeito das incretinas intestinais, maior reabsorção renal de glicose e alterações no controle central do apetite, o que explica por que há classes de medicamentos atuando em cada ponto.</li> <li><strong>Diabetes gestacional</strong>: hiperglicemia detectada na gestação, com rastreio próprio no pré-natal.</li> <li>Outros: LADA (autoimune de início no adulto), diabetes monogênico, pancreatogênico e induzido por medicamentos (glicocorticoides, antipsicóticos atípicos, tiazídicos em dose alta).</li> </ul> <h3>Diagnóstico (SBD)</h3> <p>A Diretriz da Sociedade Brasileira de Diabetes (edição 2026, capítulo de diagnóstico) aceita quatro critérios laboratoriais. Se apenas um exame vier alterado, ele deve ser repetido para confirmar. Glicemia ao acaso ≥ 200 mg/dL com sintomas típicos também confirma o diagnóstico.</p> <div class=\"tab\"><table><thead><tr><th>Exame</th><th>Normal</th><th>Pré-diabetes</th><th>Diabetes</th></tr></thead><tbody> <tr><td>Glicemia de jejum (mg/dL)</td><td>&lt; 100</td><td>100 a 125</td><td>≥ 126</td></tr> <tr><td>HbA1c (%)</td><td>&lt; 5,7</td><td>5,7 a 6,4</td><td>≥ 6,5</td></tr> <tr><td>TOTG, glicemia de 1 hora (mg/dL)</td><td>&lt; 155</td><td>155 a 208</td><td>≥ 209</td></tr> <tr><td>TOTG, glicemia de 2 horas (mg/dL)</td><td>&lt; 140</td><td>140 a 199</td><td>≥ 200</td></tr> </tbody></table></div> <p>Uma novidade da SBD foi a adoção do TOTG com dosagem em 1 hora, considerado mais prático e precoce que o de 2 horas. O rastreamento de DM2 é recomendado para todos a partir de 35 anos e para adultos com sobrepeso ou obesidade com ao menos um fator de risco adicional ou escore FINDRISC alto, usando glicemia de jejum e/ou HbA1c como primeiros testes.</p> <h3>Metas de controle (SBD 2026)</h3> <div class=\"tab\"><table><thead><tr><th>Parâmetro</th><th>Meta geral</th><th>Observação</th></tr></thead><tbody> <tr><td>HbA1c</td><td>&lt; 7%</td><td>Idoso saudável: 7 a 7,5%. Idoso frágil ou com comorbidades limitantes: &lt; 8,5%</td></tr> <tr><td>Glicemia capilar de jejum e pré-prandial</td><td>80 a 130 mg/dL</td><td>Limite inferior de 80 para reduzir hipoglicemia</td></tr> <tr><td>Glicemia 2 h após o início da refeição</td><td>&lt; 180 mg/dL</td><td></td></tr> <tr><td>Tempo no alvo (70 a 180 mg/dL) no sensor</td><td>&gt; 70%</td><td>Tempo &lt; 70 mg/dL abaixo de 4% e &lt; 54 mg/dL abaixo de 1%</td></tr> <tr><td>Coeficiente de variação</td><td>≤ 36%</td><td>Marcador de estabilidade</td></tr> </tbody></table></div> <p>A SBD classifica a hipoglicemia em três níveis: <strong>nível 1</strong>, glicemia de 54 a 69 mg/dL; <strong>nível 2</strong>, abaixo de 54 mg/dL, com sintomas neuroglicopênicos e necessidade de ação imediata; <strong>nível 3</strong>, evento grave com alteração mental ou física que exige ajuda de outra pessoa, qualquer que seja o valor. A ADA Standards of Care 2026 também individualiza metas por idade, saúde e funcionalidade.</p> <div class=\"cx chave\"><b>Ponto-chave</b><p>Diagnóstico: jejum ≥ 126 mg/dL, HbA1c ≥ 6,5%, TOTG 1 h ≥ 209 ou 2 h ≥ 200 mg/dL (repetir se isolado). Meta geral: HbA1c &lt; 7%, jejum 80 a 130 mg/dL, pós-prandial &lt; 180 mg/dL.</p></div> <h3>Glicemia capilar na farmácia</h3> <p>A RDC 44/2009 permitia, como parâmetro bioquímico, apenas a glicemia capilar por equipamento de autoteste, sem finalidade diagnóstica (arts. 69 e 70). O art. 70 foi revogado pela RDC 786/2023, e a própria RDC 786/2023 foi revogada pela <strong>RDC 978/2025</strong>, que hoje regula os serviços que executam exames de análises clínicas. A farmácia que mede glicemia capilar é serviço tipo I (art. 8º): só amostra por punção capilar ou swab nasal e orofaríngeo, todas as etapas no próprio estabelecimento, com controle interno e externo da qualidade (art. 10), exame feito por profissional legalmente habilitado (art. 11) e atividade indicada na licença sanitária (art. 63). Segundo as perguntas e respostas da Anvisa sobre a norma, o glicosímetro de autoteste usado pelo farmacêutico dentro da farmácia também caracteriza exame de análise clínica, com as mesmas exigências; a venda de autoteste regularizado para uso em casa fica fora da RDC 978/2025.</p> <p>O exame é de triagem, sem fins confirmatórios (art. 60). O resultado vai na Declaração de Serviço Farmacêutico, com o valor de referência e a frase \"ESTE PROCEDIMENTO NÃO TEM FINALIDADE DE DIAGNÓSTICO E NÃO SUBSTITUI A CONSULTA MÉDICA\" (RDC 44/2009, art. 81; RDC 978/2025, art. 60, § 2º), e os registros são guardados por no mínimo 5 anos. Continuam valendo aparelho regularizado na Anvisa, POP e descarte correto de perfurocortantes. Leis estaduais podem trazer exigências adicionais.</p> <h4>Técnica</h4> <ol> <li>Higienizar as mãos (farmacêutico e cliente). Se usar álcool na pele do cliente, esperar secar completamente, porque resíduo altera o resultado.</li> <li>Usar luvas, lanceta descartável de uso único e tira dentro da validade, retirada de frasco bem fechado e compatível com o aparelho.</li> <li>Puncionar a lateral da polpa digital, que dói menos que o centro. Evitar espremer com força, o que dilui a gota com líquido intersticial.</li> <li>Aplicar a gota na tira conforme o fabricante e aguardar a leitura.</li> <li>Descartar lanceta em coletor rígido de perfurocortante e algodão com sangue como resíduo infectante, conforme o plano de gerenciamento de resíduos.</li> <li>Registrar valor, horário, tempo desde a última refeição e medicamentos em uso.</li> </ol> <h4>Interpretação e encaminhamento</h4> <p>A glicemia capilar na farmácia não faz diagnóstico. Ela serve para rastrear quem precisa de avaliação e para acompanhar quem já trata. Pergunte sempre o tempo de jejum: o mesmo valor tem significado diferente em jejum de 8 horas e uma hora depois do almoço.</p> <ul> <li>Jejum de 100 a 125 mg/dL ou casual elevado sem sintomas: orientar consulta para investigação com exames laboratoriais.</li> <li>Jejum ≥ 126 mg/dL ou casual ≥ 200 mg/dL: orientar consulta médica breve, com o registro em mãos.</li> <li>Glicemia muito alta ou \"HI\" no aparelho com vômitos, dor abdominal, respiração rápida, sonolência ou confusão: suspeita de cetoacidose ou estado hiperosmolar, encaminhar com urgência.</li> <li>Glicemia &lt; 70 mg/dL: tratar como hipoglicemia (regra dos 15, tópico de insulinas) e orientar avaliação do tratamento.</li> </ul> <h4>Glicosímetros e sensores</h4> <p>A farmácia vende glicosímetros, tiras e sensores de monitorização contínua de glicose. Pontos de orientação: usar tiras do mesmo fabricante e compatíveis com o aparelho, respeitar a validade da tira e do frasco aberto, guardar longe de calor e umidade, conferir a data e a hora do aparelho para que o registro faça sentido e levar o aparelho às consultas. Os sensores medem a glicose no líquido intersticial, com atraso de alguns minutos em relação ao sangue; quando os sintomas não combinam com a leitura, convém confirmar com glicemia capilar. O tempo de uso de cada sensor e os cuidados com a pele estão no manual do fabricante.</p> <div class=\"cx alerta\"><b>Atenção</b><p>Usuário de iSGLT2 (dapagliflozina, empagliflozina) com náusea, vômitos, dor abdominal, falta de ar ou mal-estar pode ter cetoacidose mesmo com glicemia normal ou pouco elevada (cetoacidose euglicêmica). Glicemia \"boa\" não descarta o quadro: encaminhar para avaliação imediata.</p></div> <h3>Complicações agudas</h3> <p>A <strong>cetoacidose diabética</strong> ocorre principalmente no DM1, por falta grave de insulina: o corpo passa a queimar gordura, forma corpos cetônicos e o sangue fica ácido. Sinais: sede intensa, muita urina, náusea, vômitos, dor abdominal, hálito de fruta, respiração rápida e profunda, sonolência. O <strong>estado hiperglicêmico hiperosmolar</strong> é mais comum em idosos com DM2, com glicemias muito altas, desidratação profunda e confusão, frequentemente desencadeado por infecção ou por pouca ingestão de água. Ambos exigem atendimento hospitalar. Na farmácia, os gatilhos mais comuns que o farmacêutico pode ajudar a evitar são abandono ou erro de insulina, infecções não tratadas e desidratação.</p> <h3>Pé diabético</h3> <p>Neuropatia (perda de sensibilidade) e doença arterial tornam o pé do diabético vulnerável: um calo, uma unha mal cortada ou um sapato apertado viram úlcera sem que a pessoa sinta dor. No balcão, as orientações práticas são: examinar os pés todos os dias (com espelho ou ajuda), lavar e secar bem entre os dedos, hidratar a pele sem aplicar creme entre os dedos, cortar as unhas retas, usar calçado fechado e confortável e nunca andar descalço. Produtos para calos e verrugas à base de ácidos queratolíticos não devem ser usados em diabéticos sem orientação profissional, porque podem causar feridas. Qualquer ferida, bolha, mudança de cor ou inchaço no pé de uma pessoa com diabetes deve ser avaliada rapidamente por profissional de saúde.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Antes de medir: pergunte se tem diagnóstico, quais remédios usa, a que horas comeu e se está com sintomas. Depois: explique o valor, entregue a declaração, oriente e registre. Para quem usa glicosímetro em casa, revise a técnica, a validade das tiras, o armazenamento (longe de calor e umidade) e a anotação dos valores para levar à consulta.</p></div> <div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 44 anos, com obesidade e mãe diabética, pede para \"medir o açúcar\". Está em jejum de 10 horas: 118 mg/dL. O farmacêutico explica que o valor está acima do normal e não fecha diagnóstico, entrega a declaração e orienta procurar a unidade de saúde para glicemia de jejum laboratorial e HbA1c, reforçando atividade física e alimentação.</p></div>"
+  },
+  {
+   "id": "m05-metformina",
+   "titulo": "Metformina",
+   "resumo": "<p>A metformina é uma biguanida e o fármaco de primeira linha no DM2, salvo contraindicação ou intolerância (SBD 2026). Ela reduz a produção hepática de glicose, melhora a sensibilidade à insulina no músculo e tem ações intestinais (inclusive aumento discreto de GLP-1). Como não estimula a secreção de insulina, <strong>não causa hipoglicemia quando usada sozinha</strong>, tem efeito neutro ou de leve redução no peso, custo baixo e está disponível no SUS e no Farmácia Popular.</p> <h3>Doses e tomada</h3> <p>A bula do produto de referência (Glifage®) orienta começar com dose baixa e aumentar aos poucos para reduzir efeitos gastrintestinais, tomando os comprimidos <strong>durante ou logo após as refeições</strong>:</p> <ul> <li>Comprimido de 500 mg: início com 500 mg duas vezes ao dia, aumento semanal de um comprimido, até 2.500 mg/dia divididos nas refeições.</li> <li>Comprimido de 850 mg: início com 850 mg no café da manhã, aumento a cada duas semanas, até 2.550 mg/dia (três comprimidos).</li> <li>Formulação de liberação prolongada (XR): uma tomada diária, em geral no jantar, com melhor tolerância gastrintestinal; não deve ser partida nem mastigada. O SUS dispensa a metformina XR 500 mg pelo Farmácia Popular (SBD 2026).</li> </ul> <p>Na formulação XR, o paciente pode encontrar nas fezes a \"carcaça\" do comprimido. É a matriz vazia, eliminada depois de liberar o fármaco, e não indica falha do tratamento; explicar isso evita abandono.</p> <h3>Intolerância gastrintestinal</h3> <p>Diarreia, náusea, desconforto abdominal e gosto metálico são os efeitos mais comuns, sobretudo no início e em doses altas. A SBD estima que 20 a 30% dos pacientes não toleram nem a menor dose. As estratégias são: subir a dose devagar, tomar com a refeição, dividir as tomadas e trocar para XR. Diarreia que surge depois de anos de uso estável merece avaliação, porque pode ter outra causa.</p> <h3>Função renal</h3> <p>A metformina é eliminada inalterada pelo rim. Na insuficiência renal ela acumula, e o risco de acidose lática, raro mas grave, aumenta. A conduta atual se baseia na TFGe:</p> <div class=\"tab\"><table><thead><tr><th>TFGe (mL/min/1,73 m²)</th><th>Conduta</th></tr></thead><tbody> <tr><td>≥ 45</td><td>Dose habitual, com monitoramento periódico da função renal</td></tr> <tr><td>30 a 44</td><td>Dose máxima de 1.000 mg/dia (SBD 2026); não iniciar nessa faixa é a orientação da FDA</td></tr> <tr><td>&lt; 30</td><td>Contraindicada (bula) e deve ser suspensa</td></tr> </tbody></table></div> <h3>Contraste iodado, cirurgias e situações de risco</h3> <p>A bula contraindica a metformina em quem vai fazer cirurgia eletiva de grande porte ou exame com contraste iodado (tomografia, cateterismo), em quem tem acidose metabólica, insuficiência hepática, consumo excessivo de álcool ou condições de baixa oxigenação dos tecidos (insuficiência cardíaca descompensada, insuficiência respiratória, choque, sepse). Na prática, o serviço que realiza o exame orienta a pausa; a recomendação da FDA é suspender no momento do exame com contraste em quem tem TFGe de 30 a 60, doença hepática, alcoolismo, insuficiência cardíaca ou receberá contraste intra-arterial, e só reiniciar após reavaliar a função renal em 48 horas.</p> <div class=\"cx alerta\"><b>Atenção</b><p>Sinais de acidose lática: mal-estar intenso, dor muscular, respiração rápida e profunda, dor abdominal, vômitos, sonolência, hipotermia. Em usuário de metformina com vômitos e diarreia intensos ou desidratação, encaminhar para avaliação. Não é situação de balcão.</p></div> <h3>Vitamina B12</h3> <p>O uso prolongado de metformina reduz a absorção de vitamina B12 e pode causar deficiência, com anemia megaloblástica e neuropatia periférica (que se confunde com a neuropatia diabética). A ADA recomenda dosar B12 periodicamente em quem usa metformina por longo prazo, principalmente se houver neuropatia. Suplementação deve seguir avaliação clínica.</p> <h3>Metformina em idosos</h3> <p>A metformina continua sendo boa opção em idosos, desde que a função renal seja acompanhada com mais frequência, já que a TFGe cai com a idade e em episódios de desidratação. Perda de apetite e de peso não intencional, comuns em idosos frágeis, podem ser agravadas pelos efeitos gastrintestinais e merecem ser relatadas ao médico. A deficiência de B12 também é mais frequente nessa faixa etária e pode se manifestar como piora de memória, desequilíbrio e formigamento.</p> <h3>Outros usos</h3> <p>A metformina também aparece em receitas para pré-diabetes de alto risco (a SBD tem capítulo específico sobre tratamento farmacológico do pré-diabetes) e, fora da bula, em situações como síndrome dos ovários policísticos. O farmacêutico não deve estranhar a prescrição em pessoa sem diagnóstico de diabetes, mas deve orientar da mesma forma sobre tomada com as refeições, efeitos intestinais e função renal.</p> <h3>Interações</h3> <ul> <li>Álcool em excesso: aumenta o risco de acidose lática e de hipoglicemia quando há outros antidiabéticos.</li> <li>Contraste iodado: ver acima.</li> <li>Fármacos que reduzem a secreção tubular (cimetidina, dolutegravir, alguns inibidores de tirosina-quinase): aumentam os níveis de metformina.</li> <li>Associada a sulfonilureia ou insulina, a combinação pode causar hipoglicemia; o risco vem do outro fármaco.</li> </ul> <div class=\"cx balcao\"><b>No balcão</b><p>Oriente tomar com a refeição, iniciar devagar, não abandonar por diarreia leve sem falar com o médico, informar o uso em exames de imagem e cirurgias, levar a última TFGe para conferência e relatar formigamento nos pés. A metformina não deve ser usada para emagrecer por conta própria.</p></div> <div class=\"cx exemplo\"><b>Caso</b><p>Homem de 63 anos, metformina 850 mg três vezes ao dia há oito anos, traz exame com TFGe de 38 mL/min/1,73 m² e pergunta se pode continuar igual. O farmacêutico explica que, nessa faixa, a SBD recomenda dose máxima de 1.000 mg/dia, e orienta levar o exame ao médico para ajuste, registrando a intervenção. Não orienta suspensão por conta própria.</p></div>"
+  },
+  {
+   "id": "m05-sulfonilureias",
+   "titulo": "Sulfonilureias e glinidas",
+   "resumo": "<p>Sulfonilureias e glinidas são <strong>secretagogos de insulina</strong>: fecham os canais de potássio dependentes de ATP da célula beta, o que despolariza a célula e libera insulina independentemente do nível de glicose. Por isso funcionam bem para baixar a glicemia, mas causam hipoglicemia e ganho de peso. Precisam de células beta ainda funcionantes, então perdem efeito com a progressão do DM2.</p> <h3>Sulfonilureias</h3> <div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Dose segundo a bula</th><th>Tomada</th><th>Risco de hipoglicemia</th></tr></thead><tbody> <tr><td>Glibenclamida (Daonil®)</td><td>Início ½ a 1 comprimido de 5 mg/dia; usual 5 a 10 mg; não mais que 15 mg/dia</td><td>Antes do café da manhã; o excedente antes do jantar</td><td>Alto e prolongado (metabólitos ativos, eliminação renal)</td></tr> <tr><td>Gliclazida MR (Diamicron MR®)</td><td>30 a 120 mg em dose única</td><td>No café da manhã; o de 60 mg pode ser partido ao meio, o de 30 mg não</td><td>Menor que a glibenclamida</td></tr> <tr><td>Glimepirida (Amaryl®)</td><td>Início 1 mg; usual 1 a 4 mg; acima de 6 mg só em poucos casos</td><td>Antes da primeira refeição principal</td><td>Intermediário</td></tr> </tbody></table></div> <p>A glibenclamida e a gliclazida são as sulfonilureias do SUS. A SBD recomenda a <strong>gliclazida MR</strong> como sulfonilureia de escolha, pelo menor risco de hipoglicemia, segurança cardiovascular estabelecida e redução de doença renal no diabetes (SBD 2026, capítulo de tratamento do DM2 no SUS). A glibenclamida é a mais associada a hipoglicemia grave e prolongada, especialmente em idosos e em quem tem doença renal; os critérios de Beers recomendam evitá-la em idosos.</p> <h3>Hipoglicemia por sulfonilureia</h3> <p>Os fatores de risco são: idade avançada, doença renal ou hepática, refeições puladas ou atrasadas, álcool, exercício não planejado, perda de peso, doses altas e interações. A hipoglicemia por glibenclamida pode durar muitas horas e voltar depois de um tratamento inicial bem-sucedido; casos com confusão, convulsão ou recorrência precisam de serviço de saúde, porque podem exigir observação prolongada.</p> <p>Interações que aumentam o risco de hipoglicemia:</p> <ul> <li>Fluconazol e miconazol (inclusive gel oral): inibem o metabolismo de várias sulfonilureias.</li> <li>Sulfametoxazol-trimetoprima e claritromicina.</li> <li>Álcool, que também bloqueia a produção hepática de glicose.</li> <li>Betabloqueadores, que mascaram os sintomas.</li> <li>Associação com insulina.</li> </ul> <p>Glicocorticoides, tiazídicos em dose alta e alguns antipsicóticos fazem o oposto: elevam a glicemia.</p> <p>Com a progressão do DM2, as células beta produzem cada vez menos insulina, e a sulfonilureia perde efeito. Quando a glicemia sobe mesmo com dose máxima e boa adesão, o médico costuma acrescentar outra classe ou insulina. Ao introduzir insulina, a sulfonilureia pode ser reduzida ou suspensa para evitar hipoglicemia.</p> <h3>Glinidas</h3> <p>A <strong>repaglinida</strong> (NovoNorm®) e a nateglinida têm início rápido e ação curta. São tomadas imediatamente antes de cada refeição principal. A bula da repaglinida indica dose inicial de 0,5 mg antes de cada refeição, podendo chegar a 4 mg por refeição, com máximo de 16 mg/dia, e não recomenda o uso acima de 75 anos nem na doença hepática moderada a grave. A regra prática para o paciente é: <strong>pulou a refeição, pula a dose</strong>. A repaglinida não deve ser associada à genfibrozila, que aumenta muito seus níveis e o risco de hipoglicemia.</p> <h3>Situações que pedem atenção</h3> <p>Algumas situações aumentam o risco de hipoglicemia em quem usa secretagogo: jejum religioso ou para exames, dietas muito restritivas, exercício prolongado, doença aguda com pouca ingestão de comida, viagens com mudança de horários e idosos que moram sozinhos e comem pouco. Nesses casos, o paciente deve combinar previamente com o médico se reduz ou pula doses. O farmacêutico pode perguntar sobre esses planos ao dispensar e reforçar que dirigir ou operar máquinas logo após um episódio de hipoglicemia é perigoso.</p> <div class=\"cx chave\"><b>Ponto-chave</b><p>Secretagogos baixam a glicose mesmo quando ela já está normal. Glibenclamida é a de maior risco; gliclazida MR é a preferida pela SBD. Glinida: tomar só se for comer.</p></div> <div class=\"cx balcao\"><b>No balcão</b><p>Ao dispensar sulfonilureia ou glinida: confirme o horário em relação às refeições, ensine os sintomas de hipoglicemia (tremor, suor frio, palpitação, fome, confusão) e a regra dos 15, oriente não pular refeições e cuidado com álcool. Ao dispensar fluconazol, claritromicina ou sulfametoxazol-trimetoprima, pergunte se a pessoa usa remédio para diabetes.</p></div> <div class=\"cx exemplo\"><b>Caso</b><p>Senhora de 79 anos, com TFGe de 35, usa glibenclamida 5 mg duas vezes ao dia e relata dois episódios de \"tremedeira e suor frio\" de madrugada. O farmacêutico orienta a regra dos 15, explica o risco da glibenclamida na idade e na função renal dela e comunica o prescritor, sugerindo reavaliação do esquema, com registro da intervenção.</p></div>"
+  },
+  {
+   "id": "m05-orais-outros",
+   "titulo": "Inibidores da DPP-4, inibidores do SGLT2, pioglitazona e acarbose",
+   "resumo": "<p>Além da metformina e dos secretagogos, quatro classes orais completam o arsenal do DM2. Cada uma atua em um mecanismo diferente da fisiopatologia, o que permite associações racionais.</p> <h3>Inibidores da DPP-4 (gliptinas)</h3> <p>As incretinas (GLP-1 e GIP) são hormônios intestinais liberados com a refeição que aumentam a secreção de insulina de forma dependente da glicose e reduzem o glucagon. A enzima DPP-4 as degrada em minutos. As gliptinas inibem essa enzima e prolongam a ação das incretinas do próprio paciente. O efeito na HbA1c é modesto, o peso fica neutro e o risco de hipoglicemia é baixo quando usadas sem sulfonilureia ou insulina.</p> <div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Dose usual (bula)</th><th>Rim</th></tr></thead><tbody> <tr><td>Sitagliptina (Januvia®)</td><td>100 mg uma vez ao dia</td><td>Dose menor na doença renal, conforme bula</td></tr> <tr><td>Vildagliptina (Galvus®)</td><td>50 mg uma ou duas vezes ao dia; máximo 100 mg/dia</td><td>Ajuste conforme bula</td></tr> <tr><td>Linagliptina (Trayenta®)</td><td>5 mg uma vez ao dia</td><td>Sem ajuste renal ou hepático</td></tr> <tr><td>Saxagliptina, alogliptina</td><td>Conforme bula</td><td>Ajuste conforme bula</td></tr> </tbody></table></div> <p>Os estudos de segurança cardiovascular mostraram neutralidade para a maioria das gliptinas, mas a saxagliptina foi associada a aumento de internação por insuficiência cardíaca, por isso costuma ser evitada em quem tem insuficiência cardíaca.</p> <p>Efeitos e alertas: nasofaringite, cefaleia, dor articular, raros casos de pancreatite e de penfigoide bolhoso (bolhas na pele, mais em idosos). Não faz sentido associar gliptina a agonista de GLP-1, porque o mecanismo se sobrepõe sem ganho relevante.</p> <h3>Inibidores do SGLT2 (gliflozinas)</h3> <p>O SGLT2 é o transportador do túbulo proximal que reabsorve a maior parte da glicose filtrada. Ao bloqueá-lo, a <strong>dapagliflozina</strong> (Forxiga®) e a <strong>empagliflozina</strong> (Jardiance®) fazem o rim eliminar glicose na urina, com perda de calorias e um pouco de sódio. O efeito glicêmico é moderado e depende da função renal, mas os benefícios vão além da glicose:</p> <ul> <li>reduzem internação por insuficiência cardíaca e morte cardiovascular, com ou sem diabetes;</li> <li>reduzem a progressão da doença renal crônica, com ou sem diabetes;</li> <li>causam leve perda de peso e de PA.</li> </ul> <p>Doses: dapagliflozina 10 mg uma vez ao dia, sem ajuste de dose pela função renal, mas com menor efeito glicêmico se TFGe &lt; 45; empagliflozina 10 mg, até 25 mg no DM2, não recomendada abaixo de TFGe 30 para tratar diabetes e abaixo de 20 na insuficiência cardíaca (bulas). No SUS, a dapagliflozina foi incorporada para DM2 com risco cardiovascular, para insuficiência cardíaca com fração de ejeção reduzida e para DRC, com critérios de idade e risco; no Farmácia Popular, a SBD 2026 cita o acesso para pessoas com 65 anos ou mais com DM2 e doença cardiovascular.</p> <h4>Efeitos adversos e cuidados</h4> <ul> <li><strong>Infecção genital fúngica</strong> (candidíase vulvovaginal e balanopostite): a mais comum, pela glicose na urina. Higiene íntima diária, secar bem a região e procurar tratamento ao primeiro sintoma.</li> <li>Infecção urinária, em menor grau.</li> <li>Depleção de volume e hipotensão: idosos, uso de diurético de alça, calor.</li> <li><strong>Cetoacidose euglicêmica</strong>: cetoacidose com glicemia normal ou pouco elevada. Fatores desencadeantes: jejum prolongado, dieta muito pobre em carboidratos, álcool em excesso, doença aguda, desidratação, cirurgia, redução brusca de insulina. A SBD recomenda suspender o iSGLT2 de 3 a 4 dias antes de cirurgia de grande porte, procedimento invasivo planejado ou exercício muito intenso, e só reiniciar quando a alimentação estiver normal.</li> <li>Gangrena de Fournier (infecção grave do períneo): rara, exige emergência.</li> </ul> <div class=\"cx alerta\"><b>Atenção</b><p>Usuário de iSGLT2 com náusea, vômitos, dor abdominal, falta de ar, sonolência ou mal-estar, mesmo com glicemia abaixo de 250 mg/dL, pode ter cetoacidose euglicêmica. A SBD recomenda dosar cetonemia ou cetonúria nesses casos. Encaminhar para atendimento de urgência.</p></div> <h3>Pioglitazona</h3> <p>A pioglitazona (Actos®) é uma tiazolidinediona: ativa o receptor PPAR-gama e aumenta a sensibilidade à insulina no tecido adiposo, músculo e fígado. A bula indica 15 a 45 mg uma vez ao dia, com ou sem alimento. Não causa hipoglicemia isolada e tem benefício na doença hepática esteatótica metabólica. Os problemas são: ganho de peso, <strong>retenção de líquido e edema</strong>, risco de descompensar insuficiência cardíaca (não usar em insuficiência cardíaca sintomática), aumento de fraturas em mulheres e cautela em quem tem ou teve câncer de bexiga. A bula prevê exames periódicos de função hepática.</p> <h3>Acarbose</h3> <p>A acarbose (Glucobay®) inibe as alfa-glicosidases intestinais, que quebram amido e sacarose em glicose. A glicose pós-prandial sobe mais devagar. A bula orienta engolir o comprimido inteiro imediatamente antes da refeição ou mastigá-lo com as primeiras garfadas, começando com 50 mg três vezes ao dia e podendo chegar a 100 mg três vezes ao dia. Causa flatulência, distensão e diarreia, que diminuem com o tempo e com menos açúcar na dieta.</p> <div class=\"cx chave\"><b>Ponto-chave</b><p>Se um paciente em uso de acarbose tiver hipoglicemia (por estar associado a sulfonilureia ou insulina), açúcar comum e doces podem não funcionar bem, porque a sacarose precisa ser quebrada no intestino. Usar glicose pura (comprimidos ou gel de glicose) ou, na falta, leite, que contém lactose.</p></div> <h3>Como as classes se combinam</h3> <p>A escolha do segundo ou terceiro antidiabético depende das comorbidades, e não só da HbA1c. Em pessoas com doença cardiovascular estabelecida, insuficiência cardíaca ou doença renal crônica, SBD e ADA priorizam iSGLT2 e aGLP-1 com benefício comprovado, independentemente do controle glicêmico. Quando o objetivo é perda de peso, aGLP-1 e tirzepatida têm o maior efeito. Quando o custo e o acesso pesam, a SBD orienta o caminho do SUS: metformina, depois sulfonilureia (de preferência gliclazida MR), dapagliflozina para quem preenche os critérios e insulina. Existem várias associações em dose fixa com metformina (com sitagliptina, vildagliptina, dapagliflozina ou empagliflozina) e combinações de gliflozina com gliptina. No balcão, o cuidado é o mesmo da hipertensão: evitar duplicidade quando o paciente recebe a associação e também um componente isolado, e conferir a dose total de metformina.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Ao dispensar iSGLT2, oriente higiene genital, hidratação, sinais de cetoacidose e a necessidade de avisar o cirurgião ou dentista antes de procedimentos maiores. Ao dispensar pioglitazona, pergunte sobre falta de ar, inchaço e ganho rápido de peso. Ao dispensar acarbose, explique o horário com a primeira garfada e o tratamento da hipoglicemia com glicose.</p></div> <div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 56 anos, em uso de dapagliflozina há um mês, pede creme para \"coceira e corrimento\". O farmacêutico relaciona o quadro ao iSGLT2, orienta higiene, avalia se o caso se enquadra em tratamento de candidíase vulvovaginal sem sinais de alarme ou se precisa de encaminhamento, e informa que o médico deve saber do efeito para decidir se mantém o medicamento.</p></div>"
+  },
+  {
+   "id": "m05-glp1",
+   "titulo": "Agonistas de GLP-1 e tirzepatida",
+   "resumo": "<p>Os agonistas do receptor de GLP-1 (aGLP-1) são análogos resistentes à DPP-4 que imitam o hormônio intestinal GLP-1 em concentrações muito maiores que as fisiológicas. Eles aumentam a secreção de insulina apenas quando a glicose está alta, reduzem o glucagon, retardam o esvaziamento do estômago e agem no sistema nervoso central reduzindo o apetite. A <strong>tirzepatida</strong> é um agonista duplo dos receptores de GIP e GLP-1, com efeito ainda maior sobre glicemia e peso.</p> <p>Benefícios: redução importante da HbA1c, perda de peso significativa e, para semaglutida, liraglutida e dulaglutida, redução de eventos cardiovasculares em pessoas com doença cardiovascular estabelecida. A DBHA 2025 também cita os aGLP-1 como fármacos com proteção cardiorrenal em diabéticos.</p> <h3>Produtos e doses (bulas)</h3> <div class=\"tab\"><table><thead><tr><th>Produto</th><th>Indicação principal</th><th>Esquema</th><th>Conservação após aberto</th></tr></thead><tbody> <tr><td>Liraglutida (Victoza®)</td><td>DM2</td><td>Diário, SC; caneta seleciona 0,6, 1,2 e 1,8 mg; inicia em 0,6 mg</td><td>1 mês, até 30 °C ou geladeira</td></tr> <tr><td>Liraglutida (Saxenda®)</td><td>Obesidade</td><td>Diário, SC; escalonamento de 0,6 em 0,6 mg até 3 mg</td><td>Conforme bula</td></tr> <tr><td>Semaglutida (Ozempic®)</td><td>DM2</td><td>Semanal, SC; 0,25 mg por 4 semanas, depois 0,5 mg; aumentos para 1 mg e 2 mg conforme resposta</td><td>6 semanas, abaixo de 30 °C ou geladeira</td></tr> <tr><td>Semaglutida (Wegovy®)</td><td>Obesidade ou sobrepeso com comorbidade</td><td>Semanal, SC; 0,25, 0,5, 1, 1,7 mg até manutenção de 2,4 mg</td><td>6 semanas, abaixo de 30 °C ou geladeira</td></tr> <tr><td>Semaglutida oral (Rybelsus®)</td><td>DM2</td><td>Diário; 3 mg por um mês, depois 7 mg, podendo ir a 14 mg</td><td>Comprimido</td></tr> <tr><td>Dulaglutida (Trulicity®)</td><td>DM2</td><td>Semanal, SC; caneta de uso único (ex.: 0,75 mg)</td><td>Até 14 dias fora da geladeira, até 30 °C</td></tr> <tr><td>Tirzepatida (Mounjaro®)</td><td>DM2; obesidade (aprovada em 2025)</td><td>Semanal, SC; 2,5 mg por 4 semanas, depois 5 mg; +2,5 mg a cada 4 semanas ou mais; máximo 15 mg</td><td>Caneta de uso único: até 21 dias fora da geladeira, abaixo de 30 °C</td></tr> </tbody></table></div> <p>A <strong>semaglutida oral</strong> exige técnica: tomar em jejum, com pouca água, e esperar cerca de 30 minutos antes de comer, beber ou tomar outros remédios, porque o alimento impede a absorção. A bula informa que dois comprimidos de 7 mg não substituem um de 14 mg.</p> <p>Com o fim da patente da semaglutida no Brasil, em março de 2026, a Anvisa registrou em maio de 2026 a primeira semaglutida sintética nacional (Ozivy®, da EMS), indicada para DM2, e havia outros pedidos em análise. A lixisenatida aparece no Brasil associada à insulina glargina.</p> <h3>Escalonamento e efeitos gastrintestinais</h3> <p>Náusea, vômitos, diarreia, constipação, dor abdominal e plenitude são os efeitos mais comuns e dependem da dose. Por isso todos os esquemas começam com dose baixa e sobem a cada 4 semanas (ou semanalmente, na liraglutida). Orientações úteis: comer porções menores e devagar, parar ao sentir saciedade, evitar alimentos gordurosos, manter hidratação. Vômitos e diarreia intensos podem desidratar e levar a lesão renal aguda.</p> <h3>Riscos que o farmacêutico precisa reconhecer</h3> <ul> <li><strong>Pancreatite aguda</strong>: dor abdominal intensa e persistente, que pode irradiar para as costas, com ou sem vômitos. Suspender e procurar atendimento.</li> <li>Doença da vesícula biliar (cólica biliar, colecistite), favorecida pela perda rápida de peso.</li> <li>Hipoglicemia quando associados a sulfonilureia ou insulina; isoladamente o risco é baixo.</li> <li>Contraindicação em quem tem história pessoal ou familiar de carcinoma medular de tireoide ou neoplasia endócrina múltipla tipo 2, conforme as bulas.</li> <li>Gestação: não usar; a interrupção antes de engravidar segue a bula de cada produto.</li> <li>Esvaziamento gástrico lento: avisar o médico ou anestesista antes de cirurgias, sedação e endoscopias.</li> <li>Tirzepatida pode reduzir a eficácia de anticoncepcional oral no início e após aumentos de dose; a bula orienta método adicional ou não oral nesses períodos.</li> <li>Perda de massa muscular com perda de peso rápida: reforçar proteína na dieta e exercício de força, com acompanhamento profissional.</li> </ul> <h3>Uso no tratamento da obesidade</h3> <p>A bula do Wegovy® indica o produto para adultos com IMC ≥ 30 kg/m², ou ≥ 27 kg/m² com comorbidade relacionada ao peso (diabetes, hipertensão, dislipidemia, apneia do sono, doença cardiovascular), junto com dieta e atividade física, e para adolescentes a partir de 12 anos com obesidade. A tirzepatida recebeu indicação para obesidade e sobrepeso com comorbidades no Brasil em junho de 2025, e a liraglutida em dose de 3 mg (Saxenda®) também é indicada para controle de peso. São tratamentos de doença crônica, com acompanhamento, e não produtos estéticos para perder alguns quilos. As doses e canetas para obesidade são diferentes das de diabetes, o que exige atenção para não trocar Ozempic® por Wegovy® ou vice-versa.</p> <h3>Regra de dispensação vigente</h3> <div class=\"cx lei\"><b>O que diz a norma</b><p>A RDC nº 973/2025 alterou a RDC nº 471/2021 e, com a IN nº 360/2025, passou a exigir para semaglutida, liraglutida, dulaglutida, tirzepatida e lixisenatida, isoladas ou em associação: receita em duas vias, com <strong>retenção de uma via</strong> na farmácia, validade de <strong>90 dias</strong> a partir da emissão e escrituração da compra e venda no <strong>SNGPC</strong>, inclusive de manipulados. A exigência vale desde 23 de junho de 2025.</p></div> <p>A lógica é a mesma já aplicada aos antimicrobianos. Em tratamento de uso contínuo indicado expressamente na receita, a mesma prescrição pode servir para aquisições sucessivas dentro do prazo de validade; o CFF, ao resumir a norma, informa limite de até 30 dias de tratamento por dispensação. A Anvisa não proibiu o uso fora da bula, que segue sendo responsabilidade do prescritor. Confira sempre o texto consolidado da RDC 471/2021 e as atualizações da Anvisa, porque essa área muda com frequência.</p> <h3>Dose esquecida e interrupções</h3> <p>Cada bula traz uma janela para aplicar a dose semanal esquecida; passado esse prazo, a orientação é pular a dose e manter o dia habitual. Duas doses semanais não devem ser aplicadas com intervalo menor que o permitido na bula. Quem interrompe por várias semanas pode precisar recomeçar o escalonamento, porque reiniciar direto em dose alta causa náusea e vômitos intensos; essa decisão é do prescritor. A suspensão costuma ser seguida de recuperação de parte do peso perdido, o que deve ser discutido com o médico antes de parar.</p> <h3>Manipulação, falsificação e produtos irregulares</h3> <p>A explosão de procura criou um mercado ilegal. Os pontos a conhecer:</p> <ul> <li>Segundo o CFF (janeiro de 2026), a Anvisa vedou a manipulação de semaglutida e mantém a tirzepatida manipulada sob monitoramento e restrições (Nota Técnica nº 200/2025 e Despacho nº 97/2025).</li> <li>Em janeiro de 2026, a Resolução RE nº 214 da Anvisa proibiu e mandou apreender canetas de tirzepatida das marcas Synedica e TG e produtos de retatrutida de todas as marcas, sem registro no país e vendidos pela internet. A retatrutida não tem registro aprovado.</li> <li>Canetas trazidas do Paraguai não são equivalentes às registradas no Brasil, segundo a Anvisa, e a Receita Federal registrou aumento expressivo de apreensões em 2025.</li> <li>Já houve alertas de lotes falsificados de canetas de semaglutida. Sinais de suspeita: preço muito abaixo do mercado, venda por rede social, embalagem com erros, número de lote ou validade diferentes entre caixa e caneta, solução turva ou com partículas, falta de bula.</li> </ul> <div class=\"cx alerta\"><b>Atenção</b><p>A farmácia só pode adquirir de distribuidores regularizados, conferir nota fiscal e lote e escriturar no SNGPC. Cliente com reação após usar caneta de origem duvidosa deve ser encaminhado, e o caso notificado à Anvisa (queixa técnica e evento adverso).</p></div> <h3>Armazenamento e uso da caneta</h3> <p>Antes de abrir, todas devem ficar na geladeira, entre 2 e 8 °C, longe do congelador; produto congelado deve ser descartado. Após o início do uso, cada produto tem prazo próprio fora da geladeira (tabela acima). A agulha é trocada a cada aplicação e descartada em recipiente rígido. Nas canetas semanais, a aplicação é no mesmo dia da semana, em qualquer horário, no abdome, coxa ou braço, com rodízio de locais. O dia pode ser trocado respeitando o intervalo mínimo da bula (para a tirzepatida, pelo menos 3 dias entre doses).</p> <div class=\"cx balcao\"><b>No balcão</b><p>Confira a receita (duas vias, validade de 90 dias, uso contínuo quando houver) e escriture no SNGPC. Pergunte se é o primeiro uso e explique o escalonamento, os efeitos gastrintestinais e os sinais de pancreatite. Mostre como guardar a caneta e o que fazer em viagem. Se a pessoa usa sulfonilureia ou insulina, oriente sobre hipoglicemia. Recuse vender sem receita, mesmo para \"quem já usa\".</p></div> <div class=\"cx exemplo\"><b>Caso</b><p>Cliente de 35 anos quer comprar tirzepatida \"manipulada, que é mais barata\", indicada por uma influenciadora, e não tem receita. O farmacêutico explica a exigência de receita retida, os riscos de produtos sem registro e as proibições recentes da Anvisa, recusa a venda e orienta procurar avaliação médica para tratamento da obesidade.</p></div>"
+  },
+  {
+   "id": "m05-insulinas",
+   "titulo": "Insulinas",
+   "resumo": "<p>A insulina é indispensável no DM1 e necessária em muitos pacientes com DM2 ao longo da doença, quando as células beta perdem função. Ela também é a terapia de escolha em várias situações agudas e na gestação. As insulinas comerciais têm concentração padrão de <strong>100 UI/mL</strong>; algumas apresentações têm 300 UI/mL (glargina) ou outras concentrações, o que exige atenção máxima na dispensação.</p> <h3>Reposição fisiológica em linguagem simples</h3> <p>O pâncreas saudável libera insulina de dois jeitos: um \"fundo\" constante ao longo do dia e da noite (<strong>basal</strong>), que segura a produção de glicose pelo fígado, e picos a cada refeição (<strong>prandial</strong> ou \"bolus\"). A SBD resume que, no DM1, cerca de metade da insulina diária é basal e metade prandial. O esquema <strong>basal-bolus</strong> imita isso: uma insulina de ação longa ou intermediária faz o fundo, e uma insulina rápida ou ultrarrápida é aplicada antes das refeições, com dose ajustada à quantidade de carboidrato e à glicemia do momento. No DM2, é comum começar só com a basal (por exemplo, NPH ao deitar ou um análogo de ação longa) associada aos orais, e acrescentar insulina prandial depois, se necessário.</p> <h3>Tipos e perfil de ação</h3> <div class=\"tab\"><table><thead><tr><th>Insulina</th><th>Início</th><th>Pico</th><th>Duração</th><th>Aspecto</th></tr></thead><tbody> <tr><td>Regular (humana)</td><td>30 a 60 min</td><td>2 a 3 h</td><td>5 a 8 h</td><td>Límpida</td></tr> <tr><td>Asparte, lispro, glulisina</td><td>5 a 15 min</td><td>30 min a 2 h</td><td>3 a 5 h</td><td>Límpida</td></tr> <tr><td>Asparte de ação ultrarrápida (Fiasp®)</td><td>2 a 5 min</td><td>1 a 3 h</td><td>5 h</td><td>Límpida</td></tr> <tr><td>NPH (humana)</td><td>2 a 4 h</td><td>4 a 10 h</td><td>10 a 18 h</td><td>Turva (suspensão)</td></tr> <tr><td>Detemir</td><td>1 a 3 h</td><td>6 a 8 h</td><td>18 a 22 h</td><td>Límpida</td></tr> <tr><td>Glargina 100 UI/mL</td><td>2 a 4 h</td><td>Sem pico</td><td>20 a 24 h</td><td>Límpida</td></tr> <tr><td>Glargina 300 UI/mL</td><td>6 h</td><td>Sem pico</td><td>36 h</td><td>Límpida</td></tr> <tr><td>Degludeca</td><td>Gradual</td><td>Sem pico</td><td>42 h ou mais</td><td>Límpida</td></tr> <tr><td>Pré-misturas (NPH/regular 70/30; lispro 75/25 e 50/50; asparte 70/30)</td><td>Da fração rápida</td><td>Duplo</td><td>Da fração intermediária</td><td>Turva</td></tr> </tbody></table></div> <p>Valores aproximados segundo a SBD (Tabela 1 do capítulo de insulinoterapia no DM1); variam com dose, local e pessoa. A <strong>regular</strong> deve ser aplicada cerca de 30 minutos antes da refeição. Os análogos rápidos são aplicados imediatamente antes de comer (a asparte ultrarrápida pode ser aplicada até 20 minutos após o início da refeição). A NPH e as pré-misturas são suspensões e precisam ser <strong>homogeneizadas com 20 movimentos suaves</strong> antes de cada uso (SBD), sem agitar com força. Insulina que deveria ser límpida e está turva, com grumos ou cristais, não deve ser usada.</p> <div class=\"cx alerta\"><b>Atenção</b><p>Erros de insulina causam hipoglicemia grave. Confira nome, tipo, concentração (100 ou 300 UI/mL), apresentação (frasco, refil, caneta descartável) e se a caneta é compatível com o refil. Nunca aspire insulina de caneta com seringa, e nunca use seringa graduada em mL: a prescrição é em UI e a seringa deve ter escala em UI.</p></div> <h3>Técnica de aplicação</h3> <p>A SBD (capítulo de práticas seguras de preparo e aplicação, 2025) recomenda:</p> <ul> <li><strong>Agulha mais curta disponível</strong>: 4 ou 5 mm para caneta e 6 mm para seringa são primeira escolha em todos os pacientes. Agulhas de 12 mm ou mais não devem ser usadas.</li> <li><strong>Prega cutânea</strong> quando o tecido subcutâneo é fino: IMC abaixo de 19 kg/m², adultos mais velhos, gestantes e crianças de até 6 anos.</li> <li>Locais: abdome (afastado do umbigo), face anterior e lateral da coxa, face posterior do braço e região superior lateral das nádegas.</li> <li><strong>Rodízio</strong> sistemático dos locais e dos pontos dentro de cada região, com cerca de 1 cm entre aplicações.</li> <li>Caneta: teste de fluxo antes de cada aplicação (selecionar pequena dose e ver a gota na ponta), aplicar e <strong>manter o botão pressionado por pelo menos 10 segundos</strong> antes de retirar a agulha.</li> <li><strong>Não reutilizar agulhas</strong>: a reutilização entorta a ponta, aumenta dor, contaminação e lipo-hipertrofia.</li> <li>Descarte de agulhas e lancetas em recipiente rígido, sem reencapar, dobrar ou quebrar.</li> </ul> <p>A <strong>lipo-hipertrofia</strong> é um espessamento endurecido do tecido no local de aplicação repetida. Aplicar insulina ali torna a absorção errática, com hiperglicemias e hipoglicemias sem explicação. Uma metanálise citada pela SBD aponta como principais fatores o rodízio incorreto, a reutilização de agulhas e agulhas de 6 mm ou mais. A conduta é inspecionar e palpar os locais e evitar as áreas alteradas.</p> <h4>Mistura de NPH e regular na seringa</h4> <p>Só seringas com agulha fixa permitem mistura na mesma seringa. A sequência da SBD: homogeneizar a NPH, injetar ar no frasco de NPH sem aspirar, injetar ar no frasco de regular, aspirar a regular, depois introduzir a agulha no frasco de NPH e aspirar a dose. A insulina límpida entra primeiro na seringa, para não contaminar o frasco de regular com NPH.</p> <h3>Erros frequentes na dispensação</h3> <p>Insulinas estão entre os medicamentos potencialmente perigosos, em que um erro causa dano grave. Os mais comuns no balcão envolvem nomes parecidos (Novolin® e NovoRapid®; Humalog® e Humalog® Mix), troca entre insulina basal e prandial, entrega de refil incompatível com a caneta do paciente e confusão entre glargina de 100 e de 300 UI/mL, que não são intercambiáveis sem orientação médica. Medidas de segurança: ler o rótulo inteiro em voz alta com o paciente, conferir a cor e o tipo de caneta que ele já usa, separar fisicamente na geladeira as insulinas de nomes parecidos e registrar o lote dispensado.</p> <h3>Conservação</h3> <p>Insulina lacrada fica na geladeira, entre 2 e 8 °C, até a validade, longe do congelador (SBD). Insulina congelada deve ser descartada. Depois de aberta, pode ficar em temperatura ambiente (até 30 °C, longe de calor e luz) ou na geladeira, pelo prazo de cada fabricante. Canetas e refis em uso geralmente não devem voltar à geladeira. Anotar a data de abertura no produto evita uso além do prazo.</p> <div class=\"tab\"><table><thead><tr><th>Produto</th><th>Prazo após aberto (bula)</th></tr></thead><tbody> <tr><td>Humulin® R e Humulin® N (frasco e refil)</td><td>28 dias</td></tr> <tr><td>Novolin® N frasco</td><td>4 semanas</td></tr> <tr><td>Novolin® N caneta e refil; Novolin® R</td><td>6 semanas</td></tr> <tr><td>NovoRapid®, Fiasp®, NovoMix® 30</td><td>4 semanas</td></tr> <tr><td>Humalog®, Apidra®</td><td>28 dias</td></tr> <tr><td>Lantus®, Basaglar® (glargina 100 UI/mL)</td><td>28 dias</td></tr> <tr><td>Toujeo® (glargina 300 UI/mL)</td><td>6 semanas (42 dias), sem geladeira</td></tr> <tr><td>Levemir® (detemir)</td><td>6 semanas (42 dias)</td></tr> <tr><td>Tresiba® (degludeca)</td><td>8 semanas (56 dias)</td></tr> </tbody></table></div> <p>Os prazos variam por fabricante e apresentação. Em caso de dúvida, vale a bula do produto em mãos. No transporte, usar bolsa térmica sem contato direto com gelo, e nunca deixar a insulina no carro ao sol.</p> <h3>Acesso e situações práticas</h3> <p>As insulinas humanas NPH e regular são distribuídas no SUS e no Programa Farmácia Popular, e os análogos de ação rápida e prolongada têm acesso por protocolos específicos, sobretudo no DM1. Insumos como seringas, agulhas, lancetas e tiras também têm programas próprios; o farmacêutico pode orientar o paciente sobre os canais de acesso disponíveis no município. Em viagens, a insulina vai na bagagem de mão, com receita ou relatório médico e insumos extras. Em dias de doença, a pessoa com DM1 nunca deve suspender a insulina basal, mesmo comendo pouco, e precisa medir a glicemia com mais frequência e procurar o serviço de saúde se houver vômitos persistentes.</p> <h3>Hipoglicemia</h3> <p>Sintomas adrenérgicos: tremor, suor frio, palpitação, fome, ansiedade. Sintomas neuroglicopênicos: confusão, fala arrastada, alteração de comportamento, visão turva, sonolência, convulsão, coma. Idosos e pessoas com muitos anos de diabetes podem perder os sinais de alerta.</p> <h4>Regra dos 15 (pessoa consciente e capaz de engolir)</h4> <ol> <li>Medir a glicemia; se &lt; 70 mg/dL (ou sintomas típicos sem aparelho disponível), tratar.</li> <li>Oferecer cerca de 15 g de carboidrato de absorção rápida: por exemplo, 1 colher de sopa de açúcar dissolvida em água, meio copo (cerca de 150 mL) de suco de fruta ou refrigerante comum, ou comprimidos ou gel de glicose conforme o rótulo.</li> <li>Esperar 15 minutos e medir de novo.</li> <li>Se continuar &lt; 70 mg/dL, repetir.</li> <li>Normalizada, fazer um lanche com carboidrato e proteína se a próxima refeição estiver longe.</li> </ol> <p>Chocolate e alimentos gordurosos não são boa escolha, porque a gordura atrasa a absorção. Em quem usa acarbose, usar glicose pura.</p> <h4>Hipoglicemia grave e glucagon</h4> <p>Pessoa inconsciente, convulsionando ou incapaz de engolir <strong>não pode receber nada pela boca</strong>, pelo risco de aspiração. Colocar de lado e acionar o SAMU (192). Se houver glucagon e alguém treinado, aplicar. A bula do GlucaGen® HypoKit orienta reconstituir o pó com o diluente e aplicar por via subcutânea ou intramuscular 1 mg (1 mL) em adultos e crianças acima de 25 kg ou de 6 a 8 anos, e 0,5 mg abaixo disso; sem resposta em 10 minutos, buscar assistência médica. Ao acordar e conseguir engolir, oferecer carboidrato. O glucagon funciona pouco em hipoglicemia por álcool ou em jejum prolongado, porque depende de glicogênio no fígado.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Peça ao paciente que mostre como aplica. Confira agulha (tamanho e troca), rodízio, locais endurecidos, homogeneização da NPH, tempo de 10 segundos, conservação e data de abertura. Pergunte sobre hipoglicemias e se a família sabe agir. Oriente sempre carregar uma fonte de glicose e identificação de pessoa com diabetes.</p></div> <div class=\"cx exemplo\"><b>Caso</b><p>Rapaz com DM1 relata glicemias \"loucas\", ora altas, ora baixas, sem mudança de dieta. Aplica sempre no mesmo lado do abdome e reutiliza a agulha da caneta por uma semana. O farmacêutico palpa a região com consentimento, percebe área endurecida, explica a lipo-hipertrofia, ensina o rodízio e a troca de agulha a cada aplicação e orienta informar o médico, porque a dose pode precisar de ajuste ao mudar para pele saudável.</p></div>"
+  },
+  {
+   "id": "m05-tireoide",
+   "titulo": "Tireoide",
+   "resumo": "<p>A tireoide produz tiroxina (T4) e tri-iodotironina (T3), hormônios que regulam o metabolismo de quase todos os tecidos. A hipófise controla a glândula pelo TSH: quando há pouco hormônio tireoidiano, o TSH sobe; quando há excesso, o TSH cai. Por isso o TSH é o exame mais usado para diagnosticar e acompanhar o tratamento das doenças primárias da tireoide. O T4 é convertido em T3, a forma mais ativa, nos tecidos.</p> <h3>Hipotireoidismo e levotiroxina</h3> <p>O hipotireoidismo primário, cuja causa mais comum é a tireoidite de Hashimoto, causa cansaço, sonolência, intolerância ao frio, ganho de peso, constipação, pele seca, queda de cabelo, alteração menstrual e lentidão. O tratamento é a reposição com <strong>levotiroxina</strong> (T4 sintético), em comprimidos de várias concentrações (25, 50, 75, 88, 100, 112, 125, 150 mcg e outras), comercializada no Brasil como Puran T4®, Synthroid®, Euthyrox®, Levoid® e outras marcas.</p> <p>A bula do Puran T4® indica, no adulto, iniciar com 50 mcg/dia e aumentar 25 mcg a cada 2 ou 3 semanas; em hipotireoidismo de longa data ou suspeita de doença cardiovascular, começar com 25 mcg/dia. A manutenção costuma ficar entre 75 e 125 mcg/dia. Idosos e cardiopatas começam com doses baixas, porque o aumento rápido do metabolismo pode desencadear angina ou arritmia. A dose é ajustada pelo TSH, que leva semanas para se estabilizar; o controle costuma ser feito de 6 a 8 semanas após cada mudança.</p> <h4>Como tomar</h4> <p>As bulas de levotiroxina orientam tomar com o <strong>estômago vazio</strong>, de 30 minutos a 1 hora antes do café da manhã (ou 2 horas após comer), com água, todos os dias no mesmo horário. A absorção depende de acidez gástrica e é reduzida por alimentos e várias substâncias:</p> <div class=\"tab\"><table><thead><tr><th>Interferente</th><th>Efeito</th><th>Orientação</th></tr></thead><tbody> <tr><td>Carbonato de cálcio, sulfato ferroso, polivitamínicos com minerais</td><td>Formam complexos e reduzem a absorção</td><td>Separar pelo menos 4 horas (bula do Synthroid®)</td></tr> <tr><td>Antiácidos com alumínio ou magnésio, sevelâmer, colestiramina, orlistate</td><td>Reduzem absorção</td><td>Separar pelo menos 4 horas</td></tr> <tr><td>Omeprazol e outros inibidores da bomba de prótons</td><td>Menos acidez, menos absorção</td><td>Médico monitora TSH e pode ajustar a dose (bula)</td></tr> <tr><td>Café, leite de soja, fibras em excesso</td><td>Reduzem absorção</td><td>Respeitar o intervalo do jejum antes do café</td></tr> <tr><td>Rifampicina, carbamazepina, fenitoína, fenobarbital</td><td>Aceleram o metabolismo do hormônio</td><td>Pode ser necessária dose maior</td></tr> <tr><td>Estrogênio oral e gestação</td><td>Aumentam a proteína transportadora</td><td>Dose maior; na gestação, o ajuste é precoce</td></tr> </tbody></table></div> <h4>Índice terapêutico estreito e troca de marca</h4> <p>Pequenas variações na quantidade absorvida mudam o TSH. Por isso a recomendação clínica é manter <strong>a mesma marca</strong> ao longo do tratamento; se houver troca (genérico, similar ou outra marca), o TSH deve ser reavaliado em 6 a 8 semanas. No balcão, isso significa não trocar a marca sem informar o paciente e registrar quando a troca acontecer, orientando contato com o médico.</p> <p>Excesso de levotiroxina causa palpitação, tremor, insônia, ansiedade, perda de peso, diarreia e, a longo prazo, fibrilação atrial e perda de massa óssea, principalmente em idosos. Levotiroxina não é tratamento para obesidade e não deve ser usada para emagrecer.</p> <div class=\"cx alerta\"><b>Atenção</b><p>Gestante com hipotireoidismo precisa avisar o médico assim que souber da gravidez, porque a necessidade de hormônio aumenta já no primeiro trimestre e o hipotireoidismo não tratado prejudica o desenvolvimento do feto. Não reduzir nem suspender por conta própria.</p></div> <h4>Situações especiais</h4> <p>No hipotireoidismo subclínico (TSH alto com T4 livre normal), a decisão de tratar depende do valor do TSH, da idade, de sintomas e de gestação; em idosos, metas de TSH costumam ser mais tolerantes. Em pessoas tratadas por câncer de tireoide, a levotiroxina pode ser usada em dose maior, para manter o TSH baixo, por decisão do especialista. Por isso uma dose \"alta\" na receita nem sempre é erro: o farmacêutico confirma a indicação e o acompanhamento antes de questionar.</p> <h3>Hipertireoidismo e antitireoidianos</h3> <p>O hipertireoidismo, mais frequentemente pela doença de Graves, causa palpitação, tremor, calor excessivo, suor, perda de peso com apetite aumentado, diarreia, ansiedade e, na doença de Graves, alterações oculares. As opções de tratamento são medicamentos antitireoidianos, iodo radioativo e cirurgia. O betabloqueador (propranolol, por exemplo) alivia os sintomas adrenérgicos até o controle.</p> <ul> <li><strong>Metimazol</strong> (Tapazol®): bloqueia a síntese hormonal; é o antitireoidiano de escolha na maioria dos casos, em tomada única diária na maior parte dos esquemas. No primeiro trimestre da gestação, está associado a malformações (embriopatia por metimazol).</li> <li><strong>Propiltiouracil (PTU)</strong>: além de bloquear a síntese, reduz a conversão periférica de T4 em T3. Exige várias tomadas ao dia. Tem risco maior de <strong>hepatotoxicidade grave</strong>, por isso fica reservado ao <strong>primeiro trimestre da gestação</strong>, à crise tireotóxica e a quem não tolera metimazol. Após o primeiro trimestre, o endocrinologista costuma trocar para metimazol.</li> </ul> <div class=\"cx alerta\"><b>Atenção</b><p>Ambos podem causar <strong>agranulocitose</strong>, mais comum nos primeiros meses. Febre, dor de garganta, aftas ou infecção em quem usa metimazol ou PTU exigem suspender o remédio e fazer hemograma com urgência. Icterícia, urina escura, dor abdominal ou perda de apetite, principalmente com PTU, indicam possível lesão hepática.</p></div> <h4>Exames e acompanhamento</h4> <p>O TSH reflete a média das últimas semanas, por isso não adianta repetir o exame poucos dias após mudar a dose. Para o exame, muitos laboratórios e endocrinologistas orientam manter a rotina de tomada da levotiroxina; a orientação específica deve vir do médico ou do laboratório. Sintomas de hipotireoidismo são inespecíficos: cansaço, ganho de peso e queda de cabelo têm muitas causas. Pedidos de \"remédio para tireoide preguiçosa\", suplementos com extrato de tireoide animal ou com iodo em dose alta, vendidos como emagrecedores ou energéticos, devem ser desaconselhados: podem induzir disfunção tireoidiana e não tratam a causa.</p> <h3>Medicamentos que alteram a tireoide</h3> <p>A <strong>amiodarona</strong> contém grande quantidade de iodo e se parece estruturalmente com os hormônios tireoidianos. Pode causar hipotireoidismo ou hipertireoidismo (inclusive tireoidite), mesmo meses após a suspensão, por isso o paciente faz TSH antes de iniciar e periodicamente. O <strong>lítio</strong> inibe a liberação de hormônio e causa hipotireoidismo e bócio, além de alterar cálcio (hiperparatireoidismo). Outros: interferona, alguns imunoterápicos oncológicos, contrastes iodados e suplementos de iodo ou de algas. Suplementos de <strong>biotina</strong> em dose alta interferem em alguns exames laboratoriais de TSH e T4 e podem gerar resultado falso; o cliente deve informar o laboratório.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Para quem usa levotiroxina: confirme o horário em jejum, pergunte sobre cálcio, ferro, antiácido, omeprazol e café, oriente separar 4 horas dos minerais, manter a mesma marca e repetir TSH após trocas ou gravidez. Para quem usa metimazol ou PTU: ensine os sinais de agranulocitose e de lesão hepática. Para quem usa amiodarona ou lítio: pergunte quando foi o último exame de tireoide.</p></div> <div class=\"cx exemplo\"><b>Caso</b><p>Senhora de 66 anos, com hipotireoidismo controlado há anos com 100 mcg de levotiroxina, passou a tomar carbonato de cálcio com vitamina D junto com o comprimido no café da manhã e omeprazol. Voltou o cansaço e o TSH subiu. O farmacêutico identifica a interação, orienta tomar a levotiroxina em jejum, separar o cálcio por 4 horas, e sugere que ela leve a informação ao médico, que avaliará o omeprazol e a dose.</p></div>"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m05-mapa-antidiabeticos",
+   "titulo": "Antidiabéticos orais e injetáveis não insulínicos",
+   "centro": "Antidiabéticos não insulina",
+   "ramos": [
+    {
+     "t": "Metformina",
+     "itens": [
+      "1ª linha no DM2; sem hipoglicemia isolada",
+      "Tomar com a refeição; XR melhora o intestino",
+      "TFGe < 45: máx. 1.000 mg; < 30: suspender",
+      "Uso longo: dosar vitamina B12",
+      "Contraste iodado: pausa orientada"
+     ]
+    },
+    {
+     "t": "Secretagogos",
+     "itens": [
+      "Glibenclamida: maior risco de hipoglicemia",
+      "Gliclazida MR: preferida pela SBD",
+      "Glinida: pulou a refeição, pula a dose",
+      "Fluconazol e álcool potencializam"
+     ]
+    },
+    {
+     "t": "iDPP-4 (gliptinas)",
+     "itens": [
+      "Peso neutro, pouca hipoglicemia",
+      "Linagliptina: sem ajuste renal",
+      "Não associar com aGLP-1",
+      "Raro: pancreatite, penfigoide"
+     ]
+    },
+    {
+     "t": "iSGLT2 (gliflozinas)",
+     "itens": [
+      "Protegem coração e rim",
+      "Candidíase genital: higiene",
+      "Cetoacidose com glicemia normal",
+      "Suspender 3-4 dias antes de grande cirurgia"
+     ]
+    },
+    {
+     "t": "Pioglitazona e acarbose",
+     "itens": [
+      "Pioglitazona: edema, peso, evitar na IC",
+      "Acarbose: com a primeira garfada",
+      "Acarbose + hipoglicemia: usar glicose pura"
+     ]
+    },
+    {
+     "t": "aGLP-1 e tirzepatida",
+     "itens": [
+      "Escalonar a cada 4 semanas",
+      "Náusea e vômitos dose-dependentes",
+      "Dor abdominal intensa: pensar em pancreatite",
+      "Receita em 2 vias retida, validade 90 dias",
+      "SNGPC; manipulados irregulares: risco"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m05-mapa-insulinas",
+   "titulo": "Insulinas",
+   "centro": "Insulinas",
+   "ramos": [
+    {
+     "t": "Prandiais",
+     "itens": [
+      "Regular: 30 min antes da refeição",
+      "Asparte, lispro, glulisina: logo antes",
+      "Fiasp: até 20 min após iniciar a refeição",
+      "Todas límpidas"
+     ]
+    },
+    {
+     "t": "Basais",
+     "itens": [
+      "NPH: turva, pico 4-10 h, homogeneizar",
+      "Glargina 100: 24 h sem pico",
+      "Glargina 300 e degludeca: mais longas",
+      "Detemir: 18-22 h"
+     ]
+    },
+    {
+     "t": "Técnica",
+     "itens": [
+      "Agulha 4-5 mm caneta; 6 mm seringa",
+      "Segurar 10 s após a aplicação",
+      "Rodízio; nunca reutilizar agulha",
+      "Lipo-hipertrofia: absorção errática",
+      "Seringa sempre em UI, nunca em mL"
+     ]
+    },
+    {
+     "t": "Conservação",
+     "itens": [
+      "Lacrada: 2 a 8 °C; congelou, descarta",
+      "Em uso: até 30 °C pelo prazo da bula",
+      "Lantus/Humalog/Humulin: 28 dias",
+      "Toujeo e Levemir 42 dias; Tresiba 56"
+     ]
+    },
+    {
+     "t": "Hipoglicemia",
+     "itens": [
+      "< 70 mg/dL: 15 g de carboidrato rápido",
+      "Reavaliar em 15 min e repetir",
+      "Inconsciente: nada pela boca, SAMU",
+      "Glucagon 1 mg adulto; 0,5 mg < 25 kg"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m05-mapa-tireoide",
+   "titulo": "Tireoide",
+   "centro": "Tireoide",
+   "ramos": [
+    {
+     "t": "Fisiologia",
+     "itens": [
+      "TSH alto: hipotireoidismo primário",
+      "TSH baixo: excesso de hormônio",
+      "T4 vira T3 nos tecidos"
+     ]
+    },
+    {
+     "t": "Levotiroxina",
+     "itens": [
+      "Jejum, 30 a 60 min antes do café",
+      "Início usual 25 a 50 mcg/dia (bula)",
+      "TSH 6 a 8 semanas após ajuste",
+      "Manter a mesma marca; IT estreito"
+     ]
+    },
+    {
+     "t": "Interações da T4",
+     "itens": [
+      "Cálcio, ferro, antiácido: 4 h de intervalo",
+      "Omeprazol reduz absorção",
+      "Indutores e estrogênio: dose maior",
+      "Gestação: aumentar cedo"
+     ]
+    },
+    {
+     "t": "Antitireoidianos",
+     "itens": [
+      "Metimazol: escolha na maioria",
+      "PTU: 1º trimestre e crise tireotóxica",
+      "PTU: hepatotoxicidade grave",
+      "Febre e dor de garganta: agranulocitose"
+     ]
+    },
+    {
+     "t": "Fármacos e tireoide",
+     "itens": [
+      "Amiodarona: hipo ou hipertireoidismo",
+      "Lítio: hipotireoidismo e bócio",
+      "Biotina falseia exames",
+      "Levotiroxina não emagrece"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m05-tab-mestra",
+   "titulo": "Tabela-mestra dos antidiabéticos",
+   "colunas": [
+    "Classe",
+    "Exemplos",
+    "Mecanismo",
+    "Risco de hipoglicemia",
+    "Efeito no peso",
+    "Alerta"
+   ],
+   "linhas": [
+    [
+     "Biguanida",
+     "Metformina",
+     "Reduz produção hepática de glicose",
+     "Baixo",
+     "Neutro ou leve perda",
+     "TFGe < 30 suspender; B12; contraste"
+    ],
+    [
+     "Sulfonilureia",
+     "Glibenclamida, gliclazida MR, glimepirida",
+     "Libera insulina (canal K-ATP)",
+     "Alto (glibenclamida maior)",
+     "Ganho",
+     "Idoso e DRC; fluconazol; álcool"
+    ],
+    [
+     "Glinida",
+     "Repaglinida",
+     "Libera insulina, ação curta",
+     "Moderado",
+     "Ganho",
+     "Só tomar se for comer; não com genfibrozila"
+    ],
+    [
+     "iDPP-4",
+     "Sitagliptina, vildagliptina, linagliptina",
+     "Prolonga incretinas endógenas",
+     "Baixo",
+     "Neutro",
+     "Ajuste renal (exceto linagliptina)"
+    ],
+    [
+     "iSGLT2",
+     "Dapagliflozina, empagliflozina",
+     "Glicosúria no túbulo proximal",
+     "Baixo",
+     "Perda",
+     "Candidíase; cetoacidose euglicêmica; volume"
+    ],
+    [
+     "Tiazolidinediona",
+     "Pioglitazona",
+     "Sensibiliza à insulina (PPAR-gama)",
+     "Baixo",
+     "Ganho",
+     "Edema; IC; fraturas"
+    ],
+    [
+     "Inibidor de alfa-glicosidase",
+     "Acarbose",
+     "Retarda digestão de carboidratos",
+     "Baixo",
+     "Neutro",
+     "Gases; tratar hipoglicemia com glicose"
+    ],
+    [
+     "Agonista de GLP-1",
+     "Liraglutida, semaglutida, dulaglutida",
+     "Insulina dependente de glicose, menos glucagon, saciedade",
+     "Baixo",
+     "Perda importante",
+     "GI; pancreatite; receita retida"
+    ],
+    [
+     "Agonista GIP/GLP-1",
+     "Tirzepatida",
+     "Duplo agonismo incretínico",
+     "Baixo",
+     "Perda muito importante",
+     "GI; anticoncepcional oral; receita retida"
+    ],
+    [
+     "Insulina",
+     "NPH, regular, análogos",
+     "Repõe o hormônio",
+     "Alto",
+     "Ganho",
+     "Técnica, conservação, dose em UI"
+    ]
+   ]
+  },
+  {
+   "tipo": "tabela",
+   "id": "m05-tab-insulinas",
+   "titulo": "Insulinas: perfil de ação e conservação",
+   "colunas": [
+    "Insulina",
+    "Início",
+    "Pico",
+    "Duração",
+    "Aspecto",
+    "Após aberta (bula)"
+   ],
+   "linhas": [
+    [
+     "Regular (Humulin R, Novolin R)",
+     "30 a 60 min",
+     "2 a 3 h",
+     "5 a 8 h",
+     "Límpida",
+     "Humulin R: 28 dias; Novolin R: 6 semanas"
+    ],
+    [
+     "Asparte (NovoRapid)",
+     "5 a 15 min",
+     "30 min a 2 h",
+     "3 a 5 h",
+     "Límpida",
+     "4 semanas"
+    ],
+    [
+     "Lispro (Humalog)",
+     "5 a 15 min",
+     "30 min a 2 h",
+     "3 a 5 h",
+     "Límpida",
+     "28 dias"
+    ],
+    [
+     "Glulisina (Apidra)",
+     "5 a 15 min",
+     "30 min a 2 h",
+     "3 a 5 h",
+     "Límpida",
+     "28 dias"
+    ],
+    [
+     "Asparte ultrarrápida (Fiasp)",
+     "2 a 5 min",
+     "1 a 3 h",
+     "5 h",
+     "Límpida",
+     "4 semanas"
+    ],
+    [
+     "NPH (Humulin N, Novolin N)",
+     "2 a 4 h",
+     "4 a 10 h",
+     "10 a 18 h",
+     "Turva",
+     "Humulin N: 28 dias; Novolin N frasco 4 semanas, caneta 6 semanas"
+    ],
+    [
+     "Detemir (Levemir)",
+     "1 a 3 h",
+     "6 a 8 h",
+     "18 a 22 h",
+     "Límpida",
+     "42 dias"
+    ],
+    [
+     "Glargina 100 UI/mL (Lantus, Basaglar)",
+     "2 a 4 h",
+     "Sem pico",
+     "20 a 24 h",
+     "Límpida",
+     "28 dias"
+    ],
+    [
+     "Glargina 300 UI/mL (Toujeo)",
+     "6 h",
+     "Sem pico",
+     "36 h",
+     "Límpida",
+     "42 dias, sem geladeira"
+    ],
+    [
+     "Degludeca (Tresiba)",
+     "Gradual",
+     "Sem pico",
+     "42 h ou mais",
+     "Límpida",
+     "56 dias"
+    ],
+    [
+     "Pré-mistura asparte 30 (NovoMix 30)",
+     "Rápido",
+     "Duplo",
+     "Intermediária",
+     "Turva",
+     "4 semanas"
+    ]
+   ],
+   "nota": "Perfil de ação segundo a SBD (Tabela 1, insulinoterapia no DM1). Prazos após aberta segundo as bulas, em temperatura até 30 °C. Lacradas: 2 a 8 °C. Confira sempre a bula do produto dispensado."
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m05-fluxo-hipoglicemia",
+   "titulo": "Hipoglicemia leve no balcão",
+   "passos": [
+    {
+     "t": "Cliente com tremor, suor frio, fome, palpitação ou confusão leve, em uso de insulina ou secretagogo",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Está consciente e consegue engolir com segurança?",
+     "tipo": "decisao",
+     "sim": "Seguir a regra dos 15",
+     "nao": "Nada pela boca; colocar de lado, acionar SAMU 192; glucagon se disponível e houver pessoa treinada"
+    },
+    {
+     "t": "Medir a glicemia capilar (não atrasar o tratamento se o aparelho não estiver à mão)",
+     "tipo": "acao"
+    },
+    {
+     "t": "Glicemia < 70 mg/dL ou sintomas típicos?",
+     "tipo": "decisao",
+     "sim": "Oferecer 15 g de carboidrato rápido (1 colher de sopa de açúcar em água ou cerca de 150 mL de suco ou refrigerante comum); glicose pura se usa acarbose",
+     "nao": "Investigar outra causa e orientar avaliação"
+    },
+    {
+     "t": "Aguardar 15 minutos em repouso e medir de novo",
+     "tipo": "acao"
+    },
+    {
+     "t": "Continua < 70 mg/dL?",
+     "tipo": "decisao",
+     "sim": "Repetir 15 g; se não melhorar após duas tentativas ou piorar, acionar SAMU",
+     "nao": "Oferecer lanche com carboidrato e proteína se a refeição estiver distante"
+    },
+    {
+     "t": "Hipoglicemia por glibenclamida ou insulina de ação longa pode voltar horas depois",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Identificar a causa (refeição pulada, álcool, exercício, erro de dose, interação), registrar e orientar contato com o médico",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "id": "m05-check-caneta",
+   "titulo": "Checklist de orientação de caneta de insulina ou GLP-1",
+   "itens": [
+    "Conferir nome, tipo, concentração e dose prescrita (em UI ou mg)",
+    "Conferir receita: para aGLP-1 e tirzepatida, duas vias, validade de 90 dias, retenção e SNGPC",
+    "Explicar armazenamento antes de abrir (2 a 8 °C) e prazo depois de aberta",
+    "Anotar a data de abertura no produto",
+    "Verificar o aspecto: límpida (exceto NPH e pré-misturas); descartar se congelou",
+    "Homogeneizar NPH e pré-misturas com 20 movimentos suaves",
+    "Usar agulha nova a cada aplicação, de preferência 4 ou 5 mm",
+    "Fazer o teste de fluxo antes de aplicar",
+    "Escolher o local e fazer rodízio; evitar áreas endurecidas",
+    "Manter o botão pressionado pelo menos 10 segundos",
+    "Retirar a agulha com a tampa externa e descartar em recipiente rígido",
+    "Para aGLP-1: explicar escalonamento, náusea e sinais de pancreatite",
+    "Ensinar sinais de hipoglicemia e a regra dos 15",
+    "Orientar transporte em bolsa térmica, sem contato direto com gelo",
+    "Pedir demonstração da aplicação pelo paciente e registrar a orientação"
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m05-cartoes",
+   "titulo": "Cartões de revisão: sistema endócrino",
+   "itens": [
+    {
+     "f": "Glicemia de jejum que caracteriza diabetes (SBD)",
+     "v": "≥ 126 mg/dL, confirmada se isolada"
+    },
+    {
+     "f": "Corte do TOTG de 1 hora para diabetes",
+     "v": "≥ 209 mg/dL (pré-diabetes 155 a 208)"
+    },
+    {
+     "f": "Meta geral de HbA1c (SBD 2026)",
+     "v": "< 7%"
+    },
+    {
+     "f": "Meta de glicemia capilar de jejum (SBD 2026)",
+     "v": "80 a 130 mg/dL"
+    },
+    {
+     "f": "Hipoglicemia nível 2",
+     "v": "Glicemia < 54 mg/dL"
+    },
+    {
+     "f": "Metformina com TFGe entre 30 e 44",
+     "v": "Máximo 1.000 mg/dia (SBD 2026)"
+    },
+    {
+     "f": "Vitamina que a metformina reduz",
+     "v": "B12"
+    },
+    {
+     "f": "Sulfonilureia preferida pela SBD",
+     "v": "Gliclazida MR"
+    },
+    {
+     "f": "Regra da glinida",
+     "v": "Pulou a refeição, pula a dose"
+    },
+    {
+     "f": "Efeito adverso mais comum do iSGLT2",
+     "v": "Infecção genital fúngica"
+    },
+    {
+     "f": "Quando suspender iSGLT2 antes de grande cirurgia (SBD)",
+     "v": "3 a 4 dias antes"
+    },
+    {
+     "f": "Hipoglicemia em quem usa acarbose",
+     "v": "Tratar com glicose pura"
+    },
+    {
+     "f": "Regra de dispensação dos aGLP-1 e tirzepatida",
+     "v": "Receita em 2 vias, retenção, validade de 90 dias, SNGPC (RDC 973/2025)"
+    },
+    {
+     "f": "Prazo do Ozempic após aberto",
+     "v": "6 semanas, abaixo de 30 °C ou na geladeira"
+    },
+    {
+     "f": "Tempo com o botão pressionado após aplicar insulina",
+     "v": "Pelo menos 10 segundos"
+    },
+    {
+     "f": "Prazo da Tresiba após aberta",
+     "v": "8 semanas (56 dias)"
+    },
+    {
+     "f": "Dose de glucagon (GlucaGen) em adulto",
+     "v": "1 mg (1 mL) SC ou IM"
+    },
+    {
+     "f": "Como tomar levotiroxina",
+     "v": "Em jejum, 30 a 60 min antes do café; 4 h longe de cálcio e ferro"
+    },
+    {
+     "f": "Antitireoidiano no 1º trimestre da gestação",
+     "v": "Propiltiouracil"
+    },
+    {
+     "f": "Sinal de alarme com metimazol ou PTU",
+     "v": "Febre e dor de garganta: suspeitar de agranulocitose"
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m05-questoes",
+   "titulo": "Questões de fixação: sistema endócrino",
+   "itens": [
+    {
+     "p": "Pela Diretriz da SBD, qual conjunto de resultados permite o diagnóstico de diabetes sem necessidade de repetir exame?",
+     "alt": [
+      "Glicemia de jejum de 118 mg/dL e HbA1c de 6,0% no mesmo dia",
+      "Jejum de 130 mg/dL e HbA1c de 6,7% na mesma amostra",
+      "HbA1c isolada de 6,6% em exame único de rotina",
+      "TOTG de 1 hora com glicemia de 180 mg/dL",
+      "Glicemia capilar de 160 mg/dL medida na farmácia"
+     ],
+     "c": 1,
+     "com": "A SBD estabelece diagnóstico quando glicemia de jejum ≥ 126 mg/dL e HbA1c ≥ 6,5% estão alterados simultaneamente. Um exame isolado alterado deve ser repetido. TOTG 1 h de 180 mg/dL é pré-diabetes (155 a 208). Glicemia capilar na farmácia é exame de triagem, sem finalidade diagnóstica (RDC 978/2025, art. 60)."
+    },
+    {
+     "p": "Paciente com DM2 em metformina 2.550 mg/dia traz exame com TFGe de 40 mL/min/1,73 m². Segundo a SBD 2026, o adequado é:",
+     "alt": [
+      "Manter a dose, pois a metformina não depende do rim",
+      "Suspender imediatamente e iniciar glibenclamida",
+      "Encaminhar ao prescritor: a dose máxima nessa faixa é 1.000 mg/dia",
+      "Dobrar a dose para compensar a menor filtração",
+      "Trocar por conta própria para metformina XR na mesma dose"
+     ],
+     "c": 2,
+     "com": "A SBD 2026 recomenda máximo de 1.000 mg/dia se TFGe < 45 e suspensão se < 30. A metformina é eliminada pelo rim. Glibenclamida é má escolha na DRC pelo risco de hipoglicemia prolongada. Trocas e ajustes são decisões do prescritor."
+    },
+    {
+     "p": "Idosa de 80 anos com DRC usa glibenclamida e começa fluconazol para candidíase. O principal risco é:",
+     "alt": [
+      "Hipoglicemia grave e prolongada",
+      "Cetoacidose diabética",
+      "Acidose lática",
+      "Hiperglicemia por indução enzimática",
+      "Pancreatite aguda"
+     ],
+     "c": 0,
+     "com": "O fluconazol inibe o metabolismo das sulfonilureias, e a glibenclamida já tem metabólitos ativos de eliminação renal. Idade e DRC potencializam a hipoglicemia, que pode durar horas. Acidose lática é associada à metformina; o fluconazol não é indutor."
+    },
+    {
+     "p": "Homem em uso de empagliflozina, com glicemia capilar de 160 mg/dL, refere náusea, vômitos, dor abdominal e falta de ar após dois dias sem se alimentar direito. A hipótese a considerar é:",
+     "alt": [
+      "Hipoglicemia causada pelo iSGLT2 em jejum",
+      "Infecção urinária simples, tratável no balcão",
+      "Gastrite por anti-inflamatório usado escondido",
+      "Cetoacidose euglicêmica, com encaminhamento urgente",
+      "Efeito esperado nas primeiras semanas de uso"
+     ],
+     "c": 3,
+     "com": "iSGLT2 pode causar cetoacidose com glicemia normal ou pouco elevada, desencadeada por jejum, doença aguda, desidratação ou álcool. A SBD recomenda dosar cetonas nesses casos; é urgência. Glicemia de 160 mg/dL não exclui o quadro."
+    },
+    {
+     "p": "Paciente em uso de acarbose e glimepirida apresenta hipoglicemia leve, consciente. A melhor opção para correção é:",
+     "alt": [
+      "Chocolate ao leite",
+      "Açúcar comum dissolvido em água",
+      "Pão francês com manteiga",
+      "Refrigerante diet",
+      "Comprimido ou gel de glicose"
+     ],
+     "c": 4,
+     "com": "A acarbose inibe as alfa-glicosidases, que quebram sacarose e amido; açúcar comum e pão são absorvidos lentamente. Glicose pura dispensa a quebra. Chocolate tem gordura que atrasa a absorção e refrigerante diet não tem açúcar."
+    },
+    {
+     "p": "Sobre a dispensação de semaglutida em farmácia comercial, de acordo com a RDC 973/2025, é correto afirmar:",
+     "alt": [
+      "Duas vias, retenção de uma, validade de 90 dias e registro no SNGPC",
+      "Pode ser vendida sem receita a quem comprova uso anterior do produto",
+      "Exige Notificação de Receita B2, com validade de 30 dias",
+      "Basta receita simples apresentada, sem retenção nem registro",
+      "A regra vale apenas para semaglutida manipulada em farmácia"
+     ],
+     "c": 0,
+     "com": "A RDC 973/2025 alterou a RDC 471/2021 e, com a IN 360/2025, exige para semaglutida, liraglutida, dulaglutida, tirzepatida e lixisenatida receita em duas vias, retenção, validade de 90 dias e SNGPC, para industrializados e manipulados, desde 23/06/2025. Não se trata de notificação B2."
+    },
+    {
+     "p": "Cliente iniciará tirzepatida e usa anticoncepcional oral. A orientação adequada, segundo a bula, é:",
+     "alt": [
+      "Suspender o anticoncepcional durante todo o tratamento",
+      "Nenhuma, pois não há interação relevante",
+      "Tomar o anticoncepcional junto com a aplicação semanal",
+      "Usar método adicional ou não oral no início e após aumentos de dose",
+      "Dobrar a dose do anticoncepcional nas primeiras semanas"
+     ],
+     "c": 3,
+     "com": "A tirzepatida retarda o esvaziamento gástrico e pode reduzir a absorção do anticoncepcional oral, sobretudo no início e após cada aumento de dose; a bula recomenda método adicional ou não oral nesses períodos. Dobrar dose ou suspender o anticoncepcional é inadequado."
+    },
+    {
+     "p": "Paciente com DM1 relata glicemias muito instáveis. Aplica insulina sempre na mesma região do abdome e reutiliza a agulha da caneta por vários dias. A causa provável e a conduta são:",
+     "alt": [
+      "Resistência à insulina; trocar a marca da insulina",
+      "Lipo-hipertrofia; rodízio, agulha nova e aviso ao médico",
+      "Insulina vencida; descartar o frasco e comprar outro",
+      "Alergia à insulina; usar anti-histamínico antes de aplicar",
+      "Erro do glicosímetro; trocar o aparelho por outro modelo"
+     ],
+     "c": 1,
+     "com": "Falta de rodízio e reutilização de agulhas são os principais fatores de lipo-hipertrofia (SBD), que torna a absorção errática. A conduta é evitar a área, fazer rodízio, usar agulha nova a cada aplicação e informar o médico, pois a dose pode mudar ao aplicar em pele saudável."
+    },
+    {
+     "p": "Quanto tempo uma caneta de Tresiba (degludeca) em uso pode ser mantida em temperatura ambiente abaixo de 30 °C, segundo a bula?",
+     "alt": [
+      "7 dias",
+      "14 dias",
+      "28 dias",
+      "42 dias",
+      "56 dias"
+     ],
+     "c": 4,
+     "com": "A bula da Tresiba permite até 8 semanas (56 dias) após aberta. Lantus e Humalog: 28 dias; Toujeo e Levemir: 42 dias. Os prazos variam por produto e devem ser conferidos na bula."
+    },
+    {
+     "p": "Senhora em uso de levotiroxina passou a tomar carbonato de cálcio no café da manhã junto com o comprimido e o TSH subiu. A orientação correta é:",
+     "alt": [
+      "Levotiroxina em jejum; cálcio pelo menos 4 horas depois",
+      "Suspender a levotiroxina enquanto estiver usando o cálcio",
+      "Trocar a marca da levotiroxina por outra mais potente",
+      "Tomar os dois juntos, acompanhados de um copo de leite",
+      "Dobrar a dose da levotiroxina por conta própria"
+     ],
+     "c": 0,
+     "com": "Cálcio forma complexos com a levotiroxina e reduz sua absorção; as bulas pedem intervalo de pelo menos 4 horas e tomada em jejum. Troca de marca exige reavaliação de TSH e ajuste de dose é decisão médica. Leite também reduz a absorção."
+    },
+    {
+     "p": "Gestante de 8 semanas com doença de Graves precisa de antitireoidiano. O fármaco preferido nesse período e o principal alerta são:",
+     "alt": [
+      "Metimazol; sem nenhum risco conhecido na gestação",
+      "Propiltiouracil; hepatotoxicidade e agranulocitose",
+      "Levotiroxina; risco de piorar o hipertireoidismo",
+      "Propranolol isolado; controla e cura a doença",
+      "Iodo radioativo; considerado seguro na gestação"
+     ],
+     "c": 1,
+     "com": "No primeiro trimestre prefere-se o PTU, porque o metimazol está associado a malformações. O PTU tem risco de hepatotoxicidade grave e, como o metimazol, de agranulocitose. Iodo radioativo é contraindicado na gestação; propranolol só controla sintomas."
+    },
+    {
+     "p": "Paciente em uso de amiodarona há um ano refere cansaço, frio e ganho de peso. A conduta adequada do farmacêutico é:",
+     "alt": [
+      "Indicar suplemento de iodo para estimular a tireoide",
+      "Orientar suspender a amiodarona imediatamente",
+      "Indicar levotiroxina sem receita para os sintomas",
+      "Sugerir chá emagrecedor e atividade física",
+      "Encaminhar ao médico para avaliar a tireoide (TSH)"
+     ],
+     "c": 4,
+     "com": "A amiodarona, rica em iodo, pode causar hipotireoidismo ou hipertireoidismo; os sintomas sugerem hipotireoidismo e exigem TSH e avaliação médica. Suspender antiarrítmico por conta própria é perigoso, levotiroxina exige receita e iodo extra pode piorar a disfunção."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Sociedade Brasileira de Diabetes. Diretriz da SBD, edição 2026: Metas de controle glicêmico (Almeida-Pititto B et al., doi:10.29327/5881296.2026-1). https://diretriz.diabetes.org.br/metas-de-controle-glicemico/",
+  "Sociedade Brasileira de Diabetes. Diagnóstico de diabetes mellitus (Rodacki M et al., 2024, doi:10.29327/5412848.2024-1), integrante da edição 2026. https://diretriz.diabetes.org.br/diagnostico-de-diabetes-mellitus/",
+  "Sociedade Brasileira de Diabetes. Tratamento do DM2 no Sistema Único de Saúde (2026). https://diretriz.diabetes.org.br/tratamento-do-dm2/",
+  "Sociedade Brasileira de Diabetes. Técnicas de aplicação de insulina / Práticas seguras de preparo e aplicação (Sparapani VC et al., 2025, doi:10.29327/5660187.2025-15). https://diretriz.diabetes.org.br/praticas-seguras-para-preparo-e-aplicacao-de-insulina/",
+  "Sociedade Brasileira de Diabetes. Insulinoterapia no diabetes mellitus tipo 1 (Silva Júnior WS et al., 2023), Tabela 1. https://diretriz.diabetes.org.br/insulinoterapia-no-diabetes-mellitus-tipo-1-dm1/",
+  "Sociedade Brasileira de Diabetes. Diagnóstico e tratamento da cetoacidose diabética euglicêmica (Santomauro A et al., 2023). https://diretriz.diabetes.org.br/diagnostico-e-tratamento-da-cetoacidose-diabetica-euglicemica-cad-e/",
+  "American Diabetes Association. Standards of Care in Diabetes 2026. Diabetes Care, 2026;49(Suppl 1). Resumo das mudanças consultado em fontes secundárias.",
+  "Anvisa. Resolução RDC nº 973/2025 (altera a RDC 471/2021) e Instrução Normativa nº 360/2025: agonistas de GLP-1 com retenção de receita e SNGPC. Resumo do CFF: https://site.cff.org.br/noticia/Noticias-gerais/16/01/2026/anvisa-estabelece-novas-regras-para-prescricao-e-dispensacao-de-medicamentos-agonistas-de-glp-1",
+  "CFF. Anvisa torna obrigatória a retenção de receita para compra de canetas emagrecedoras. 16/04/2025. https://site.cff.org.br/noticia/Noticias-gerais/16/04/2025/anvisa-torna-obrigatoria-a-retencao-de-receita-para-compra-de-canetas-emagrecedoras",
+  "Anvisa. Resolução RE nº 214, de janeiro de 2026: proibição de tirzepatida (marcas Synedica e TG) e retatrutida sem registro. Noticiado por Poder360 e Agência Brasil, 21/01/2026.",
+  "Anvisa. Registro da primeira semaglutida sintética nacional (Ozivy, EMS), maio de 2026. Noticiado por IstoÉ Dinheiro e Metrópoles, 26/05/2026.",
+  "Anvisa. Resolução RDC nº 44/2009 (arts. 61, 69, 70 e 81), com a revogação do art. 70 pela RDC nº 786/2023, revogada pela RDC nº 978/2025.",
+  "Anvisa. Resolução RDC nº 978, de 6 de junho de 2025. Diário Oficial da União, 10/06/2025.",
+  "Anvisa. Perguntas e respostas: RDC nº 978/2025, 1ª versão revisada. Gerência-Geral de Tecnologia em Serviços de Saúde, ago. 2025.",
+  "Bulas (texto consultado em bula.com.br, 2026): Glifage, Diamicron MR, Daonil, Amaryl, NovoNorm, Januvia, Galvus, Trayenta, Forxiga, Jardiance, Actos, Glucobay, Victoza, Saxenda, Ozempic, Wegovy, Rybelsus, Trulicity, Mounjaro, Lantus, Toujeo, Basaglar, Levemir, Tresiba, Humalog, NovoRapid, Apidra, Fiasp, NovoMix 30, Humulin N, Humulin R, Novolin N, Novolin R, GlucaGen HypoKit, Puran T4, Synthroid, Euthyrox."
+ ]
+}

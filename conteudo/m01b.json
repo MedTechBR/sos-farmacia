@@ -1,0 +1,1136 @@
+{
+ "id": "m01",
+ "num": 1,
+ "parte": "b",
+ "titulo": "Medicamentos isentos de prescrição",
+ "escopo": "Conceito, enquadramento e lista vigente de MIP, atendimento e indicação farmacêutica no balcão, classes e posologia dos MIP mais dispensados e a prescrição farmacêutica regulamentada pela Resolução CFF nº 586/2013.",
+ "topicos": [
+  {
+   "id": "m01-b-analgesicos",
+   "titulo": "Analgésicos e antitérmicos",
+   "resumo": "<p>Dor leve a moderada e febre respondem pela maior parte dos pedidos de balcão. Três fármacos resolvem quase todos esses casos: <strong>paracetamol</strong>, dipirona e ácido acetilsalicílico (AAS). Os três constam da Lista de Medicamentos Isentos de Prescrição (LMIP), Anexo I da IN 285/2024, republicado na íntegra pela IN 404/2025. A lista fixa a concentração máxima do insumo em cada forma farmacêutica e não estabelece dose diária: um produto é MIP quando tem o mesmo insumo, a mesma forma farmacêutica e a mesma indicação da linha da lista, com concentração igual ou menor (IN 285/2024, art. 1º, § 2º).</p><p>O paracetamol aparece também na Lista de Medicamentos de Baixo Risco sujeitos à Notificação (LMN), estabelecida pela IN 106/2021 e atualizada pela IN 430/2026. Produtos notificados são, por definição, de venda isenta de prescrição (RDC 576/2021, definições), e a LMN já traz o texto de posologia e de advertência que o fabricante deve usar.</p><h3>Enquadramento</h3><div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Apresentações isentas (concentração máxima)</th><th>Observação de balcão</th></tr></thead><tbody><tr><td>Paracetamol</td><td>LMIP: comprimido revestido 750 mg; efervescente 500 mg; mastigável 160 mg; liberação prolongada 650 mg; pó 100 mg/g. LMN: comprimido 500 e 750 mg; solução oral 200 mg/mL; suspensão 32, 100 e 140 mg/mL</td><td>Associações com cafeína, fenilefrina, anti-histamínicos, orfenadrina e carisoprodol também constam da LMIP</td></tr><tr><td>Dipirona</td><td>Comprimido e efervescente até 1000 mg; solução oral até 500 mg/mL; supositório 300 mg</td><td>Forma injetável nunca é MIP (RDC 882/2024, art. 5º)</td></tr><tr><td>Ácido acetilsalicílico</td><td>Comprimido 500 mg; comprimido de liberação prolongada 500 mg; associações com vitamina C, cafeína e paracetamol</td><td>A linha da LMIP cobre febre e dor; o uso antiagregante em dose baixa é decisão do médico</td></tr></tbody></table></div><h3>Paracetamol</h3><p>Analgésico e antipirético de ação predominantemente central, com efeito anti-inflamatório periférico desprezível. Não irrita a mucosa gástrica nem interfere na agregação plaquetária, o que o torna a primeira opção em dengue suspeita, em pessoas com úlcera ou em uso de anticoagulante (com a ressalva da varfarina, abaixo).</p><div class=\"tab\"><table><thead><tr><th>Item</th><th>Conduta</th></tr></thead><tbody><tr><td>Indicação de balcão</td><td>Febre; dor leve a moderada (cefaleia, dor de dente, dor muscular, cólica menstrual, dor de garganta)</td></tr><tr><td>Adulto e maior de 12 anos</td><td>500 a 1000 mg a cada 4 a 6 horas; no máximo 1000 mg por dose e 4000 mg em 24 horas (LMN, IN 106/2021)</td></tr><tr><td>Criança</td><td>10 a 15 mg/kg/dose a cada 4 a 6 horas, no máximo 5 administrações em 24 horas (cerca de 50 a 75 mg/kg/dia). Abaixo de 11 kg ou de 2 anos: avaliação médica antes do uso (LMN)</td></tr><tr><td>Gotas 200 mg/mL</td><td>Na bula do Tylenol® gotas: 1 gota/kg, até 35 gotas por dose em menores de 12 anos; adulto 40 a 70 gotas por dose, até 280 gotas por dia</td></tr><tr><td>Contraindicações</td><td>Alergia ao paracetamol; doença hepática grave; cautela em etilista e em desnutrido</td></tr><tr><td>Interações</td><td>Varfarina (uso regular pode elevar o INR: a bula pede consulta médica); outros produtos com paracetamol (antigripais); álcool</td></tr><tr><td>Encaminhar</td><td>Ingestão acima da dose máxima, mesmo sem sintomas; icterícia, urina escura ou dor no lado direito do abdome</td></tr></tbody></table></div><div class=\"cx alerta\"><b>Atenção</b><p>O texto obrigatório da LMN avisa que adultos podem desenvolver insuficiência hepática aguda com mais de 4 g em 24 horas, com uso simultâneo de outros produtos contendo paracetamol ou com 3 ou mais doses de bebida alcoólica por dia durante o tratamento. O erro mais comum é a duplicidade: o cliente toma paracetamol de 750 mg e um antigripal que também contém paracetamol. Leia o rótulo de tudo o que ele já usa.</p><p>Intoxicação por paracetamol tem antídoto (acetilcisteína) e janela de tempo. Quem ingeriu dose excessiva deve ir ao pronto-socorro imediatamente, ainda que esteja assintomático.</p></div><p>O número de gotas por mililitro depende do gotejador. O manual de dengue do Ministério da Saúde considera 20 gotas por mL para o paracetamol 200 mg/mL, enquanto na bula do Tylenol® 70 gotas correspondem a 1000 mg (cerca de 14 gotas por mL). Por isso a orientação em gotas vale para o produto entregue: confira a bula daquele frasco e nunca transfira a regra de uma marca para outra. A IN 430/2026 ajustou a posologia pediátrica e incluiu advertência sobre tempo de uso no texto da LMN, de modo que a bula do lote em mãos é a referência final.</p><h3>Dipirona</h3><p>Pró-fármaco cujos metabólitos inibem a síntese de prostaglandinas, com efeito analgésico, antipirético e leve ação espasmolítica. É o antitérmico mais vendido do país e, ao lado do paracetamol, o recomendado pelo Ministério da Saúde para dor e febre na dengue.</p><div class=\"tab\"><table><thead><tr><th>Item</th><th>Conduta (bula da Novalgina®)</th></tr></thead><tbody><tr><td>Adulto e maior de 15 anos</td><td>500 a 1000 mg até 4 vezes ao dia. Gotas 500 mg/mL (1 mL = 20 gotas): 20 a 40 gotas até 4 vezes ao dia. Máximo 4 g/dia</td></tr><tr><td>5 a 8 kg (3 a 11 meses)</td><td>2 a 5 gotas por dose; máximo 20 gotas/dia</td></tr><tr><td>9 a 15 kg (1 a 3 anos)</td><td>3 a 10 gotas por dose; máximo 40 gotas/dia</td></tr><tr><td>16 a 23 kg (4 a 6 anos)</td><td>5 a 15 gotas por dose; máximo 60 gotas/dia</td></tr><tr><td>24 a 30 kg (7 a 9 anos)</td><td>8 a 20 gotas por dose; máximo 80 gotas/dia</td></tr><tr><td>31 a 45 kg (10 a 12 anos)</td><td>10 a 30 gotas por dose; máximo 120 gotas/dia</td></tr><tr><td>46 a 53 kg (13 a 14 anos)</td><td>15 a 35 gotas por dose; máximo 140 gotas/dia</td></tr></tbody></table></div><p>Contraindicações listadas em bula: alergia a pirazolonas, agranulocitose prévia com essas substâncias, função de medula óssea prejudicada, broncoespasmo ou reação anafilactoide após analgésicos, porfiria hepática aguda intermitente, deficiência de glicose-6-fosfato desidrogenase, menores de 3 meses ou com menos de 5 kg. A bula da Novalgina® inclui gravidez e amamentação entre as contraindicações.</p><p>Interações relevantes: metotrexato (a associação deve ser evitada, aumenta a toxicidade hematológica), ciclosporina (níveis reduzidos), AAS em dose baixa para cardioproteção (a dipirona reduz o efeito antiplaquetário) e bupropiona (concentração reduzida). Em insuficiência renal ou hepática e em idosos, evitar doses altas.</p><div class=\"cx alerta\"><b>Atenção</b><p>A <strong>agranulocitose</strong> por dipirona é rara e imprevisível, não depende da dose e pode ocorrer em qualquer momento do uso. Oriente o cliente: febre que volta ou persiste, calafrios, dor de garganta e feridas na boca durante o tratamento exigem suspender o medicamento e procurar atendimento no mesmo dia. Hipotensão e reação alérgica grave também são descritas, sobretudo em doses altas.</p></div><h3>Ácido acetilsalicílico</h3><p>Inibe de forma irreversível as ciclo-oxigenases 1 e 2, com efeito analgésico, antitérmico, anti-inflamatório e antiplaquetário que dura a vida da plaqueta. No balcão de hoje, perdeu espaço como antitérmico justamente por esse efeito sobre a coagulação.</p><div class=\"tab\"><table><thead><tr><th>Item</th><th>Conduta (bula da Aspirina® 500 mg)</th></tr></thead><tbody><tr><td>Adulto</td><td>500 a 1000 mg; repetir a cada 4 a 8 horas se necessário; no máximo 8 comprimidos (4 g) por dia; após as refeições</td></tr><tr><td>A partir de 12 anos</td><td>500 mg a cada 4 a 8 horas; no máximo 3 comprimidos por dia</td></tr><tr><td>Duração</td><td>Não usar por mais de 3 a 5 dias sem consulta</td></tr><tr><td>Contraindicações</td><td>Alergia a salicilatos; asma induzida por AINE; úlcera ativa; tendência a sangramento; dengue suspeita</td></tr><tr><td>Interações</td><td>Anticoagulantes e antiplaquetários; outros AINE; metotrexato; corticoides (sangramento digestivo)</td></tr></tbody></table></div><div class=\"cx alerta\"><b>Atenção</b><p><strong>Síndrome de Reye</strong>: doença rara e grave, com lesão hepática e encefalopatia, associada ao AAS em crianças com infecção viral. A bula determina que crianças e adolescentes não usem AAS para catapora ou sintomas gripais sem consulta médica. No balcão, a regra prática é simples: antitérmico para criança ou adolescente é paracetamol ou dipirona.</p></div><h3>Associações analgésicas</h3><p>A LMIP inclui várias associações. A cafeína (30 a 65 mg por comprimido) potencializa o analgésico e pode causar insônia, palpitação e piora da gastrite. A orfenadrina (relaxante muscular com ação anticolinérgica) pede cautela em glaucoma de ângulo fechado, hiperplasia prostática e idosos. O carisoprodol causa sonolência. O isometepteno é vasoconstritor e não deve ser usado por hipertenso. Antes de dispensar uma associação, confirme se o cliente precisa de cada componente.</p><h3>Dengue suspeita</h3><p>Na época de transmissão, toda febre aguda com dor no corpo, dor atrás dos olhos, cefaleia ou manchas na pele deve ser tratada como dengue até prova em contrário. O guia <em>Dengue: diagnóstico e manejo clínico, adulto e criança</em> (Ministério da Saúde, 6ª edição, 2024) orienta prescrever paracetamol e/ou dipirona e não utilizar salicilatos, anti-inflamatórios não esteroides nem corticoides. AAS e AINE aumentam o risco de sangramento, inclusive digestivo, em pessoa que pode estar com plaquetas baixas.</p><div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Adulto</th><th>Criança</th></tr></thead><tbody><tr><td>Dipirona</td><td>20 gotas ou 1 comprimido (500 mg) até de 6/6 horas</td><td>10 mg/kg/dose até de 6/6 horas, respeitando a dose máxima por peso e idade</td></tr><tr><td>Paracetamol</td><td>40 gotas ou 1 comprimido (500 mg) de 4/4 horas, ou 60 gotas ou 2 comprimidos até de 6/6 horas; não exceder 4 g/24 h</td><td>10 mg/kg/dose até de 6/6 horas; doses maiores são hepatotóxicas</td></tr></tbody></table></div><p>Fonte das doses: Apêndice H do guia do Ministério da Saúde (2024). O mesmo guia lista os <strong>sinais de alarme</strong>: dor abdominal intensa e contínua, vômitos persistentes, acúmulo de líquidos, hipotensão postural ou lipotimia, aumento do fígado, sangramento de mucosa, letargia ou irritabilidade. Qualquer um deles indica atendimento médico imediato. Mesmo sem sinal de alarme, a pessoa com suspeita de dengue deve ser encaminhada para avaliação e notificação, com orientação de hidratação oral até lá.</p><div class=\"cx chave\"><b>Ponto-chave</b><p>Em dengue suspeita: paracetamol ou dipirona, hidratação e encaminhamento. Nada de AAS, ibuprofeno, naproxeno, diclofenaco, nimesulida ou corticoide. Cliente cardiopata em uso contínuo de AAS não deve suspender por conta própria: encaminhe para avaliação médica no mesmo dia.</p></div><h3>Alternância de antitérmicos</h3><p>Alternar paracetamol, dipirona e ibuprofeno em horários intercalados é hábito comum de pais. O documento científico da Sociedade Brasileira de Pediatria sobre febre aguda (2025) trata o uso intercalado como mito a ser combatido, por favorecer polimedicação e intoxicação. Estudo publicado no Jornal de Pediatria (2013) encontrou evidência escassa de benefício e mostrou que cerca de 70% das doses usadas pelas famílias estavam abaixo da dose mínima recomendada. A conduta correta é escolher um antitérmico, calcular a dose pelo peso e respeitar o intervalo. O antitérmico serve para o conforto da criança, e a temperatura não precisa voltar ao normal a cada dose.</p><div class=\"cx balcao\"><b>No balcão</b><p>Pergunte idade e peso (para criança, sempre o peso), temperatura medida e há quanto tempo, outros sintomas (manchas, vômitos, dor abdominal, sangramento), doenças de fígado, rim, estômago ou asma, gestação ou amamentação, uso de anticoagulante e de outros remédios para gripe ou dor, e consumo de álcool.</p><p>Encaminhe: febre em menor de 3 meses; febre por mais de 72 horas; febre com manchas, rigidez de nuca, sonolência excessiva ou dificuldade para respirar; cefaleia súbita e intensa ou diferente das habituais; dor que exige dose máxima por vários dias; qualquer sinal de alarme de dengue.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Mãe pede algo para a febre do filho de 2 anos e 12 kg, com 38,6 °C desde ontem, em bairro com casos de dengue. Sem manchas, vômitos ou sonolência. Conduta: paracetamol 200 mg/mL, 1 gota/kg (12 gotas no frasco do Tylenol®, conferindo o gotejador do produto entregue), a cada 6 horas se febre ou dor, sem alternar com outro antitérmico; oferecer líquidos; nada de AAS ou ibuprofeno; levar à unidade de saúde para avaliação ainda hoje e voltar com urgência se surgir dor abdominal, vômitos repetidos, sangramento ou sonolência.</p></div>"
+  },
+  {
+   "id": "m01-b-aine",
+   "titulo": "Anti-inflamatórios isentos de prescrição",
+   "resumo": "<p>Os anti-inflamatórios não esteroides (AINE) inibem as ciclo-oxigenases e reduzem a síntese de prostaglandinas. Têm efeito analgésico, antitérmico e anti-inflamatório, mas pagam o preço em três órgãos: estômago, rim e sistema cardiovascular. Por isso a LMIP libera poucos AINE orais, em concentrações limitadas, e um número maior de formas tópicas.</p><h3>Anti-inflamatórios na LMIP</h3><div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Forma isenta (concentração máxima)</th><th>Indicação simplificada na LMIP</th></tr></thead><tbody><tr><td>Ibuprofeno</td><td>Cápsula mole ou comprimido 400 mg; comprimido revestido 400 mg; liberação prolongada 600 mg; suspensão oral 100 e 200 mg/mL</td><td>Febre; dor leve a moderada</td></tr><tr><td>Ibuprofeno arginina</td><td>Comprimido revestido ou granulado 770 mg</td><td>Febre; dor leve a moderada; traumatismos</td></tr><tr><td>Ibuprofeno + paracetamol</td><td>Comprimido revestido 200 + 500 mg</td><td>Febre; dor leve a moderada, cefaleia, cólica abdominal</td></tr><tr><td>Naproxeno</td><td>Comprimido 500 mg</td><td>Dor aguda inflamatória, dor e febre, dor muscular e articular, dor pós-trauma</td></tr><tr><td>Naproxeno sódico</td><td>Comprimido revestido 550 mg</td><td>Mesma indicação do naproxeno</td></tr><tr><td>Flurbiprofeno</td><td>Pastilha 8,75 mg</td><td>Inflamação da garganta</td></tr><tr><td>Diclofenaco dietilamônio</td><td>Gel 23,2 mg/g; solução dermatológica 11,6 mg/g</td><td>Dor e inflamação musculoesquelética</td></tr><tr><td>Diclofenaco sódico</td><td>Gel 10 mg/g</td><td>Dor e inflamação musculoesquelética</td></tr><tr><td>Aceclofenaco</td><td>Creme 15 mg/g</td><td>Dor musculoesquelética</td></tr><tr><td>Nimesulida</td><td>Gel 20 mg/g</td><td>Dor musculoesquelética</td></tr><tr><td>Loxoprofeno sódico</td><td>Adesivo transdérmico 100 mg</td><td>Dor musculoesquelética</td></tr><tr><td>Salicilato de metila (associações)</td><td>Pomadas, géis, soluções e adesivos com cânfora e mentol</td><td>Dor muscular e articular</td></tr></tbody></table></div><div class=\"cx alerta\"><b>Atenção</b><p>Não constam da LMIP vigente: <strong>nimesulida oral</strong>, diclofenaco oral (sódico, potássico ou resinato), cetoprofeno, meloxicam, piroxicam, tenoxicam, etoricoxibe e celecoxibe. São medicamentos de venda sob prescrição. A nimesulida é MIP apenas em gel. Vender nimesulida comprimido sem receita, mesmo a pedido insistente, é dispensação irregular.</p></div><h3>Ibuprofeno</h3><p>Derivado do ácido propiônico, é o AINE oral de melhor perfil de segurança gastrintestinal em dose baixa. A dose de automedicação é menor que a dose anti-inflamatória que o médico prescreve.</p><div class=\"tab\"><table><thead><tr><th>Item</th><th>Conduta</th></tr></thead><tbody><tr><td>Adulto (produto MIP, bula do Advil® 400 mg)</td><td>400 mg; repetir com intervalo mínimo de 4 a 6 horas; máximo 1200 mg em 24 horas; durante ou após as refeições</td></tr><tr><td>Doses acima de 1200 mg/dia</td><td>Somente com prescrição (bulas de ibuprofeno de venda sob prescrição admitem até 3200 mg/dia)</td></tr><tr><td>Criança a partir de 6 meses</td><td>5 a 10 mg/kg/dose a cada 6 a 8 horas, no máximo 4 vezes ao dia; acima de 30 kg, até 200 mg por dose e 800 mg por dia (bula do Alivium® gotas)</td></tr><tr><td>Gotas 100 mg/mL</td><td>1 gota/kg por dose (bula do Alivium®)</td></tr><tr><td>Gotas 200 mg/mL</td><td>1 gota a cada 2 kg por dose (bula do Alivium®)</td></tr><tr><td>Contraindicações</td><td>Alergia a AINE ou AAS; úlcera ou sangramento digestivo atual ou prévio; insuficiência renal, hepática ou cardíaca grave; dengue suspeita</td></tr></tbody></table></div><h3>Naproxeno</h3><p>AINE de meia-vida longa, útil em cólica menstrual e dor musculoesquelética. Na bula do Flanax® (naproxeno sódico): comprimido de 275 mg, 1 comprimido 1 a 2 vezes ao dia; comprimido de 550 mg, 1 comprimido 1 vez ao dia. A dose de 550 mg em 24 horas não deve ser excedida sem prescrição, o uso não deve passar de 10 dias consecutivos e o produto não é indicado para menores de 12 anos. Idosos e pessoas com doença renal, hepática ou cardíaca precisam de dose menor e avaliação médica.</p><h3>Riscos sistêmicos dos AINE</h3><div class=\"tab\"><table><thead><tr><th>Sistema</th><th>Risco</th><th>Quem tem mais risco</th></tr></thead><tbody><tr><td>Gastrintestinal</td><td>Dispepsia, úlcera, sangramento e perfuração</td><td>Idoso, úlcera prévia, uso de anticoagulante, antiplaquetário, corticoide ou inibidor seletivo da recaptação de serotonina, álcool</td></tr><tr><td>Renal</td><td>Queda da filtração, retenção de sódio, hipercalemia, lesão renal aguda</td><td>Desidratação (diarreia, vômitos, calor), doença renal, uso de diurético com IECA ou BRA, idoso</td></tr><tr><td>Cardiovascular</td><td>Aumento da pressão, piora de insuficiência cardíaca, eventos trombóticos com uso prolongado</td><td>Hipertenso, cardiopata, pós-infarto ou AVC</td></tr><tr><td>Respiratório</td><td>Broncoespasmo em asma induzida por AINE</td><td>Asmático com pólipos nasais ou crise prévia com analgésico</td></tr><tr><td>Hematológico</td><td>Sangramento</td><td>Dengue suspeita, anticoagulados, plaquetopenia</td></tr></tbody></table></div><div class=\"cx chave\"><b>Ponto-chave</b><p>A combinação de AINE com diurético e com IECA ou BRA é a tríade clássica de lesão renal aguda em idosos. Se o cliente usa losartana e hidroclorotiazida e pede ibuprofeno para dor no joelho, prefira paracetamol ou um AINE tópico.</p></div><h3>Gestação e amamentação</h3><p>AINE orais devem ser evitados na gestação sem prescrição. No terceiro trimestre há risco de fechamento precoce do canal arterial do feto e de redução do líquido amniótico, e agências reguladoras estenderam o alerta de oligoidrâmnio ao uso a partir de cerca de 20 semanas. No balcão, gestante com dor recebe paracetamol e orientação para falar com o pré-natal. Na amamentação, o ibuprofeno é considerado compatível em doses usuais, mas a decisão de uso regular deve passar pelo médico ou pelo farmacêutico com fonte de lactação atualizada.</p><h3>Formas tópicas</h3><p>AINE tópicos atingem concentração local suficiente para dor de partes moles superficiais (entorse, contusão, tendinite, dor lombar mecânica) com exposição sistêmica muito menor. São boa escolha para idoso, hipertenso e quem tem risco gástrico. Orientações: aplicar em pele íntegra, 3 a 4 vezes ao dia ou conforme a bula do produto, massageando até absorver; lavar as mãos depois (exceto se as mãos forem a área tratada); não cobrir com curativo oclusivo; não aplicar em mucosas, olhos ou feridas; evitar sol direto na área tratada. A bula do Cataflampro® aerossol indica o uso para adultos e adolescentes acima de 14 anos. Produtos com salicilato de metila são contraindicados para quem tem alergia a AAS e não devem ser usados em grandes áreas ou em crianças pequenas.</p><p>Os fitoterápicos tópicos da LMIP com indicação semelhante incluem <em>Arnica montana</em> (equimoses e contusões), <em>Cordia verbenacea</em> (processos inflamatórios localizados), <em>Symphytum officinale</em> (entorses e contusões) e <em>Solidago chilensis</em> (contusões e dores musculares).</p><div class=\"cx balcao\"><b>No balcão</b><p>Antes de qualquer AINE oral, pergunte: tem ou teve úlcera, gastrite com sangramento ou fezes escuras? Usa anticoagulante, AAS, corticoide ou antidepressivo? Tem pressão alta, doença do coração ou do rim? É asmático? Está grávida? Pode ser dengue? Uma resposta positiva desloca a escolha para paracetamol, dipirona ou forma tópica.</p><p>Encaminhe: dor articular com calor, vermelhidão e febre; trauma com deformidade, incapacidade de apoiar o membro ou dor óssea localizada; dor lombar com perda de força, alteração urinária ou febre; dor que persiste após 7 a 10 dias de uso.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Homem de 68 anos, hipertenso em uso de losartana e hidroclorotiazida, pede ibuprofeno para dor no ombro após pintar a casa. Conduta: explicar o risco renal e de descompensar a pressão, indicar diclofenaco gel no ombro 3 a 4 vezes ao dia por até 7 dias, paracetamol 750 mg se necessário (máximo 4 g/dia) e encaminhar se a dor limitar o movimento ou persistir além de uma semana.</p></div>"
+  },
+  {
+   "id": "m01-b-digestivo",
+   "titulo": "Aparelho digestivo",
+   "resumo": "<p>Azia, gases, diarreia, prisão de ventre e cólica formam o segundo grande bloco do balcão. A maior parte dos produtos é MIP, mas vários fármacos que o cliente chama pelo nome comercial (Dramin®, Plasil®, Imosec®, Tiorfan®) não são. O raciocínio começa pelo sintoma, passa pelos sinais de alarme e só então chega ao produto.</p><h3>Antiácidos e alginatos</h3><p>Neutralizam o ácido já secretado e aliviam a azia em minutos, com efeito curto. Os alginatos formam uma camada que flutua sobre o conteúdo gástrico e reduz o refluxo. Constam da LMIP: hidróxido de alumínio (até 230 mg por comprimido), associações de hidróxido de alumínio, hidróxido de magnésio e carbonato de cálcio (comprimido mastigável, pó e suspensão), as mesmas com simeticona ou oxetacaína, magaldrato 80 mg/mL (isolado ou com simeticona), alginato de sódio com bicarbonato e carbonato de cálcio (concentração ampliada pela IN 388/2025) e os sais efervescentes com bicarbonato de sódio, carbonato de sódio e ácido cítrico.</p><div class=\"tab\"><table><thead><tr><th>Componente</th><th>Efeito adverso típico</th><th>Cuidado</th></tr></thead><tbody><tr><td>Hidróxido de alumínio</td><td>Constipação</td><td>Acúmulo de alumínio em doença renal crônica; uso prolongado reduz fósforo</td></tr><tr><td>Hidróxido de magnésio</td><td>Diarreia</td><td>Acúmulo de magnésio em doença renal</td></tr><tr><td>Carbonato de cálcio</td><td>Constipação, eructação</td><td>Hipercalcemia com uso crônico em dose alta</td></tr><tr><td>Bicarbonato de sódio</td><td>Distensão, eructação</td><td>Carga de sódio: evitar em hipertenso, cardiopata, gestante e dieta hipossódica</td></tr></tbody></table></div><p>Posologia de referência (bula do Mylanta Plus®, alumínio + magnésio + simeticona): adultos e maiores de 12 anos, 10 a 20 mL entre as refeições e ao deitar, no máximo 12 colheres-medida em 24 horas e sem usar a dose máxima por mais de 2 semanas sem supervisão médica.</p><div class=\"cx alerta\"><b>Atenção</b><p>Antiácidos com alumínio, magnésio ou cálcio formam complexos com quinolonas, tetraciclinas, sais de ferro, levotiroxina e bisfosfonatos, reduzindo a absorção. Oriente intervalo de pelo menos 2 horas, ou o intervalo que constar na bula do outro medicamento. Na bula do Dulcolax®, os antiácidos aparecem também como causa de dissolução precoce do revestimento entérico do bisacodil.</p></div><h3>Omeprazol isento de prescrição</h3><p>A IN 404/2025 incluiu na LMIP o <strong>omeprazol 20 mg</strong> em cápsula dura e cápsula dura de liberação retardada, com a indicação simplificada de alívio de sintomas frequentes (que ocorrem em dois ou mais dias na semana) de azia e queimação. O voto da Diretoria Colegiada que aprovou a inclusão (processo 25351.918052/2023-80) define as condições: apresentações com 7 a 14 unidades, rotulagem própria sem tarja vermelha, uso por até 14 dias e intervalo mínimo de 4 meses entre ciclos, como recomendou o parecer de farmacovigilância citado no voto. As apresentações de omeprazol 20 mg com 28 ou 56 cápsulas continuam sob prescrição: o mesmo registro pode ter apresentações tarjadas e isentas (RDC 882/2024, art. 14).</p><div class=\"tab\"><table><thead><tr><th>Item</th><th>Omeprazol 20 mg MIP</th></tr></thead><tbody><tr><td>Mecanismo</td><td>Inibe a bomba de prótons da célula parietal; efeito pleno em 1 a 4 dias</td></tr><tr><td>Indicação</td><td>Azia ou queimação em 2 ou mais dias por semana, sem sinal de alarme</td></tr><tr><td>Posologia</td><td>1 cápsula ao dia, em jejum, 30 minutos antes do café da manhã, por até 14 dias</td></tr><tr><td>Repetição</td><td>Novo ciclo só após 4 meses; sintomas que voltam antes disso pedem avaliação médica</td></tr><tr><td>Interações</td><td>Clopidogrel (reduz a ativação), metotrexato, varfarina, fármacos que dependem de acidez para absorver (cetoconazol oral, sais de ferro)</td></tr><tr><td>Não indicado</td><td>Azia ocasional que precisa de alívio imediato (antiácido age antes); dor epigástrica com sinal de alarme</td></tr></tbody></table></div><div class=\"cx chave\"><b>Ponto-chave</b><p>Nenhum antagonista H2 consta da LMIP vigente. A famotidina tem venda sob prescrição (bula do Famox®). No balcão, a escalada é antiácido ou alginato para sintoma ocasional e omeprazol 20 mg por até 14 dias para azia frequente, com encaminhamento se não resolver.</p></div><h3>Antiflatulentos</h3><p>A <strong>simeticona</strong> reduz a tensão superficial das bolhas de gás e facilita sua eliminação. É medicamento de notificação simplificada (LMN, IN 106/2021; a IN 430/2026 incluiu a cápsula de 250 mg). Doses do texto da LMN: emulsão 75 mg/mL ou 150 mg/mL, adultos 40 a 125 mg por dose, repetir a cada 6 horas se necessário, máximo 500 mg/dia; crianças de 2 a 12 anos, 15 a 30 mg por dose; até 2 anos, até 15 mg por dose; nas duas faixas pediátricas, máximo 180 mg/dia. Comprimido de 40 mg: adultos 1 a 3 comprimidos a cada 6 horas (máximo 12 por dia). Contraindicada em distensão abdominal grave, cólica grave, dor persistente por mais de 36 horas, massa palpável no abdome e obstrução ou perfuração suspeita. O fitoterápico <em>Cinnamomum verum</em> + <em>Syzygium aromaticum</em> (canela e cravo) consta do Anexo II da LMIP como antiflatulento.</p><h3>Náusea, vômito e enjoo de movimento</h3><p>Aqui está uma das maiores armadilhas do balcão. <strong>Dimenidrinato</strong> não consta da LMIP: as bulas do Dramin® e do Dramin B6® trazem \"Venda sob prescrição médica\". Metoclopramida (Plasil®), bromoprida, domperidona e ondansetrona (Vonau®) também são tarjados. Para cinetose, a LMIP inclui a <strong>meclozina</strong> 50 mg (profilaxia e tratamento da cinetose) e o fitoterápico <em>Zingiber officinale</em> (gengibre, profilaxia de náuseas por movimento e pós-cirúrgicas). Mesmo assim, verifique a embalagem: um produto só é MIP se o registro dele foi adequado à lista (a bula do Meclin® consultada ainda traz venda sob prescrição).</p><div class=\"cx alerta\"><b>Atenção</b><p>Vômitos em criança pequena, idoso ou gestante, vômitos com sangue ou aspecto de borra de café, vômitos que impedem a ingestão de líquidos, dor abdominal intensa, rigidez de nuca ou sonolência exigem avaliação médica. Antiemético não é produto de autocuidado no Brasil, e o papel do farmacêutico é hidratar com sais de reidratação oral e encaminhar.</p></div><h3>Diarreia aguda</h3><p>A prioridade é prevenir e tratar a desidratação. Os <strong>sais de reidratação oral</strong> são medicamentos de notificação simplificada (LMN): o envelope é dissolvido em 1 litro de água filtrada ou fervida, e a solução preparada é descartada após 24 horas. Para reposição de perdas, o texto da LMN indica 75 mL/kg em 4 a 6 horas, até o limite de 4 litros; crianças amamentadas continuam no peito. O farmacêutico deve diferenciar a solução de reidratação de bebidas isotônicas e refrigerantes, que têm açúcar demais e sódio de menos.</p><div class=\"tab\"><table><thead><tr><th>Produto</th><th>Status</th><th>Uso</th></tr></thead><tbody><tr><td>Sais de reidratação oral (pó, solução)</td><td>LMN e LMIP (formulações com zinco)</td><td>Prevenção e tratamento da desidratação, todas as idades</td></tr><tr><td><i>Saccharomyces boulardii</i></td><td>LMIP, até 250 mg</td><td>Coadjuvante; bula do Floratil® 200 mg: 1 cápsula 2 vezes ao dia na diarreia aguda; 2 a 3 dias costumam bastar; procurar médico se persistir após 5 dias</td></tr><tr><td><i>Bacillus cereus</i> (suspensão)</td><td>LMIP</td><td>Coadjuvante no tratamento da diarreia e de enterocolites</td></tr><tr><td>Policarbofila cálcica 625 mg</td><td>LMIP</td><td>Regularização do hábito intestinal em síndrome do intestino irritável e diverticulose</td></tr><tr><td>Subsalicilato de bismuto 35 mg/mL</td><td>LMN (incluído pela IN 430/2026)</td><td>Conferir bula; contém salicilato: mesmas restrições do AAS (criança com virose, dengue, anticoagulado)</td></tr><tr><td>Loperamida</td><td>Fora da LMIP (bula do Imosec®: venda sob prescrição)</td><td>Não indicar</td></tr><tr><td>Racecadotrila</td><td>Fora da LMIP (bula do Tiorfan®: venda sob prescrição)</td><td>Não indicar</td></tr></tbody></table></div><div class=\"cx balcao\"><b>No balcão</b><p>Pergunte: idade, há quanto tempo, quantas evacuações por dia, se há sangue, muco ou febre, se urina pouco, se há vômitos, viagem recente, uso recente de antibiótico e se outras pessoas da casa estão com o mesmo quadro.</p><p>Encaminhe: sangue nas fezes; febre alta; sinais de desidratação (boca seca, olhos fundos, pouca urina, sonolência); lactente; idoso frágil; gestante; diarreia por mais de 3 dias em adulto; diarreia após uso de antibiótico; imunossupressão.</p></div><h3>Constipação</h3><p>Antes do laxante vêm fibras, água e atividade física. A escolha segue a lógica do mecanismo: formadores de massa para uso contínuo, osmóticos para casos mais persistentes e estimulantes para uso ocasional.</p><div class=\"tab\"><table><thead><tr><th>Classe</th><th>Exemplos MIP</th><th>Posologia de referência</th><th>Cuidados</th></tr></thead><tbody><tr><td>Formadores de massa</td><td><i>Plantago ovata</i> (psílio), policarbofila cálcica</td><td>Conforme bula, com bastante água</td><td>Sem água suficiente podem obstruir; efeito em 1 a 3 dias</td></tr><tr><td>Osmóticos</td><td>Lactulose 667 mg/mL; macrogol 3350 (LMN); macrogol com eletrólitos</td><td>Lactulose (bula da Lactulona®): adulto 15 a 30 mL/dia; 6 a 12 anos 10 a 15 mL; 1 a 5 anos 5 a 10 mL; lactentes 5 mL</td><td>Flatulência e cólica no início; macrogol: não exceder 100 g/dia (LMN)</td></tr><tr><td>Estimulantes</td><td>Bisacodil 5 mg; picossulfato de sódio 7,5 mg/mL; sene, cáscara-sagrada (<i>Frangula purshiana</i>)</td><td>Bisacodil (bula do Dulcolax®): adulto e maior de 10 anos 5 a 10 mg à noite; 4 a 10 anos 5 mg</td><td>Cólica; uso crônico só com orientação; não tomar bisacodil com leite, antiácido ou omeprazol</td></tr><tr><td>Lubrificante</td><td>Óleo mineral (LMN)</td><td>Adulto 15 mL à noite; maiores de 6 anos 1 a 2 mL/kg (LMN)</td><td>Risco de pneumonia lipoídica em acamado, disfágico, idoso e bebê; reduz absorção de vitaminas lipossolúveis; não usar por mais de 1 semana</td></tr><tr><td>Retais</td><td>Supositório de glicerina (LMN); sorbitol + laurilsulfato de sódio</td><td>Glicerina: ação em 15 a 30 minutos</td><td>Úteis em fecaloma leve e em crianças, por curto período</td></tr></tbody></table></div><div class=\"cx alerta\"><b>Atenção</b><p>Constipação recente em adulto sem causa evidente, sangue nas fezes, afinamento das fezes, perda de peso, anemia ou dor abdominal intensa pedem avaliação médica. O texto da LMN do óleo mineral orienta consultar o médico antes de usar laxante quando o hábito intestinal muda de repente por duas semanas.</p></div><h3>Cólicas e antiespasmódicos</h3><p>O <strong>butilbrometo de escopolamina</strong> é um antimuscarínico de amônio quaternário que relaxa a musculatura lisa digestiva, biliar e urinária com pouca passagem ao sistema nervoso central. Constam da LMIP o comprimido de 10 mg, a solução oral de 10 mg/mL e as associações com dipirona (10 + 250 mg) e com paracetamol (10 + 500 mg).</p><div class=\"tab\"><table><thead><tr><th>Produto</th><th>Posologia (bulas Buscopan® e Buscopan Composto®)</th><th>Cuidados</th></tr></thead><tbody><tr><td>Escopolamina 10 mg</td><td>Adultos e maiores de 6 anos: 10 a 20 mg, 3 a 5 vezes ao dia</td><td>Boca seca, taquicardia, retenção urinária; evitar em glaucoma de ângulo fechado, hiperplasia prostática com retenção, miastenia e megacólon</td></tr><tr><td>Escopolamina gotas 10 mg/mL</td><td>Adultos e maiores de 6 anos: 20 a 40 gotas, 3 a 5 vezes ao dia; 1 a 6 anos: 10 a 20 gotas, 3 vezes ao dia</td><td>Lactente com cólica: encaminhar ao pediatra antes de qualquer antiespasmódico</td></tr><tr><td>Escopolamina + dipirona 10 + 250 mg</td><td>1 a 2 comprimidos, 3 a 4 vezes ao dia</td><td>Todas as restrições da dipirona; uso prolongado exige hemograma</td></tr></tbody></table></div><p>Não use antiespasmódico para mascarar dor abdominal sem diagnóstico. Dor que começa no centro do abdome e migra para o lado direito inferior, dor com febre, dor com vômitos persistentes, abdome rígido ou dor em gestante são situações de pronto atendimento.</p><h3>Outros produtos digestivos da LMIP</h3><p>Associações de racemetionina, citrato de colina e betaína, o <em>Silybum marianum</em>, o boldo (<em>Peumus boldus</em>), a alcachofra (<em>Cynara scolymus</em>), a espinheira-santa (<em>Monteverdia ilicifolia</em>) e o alcaçuz (<em>Glycyrrhiza glabra</em>) são MIP com indicação de dispepsia e auxílio em distúrbios hepáticos ou biliares. Servem para desconforto pós-prandial leve. Não tratam doença hepática e não substituem investigação de dor persistente. O alcaçuz em uso prolongado retém sódio e eleva a pressão.</p><div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 42 anos relata queimação retroesternal 3 a 4 vezes por semana há um mês, piora ao deitar, sem dificuldade para engolir, perda de peso, vômitos ou fezes escuras. Usa apenas anticoncepcional oral. Conduta: omeprazol 20 mg MIP, 1 cápsula em jejum por 14 dias, orientação sobre refeições menores, evitar deitar até 2 a 3 horas após comer e elevar a cabeceira; registrar a intervenção e orientar consulta médica se os sintomas não cederem ou voltarem antes de 4 meses.</p></div>"
+  },
+  {
+   "id": "m01-b-respiratorio",
+   "titulo": "Tosse, gripe e resfriado",
+   "resumo": "<p>Resfriado e gripe são infecções virais autolimitadas. Nenhum MIP encurta a doença: todos tratam sintomas. O trabalho do farmacêutico é escolher o produto que cobre o sintoma principal do cliente, evitar componentes desnecessários e reconhecer quando a \"gripe\" é pneumonia, sinusite bacteriana, crise de asma ou dengue.</p><h3>Antigripais em associação</h3><p>A LMIP inclui dezenas de associações que combinam um analgésico (paracetamol, dipirona ou AAS), um descongestionante oral (cloridrato de fenilefrina), um anti-histamínico de primeira geração (clorfeniramina, dexclorfeniramina, carbinoxamina, bronfeniramina) e, às vezes, cafeína ou vitamina C. Exemplos de linhas da lista: paracetamol + fenilefrina + clorfeniramina 400 + 4 + 4 mg; paracetamol + fenilefrina 800 + 20 mg; dipirona + clorfeniramina + cafeína 500 + 2 + 30 mg.</p><div class=\"tab\"><table><thead><tr><th>Componente</th><th>Para que serve</th><th>Quem deve evitar</th></tr></thead><tbody><tr><td>Paracetamol, dipirona ou AAS</td><td>Febre, dor no corpo, cefaleia</td><td>Ver tópico de analgésicos; AAS nunca em criança com gripe nem em dengue suspeita</td></tr><tr><td>Fenilefrina oral</td><td>Congestão nasal</td><td>Hipertenso não controlado, cardiopata, hipertireoidismo, glaucoma, uso de IMAO</td></tr><tr><td>Anti-H1 de primeira geração</td><td>Coriza e espirros (efeito anticolinérgico seca secreção)</td><td>Idoso, motorista, quem opera máquinas, glaucoma de ângulo fechado, hiperplasia prostática</td></tr><tr><td>Cafeína</td><td>Contrabalança a sonolência</td><td>Insônia, arritmia, ansiedade, gestante</td></tr></tbody></table></div><p>Exemplo de bula: Resfenol® (paracetamol + fenilefrina + clorfeniramina) indica, para adultos de 18 a 60 anos, 1 cápsula a cada 4 horas, no máximo 5 cápsulas por dia e por no máximo 3 dias, e é contraindicado para menores de 18 anos. Cada associação tem limites próprios: leia a bula do produto entregue e some o paracetamol de todas as fontes.</p><div class=\"cx alerta\"><b>Atenção</b><p>Antigripal mais paracetamol isolado mais \"remédio para dor de cabeça\" é a receita da intoxicação hepática não intencional. Antigripal com fenilefrina para hipertenso descompensado e antigripal com anti-H1 sedativo para quem vai dirigir são erros de dispensação, mesmo quando o cliente insiste no produto.</p></div><h3>Descongestionantes nasais e solução salina</h3><p>Os vasoconstritores nasais tópicos (nafazolina, oximetazolina, fenoxazolina) <strong>não constam da LMIP</strong>. As bulas do Neosoro®, do Sorine® e do Afrin® trazem \"Venda sob prescrição médica\". São de tarja vermelha sem retenção de receita, o que não autoriza vendê-los sem prescrição. Além do aspecto legal, o uso por mais de poucos dias causa rinite medicamentosa (congestão rebote que leva ao uso crônico), e a ingestão acidental por crianças pequenas pode provocar sonolência, bradicardia e hipotermia.</p><div class=\"tab\"><table><thead><tr><th>Produto nasal</th><th>Status</th><th>Uso</th></tr></thead><tbody><tr><td>Cloreto de sódio 0,9% (soro fisiológico nasal)</td><td>LMN</td><td>Lavagem e umidificação; qualquer idade, quantas vezes precisar</td></tr><tr><td>Cloreto de sódio até 30 mg/mL (hipertônico 3%) e gel nasal</td><td>LMIP; a IN 430/2026 incluiu na LMN a solução de 20 mg/mL</td><td>Congestão e mucosa ressecada; pode arder</td></tr><tr><td>Acetilcisteína solução nasal 11,5 mg/mL</td><td>LMIP</td><td>Congestão com secreção espessa</td></tr><tr><td>Azelastina solução nasal 1 mg/mL</td><td>LMIP</td><td>Rinite alérgica (anti-H1 tópico)</td></tr><tr><td>Levomentol + cânfora (óleo, pomada)</td><td>LMIP</td><td>Sensação de desobstrução; não aplicar dentro do nariz de bebês</td></tr><tr><td>Nafazolina, oximetazolina</td><td>Fora da LMIP</td><td>Somente com prescrição</td></tr></tbody></table></div><p>Descongestionante oral isento: bronfeniramina + fenilefrina (comprimido de liberação prolongada 12 + 15 mg e soluções orais), além das associações antigripais com fenilefrina.</p><h3>Antitussígenos para tosse seca</h3><p>Antitussígeno só tem lugar na tosse seca, irritativa, que atrapalha o sono. Na tosse produtiva, suprimir o reflexo retém secreção. Também não faz sentido associar antitussígeno com expectorante.</p><div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Forma MIP</th><th>Posologia (bula)</th><th>Cuidados</th></tr></thead><tbody><tr><td>Dextrometorfano</td><td>Solução oral até 3 mg/mL</td><td>Adultos e maiores de 12 anos: 10 a 20 mg a cada 4 horas ou 30 mg a cada 6 a 8 horas; máximo 120 mg/dia</td><td>Contraindicado com IMAO (até 2 semanas antes), asma, DPOC, pneumonia, insuficiência respiratória; cautela com antidepressivos serotoninérgicos; potencial de abuso</td></tr><tr><td>Dropropizina</td><td>Solução oral até 30 mg/mL</td><td>Gotas (bula do Vibral®): adultos 30 gotas 4 vezes ao dia; maiores de 3 anos 15 gotas; 2 a 3 anos 4 a 8 gotas, 4 vezes ao dia</td><td>Sonolência; evitar em asmático e na tosse produtiva</td></tr><tr><td>Cloperastina</td><td>Suspensão 35,4 mg/mL; solução 3,54 mg/mL</td><td>Xarope (bula do Seki®): adultos 10 mL 3 vezes ao dia; crianças 0,5 a 1 mL/kg/dia em 3 tomadas</td><td>Sonolência leve</td></tr><tr><td>Clobutinol</td><td>Solução oral até 4 mg/mL</td><td>Conforme bula do produto</td><td>Tosse seca apenas</td></tr><tr><td>Difenidramina + cloreto de amônio + citrato de sódio</td><td>Solução oral e pastilha</td><td>Conforme bula</td><td>Sedação (anti-H1 de primeira geração)</td></tr></tbody></table></div><h3>Expectorantes e mucolíticos</h3><p>Mucolíticos reduzem a viscosidade do muco; expectorantes aumentam o volume da secreção e facilitam a eliminação. A evidência de benefício em resfriado comum é modesta, e a hidratação faz parte do tratamento.</p><div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Forma MIP</th><th>Adulto</th><th>Criança</th></tr></thead><tbody><tr><td>Acetilcisteína</td><td>Granulado/efervescente até 600 mg; solução oral até 40 mg/mL</td><td>600 mg 1 vez ao dia, de preferência à noite, por 5 a 10 dias (bula do Fluimucil®)</td><td>Xarope 20 mg/mL: 2 a 4 anos 100 mg 2 a 3 vezes ao dia; acima de 4 anos 100 mg 3 a 4 vezes ao dia</td></tr><tr><td>Ambroxol</td><td>Cápsula LP 75 mg; solução 7,5 mg/mL; xarope até 6 mg/mL</td><td>Xarope adulto 5 mL 3 vezes ao dia ou cápsula de 75 mg 1 vez ao dia (bula do Mucosolvan®)</td><td>Xarope pediátrico: 2 a 5 anos 2,5 mL 3 vezes ao dia; 6 a 12 anos 5 mL 3 vezes ao dia (0,5 mg/kg por dose)</td></tr><tr><td>Bromexina</td><td>Solução 2 mg/mL; xarope até 1,6 mg/mL</td><td>8 mg 3 vezes ao dia (bula do Bisolvon®)</td><td>2 a 6 anos 2 mg 3 vezes ao dia; 6 a 12 anos 4 mg 3 vezes ao dia (0,1 mg/kg por dose)</td></tr><tr><td>Carbocisteína</td><td>Solução oral até 50 mg/mL</td><td>Conforme bula</td><td>Conforme bula</td></tr><tr><td>Guaifenesina</td><td>Solução oral até 16 mg/mL; com dextrometorfano 13,3 + 1,3 mg/mL</td><td>Conforme bula</td><td>Conforme bula</td></tr><tr><td>Fitoterápicos</td><td><i>Hedera helix</i> (hera), <i>Mikania glomerata</i> (guaco), <i>Thymus</i>, <i>Pelargonium sidoides</i></td><td>Conforme bula</td><td>Guaco contém cumarina: cautela em anticoagulado</td></tr></tbody></table></div><div class=\"cx alerta\"><b>Atenção</b><p>Abaixo de 2 anos, mucolíticos não são produto de automedicação: a bula do Mucosolvan® restringe o uso nessa faixa à prescrição médica e o Fluimucil® pediátrico é indicado a partir de 2 anos. Lactente com tosse e secreção precisa de avaliação, lavagem nasal com soro e hidratação.</p></div><h3>Dor de garganta</h3><p>Pastilhas e soluções da LMIP: cloreto de cetilpiridínio (antisséptico), benzocaína (anestésico local), benzidamina (anti-inflamatório local, pastilha 3,15 mg e colutório 1,5 mg/mL), cloreto de dequalínio, tirotricina com hidroxiquinolina e o <strong>flurbiprofeno</strong> 8,75 mg. Na bula do Strepsils® com flurbiprofeno: adultos e maiores de 12 anos, 1 pastilha a cada 3 a 6 horas, no máximo 5 em 24 horas e por até 3 dias, movimentando a pastilha na boca; não indicado abaixo de 12 anos. Como é AINE, valem as restrições de úlcera, asma por AINE, anticoagulante e dengue.</p><div class=\"cx balcao\"><b>No balcão</b><p>Pergunte idade, sintoma principal (nariz, tosse seca, tosse com catarro, garganta, febre), há quantos dias, se há falta de ar, chiado ou dor no peito, doenças crônicas (hipertensão, asma, DPOC, cardiopatia, diabetes, glaucoma, próstata), gestação e medicamentos em uso, em especial antidepressivos e IMAO.</p><p>Encaminhe: falta de ar, chiado, dor torácica, febre alta por mais de 3 dias ou que volta depois de melhorar, dor facial intensa com secreção purulenta por mais de 10 dias, placas na garganta com febre alta e sem tosse, dificuldade para engolir a saliva, tosse há 3 semanas ou mais (investigar tuberculose), sintomas gripais em pessoa de grupo de risco para complicação (idoso, gestante, criança pequena, imunossuprimido, doença crônica), que pode precisar de antiviral precoce.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Homem de 55 anos, hipertenso em uso de anlodipino, pede \"o antigripal mais forte\" para coriza, espirros e dor no corpo há 2 dias, sem febre alta nem falta de ar. Vai dirigir para o trabalho. Conduta: evitar associação com fenilefrina e com anti-H1 sedativo; paracetamol 750 mg até 4 vezes ao dia para dor, soro fisiológico nasal várias vezes ao dia, hidratação; se a coriza incomodar à noite, considerar anti-H1 não sedativo isento. Orientar retorno se surgir febre alta ou falta de ar.</p></div>"
+  },
+  {
+   "id": "m01-b-antialergicos",
+   "titulo": "Antialérgicos isentos de prescrição",
+   "resumo": "<p>Os anti-histamínicos H1 bloqueiam o receptor H1 da histamina (agem como agonistas inversos) e aliviam coriza, espirros, prurido nasal e ocular e urticária. Os de <strong>primeira geração</strong> atravessam a barreira hematoencefálica e têm ação anticolinérgica: sedam, prejudicam reflexos e secam mucosas. Os de <strong>segunda geração</strong> quase não entram no sistema nervoso central e são tomados uma vez ao dia. A congestão nasal responde pouco a qualquer anti-H1 oral.</p><h3>Enquadramento dos anti-H1</h3><p>Conferência feita, fármaco a fármaco, no Anexo I da LMIP (IN 285/2024 com a redação da IN 404/2025):</p><div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Na LMIP?</th><th>Formas e concentração máxima</th></tr></thead><tbody><tr><td>Loratadina</td><td>Sim</td><td>Comprimido e cápsula mole 10 mg; solução oral 1 mg/mL</td></tr><tr><td>Desloratadina</td><td>Sim</td><td>Comprimido revestido 5 mg; solução oral 1,25 mg/mL</td></tr><tr><td>Fexofenadina</td><td>Sim</td><td>Comprimido revestido 180 mg; suspensão oral 6 mg/mL</td></tr><tr><td>Levocetirizina</td><td>Sim</td><td>Comprimido revestido 5 mg; solução oral 5 mg/mL</td></tr><tr><td>Ebastina</td><td>Sim</td><td>Comprimido revestido 10 mg; solução oral 1 mg/mL</td></tr><tr><td>Epinastina</td><td>Sim</td><td>Comprimido revestido 20 mg; solução oral 2 mg/mL</td></tr><tr><td>Dexclorfeniramina</td><td>Sim</td><td>Comprimido 2 mg; liberação prolongada 6 mg; solução oral 2,8 mg/mL; creme 10 mg/g</td></tr><tr><td>Meclozina</td><td>Sim</td><td>Comprimido 50 mg, só para cinetose</td></tr><tr><td>Azelastina</td><td>Sim</td><td>Solução nasal 1 mg/mL</td></tr><tr><td><b>Cetirizina</b></td><td><b>Não</b></td><td>A bula do Zyrtec® traz venda sob prescrição médica (a levocetirizina, seu enantiômero, é MIP)</td></tr><tr><td>Prometazina</td><td>Só tópica</td><td>Creme 20 mg/g; a forma oral é tarjada</td></tr><tr><td>Hidroxizina, bilastina, rupatadina</td><td>Não</td><td>Venda sob prescrição</td></tr><tr><td>Clorfeniramina, carbinoxamina, bronfeniramina, feniramina</td><td>Só em associações</td><td>Antigripais, descongestionantes orais e colírio com nafazolina</td></tr></tbody></table></div><div class=\"cx chave\"><b>Ponto-chave</b><p>Status de MIP é por linha da lista, e não por classe. A levocetirizina é MIP e a cetirizina não é. A dexclorfeniramina comprimido é MIP e a prometazina comprimido não é. Na dúvida, abra a LMIP e confira fármaco, forma e concentração.</p></div><h3>Posologia dos anti-H1 de segunda geração</h3><div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Adulto</th><th>Criança</th><th>Observação</th></tr></thead><tbody><tr><td>Loratadina</td><td>10 mg 1 vez ao dia; não exceder 10 mg em 24 horas</td><td>Maiores de 12 anos ou acima de 30 kg: 10 mg; 2 a 12 anos com menos de 30 kg: 5 mg (5 mL do xarope 1 mg/mL) 1 vez ao dia</td><td>Bula do Claritin®</td></tr><tr><td>Desloratadina</td><td>5 mg 1 vez ao dia</td><td>6 a 11 meses: 1 mg (2 mL); 1 a 5 anos: 1,25 mg (2,5 mL); 6 a 11 anos: 2,5 mg (5 mL), 1 vez ao dia</td><td>Bula do Desalex®; aumentar a dose não aumenta o efeito e pode dar sono</td></tr><tr><td>Fexofenadina</td><td>Rinite: 120 ou 180 mg 1 vez ao dia, ou 60 mg 12/12 h; urticária: 180 mg 1 vez ao dia ou 60 mg 12/12 h</td><td>2 a 11 anos (acima de 10,5 kg): 30 mg (5 mL) 12/12 h</td><td>Bula do Allegra®; tomar com água; antiácidos com alumínio e magnésio e sucos de fruta reduzem a absorção</td></tr><tr><td>Levocetirizina</td><td>5 mg 1 vez ao dia</td><td>6 a 12 anos: 5 mg 1 vez ao dia (máximo diário)</td><td>Bula do Zyxem®; ajustar em doença renal</td></tr><tr><td>Ebastina</td><td>10 mg 1 vez ao dia; 20 mg em rinite intensa</td><td>Comprimido para maiores de 12 anos; xarope contraindicado abaixo de 2 anos</td><td>Bula do Ebastel®; doença hepática leve a moderada: máximo 10 mg</td></tr><tr><td>Epinastina</td><td>Rinite: 10 a 20 mg 1 vez ao dia; dermatoses: 20 mg; máximo 40 mg/dia</td><td>6 a 12 anos: 5 a 10 mg (xarope); contraindicado abaixo de 6 anos</td><td>Bula do Talerc®</td></tr></tbody></table></div><h3>Dexclorfeniramina e a sedação</h3><p>A dexclorfeniramina é o anti-H1 de primeira geração MIP mais usado, inclusive para prurido de picadas e urticária aguda. Bula do Polaramine®: adultos e maiores de 12 anos, 2 mg 3 a 4 vezes ao dia (máximo 12 mg/dia); solução 2 mg/5 mL: 6 a 12 anos, 2,5 mL 3 vezes ao dia (máximo 6 mg/dia); 2 a 6 anos, 1,25 mL 3 vezes ao dia (máximo 3 mg/dia); gotas: 2 a 6 anos, 1 gota a cada 2 kg ou 5 gotas, 3 vezes ao dia. Contraindicada em menores de 2 anos.</p><p>Efeitos esperados: sonolência, redução da atenção, boca seca, visão borrada, constipação e retenção urinária. Somam-se a álcool, benzodiazepínicos, opioides e outros depressores. Em criança pode ocorrer excitação paradoxal.</p><div class=\"cx alerta\"><b>Atenção</b><p>No <strong>idoso</strong>, anti-H1 de primeira geração causa confusão, quedas, retenção urinária e constipação; os Critérios de Beers da Sociedade Americana de Geriatria recomendam evitá-los. Prefira loratadina, desloratadina ou fexofenadina. Para quem dirige, opera máquinas ou trabalha em altura, a regra é a mesma.</p></div><h3>Gestação, amamentação e crianças</h3><p>Na gestação, nenhum anti-H1 deve ser iniciado por automedicação: o cliente deve falar com o pré-natal, que costuma optar por fármacos com mais dados de uso, como a loratadina. Na amamentação, anti-H1 sedativos podem causar sonolência e irritabilidade no lactente e reduzir a produção de leite; os de segunda geração são preferidos, com orientação. Em crianças, respeite a idade mínima de cada bula, sempre com dose por idade ou peso e seringa dosadora.</p><h3>Limites do anti-H1</h3><p>Rinite persistente com obstrução nasal importante responde melhor a corticoide nasal, que exige prescrição. Rinite com tosse noturna, chiado ou falta de ar sugere asma associada. Urticária que dura mais de 6 semanas é crônica e precisa de investigação. Prurido generalizado sem lesão de pele pode ser sinal de doença hepática, renal ou hematológica.</p><div class=\"cx alerta\"><b>Atenção</b><p>Inchaço de lábios, língua ou pálpebras, rouquidão, dificuldade para respirar ou engolir, tontura ou desmaio após alimento, picada de inseto ou medicamento indicam <strong>anafilaxia</strong> ou angioedema. Anti-H1 oral não trata anafilaxia: ligue para o SAMU (192) e não ofereça comprimido como solução.</p></div><div class=\"cx balcao\"><b>No balcão</b><p>Pergunte: os sintomas são sazonais ou o ano todo? Há obstrução nasal, chiado ou falta de ar? Já usou anti-H1 antes? Precisa dirigir ou trabalhar em atenção? Idade, gestação, amamentação, glaucoma, próstata, doença renal ou hepática? Usa sedativos ou bebe álcool?</p><p>Para rinite intermitente leve em adulto ativo: anti-H1 de segunda geração 1 vez ao dia, lavagem nasal com soro e controle de alérgenos (poeira, ácaros, mofo). Reavalie em 7 a 14 dias e encaminhe se não houver melhora.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Motorista de aplicativo, 38 anos, com espirros e coriza clara toda manhã há 2 semanas, sem febre ou chiado, pede \"Polaramine\". Conduta: explicar a sedação da dexclorfeniramina e indicar loratadina 10 mg ou fexofenadina 180 mg 1 vez ao dia, soro fisiológico nasal e medidas contra ácaros; encaminhar se houver obstrução persistente, chiado ou piora.</p></div>"
+  },
+  {
+   "id": "m01-b-pele",
+   "titulo": "Pele e mucosas",
+   "resumo": "<p>A pele concentra o maior número de linhas da LMIP: antifúngicos, antissépticos, antibióticos tópicos, cicatrizantes, corticoide de baixa potência, antiviral labial, escabicidas e produtos para acne. A regra de ouro é identificar a lesão antes de escolher o produto. Corticoide em micose, antifúngico em eczema e antibiótico em lesão viral são erros comuns que pioram o quadro.</p><h3>Antifúngicos tópicos</h3><p>Indicados em micoses superficiais: frieira (tinha dos pés), micose de virilha, tinha do corpo (lesão arredondada com borda ativa e centro mais claro), pitiríase versicolor (\"pano branco\") e candidíase de dobras. O tratamento é longo: deve continuar por cerca de 2 semanas após o desaparecimento dos sintomas, para evitar recidiva (bula do Canesten®).</p><div class=\"tab\"><table><thead><tr><th>Fármaco (LMIP)</th><th>Formas e concentração máxima</th><th>Posologia de referência</th></tr></thead><tbody><tr><td>Clotrimazol</td><td>Creme e solução 10 mg/g ou mg/mL</td><td>2 a 3 vezes ao dia; pés e dobras: 3 a 4 semanas (bula do Canesten®)</td></tr><tr><td>Miconazol</td><td>Creme e pó 20 mg/g; emulsão 20 mg/mL</td><td>Conforme bula; a emulsão tem indicação também para dermatite de fraldas</td></tr><tr><td>Cetoconazol</td><td>Creme 20 mg/g; xampu 20 mg/mL</td><td>Creme 1 vez ao dia por cerca de 4 semanas (bula do Nizoral®); xampu para dermatite seborreica</td></tr><tr><td>Terbinafina</td><td>Creme e solução 10 mg/g ou mg/mL</td><td>Conforme bula; alilamina de ação fungicida, costuma exigir ciclos mais curtos</td></tr><tr><td>Tioconazol, oxiconazol, flutrimazol, butenafina</td><td>Creme (e solução) 10 mg/g</td><td>Conforme bula</td></tr><tr><td>Amorolfina</td><td>Creme 2,5 mg/g; esmalte 50 mg/mL</td><td>Esmalte para onicomicose leve, uso semanal prolongado conforme bula</td></tr><tr><td>Ciclopirox</td><td>Esmalte 80 mg/mL; creme e spray 10 mg/mL (incluídos pela IN 388/2025)</td><td>Conforme bula</td></tr><tr><td>Nistatina + óxido de zinco</td><td>Pomada</td><td>Assaduras com componente de candidíase</td></tr><tr><td>Sulfeto de selênio</td><td>Xampu 25 mg/mL</td><td>Caspa, dermatite seborreica do couro cabeludo</td></tr></tbody></table></div><p>Onicomicose em uma ou poucas unhas, sem atingir a base (matriz), pode ser tratada com esmalte por muitos meses. Comprometimento de várias unhas, da matriz, diabético com lesão no pé ou imunossuprimido precisam de avaliação médica, porque o antifúngico oral (terbinafina comprimido, itraconazol, fluconazol) exige prescrição.</p><h3>Candidíase vaginal</h3><div class=\"tab\"><table><thead><tr><th>Produto MIP</th><th>Esquema (bula do Gino-Canesten®)</th></tr></thead><tbody><tr><td>Clotrimazol 500 mg comprimido ou cápsula vaginal</td><td>1 aplicação à noite, dose única</td></tr><tr><td>Clotrimazol creme vaginal 20 mg/g</td><td>1 aplicador (cerca de 5 g) à noite por 3 noites seguidas</td></tr><tr><td>Clotrimazol creme vaginal 10 mg/g</td><td>1 aplicador à noite por 6 noites seguidas</td></tr><tr><td>Miconazol creme vaginal 20 mg/g</td><td>Conforme o número de noites indicado na bula do produto</td></tr></tbody></table></div><div class=\"cx alerta\"><b>Atenção</b><p>Só trate candidíase vaginal no balcão quando a mulher já teve diagnóstico médico prévio e reconhece o mesmo quadro: prurido intenso e corrimento branco grumoso, sem odor. Encaminhe: primeiro episódio; gestante; menor de idade; corrimento com odor forte, amarelado ou esverdeado; dor pélvica, febre ou dor ao urinar; episódios repetidos ao longo do ano; diabetes descompensado; risco de infecção sexualmente transmissível. O fluconazol oral não consta da LMIP.</p></div><h3>Antissépticos e antibióticos tópicos</h3><p>Ferida superficial é limpa primeiro com água corrente e sabão neutro. Depois, se necessário, antisséptico. São MIP: iodopovidona (pomada 10% e sabonete; também na LMN), clorexidina em solução de 0,5% a 4% (LMN), álcool 70% (LMN, só em pele íntegra) e peróxido de hidrogênio 3% (LMN), este último pouco indicado em feridas porque lesa tecido de granulação. A neomicina pomada 5 mg/g e a associação neomicina + bacitracina constam da LMIP para impetigo, furúnculo e prevenção de infecção em ferimento cortante. A neomicina é causa frequente de dermatite de contato alérgica. A sulfadiazina de prata não consta da lista.</p><h3>Cicatrizantes e protetores</h3><p>Dexpantenol pomada 50 mg/g, óxido de zinco (pasta e pomada, LMN), associação de vitaminas A e D com óxido de zinco ou alantoína (assaduras), colagenase pomada (desbridamento enzimático de ferimentos leves, escoriações e escaras) e ureia creme 200 mg/g (pele seca, calosidades) são MIP. Entre os fitoterápicos do Anexo II, <em>Aloe vera</em>, <em>Calendula officinalis</em> e <em>Matricaria recutita</em> têm indicação de cicatrizante em queimaduras térmicas leves.</p><h3>Queimadura leve</h3><p>Primeiro grau (vermelhidão e dor, sem bolha) e pequenas queimaduras de segundo grau superficial podem ser conduzidas no balcão. Orientação: resfriar com água corrente fria por vários minutos (sem gelo), retirar anéis e relógios, não furar bolhas, não aplicar pasta de dente, manteiga, café ou clara de ovo, cobrir com curativo limpo não aderente e usar analgésico oral. Para eritema solar e queimadura de primeiro grau, o acetato de hidrocortisona 1% é MIP.</p><div class=\"cx alerta\"><b>Atenção</b><p>Encaminhe para atendimento: queimadura em face, mãos, pés, genitais ou sobre articulações; bolhas extensas (área maior que a palma da mão do paciente, que equivale a cerca de 1% da superfície corporal); queimadura química ou elétrica; queimadura em criança pequena ou idoso; lesão branca, acinzentada ou indolor (profunda); sinais de infecção.</p></div><h3>Hidrocortisona tópica</h3><p>O acetato de hidrocortisona creme ou pomada até 10 mg/g (1%) é o único corticoide tópico da LMIP. Indicação simplificada: dermatites, eczemas, eritema solar, queimadura de primeiro grau e picadas de inseto. Bula do Berlison®: camada fina 2 a 3 vezes ao dia e, após melhora, 1 vez ao dia; em bebês e crianças de até 4 anos, não ultrapassar 3 semanas, especialmente sob fralda. Não usar em micose, herpes, acne, rosácea ou ferida infectada. Betametasona, dexametasona, mometasona, clobetasol e associações com antifúngico ou antibiótico são de venda sob prescrição.</p><h3>Herpes labial</h3><p>O <strong>penciclovir</strong> creme 10 mg/g é o antiviral tópico da LMIP. Bula do Penvir Lábia®: aplicar a cada 2 horas enquanto acordado, por 4 dias, começando aos primeiros sinais (formigamento, ardor); não recomendado abaixo de 12 anos. O <strong>aciclovir creme não consta da LMIP</strong>: a bula do Zovirax® traz venda sob prescrição médica. Encaminhe herpes em criança pequena, imunossuprimido, lesão perto do olho, crises muito frequentes ou lesão que não cicatriza em 10 a 14 dias.</p><h3>Piolho e sarna</h3><div class=\"tab\"><table><thead><tr><th>Produto</th><th>Status</th><th>Como usar (bula)</th></tr></thead><tbody><tr><td>Permetrina 1% (10 mg/mL)</td><td>LMIP, pediculose</td><td>Xampu ou loção no cabelo molhado, deixar 10 minutos, enxaguar e passar pente fino; repetir após 7 a 14 dias se ainda houver piolhos (bula do Nedax®)</td></tr><tr><td>Permetrina 5% (50 mg/mL)</td><td>LMIP, escabiose</td><td>Pele limpa, seca e fria, do pescoço aos pés (incluir couro cabeludo em criança e idoso), remover após 8 a 14 horas; adulto até 30 g por aplicação; 6 a 12 anos até 15 g; 2 a 5 anos até 7,5 g; segunda aplicação em 7 a 10 dias se surgirem lesões novas</td></tr><tr><td>Deltametrina 0,2 mg/mL</td><td>LMIP, pediculose, ftiríase, escabiose</td><td>Aplicar no banho, deixar 5 minutos, enxaguar, por 4 dias seguidos; repetir o esquema 7 dias após a última aplicação (bula do Deltacid®)</td></tr><tr><td>Benzoato de benzila (emulsão, sabonete)</td><td>LMN</td><td>Diluir conforme bula (o Sanasar® orienta 1:1 em adultos e 1:3 em crianças); irrita a pele</td></tr><tr><td>Tiabendazol tópico 5%</td><td>LMN, larva migrans e escabiose</td><td>Larva migrans: 3 vezes ao dia por 5 dias; não usar em gestante e lactante</td></tr><tr><td>Ivermectina oral</td><td>Fora da LMIP</td><td>Somente com prescrição</td></tr></tbody></table></div><p>Coceira pode persistir por até algumas semanas após o tratamento correto da escabiose e, segundo a bula da permetrina 5%, raramente indica falha. Todos os contatos da casa são tratados ao mesmo tempo, e roupas de cama, toalhas e roupas usadas nos últimos dias são lavadas com água quente ou guardadas fechadas em saco plástico por alguns dias.</p><h3>Acne e rosácea</h3><p>O <strong>peróxido de benzoíla</strong> é medicamento de notificação simplificada (LMN) em sabonete 2,5% e 5%, loção 5% e gel 10%. Texto da LMN para o gel 10%: aplicar à noite; na primeira semana, manter por 1 hora e enxaguar; sem irritação, passar a manter a noite inteira; usar fotoprotetor durante o dia; uso a partir de 12 anos. Descolore cabelo, tecidos e toalhas. Constam ainda da LMIP o ácido azelaico (creme 200 mg/g e gel 150 mg/g, acne e rosácea papulopustulosa), o metronidazol creme ou gel 7,5 mg/g (rosácea) e o ácido salicílico gel 270 mg/g, indicado para verrugas comuns. Adapaleno, tretinoína, clindamicina e eritromicina tópicas e isotretinoína oral exigem prescrição. Encaminhe acne com nódulos, cistos, cicatrizes, piora emocional importante ou sem resposta após algumas semanas de uso correto.</p><h3>Fotoprotetores</h3><p>Protetores solares são regularizados na Anvisa como cosméticos, mesmo quando vendidos em farmácia. A orientação farmacêutica continua necessária: fator de proteção alto e proteção UVA indicada no rótulo, quantidade suficiente, reaplicação a cada 2 horas e após suor ou banho de mar, barreiras físicas (chapéu, roupa, sombra) e cuidado com bebês, que devem ficar longe do sol direto. Quem usa peróxido de benzoíla, ácido azelaico ou retinoide precisa de fotoproteção rigorosa.</p><div class=\"cx balcao\"><b>No balcão</b><p>Peça para ver a lesão quando o ambiente permitir privacidade. Pergunte há quanto tempo existe, se coça ou dói, se tem secreção, se já usou algum creme (corticoide mascara micose), se há pessoas na casa com o mesmo quadro, se é diabético ou imunossuprimido.</p><p>Encaminhe: lesão extensa, febre, celulite (vermelhidão quente que se espalha), lesão em face próxima ao olho, ferida que não cicatriza em 2 semanas, pinta que muda de forma, cor ou tamanho, lesão em mucosa genital sem diagnóstico.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Rapaz de 20 anos, jogador de futebol, com descamação e coceira entre o quarto e o quinto dedo dos pés há 3 semanas, sem dor, secreção ou vermelhidão subindo pelo pé. Já usou pomada de corticoide com antibiótico que \"melhorou e voltou\". Conduta: suspender o corticoide, terbinafina creme ou clotrimazol creme conforme bula, mantendo por 2 semanas após a cura aparente; secar bem entre os dedos, trocar meias diariamente, chinelo em vestiário. Encaminhar se não melhorar em 2 a 4 semanas.</p></div>"
+  },
+  {
+   "id": "m01-b-antiparasitarios",
+   "titulo": "Antiparasitários intestinais",
+   "resumo": "<p>Verminoses intestinais continuam frequentes no Brasil, sobretudo em crianças e em áreas com saneamento precário. A automedicação com \"vermífugo\" é antiga e, em parte, culturalmente aceita. O farmacêutico precisa saber que apenas dois antiparasitários orais constam da LMIP.</p><h3>Enquadramento</h3><div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Status</th><th>Forma e concentração</th></tr></thead><tbody><tr><td>Mebendazol</td><td>LMIP</td><td>Comprimido 500 mg; suspensão oral 20 mg/mL</td></tr><tr><td>Levamisol</td><td>LMIP, apenas ascaridíase</td><td>Comprimido até 150 mg</td></tr><tr><td>Albendazol</td><td>Fora da LMIP</td><td>A bula do Zentel® traz venda sob prescrição médica</td></tr><tr><td>Ivermectina, nitazoxanida, secnidazol, metronidazol oral, tinidazol, praziquantel</td><td>Fora da LMIP</td><td>Venda sob prescrição</td></tr></tbody></table></div><div class=\"cx chave\"><b>Ponto-chave</b><p>Albendazol é provavelmente o vermífugo mais pedido pelo nome, e não é MIP. Pedido de albendazol sem receita deve ser redirecionado: avalie se cabe mebendazol e, se o quadro sugerir outra parasitose (giardíase, amebíase, estrongiloidíase, teníase), encaminhe.</p></div><h3>Mebendazol</h3><p>Benzimidazol que inibe a polimerização da tubulina do parasita e bloqueia a captação de glicose. Pouco absorvido, age na luz intestinal. Indicações da bula do Pantelmin®: <em>Enterobius vermicularis</em> (oxiúro), <em>Trichuris trichiura</em>, <em>Ascaris lumbricoides</em>, ancilostomídeos e, na suspensão, também tênias.</p><div class=\"tab\"><table><thead><tr><th>Apresentação</th><th>Esquema (bula do Pantelmin®)</th></tr></thead><tbody><tr><td>Comprimido 500 mg</td><td>Adultos e crianças acima de 1 ano: 1 comprimido em dose única, com um pouco de líquido, sem jejum ou dieta</td></tr><tr><td>Suspensão 20 mg/mL, nematódeos</td><td>5 mL (100 mg) 2 vezes ao dia por 3 dias seguidos, independentemente de peso e idade</td></tr><tr><td>Suspensão 20 mg/mL, cestódeos</td><td>Adultos: 10 mL (200 mg) 2 vezes ao dia por 3 dias; crianças: 5 mL 2 vezes ao dia por 3 dias</td></tr></tbody></table></div><p>Contraindicado abaixo de 1 ano pelo risco de convulsão; entre 1 e 2 anos, só se o benefício justificar, o que no balcão significa encaminhar ao pediatra. Na gestação, não usar sem orientação médica. Efeitos adversos: dor abdominal, diarreia, náusea; raramente reação de hipersensibilidade. A bula orienta evitar o uso junto com metronidazol (relato de síndrome de Stevens-Johnson e necrólise epidérmica tóxica) e avisar o médico se o paciente usa cimetidina.</p><h3>Levamisol</h3><p>Agonista nicotínico que paralisa o áscaris, eliminado em até 24 horas. Dose única ao deitar, sem laxante ou dieta (bula do Ascaridil®): lactentes até 1 ano, 40 mg; 1 a 7 anos, 80 mg; acima de 7 anos e adultos, 150 mg. Serve apenas para ascaridíase. É tratamento de dose única.</p><h3>Repetição de dose e medidas gerais</h3><p>Na <strong>oxiuríase</strong> há autoinfecção (ovos na região perianal levados à boca pelas mãos) e reinfecção entre moradores. Por isso, protocolos internacionais (como o do CDC norte-americano) recomendam repetir a dose após 2 semanas e tratar todos da casa ao mesmo tempo. A bula do mebendazol no Brasil não traz esquema de repetição, de modo que a segunda dose deve ser combinada com o prescritor ou registrada como orientação farmacêutica fundamentada. Medidas que valem para qualquer verminose: lavar as mãos antes de comer e após usar o banheiro, manter unhas curtas, trocar e lavar roupas íntimas e de cama, lavar bem frutas e verduras, beber água tratada ou fervida, andar calçado.</p><p>\"Vermífugo de seis em seis meses\" para toda a família sem sintomas não é indicação de balcão. A bula do Pantelmin® cita o tratamento repetido 3 a 4 vezes ao ano em áreas altamente endêmicas, estratégia de saúde pública organizada pelo SUS que não se transfere para a rotina individual.</p><div class=\"cx alerta\"><b>Atenção</b><p>Encaminhe: criança menor de 2 anos; gestante; diarreia com sangue ou muco; diarreia prolongada, perda de peso ou anemia; eliminação de \"pedaços brancos e achatados\" (proglotes de tênia), porque a teníase pelo <em>Taenia solium</em> se relaciona à cisticercose; prurido anal que persiste após o tratamento correto; sintomas após viagem ou contato com água de rio e lagoa (esquistossomose).</p></div><div class=\"cx balcao\"><b>No balcão</b><p>Pergunte: quem tem os sintomas e qual a idade e o peso; qual o sintoma (coceira anal noturna sugere oxiúro; eliminação de verme longo e cilíndrico sugere áscaris); há outras pessoas na casa com o mesmo quadro; houve diarreia com sangue, febre ou perda de peso; gestação.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Mãe relata que a filha de 6 anos acorda à noite com coceira anal e que viu \"vermezinhos brancos e finos\" nas fezes. O irmão de 9 anos tem o mesmo sintoma. Conduta: mebendazol 500 mg em dose única para as duas crianças e para os adultos da casa, higiene de mãos e unhas, troca diária de roupa íntima e de cama, orientação de repetir em 2 semanas conforme combinado com o pediatra; encaminhar se persistir.</p></div>"
+  },
+  {
+   "id": "m01-b-vitaminas",
+   "titulo": "Vitaminas, minerais e suplementos",
+   "resumo": "<p>Vitaminas e minerais chegam à prateleira por três caminhos regulatórios diferentes, e o cliente raramente percebe a diferença. O farmacêutico precisa reconhecer em qual categoria está o produto, porque isso define se é MIP, se exige receita e o que o rótulo pode prometer.</p><h3>Categorias regulatórias</h3><div class=\"tab\"><table><thead><tr><th>Categoria</th><th>Base normativa</th><th>Como reconhecer</th><th>Exemplos</th></tr></thead><tbody><tr><td>Medicamento registrado</td><td>Registro na Anvisa; categoria de venda definida no registro (RDC 882/2024 para MIP)</td><td>Número de registro do Ministério da Saúde, bula, indicação terapêutica; pode ter tarja</td><td>Vitamina D em gotas de alta concentração, ferro polimaltosado, complexo B injetável ou em alta dose</td></tr><tr><td>Medicamento de notificação simplificada</td><td>RDC 576/2021; lista na IN 106/2021 com atualizações (IN 430/2026)</td><td>Venda isenta de prescrição por definição; texto de rótulo padronizado pela LMN</td><td>Sulfato ferroso, ácido fólico 0,2 mg/mL, carbonato de cálcio + colecalciferol</td></tr><tr><td>Suplemento alimentar</td><td>RDC 243/2018 e IN 28/2018 (listas de constituintes, limites mínimos e máximos, alegações)</td><td>É alimento; não pode alegar tratar, curar ou prevenir doença; limites por faixa etária</td><td>Polivitamínicos, vitamina D e magnésio em cápsulas</td></tr></tbody></table></div><p>Na conferência feita para este material, bulas de vários medicamentos vitamínicos e minerais muito procurados trazem \"Venda sob prescrição médica\": Addera D3®, Depura®, DPrev®, Noripurum® gotas, Neutrofer®, Combiron®, Citoneurin®, Benerva® e Endofolin® (ácido fólico 5 mg). Portanto, ser vitamina não torna o produto MIP. O suplemento alimentar, por sua vez, dispensa receita, mas também não pode ser indicado para tratar deficiência diagnosticada como se fosse medicamento.</p><div class=\"cx chave\"><b>Ponto-chave</b><p>Para saber se um produto vitamínico é MIP, olhe a embalagem: medicamento registrado traz a categoria de venda (com ou sem tarja); produto notificado segue a LMN; suplemento alimentar traz a designação de suplemento e não tem bula. A IN 28/2018 limita as doses diárias dos suplementos por grupo populacional, e esses limites são revistos periodicamente por novas INs.</p></div><h3>Ferro</h3><p>O sulfato ferroso consta da LMN em comprimido de 40 mg e de 60 mg de ferro elementar e em solução oral de 25 mg/mL de ferro elementar, com indicação de auxiliar nas anemias carenciais.</p><div class=\"tab\"><table><thead><tr><th>Apresentação (LMN)</th><th>Posologia do texto padronizado</th></tr></thead><tbody><tr><td>Comprimido 40 ou 60 mg de ferro elementar</td><td>Adulto: 1 comprimido ao dia, por via oral, em jejum</td></tr><tr><td>Solução 25 mg/mL de ferro elementar</td><td>Maiores de 12 anos e adultos: 4 mL 1 vez ao dia; 6 a 18 meses: 1 mL 1 vez por semana; 18 meses a 6 anos: 1 mL 1 vez ao dia; 6 a 12 anos: 2 mL 1 vez ao dia</td></tr></tbody></table></div><p>Advertências da LMN: cautela em doença hepática, úlcera péptica, alcoolismo e insuficiência renal; evitar uso por mais de 6 meses; não usar em anemia hemolítica. Efeitos adversos: constipação ou diarreia, náusea, dor abdominal, fezes escuras (esperado, deve ser avisado), escurecimento dos dentes com a solução (usar canudo ou escovar após).</p><p>Interações de absorção: antiácidos, omeprazol, cálcio, leite e derivados, chá e café reduzem a absorção; vitamina C aumenta. O ferro reduz a absorção de levotiroxina, quinolonas, tetraciclinas e bisfosfonatos: separar por pelo menos 2 horas, ou conforme a bula do outro fármaco.</p><div class=\"cx alerta\"><b>Atenção</b><p>Ferro é causa importante de intoxicação grave em crianças pequenas. Oriente guardar fora do alcance e da vista, nunca chamar de \"balinha\" e procurar pronto-socorro imediatamente em ingestão acidental. Anemia em homem adulto ou em mulher após a menopausa pode significar sangramento digestivo oculto: encaminhe para investigação em vez de apenas vender ferro.</p></div><h3>Ácido fólico</h3><p>A LMN inclui a solução de ácido fólico 0,2 mg/mL, com duas indicações: redução da ocorrência de malformações fetais (adulto, 2 mL ao dia, ou seja, 0,4 mg) e tratamento da carência de folatos (até 5 mL ao dia, 1 mg). O texto padronizado alerta que doses acima de 0,1 mg/dia podem mascarar anemia perniciosa (o sangue normaliza enquanto o dano neurológico progride) e que doses muito altas podem precipitar convulsões em quem usa fenitoína. O ácido fólico 5 mg (Endofolin®) é de venda sob prescrição.</p><p>Mulher que planeja engravidar deve iniciar ácido fólico antes da concepção e manter no início da gestação, de preferência com acompanhamento do pré-natal. É um ótimo momento para o farmacêutico perguntar sobre planejamento reprodutivo e encaminhar à unidade de saúde.</p><h3>Vitamina D e cálcio</h3><p>A LMN inclui carbonato de cálcio 1250 mg (500 mg de cálcio elementar) com colecalciferol 200 UI ou 400 UI, para prevenção do raquitismo e auxílio na desmineralização óssea. Posologia padronizada: adultos, 1 a 3 comprimidos ao dia (200 UI) ou 1 a 2 comprimidos ao dia (400 UI), após as refeições; uso pediátrico, 1 comprimido ao dia. Contraindicações: hipercalcemia, hipervitaminose D, hipersensibilidade.</p><p>Medicamentos de vitamina D em alta concentração (gotas, comprimidos ou cápsulas de doses semanais ou mensais) são, nos produtos conferidos, de venda sob prescrição. Doses altas sem dosagem prévia e sem acompanhamento podem causar hipercalcemia: sede, aumento da urina, náusea, vômitos, constipação, confusão, cálculo renal e arritmia. Cálcio isolado causa constipação, interage com ferro, levotiroxina, quinolonas e tetraciclinas e deve ser usado com cautela por quem tem cálculo renal.</p><h3>Complexo B e polivitamínicos</h3><p>Produtos com vitaminas B1, B6 e B12 em doses altas (Citoneurin®, Benerva®) são de venda sob prescrição. Vitamina B6 em dose alta e uso prolongado causa neuropatia periférica. Polivitamínicos de uso diário costumam ser suplementos alimentares. Para o cliente que pede \"algo para cansaço\", a vitamina raramente é a resposta: cansaço persistente pode ser anemia, hipotireoidismo, depressão, apneia do sono ou diabetes, e merece avaliação médica. O Anexo II da LMIP inclui fitoterápicos com indicação de cansaço físico e mental (<em>Panax ginseng</em>, <em>Paullinia cupana</em>), que estimulam e podem elevar a pressão e causar insônia.</p><div class=\"cx balcao\"><b>No balcão</b><p>Pergunte: para que o cliente quer a vitamina, se tem exame com deficiência diagnosticada, se está grávida ou planejando, que medicamentos usa (levotiroxina, anticonvulsivantes, anticoagulantes), se já toma outros suplementos (a soma das doses importa) e se tem doença renal ou cálculo.</p><p>Ao entregar ferro: em jejum ou longe de leite, café e antiácido, fezes escuras são esperadas, guardar longe de crianças, retornar ao médico para controle. Ao entregar vitamina D: não somar com outro produto que já contenha vitamina D sem orientação.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 28 anos diz que vai \"tentar engravidar\" e pede um polivitamínico \"para gestante\". Conduta: explicar a importância do ácido fólico antes da concepção, indicar ácido fólico 0,4 mg ao dia (2 mL da solução 0,2 mg/mL, conforme a LMN), orientar consulta pré-concepcional na unidade de saúde, revisar medicamentos em uso (anticonvulsivantes, isotretinoína, varfarina) e registrar a orientação.</p></div>"
+  },
+  {
+   "id": "m01-b-olhos-ouvidos-boca",
+   "titulo": "Olhos, ouvidos e boca",
+   "resumo": "<p>Olhos, ouvidos e boca têm MIP úteis e também os sintomas de alarme mais traiçoeiros do balcão. Dor ocular, baixa de visão e dor de ouvido com febre não são casos de automedicação.</p><h3>Lubrificantes oculares (lágrimas artificiais)</h3><p>Constam da LMIP, com indicação de lubrificante oftálmico: carmelose sódica 10 mg/mL (isolada ou com glicerol), hialuronato de sódio 2 mg/mL, hipromelose 5 mg/mL, dextrana com hipromelose (com ou sem glicerol), álcool polivinílico 14 mg/mL, carbômer gel (com ou sem sorbitol) e macrogol com propilenoglicol (com ou sem hidroxipropil guar). Indicação de balcão: olho seco por tela, ar-condicionado, vento, leitura prolongada. Uso: 1 a 2 gotas várias vezes ao dia, conforme bula; o gel é melhor à noite porque embaça a visão.</p><ul><li>Usuário de lente de contato: escolher produto compatível com lente ou sem conservante (o cloreto de benzalcônio adere às lentes gelatinosas); na dúvida, retirar a lente e aguardar o tempo da bula.</li><li>Frascos multidose têm validade curta após abertos, definida na bula. Flaconetes de dose única sem conservante são descartados após o uso.</li><li>Não encostar a ponta do frasco no olho ou nos cílios.</li><li>Mais de um colírio: intervalo de cerca de 5 minutos entre eles.</li></ul><h3>Vasoconstritores oculares</h3><p>Constam da LMIP: nafazolina + feniramina (0,25 + 3 mg/mL), nafazolina + sulfato de zinco (0,15 + 0,3 mg/mL) e cloreto de benzalcônio + ácido bórico (irritação e higiene ocular). Bula do Colírio Moura Brasil®: 1 a 2 gotas no olho afetado até 4 vezes ao dia; procurar o médico se a irritação persistir, se houver dor ou alteração da visão. Contraindicações de vasoconstritores: glaucoma de ângulo fechado e uso de IMAO.</p><div class=\"cx alerta\"><b>Atenção</b><p>O vasoconstritor clareia o olho por algumas horas, mas o uso contínuo causa <strong>hiperemia de rebote</strong> e dependência do colírio. Indique por poucos dias, para irritação leve, e nunca para olho vermelho com dor, secreção purulenta, fotofobia ou baixa da visão. Colírios com antibiótico, corticoide, anti-inflamatório ou anti-glaucomatoso exigem prescrição.</p></div><div class=\"tab\"><table><thead><tr><th>Sinal de alarme ocular</th><th>Possível causa</th><th>Conduta</th></tr></thead><tbody><tr><td>Dor ocular intensa, visão embaçada, halos, náusea</td><td>Glaucoma agudo</td><td>Emergência oftalmológica</td></tr><tr><td>Olho vermelho em usuário de lente de contato</td><td>Ceratite</td><td>Retirar a lente e procurar oftalmologista no mesmo dia</td></tr><tr><td>Respingo de produto químico</td><td>Queimadura química</td><td>Lavar com água corrente abundante por vários minutos e ir ao pronto-socorro</td></tr><tr><td>Corpo estranho que não sai, trauma</td><td>Lesão de córnea</td><td>Não esfregar; encaminhar</td></tr><tr><td>Secreção purulenta, pálpebras coladas</td><td>Conjuntivite bacteriana</td><td>Avaliação médica</td></tr></tbody></table></div><h3>Ouvidos</h3><p>A LMIP inclui duas soluções otológicas com indicação simplificada de dor de ouvido e remoção de cerume: hidroxiquinolina + trolamina (0,4 + 140 mg/mL) e fenol + mentol (18,6 + 1,3 mg/mL). Bula do Cerumin®: 5 gotas no ouvido afetado, 3 vezes ao dia, com intervalo de cerca de 8 horas, aplicadas com a pessoa deitada e o ouvido para cima, mantendo a posição por 5 minutos; o refluxo da solução é normal.</p><div class=\"cx alerta\"><b>Atenção</b><p>Não pingue nada no ouvido se houver suspeita de perfuração do tímpano (saída de secreção ou sangue, dor que melhorou de repente após muita dor), tubo de ventilação, cirurgia prévia no ouvido, febre ou dor intensa. Dor de ouvido em criança com febre é otite média até prova em contrário e precisa de avaliação. Antibióticos e corticoides otológicos não são MIP. Cotonete empurra o cerume e pode ferir o canal.</p></div><h3>Boca e garganta</h3><p>MIP de uso bucal: cloridrato de benzidamina colutório 1,5 mg/mL (inflamação da boca e garganta), cetilpiridínio em solução, associações para aftas com camomila (<em>Matricaria chamomilla</em>), lidocaína e polidocanol em gel ou solução, tirotricina com hidroxiquinolina e fluoreto (gel), neomicina com bismuto e procaína (suspensão para aftas) e procaína com timol, mentol e cânfora. Enxaguantes de uso diário sem indicação terapêutica costumam ser produtos de higiene bucal regularizados como cosméticos.</p><ul><li>Afta comum: pequena, dolorosa, com halo vermelho, cicatriza em 7 a 14 dias. Anestésico tópico alivia a dor para comer.</li><li>Encaminhe ao dentista ou médico: lesão que não cicatriza em 2 a 3 semanas, mancha branca ou vermelha que não sai ao raspar, lesão endurecida, especialmente em fumante e etilista (risco de câncer de boca); múltiplas lesões com febre em criança; aftas muito frequentes.</li><li>Dor de dente: analgésico como ponte até o dentista; abscesso com inchaço no rosto, febre ou dificuldade para abrir a boca é urgência.</li><li>Gengivas que sangram ao escovar indicam doença periodontal; o antisséptico não substitui o tratamento odontológico.</li></ul><div class=\"cx balcao\"><b>No balcão</b><p>Olho: pergunte se há dor, alteração da visão, secreção, trauma, uso de lente de contato, glaucoma. Ouvido: dor, febre, secreção, sensação de ouvido tapado após banho ou piscina, cirurgia prévia. Boca: há quanto tempo a lesão existe, se dói, se é recorrente, se fuma.</p><p>Ao entregar colírio, ensine a técnica: lavar as mãos, inclinar a cabeça, puxar a pálpebra inferior, pingar sem encostar, fechar o olho por 1 a 2 minutos comprimindo o canto interno.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Analista de sistemas de 30 anos, usuária de lente de contato gelatinosa, pede colírio \"para tirar a vermelhidão\" de olhos ardidos no fim do expediente, sem dor, secreção ou baixa da visão. Conduta: não indicar vasoconstritor de uso contínuo; lágrima artificial sem conservante ou compatível com lentes, pausas de tela, reduzir horas de uso da lente; encaminhar ao oftalmologista se surgir dor, secreção ou fotofobia.</p></div>"
+  },
+  {
+   "id": "m01-b-outros",
+   "titulo": "Outros produtos de balcão",
+   "resumo": "<p>Alguns MIP não cabem nas classes anteriores, mas aparecem todos os dias no balcão: a terapia de reposição de nicotina, os fitoterápicos, o analgésico urinário, os produtos para hemorroidas e a solução capilar para calvície. Ao lado deles, dois itens que o cliente costuma achar que são de venda livre: o contraceptivo de emergência e certos testes.</p><h3>Terapia de reposição de nicotina</h3><p>A nicotina do adesivo, da goma ou da pastilha alivia a síndrome de abstinência (irritabilidade, ansiedade, fissura, insônia, aumento do apetite) sem o monóxido de carbono e as substâncias cancerígenas da fumaça. A LMIP inclui o adesivo transdérmico até 21 mg e a goma de mascar e a pastilha até 4 mg, com indicação de dependência do tabaco. Funciona melhor quando associada a aconselhamento comportamental, oferecido gratuitamente no SUS.</p><div class=\"tab\"><table><thead><tr><th>Forma</th><th>Esquema (bulas)</th><th>Como usar</th></tr></thead><tbody><tr><td>Adesivo 24 horas (NiQuitin®, Nicotinell®)</td><td>Mais de 10 cigarros/dia: 21 mg por 6 semanas, 14 mg por 2 semanas, 7 mg por 2 semanas. Até 10 cigarros/dia: 14 mg por 6 semanas, 7 mg por 2 semanas</td><td>1 adesivo por dia, pela manhã, em pele limpa, seca e sem pelos; trocar o local a cada dia e não repetir o mesmo local por 7 dias; não cortar</td></tr><tr><td>Goma (Nicorette®)</td><td>Iniciar com 2 mg; quem fuma mais de 20 cigarros/dia inicia com 4 mg; máximo 30 gomas de 2 mg ou 24 de 4 mg por dia</td><td>Mascar devagar até sentir sabor forte ou formigamento, \"estacionar\" entre bochecha e gengiva, voltar a mascar; cerca de 30 minutos por goma</td></tr><tr><td>Pastilha (NiQuitin®)</td><td>2 mg se o primeiro cigarro é após 30 minutos do despertar; 4 mg se é nos primeiros 30 minutos. Semanas 1 a 6: 1 a cada 1 a 2 horas (mínimo 9 por dia); 7 a 9: a cada 2 a 4 horas; 10 a 12: a cada 4 a 8 horas; máximo 20 por dia; até 24 semanas</td><td>Deixar dissolver movendo na boca (20 a 30 minutos); não mastigar nem engolir; não comer ou beber durante o uso</td></tr></tbody></table></div><p>Idade mínima conforme o produto: a bula do NiQuitin® contraindica abaixo de 12 anos e a do Nicorette® abaixo de 18 anos. Efeitos adversos: irritação no local do adesivo, sonhos vívidos e insônia (adesivo de 24 horas pode ser retirado ao deitar), soluço, irritação da boca e dor na mandíbula com a goma, náusea. Sinais de excesso de nicotina (náusea, salivação, palpitação, tontura) indicam que a pessoa continua fumando junto ou que a dose está alta.</p><div class=\"cx alerta\"><b>Atenção</b><p>Precisam de avaliação médica antes da reposição: infarto ou AVC recentes, arritmia grave, angina instável, gestação e amamentação. Ainda assim, para quase todos os cardiopatas a nicotina medicinal é muito menos perigosa do que continuar fumando; a decisão cabe ao médico, e o papel do farmacêutico é encaminhar. Bupropiona e vareniclina exigem prescrição.</p></div><h3>Fitoterápicos MIP</h3><p>O Anexo II da LMIP (IN 285/2024) lista 57 espécies ou associações de fitoterápicos isentos de prescrição. Para ser MIP, o produto precisa ter a mesma espécie, a mesma parte da planta e a mesma indicação da linha da lista (IN 285/2024, art. 1º, § 3º), e ser registrado ou notificado como medicamento na Anvisa. Chá vendido como alimento não tem indicação terapêutica.</p><div class=\"tab\"><table><thead><tr><th>Indicação de balcão</th><th>Espécies do Anexo II</th><th>Cuidado principal</th></tr></thead><tbody><tr><td>Varizes, peso e inchaço nas pernas</td><td><i>Aesculus hippocastanum</i> (castanha-da-índia), <i>Centella asiatica</i>, <i>Vitis vinifera</i></td><td>Edema de uma perna só, quente e dolorosa: suspeitar de trombose e encaminhar</td></tr><tr><td>Dispepsia, azia, digestão lenta</td><td><i>Peumus boldus</i> (boldo), <i>Cynara scolymus</i> (alcachofra), <i>Monteverdia ilicifolia</i> (espinheira-santa), <i>Glycyrrhiza glabra</i> (alcaçuz), <i>Silybum marianum</i></td><td>Alcaçuz eleva pressão e baixa potássio; boldo não é para gestante; obstrução biliar contraindica coleréticos</td></tr><tr><td>Tosse e gripe</td><td><i>Hedera helix</i> (hera), <i>Mikania glomerata</i> (guaco), <i>Thymus vulgaris</i>, <i>Pelargonium sidoides</i>, <i>Eucalyptus globulus</i></td><td>Guaco tem cumarina: cautela com varfarina</td></tr><tr><td>Ansiedade leve e insônia</td><td><i>Passiflora incarnata</i>, associações com <i>Valeriana officinalis</i>, <i>Crataegus</i>, <i>Salix alba</i>; <i>Melissa officinalis</i></td><td>Somam sedação com álcool e benzodiazepínicos; ansiedade intensa precisa de avaliação</td></tr><tr><td>Cansaço físico e mental</td><td><i>Panax ginseng</i>, <i>Paullinia cupana</i> (guaraná), <i>Rhodiola rosea</i></td><td>Insônia, palpitação, aumento da pressão</td></tr><tr><td>Constipação ocasional</td><td><i>Senna alexandrina</i>, <i>Cassia fistula</i>, <i>Frangula purshiana</i>, <i>Plantago ovata</i></td><td>Estimulantes só por curto período</td></tr><tr><td>Cinetose e náusea</td><td><i>Zingiber officinale</i> (gengibre)</td><td>Cautela com anticoagulantes em doses altas</td></tr><tr><td>Trato urinário</td><td><i>Vaccinium macrocarpon</i> (cranberry): prevenção de infecção urinária; <i>Serenoa repens</i>: sintomas de hiperplasia prostática depois que um médico excluiu doenças mais sérias</td><td>Cranberry não trata infecção instalada</td></tr><tr><td>Climatério</td><td><i>Glycine max</i> (soja, isoflavonas)</td><td>Ondas de calor intensas ou sangramento pós-menopausa: médico</td></tr><tr><td>Dor articular e lombar leve</td><td><i>Harpagophytum</i> (garra-do-diabo), <i>Salix alba</i>, <i>Uncaria tomentosa</i></td><td><i>Salix</i> contém salicilatos: mesmas restrições do AAS</td></tr></tbody></table></div><p>Ginkgo biloba e <em>Hypericum perforatum</em> (erva-de-são-joão) não constam do Anexo II. A erva-de-são-joão é potente indutora enzimática e reduz o efeito de anticoncepcionais, varfarina, ciclosporina e antirretrovirais, razão a mais para perguntar sobre \"chás e remédios naturais\" em toda anamnese.</p><h3>Contraceptivo de emergência</h3><p>O levonorgestrel 1,5 mg em dose única (Postinor Uno® e similares) <strong>não consta da LMIP</strong>, e a bula traz \"Venda sob prescrição médica\". É de tarja vermelha sem retenção de receita. Por não ser MIP, não pode ser objeto da prescrição farmacêutica de medicamentos isentos regulamentada pela Resolução CFF nº 586/2013, e sua dispensação depende de prescrição. Também é oferecido gratuitamente nas unidades de saúde do SUS.</p><ul><li>Uso (bula do Postinor Uno®): 1 comprimido o mais cedo possível após a relação desprotegida, sem ultrapassar 72 horas; a eficácia cai com a demora.</li><li>Vômito em até 4 horas após a dose: repetir a dose.</li><li>Age principalmente impedindo ou retardando a ovulação; não interrompe gravidez já implantada.</li><li>Não protege contra infecções sexualmente transmissíveis; orientar testagem e preservativo.</li><li>A menstruação pode adiantar ou atrasar; atraso importante pede teste de gravidez.</li><li>Indutores enzimáticos (carbamazepina, fenitoína, rifampicina, efavirenz, erva-de-são-joão) reduzem a eficácia; a mulher deve procurar o serviço de saúde.</li><li>Não é método de uso regular: oriente planejamento reprodutivo na unidade de saúde.</li></ul><div class=\"cx balcao\"><b>No balcão</b><p>Atenda em local reservado, sem julgamento. Diante de pedido sem receita, explique que o medicamento exige prescrição, informe que a unidade básica de saúde, a UPA e os serviços de referência fornecem o contraceptivo de emergência e que o tempo importa. Se houver relato de violência sexual, oriente atendimento imediato no serviço de referência, que oferece contracepção de emergência, profilaxias e acolhimento.</p></div><h3>Fenazopiridina</h3><p>Analgésico local das vias urinárias, consta da LMIP em comprimido de 200 mg para dor, ardor e desconforto ao urinar. Bula do Pyridium®: 200 mg a cada 8 horas, após as refeições. Colore a urina de laranja ou vermelho e pode manchar roupas e lentes de contato. Se os sintomas persistirem por mais de 2 dias, o médico deve ser consultado; pele ou olhos amarelados indicam acúmulo do fármaco (função renal reduzida) e exigem suspensão.</p><div class=\"cx alerta\"><b>Atenção</b><p>A fenazopiridina alivia o sintoma e não trata a infecção urinária. Ela pode mascarar a evolução para pielonefrite. Encaminhe sempre: homem, gestante, criança, idoso frágil, febre, dor lombar, sangue na urina, sintomas recorrentes, diabetes descompensado. Mulher adulta sem esses sinais precisa de avaliação para antibiótico, e a fenazopiridina é apenas ponte de até 2 dias.</p></div><h3>Hemorroidas</h3><p>MIP para hemorroidas e fissuras: policresuleno + cinchocaína (pomada retal 50 + 10 mg/g e supositório), tribenosídeo + lidocaína (creme retal e supositório) e o fitoterápico <em>Hamamelis virginiana</em>. Para hematomas e flebite superficial, o polissulfato de mucopolissacarídeo e a heparina sódica em gel. Orientação: fibras, água, não forçar a evacuação, banho de assento morno. Sangramento retal sem diagnóstico, sobretudo após os 45 a 50 anos ou com mudança do hábito intestinal, deve ser investigado.</p><h3>MIP pouco lembrados</h3><ul><li>Alfaestradiol solução capilar 0,25 mg/mL: alopecia androgenética. O minoxidil tópico não consta da LMIP.</li><li>Menaeptenona (vitamina K2) 180 mcg: auxiliar na mineralização óssea.</li><li>Acetato de hidrocortisona 1%, penciclovir e colagenase: tópicos já vistos, que muitos alunos imaginam ser tarjados.</li><li>Nistatina oral, aciclovir creme, cetoconazol comprimido, fluconazol, albendazol e dimenidrinato: o inverso, tarjados que o cliente imagina serem de venda livre.</li></ul><h3>Testes rápidos e autotestes</h3><p>Os exames de análises clínicas feitos na farmácia seguem a RDC 978/2025, que revogou a RDC 786/2023. A farmácia que executa exames é <strong>serviço tipo I</strong> (art. 8º): só usa amostra obtida por punção capilar (glicemia, testes rápidos em sangue) ou swab nasal e orofaríngeo e faz todas as etapas no próprio estabelecimento, com controle interno e externo da qualidade (art. 10). A atividade precisa constar da licença sanitária (art. 63), o exame é feito por profissional legalmente habilitado (art. 11) e tem finalidade de triagem, nunca confirmatória (art. 60). O resultado vai na Declaração de Serviço Farmacêutico, com o valor de referência e a frase de que o procedimento não tem finalidade de diagnóstico, e os registros são guardados por no mínimo 5 anos. O Ministério da Saúde publicou nota técnica sobre testes rápidos de HIV, sífilis e hepatites virais em farmácias habilitadas, com exigência de confirmação laboratorial dos resultados reagentes.</p><p>Autotestes vendidos para uso em casa (gravidez, HIV, covid-19, entre outros) são produtos para diagnóstico in vitro registrados na Anvisa, fora da categoria de medicamentos. A RDC 978/2025 não se aplica à venda de autotestes regularizados. Ao vender, oriente sobre janela imunológica, leitura correta, necessidade de confirmação e onde buscar atendimento em caso de resultado reagente.</p><div class=\"cx exemplo\"><b>Caso</b><p>Homem de 45 anos, fumante de 25 cigarros por dia que acende o primeiro logo ao acordar, quer parar de fumar. Sem infarto, AVC ou arritmia. Conduta: adesivo de 21 mg por 6 semanas, 14 mg por 2 semanas e 7 mg por 2 semanas; marcar data para parar; encaminhar ao programa de cessação do SUS para apoio comportamental; orientar sobre irritação da pele e insônia; agendar retorno na farmácia em 2 semanas para acompanhar sintomas de abstinência.</p></div>"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m01-b-mapa-dor",
+   "titulo": "Dor e febre no balcão",
+   "centro": "Dor e febre",
+   "ramos": [
+    {
+     "t": "Paracetamol",
+     "itens": [
+      "Adulto: 500 a 1000 mg a cada 4 a 6 h",
+      "Máximo 4 g/dia; até 1 g por dose",
+      "Criança: 10 a 15 mg/kg/dose, até 5 vezes",
+      "Risco: fígado; somar antigripais"
+     ]
+    },
+    {
+     "t": "Dipirona",
+     "itens": [
+      "Adulto: 500 a 1000 mg até 4 vezes/dia",
+      "Contraindicada: menor de 3 meses ou 5 kg",
+      "Agranulocitose: febre e dor de garganta",
+      "Evitar com metotrexato"
+     ]
+    },
+    {
+     "t": "AAS",
+     "itens": [
+      "Adulto: 500 a 1000 mg a cada 4 a 8 h",
+      "Criança ou jovem com virose: nunca (Reye)",
+      "Dengue suspeita: proibido",
+      "Sangramento, úlcera, asma por AINE"
+     ]
+    },
+    {
+     "t": "AINE MIP",
+     "itens": [
+      "Ibuprofeno: até 1200 mg/dia sem receita",
+      "Naproxeno sódico: até 550 mg/dia",
+      "Nimesulida e diclofenaco: só gel",
+      "Risco: estômago, rim, pressão"
+     ]
+    },
+    {
+     "t": "Dengue suspeita",
+     "itens": [
+      "Paracetamol ou dipirona",
+      "Sem AAS, AINE ou corticoide",
+      "Hidratar e encaminhar",
+      "Alarme: dor abdominal, vômitos, sangramento"
+     ]
+    },
+    {
+     "t": "Encaminhar",
+     "itens": [
+      "Febre em menor de 3 meses",
+      "Febre por mais de 72 horas",
+      "Rigidez de nuca, manchas, falta de ar",
+      "Cefaleia súbita e intensa"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m01-b-mapa-digestivo",
+   "titulo": "Sintomas digestivos",
+   "centro": "Digestivo no balcão",
+   "ramos": [
+    {
+     "t": "Azia",
+     "itens": [
+      "Ocasional: antiácido ou alginato",
+      "Frequente: omeprazol 20 mg por 14 dias",
+      "Novo ciclo só após 4 meses",
+      "Antiácido: espaçar 2 h de outros"
+     ]
+    },
+    {
+     "t": "Gases",
+     "itens": [
+      "Simeticona: adulto até 500 mg/dia",
+      "Criança até 12 anos: até 180 mg/dia",
+      "Dor por mais de 36 h: médico"
+     ]
+    },
+    {
+     "t": "Diarreia",
+     "itens": [
+      "Sais de reidratação: 1 envelope em 1 L",
+      "S. boulardii como coadjuvante",
+      "Loperamida e racecadotrila: tarjados",
+      "Sangue, febre ou desidratação: médico"
+     ]
+    },
+    {
+     "t": "Constipação",
+     "itens": [
+      "Fibra e água antes do laxante",
+      "Lactulose adulto: 15 a 30 mL/dia",
+      "Bisacodil 5 a 10 mg à noite",
+      "Óleo mineral: risco de aspiração"
+     ]
+    },
+    {
+     "t": "Cólica",
+     "itens": [
+      "Escopolamina 10 a 20 mg, 3 a 5 vezes/dia",
+      "Evitar: glaucoma, retenção urinária",
+      "Lactente com cólica: pediatra"
+     ]
+    },
+    {
+     "t": "Náusea e cinetose",
+     "itens": [
+      "Dimenidrinato: venda sob prescrição",
+      "Meclozina 50 mg: MIP para cinetose",
+      "Gengibre: fitoterápico MIP",
+      "Vômito persistente: encaminhar"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m01-b-mapa-respiratorio",
+   "titulo": "Respiratório alto e alergia",
+   "centro": "Nariz, tosse e alergia",
+   "ramos": [
+    {
+     "t": "Antigripais",
+     "itens": [
+      "Somar o paracetamol de tudo",
+      "Fenilefrina: evitar no hipertenso",
+      "Anti-H1 sedativo: não para motorista"
+     ]
+    },
+    {
+     "t": "Nariz entupido",
+     "itens": [
+      "Soro fisiológico: qualquer idade",
+      "Salina até 3%: MIP",
+      "Nafazolina nasal: venda sob prescrição",
+      "Uso contínuo: rinite de rebote"
+     ]
+    },
+    {
+     "t": "Tosse seca",
+     "itens": [
+      "Dextrometorfano: até 120 mg/dia",
+      "IMAO, asma e DPOC: evitar",
+      "Dropropizina: adulto 30 gotas 4 vezes",
+      "Não somar com expectorante"
+     ]
+    },
+    {
+     "t": "Tosse com catarro",
+     "itens": [
+      "Acetilcisteína 600 mg 1 vez/dia",
+      "Ambroxol 30 mg 3 vezes/dia",
+      "Menor de 2 anos: só com médico",
+      "Tosse 3 semanas ou mais: investigar"
+     ]
+    },
+    {
+     "t": "Anti-H1 MIP",
+     "itens": [
+      "Loratadina, desloratadina, fexofenadina",
+      "Levocetirizina sim, cetirizina não",
+      "Dexclorfeniramina: seda, evitar no idoso",
+      "Anafilaxia: SAMU 192"
+     ]
+    },
+    {
+     "t": "Garganta",
+     "itens": [
+      "Flurbiprofeno: até 5 pastilhas/dia",
+      "Cetilpiridínio e benzidamina",
+      "Placas e febre alta: médico"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m01-b-mapa-pele",
+   "titulo": "Pele, parasitas e outros MIP",
+   "centro": "Pele e outros MIP",
+   "ramos": [
+    {
+     "t": "Micoses",
+     "itens": [
+      "Clotrimazol, miconazol, terbinafina",
+      "Manter 2 semanas após melhorar",
+      "Vaginal: clotrimazol 500 mg dose única",
+      "Primeiro episódio ou gestante: médico"
+     ]
+    },
+    {
+     "t": "Pele inflamada",
+     "itens": [
+      "Hidrocortisona 1%: único corticoide MIP",
+      "Não usar em micose ou herpes",
+      "Herpes labial: penciclovir 4 dias",
+      "Aciclovir creme: venda sob prescrição"
+     ]
+    },
+    {
+     "t": "Piolho e sarna",
+     "itens": [
+      "Permetrina 1%: piolho, 10 minutos",
+      "Permetrina 5%: sarna, 8 a 14 horas",
+      "Tratar todos da casa",
+      "Ivermectina oral: não é MIP"
+     ]
+    },
+    {
+     "t": "Vermes",
+     "itens": [
+      "Mebendazol 500 mg dose única",
+      "Levamisol só para ascaridíase",
+      "Albendazol: venda sob prescrição",
+      "Menor de 1 ano: contraindicado"
+     ]
+    },
+    {
+     "t": "Nicotina",
+     "itens": [
+      "Adesivo: 21, 14 e 7 mg",
+      "Goma e pastilha: 2 ou 4 mg",
+      "Pastilha: até 20 por dia",
+      "Infarto ou AVC recente: médico"
+     ]
+    },
+    {
+     "t": "Não são MIP",
+     "itens": [
+      "Levonorgestrel 1,5 mg",
+      "Fluconazol e nistatina oral",
+      "Vitamina D em alta dose",
+      "Corticoide tópico potente"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m01-b-tab-mestra",
+   "titulo": "Tabela-mestra de posologia de MIP",
+   "colunas": [
+    "Fármaco",
+    "Apresentação isenta",
+    "Dose adulto",
+    "Máximo por dia",
+    "Criança",
+    "Alerta principal"
+   ],
+   "linhas": [
+    [
+     "Paracetamol",
+     "Comprimido 500 e 750 mg; gotas 200 mg/mL",
+     "500 a 1000 mg a cada 4 a 6 h",
+     "4 g",
+     "10 a 15 mg/kg/dose, até 5 doses/dia; abaixo de 2 anos ou 11 kg: médico",
+     "Hepatotoxicidade; somar antigripais"
+    ],
+    [
+     "Dipirona",
+     "Comprimido até 1 g; gotas 500 mg/mL",
+     "500 a 1000 mg até 4 vezes/dia",
+     "4 g",
+     "Gotas por faixa de peso (bula); contraindicada abaixo de 3 meses ou 5 kg",
+     "Agranulocitose; hipotensão"
+    ],
+    [
+     "Ácido acetilsalicílico",
+     "Comprimido 500 mg",
+     "500 a 1000 mg a cada 4 a 8 h",
+     "4 g (8 comprimidos)",
+     "A partir de 12 anos: 500 mg, até 3/dia; nunca em virose",
+     "Reye; dengue; sangramento"
+    ],
+    [
+     "Ibuprofeno",
+     "Comprimido 400 mg; suspensão 100 e 200 mg/mL",
+     "400 mg a cada 4 a 6 h, com alimento",
+     "1200 mg sem prescrição",
+     "A partir de 6 meses: 5 a 10 mg/kg/dose a cada 6 a 8 h, até 4 doses",
+     "Estômago, rim, pressão; dengue"
+    ],
+    [
+     "Naproxeno sódico",
+     "Comprimido 275 e 550 mg",
+     "275 mg 1 a 2 vezes/dia ou 550 mg 1 vez/dia",
+     "550 mg; até 10 dias",
+     "Não indicado abaixo de 12 anos",
+     "Estômago, rim, pressão"
+    ],
+    [
+     "Diclofenaco gel",
+     "Gel 10 e 23,2 mg/g",
+     "Aplicar 3 a 4 vezes/dia ou conforme bula",
+     "Conforme bula",
+     "Aerossol: a partir de 14 anos",
+     "Pele íntegra; lavar as mãos"
+    ],
+    [
+     "Flurbiprofeno",
+     "Pastilha 8,75 mg",
+     "1 pastilha a cada 3 a 6 h",
+     "5 pastilhas; até 3 dias",
+     "Não usar abaixo de 12 anos",
+     "Restrições de AINE"
+    ],
+    [
+     "Butilescopolamina",
+     "Comprimido 10 mg; gotas 10 mg/mL",
+     "10 a 20 mg, 3 a 5 vezes/dia",
+     "100 mg",
+     "1 a 6 anos: 5 a 10 mg 3 vezes/dia; lactente: pediatra",
+     "Glaucoma; retenção urinária"
+    ],
+    [
+     "Simeticona",
+     "Comprimido 40 mg; emulsão 75 mg/mL",
+     "40 a 125 mg a cada 6 h",
+     "500 mg",
+     "2 a 12 anos: 15 a 30 mg/dose; até 180 mg/dia",
+     "Dor por mais de 36 h: médico"
+    ],
+    [
+     "Alumínio + magnésio + simeticona",
+     "Suspensão oral",
+     "10 a 20 mL entre refeições e ao deitar",
+     "12 colheres-medida; até 2 semanas",
+     "A partir de 12 anos",
+     "Espaçar 2 h de outros fármacos"
+    ],
+    [
+     "Omeprazol MIP",
+     "Cápsula 20 mg, caixa de 7 ou 14",
+     "20 mg em jejum 1 vez/dia",
+     "20 mg; 14 dias; ciclo a cada 4 meses",
+     "Uso adulto",
+     "Sinais de alarme; clopidogrel"
+    ],
+    [
+     "Sais de reidratação oral",
+     "Envelope para 1 L",
+     "75 mL/kg em 4 a 6 h na reidratação",
+     "Até 4 L nessa fase",
+     "Todas as idades; manter o aleitamento",
+     "Descartar após 24 h"
+    ],
+    [
+     "<i>Saccharomyces boulardii</i>",
+     "Cápsula até 250 mg",
+     "200 mg 2 vezes/dia (Floratil®)",
+     "Conforme bula",
+     "Conforme bula",
+     "Mais de 5 dias: médico"
+    ],
+    [
+     "Lactulose",
+     "Xarope 667 mg/mL",
+     "15 a 30 mL/dia",
+     "Ajustar para 2 a 3 evacuações/dia",
+     "1 a 5 anos 5 a 10 mL; 6 a 12 anos 10 a 15 mL",
+     "Gases no início"
+    ],
+    [
+     "Bisacodil",
+     "Comprimido 5 mg",
+     "5 a 10 mg à noite",
+     "10 mg",
+     "Acima de 10 anos: 5 a 10 mg; 4 a 10 anos: 5 mg",
+     "Não tomar com leite, antiácido ou omeprazol"
+    ],
+    [
+     "Óleo mineral",
+     "Líquido (LMN)",
+     "15 mL à noite",
+     "45 mL (30 à noite e 15 de manhã)",
+     "Acima de 6 anos: 1 a 2 mL/kg",
+     "Pneumonia lipoídica; até 1 semana"
+    ],
+    [
+     "Loratadina",
+     "Comprimido 10 mg; xarope 1 mg/mL",
+     "10 mg 1 vez/dia",
+     "10 mg",
+     "2 a 12 anos abaixo de 30 kg: 5 mg",
+     "Pouca sedação"
+    ],
+    [
+     "Desloratadina",
+     "Comprimido 5 mg; solução oral",
+     "5 mg 1 vez/dia",
+     "5 mg",
+     "6 a 11 meses 1 mg; 1 a 5 anos 1,25 mg; 6 a 11 anos 2,5 mg",
+     "Dose maior não melhora"
+    ],
+    [
+     "Fexofenadina",
+     "Comprimido até 180 mg; suspensão 6 mg/mL",
+     "120 a 180 mg 1 vez/dia",
+     "180 mg",
+     "2 a 11 anos: 30 mg a cada 12 h",
+     "Antiácido e suco de fruta reduzem absorção"
+    ],
+    [
+     "Levocetirizina",
+     "Comprimido 5 mg",
+     "5 mg 1 vez/dia",
+     "5 mg",
+     "6 a 12 anos: 5 mg 1 vez/dia",
+     "Ajustar em doença renal"
+    ],
+    [
+     "Dexclorfeniramina",
+     "Comprimido 2 mg; solução",
+     "2 mg 3 a 4 vezes/dia",
+     "12 mg",
+     "6 a 12 anos até 6 mg/dia; 2 a 6 anos até 3 mg/dia; abaixo de 2 anos contraindicada",
+     "Sedação; evitar em idoso"
+    ],
+    [
+     "Dextrometorfano",
+     "Solução até 3 mg/mL",
+     "10 a 20 mg a cada 4 h ou 30 mg a cada 6 a 8 h",
+     "120 mg",
+     "Conforme bula do produto",
+     "IMAO; asma; DPOC"
+    ],
+    [
+     "Dropropizina",
+     "Gotas 30 mg/mL",
+     "30 gotas 4 vezes/dia",
+     "120 gotas",
+     "Acima de 3 anos: 15 gotas 4 vezes/dia",
+     "Só tosse seca"
+    ],
+    [
+     "Acetilcisteína",
+     "Granulado 600 mg; xarope 20 e 40 mg/mL",
+     "600 mg 1 vez/dia por 5 a 10 dias",
+     "600 mg sem prescrição",
+     "2 a 4 anos 100 mg 2 a 3 vezes/dia; acima de 4 anos 100 mg 3 a 4 vezes/dia",
+     "Abaixo de 2 anos: médico"
+    ],
+    [
+     "Ambroxol",
+     "Xarope 6 mg/mL; pediátrico 3 mg/mL; cápsula LP 75 mg",
+     "30 mg 3 vezes/dia ou 75 mg 1 vez/dia",
+     "90 mg",
+     "2 a 5 anos 7,5 mg 3 vezes/dia; 6 a 12 anos 15 mg 3 vezes/dia",
+     "Abaixo de 2 anos: médico"
+    ],
+    [
+     "Bromexina",
+     "Xarope 0,8 e 1,6 mg/mL",
+     "8 mg 3 vezes/dia",
+     "24 mg",
+     "2 a 6 anos 2 mg 3 vezes/dia; 6 a 12 anos 4 mg 3 vezes/dia",
+     "Hidratação junto"
+    ],
+    [
+     "Mebendazol",
+     "Comprimido 500 mg; suspensão 20 mg/mL",
+     "500 mg dose única ou 100 mg 2 vezes/dia por 3 dias",
+     "Conforme esquema",
+     "Acima de 1 ano: mesma dose; 1 a 2 anos só se justificado",
+     "Evitar com metronidazol"
+    ],
+    [
+     "Levamisol",
+     "Comprimido até 150 mg",
+     "150 mg dose única ao deitar",
+     "Dose única",
+     "Até 1 ano 40 mg; 1 a 7 anos 80 mg",
+     "Somente ascaridíase"
+    ],
+    [
+     "Permetrina 5%",
+     "Loção cremosa 50 mg/mL",
+     "Pescoço aos pés, remover após 8 a 14 h",
+     "30 g por aplicação (até 60 g)",
+     "6 a 12 anos até 15 g; 2 a 5 anos até 7,5 g",
+     "Tratar todos os contatos"
+    ],
+    [
+     "Permetrina 1%",
+     "Xampu ou loção 10 mg/mL",
+     "10 minutos no cabelo; repetir em 7 a 14 dias se preciso",
+     "1 aplicação por vez",
+     "Conforme bula",
+     "Pente fino"
+    ],
+    [
+     "Deltametrina",
+     "Xampu ou loção 0,2 mg/mL",
+     "5 minutos no banho por 4 dias; repetir 7 dias depois",
+     "Conforme bula",
+     "Conforme bula",
+     "Irritação local"
+    ],
+    [
+     "Clotrimazol vaginal",
+     "Comprimido 500 mg; creme 20 mg/g",
+     "500 mg dose única ou creme por 3 noites",
+     "Dose única",
+     "Não se aplica: menor de idade vai ao médico",
+     "Primeiro episódio e gestante: médico"
+    ],
+    [
+     "Acetato de hidrocortisona",
+     "Creme ou pomada 1%",
+     "Camada fina 2 a 3 vezes/dia",
+     "Conforme bula",
+     "Até 4 anos: no máximo 3 semanas",
+     "Não usar em micose ou herpes"
+    ],
+    [
+     "Penciclovir",
+     "Creme 10 mg/g",
+     "A cada 2 h acordado, por 4 dias",
+     "4 dias",
+     "Não recomendado abaixo de 12 anos",
+     "Iniciar no formigamento"
+    ],
+    [
+     "Nicotina adesivo",
+     "7, 14 e 21 mg/24 h",
+     "21 mg/dia se mais de 10 cigarros/dia",
+     "1 adesivo/dia",
+     "NiQuitin®: contraindicado abaixo de 12 anos",
+     "Infarto ou AVC recentes: médico"
+    ],
+    [
+     "Nicotina pastilha",
+     "2 e 4 mg",
+     "1 a cada 1 a 2 h nas semanas 1 a 6",
+     "20 pastilhas",
+     "Conforme bula",
+     "Não mastigar nem engolir"
+    ],
+    [
+     "Sulfato ferroso",
+     "40 ou 60 mg de ferro; solução 25 mg/mL",
+     "1 comprimido ao dia em jejum",
+     "1 comprimido",
+     "6 a 18 meses 1 mL/semana; 18 meses a 6 anos 1 mL/dia; 6 a 12 anos 2 mL/dia",
+     "Intoxicação infantil; espaçar de levotiroxina"
+    ],
+    [
+     "Ácido fólico",
+     "Solução 0,2 mg/mL",
+     "0,4 mg/dia (2 mL) na prevenção",
+     "1 mg (5 mL)",
+     "Conforme bula",
+     "Pode mascarar anemia perniciosa"
+    ],
+    [
+     "Fenazopiridina",
+     "Comprimido 200 mg",
+     "200 mg a cada 8 h após refeições",
+     "600 mg; até 2 dias",
+     "Não indicar",
+     "Não trata infecção urinária"
+    ],
+    [
+     "Hidroxiquinolina + trolamina",
+     "Solução otológica",
+     "5 gotas 3 vezes/dia",
+     "Conforme bula",
+     "Conforme bula",
+     "Suspeita de perfuração: não usar"
+    ],
+    [
+     "Nafazolina (colírio associado)",
+     "Solução oftálmica",
+     "1 a 2 gotas até 4 vezes/dia",
+     "4 aplicações",
+     "Conforme bula",
+     "Rebote; glaucoma"
+    ]
+   ],
+   "nota": "Doses conferidas na LMN (IN 106/2021), no guia de dengue do Ministério da Saúde (2024) e em bulas de referência citadas nos tópicos. Concentrações isentas conforme a LMIP (IN 285/2024 com redação da IN 404/2025). A bula do produto entregue prevalece: limites e gotas por mL variam entre marcas."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m01-b-tab-cautela",
+   "titulo": "Evitar ou ter cautela: grupos especiais",
+   "colunas": [
+    "Situação",
+    "Evitar",
+    "Usar com cautela",
+    "Opção preferida e orientação"
+   ],
+   "linhas": [
+    [
+     "Gestante",
+     "AAS e AINE orais (contraindicados no 3º trimestre); dipirona (bula da Novalgina®); antigripal com fenilefrina; óleo mineral; mebendazol; tiabendazol tópico; anti-H1 sem pré-natal",
+     "Qualquer MIP sem conhecimento do pré-natal; antiácido com bicarbonato de sódio",
+     "Paracetamol na menor dose e pelo menor tempo; soro nasal; medidas não farmacológicas; encaminhar ao pré-natal"
+    ],
+    [
+     "Lactante",
+     "Anti-H1 de primeira geração (sedação do bebê, menos leite); dipirona (bula); uso prolongado de laxante estimulante",
+     "AAS; descongestionantes orais; fitoterápicos sem dados",
+     "Paracetamol; ibuprofeno em dose usual; anti-H1 de segunda geração com orientação"
+    ],
+    [
+     "Idoso",
+     "Anti-H1 de primeira geração; antigripal com anti-H1 e fenilefrina; AINE oral contínuo; óleo mineral (aspiração)",
+     "Dipirona (hipotensão); escopolamina; antiácido com magnésio ou alumínio se rim comprometido; bisacodil crônico",
+     "Paracetamol; AINE tópico; loratadina ou fexofenadina; laxante formador de massa ou osmótico"
+    ],
+    [
+     "Hipertenso",
+     "Fenilefrina oral; isometepteno; AINE oral regular; sal de fruta (bicarbonato de sódio); alcaçuz",
+     "Cafeína em associações; guaraná e ginseng; vasoconstritor ocular frequente",
+     "Paracetamol; soro nasal; anti-H1 de segunda geração isolado; AINE tópico"
+    ],
+    [
+     "Anticoagulado",
+     "AAS; AINE orais; salicilato de metila em área extensa; guaco; <i>Salix alba</i>",
+     "Paracetamol regular com varfarina (eleva o INR); omeprazol com varfarina; gengibre em dose alta",
+     "Paracetamol em uso pontual; AINE tópico em área pequena; orientar sinais de sangramento"
+    ],
+    [
+     "Asmático",
+     "AAS e AINE se já houve crise com analgésico; dextrometorfano (bula); dropropizina",
+     "Dipirona (reação cruzada possível); anti-H1 sedativo",
+     "Paracetamol; encaminhar tosse com chiado"
+    ],
+    [
+     "Doença renal",
+     "AINE oral; antiácidos com magnésio ou alumínio de uso contínuo; fenazopiridina",
+     "Levocetirizina (ajuste); dipirona em dose alta",
+     "Paracetamol; encaminhar qualquer uso prolongado"
+    ]
+   ],
+   "nota": "Quadro de triagem para o balcão. Gestantes, lactantes e pessoas com doença crônica devem ter o uso de qualquer MIP comunicado ao médico assistente."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m01-b-tab-naomip",
+   "titulo": "Pedidos comuns que não são MIP",
+   "colunas": [
+    "Fármaco pedido",
+    "Situação conferida",
+    "Alternativa isenta ou conduta"
+   ],
+   "linhas": [
+    [
+     "Dimenidrinato (Dramin®, Dramin B6®)",
+     "Venda sob prescrição (bula)",
+     "Cinetose: meclozina 50 mg ou gengibre, se MIP na embalagem; vômito: sais de reidratação e encaminhar"
+    ],
+    [
+     "Metoclopramida, bromoprida, ondansetrona",
+     "Venda sob prescrição",
+     "Encaminhar"
+    ],
+    [
+     "Loperamida (Imosec®)",
+     "Venda sob prescrição (bula)",
+     "Sais de reidratação; <i>S. boulardii</i>; encaminhar se sinal de alarme"
+    ],
+    [
+     "Racecadotrila (Tiorfan®)",
+     "Venda sob prescrição (bula)",
+     "Idem"
+    ],
+    [
+     "Famotidina e demais anti-H2",
+     "Fora da LMIP",
+     "Antiácido, alginato ou omeprazol 20 mg MIP"
+    ],
+    [
+     "Nafazolina e oximetazolina nasais",
+     "Venda sob prescrição (Neosoro®, Sorine®, Afrin®)",
+     "Soro fisiológico ou salina hipertônica"
+    ],
+    [
+     "Cetirizina (Zyrtec®)",
+     "Venda sob prescrição (bula)",
+     "Levocetirizina, loratadina, desloratadina, fexofenadina"
+    ],
+    [
+     "Nimesulida oral, cetoprofeno, diclofenaco oral",
+     "Fora da LMIP",
+     "Ibuprofeno ou naproxeno em dose MIP; nimesulida ou diclofenaco gel"
+    ],
+    [
+     "Aciclovir creme (Zovirax®)",
+     "Venda sob prescrição (bula)",
+     "Penciclovir creme 10 mg/g"
+    ],
+    [
+     "Albendazol (Zentel®)",
+     "Venda sob prescrição (bula)",
+     "Mebendazol, quando indicado"
+    ],
+    [
+     "Ivermectina oral",
+     "Fora da LMIP",
+     "Permetrina ou deltametrina tópicas; encaminhar"
+    ],
+    [
+     "Fluconazol",
+     "Fora da LMIP",
+     "Clotrimazol ou miconazol vaginal, com critérios"
+    ],
+    [
+     "Levonorgestrel 1,5 mg (Postinor Uno®)",
+     "Venda sob prescrição (bula)",
+     "Encaminhar com urgência à UBS ou UPA, que fornecem gratuitamente"
+    ],
+    [
+     "Corticoides tópicos de média e alta potência",
+     "Fora da LMIP",
+     "Acetato de hidrocortisona 1%"
+    ],
+    [
+     "Vitamina D em alta dose, ferro polimaltosado, complexo B em alta dose",
+     "Venda sob prescrição nos produtos conferidos",
+     "Carbonato de cálcio + vitamina D3 e sulfato ferroso da LMN, com critério"
+    ],
+    [
+     "Minoxidil tópico",
+     "Fora da LMIP",
+     "Alfaestradiol solução capilar; dermatologista"
+    ]
+   ],
+   "nota": "Status conferido na LMIP vigente e nas bulas dos produtos citados (outubro de 2026). Tarja vermelha sem retenção de receita continua exigindo prescrição."
+  },
+  {
+   "tipo": "checklist",
+   "id": "m01-b-check-entrega",
+   "titulo": "Orientação na entrega do MIP",
+   "itens": [
+    "Identificar quem vai usar: idade, peso (criança), gestação e amamentação",
+    "Conferir na embalagem se o produto é MIP (sem tarja) e a concentração",
+    "Perguntar sobre doenças de fígado, rim, estômago, pressão, asma, glaucoma e próstata",
+    "Revisar medicamentos em uso, inclusive outros MIP, chás e fitoterápicos",
+    "Checar duplicidade de princípio ativo (paracetamol em antigripal)",
+    "Informar a dose na unidade que o cliente vai medir (comprimido, mL, gotas)",
+    "Mostrar o dosador do frasco e conferir quantas gotas tem cada mL",
+    "Informar o intervalo entre doses e a dose máxima em 24 horas",
+    "Informar por quantos dias usar sem reavaliação",
+    "Explicar o efeito adverso mais comum e o que fazer se ocorrer",
+    "Explicar os sinais de alarme que exigem procurar atendimento",
+    "Orientar armazenamento e manter fora do alcance de crianças",
+    "Entregar a orientação por escrito quando houver cálculo de dose",
+    "Em suspeita de dengue: sem AAS e sem AINE, hidratar e encaminhar",
+    "Registrar a indicação farmacêutica e combinar retorno ou acompanhamento"
+   ]
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m01-b-fluxo-antitermico",
+   "titulo": "Escolha do analgésico ou antitérmico",
+   "passos": [
+    {
+     "t": "Cliente com febre ou dor leve a moderada pede analgésico ou antitérmico",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Há sinal de gravidade? (febre em menor de 3 meses, rigidez de nuca, manchas, falta de ar, sonolência, dor súbita e intensa)",
+     "tipo": "decisao",
+     "sim": "Não dispensar como autocuidado: encaminhar para atendimento de urgência",
+     "nao": "Seguir para a avaliação de dengue"
+    },
+    {
+     "t": "Pode ser dengue? (época de transmissão, febre com dor no corpo, dor atrás dos olhos, manchas)",
+     "tipo": "decisao",
+     "sim": "Paracetamol ou dipirona, nada de AAS, AINE ou corticoide; hidratação oral; encaminhar para avaliação e notificação",
+     "nao": "Seguir"
+    },
+    {
+     "t": "É criança ou adolescente com gripe, catapora ou outra virose?",
+     "tipo": "decisao",
+     "sim": "Paracetamol ou dipirona com dose pelo peso; AAS proibido (síndrome de Reye)",
+     "nao": "Seguir"
+    },
+    {
+     "t": "Há contraindicação a AINE? (úlcera ou sangramento, anticoagulante, doença renal, hipertensão ou cardiopatia, asma por AINE, gestação)",
+     "tipo": "decisao",
+     "sim": "Paracetamol ou dipirona; AINE tópico se a dor for localizada",
+     "nao": "Seguir"
+    },
+    {
+     "t": "A dor tem componente inflamatório? (cólica menstrual, dor muscular, dor de dente, entorse)",
+     "tipo": "decisao",
+     "sim": "Ibuprofeno ou naproxeno em dose MIP, com alimento, pelo menor tempo",
+     "nao": "Paracetamol ou dipirona"
+    },
+    {
+     "t": "Checar doença hepática, etilismo, G6PD, alergia a pirazolonas e produtos em uso com o mesmo ativo",
+     "tipo": "acao"
+    },
+    {
+     "t": "Calcular a dose pelo peso na criança e conferir as gotas por mL do frasco entregue",
+     "tipo": "acao"
+    },
+    {
+     "t": "Orientar intervalo, dose máxima, um antitérmico só (sem alternar) e hidratação",
+     "tipo": "acao"
+    },
+    {
+     "t": "Procurar atendimento se a febre passar de 72 horas, se houver piora ou sinal de alarme",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Registrar a indicação e a orientação dada",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m01-b-cartoes",
+   "titulo": "Cartões: classes de MIP",
+   "itens": [
+    {
+     "f": "Qual norma traz hoje a lista de MIP?",
+     "v": "IN 285/2024 (Anexo I sintéticos, Anexo II fitoterápicos), com Anexo I republicado pela IN 404/2025."
+    },
+    {
+     "f": "A concentração máxima da LMIP é dose diária?",
+     "v": "Não. É a quantidade do insumo na forma farmacêutica (IN 285/2024, art. 1º, § 2º)."
+    },
+    {
+     "f": "Dose máxima diária de paracetamol no adulto?",
+     "v": "4 g em 24 horas, até 1 g por dose (LMN)."
+    },
+    {
+     "f": "Dose pediátrica de paracetamol?",
+     "v": "10 a 15 mg/kg/dose a cada 4 a 6 h, até 5 doses/dia; abaixo de 2 anos ou 11 kg, médico."
+    },
+    {
+     "f": "Idade e peso mínimos para dipirona?",
+     "v": "3 meses e 5 kg (bula da Novalgina®)."
+    },
+    {
+     "f": "Antitérmicos indicados na dengue suspeita?",
+     "v": "Paracetamol e dipirona (MS, 2024). Sem AAS, AINE ou corticoide."
+    },
+    {
+     "f": "Por que não dar AAS a criança com gripe?",
+     "v": "Risco de síndrome de Reye (bula da Aspirina®)."
+    },
+    {
+     "f": "Dose máxima de ibuprofeno sem prescrição no adulto?",
+     "v": "1200 mg/dia (bula do Advil® 400 mg)."
+    },
+    {
+     "f": "Nimesulida comprimido é MIP?",
+     "v": "Não. Só a nimesulida gel 20 mg/g consta da LMIP."
+    },
+    {
+     "f": "Condições do omeprazol MIP?",
+     "v": "20 mg, caixas de 7 ou 14, azia 2 ou mais dias/semana, até 14 dias, intervalo de 4 meses."
+    },
+    {
+     "f": "Dimenidrinato é MIP?",
+     "v": "Não. Dramin® e Dramin B6® têm venda sob prescrição; meclozina 50 mg consta da LMIP para cinetose."
+    },
+    {
+     "f": "Loperamida e racecadotrila são MIP?",
+     "v": "Não. Imosec® e Tiorfan® têm venda sob prescrição."
+    },
+    {
+     "f": "Nafazolina nasal é MIP?",
+     "v": "Não. Vasoconstritores nasais tópicos não constam da LMIP; soro fisiológico é a opção isenta."
+    },
+    {
+     "f": "Cetirizina ou levocetirizina: qual é MIP?",
+     "v": "Levocetirizina 5 mg. Cetirizina não consta da LMIP."
+    },
+    {
+     "f": "Antiviral tópico MIP para herpes labial?",
+     "v": "Penciclovir creme 10 mg/g, a cada 2 h acordado por 4 dias. Aciclovir creme não é MIP."
+    },
+    {
+     "f": "Permetrina 5%: quanto tempo na pele?",
+     "v": "Remover após 8 a 14 horas; adulto até 30 g por aplicação."
+    },
+    {
+     "f": "Antiparasitários orais da LMIP?",
+     "v": "Mebendazol (500 mg e 20 mg/mL) e levamisol (até 150 mg). Albendazol não."
+    },
+    {
+     "f": "Esquema do adesivo de nicotina para quem fuma mais de 10 cigarros/dia?",
+     "v": "21 mg por 6 semanas, 14 mg por 2 semanas, 7 mg por 2 semanas."
+    },
+    {
+     "f": "Levonorgestrel 1,5 mg é MIP?",
+     "v": "Não. Venda sob prescrição; usar até 72 h; repetir se vomitar em 4 h."
+    },
+    {
+     "f": "Sulfato ferroso e ácido fólico 0,2 mg/mL são isentos por quê?",
+     "v": "São medicamentos de notificação simplificada da LMN (IN 106/2021), de venda isenta por definição."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m01-b-questoes",
+   "titulo": "Questões: casos de balcão com MIP",
+   "itens": [
+    {
+     "p": "Durante surto de dengue, mulher de 30 anos chega com febre de 39 °C há 2 dias, dor no corpo e dor atrás dos olhos, sem sinais de alarme. Pede ibuprofeno porque \"funciona melhor\". Qual a conduta adequada?",
+     "alt": [
+      "Dispensar ibuprofeno 400 mg a cada 6 horas por ser MIP",
+      "Indicar paracetamol ou dipirona, hidratação oral e encaminhar para avaliação",
+      "Indicar AAS 500 mg, que tem efeito antitérmico mais duradouro",
+      "Indicar naproxeno 550 mg 1 vez ao dia para reduzir o número de doses",
+      "Alternar ibuprofeno e paracetamol a cada 3 horas"
+     ],
+     "c": 1,
+     "com": "O guia do Ministério da Saúde (Dengue: diagnóstico e manejo clínico, 6ª ed., 2024) orienta paracetamol e/ou dipirona e proíbe salicilatos, AINE e corticoides pelo risco de sangramento. Ibuprofeno, naproxeno e AAS estão errados pelo mesmo motivo, e a alternância é desaconselhada e ainda inclui um AINE."
+    },
+    {
+     "p": "Cliente pede \"Dramin\" para enjoo em viagem de ônibus amanhã. Sobre o enquadramento regulatório, assinale a correta.",
+     "alt": [
+      "Dimenidrinato consta da LMIP e pode ser indicado livremente",
+      "Todos os antieméticos orais são MIP desde a IN 285/2024",
+      "Dimenidrinato é MIP apenas quando associado à piridoxina",
+      "Dimenidrinato não consta da LMIP; a meclozina 50 mg consta, para cinetose",
+      "A metoclopramida é a alternativa MIP ao dimenidrinato"
+     ],
+     "c": 3,
+     "com": "A conferência do Anexo I da LMIP (IN 285/2024 com redação da IN 404/2025) não encontra dimenidrinato, e as bulas do Dramin® e do Dramin B6® trazem venda sob prescrição médica. A lista inclui dicloridrato de meclozina 50 mg com indicação de cinetose e o fitoterápico <i>Zingiber officinale</i>. Metoclopramida também é tarjada."
+    },
+    {
+     "p": "Criança de 4 anos e 16 kg com febre de 38,8 °C. A mãe tem dipirona gotas 500 mg/mL (20 gotas = 1 mL). Pela bula da Novalgina®, qual faixa de dose por tomada é adequada?",
+     "alt": [
+      "5 a 15 gotas por dose, até 4 vezes ao dia",
+      "20 a 40 gotas por dose, até 4 vezes ao dia",
+      "1 gota por kg, até 6 vezes ao dia",
+      "2 a 5 gotas por dose, no máximo 20 gotas ao dia",
+      "40 gotas em dose única diária"
+     ],
+     "c": 0,
+     "com": "Na tabela da bula, 16 a 23 kg (4 a 6 anos) recebe 5 a 15 gotas por dose, máximo 60 gotas/dia (4 tomadas de 15). A dose de 20 a 40 gotas é para maiores de 15 anos; 2 a 5 gotas é para 5 a 8 kg; as demais não constam da bula."
+    },
+    {
+     "p": "Homem de 70 anos, em uso de losartana, hidroclorotiazida e varfarina, pede ibuprofeno para dor no joelho após caminhada. Qual a melhor conduta farmacêutica?",
+     "alt": [
+      "Ibuprofeno 400 mg 3 vezes ao dia por 10 dias",
+      "Naproxeno 550 mg 1 vez ao dia por ser de dose única",
+      "AAS 500 mg, por ter menor risco renal que o ibuprofeno",
+      "Nimesulida comprimido, que é mais seletiva",
+      "AINE tópico no joelho e, se preciso, paracetamol em uso pontual"
+     ],
+     "c": 4,
+     "com": "AINE oral com diurético e BRA aumenta o risco de lesão renal aguda, e com varfarina aumenta o risco de sangramento. AAS soma risco hemorrágico. Nimesulida oral não é MIP. O AINE tópico tem baixa exposição sistêmica; o paracetamol pontual é aceitável, lembrando que o uso regular pode elevar o INR."
+    },
+    {
+     "p": "Sobre o omeprazol incluído na LMIP pela IN 404/2025, é correto afirmar:",
+     "alt": [
+      "Qualquer apresentação de 20 mg passou a ser isenta, inclusive caixas de 28",
+      "A isenção abrange 40 mg em uso contínuo para refluxo",
+      "Vale para 20 mg em caixas de até 14 unidades, por até 14 dias, para azia frequente",
+      "A isenção depende de retenção de receita do farmacêutico",
+      "O ciclo pode ser repetido livremente após 7 dias de pausa"
+     ],
+     "c": 2,
+     "com": "A IN 404/2025 incluiu omeprazol 20 mg em cápsula dura e de liberação retardada, para sintomas de azia em 2 ou mais dias por semana. O voto da Diretoria Colegiada prevê apresentações de 7 a 14 unidades, uso por até 14 dias e intervalo de 4 meses entre ciclos; caixas maiores seguem sob prescrição (coexistência permitida pela RDC 882/2024, art. 14)."
+    },
+    {
+     "p": "Adolescente de 13 anos com catapora e febre. O pai quer \"aspirina infantil\". Qual o principal motivo para recusar e orientar outro antitérmico?",
+     "alt": [
+      "Hepatotoxicidade dose-dependente do AAS",
+      "Risco de síndrome de Reye com AAS em virose na infância e adolescência",
+      "AAS não tem efeito antitérmico em crianças",
+      "AAS infantil foi retirado da LMIP em 2025",
+      "Risco de agranulocitose idiossincrásica"
+     ],
+     "c": 1,
+     "com": "A bula da Aspirina® determina que crianças e adolescentes não usem AAS para catapora ou sintomas gripais sem consulta, pelo risco de síndrome de Reye. Hepatotoxicidade dose-dependente é característica do paracetamol; agranulocitose, da dipirona. O AAS 500 mg segue na LMIP."
+    },
+    {
+     "p": "Cliente pede \"Neosoro\" para nariz entupido por resfriado. Assinale a afirmação correta.",
+     "alt": [
+      "Nafazolina nasal é MIP por ser de uso tópico",
+      "O uso por mais de 15 dias é seguro em adultos",
+      "Pode ser indicada para bebês por ter baixa concentração",
+      "É indicada como primeira escolha em hipertensos",
+      "Vasoconstritores nasais tópicos não constam da LMIP e causam rebote"
+     ],
+     "c": 4,
+     "com": "Nafazolina e oximetazolina nasais não constam da LMIP e as bulas do Neosoro®, do Sorine® e do Afrin® trazem venda sob prescrição. O uso prolongado causa rinite medicamentosa; a ingestão por crianças pequenas pode causar intoxicação grave; hipertensos devem evitar. A alternativa isenta é o soro fisiológico ou a salina hipertônica."
+    },
+    {
+     "p": "Motorista de ônibus de 45 anos com rinite alérgica intermitente pede um antialérgico. Qual opção é MIP e mais adequada?",
+     "alt": [
+      "Fexofenadina 180 mg 1 vez ao dia",
+      "Dexclorfeniramina 2 mg 4 vezes ao dia",
+      "Cetirizina 10 mg 1 vez ao dia",
+      "Hidroxizina 25 mg à noite",
+      "Prometazina 25 mg comprimido"
+     ],
+     "c": 0,
+     "com": "Fexofenadina até 180 mg consta da LMIP e quase não causa sedação (bula do Allegra®). Dexclorfeniramina é MIP, mas seda e prejudica a direção. Cetirizina, hidroxizina e prometazina oral não constam da LMIP."
+    },
+    {
+     "p": "Mulher de 25 anos relata prurido vulvar intenso e corrimento branco grumoso sem odor, igual a episódio diagnosticado pelo ginecologista no ano anterior. Não está grávida e não tem outros sintomas. Qual conduta é compatível com a LMIP?",
+     "alt": [
+      "Fluconazol 150 mg oral em dose única, que é MIP",
+      "Metronidazol gel vaginal à noite por 7 noites seguidas",
+      "Clotrimazol 500 mg vaginal em dose única, com orientação de retorno",
+      "Creme vaginal com corticoide e antibiótico",
+      "Nistatina suspensão oral por 7 dias, com bochecho"
+     ],
+     "c": 2,
+     "com": "Clotrimazol 500 mg comprimido ou cápsula vaginal consta da LMIP para candidíase vaginal (bula do Gino-Canesten®: dose única). Fluconazol, metronidazol vaginal, associações com corticoide e nistatina oral não constam da lista. O caso preenche os critérios de tratamento no balcão: episódio recorrente com diagnóstico prévio, sem sinais de alarme."
+    },
+    {
+     "p": "Mãe pede albendazol para os dois filhos (5 e 8 anos) com coceira anal noturna. Qual a conduta mais adequada?",
+     "alt": [
+      "Dispensar albendazol 400 mg, que é MIP desde 2024",
+      "Indicar levamisol, que trata oxiuríase em dose única",
+      "Recusar qualquer antiparasitário e encaminhar ao pronto-socorro",
+      "Indicar ivermectina em dose única para toda a família",
+      "Mebendazol 500 mg em dose única para a família, higiene e repetição combinada"
+     ],
+     "c": 4,
+     "com": "Albendazol (bula do Zentel®) e ivermectina não são MIP. Levamisol é indicado só para ascaridíase. O mebendazol 500 mg (LMIP) trata <i>Enterobius</i> em dose única acima de 1 ano; por reinfecção, todos os moradores são tratados, com higiene e repetição após 2 semanas conforme orientação clínica. Pronto-socorro não é necessário sem sinal de alarme."
+    },
+    {
+     "p": "Fumante de 30 cigarros por dia, que acende o primeiro logo ao acordar, quer iniciar reposição de nicotina com pastilhas. Pela bula do NiQuitin® pastilha, qual a concentração e o limite diário?",
+     "alt": [
+      "2 mg, sem limite diário",
+      "4 mg, no máximo 20 pastilhas por dia",
+      "4 mg, no máximo 5 pastilhas por dia",
+      "2 mg, no máximo 9 pastilhas por dia",
+      "1 mg, a cada 30 minutos"
+     ],
+     "c": 1,
+     "com": "A bula orienta 4 mg para quem fuma nos primeiros 30 minutos após acordar e 2 mg para quem fuma depois; o máximo é 20 pastilhas por dia, com pelo menos 9 por dia nas semanas 1 a 6. Não existe pastilha de 1 mg na LMIP, cujo limite é 4 mg."
+    },
+    {
+     "p": "Jovem de 19 anos pede \"pílula do dia seguinte\" sem receita, 20 horas após relação desprotegida. Qual a orientação correta sobre o levonorgestrel 1,5 mg?",
+     "alt": [
+      "É MIP e pode ser prescrito pelo farmacêutico pela CFF 586/2013",
+      "Só tem efeito se usado até 12 horas após a relação",
+      "Atua interrompendo gravidez já implantada",
+      "É tarjado, depende de prescrição e o SUS fornece gratuitamente",
+      "Protege contra infecções sexualmente transmissíveis"
+     ],
+     "c": 3,
+     "com": "O levonorgestrel 1,5 mg não consta da LMIP e a bula do Postinor Uno® traz venda sob prescrição; por isso não entra na prescrição farmacêutica de MIP. Deve ser usado o quanto antes, até 72 horas, age principalmente sobre a ovulação, não interrompe gravidez implantada e não protege contra IST. O farmacêutico deve orientar o acesso rápido na UBS ou UPA."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Anvisa. Instrução Normativa nº 285, de 7 de março de 2024. Institui as Listas de Medicamentos Isentos de Prescrição (Anexo I e Anexo II). Diário Oficial da União, 12 mar. 2024.",
+  "Anvisa. Instrução Normativa nº 388, de 29 de julho de 2025. Altera a Lista de Medicamentos Isentos de Prescrição (inclusão de ciclopirox e ampliação de concentração de alginato com bicarbonato e carbonato de cálcio). Diário Oficial da União, 2025.",
+  "Anvisa. Instrução Normativa nº 404, de 10 de novembro de 2025. Altera a Lista de Medicamentos Isentos de Prescrição (inclusão do omeprazol 20 mg) e republica o Anexo I. Diário Oficial da União, 13 nov. 2025.",
+  "Anvisa. Diretoria Colegiada. Voto nº 261/2025, processo 25351.918052/2023-80: inclusão do omeprazol 20 mg na LMIP. ROP 18/2025.",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 882, de 14 de junho de 2024. Requisitos e procedimentos para enquadramento de medicamentos como isentos de prescrição. Diário Oficial da União, 21 jun. 2024.",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 576, de 11 de novembro de 2021. Notificação de medicamentos de baixo risco. Diário Oficial da União, 2021.",
+  "Anvisa. Instrução Normativa nº 106, de 11 de novembro de 2021. Lista de Medicamentos de Baixo Risco sujeitos à Notificação (LMN). Diário Oficial da União, 2021.",
+  "Anvisa. Instrução Normativa nº 430, de 24 de março de 2026. Atualiza a Lista de Medicamentos de Baixo Risco sujeitos à Notificação. Diário Oficial da União, 26 mar. 2026.",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 243, de 26 de julho de 2018, e Instrução Normativa nº 28, de 26 de julho de 2018, com atualizações. Suplementos alimentares.",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 786, de 5 de maio de 2023. Serviços que executam exames de análises clínicas. Revogada pela RDC nº 978/2025.",
+  "Anvisa. Resolução RDC nº 978, de 6 de junho de 2025. Diário Oficial da União, 10/06/2025.",
+  "Conselho Federal de Farmácia. Resolução nº 586, de 29 de agosto de 2013. Regula a prescrição farmacêutica.",
+  "Ministério da Saúde. Dengue: diagnóstico e manejo clínico, adulto e criança. 6ª ed. Brasília, 2024 (Apêndice H, uso de medicamentos para dengue).",
+  "Sociedade Brasileira de Pediatria. Documento científico: Abordagem da febre aguda em pediatria e reflexões sobre a febre nas arboviroses. 2025.",
+  "Jornal de Pediatria. Estudo sobre uso alternado de antitérmicos em crianças no Sul do Brasil. 2013.",
+  "Bulas consultadas (texto reproduzido no portal Consulta Remédios, outubro de 2026): Novalgina®, Dipirona Iquego, Tylenol®, Aspirina®, Advil® 400 mg, Alivium®, Flanax®, Cataflampro®, Mylanta Plus®, Buscopan®, Buscopan Composto®, Floratil®, Dulcolax®, Lactulona®, Fluimucil®, Mucosolvan®, Bisolvon®, Vibral®, Seki®, Bromidrato de Dextrometorfano, Strepsils®, Resfenol®, Benegrip®, Claritin®, Desalex®, Allegra®, Zyxem®, Polaramine®, Ebastel®, Talerc®, Canesten®, Gino-Canesten®, Nizoral®, Berlison®, Penvir Lábia®, Nedax®, Permetrina 5%, Deltacid®, Sanasar®, Pantelmin®, Ascaridil®, Pyridium®, Colírio Moura Brasil®, Lacrima Plus®, Cerumin®, NiQuitin® adesivo e pastilha, Nicotinell®, Nicorette®, Postinor Uno®.",
+  "Bulas consultadas para categoria de venda (venda sob prescrição médica): Dramin®, Dramin B6®, Plasil®, Vonau®, Imosec®, Tiorfan®, Famox®, Neosoro®, Sorine®, Afrin®, Zyrtec®, Zovirax®, Zentel®, Addera D3®, Depura®, DPrev®, Noripurum®, Neutrofer®, Combiron®, Citoneurin®, Benerva®, Endofolin®, Meclin®."
+ ]
+}

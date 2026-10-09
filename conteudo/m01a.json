@@ -1,0 +1,761 @@
+{
+ "id": "m01",
+ "num": 1,
+ "parte": "a",
+ "titulo": "Medicamentos isentos de prescrição",
+ "escopo": "Conceito, enquadramento e lista vigente de MIP, atendimento e indicação farmacêutica no balcão, classes e posologia dos MIP mais dispensados e a prescrição farmacêutica regulamentada pela Resolução CFF nº 586/2013.",
+ "topicos": [
+  {
+   "id": "m01-mip-base-legal",
+   "titulo": "Conceito e base legal dos MIP",
+   "resumo": "<p>Medicamento isento de prescrição (MIP) é aquele que <strong>pode ser dispensado sem exigência de prescrição</strong>. A definição está na norma que hoje rege o tema, a RDC nº 882/2024 da Anvisa (art. 2º, I). No mercado, o MIP também é chamado de medicamento de venda livre ou OTC (do inglês <em>over the counter</em>). O termo \"venda livre\" engana: o MIP continua sendo medicamento, só pode ser comercializado em farmácia ou drogaria e exige orientação de quem o dispensa.</p>\n<p>A categoria de venda pertence ao <em>produto registrado</em> e a cada uma das suas apresentações. A mesma substância pode ser MIP em uma forma farmacêutica e concentração e exigir receita em outra. Por isso, no balcão, a verificação se faz sobre a apresentação que está na mão do cliente e a indicação pretendida.</p>\n\n<h3>Arcabouço legal</h3>\n<p>O enquadramento do MIP se apoia em leis federais, que dão a moldura, e em normas da Anvisa, que detalham critérios, lista, exposição e propaganda. O estudante precisa saber o papel de cada uma, porque provas e fiscalizações cobram exatamente essa correspondência.</p>\n<div class=\"tab\"><table><thead><tr><th>Norma</th><th>O que interessa para o MIP</th></tr></thead><tbody>\n<tr><td>Lei nº 5.991/1973</td><td>Define dispensação (art. 4º, XV) e drogaria (art. 4º, XI). O comércio de medicamentos é privativo das empresas e estabelecimentos definidos na lei (art. 5º) e a dispensação é privativa de farmácia, drogaria, posto de medicamento, unidade volante e dispensário (art. 6º). Vale para o MIP.</td></tr>\n<tr><td>Lei nº 13.021/2014</td><td>Farmácia é unidade de prestação de serviços de assistência farmacêutica e assistência à saúde (art. 3º). Exige farmacêutico durante todo o horário de funcionamento (art. 6º, I) e impõe ao farmacêutico o dever de orientar sobre benefício e risco, conservação, uso e interações (art. 13, VI).</td></tr>\n<tr><td>RDC nº 882/2024</td><td>Critérios e procedimentos para enquadrar um medicamento como MIP e para reenquadrá-lo como sob prescrição. Em vigor desde 1º/7/2024. Revogou a RDC nº 98/2016 (art. 27).</td></tr>\n<tr><td>IN nº 285/2024</td><td>Lista de Medicamentos Isentos de Prescrição (LMIP), em vigor desde 1º/4/2024, com anexos atualizados pela IN nº 388/2025 (art. 1º e Anexo II) e pela IN nº 404/2025 (Anexo I).</td></tr>\n<tr><td>RDC nº 44/2009</td><td>Boas práticas em farmácias e drogarias: MIP pode ficar ao alcance do usuário (art. 40, §2º), cartaz obrigatório (art. 41), venda remota (art. 52) e Declaração de Serviço Farmacêutico (art. 81).</td></tr>\n<tr><td>RDC nº 96/2008</td><td>Propaganda e publicidade de medicamentos. Só o MIP pode ser anunciado ao público leigo, com advertências obrigatórias (arts. 22 a 26).</td></tr>\n<tr><td>Lei nº 6.437/1977</td><td>Tipifica as infrações sanitárias. A RDC nº 882/2024 remete a ela em caso de descumprimento (art. 21).</td></tr>\n</tbody></table></div>\n<p>Até 2016 o enquadramento seguia a RDC nº 138/2003, que trabalhava com uma relação de grupos e indicações terapêuticas especificadas (a chamada lista GITE): era isento o medicamento cujo grupo e indicação apareciam na relação. A RDC nº 98/2016 trocou esse modelo por critérios técnicos explícitos e por uma lista de fármacos (a LMIP), publicada por Instrução Normativa: IN nº 11/2016, IN nº 86/2021, IN nº 120/2022 e, hoje, IN nº 285/2024. Em 2024 a RDC nº 98/2016 foi substituída pela RDC nº 882/2024, que manteve a lógica de critérios mais lista. Material didático antigo que ainda cita a RDC nº 98/2016 como vigente está desatualizado.</p>\n\n<h3>Critérios de enquadramento</h3>\n<p>A RDC nº 882/2024 exige que o medicamento comprove, ao mesmo tempo, todos os critérios do art. 4º. Eles explicam por que alguns fármacos são MIP e outros, muito usados, não são.</p>\n<div class=\"tab\"><table><thead><tr><th>Critério (art. 4º)</th><th>O que significa na prática</th></tr></thead><tbody>\n<tr><td>I. Tempo de comercialização</td><td>10 anos de mercado, sendo pelo menos 5 no Brasil como medicamento sob prescrição; ou 5 anos no exterior como isento, em país com critérios compatíveis. Vale para as mesmas concentrações, posologia, indicações, população, via e restrições.</td></tr>\n<tr><td>II. Segurança</td><td>Reações adversas conhecidas e reversíveis com a suspensão; baixo potencial de toxicidade (efeito grave só com grande quantidade, janela terapêutica segura); baixo potencial de interação medicamentosa e alimentar clinicamente relevante.</td></tr>\n<tr><td>III. Indicação</td><td>Doença não grave, de evolução inexistente ou muito lenta, com sinais e sintomas facilmente percebidos pelo paciente, pelo cuidador ou pelo farmacêutico, sem necessidade de exame laboratorial ou consulta com prescritor.</td></tr>\n<tr><td>IV. Tempo de uso</td><td>Uso por curto período ou pelo tempo previsto em bula, exceto os de uso preventivo.</td></tr>\n<tr><td>V. Manejo</td><td>Manejável pelo próprio paciente, pelo cuidador ou mediante orientação do farmacêutico.</td></tr>\n<tr><td>VI. Baixo risco de mau uso, abuso e intoxicação</td><td>Pouco risco de uso para outra finalidade, de uso acima da dose ou do tempo recomendados e de intoxicação.</td></tr>\n<tr><td>VII. Dependência</td><td>Não pode ter potencial de causar dependência.</td></tr>\n</tbody></table></div>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"As formas farmacêuticas injetáveis e os produtos de terapia avançada não são passíveis de enquadramento como MIP.\" (RDC nº 882/2024, art. 5º). E ainda: o enquadramento de fármacos isolados como MIP \"não garante que a associação em doses fixas ou razão fixa de doses seja enquadrada como MIP\" (art. 10).</p></div>\n<p>O art. 10 é uma das regras mais cobradas. Se o paracetamol e a cafeína são MIP isoladamente, a associação dos dois precisa cumprir de novo os critérios do art. 4º. A única facilidade é que o prazo de comercialização do inciso I é dispensado quando todos os componentes já fazem parte de um MIP.</p>\n\n<h3>Quem pede, quem decide e quanto tempo leva</h3>\n<p>O farmacêutico de balcão não pede enquadramento. Quem solicita é a empresa detentora do registro. Há dois caminhos:</p>\n<ul>\n<li><strong>Na petição de registro</strong> de um medicamento novo, com os dados que sustentam o enquadramento (art. 6º). Esse caminho não se aplica a genéricos e similares (art. 6º, §2º).</li>\n<li><strong>Por petição de enquadramento</strong> de um medicamento já registrado como sob prescrição, para todas as condições aprovadas ou só para parte delas, como uma concentração menor, uma indicação ou uma população (art. 7º).</li>\n</ul>\n<p>A empresa apresenta relatório técnico e o Relatório Periódico de Avaliação Benefício-Risco (art. 9º). A decisão é da Diretoria Colegiada da Anvisa e se materializa na atualização da LMIP (art. 11). Depois da publicação, as empresas têm 180 dias para adequar o registro (art. 13) e, se o produto for excluído da lista por deixar de cumprir algum critério, outros 180 dias para voltar à categoria sob prescrição (art. 17). O enquadramento pode ser revisto a qualquer momento (art. 20).</p>\n<p>Duas regras finais da RDC nº 882/2024 mudam a rotina de quem confere categoria de venda:</p>\n<ul>\n<li>Medicamentos registrados como MIP antes da lista e que não aparecem nela <strong>continuam MIP</strong> até que a Anvisa avalie a pertinência do enquadramento (art. 18). A ausência na LMIP não transforma, sozinha, um MIP antigo em medicamento tarjado.</li>\n<li>Um mesmo registro pode ter apresentações isentas e apresentações sob prescrição, desde que distinguíveis por rótulo, bula e complemento de nome (art. 14). O complemento de nome é dispensado nos genéricos (art. 14, §2º).</li>\n</ul>\n\n<h3>Exposição, autosserviço e venda a distância</h3>\n<p>A RDC nº 44/2009 manda manter os medicamentos em área de circulação restrita aos funcionários (art. 40, §1º). O MIP é a exceção: pode permanecer ao alcance dos usuários, em autosserviço (art. 40, §2º, com redação da RDC nº 41/2012). Para isso há três condições:</p>\n<ul>\n<li>MIP do mesmo princípio ativo, ou da mesma associação, ficam juntos e identificados de forma visível pela DCB (art. 41, §1º).</li>\n<li>MIP ficam separados dos demais produtos da área de autosserviço, como cosméticos e alimentos (art. 41, §2º).</li>\n<li>Na área de medicamentos deve haver cartaz legível com a frase \"MEDICAMENTOS PODEM CAUSAR EFEITOS INDESEJADOS. EVITE A AUTOMEDICAÇÃO: INFORME-SE COM O FARMACÊUTICO\" (art. 41).</li>\n</ul>\n<p>Um medicamento recém-enquadrado só pode ir para o autosserviço depois que a empresa adequar bula e rotulagem (RDC nº 882/2024, art. 19). Na venda por telefone ou internet, o MIP pode ser dispensado por farmácia ou drogaria aberta ao público, com farmacêutico presente durante todo o horário (RDC nº 44/2009, art. 52). Para medicamento sujeito a prescrição solicitado a distância, a receita precisa ser apresentada e avaliada pelo farmacêutico (art. 52, §1º); para controlados, a venda remota é vedada, salvo exceção prevista em norma específica (art. 52, §2º, redação da RDC nº 812/2023).</p>\n\n<h3>Propaganda, embalagem e bula</h3>\n<p>Pela RDC nº 96/2008, só o MIP pode ser anunciado ao público em geral. Medicamento sob prescrição tem propaganda restrita a meios dirigidos a profissionais habilitados a prescrever ou dispensar (art. 27). A peça de MIP deve trazer nome comercial, DCB com pelo menos 50% do tamanho do nome comercial e número de registro (art. 22), além da advertência específica da substância ou, na falta dela, a frase padrão \"É UM MEDICAMENTO. SEU USO PODE TRAZER RISCOS. PROCURE O MÉDICO E O FARMACÊUTICO. LEIA A BULA\" (art. 23).</p>\n<p>São vedados, entre outros: estimular o uso indiscriminado, sugerir diagnóstico ao público, mostrar pessoas usando o medicamento (art. 8º), usar expressões como \"comprovado cientificamente\" e sugerir que o MIP dispensa hábitos saudáveis ou a consulta médica (art. 26). Programas de fidelidade da farmácia não podem usar medicamentos como objeto de pontuação, troca, sorteio ou prêmio (art. 10). Comparação de preços dirigida ao consumidor só pode ser feita entre medicamentos intercambiáveis (art. 11).</p>\n<p>Na embalagem, o MIP não traz tarja; o medicamento sob prescrição traz a tarja vermelha com a frase de restrição. Quando coexistem apresentações isentas e tarjadas no mesmo registro, rótulo, bula e complemento de nome precisam permitir distinguir uma da outra (RDC nº 882/2024, art. 14, §1º). Na mudança de categoria, a única alteração permitida no texto de bula é a decorrente da própria mudança (art. 13, §2º).</p>\n\n<h3>O que o enquadramento como MIP não autoriza</h3>\n<div class=\"cx alerta\"><b>Atenção</b><p>Isento de prescrição não significa isento de risco. Os critérios falam em risco <em>baixo</em> nas condições de uso da bula. Fora delas o perfil muda: paracetamol acima da dose máxima lesa o fígado, dipirona pode causar agranulocitose, AINE causa sangramento digestivo e lesão renal, anti-histamínico de primeira geração seda e provoca quedas no idoso, descongestionante sistêmico eleva a pressão arterial.</p></div>\n<ul>\n<li>Não autoriza venda fora de farmácia ou drogaria (Lei nº 5.991/1973, arts. 5º e 6º).</li>\n<li>Não dispensa a orientação: o dever de orientar é do farmacêutico, em qualquer dispensação (Lei nº 13.021/2014, art. 13, VI; RDC nº 44/2009, art. 42).</li>\n<li>Não torna o MIP adequado para qualquer pessoa: gestantes, crianças pequenas, idosos frágeis e pacientes com doença crônica exigem avaliação própria.</li>\n<li>Não autoriza uso prolongado: o critério IV pressupõe uso curto ou pelo tempo da bula. Sintoma que persiste além do prazo da bula é motivo de encaminhamento.</li>\n<li>Não libera a indicação por quem não é farmacêutico. Indicar um MIP para um problema de saúde relatado pelo cliente é ato do farmacêutico, que o documenta (Resolução CFF nº 585/2013, art. 7º, XXV; RDC nº 44/2009, art. 81, §2º, I, b).</li>\n<li>Não permite propaganda livre nem bonificação de balconista para \"empurrar\" marca.</li>\n</ul>\n<div class=\"cx balcao\"><b>No balcão</b><p>Quando o cliente pega um MIP na gôndola e vai direto ao caixa, a dispensação não acabou. Um contato curto resolve a maior parte dos riscos: \"Para quem é? Já usou antes? Usa algum outro remédio? Tem pressão alta, problema de estômago, de rim ou está grávida?\". Em seguida, reforce dose máxima, intervalo e por quantos dias usar antes de procurar atendimento.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Senhora de 68 anos leva da gôndola três caixas de um antigripal com paracetamol, fenilefrina e clorfeniramina e um frasco de dipirona. Na conversa, conta que é hipertensa e que \"a gripe já dura cinco dias\". O farmacêutico explica que a fenilefrina pode elevar a pressão, que a clorfeniramina é anti-histamínico de primeira geração (sedação e risco de queda), que a associação com outro analgésico duplica o efeito antitérmico sem necessidade e que a quantidade é excessiva. Orienta repouso, hidratação e soro fisiológico nasal, indica um analgésico isolado em dose correta e combina reavaliação: se a febre passar de três dias, deve procurar atendimento.</p></div>"
+  },
+  {
+   "id": "m01-mip-lista",
+   "titulo": "Consulta à lista de MIP e armadilhas",
+   "resumo": "<p>A Lista de Medicamentos Isentos de Prescrição (LMIP) é publicada pela Instrução Normativa nº 285/2024 e atualizada por outras INs que alteram seus anexos. Saber ler a lista evita dois erros opostos: vender sem receita um produto tarjado e recusar sem motivo um MIP legítimo.</p>\n\n<h3>Estrutura da lista</h3>\n<p>A IN nº 285/2024 tem dois anexos. O Anexo I reúne medicamentos sintéticos, específicos e biológicos, em colunas: fármaco, subgrupo terapêutico ou farmacológico (código ATC), forma farmacêutica, concentração máxima e indicação terapêutica simplificada. O Anexo II reúne os fitoterápicos, em colunas: espécie, classe terapêutica, parte empregada, indicações e via de administração. A RDC nº 882/2024 (art. 12, §1º e §2º) fixa esse conteúdo mínimo e acrescenta as restrições de uso.</p>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>A caracterização como isento \"ocorre para um produto com o mesmo IFA (ou associação), forma farmacêutica, indicação(ões) terapêutica(s) e com concentração igual ou inferior àqueles indicados em cada linha da LMIP\". A coluna \"concentração máxima\" \"refere-se à dose do insumo farmacêutico ativo presente na forma farmacêutica, não se referindo à dose posológica\" (IN nº 285/2024, art. 1º, §2º, I e II).</p></div>\n<p>Para fitoterápicos, a isenção vale para produto com a mesma espécie, a mesma parte da planta e a mesma indicação da linha (art. 1º, §3º). As indicações da lista são simplificações das indicações da bula do profissional (art. 1º, §1º).</p>\n\n<h3>Como consultar no dia a dia</h3>\n<ol>\n<li>Abra o texto consolidado da IN nº 285/2024 no AnvisaLegis (sistema de legislação da Anvisa). O próprio texto mostra \"redação dada por\" em cada anexo, o que garante que a versão é a atual. Em outubro de 2026, o Anexo I estava com a redação da IN nº 404/2025 e o Anexo II com a da IN nº 388/2025.</li>\n<li>Busque pela DCB do fármaco, inclusive o sal (\"cloridrato de\", \"maleato de\"), e leia todas as linhas: um fármaco costuma ter uma linha por forma farmacêutica.</li>\n<li>Compare quatro elementos com o produto na mão: fármaco ou associação, forma farmacêutica, concentração por unidade e indicação pretendida.</li>\n<li>Confirme na embalagem (ausência de tarja) e, se houver dúvida, na consulta de produtos registrados da Anvisa. Lembre que MIP antigos fora da lista mantêm a categoria até reavaliação (RDC nº 882/2024, art. 18).</li>\n</ol>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>A categoria de venda depende do conjunto fármaco, forma farmacêutica, concentração, indicação e via. Mudou qualquer um desses elementos, mudou a análise.</p></div>\n\n<h3>Armadilhas mais comuns</h3>\n<p>Os exemplos abaixo foram conferidos no texto consolidado da LMIP (IN nº 285/2024, Anexo I, redação da IN nº 404/2025). Eles mostram como a mesma substância muda de categoria conforme apresentação, associação e via.</p>\n<div class=\"tab\"><table><thead><tr><th>Situação</th><th>Na LMIP</th><th>Fora da LMIP (exige análise do registro, em geral tarjado)</th></tr></thead><tbody>\n<tr><td>Via de administração</td><td>Diclofenaco gel e solução dermatológica (dor musculoesquelética); nimesulida gel 20 mg/g; cetoconazol creme e xampu; metronidazol creme ou gel 7,5 mg/g (rosácea)</td><td>Diclofenaco, nimesulida e cetoconazol por via oral; metronidazol oral</td></tr>\n<tr><td>Concentração e forma</td><td>Ibuprofeno 400 mg (comprimido, cápsula); liberação prolongada 600 mg (200 mg imediata + 400 mg prolongada); suspensão oral até 200 mg/mL</td><td>Ibuprofeno 600 mg comprimido de liberação imediata</td></tr>\n<tr><td>População</td><td>Ibuprofeno suspensão oral 200 mg/mL tem indicação restrita a adultos</td><td>Uso dessa concentração em criança</td></tr>\n<tr><td>Indicação específica</td><td>Omeprazol 20 mg cápsula, para alívio de azia e queimação frequentes (dois ou mais dias na semana), incluído pela IN nº 404/2025</td><td>Omeprazol 40 mg; outros inibidores da bomba de prótons; uso para outras indicações</td></tr>\n<tr><td>Associação</td><td>Maleato de dexclorfeniramina isolado (comprimido, creme, solução oral); nafazolina em colírio associado à feniramina ou ao sulfato de zinco</td><td>Dexclorfeniramina associada a corticoide sistêmico (o corticoide não é MIP; RDC nº 882/2024, art. 10)</td></tr>\n<tr><td>Antiparasitários</td><td>Mebendazol comprimido 500 mg e suspensão 20 mg/mL; permetrina emulsão ou suspensão dermatológica 10 mg/mL (pediculose) e 50 mg/mL (escabiose)</td><td>Albendazol e ivermectina não constam da lista</td></tr>\n<tr><td>Antifúngicos</td><td>Clotrimazol creme dermatológico e vaginal, comprimido vaginal 500 mg; miconazol creme e creme vaginal; terbinafina creme e solução tópica; ciclopirox esmalte</td><td>Fluconazol, itraconazol e terbinafina por via oral não constam</td></tr>\n<tr><td>Corticoide tópico</td><td>Acetato de hidrocortisona creme ou pomada 10 mg/g</td><td>Outros corticoides tópicos não constam: confira o registro</td></tr>\n</tbody></table></div>\n<p>Outras linhas que costumam surpreender o estudante: fenazopiridina 200 mg (alívio de dor e ardor ao urinar, sem tratar a infecção); nicotina em adesivo de até 21 mg e em goma ou pastilha de até 4 mg; naproxeno 500 mg e naproxeno sódico 550 mg; butilbrometo de escopolamina 10 mg e suas associações com dipirona ou paracetamol; sulfato de neomicina pomada; penciclovir creme 10 mg/g para herpes labial; anti-histamínicos de segunda geração (loratadina, desloratadina, levocetirizina, fexofenadina 180 mg, ebastina).</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Estar na LMIP não torna o produto adequado para a queixa do cliente. A fenazopiridina alivia o ardor, mas pode mascarar uma infecção urinária que precisa de antibiótico; o omeprazol MIP é para azia frequente sem sinais de alarme e por curso curto, conforme a bula; o neomicina tópico não trata infecção de pele extensa. A lista informa a categoria de venda; a adequação ao paciente depende da avaliação do farmacêutico.</p></div>\n\n<h3>Fitoterápicos isentos</h3>\n<p>No Anexo II a análise é por espécie, parte da planta e indicação, e a via aparece na própria coluna de indicação. Exemplos: <em>Aesculus hippocastanum</em> (castanha-da-índia), sementes, uso oral, para sintomas de insuficiência venosa nas pernas; <em>Arnica montana</em>, capítulo floral, uso tópico, para equimoses e contusões; <em>Althaea officinalis</em>, raízes, uso oral, para irritação da garganta e tosse seca associada. Um produto de arnica para uso oral, por exemplo, não se apoia nessa linha.</p>\n\n<h3>Mudanças da lista</h3>\n<p>A LMIP muda com frequência. Em 2025, a IN nº 388/2025 alterou o Anexo II e o art. 1º, e a IN nº 404/2025 reescreveu o Anexo I, incluindo o omeprazol 20 mg. Novas inclusões costumam levar até 180 dias para chegar ao mercado, porque as empresas precisam adequar bula e rotulagem antes do autosserviço (RDC nº 882/2024, arts. 13 e 19). Nesse intervalo podem coexistir no estoque caixas antigas com tarja e caixas novas sem tarja do mesmo produto.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Monte na farmácia um atalho para o texto consolidado da LMIP e consulte sempre que um cliente pedir \"sem receita\" um produto que você não tem certeza. Antes de responder, olhe a caixa: forma farmacêutica, concentração e tarja. Se a apresentação pedida é tarjada, ofereça a alternativa isenta quando ela existir e fizer sentido clinicamente, ou encaminhe.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Homem de 45 anos pede \"diclofenaco em comprimido\" para dor nas costas após carregar peso, sem outros sintomas. O comprimido oral é tarjado e não pode ser vendido sem receita. O farmacêutico confirma que não há sinais de alerta (sem febre, sem perda de força, sem alteração urinária, sem trauma grave), indica diclofenaco gel, que está na LMIP, orienta aplicação local, calor e retorno às atividades leves, e combina procurar atendimento se a dor não melhorar ou se surgir qualquer sinal de alerta.</p></div>"
+  },
+  {
+   "id": "m01-atendimento",
+   "titulo": "Dispensação, indicação e anamnese farmacêutica",
+   "resumo": "<p>No balcão, três atos diferentes costumam ser chamados pelo mesmo nome de \"atendimento\". Separá-los é o primeiro passo para agir dentro da lei e documentar corretamente.</p>\n<ul>\n<li><strong>Dispensação</strong>: fornecimento do medicamento ao usuário, a título remunerado ou não (Lei nº 5.991/1973, art. 4º, XV), acompanhado de orientação. Pode partir de uma receita ou de um pedido de MIP pelo nome.</li>\n<li><strong>Indicação farmacêutica</strong>: o cliente relata um sintoma e pede ajuda; o farmacêutico avalia, decide se o problema é autolimitado e pode ser manejado na farmácia e, se for, seleciona um MIP ou uma medida não farmacológica. Corresponde ao \"manejo de problemas de saúde autolimitados\" das atribuições clínicas (Resolução CFF nº 585/2013, art. 7º, XXV).</li>\n<li><strong>Prescrição farmacêutica</strong>: ato pelo qual o farmacêutico seleciona e documenta terapias farmacológicas e não farmacológicas e outras intervenções (Resolução CFF nº 586/2013, art. 3º), com documento próprio e registro do processo. Sua situação jurídica está discutida no tópico sobre a Resolução nº 586/2013.</li>\n</ul>\n<div class=\"tab\"><table><thead><tr><th>Aspecto</th><th>Dispensação</th><th>Indicação</th><th>Prescrição farmacêutica</th></tr></thead><tbody>\n<tr><td>Começa com</td><td>Receita ou pedido de produto</td><td>Queixa ou sintoma</td><td>Necessidade de saúde avaliada em consulta</td></tr>\n<tr><td>Decisão clínica do farmacêutico</td><td>Avaliar a receita e orientar</td><td>Escolher se trata e com quê</td><td>Selecionar, documentar e acompanhar a terapia</td></tr>\n<tr><td>Documento</td><td>Receita (quando houver) e registros sanitários</td><td>Declaração de Serviço Farmacêutico</td><td>Documento de prescrição (Res. nº 586/2013, art. 9º)</td></tr>\n</tbody></table></div>\n<p>Na prática, um mesmo atendimento pode passar por mais de um ato. O cliente pede um xarope pelo nome (pedido de MIP), conta que a tosse dura três semanas (dado de anamnese) e sai encaminhado ao médico (desfecho da avaliação). A qualidade do atendimento se mede pelo raciocínio aplicado e registrado.</p>\n\n<h3>Etapas do atendimento de uma queixa</h3>\n<p>Os guias de prática clínica do Conselho Federal de Farmácia (série do ProFar: espirro e congestão nasal, 2016; febre, 2018; azia e dispepsia, 2020; tosse, 2021) organizam o atendimento em etapas fixas, as mesmas para qualquer sintoma:</p>\n<ol>\n<li><strong>Acolhimento da demanda</strong>: receber o cliente, ouvir o motivo da procura e levá-lo, se necessário, a um local reservado.</li>\n<li><strong>Anamnese farmacêutica e verificação de parâmetros clínicos</strong>: coletar dados por entrevista e, quando útil, medir pressão arterial ou temperatura.</li>\n<li><strong>Identificação da necessidade e dos alertas</strong>: decidir se o problema parece autolimitado ou se há situação que exige encaminhamento.</li>\n<li><strong>Plano de cuidado</strong>: encaminhamento, terapia não farmacológica, terapia farmacológica com MIP e educação do paciente, combinados com ele.</li>\n<li><strong>Avaliação dos resultados</strong>: retorno ou contato combinado para saber se o problema se resolveu.</li>\n</ol>\n<p>A Resolução CFF nº 585/2013 define anamnese farmacêutica como o \"procedimento de coleta de dados sobre o paciente, realizada pelo farmacêutico por meio de entrevista, com a finalidade de conhecer sua história de saúde, elaborar o perfil farmacoterapêutico e identificar suas necessidades relacionadas à saúde\" (glossário).</p>\n\n<h3>Roteiros de anamnese</h3>\n<p>Para não esquecer perguntas no ritmo do balcão, farmacêuticos de vários países usam roteiros mnemônicos. Eles vêm da prática britânica (difundidos em obras como <em>Symptoms in the Pharmacy</em>, de Blenkinsopp e Paxton, citada nas referências da Resolução CFF nº 586/2013) e funcionam bem como lembrete. Não substituem o raciocínio: o roteiro serve para coletar dados, e a decisão vem da comparação com os sinais de alerta.</p>\n<div class=\"tab\"><table><thead><tr><th>Roteiro</th><th>Letras (em inglês)</th><th>Pergunta correspondente</th></tr></thead><tbody>\n<tr><td>WWHAM</td><td>Who; What; How long; Action; Medication</td><td>Para quem é? Quais os sintomas? Há quanto tempo? O que já fez ou usou? Que medicamentos usa?</td></tr>\n<tr><td>ASMETHOD</td><td>Age/appearance; Self or someone else; Medication; Extra medicines; Time persisting; History; Other symptoms; Danger symptoms</td><td>Idade e aparência; é para a própria pessoa?; medicamentos de uso contínuo; outros produtos já tentados; duração; história clínica; outros sintomas; sintomas de perigo</td></tr>\n<tr><td>SIT DOWN SIR</td><td>Site; Intensity; Type; Duration; Onset; With; aNnoyed by; Spread; Incidence; Relieved by</td><td>Local, intensidade, tipo, duração, início, sintomas associados, o que piora, irradiação, frequência e o que alivia. Útil para dor.</td></tr>\n<tr><td>ENCORE</td><td>Explore; No medication; Care; Observe; Refer; Explain</td><td>Explorar o problema; considerar não usar medicamento; cuidado em populações especiais; observar o paciente; encaminhar quando preciso; explicar a conduta</td></tr>\n</tbody></table></div>\n<p>Os guias do CFF não adotam um acrônimo, mas cobrem os mesmos domínios. Uma forma prática de lembrar em português:</p>\n<ul>\n<li><strong>Quem</strong>: idade, peso (em criança), gestação, amamentação, se o paciente está presente.</li>\n<li><strong>O quê</strong>: sintoma principal, local, intensidade, características.</li>\n<li><strong>Desde quando</strong>: início, duração, evolução (melhorando, igual, piorando), episódios anteriores.</li>\n<li><strong>Com o quê</strong>: sintomas associados, febre, sinais de gravidade.</li>\n<li><strong>O que já fez</strong>: medicamentos e medidas já tentados, dose, resultado.</li>\n<li><strong>O que mais tem e usa</strong>: doenças crônicas, medicamentos de uso contínuo, alergias, álcool, tabaco.</li>\n</ul>\n<div class=\"cx balcao\"><b>No balcão</b><p>Comece com pergunta aberta (\"Me conte o que está sentindo\") e só depois feche com perguntas diretas. Quando o pedido é para outra pessoa, pergunte idade, peso e se ela pode vir ou falar ao telefone: sem esses dados, a avaliação fica incompleta e o mais seguro pode ser não indicar. Ao final, peça que o cliente repita como vai usar o medicamento; isso confirma que a orientação foi entendida.</p></div>\n\n<h3>Parâmetros clínicos e seus limites</h3>\n<p>A RDC nº 44/2009 permite aferir pressão arterial e temperatura corporal (art. 69, §1º) e executar exames de análises clínicas nos termos da legislação vigente (art. 61, §2º). Hoje essa legislação é a RDC nº 978/2025, que revogou a RDC nº 786/2023: a farmácia que faz exames é serviço tipo I, só com amostra por punção capilar (como a glicemia) ou swab nasal e orofaríngeo, todas as etapas no próprio estabelecimento e controle de qualidade. Esses dados servem para assistência e orientação, \"não possuindo, em nenhuma hipótese, o objetivo de diagnóstico\" (art. 69). Se o valor estiver fora da referência, o usuário deve ser orientado a procurar assistência médica (art. 69, §3º) e não podem ser indicados ou alterados medicamentos de venda sob prescrição (art. 69, §4º). A Declaração de Serviço Farmacêutico, nesses casos, leva a frase \"ESTE PROCEDIMENTO NÃO TEM FINALIDADE DE DIAGNÓSTICO E NÃO SUBSTITUI A CONSULTA MÉDICA\" (art. 81, §2º, I, d).</p>\n\n<h3>Plano de cuidado e orientação</h3>\n<p>Quando não há alerta, o plano costuma combinar medida não farmacológica e um MIP. A escolha leva em conta eficácia, segurança para aquele paciente, custo e conveniência, que são os mesmos critérios da Resolução nº 586/2013 (art. 7º, III). A orientação mínima inclui:</p>\n<ul>\n<li>nome do medicamento pela DCB, dose, intervalo e dose máxima diária;</li>\n<li>como usar (com ou sem alimento, como medir, como aplicar);</li>\n<li>por quanto tempo usar e quando parar;</li>\n<li>efeitos esperados e reações que exigem suspensão;</li>\n<li>o que evitar (álcool, outro produto com o mesmo fármaco, atividades de risco se houver sedação);</li>\n<li>quando procurar atendimento: piora, sinais de alerta ou ausência de melhora no prazo combinado.</li>\n</ul>\n<p>A Lei nº 13.021/2014 (art. 13, VI) e a RDC nº 44/2009 (art. 42, §2º) listam como elementos da orientação a posologia, a influência dos alimentos, as interações, as reações adversas e a conservação.</p>\n\n<h3>Registro, consultório e retorno</h3>\n<p>Atendimento clínico sem registro não pode ser avaliado nem defendido. A RDC nº 44/2009 exige que as atividades de atenção farmacêutica sejam documentadas \"de forma sistemática e contínua, com o consentimento expresso do usuário\" (art. 64, §1º). O registro deve conter, no mínimo, nome, endereço e telefone do usuário, as orientações e intervenções realizadas, os resultados e a identificação do farmacêutico com inscrição no CRF (art. 64, §2º). O serviço deve ter protocolos com referências e indicadores (art. 64) e o usuário recebe a Declaração de Serviço Farmacêutico (art. 81).</p>\n<p>O consultório farmacêutico é o \"lugar de trabalho do farmacêutico para atendimento de pacientes, familiares e cuidadores, onde se realiza com privacidade a consulta farmacêutica\", e pode funcionar como dependência de farmácia comunitária (Resolução CFF nº 585/2013, glossário). Do ponto de vista sanitário, o serviço precisa constar do licenciamento do estabelecimento (RDC nº 44/2009, art. 61, §3º e §4º). Do ponto de vista profissional, o registro de clínicas e consultórios farmacêuticos no CRF tem regulamentação própria do CFF; consulte o seu Conselho Regional.</p>\n<p>O retorno completa o atendimento. Combine com o paciente quando ele deve estar melhor e o que fazer se não estiver. Em farmácia comunitária, isso pode ser um telefonema no terceiro dia ou o pedido para voltar se a febre persistir. O resultado vai para o registro.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 29 anos chega pedindo \"algo para dor de cabeça\". Na anamnese: dor em pressão nos dois lados, iniciada no fim da tarde, sem febre, sem vômitos, sem alteração visual, padrão igual ao de outras vezes; não está grávida; usa apenas anticoncepcional oral. Não há sinais de alerta. O farmacêutico indica paracetamol em dose de adulto conforme a bula, orienta hidratação, pausa de telas e sono regular, explica que dor de cabeça frequente com uso de analgésico em muitos dias do mês precisa de avaliação médica, entrega a Declaração de Serviço Farmacêutico e registra o atendimento.</p></div>"
+  },
+  {
+   "id": "m01-sinais-alerta",
+   "titulo": "Sinais de alerta e encaminhamento",
+   "resumo": "<p>Sinal de alerta (em inglês, <em>red flag</em>) é qualquer dado da anamnese que sugere doença grave, não autolimitada ou fora do alcance do MIP. A presença de um único alerta basta para encaminhar. O objetivo da triagem é reconhecer que o caso foge do manejo na farmácia; o diagnóstico fica com o serviço que recebe o encaminhamento.</p>\n<p>Os guias de prática clínica do CFF repetem uma regra geral que vale para qualquer queixa: encaminhar quando os sinais e sintomas forem persistentes, intensos ou recorrentes, quando não houver alívio com o tratamento prévio e sempre que houver dúvida sobre a necessidade de saúde do paciente. A RDC nº 44/2009 determina que o farmacêutico oriente o usuário a buscar outros profissionais quando julgar necessário (art. 66) e que a farmácia mantenha lista atualizada dos estabelecimentos públicos de saúde mais próximos, com endereço e telefone (art. 62).</p>\n\n<h3>Três níveis de resposta</h3>\n<div class=\"tab\"><table><thead><tr><th>Situação</th><th>Conduta</th><th>Exemplos</th></tr></thead><tbody>\n<tr><td>Problema autolimitado, sem alerta</td><td>Medidas não farmacológicas, MIP se necessário, orientação, prazo de reavaliação, registro</td><td>Resfriado comum, azia ocasional após refeição pesada, dor muscular por esforço</td></tr>\n<tr><td>Alerta sem sinal de gravidade imediata</td><td>Encaminhar a consulta (unidade básica ou médico assistente), por escrito quando possível; evitar tratamento que mascare o quadro</td><td>Tosse há mais de três semanas, azia com perda de peso, disúria com febre baixa</td></tr>\n<tr><td>Sinal de gravidade</td><td>Encaminhar imediatamente a pronto atendimento ou acionar o SAMU (192); não oferecer MIP como substituto</td><td>Dor no peito com suor frio e falta de ar, rigidez de nuca com febre, desmaio, sangramento digestivo, bebê com menos de 2 meses com febre</td></tr>\n</tbody></table></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>Tratar um sintoma de alerta com MIP pode atrasar o diagnóstico. O guia de febre do CFF lembra que, na suspeita de doença grave, o antitérmico pode \"descaracterizar os sinais e sintomas e prejudicar o processo diagnóstico\". Em suspeita de dengue e outras arboviroses, o mesmo guia orienta evitar ácido acetilsalicílico e anti-inflamatórios não esteroides.</p></div>\n\n<h3>Sinais de alerta por queixa</h3>\n<p>O quadro a seguir reúne as queixas mais comuns do balcão. Os prazos vêm dos guias de prática clínica do CFF (febre, 2018; espirro e congestão nasal, 2016; azia e dispepsia, 2020; tosse, 2021) e do Caderno de Atenção Básica nº 28, volume II, do Ministério da Saúde (acolhimento à demanda espontânea). Quando a bula do MIP fixar prazo menor, vale o da bula.</p>\n<div class=\"tab\"><table><thead><tr><th>Queixa</th><th>Sinais de alerta (encaminhar)</th><th>Reavaliar ou encaminhar se</th></tr></thead><tbody>\n<tr><td>Dor de cabeça</td><td>Início súbito e muito forte; mudança do padrão habitual ou piora progressiva em semanas; febre com rigidez de nuca; convulsão; alteração neurológica (fraqueza, fala, visão); primeira crise após os 50 anos; após trauma na cabeça</td><td>Dor persistente por cerca de 15 dias ou uso de analgésico em muitos dias do mês</td></tr>\n<tr><td>Febre</td><td>Criança com menos de 2 meses (avaliação hospitalar); menor de 6 meses com 38 °C retal ou mais; acima de 6 meses com 40 °C ou mais; suspeita de dengue, chikungunya ou zika; exantema, falta de ar, convulsão, confusão, dor intensa, criança muito sonolenta ou que não aceita líquidos; gestante com febre persistente; puérpera; imunossuprimido</td><td>Febre por mais de 3 dias, com ou sem tratamento, ou sem resposta ao antitérmico</td></tr>\n<tr><td>Dor de garganta</td><td>Dificuldade de engolir a própria saliva ou de respirar; placas com febre alta e gânglios dolorosos no pescoço, sem tosse ou coriza (sugere faringite estreptocócica, que pede avaliação para antibiótico); placas com disfagia</td><td>Sem melhora em poucos dias ou piora após melhora inicial</td></tr>\n<tr><td>Tosse</td><td>Menor de 2 anos; maior de 75 anos; falta de ar, chiado ou dor no peito; escarro purulento ou com sangue; perda de peso; febre acima de 38,5 °C por 2 dias ou mais; tosse noturna recorrente em criança; doença cardíaca; gestante ou lactante</td><td>Tosse por 3 semanas ou mais; sem melhora após 7 dias de tratamento</td></tr>\n<tr><td>Espirro e congestão nasal</td><td>Obstrução de um lado só (corpo estranho); febre acima de 38 °C por mais de 24 horas mesmo com tratamento; dor facial e secreção purulenta; uso contínuo de descongestionante tópico com sangramento ou lesão nasal</td><td>Sintomas por mais de 10 a 14 dias sem tratamento ou sem melhora após 7 dias de tratamento</td></tr>\n<tr><td>Diarreia</td><td>Sangue ou muco nas fezes; febre; sinais de desidratação (boca seca, olhos fundos, pouca urina); vômitos que impedem a hidratação oral; lactente, idoso frágil ou imunossuprimido</td><td>Diarreia aguda dura menos de 14 dias; acima disso é persistente e precisa de avaliação</td></tr>\n<tr><td>Azia e dispepsia</td><td>Dificuldade ou dor para engolir; perda de peso; vômitos persistentes; sangue no vômito ou fezes escuras; anemia; idade acima de 50 anos com sintoma novo; dor no peito irradiada com suor e falta de ar (urgência); criança até 12 anos; doença renal</td><td>Sintomas por mais de 7 dias apesar do antiácido; azia noturna por mais de 3 meses</td></tr>\n<tr><td>Constipação</td><td>Sangue nas fezes; perda de peso; mudança recente do hábito intestinal após os 50 anos; dor abdominal intensa, vômitos ou distensão (suspeita de obstrução); início após medicamento novo</td><td>Sem resposta às medidas de dieta, líquidos e laxante no prazo da bula</td></tr>\n<tr><td>Dor lombar</td><td>Idade abaixo de 20 ou acima de 50 anos; dor que piora à noite; história de câncer; emagrecimento; febre; trauma importante; osteoporose em tratamento; imunossupressão; fraqueza nas pernas; alteração urinária ou intestinal; anestesia na região da sela</td><td>Dor refratária ao tratamento</td></tr>\n<tr><td>Lesões de pele</td><td>Pinta que cresce, muda de cor ou sangra; vermelhidão quente que se espalha; bolhas extensas; lesões com febre; dor em faixa de um lado do corpo com bolhas (suspeita de herpes-zóster); inchaço de lábios ou falta de ar com urticária (urgência)</td><td>Sem melhora no prazo da bula do produto tópico</td></tr>\n<tr><td>Sintomas urinários</td><td>Febre, calafrio, dor lombar ou no flanco (suspeita de pielonefrite); homem; gestante; criança; idoso; diabético ou imunossuprimido; sangue na urina; corrimento ou lesão genital; episódios repetidos</td><td>Qualquer suspeita de infecção urinária precisa de avaliação: a fenazopiridina só alivia o ardor</td></tr>\n<tr><td>Olho vermelho</td><td>Dor ocular forte; baixa da visão; sensibilidade intensa à luz; pupila diferente ou fixa; dor ocular com vômitos; trauma, corpo estranho ou produto químico; secreção purulenta abundante; usuário de lente de contato com dor</td><td>Irritação simples que não melhora com lubrificante e afastamento do irritante</td></tr>\n</tbody></table></div>\n<p>Fontes do quadro: CFF, guias de prática clínica (febre, 2018; espirro e congestão nasal, 2016; azia e dispepsia, 2020; tosse, 2021); Ministério da Saúde, Caderno de Atenção Básica nº 28, v. II (cefaleia, diarreia, disúria, dor de garganta, dor lombar, dispepsia e olho vermelho). Os itens de constipação, lesões de pele, lente de contato e dificuldade para engolir saliva ou respirar seguem a prática clínica geral e devem ser confirmados no protocolo do serviço.</p>\n\n<h3>Azia frequente depois da IN nº 404/2025</h3>\n<p>O guia do CFF de 2020 lista \"azia frequente (2 ou mais vezes por semana)\" como motivo de encaminhamento. Em 2025, a IN nº 404/2025 incluiu o omeprazol 20 mg na LMIP justamente para o alívio de azia e queimação frequentes, que ocorrem em dois ou mais dias na semana. As duas regras convivem assim: azia frequente, sem nenhum dos sinais de alarme da tabela, pode receber um curso curto de omeprazol MIP no prazo da bula; azia que persiste ou volta logo após o curso, ou que vem com qualquer sinal de alarme, continua sendo caso de encaminhamento. O uso prolongado de inibidor da bomba de prótons sem acompanhamento também é motivo de encaminhamento no guia do CFF.</p>\n\n<h3>Como encaminhar</h3>\n<ul>\n<li>Explique ao paciente, sem alarmismo, por que o caso precisa de avaliação e para onde ir (unidade básica, pronto atendimento, especialista).</li>\n<li>Entregue por escrito um resumo: queixa, duração, sinais observados, medidas já usadas, medicamentos em uso, parâmetros aferidos e identificação do farmacêutico. Os guias do CFF chamam esse documento de redação do encaminhamento.</li>\n<li>Não ofereça MIP para \"segurar\" até a consulta quando isso puder mascarar o quadro.</li>\n<li>Em urgência, oriente a ligar para o SAMU (192) ou ligue junto com o paciente.</li>\n<li>Registre o atendimento e o encaminhamento.</li>\n</ul>\n<div class=\"cx balcao\"><b>No balcão</b><p>Uma pergunta final evita a maioria dos erros de triagem: \"Tem mais alguma coisa diferente que o senhor notou?\". Sintomas que o paciente acha sem importância, como fezes escuras junto com azia ou falta de ar junto com tosse, costumam aparecer só nesse momento.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Mãe pede \"um remédio para febre\" para o filho de 7 semanas, que está com 38,2 °C desde a manhã. Pelo guia de febre do CFF, criança com menos de 2 meses e febre deve sempre ser avaliada em hospital. O farmacêutico não indica antitérmico, explica a urgência, informa o endereço do pronto atendimento pediátrico mais próximo, orienta a não agasalhar demais o bebê no trajeto e registra o encaminhamento.</p></div>"
+  },
+  {
+   "id": "m01-populacoes",
+   "titulo": "Populações especiais no balcão",
+   "resumo": "<p>Os critérios de enquadramento do MIP foram pensados para o adulto sem doenças relevantes. Em gestantes, lactantes, crianças, idosos e pessoas com doença crônica ou em uso de anticoagulante, o mesmo produto pode ter risco muito maior. A primeira tarefa é identificar essas pessoas na anamnese, porque elas raramente se apresentam assim.</p>\n\n<h3>Gestante</h3>\n<p>Pergunte sempre a mulheres em idade fértil se há possibilidade de gravidez. Na gestação, priorize medidas não farmacológicas e use medicamento só quando o benefício for claro, na menor dose e pelo menor tempo.</p>\n<ul>\n<li><strong>Analgésico e antitérmico</strong>: o paracetamol segue como opção de escolha na gestação. Em setembro de 2025, após a declaração do governo dos Estados Unidos sobre uma suposta relação entre paracetamol na gravidez e autismo, a Anvisa informou não haver registros de notificação que relacionem o uso ao autismo, e a Febrasgo afirmou não haver evidência conclusiva de causa e efeito, reforçando o uso responsável e orientado.</li>\n<li><strong>Anti-inflamatórios não esteroides</strong>: a FDA recomendou, em outubro de 2020, evitar AINE a partir de cerca de 20 semanas de gestação, pelo risco de lesão renal fetal com redução do líquido amniótico; após cerca de 30 semanas, o risco de fechamento precoce do canal arterial já constava das bulas. A recomendação não se aplica ao ácido acetilsalicílico em baixa dose prescrito pelo médico.</li>\n<li><strong>Encaminhar</strong>: gestante com febre persistente (guia de febre do CFF), com tosse (guia de tosse do CFF), com azia que não melhora com medidas não farmacológicas (guia de azia do CFF) e com sintomas nasais persistentes após lavagem nasal (guia de congestão do CFF).</li>\n</ul>\n\n<h3>Lactante</h3>\n<p>Na amamentação, avalie dois riscos: o efeito no lactente (passagem para o leite) e o efeito na produção de leite. Prefira fármacos com longa experiência de uso e meia-vida curta, use a menor dose eficaz e evite associações em dose fixa, que somam fármacos sem necessidade. Anti-histamínicos sedativos podem deixar o bebê sonolento. O guia de tosse do CFF orienta encaminhar lactantes com tosse, porque os dados de segurança de antitussígenos e expectorantes na amamentação são escassos. Para casos específicos, consulte bases de dados sobre medicamentos e lactação.</p>\n\n<h3>Criança</h3>\n<p>Na criança, a dose é calculada pelo peso, e o erro mais frequente no balcão está na conversão de miligramas para mililitros ou gotas.</p>\n<ul>\n<li>Pergunte sempre o peso atual. Idade é aproximação ruim.</li>\n<li>Para o paracetamol, a dose usual é de 10 a 15 mg/kg por dose (Ministério da Saúde, Caderno de Atenção Básica nº 28, v. II), respeitando o intervalo e o número máximo de doses por dia da bula do produto.</li>\n<li>Verifique a apresentação. O mesmo fármaco existe em concentrações muito diferentes: dipirona em gotas 500 mg/mL e em solução oral 50 mg/mL (dez vezes menos concentrada); ibuprofeno em suspensão de 100 mg/mL e de 200 mg/mL, sendo esta última indicada na LMIP apenas para adultos.</li>\n<li>Gota não é unidade padronizada: o número de gotas por mililitro depende do produto e do conta-gotas. Use sempre o dosador da embalagem e confira na bula a equivalência.</li>\n<li>Escreva na caixa a dose em mL ou em gotas, o intervalo e a dose máxima diária.</li>\n</ul>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 12 kg, com febre de 38,5 °C desde ontem, ativa, aceitando líquidos, sem outros sinais de alerta. Paracetamol 10 a 15 mg/kg por dose resulta em 120 a 180 mg. Com a solução de 200 mg/mL, isso corresponde a 0,6 a 0,9 mL por dose. O farmacêutico converte para gotas usando a equivalência da bula do produto escolhido, mostra o conta-gotas da embalagem, escreve a dose e o intervalo na caixa e orienta voltar ou procurar atendimento se a febre passar de 3 dias ou surgir qualquer sinal de alerta.</p></div>\n<ul>\n<li>Pelos guias do CFF, encaminhe menores de 2 anos com tosse, crianças até 12 anos com azia e menores de 2 meses com febre.</li>\n<li>A bula do ácido acetilsalicílico adverte contra seu uso em crianças e adolescentes com doença viral, como gripe e catapora, pelo risco de síndrome de Reye.</li>\n<li>Associações antigripais com descongestionante e anti-histamínico têm restrição de idade na bula; confira antes de indicar.</li>\n</ul>\n<div class=\"cx alerta\"><b>Atenção</b><p>Confundir \"gotas\" com \"mL\" multiplica a dose. \"Dar 20\" em um frasco de gotas e \"dar 20\" em um frasco de solução em mL são coisas muito diferentes. Toda orientação pediátrica deve informar a unidade por extenso e o dosador correto.</p></div>\n\n<h3>Idoso</h3>\n<p>No idoso, a função renal costuma estar reduzida, o efeito sedativo é maior e o risco de queda, sangramento e confusão aumenta. Os Critérios de Beers, da Sociedade Americana de Geriatria (atualização de 2023), listam medicamentos potencialmente inapropriados para pessoas de 65 anos ou mais. Vários estão entre os MIP ou nas associações vendidas sem receita.</p>\n<div class=\"tab\"><table><thead><tr><th>Item dos Critérios de Beers 2023</th><th>Recomendação</th><th>Onde aparece no balcão</th></tr></thead><tbody>\n<tr><td>Anti-histamínicos de primeira geração</td><td>Evitar (altamente anticolinérgicos)</td><td>Dexclorfeniramina, clorfeniramina e prometazina, inclusive em antigripais</td></tr>\n<tr><td>AINE oral não seletivo</td><td>Evitar uso crônico; evitar até o uso curto regular junto com corticoide, anticoagulante ou antiagregante</td><td>Ibuprofeno, naproxeno, ácido acetilsalicílico em dose analgésica</td></tr>\n<tr><td>AINE na insuficiência cardíaca</td><td>Evitar na insuficiência cardíaca sintomática</td><td>Qualquer AINE oral</td></tr>\n<tr><td>AINE na doença renal</td><td>Evitar com função renal abaixo de 30 mL/min</td><td>Qualquer AINE oral</td></tr>\n<tr><td>Inibidor da bomba de prótons</td><td>Evitar uso regular por mais de 8 semanas sem indicação que justifique</td><td>Omeprazol 20 mg MIP usado por conta própria por meses</td></tr>\n<tr><td>Óleo mineral por via oral</td><td>Evitar (risco de aspiração)</td><td>Laxantes com óleo mineral</td></tr>\n<tr><td>Antiespasmódicos anticolinérgicos</td><td>Evitar (a lista cita escopolamina e atropina)</td><td>Produtos com escopolamina ou beladona</td></tr>\n<tr><td>Ácido acetilsalicílico para prevenção primária</td><td>Não iniciar; considerar retirada</td><td>Idoso que decide \"tomar AAS para o coração\" por conta própria</td></tr>\n</tbody></table></div>\n<p>Os Critérios de Beers expressam o limite renal em depuração de creatinina. No Brasil, o resultado de exame do paciente costuma vir como taxa de filtração glomerular estimada pela equação CKD-EPI 2021; use esse valor como referência e encaminhe quando houver dúvida. O guia de tosse do CFF recomenda encaminhar pessoas com mais de 75 anos com tosse.</p>\n\n<h3>Doenças crônicas e anticoagulação</h3>\n<div class=\"tab\"><table><thead><tr><th>Condição</th><th>Cuidado com MIP</th><th>Alternativa ou conduta</th></tr></thead><tbody>\n<tr><td>Hipertensão</td><td>Descongestionantes sistêmicos (fenilefrina e similares em antigripais) elevam a pressão; AINE retém sódio, eleva a pressão e reduz o efeito de anti-hipertensivos; comprimidos efervescentes trazem sódio</td><td>Soro fisiológico nasal, analgésico sem AINE, aferir a pressão; o guia de febre do CFF manda encaminhar alteração de pressão em uso de anti-hipertensivo</td></tr>\n<tr><td>Diabetes</td><td>Xaropes e pastilhas com açúcar; sintomas atípicos de infecção; feridas nos pés</td><td>Preferir versões sem açúcar; lesão em pé de diabético é sempre encaminhamento</td></tr>\n<tr><td>Doença renal crônica</td><td>AINE pode precipitar lesão renal aguda; antiácidos com magnésio e alumínio acumulam</td><td>Evitar AINE; o guia de azia do CFF manda encaminhar paciente com doença renal que precise de antiácido</td></tr>\n<tr><td>Doença hepática</td><td>Paracetamol em dose alta ou com álcool aumenta o risco de lesão hepática</td><td>Dose e duração definidas com o médico que acompanha o paciente</td></tr>\n<tr><td>Anticoagulante ou antiagregante</td><td>AINE e ácido acetilsalicílico aumentam o risco de sangramento; uso regular de paracetamol em dose alta por vários dias pode elevar o RNI de quem usa varfarina; omeprazol reduz a ativação do clopidogrel</td><td>Analgésico sem AINE em dose habitual e por pouco tempo; avisar o médico se o uso se prolongar; encaminhar se houver fezes escuras, urina com sangue, vômito com sangue ou sangramento nasal</td></tr>\n</tbody></table></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Peça para ver a caixa ou a receita dos medicamentos de uso contínuo. Muitos pacientes não se lembram do nome, mas sabem que tomam \"um remédio para afinar o sangue\" ou \"um para pressão\". Esse detalhe muda a escolha entre um AINE e um analgésico simples.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Homem de 72 anos em uso de varfarina pede ibuprofeno para dor no joelho. O farmacêutico explica o risco de sangramento da associação, indica paracetamol em dose habitual de adulto por poucos dias, orienta calor local e repouso relativo, avisa que o uso regular por vários dias deve ser comunicado ao médico que controla o RNI e lista os sinais de sangramento que exigem atendimento imediato.</p></div>"
+  },
+  {
+   "id": "m01-prescricao-586",
+   "titulo": "Prescrição farmacêutica na Resolução CFF nº 586/2013",
+   "resumo": "<p>A Resolução CFF nº 586, de 29 de agosto de 2013, \"regula a prescrição farmacêutica\". Tem a mesma data da Resolução CFF nº 585/2013, que regulamenta as atribuições clínicas do farmacêutico. As duas formam um par: a 585 diz o que o farmacêutico faz no cuidado ao paciente, e a 586 detalha um desses atos, a prescrição. É conteúdo obrigatório de concursos, residências e provas de conselho, e precisa ser estudada junto com a sua situação jurídica atual.</p>\n\n<h3>Preâmbulo e considerandos</h3>\n<p>O preâmbulo apresenta a prescrição como prática multiprofissional, adotada em vários sistemas de saúde para ampliar acesso e resolutividade, com modos específicos para cada profissão e limites definidos pelas responsabilidades de cada uma. Os considerandos citam, entre outros:</p>\n<ul>\n<li>a Lei nº 3.820/1960 (criação dos conselhos de farmácia, art. 6º, alíneas \"g\" e \"m\") e o Decreto nº 85.878/1981 (atribuições profissionais do farmacêutico);</li>\n<li>o Código de Defesa do Consumidor (Lei nº 8.078/1990) e a Declaração de Alma-Ata (1978);</li>\n<li>a Política Nacional de Assistência Farmacêutica (Resolução CNS nº 338/2004) e o Programa Nacional de Segurança do Paciente (Portaria MS/GM nº 529/2013);</li>\n<li>resoluções do CFF sobre boas práticas, indicação de plantas medicinais e fitoterápicos isentos (nº 546/2011), registro de informações clínicas (nº 555/2011) e atribuições clínicas (nº 585/2013);</li>\n<li>normas da Anvisa então vigentes sobre categoria de venda (RDC nº 138/2003), medicamentos dinamizados, manipulação e boas práticas em farmácias e drogarias (RDC nº 44/2009).</li>\n</ul>\n<p>Desde então, a norma da Anvisa sobre categoria de venda mudou duas vezes (RDC nº 98/2016 e, hoje, RDC nº 882/2024). A remissão do art. 5º a \"categorias ou relações de medicamentos que venham a ser aprovadas pelo órgão sanitário federal\" acompanha essas mudanças.</p>\n\n<h3>Definição e natureza do ato</h3>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"Para os propósitos desta resolução, define-se a prescrição farmacêutica como ato pelo qual o farmacêutico seleciona e documenta terapias farmacológicas e não farmacológicas, e outras intervenções relativas ao cuidado à saúde do paciente, visando à promoção, proteção e recuperação da saúde, e à prevenção de doenças e de outros problemas de saúde.\" (Resolução CFF nº 586/2013, art. 3º)</p></div>\n<ul>\n<li>É prerrogativa do farmacêutico legalmente habilitado e registrado no CRF de sua jurisdição (art. 2º).</li>\n<li>É atribuição clínica, realizada com base nas necessidades de saúde do paciente, nas melhores evidências, em princípios éticos e conforme as políticas de saúde vigentes (art. 3º, parágrafo único).</li>\n<li>Pode ocorrer em estabelecimentos farmacêuticos, consultórios, serviços e níveis de atenção diversos, desde que respeitadas a confidencialidade e a privacidade (art. 4º).</li>\n</ul>\n<p>Repare que \"prescrever\" na resolução é mais amplo que escolher um medicamento. Inclui terapia não farmacológica (dieta, lavagem nasal, compressa, repouso) e outras intervenções, como o encaminhamento.</p>\n\n<h3>O que pode ser prescrito</h3>\n<p>A resolução separa dois grupos, com exigências muito diferentes.</p>\n<div class=\"tab\"><table><thead><tr><th>Grupo</th><th>Base</th><th>Condições</th></tr></thead><tbody>\n<tr><td>Medicamentos e produtos cuja dispensação não exija prescrição médica</td><td>Art. 5º</td><td>Inclui industrializados e preparações magistrais, alopáticos ou dinamizados, plantas medicinais, drogas vegetais e outras categorias aprovadas pelo órgão sanitário federal. Exige conhecimento de boas práticas de prescrição, fisiopatologia, semiologia, comunicação, farmacologia clínica e terapêutica (§1º). Para dinamizados e práticas integrativas, conhecimento específico (§2º).</td></tr>\n<tr><td>Medicamentos cuja dispensação exija prescrição médica</td><td>Art. 6º</td><td>Somente com diagnóstico prévio e apenas quando previsto em programas, protocolos, diretrizes ou normas técnicas aprovados para uso em instituições de saúde, ou quando houver acordo de colaboração formalizado com outros prescritores ou instituições. Exige título de especialista ou especialista profissional na área clínica reconhecido pelo CRF (§1º). Para dinamizados, título em homeopatia ou antroposofia (§2º).</td></tr>\n</tbody></table></div>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"O farmacêutico poderá prescrever medicamentos cuja dispensação exija prescrição médica, desde que condicionado à existência de diagnóstico prévio e apenas quando estiver previsto em programas, protocolos, diretrizes ou normas técnicas, aprovados para uso no âmbito de instituições de saúde ou quando da formalização de acordos de colaboração com outros prescritores ou instituições de saúde.\" (art. 6º)</p></div>\n<p>O glossário define acordo de colaboração como a \"parceria formal entre o farmacêutico e o prescritor ou a instituição, com explícito acordo entre quem está delegando (prescritor ou instituição) e quem está recebendo a autorização (farmacêutico) para prescrever\". No balcão de uma drogaria, sem protocolo institucional nem acordo formal, a resolução não autoriza prescrever tarjado em hipótese alguma.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>\"É vedado ao farmacêutico modificar a prescrição de medicamentos do paciente, emitida por outro prescritor, salvo quando previsto em acordo de colaboração\", caso em que a modificação, com justificativa, deve ser comunicada ao outro prescritor (art. 6º, §3º). Trocar dose, fármaco ou duração de uma receita médica por conta própria é infração.</p></div>\n\n<h3>Etapas do processo de prescrição</h3>\n<p>O art. 7º descreve o processo em sete etapas. Elas coincidem com o atendimento de queixas descrito nos guias do CFF.</p>\n<ol>\n<li>Identificação das necessidades do paciente relacionadas à saúde.</li>\n<li>Definição do objetivo terapêutico.</li>\n<li>Seleção da terapia ou das intervenções, com base em segurança, eficácia, custo e conveniência, dentro do plano de cuidado.</li>\n<li>Redação da prescrição.</li>\n<li>Orientação ao paciente.</li>\n<li>Avaliação dos resultados.</li>\n<li>Documentação do processo de prescrição.</li>\n</ol>\n<p>O art. 8º acrescenta medidas de segurança do paciente: basear-se nas melhores evidências; decidir de forma compartilhada e centrada no paciente; considerar outras condições clínicas, outros medicamentos, hábitos e contexto; atentar para os aspectos legais e éticos dos documentos entregues; comunicar as decisões de modo que paciente, responsável ou cuidador compreendam por completo; e garantir que os resultados sejam acompanhados e avaliados.</p>\n\n<h3>Documento de prescrição</h3>\n<p>O art. 9º exige prescrição \"redigida em vernáculo, por extenso, de modo legível, observados a nomenclatura e o sistema de pesos e medidas oficiais, sem emendas ou rasuras\", com os componentes mínimos:</p>\n<ol>\n<li>identificação do estabelecimento farmacêutico, consultório ou serviço de saúde ao qual o farmacêutico está vinculado;</li>\n<li>nome completo e contato do paciente;</li>\n<li>descrição da terapia farmacológica, quando houver: nome do medicamento ou formulação, concentração ou dinamização, forma farmacêutica e via; dose, frequência e duração do tratamento; instruções adicionais, quando necessário;</li>\n<li>descrição da terapia não farmacológica ou de outra intervenção, quando houver;</li>\n<li>nome completo do farmacêutico, assinatura e número de registro no CRF;</li>\n<li>local e data.</li>\n</ol>\n<p>No SUS, a prescrição deve usar obrigatoriamente a Denominação Comum Brasileira (DCB) ou, na falta dela, a Denominação Comum Internacional (art. 10). No setor privado, preferencialmente a DCB (art. 11). É vedado prescrever sem identificação do farmacêutico ou do paciente, de forma secreta, codificada, abreviada ou ilegível, e assinar receituário em branco (art. 12).</p>\n\n<h3>Sigilo, autonomia, propaganda e registro</h3>\n<ul>\n<li>Sigilo dos dados obtidos na prescrição, vedado o uso para fim que não seja de interesse sanitário ou de fiscalização profissional (art. 13).</li>\n<li>Autonomia profissional e científica em relação a empresas e pessoas com interesse comercial na prescrição (art. 14).</li>\n<li>Proibição de usar a prescrição como meio de propaganda ou publicidade de qualquer natureza (art. 15). Prescrição com logotipo de laboratório ou cupom de desconto de marca fere esse artigo.</li>\n<li>Registro de todo o processo de prescrição na forma da lei (art. 16).</li>\n</ul>\n\n<h3>Relação com outras normas</h3>\n<div class=\"tab\"><table><thead><tr><th>Norma</th><th>Ponto de contato com a Resolução nº 586/2013</th></tr></thead><tbody>\n<tr><td>Resolução CFF nº 585/2013</td><td>Lista entre as atribuições clínicas \"prescrever, conforme legislação específica\" (art. 7º, XXVI), o manejo de problemas de saúde autolimitados (XXV), a consulta farmacêutica em consultório (VII), a anamnese (VIII) e o plano de cuidado (XVII).</td></tr>\n<tr><td>Lei nº 13.021/2014</td><td>Define a farmácia como unidade de prestação de serviços de saúde (art. 3º) e impõe ao farmacêutico orientação, acompanhamento farmacoterapêutico e farmacovigilância (art. 13). A lei não trata expressamente de prescrição farmacêutica.</td></tr>\n<tr><td>RDC nº 44/2009</td><td>A Declaração de Serviço Farmacêutico registra a \"indicação de medicamento isento de prescrição e a respectiva posologia\" (art. 81, §2º, I, b) e não pode ser usada para indicar medicamento que exige prescrição nem para propaganda (art. 81, §3º).</td></tr>\n<tr><td>Resolução CFF nº 724/2022 (Código de Ética)</td><td>Entre os direitos do farmacêutico, prescrever medicamentos e produtos cuja dispensação não exija prescrição médica, \"desde que devidamente documentada\" (art. 12, VII), e prescrever conforme protocolos institucionais ou acordos de colaboração (art. 12, VIII).</td></tr>\n</tbody></table></div>\n\n<h3>Situação jurídica em outubro de 2026</h3>\n<p>A prescrição farmacêutica é objeto de disputa judicial entre o Conselho Federal de Medicina (CFM) e o CFF desde 2013. O estudante precisa conhecer os fatos, porque eles mudam o que se pode fazer com segurança jurídica.</p>\n<div class=\"tab\"><table><thead><tr><th>Norma</th><th>O que dispõe</th><th>Situação conferida</th></tr></thead><tbody>\n<tr><td>Resolução CFF nº 586/2013</td><td>Prescrição farmacêutica (MIP e, com condições, tarjados)</td><td>Sentença de 18/11/2024 da 17ª Vara Federal Cível do DF, na ação civil pública nº 0060624-78.2013.4.01.3400 movida pelo CFM, julgou o pedido procedente, declarou a inconstitucionalidade e a ilegalidade da resolução, proibiu sua aplicação em todo o território nacional e determinou sua suspensão imediata. A sentença está sujeita ao duplo grau obrigatório e o CFF recorreu ao TRF da 1ª Região.</td></tr>\n<tr><td>Resolução CFF nº 5/2025</td><td>Nova regulamentação da prescrição, incluindo tarjados por farmacêutico com Registro de Qualificação de Especialista (RQE) em farmácia clínica (RQE criado pela Resolução CFF nº 4/2025)</td><td>Datada de 20/02/2025 e publicada em 17/03/2025; suspensa por decisão liminar da 17ª Vara Federal Cível do DF em 31/03/2025, em ação do CFM.</td></tr>\n<tr><td>Resolução CFF nº 12/2024</td><td>Prescrição de contraceptivos hormonais por farmacêutico, conforme protocolo do CFF</td><td>Suspensa pela 13ª Turma do TRF da 1ª Região em agravo do CFM; em 2026 a sentença de primeira instância declarou sua nulidade e o CFF anunciou recurso (notícia do CFF de 20/05/2026).</td></tr>\n</tbody></table></div>\n<p>O fundamento das decisões contrárias é que conselho profissional não pode ampliar, por resolução, atribuições que dependem de lei federal, e que diagnóstico nosológico e prescrição terapêutica são atos privativos do médico pela Lei nº 12.842/2013 (Lei do Ato Médico). O CFF sustenta o contrário e recorre. Não foi localizada, até outubro de 2026, decisão de segundo grau restabelecendo a Resolução nº 586/2013.</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>O conteúdo da Resolução nº 586/2013 continua sendo cobrado em provas e organiza a boa prática de documentação. Na rotina, enquanto a disputa não se resolve, o caminho com base sanitária vigente para o MIP é a indicação farmacêutica com orientação e registro na Declaração de Serviço Farmacêutico (RDC nº 44/2009, art. 81). Prescrição de medicamento tarjado por farmacêutico de drogaria, fora de protocolo institucional, não tem respaldo. Acompanhe as orientações do seu CRF.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Se o cliente pedir \"uma receita do farmacêutico\" para apresentar em outro lugar ou para comprar um tarjado, explique que o farmacêutico não emite receita de medicamento tarjado e que o documento que você entrega registra a orientação e o MIP indicado. Nunca assine documento em branco nem inclua marca comercial como forma de propaganda.</p></div>"
+  },
+  {
+   "id": "m01-documentacao-etica",
+   "titulo": "Documentação e ética no atendimento",
+   "resumo": "<p>Documentar o atendimento protege o paciente, porque permite continuidade e comunicação com outros profissionais, e protege o farmacêutico, porque registra o que foi avaliado, decidido e orientado. No balcão, boa parte dos conflitos éticos nasce da pressão comercial por volume de vendas.</p>\n\n<h3>Declaração de Serviço Farmacêutico</h3>\n<p>Após a prestação de serviço farmacêutico, o usuário recebe a Declaração de Serviço Farmacêutico (RDC nº 44/2009, art. 81). Ela é emitida em duas vias: a primeira vai para o usuário e a segunda fica arquivada no estabelecimento (art. 81, §4º).</p>\n<div class=\"tab\"><table><thead><tr><th>Bloco</th><th>Conteúdo mínimo (art. 81)</th></tr></thead><tbody>\n<tr><td>Cabeçalho</td><td>Papel com identificação do estabelecimento: nome, endereço, telefone e CNPJ (§1º)</td></tr>\n<tr><td>Usuário</td><td>Identificação do usuário ou do responsável legal (§1º)</td></tr>\n<tr><td>Prescrição apresentada</td><td>Medicamento prescrito e dados do prescritor (nome e inscrição no conselho), quando houver (§2º, I, a)</td></tr>\n<tr><td>Indicação de MIP</td><td>Medicamento isento indicado e posologia, quando houver (§2º, I, b)</td></tr>\n<tr><td>Parâmetros e exames</td><td>Valores aferidos ou resultados com os valores de referência, quando houver, e a frase \"ESTE PROCEDIMENTO NÃO TEM FINALIDADE DE DIAGNÓSTICO E NÃO SUBSTITUI A CONSULTA MÉDICA\" (§2º, I, c e d)</td></tr>\n<tr><td>Medicamento administrado</td><td>Nome comercial (exceto genérico), DCB, concentração e forma, via, lote e registro na Anvisa, quando houver (§2º, I, e)</td></tr>\n<tr><td>Orientação e plano</td><td>Orientação farmacêutica e plano de intervenção, quando houver (§2º, I, f e g)</td></tr>\n<tr><td>Responsável</td><td>Data, assinatura e carimbo com inscrição no CRF do farmacêutico (§2º, I, h)</td></tr>\n</tbody></table></div>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"É proibido utilizar a Declaração de Serviço Farmacêutico com finalidade de propaganda ou publicidade ou para indicar o uso de medicamentos para os quais é exigida prescrição médica ou de outro profissional legalmente habilitado.\" (RDC nº 44/2009, art. 81, §3º)</p></div>\n<p>A Declaração e o documento de prescrição da Resolução nº 586/2013 têm finalidades parecidas, mas bases diferentes. A Declaração é exigência sanitária da Anvisa, vigente, e registra o serviço prestado. O documento de prescrição é norma profissional do CFF, hoje discutida judicialmente, e tem o formato de uma receita. Quando se indica um MIP, a Declaração já contém os elementos essenciais: produto, posologia, orientação e identificação do farmacêutico.</p>\n\n<h3>Registro interno e privacidade</h3>\n<p>Além da via entregue, a farmácia mantém o registro do atendimento: dados de contato do usuário, orientações e intervenções, resultados e identificação do profissional, com consentimento expresso do usuário (RDC nº 44/2009, art. 64). Os dados obtidos nos serviços farmacêuticos recebem tratamento sigiloso e não podem ser usados para outra finalidade (art. 82).</p>\n<p>Dado referente à saúde é dado pessoal sensível na Lei Geral de Proteção de Dados (Lei nº 13.709/2018, art. 5º, II). Na prática, isso significa:</p>\n<ul>\n<li>atender queixas íntimas (sintomas urinários, corrimento, contracepção de emergência, hemorroidas) em local reservado, e não no meio da fila;</li>\n<li>não comentar o caso com outros clientes ou colegas sem necessidade assistencial;</li>\n<li>não usar o registro clínico para oferta comercial;</li>\n<li>guardar fichas e arquivos com acesso restrito.</li>\n</ul>\n<p>O Código de Ética da Profissão Farmacêutica (Resolução CFF nº 724/2022) inclui entre os deveres de todos os inscritos guardar sigilo de fatos e informações conhecidos no exercício da profissão, salvo quando a lei exige comunicação (art. 15, VI), e proíbe fornecer a terceiros dados que identifiquem o paciente, inclusive os de receitas e registros, em desacordo com a LGPD (art. 18, XLIII).</p>\n\n<h3>Recusa de venda e de dispensação</h3>\n<p>O farmacêutico tem o direito de \"decidir, justificadamente, sobre a dispensação ou não de qualquer prescrição\", em favor da segurança e da eficácia da terapêutica (Resolução CFF nº 724/2022, art. 12, XIV), e de \"negar-se a realizar atos farmacêuticos que sejam contrários aos ditames da ciência, da ética e da técnica\" (art. 12, IV). O raciocínio vale para o MIP.</p>\n<ul>\n<li>Recusa justificada: grande quantidade de paracetamol com relato de tristeza intensa ou ideação suicida; pedido de MIP para criança de idade incompatível com a bula; pedido de antigripal com descongestionante por hipertenso com pressão muito elevada aferida na hora.</li>\n<li>Como recusar: explicar o motivo técnico em linguagem simples, oferecer alternativa segura ou encaminhamento, registrar o atendimento. Recusa sem explicação gera conflito e não protege ninguém.</li>\n<li>Em situação de risco à vida, a recusa vem acompanhada de encaminhamento ativo: acionar o SAMU (192) ou serviço de saúde mental, sem deixar a pessoa sair sozinha se houver risco imediato.</li>\n</ul>\n\n<h3>Condutas proibidas ou antiéticas</h3>\n<div class=\"tab\"><table><thead><tr><th>Conduta</th><th>Por que é proibida</th></tr></thead><tbody>\n<tr><td>Indicar ou vender sem receita medicamento tarjado</td><td>Venda sem a prescrição exigida é infração sanitária. A RDC nº 44/2009 veda indicar ou alterar tarjado mesmo diante de parâmetro alterado (art. 69, §4º) e veda usar a Declaração para isso (art. 81, §3º). A Resolução nº 586/2013 só admitia tarjado em protocolo institucional ou acordo de colaboração (art. 6º).</td></tr>\n<tr><td>\"Empurroterapia\": indicar o produto que dá comissão ou bonificação</td><td>O Código de Ética proíbe submeter-se a fins meramente mercantilistas que comprometam o desempenho técnico (art. 18, XXIV) e receber vantagem indevida (art. 18, XLI). A Resolução nº 586/2013 exige autonomia diante de interesses comerciais (art. 14).</td></tr>\n<tr><td>Venda casada ou \"leve três\" de medicamento</td><td>Estimula uso indiscriminado (RDC nº 96/2008, art. 8º, I) e programas de fidelidade não podem usar medicamento como objeto de pontuação ou prêmio (art. 10).</td></tr>\n<tr><td>Substituir medicamento sem regra de intercambialidade</td><td>A troca só é permitida nos limites legais: medicamento de referência pelo genérico correspondente (Lei nº 9.787/1999) ou pelo similar declarado intercambiável pela Anvisa. O Código de Ética garante o direito de realizar a intercambialidade \"respeitando a decisão do usuário, dentro dos limites legais, e documentando o ato\" (art. 12, IX).</td></tr>\n<tr><td>Dispensar para uso diferente da indicação registrada</td><td>Proibido, salvo quando baseado em evidência ou mediante entendimento com o prescritor formalizado por escrito (Código de Ética, art. 17, IX).</td></tr>\n<tr><td>Modificar a receita de outro prescritor</td><td>Vedado, salvo em acordo de colaboração (Resolução nº 586/2013, art. 6º, §3º).</td></tr>\n<tr><td>Deixar o balconista indicar medicamento</td><td>Indicação é avaliação clínica do farmacêutico; delegar ato privativo é proibido (Código de Ética, art. 17, VIII).</td></tr>\n<tr><td>Usar documento de atendimento como propaganda</td><td>Vedado na Declaração (RDC nº 44/2009, art. 81, §3º) e na prescrição (Resolução nº 586/2013, art. 15).</td></tr>\n</tbody></table></div>\n\n<h3>Farmacovigilância</h3>\n<p>Reação adversa, intoxicação ou suspeita de falha relatada no balcão é informação de interesse sanitário. O farmacêutico deve notificar efeitos colaterais, reações adversas, intoxicações e farmacodependência às autoridades sanitárias, aos profissionais e ao fabricante (Lei nº 13.021/2014, art. 13, I) e contribuir para a farmacovigilância notificando eventos adversos e queixas técnicas (RDC nº 44/2009, art. 67). A notificação à Anvisa é feita pelo sistema VigiMed.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Quando o representante comercial oferecer premiação por venda de uma marca de MIP, lembre que a escolha do produto no atendimento é técnica. A marca pode estar no estoque, mas a indicação segue os critérios clínicos do atendimento.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Jovem de 19 anos pede quatro caixas de paracetamol 750 mg e, na conversa, diz que \"não aguenta mais nada\". O farmacêutico recusa a venda daquela quantidade, conversa em local reservado, pergunta diretamente sobre intenção de se machucar e, diante da resposta afirmativa, aciona o serviço de urgência e permanece com a jovem até a chegada da equipe. Registra o atendimento sem expor o caso a outros clientes.</p></div>"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m01-mapa-base-legal",
+   "titulo": "MIP: base legal",
+   "centro": "MIP: base legal",
+   "ramos": [
+    {
+     "t": "Conceito",
+     "itens": [
+      "Dispensado sem exigência de prescrição",
+      "RDC 882/2024, art. 2º, I",
+      "Categoria é da apresentação, não do fármaco",
+      "Só em farmácia ou drogaria (Lei 5.991/73)"
+     ]
+    },
+    {
+     "t": "Critérios (RDC 882/2024)",
+     "itens": [
+      "Tempo: 10 anos (5 no Brasil) ou 5 no exterior",
+      "Segurança: RAM reversível, janela segura",
+      "Doença não grave, sinais fáceis de perceber",
+      "Uso curto, manejável, sem dependência",
+      {
+       "t": "Nunca MIP",
+       "itens": [
+        "Injetáveis",
+        "Terapia avançada"
+       ]
+      }
+     ]
+    },
+    {
+     "t": "Lista (IN 285/2024)",
+     "itens": [
+      "Anexo I: sintéticos, específicos, biológicos",
+      "Anexo II: fitoterápicos",
+      "Mesmo IFA, forma, indicação, conc. igual ou menor",
+      "Alterada: IN 388/2025 e IN 404/2025",
+      "MIP antigo fora da lista segue MIP (art. 18)"
+     ]
+    },
+    {
+     "t": "Procedimento",
+     "itens": [
+      "Pedido: empresa detentora do registro",
+      "Decide: Diretoria Colegiada da Anvisa",
+      "Adequação do registro: 180 dias",
+      "Associação reavaliada à parte (art. 10)"
+     ]
+    },
+    {
+     "t": "Exposição e venda",
+     "itens": [
+      "Autosserviço permitido (RDC 44, art. 40)",
+      "Agrupar por DCB, separado de outros produtos",
+      "Cartaz: evite a automedicação",
+      "Venda remota: farmácia aberta com farmacêutico"
+     ]
+    },
+    {
+     "t": "Propaganda (RDC 96/2008)",
+     "itens": [
+      "Só MIP ao público leigo",
+      "DCB com 50% do nome comercial",
+      "Advertência obrigatória da substância",
+      "Fidelidade não pode premiar medicamento"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m01-mapa-atendimento",
+   "titulo": "Atendimento e sinais de alerta",
+   "centro": "Atendimento no balcão",
+   "ramos": [
+    {
+     "t": "Três atos",
+     "itens": [
+      "Dispensação: entrega com orientação",
+      "Indicação: queixa autolimitada, MIP ou medida",
+      "Prescrição: seleciona e documenta (Res. 586)"
+     ]
+    },
+    {
+     "t": "Etapas (guias CFF)",
+     "itens": [
+      "Acolhimento da demanda",
+      "Anamnese e parâmetros (PA, temperatura)",
+      "Alertas: encaminhar ou tratar",
+      "Plano de cuidado combinado",
+      "Avaliação do resultado e registro"
+     ]
+    },
+    {
+     "t": "Roteiros de anamnese",
+     "itens": [
+      "WWHAM: quem, o quê, quanto tempo, ação, remédios",
+      "ASMETHOD: inclui sintomas de perigo",
+      "SIT DOWN SIR: caracterizar dor",
+      "Pergunta aberta antes da fechada"
+     ]
+    },
+    {
+     "t": "Prazos de encaminhar",
+     "itens": [
+      "Febre: mais de 3 dias",
+      "Tosse: 3 semanas ou 7 dias sem melhora",
+      "Azia: mais de 7 dias apesar do antiácido",
+      "Congestão: 10 a 14 dias sem tratamento",
+      "Bebê com menos de 2 meses e febre: hospital"
+     ]
+    },
+    {
+     "t": "Alertas universais",
+     "itens": [
+      "Dor no peito, falta de ar, desmaio: SAMU 192",
+      "Sangramento, perda de peso, febre alta",
+      "Sintoma novo após os 50 anos",
+      "Dengue suspeita: sem AAS e sem AINE"
+     ]
+    },
+    {
+     "t": "Populações especiais",
+     "itens": [
+      "Gestante: AINE evitar a partir de 20 semanas",
+      "Criança: dose por peso, conferir mg/mL",
+      "Idoso: Beers 2023, evitar anti-H1 1ª geração",
+      "Anticoagulado: evitar AINE e AAS"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m01-mapa-prescricao",
+   "titulo": "Prescrição farmacêutica (Resolução CFF nº 586/2013)",
+   "centro": "Resolução CFF 586/2013",
+   "ramos": [
+    {
+     "t": "Definição (art. 3º)",
+     "itens": [
+      "Seleciona e documenta terapias",
+      "Farmacológicas, não farmacológicas e outras",
+      "Atribuição clínica baseada em evidência",
+      "Com privacidade e confidencialidade (art. 4º)"
+     ]
+    },
+    {
+     "t": "O que prescrever",
+     "itens": [
+      "Art. 5º: isentos de prescrição médica",
+      "Inclui magistrais, dinamizados, plantas",
+      {
+       "t": "Art. 6º: tarjados",
+       "itens": [
+        "Diagnóstico prévio",
+        "Protocolo ou acordo formal",
+        "Título de especialista clínico"
+       ]
+      },
+      "Não modificar receita de outro prescritor"
+     ]
+    },
+    {
+     "t": "Etapas (art. 7º)",
+     "itens": [
+      "Necessidades e objetivo terapêutico",
+      "Seleção: segurança, eficácia, custo, conveniência",
+      "Redação, orientação, avaliação",
+      "Documentação do processo"
+     ]
+    },
+    {
+     "t": "Documento (art. 9º)",
+     "itens": [
+      "Estabelecimento, paciente e contato",
+      "Fármaco, concentração, forma, via",
+      "Dose, frequência, duração, instruções",
+      "Farmacêutico, CRF, local e data",
+      "DCB obrigatória no SUS (art. 10)"
+     ]
+    },
+    {
+     "t": "Vedações",
+     "itens": [
+      "Secreta, codificada, abreviada, ilegível",
+      "Assinar receituário em branco",
+      "Usar como propaganda (art. 15)",
+      "Ceder a interesse comercial (art. 14)"
+     ]
+    },
+    {
+     "t": "Situação em 2026",
+     "itens": [
+      "Sentença 18/11/2024: declarada ilegal",
+      "Sujeita a duplo grau; CFF recorreu ao TRF1",
+      "Res. CFF 5/2025 suspensa em 31/03/2025",
+      "MIP: indicar e registrar na Declaração"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m01-tab-dispensacao-indicacao-prescricao",
+   "titulo": "Dispensação, indicação e prescrição farmacêutica",
+   "colunas": [
+    "Aspecto",
+    "Dispensação",
+    "Indicação farmacêutica",
+    "Prescrição farmacêutica"
+   ],
+   "linhas": [
+    [
+     "Ponto de partida",
+     "Receita ou pedido de produto pelo nome",
+     "Queixa ou sintoma relatado",
+     "Necessidade de saúde identificada em consulta"
+    ],
+    [
+     "Decisão do farmacêutico",
+     "Avaliar a receita, conferir o produto e orientar",
+     "Encaminhar ou tratar; escolher MIP ou medida não farmacológica",
+     "Selecionar, redigir, orientar e acompanhar a terapia"
+    ],
+    [
+     "O que pode envolver",
+     "Qualquer medicamento, conforme receita e categoria de venda",
+     "Somente MIP e medidas não farmacológicas",
+     "MIP (art. 5º); tarjado só com diagnóstico prévio e protocolo ou acordo formal (art. 6º)"
+    ],
+    [
+     "Base normativa",
+     "Lei 5.991/1973, art. 4º, XV; Lei 13.021/2014, arts. 13 e 14; RDC 44/2009, arts. 42 a 47",
+     "Res. CFF 585/2013, art. 7º, XXV; RDC 44/2009, art. 81, §2º, I, b",
+     "Res. CFF 586/2013 (sentença de 18/11/2024 declarou ilegal; recurso pendente)"
+    ],
+    [
+     "Documento entregue",
+     "Receita devolvida ou retida conforme a regra do medicamento",
+     "Declaração de Serviço Farmacêutico, em duas vias",
+     "Documento de prescrição com os campos do art. 9º"
+    ],
+    [
+     "Registro",
+     "Registros sanitários exigidos para o medicamento",
+     "Registro do serviço com consentimento (RDC 44/2009, art. 64)",
+     "Registro de todo o processo (Res. 586/2013, art. 16)"
+    ],
+    [
+     "Erro típico",
+     "Entregar sem orientar ou sem avaliar a receita",
+     "Tratar sintoma com sinal de alerta",
+     "Prescrever tarjado sem protocolo ou modificar receita médica"
+    ]
+   ],
+   "nota": "A prescrição farmacêutica pela Resolução CFF nº 586/2013 está judicialmente contestada (ACP nº 0060624-78.2013.4.01.3400). A indicação de MIP documentada na Declaração de Serviço Farmacêutico tem base na RDC nº 44/2009, vigente."
+  },
+  {
+   "tipo": "quadro",
+   "id": "m01-qd-modelo-prescricao",
+   "titulo": "Modelo de documento de prescrição farmacêutica (campos do art. 9º da Resolução CFF nº 586/2013)",
+   "html": "<div class=\"tab\"><table><thead><tr><th>Campo</th><th>Preenchimento</th><th>Base</th></tr></thead><tbody><tr><td><b>Estabelecimento, consultório ou serviço</b></td><td>Nome, endereço, telefone (e CNPJ, se farmácia) ________________</td><td>Art. 9º, I</td></tr><tr><td><b>Paciente</b></td><td>Nome completo ________________ Contato (telefone) ____________</td><td>Art. 9º, II</td></tr><tr><td><b>Terapia farmacológica</b></td><td>Medicamento pela DCB ou formulação ____________ Concentração ou dinamização ______ Forma farmacêutica ______ Via ______</td><td>Art. 9º, III, a; arts. 10 e 11</td></tr><tr><td><b>Posologia</b></td><td>Dose ______ Frequência ______ Duração do tratamento ______</td><td>Art. 9º, III, b</td></tr><tr><td><b>Instruções adicionais</b></td><td>Como usar, o que evitar, quando parar ________________</td><td>Art. 9º, III, c</td></tr><tr><td><b>Terapia não farmacológica ou outra intervenção</b></td><td>Medidas e, se houver, encaminhamento ________________</td><td>Art. 9º, IV</td></tr><tr><td><b>Farmacêutico</b></td><td>Nome completo ________________ CRF nº ______ Assinatura ____________</td><td>Art. 9º, V</td></tr><tr><td><b>Local e data</b></td><td>________________, ____/____/______</td><td>Art. 9º, VI</td></tr></tbody></table></div><p>Regras de redação: em vernáculo, por extenso, legível, com nomenclatura e sistema de pesos e medidas oficiais, sem emendas ou rasuras (art. 9º, caput). Vedado: documento sem identificação do farmacêutico ou do paciente, de forma secreta, codificada, abreviada ou ilegível, e folhas assinadas em branco (art. 12). Vedado usar como propaganda (art. 15). O processo inteiro deve ser registrado (art. 16).</p><div class=\"cx alerta\"><b>Atenção</b><p>O modelo reproduz os campos exigidos pela norma para fins de estudo. A Resolução nº 586/2013 foi declarada ilegal por sentença de 18/11/2024, ainda sujeita a recurso. Na drogaria, a indicação de MIP se documenta na Declaração de Serviço Farmacêutico (RDC nº 44/2009, art. 81), que pede, entre outros, o MIP indicado e a posologia, a orientação, data, assinatura e carimbo com CRF.</p></div>"
+  },
+  {
+   "tipo": "tabela",
+   "id": "m01-tab-sinais-alerta",
+   "titulo": "Sinais de alerta por queixa e prazo para reavaliar",
+   "colunas": [
+    "Queixa",
+    "Encaminhar se houver",
+    "Prazo para reavaliar",
+    "Fonte"
+   ],
+   "linhas": [
+    [
+     "Dor de cabeça",
+     "Início súbito e forte; mudança de padrão; febre com rigidez de nuca; déficit neurológico; início após 50 anos",
+     "Dor persistente por cerca de 15 dias",
+     "MS, CAB 28 v. II; CFF, guia de congestão nasal"
+    ],
+    [
+     "Febre",
+     "Menor de 2 meses; menor de 6 meses com 38 °C retal; 40 °C acima de 6 meses; suspeita de arbovirose; exantema, dispneia, convulsão",
+     "Mais de 3 dias ou sem resposta ao antitérmico",
+     "CFF, guia de febre (2018)"
+    ],
+    [
+     "Dor de garganta",
+     "Placas, febre e gânglios dolorosos sem tosse ou coriza; placas com disfagia",
+     "Sem melhora ou piora após melhora inicial",
+     "MS, CAB 28 v. II; CFF, guia de tosse"
+    ],
+    [
+     "Tosse",
+     "Menor de 2 anos ou maior de 75; dispneia, chiado, dor torácica; escarro purulento ou com sangue; perda de peso",
+     "3 semanas, ou 7 dias de tratamento sem melhora",
+     "CFF, guia de tosse (2021)"
+    ],
+    [
+     "Congestão e espirros",
+     "Obstrução unilateral; febre acima de 38 °C por mais de 24 h; secreção purulenta com dor facial",
+     "10 a 14 dias sem tratamento ou 7 dias com tratamento",
+     "CFF, guia de congestão nasal (2016)"
+    ],
+    [
+     "Diarreia",
+     "Sangue ou muco; febre; desidratação; vômitos que impedem hidratação",
+     "Diarreia por 14 dias ou mais é persistente",
+     "MS, CAB 28 v. II"
+    ],
+    [
+     "Azia e dispepsia",
+     "Disfagia, perda de peso, vômitos, sangramento, anemia; dor torácica com suor; até 12 anos",
+     "Mais de 7 dias apesar do antiácido",
+     "CFF, guia de azia (2020); MS, CAB 28 v. II"
+    ],
+    [
+     "Dor lombar",
+     "Menor de 20 ou maior de 50 anos; dor noturna; câncer prévio; febre; fraqueza; alteração urinária ou intestinal; anestesia em sela",
+     "Dor refratária",
+     "MS, CAB 28 v. II"
+    ],
+    [
+     "Sintomas urinários",
+     "Febre, dor no flanco; homem, gestante, criança; sangue na urina; corrimento",
+     "Toda suspeita de infecção deve ser avaliada",
+     "MS, CAB 28 v. II"
+    ],
+    [
+     "Olho vermelho",
+     "Dor forte, baixa visual, fotofobia, pupila alterada, trauma ou produto químico",
+     "Irritação simples sem melhora",
+     "MS, CAB 28 v. II"
+    ]
+   ],
+   "nota": "Prazos de bula do MIP, quando menores, prevalecem. Constipação e lesões de pele seguem a prática clínica geral (ver tópico de sinais de alerta)."
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m01-fluxo-queixa",
+   "titulo": "Atendimento de uma queixa no balcão",
+   "passos": [
+    {
+     "t": "Cliente relata sintoma ou pede um MIP pelo nome",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Acolher e, se a queixa for íntima, levar a local reservado",
+     "tipo": "acao"
+    },
+    {
+     "t": "Anamnese: para quem, idade e peso, sintoma, duração, o que já usou, doenças, medicamentos, gestação ou amamentação",
+     "tipo": "acao"
+    },
+    {
+     "t": "Aferir pressão ou temperatura quando ajudar a decisão",
+     "tipo": "acao"
+    },
+    {
+     "t": "Há sinal de gravidade imediata?",
+     "tipo": "decisao",
+     "sim": "Acionar SAMU (192) ou encaminhar ao pronto atendimento, sem oferecer MIP",
+     "nao": "Seguir para a checagem de alertas"
+    },
+    {
+     "t": "Há sinal de alerta, prazo vencido ou dúvida?",
+     "tipo": "decisao",
+     "sim": "Encaminhar por escrito à unidade de saúde ou ao médico assistente",
+     "nao": "Problema autolimitado: montar plano de cuidado"
+    },
+    {
+     "t": "Escolher medida não farmacológica e, se necessário, MIP adequado ao paciente (conferir LMIP, bula e interações)",
+     "tipo": "acao"
+    },
+    {
+     "t": "Orientar dose, intervalo, dose máxima, duração, efeitos esperados e quando procurar atendimento; pedir que o paciente repita",
+     "tipo": "acao"
+    },
+    {
+     "t": "Não usar tarjado, não trocar receita, não indicar por comissão",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Entregar a Declaração de Serviço Farmacêutico e registrar o atendimento com consentimento",
+     "tipo": "acao"
+    },
+    {
+     "t": "Combinar retorno; registrar o resultado e encaminhar se não houver melhora no prazo",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "id": "m01-chk-atendimento",
+   "titulo": "Checklist do atendimento de queixa com MIP",
+   "itens": [
+    "Identificar para quem é o medicamento e se a pessoa está presente",
+    "Perguntar idade e, em criança, o peso atual",
+    "Perguntar sobre gestação ou amamentação",
+    "Caracterizar o sintoma: local, intensidade, início e duração",
+    "Perguntar sintomas associados e sinais de alerta da queixa",
+    "Perguntar o que já usou, em que dose e com que resultado",
+    "Listar doenças crônicas, medicamentos de uso contínuo e alergias",
+    "Decidir: urgência, encaminhamento ou manejo na farmácia",
+    "Conferir na LMIP e na embalagem a forma, concentração e indicação",
+    "Checar interações e contraindicações para aquele paciente",
+    "Orientar dose, intervalo, dose máxima diária e duração",
+    "Informar quando parar e quando procurar atendimento",
+    "Confirmar o entendimento pedindo que o paciente repita",
+    "Entregar a Declaração de Serviço Farmacêutico em duas vias",
+    "Registrar o atendimento com consentimento do usuário",
+    "Combinar retorno e registrar o desfecho"
+   ]
+  },
+  {
+   "tipo": "tabela",
+   "id": "m01-tab-declaracao-prescricao",
+   "titulo": "Declaração de Serviço Farmacêutico e documento de prescrição farmacêutica",
+   "colunas": [
+    "Aspecto",
+    "Declaração de Serviço Farmacêutico",
+    "Documento de prescrição farmacêutica"
+   ],
+   "linhas": [
+    [
+     "Norma",
+     "RDC nº 44/2009, art. 81 (Anvisa, vigente)",
+     "Resolução CFF nº 586/2013, art. 9º (contestada judicialmente)"
+    ],
+    [
+     "Natureza",
+     "Registro sanitário do serviço prestado",
+     "Documento profissional no formato de receita"
+    ],
+    [
+     "Quando emitir",
+     "Após qualquer serviço farmacêutico",
+     "Após o processo de prescrição"
+    ],
+    [
+     "Conteúdo central",
+     "Estabelecimento com CNPJ, usuário, MIP indicado e posologia, parâmetros, orientação, plano, data, assinatura e CRF",
+     "Estabelecimento, paciente e contato, terapia com dose, frequência e duração, terapia não farmacológica, farmacêutico e CRF, local e data"
+    ],
+    [
+     "Vias",
+     "Duas: usuário e arquivo",
+     "Não define número de vias; exige registro do processo"
+    ],
+    [
+     "Proibições",
+     "Propaganda; indicar tarjado",
+     "Propaganda; forma secreta, codificada ou abreviada; folhas em branco"
+    ]
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m01-cartoes",
+   "titulo": "Cartões de revisão",
+   "itens": [
+    {
+     "f": "Qual norma define hoje os critérios para enquadrar um medicamento como MIP?",
+     "v": "RDC nº 882/2024 (vigente desde 1º/7/2024), que revogou a RDC nº 98/2016."
+    },
+    {
+     "f": "Qual instrução normativa traz a lista de MIP vigente?",
+     "v": "IN nº 285/2024, com anexos alterados pela IN nº 388/2025 e pela IN nº 404/2025."
+    },
+    {
+     "f": "Quais formas nunca podem ser MIP?",
+     "v": "Formas farmacêuticas injetáveis e produtos de terapia avançada (RDC nº 882/2024, art. 5º)."
+    },
+    {
+     "f": "Associação de dois MIP é MIP automaticamente?",
+     "v": "Não. A associação precisa cumprir os critérios do art. 4º; só o prazo de comercialização é dispensado (art. 10)."
+    },
+    {
+     "f": "O que significa a coluna \"concentração máxima\" da LMIP?",
+     "v": "Quantidade do fármaco na forma farmacêutica, e não a dose posológica (IN nº 285/2024, art. 1º, §2º, II)."
+    },
+    {
+     "f": "MIP registrado antes da lista e ausente dela continua MIP?",
+     "v": "Sim, até a Anvisa avaliar a pertinência do enquadramento (RDC nº 882/2024, art. 18)."
+    },
+    {
+     "f": "Prazo para a empresa adequar o registro após inclusão na LMIP?",
+     "v": "180 dias (RDC nº 882/2024, art. 13)."
+    },
+    {
+     "f": "Qual MIP entrou na lista pela IN nº 404/2025?",
+     "v": "Omeprazol 20 mg cápsula, para azia e queimação em dois ou mais dias na semana."
+    },
+    {
+     "f": "Diclofenaco é MIP?",
+     "v": "Em gel e solução dermatológica, sim. Por via oral, não consta da LMIP."
+    },
+    {
+     "f": "Frase do cartaz obrigatório na área de medicamentos?",
+     "v": "Medicamentos podem causar efeitos indesejados. Evite a automedicação: informe-se com o farmacêutico (RDC nº 44/2009, art. 41)."
+    },
+    {
+     "f": "O que significa WWHAM?",
+     "v": "Who, What, How long, Action, Medication: para quem, quais sintomas, há quanto tempo, o que já fez, que medicamentos usa."
+    },
+    {
+     "f": "Febre: depois de quantos dias encaminhar, pelo guia do CFF?",
+     "v": "Mais de 3 dias, com ou sem tratamento, ou sem resposta ao antitérmico."
+    },
+    {
+     "f": "Tosse: quando encaminhar pelo tempo?",
+     "v": "Tosse por 3 semanas ou mais, ou sem melhora após 7 dias de tratamento (guia de tosse do CFF)."
+    },
+    {
+     "f": "Criança com menos de 2 meses e febre: conduta?",
+     "v": "Avaliação hospitalar sempre (guia de febre do CFF). Não indicar antitérmico como substituto."
+    },
+    {
+     "f": "Etapas do processo de prescrição (art. 7º da Res. 586/2013)?",
+     "v": "Necessidades, objetivo, seleção, redação, orientação, avaliação dos resultados e documentação."
+    },
+    {
+     "f": "Condições para o farmacêutico prescrever tarjado pela Res. 586/2013?",
+     "v": "Diagnóstico prévio, previsão em programa, protocolo ou acordo de colaboração formal e título de especialista na área clínica."
+    },
+    {
+     "f": "O que decidiu a sentença de 18/11/2024 sobre a Res. 586/2013?",
+     "v": "Declarou-a inconstitucional e ilegal e proibiu sua aplicação no país; está sujeita a duplo grau e o CFF recorreu."
+    },
+    {
+     "f": "Quantas vias tem a Declaração de Serviço Farmacêutico?",
+     "v": "Duas: uma para o usuário e outra arquivada no estabelecimento (RDC nº 44/2009, art. 81, §4º)."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m01-questoes",
+   "titulo": "Questões de fixação",
+   "itens": [
+    {
+     "p": "Sobre o enquadramento de medicamentos como isentos de prescrição no Brasil, em outubro de 2026, assinale a correta.",
+     "alt": [
+      "Os critérios estão na RDC nº 98/2016, e a lista na IN nº 86/2021.",
+      "Os critérios estão na RDC nº 882/2024, e a lista na IN nº 285/2024.",
+      "Os critérios estão na RDC nº 44/2009, e a lista na RDC nº 96/2008.",
+      "Os critérios estão na Lei nº 13.021/2014, e a lista na IN nº 11/2016.",
+      "Os critérios estão na RDC nº 138/2003, e a lista é a de grupos terapêuticos."
+     ],
+     "c": 1,
+     "com": "A RDC nº 882/2024 revogou a RDC nº 98/2016 (art. 27) e vige desde 1º/7/2024. A LMIP está na IN nº 285/2024, alterada pelas INs nº 388/2025 e nº 404/2025. A IN nº 86/2021 e a IN nº 11/2016 foram substituídas; a RDC nº 44/2009 trata de boas práticas em farmácias; a RDC nº 96/2008 trata de propaganda; a RDC nº 138/2003 é o modelo antigo."
+    },
+    {
+     "p": "Um laboratório quer enquadrar como MIP uma associação em dose fixa de dois fármacos que já são MIP isoladamente. Pela RDC nº 882/2024:",
+     "alt": [
+      "a associação é MIP automaticamente, porque cada componente já está na LMIP.",
+      "a associação só pode ser MIP se for apresentada em forma injetável de dose única.",
+      "a associação deve cumprir o art. 4º, dispensado só o prazo de comercialização.",
+      "a associação nunca pode ser MIP, por proibição expressa de doses fixas na norma.",
+      "basta a empresa notificar à Anvisa a alteração de rotulagem e de bula do produto."
+     ],
+     "c": 2,
+     "com": "O art. 10 diz que o enquadramento de fármacos isolados não garante o da associação, que deve cumprir o art. 4º; o parágrafo único dispensa os prazos do inciso I quando todos os componentes já fazem parte de MIP. Injetáveis não podem ser MIP (art. 5º). Não há proibição geral de associação MIP, e o enquadramento depende de decisão da Diretoria Colegiada pela atualização da LMIP (art. 11)."
+    },
+    {
+     "p": "Cliente pede ibuprofeno sem receita. Na prateleira há ibuprofeno 400 mg comprimido, ibuprofeno 600 mg comprimido de liberação imediata e ibuprofeno suspensão oral 200 mg/mL. Pela LMIP vigente:",
+     "alt": [
+      "as três apresentações são MIP, porque o fármaco ibuprofeno consta da lista.",
+      "nenhuma é MIP, porque todo anti-inflamatório oral exige receita no Brasil.",
+      "400 mg e suspensão (adulto) são MIP; o 600 mg imediato não consta.",
+      "só a suspensão é MIP, porque a lista restringe o ibuprofeno ao uso pediátrico.",
+      "o 600 mg é MIP, e o 400 mg exige receita por ser concentração menor que a da lista."
+     ],
+     "c": 2,
+     "com": "A isenção vale para o mesmo IFA, forma, indicação e concentração igual ou inferior à da linha (IN nº 285/2024, art. 1º, §2º). A LMIP lista ibuprofeno 400 mg, suspensão 100 mg/mL e 200 mg/mL (esta com indicação em adultos) e 600 mg apenas em liberação prolongada (200 mg imediata e 400 mg prolongada). O 600 mg de liberação imediata não está na lista."
+    },
+    {
+     "p": "Em relação à exposição de MIP em farmácias e drogarias (RDC nº 44/2009), é correto afirmar:",
+     "alt": [
+      "MIP ficam ao alcance do usuário, agrupados pela DCB e separados de outros produtos.",
+      "MIP devem ficar sempre atrás do balcão, em área restrita, como os demais medicamentos.",
+      "MIP podem ser expostos junto a cosméticos e alimentos, sem necessidade de separação.",
+      "MIP podem ser expostos em supermercados, desde que haja farmacêutico no horário.",
+      "o cartaz sobre automedicação é obrigatório apenas na área dos medicamentos tarjados."
+     ],
+     "c": 0,
+     "com": "O art. 40, §2º permite o autosserviço de MIP; o art. 41, §1º exige agrupamento por princípio ativo com identificação pela DCB e o §2º, separação dos demais produtos. O cartaz do art. 41 é obrigatório na área de medicamentos. A dispensação de medicamentos é privativa de farmácia, drogaria, posto e dispensário (Lei nº 5.991/1973, art. 6º)."
+    },
+    {
+     "p": "Mãe relata que o filho de 7 semanas está com 38,3 °C desde a manhã, mamando menos. A conduta do farmacêutico, segundo o guia de febre do CFF, é:",
+     "alt": [
+      "indicar paracetamol em gotas pelo peso e reavaliar a criança em 72 horas.",
+      "indicar dipirona em gotas pelo peso e orientar banho morno se a febre subir.",
+      "orientar compressas, roupas leves e observar a evolução por 24 horas.",
+      "indicar ibuprofeno em suspensão pelo peso, alternando com paracetamol.",
+      "não indicar antitérmico e encaminhar já para avaliação hospitalar."
+     ],
+     "c": 4,
+     "com": "O guia de febre do CFF (2018) estabelece que crianças menores de 2 meses com febre devem sempre ser avaliadas em hospital, e que o antitérmico pode descaracterizar sinais de doença grave. As demais alternativas tratam ou adiam a avaliação de um lactente de alto risco."
+    },
+    {
+     "p": "Homem de 58 anos pede omeprazol 20 mg MIP para azia que começou há um mês e relata dificuldade para engolir e perda de 4 kg. A conduta adequada é:",
+     "alt": [
+      "dispensar omeprazol 20 mg pelo prazo da bula e reavaliar o paciente no retorno.",
+      "encaminhar ao médico, pois há sinais de alarme para azia.",
+      "indicar antiácido com magnésio e alumínio por 7 dias e orientar dieta fracionada.",
+      "dispensar omeprazol 40 mg, mais eficaz para sintomas que já duram um mês.",
+      "indicar chá de espinheira-santa, elevar a cabeceira e reavaliar em 30 dias."
+     ],
+     "c": 1,
+     "com": "O guia de azia do CFF e o CAB 28 v. II tratam disfagia, perda de peso e idade acima de 50 anos com sintoma novo como sinais de alarme, que exigem encaminhamento. A inclusão do omeprazol 20 mg na LMIP (IN nº 404/2025) vale para azia frequente sem alarme. Omeprazol 40 mg não consta da LMIP, e tratar o sintoma atrasaria o diagnóstico."
+    },
+    {
+     "p": "Pela Resolução CFF nº 586/2013, a prescrição de medicamento cuja dispensação exige prescrição médica pelo farmacêutico:",
+     "alt": [
+      "é livre para o farmacêutico inscrito no CRF há mais de cinco anos, em qualquer local.",
+      "é permitida em drogarias, desde que registrada na Declaração de Serviço Farmacêutico.",
+      "exige diagnóstico prévio, protocolo ou acordo formal e título clínico.",
+      "é permitida para renovar qualquer receita vencida de medicamento de uso contínuo.",
+      "depende apenas de autorização verbal do médico que acompanha o paciente."
+     ],
+     "c": 2,
+     "com": "O art. 6º condiciona a prescrição de tarjados a diagnóstico prévio e a programas, protocolos, diretrizes ou normas técnicas aprovados em instituições de saúde, ou a acordos de colaboração formais; o §1º exige título de especialista na área clínica. A Declaração não pode ser usada para indicar tarjado (RDC nº 44/2009, art. 81, §3º). Acordo de colaboração é parceria formal, não verbal (glossário)."
+    },
+    {
+     "p": "Entre os componentes mínimos do documento de prescrição farmacêutica previstos no art. 9º da Resolução CFF nº 586/2013, NÃO consta:",
+     "alt": [
+      "o diagnóstico nosológico do paciente com código da CID.",
+      "o nome completo e o contato do paciente.",
+      "a dose, a frequência e a duração do tratamento.",
+      "o nome, a assinatura e o número de registro do farmacêutico no CRF.",
+      "a identificação do estabelecimento, consultório ou serviço."
+     ],
+     "c": 0,
+     "com": "O art. 9º exige identificação do estabelecimento (I), nome e contato do paciente (II), descrição da terapia farmacológica com dose, frequência e duração (III), terapia não farmacológica (IV), identificação do farmacêutico com CRF (V) e local e data (VI). Diagnóstico com CID não é componente previsto."
+    },
+    {
+     "p": "Sobre a situação da Resolução CFF nº 586/2013 em outubro de 2026, é correto afirmar:",
+     "alt": [
+      "foi revogada expressamente pelo CFF e substituída pela Resolução nº 5/2025, em vigor.",
+      "foi confirmada pelo STF, com efeito vinculante para todo o país.",
+      "nunca foi questionada judicialmente.",
+      "foi declarada ilegal por sentença de 2024, sujeita a duplo grau, com recurso do CFF.",
+      "foi incorporada à RDC nº 44/2009 pela Anvisa."
+     ],
+     "c": 3,
+     "com": "A sentença de 18/11/2024 da 17ª Vara Federal Cível do DF (ACP nº 0060624-78.2013.4.01.3400) declarou a inconstitucionalidade e a ilegalidade da norma, proibiu sua aplicação e ficou sujeita ao duplo grau obrigatório; o CFF recorreu. A Resolução nº 5/2025 foi suspensa por liminar em 31/03/2025. Não houve decisão do STF localizada nem incorporação pela Anvisa."
+    },
+    {
+     "p": "Idosa de 80 anos, com insônia e rinite, pede um antialérgico \"que dê sono\". Considerando os Critérios de Beers 2023, a melhor conduta é:",
+     "alt": [
+      "indicar dexclorfeniramina à noite, pois o mesmo comprimido trata os dois problemas.",
+      "indicar prometazina, que é mais sedativa e tem efeito mais longo durante a noite.",
+      "indicar antigripal com clorfeniramina, que também descongestiona o nariz.",
+      "evitar anti-H1 de 1ª geração; para a rinite, um de 2ª geração.",
+      "indicar dois anti-histamínicos diferentes ao mesmo tempo para somar os efeitos."
+     ],
+     "c": 3,
+     "com": "Os Critérios de Beers 2023 recomendam evitar anti-histamínicos de primeira geração em idosos (altamente anticolinérgicos, risco de confusão e queda). Dexclorfeniramina, prometazina e clorfeniramina são de primeira geração. Para rinite, há anti-histamínicos de segunda geração na LMIP; insônia pede abordagem não farmacológica e, se persistente, avaliação."
+    },
+    {
+     "p": "Sobre a Declaração de Serviço Farmacêutico (RDC nº 44/2009), assinale a INCORRETA.",
+     "alt": [
+      "É emitida em duas vias, uma entregue ao usuário e outra arquivada no estabelecimento.",
+      "Pode registrar a indicação de medicamento isento de prescrição e a respectiva posologia.",
+      "Pode indicar tarjado se o farmacêutico for especialista.",
+      "Deve conter data, assinatura e carimbo com a inscrição do farmacêutico no CRF.",
+      "Leva frase de alerta quando há aferição de parâmetros fisiológicos ou exames."
+     ],
+     "c": 2,
+     "com": "O art. 81, §3º proíbe usar a Declaração para propaganda ou para indicar medicamento que exige prescrição, sem exceção por titulação. As demais alternativas reproduzem o art. 81: duas vias (§4º), indicação de MIP e posologia (§2º, I, b), data, assinatura e carimbo com CRF (§2º, I, h) e frase de alerta (§2º, I, d)."
+    },
+    {
+     "p": "Representante de laboratório oferece ao farmacêutico de uma drogaria um prêmio por caixa vendida de determinada marca de MIP. Do ponto de vista ético e normativo, é correto afirmar que:",
+     "alt": [
+      "é permitido, desde que o prêmio recebido seja declarado no imposto de renda.",
+      "é permitido para MIP, pois a restrição ética alcança apenas os tarjados.",
+      "é permitido se o produto premiado for mais barato que o concorrente direto.",
+      "é vedado apenas quando o farmacêutico for o responsável técnico da drogaria.",
+      "é vedado: a vantagem comercial não pode guiar a indicação."
+     ],
+     "c": 4,
+     "com": "O Código de Ética (Resolução CFF nº 724/2022) proíbe submeter-se a fins meramente mercantilistas que comprometam o desempenho técnico (art. 18, XXIV) e receber vantagem indevida (art. 18, XLI). A Resolução nº 586/2013 exige autonomia em relação a interesses comerciais (art. 14). A regra vale para MIP e para qualquer farmacêutico, responsável técnico ou não."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Brasil. Lei nº 5.991, de 17 de dezembro de 1973. Dispõe sobre o controle sanitário do comércio de drogas, medicamentos, insumos farmacêuticos e correlatos. https://www.planalto.gov.br/ccivil_03/leis/l5991.htm",
+  "Brasil. Lei nº 13.021, de 8 de agosto de 2014. Dispõe sobre o exercício e a fiscalização das atividades farmacêuticas. https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13021.htm",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 882, de 14 de junho de 2024. Critérios e procedimentos para o enquadramento de medicamentos como isentos de prescrição e o reenquadramento como sob prescrição (vigência em 1º/7/2024; revoga a RDC nº 98/2016). Texto consolidado no AnvisaLegis, consultado em 08/10/2026.",
+  "Anvisa. Instrução Normativa IN nº 285, de 7 de março de 2024. Define a Lista de Medicamentos Isentos de Prescrição. Texto consolidado com as alterações da IN nº 388, de 29/07/2025, e da IN nº 404, de 10/11/2025. AnvisaLegis, consultado em 08/10/2026.",
+  "Anvisa. Lista de Medicamentos Isentos de Prescrição (LMIP) e Legislação vigente de MIP. Portal gov.br/anvisa, consultado em 08/10/2026.",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 44, de 17 de agosto de 2009. Boas Práticas Farmacêuticas em farmácias e drogarias. Texto consolidado com alterações das RDC nº 41/2012, nº 786/2023 e nº 812/2023. AnvisaLegis, consultado em 08/10/2026.",
+  "Anvisa. Resolução RDC nº 978, de 6 de junho de 2025. Diário Oficial da União, 10/06/2025.",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 96, de 17 de dezembro de 2008. Propaganda, publicidade e informação de medicamentos. Texto consolidado com alterações da RDC nº 23/2009 e da RDC nº 576/2021. AnvisaLegis, consultado em 08/10/2026.",
+  "Conselho Federal de Farmácia. Resolução nº 586, de 29 de agosto de 2013. Regula a prescrição farmacêutica e dá outras providências. https://www.cff.org.br/userfiles/file/resolucoes/586.pdf",
+  "Conselho Federal de Farmácia. Resolução nº 585, de 29 de agosto de 2013. Regulamenta as atribuições clínicas do farmacêutico. https://www.cff.org.br/userfiles/file/resolucoes/585.pdf",
+  "Conselho Federal de Farmácia. Resolução nº 724, de 29 de abril de 2022. Código de Ética, Código de Processo Ético e infrações e sanções ético-disciplinares. Diário Oficial da União, 24/05/2022, Seção 1, p. 180.",
+  "Justiça Federal, Seção Judiciária do Distrito Federal, 17ª Vara Federal Cível. Ação Civil Pública nº 0060624-78.2013.4.01.3400 (CFM x CFF). Sentença de 18/11/2024. Cópia publicada pelo CFM em portal.cfm.org.br.",
+  "Conselho Federal de Farmácia. CFF vai recorrer da decisão judicial que suspendeu a Resolução nº 586/2013. Notícia de 22/11/2024. site.cff.org.br",
+  "Conselho Federal de Farmácia. Conselho Federal de Farmácia (CFF) se manifesta sobre a Resolução nº 5/2025. Notícia de 20/03/2025; e CFF recorre e Justiça analisa direito à prescrição de medicamentos por farmacêuticos, notícia de 02/05/2025. site.cff.org.br",
+  "Demarest Advogados. CFF autoriza a prescrição de medicamentos tarjados por farmacêuticos e institui o Registro de Qualificação de Especialista (Resoluções CFF nº 4/2025 e nº 5/2025; suspensão liminar em 31/03/2025). demarest.com.br, 2025.",
+  "Conselho Federal de Farmácia. CFF vai recorrer de decisão que suspende prescrição de contraceptivos por farmacêuticos (Resolução CFF nº 12/2024). Notícia de 20/05/2026. site.cff.org.br",
+  "Conselho Federal de Farmácia. Guia de prática clínica: sinais e sintomas respiratórios: espirro e congestão nasal. Brasília: CFF, 2016 (Guias de prática clínica para farmacêuticos, 1).",
+  "Conselho Federal de Farmácia. Guia de prática clínica: sinais e sintomas não específicos: febre. Brasília: CFF, 2018 (Guias de prática clínica para farmacêuticos, 3).",
+  "Conselho Federal de Farmácia. Guia de prática clínica: sinais e sintomas do trato gastrintestinal: azia (acidez/pirose) e dispepsia. Brasília: CFF, 2020 (Guias de prática clínica para farmacêuticos, 4).",
+  "Conselho Federal de Farmácia. Guia de prática clínica: sinais e sintomas respiratórios: tosse. Brasília: CFF, 2021 (Guias de prática clínica para farmacêuticos, 5).",
+  "Brasil. Ministério da Saúde. Acolhimento à demanda espontânea: queixas mais comuns na Atenção Básica. Cadernos de Atenção Básica, nº 28, volume II. Brasília: Ministério da Saúde, 2012 (1ª reimpressão, 2013).",
+  "American Geriatrics Society Beers Criteria Update Expert Panel. American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults. Journal of the American Geriatrics Society, 2023.",
+  "U.S. Food and Drug Administration. FDA recommends avoiding use of NSAIDs in pregnancy at 20 weeks or later because they can result in low amniotic fluid. Drug Safety Communication, outubro de 2020.",
+  "Anvisa. Nota sobre paracetamol na gestação, 24/09/2025; Febrasgo, nota de 22/09/2025 (conforme noticiado pela imprensa; textos originais não consultados).",
+  "Pharmacy mnemonics (WWHAM, ASMETHOD, SIT DOWN SIR, ENCORE). ResourcePharm e material de formação Numark (Counter Excellence), consultados em 08/10/2026."
+ ]
+}

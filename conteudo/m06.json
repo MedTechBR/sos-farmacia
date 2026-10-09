@@ -1,0 +1,797 @@
+{
+ "id": "m06",
+ "num": 6,
+ "titulo": "AINEs, corticosteroides e antialérgicos",
+ "escopo": "Inflamação e cicloxigenases, AINEs e analgésicos (riscos gastrointestinal, renal, cardiovascular, asma, gestação e dengue), corticosteroides sistêmicos e tópicos, anti-histamínicos e conduta na anafilaxia no balcão. Fontes principais: alerta FDA 2020 sobre AINE na gestação, EMA 2012 (nimesulida), PCDT da Asma 2026, WAO 2020, diretriz internacional de urticária 2022, Ministério da Saúde (dengue) e ASBAI/Anvisa 2026 (autoinjetor).",
+ "topicos": [
+  {
+   "id": "m06-inflamacao",
+   "titulo": "Inflamação, prostaglandinas e cicloxigenases",
+   "resumo": "<p>Inflamação é a resposta do tecido a uma agressão (trauma, infecção, irritante químico, reação imune). Ela serve para conter o dano e iniciar o reparo, mas produz os sinais que levam o cliente à farmácia: <strong>dor, calor, vermelhidão, inchaço e perda de função</strong>. Boa parte desses sinais depende de mediadores lipídicos formados no próprio local, e o principal grupo deles são as prostaglandinas.</p> <h3>Da membrana celular às prostaglandinas</h3> <p>Quando a célula é agredida, a enzima fosfolipase A2 libera ácido araquidônico dos fosfolipídios da membrana. Esse ácido segue por dois caminhos principais:</p> <ul> <li><b>Via da cicloxigenase (COX)</b>: forma prostaglandinas (PGE2, PGI2 ou prostaciclina, PGD2, PGF2-alfa) e tromboxano A2.</li> <li><b>Via da lipoxigenase</b>: forma leucotrienos, que contraem o brônquio e aumentam a secreção de muco. Essa via explica por que alguns asmáticos pioram com AINE (o bloqueio da COX desvia o ácido araquidônico para os leucotrienos) e é o alvo do montelucaste (módulo 7).</li> </ul> <p>As prostaglandinas sensibilizam as terminações nervosas (a dor fica mais intensa ao toque), dilatam vasos (calor e vermelhidão), aumentam a permeabilidade (edema) e, no hipotálamo, elevam o ponto de ajuste da temperatura (febre). Bloquear a COX reduz tudo isso de uma vez, e é por isso que o mesmo AINE é analgésico, antitérmico e anti-inflamatório.</p> <h3>COX-1 e COX-2</h3> <p>Existem duas isoformas de interesse clínico. A diferença entre elas explica quase todos os efeitos adversos dos AINEs.</p> <div class=\"tab\"><table><thead><tr><th>Aspecto</th><th>COX-1</th><th>COX-2</th></tr></thead><tbody> <tr><td>Expressão</td><td>Constitutiva (sempre presente)</td><td>Induzida na inflamação; constitutiva em rim, endotélio, cérebro e útero</td></tr> <tr><td>Estômago</td><td>Mantém muco, bicarbonato e fluxo sanguíneo da mucosa</td><td>Participa da cicatrização de úlceras</td></tr> <tr><td>Plaquetas</td><td>Produz tromboxano A2 (agrega e contrai vaso)</td><td>Não há COX-2 relevante na plaqueta</td></tr> <tr><td>Endotélio</td><td>Pouca contribuição</td><td>Produz prostaciclina (vasodilata e inibe agregação)</td></tr> <tr><td>Rim</td><td>Fluxo renal e filtração</td><td>Fluxo renal, excreção de sódio e renina</td></tr> <tr><td>Bloqueio causa</td><td>Lesão gástrica, sangramento</td><td>Analgesia e anti-inflamação; retenção de sódio; desequilíbrio pró-trombótico</td></tr> </tbody></table></div> <p>O raciocínio prático é este: o AINE que bloqueia muito a COX-1 agride mais o estômago e prolonga o sangramento; o que poupa a COX-1 (coxibe) protege o estômago, mas deixa o tromboxano das plaquetas agir sem o contrapeso da prostaciclina endotelial, o que aumenta o risco de trombose. Nenhuma das duas escolhas poupa o rim, porque as duas isoformas participam da perfusão renal.</p> <div class=\"cx chave\"><b>Ponto-chave</b><p>Todo AINE, seletivo ou não, pode causar lesão renal, retenção de sódio, aumento da pressão arterial e eventos cardiovasculares. A seletividade para COX-2 muda o risco gastrointestinal, não elimina os outros.</p></div> <h3>O caso particular do ácido acetilsalicílico</h3> <p>O ácido acetilsalicílico (AAS) acetila a COX de forma <strong>irreversível</strong>. Como a plaqueta não tem núcleo e não fabrica enzima nova, o efeito antiagregante dura o tempo de vida dela (cerca de 7 a 10 dias). Em dose baixa (75 a 100 mg/dia), o AAS é usado como antiagregante; em dose analgésica (500 mg ou mais por tomada) age como AINE, com todos os riscos da classe. Alguns AINEs reversíveis, como o ibuprofeno, ocupam o sítio da COX-1 e podem atrapalhar a acetilação pelo AAS quando tomados antes dele. Paciente em AAS para prevenção cardiovascular que precisa de analgésico frequente deve ter o caso discutido com o prescritor; no balcão, a opção mais segura para dor leve costuma ser paracetamol ou dipirona.</p> <h3>Analgésicos sem ação anti-inflamatória relevante</h3> <p><strong>Paracetamol</strong> e <strong>dipirona</strong> reduzem dor e febre com eficácia, mas quase não têm efeito anti-inflamatório periférico na dose usual. O paracetamol age sobretudo no sistema nervoso central e perde potência em ambiente com muitos peróxidos (tecido inflamado). A dipirona tem mecanismo central e periférico ainda discutido, com efeito espasmolítico útil em cólica. Por isso não causam a lesão gástrica típica dos AINEs nem interferem de forma importante na agregação plaquetária, o que os torna a escolha para dor e febre em dengue, em gestantes (paracetamol) e em pacientes anticoagulados.</p>  <h3>Inflamação aguda, crônica e tipos de dor</h3> <p>A inflamação aguda dura horas a dias, é dominada por edema e neutrófilos e costuma ceder sozinha quando a causa é removida (entorse, dor de garganta viral, dor pós-extração dentária). A inflamação crônica dura semanas a anos, envolve linfócitos e macrófagos, destrói tecido e tem tratamento de base específico (artrite reumatoide, doenças inflamatórias intestinais, asma). No balcão, o AINE serve para alívio de curto prazo na inflamação aguda; inflamação persistente pede diagnóstico.</p> <p>Também importa distinguir o tipo de dor. A <strong>dor nociceptiva inflamatória</strong> (entorse, cólica menstrual, dor dentária, artrose em crise) responde bem a AINE, porque as prostaglandinas participam da sensibilização. A dor neuropática (queimação, choque, formigamento, como na neuropatia diabética ou na neuralgia pós-herpética) responde mal a AINE e a analgésicos simples e precisa de avaliação médica. A cefaleia tensional e a febre respondem tão bem a analgésico simples quanto a AINE.</p> <p>Na cólica menstrual primária, o útero produz prostaglandinas em excesso; por isso AINE iniciado no começo do fluxo (ibuprofeno, naproxeno, cetoprofeno) costuma ser mais eficaz que analgésico simples. Já na dor de cabeça diária, o uso de qualquer analgésico em mais de 10 a 15 dias por mês pode causar cefaleia por uso excessivo de medicamento, motivo de encaminhamento.</p> <h3>Febre</h3> <p>Febre é a elevação regulada da temperatura pelo hipotálamo, mediada por PGE2. Ela não é doença e, por si, raramente causa dano. O antitérmico serve para dar conforto. O que pede atenção é o contexto: febre em bebê com menos de 3 meses, febre com rigidez de nuca, manchas que não somem à pressão, prostração, falta de ar, febre por mais de 3 dias ou suspeita de dengue exigem avaliação.</p>  <h3>Outros mediadores e o lugar de cada classe</h3> <p>Prostaglandinas não agem sozinhas. Histamina (liberada por mastócitos) causa coceira e edema imediato; bradicinina causa dor e vasodilatação; leucotrienos contraem brônquios; citocinas como interleucina 1, interleucina 6 e fator de necrose tumoral sustentam a inflamação e a febre. Isso explica as diferenças entre as classes deste módulo:</p> <ul> <li><b>AINE</b> bloqueia apenas a COX: reduz prostaglandinas e tromboxano, sem efeito sobre histamina, leucotrienos ou citocinas.</li> <li><b>Corticoide</b> atua acima, na transcrição de genes: reduz a expressão de COX-2, de citocinas e a migração de células. Tem efeito mais amplo e mais lento, com mais efeitos adversos.</li> <li><b>Anti-histamínico</b> bloqueia só o receptor H1: ótimo para coceira, urticária e espirros, inútil para dor inflamatória.</li> </ul> <div class=\"cx balcao\"><b>No balcão</b><p>Antes de indicar qualquer analgésico, pergunte: idade, gestação, uso de anticoagulante ou AAS, histórico de úlcera ou sangramento, doença renal ou cardíaca, asma, febre com suspeita de dengue e alergias a medicamentos. Para dor sem sinal inflamatório (cefaleia tensional, febre de resfriado), analgésico simples resolve e expõe menos o paciente.</p></div>"
+  },
+  {
+   "id": "m06-aines",
+   "titulo": "Anti-inflamatórios não esteroides",
+   "resumo": "<p>Os anti-inflamatórios não esteroides (AINEs) estão entre os medicamentos mais vendidos e mais pedidos sem receita no Brasil. Algumas apresentações de baixa dosagem estão na lista de medicamentos isentos de prescrição; outras exigem receita (tarja vermelha, sem retenção). A condição de venda está na embalagem e na lista vigente de MIP (módulo 1). A responsabilidade do farmacêutico vai além da tarja: o risco do AINE depende do paciente.</p> <h3>Classes e representantes</h3> <div class=\"tab\"><table><thead><tr><th>Grupo</th><th>Exemplos</th><th>Observação prática</th></tr></thead><tbody> <tr><td>Derivados do ácido propiônico</td><td>Ibuprofeno, naproxeno, cetoprofeno</td><td>Ibuprofeno em dose baixa tem o menor risco GI entre os não seletivos; naproxeno tem meia-vida longa (2 tomadas/dia)</td></tr> <tr><td>Derivados do ácido acético</td><td>Diclofenaco, indometacina, cetorolaco</td><td>Diclofenaco tem risco cardiovascular comparável ao dos coxibes; cetorolaco é potente e restrito a uso curto</td></tr> <tr><td>Oxicans</td><td>Piroxicam, meloxicam, tenoxicam</td><td>Meia-vida longa (dose única diária); piroxicam com maior risco GI e cutâneo</td></tr> <tr><td>Sulfonanilida</td><td>Nimesulida</td><td>Preferência por COX-2; hepatotoxicidade</td></tr> <tr><td>Coxibes (seletivos de COX-2)</td><td>Celecoxibe, etoricoxibe</td><td>Menos úlcera; risco cardiovascular e renal mantido</td></tr> </tbody></table></div> <p>As doses usuais e máximas estão na tabela do material de apoio. Regra geral: <strong>menor dose eficaz, pelo menor tempo</strong>, sem associar dois AINEs (somar dois AINEs soma toxicidade, não eficácia).</p> <h3>Nimesulida</h3> <p>A nimesulida é muito usada no Brasil e foi retirada ou nunca chegou ao mercado em vários países (entre eles Estados Unidos, Canadá, Japão e parte da Europa), por casos de hepatite grave, alguns com necessidade de transplante. Na União Europeia, a Agência Europeia de Medicamentos (EMA, 2012) manteve o produto com restrições: uso de segunda linha, duração máxima de 15 dias, contraindicação em hepatopatia, etilismo e menores de 12 anos. No Brasil, é vendida sob prescrição e as bulas trazem contraindicação para menores de 12 anos. A dose usual de adulto é 50 a 100 mg a cada 12 horas.</p> <div class=\"cx alerta\"><b>Atenção</b><p>Orientar o cliente em uso de nimesulida a suspender o medicamento e procurar atendimento se surgirem urina escura, olhos ou pele amarelados, náusea persistente, dor no lado direito do abdome ou cansaço intenso. Evitar associação com álcool, paracetamol em dose alta e outros fármacos hepatotóxicos.</p></div> <h3>Risco gastrointestinal e gastroproteção</h3> <p>A lesão vai de dispepsia e erosões até úlcera com sangramento ou perfuração, muitas vezes <strong>sem dor prévia</strong>, sobretudo em idosos. O risco cresce com a dose, a duração, a meia-vida longa e a seletividade para COX-1. Fatores que aumentam o risco:</p> <ul> <li>idade de 65 anos ou mais;</li> <li>úlcera péptica prévia, principalmente complicada (sangramento, perfuração);</li> <li>uso simultâneo de anticoagulante, antiagregante (inclusive AAS em dose baixa), corticoide sistêmico ou antidepressivo ISRS/IRSN;</li> <li>dose alta ou uso de mais de um AINE;</li> <li>infecção por <i>Helicobacter pylori</i>, etilismo, doença grave associada.</li> </ul> <p>Quem precisa de gastroproteção: paciente que vai usar AINE de forma regular e tem ao menos um desses fatores. A estratégia mais usada é associar um inibidor da bomba de prótons (por exemplo, omeprazol 20 mg uma vez ao dia, em jejum) ou trocar por coxibe; no risco muito alto (úlcera com sangramento recente), o ideal é evitar AINE. Antiácido e antagonista H2 em dose usual não previnem a úlcera do AINE; apenas aliviam sintomas e podem mascarar o problema. Uso pontual de um ou dois dias em adulto jovem sem fatores de risco não exige gastroproteção.</p> <h3>Rim</h3> <p>Em pessoa saudável e hidratada, o rim depende pouco das prostaglandinas. Quando o volume circulante cai (desidratação, vômitos, diarreia, insuficiência cardíaca, cirrose, doença renal crônica, idoso), as prostaglandinas passam a manter a filtração. O AINE retira esse suporte e pode causar <strong>lesão renal aguda</strong>, além de hipercalemia, retenção de sódio e edema. A combinação de AINE com IECA ou BRA e diurético é conhecida como \"tríplice ameaça\" para o rim. A função renal deve ser estimada pela TFG calculada por CKD-EPI 2021; com TFG abaixo de 30 mL/min/1,73 m², AINE sistêmico deve ser evitado.</p> <h3>Coração e pressão arterial</h3> <p>AINEs (exceto o AAS em dose baixa) aumentam o risco de infarto e AVC, com efeito que pode surgir já nas primeiras semanas e cresce com a dose (alerta reforçado pela FDA em 2015). O risco é maior com coxibes e diclofenaco; o naproxeno parece ter o menor risco cardiovascular entre os AINEs, à custa de maior risco GI. Também elevam a pressão arterial, reduzem o efeito de anti-hipertensivos e descompensam a insuficiência cardíaca por retenção de sódio e água. Hipertenso com pressão controlada pode usar AINE por poucos dias com vigilância; insuficiência cardíaca e infarto recente são situações para evitar.</p> <h3>Asma e AINE</h3> <p>Uma parcela dos adultos asmáticos tem doença respiratória exacerbada por AINE: asma, rinossinusite crônica com pólipos nasais e crises de broncoespasmo, congestão e rubor facial após AAS ou qualquer AINE que iniba COX-1. A reação é cruzada entre os AINEs não seletivos. Coxibes costumam ser tolerados e o paracetamol em dose habitual geralmente é seguro, mas a liberação é decisão médica. Asmático que nunca teve reação pode usar AINE; asmático com pólipo nasal ou reação prévia não deve receber AINE no balcão.</p> <h3>Gestação</h3> <p>Em 15 de outubro de 2020, a FDA recomendou <strong>evitar AINEs a partir de 20 semanas de gestação</strong>, porque o uso pode causar disfunção renal fetal e oligoâmnio (pouco líquido amniótico), às vezes em 48 horas de uso regular. Se o médico julgar o uso necessário entre 20 e 30 semanas, a orientação é menor dose e menor tempo, com ultrassom se passar de 48 horas. A partir de 30 semanas (terceiro trimestre), AINE é contraindicado pelo risco de fechamento precoce do canal arterial fetal, hipertensão pulmonar neonatal, prolongamento do trabalho de parto e sangramento. As exceções do alerta foram o AAS em dose baixa (prescrito, por exemplo, para prevenção de pré-eclâmpsia) e AINEs de uso oftálmico. No primeiro trimestre, estudos observacionais associam AINE a aborto espontâneo. Na prática do balcão: gestante com dor ou febre recebe paracetamol e orientação, não AINE.</p> <h3>Dengue</h3> <p>Na suspeita de dengue (febre alta de início súbito, dor no corpo, dor atrás dos olhos, manchas na pele), o Ministério da Saúde contraindica AAS, outros AINEs e corticoides, pelo risco de sangramento e pela piora da função plaquetária. Para dor e febre, dipirona ou paracetamol, com hidratação oral abundante e procura da unidade de saúde. A mesma cautela vale para febre aguda em época de epidemia quando a dengue ainda não foi descartada.</p> <h3>Interações de maior risco</h3> <div class=\"tab\"><table><thead><tr><th>AINE associado a</th><th>Consequência</th><th>Conduta</th></tr></thead><tbody> <tr><td>Varfarina, DOAC (rivaroxabana, apixabana, dabigatrana)</td><td>Sangramento, sobretudo GI</td><td>Evitar; usar paracetamol ou dipirona</td></tr> <tr><td>AAS, clopidogrel</td><td>Sangramento; ibuprofeno pode reduzir efeito do AAS</td><td>Evitar uso regular; discutir com prescritor</td></tr> <tr><td>ISRS, IRSN (sertralina, fluoxetina, venlafaxina)</td><td>Sangramento GI</td><td>Evitar ou associar IBP</td></tr> <tr><td>IECA, BRA, diuréticos</td><td>Lesão renal aguda, hipercalemia, perda do controle pressórico</td><td>Evitar uso prolongado; hidratação; monitorar</td></tr> <tr><td>Lítio</td><td>Aumento da litemia e intoxicação</td><td>Evitar; se inevitável, litemia</td></tr> <tr><td>Metotrexato</td><td>Redução da depuração e toxicidade (medula, rim)</td><td>Evitar em dose alta; em dose semanal baixa, só com aval médico</td></tr> <tr><td>Corticoide sistêmico</td><td>Úlcera e sangramento</td><td>Gastroproteção se uso conjunto</td></tr> <tr><td>Álcool</td><td>Lesão gástrica; hepatotoxicidade com nimesulida</td><td>Orientar abstenção</td></tr> </tbody></table></div> <h3>AINE tópico</h3> <p>Gel ou emplastro de diclofenaco, cetoprofeno ou piroxicam alcançam concentração sistêmica muito menor. São boa opção para dor musculoesquelética localizada (entorse, tendinite, artrose de joelho e mão), principalmente em idosos e em quem tem risco GI ou renal. Não aplicar em pele lesada, evitar exposição solar sobre a área com cetoprofeno (fotossensibilidade) e lavar as mãos depois.</p>  <h3>Dipirona e paracetamol</h3> <p>Os dois são analgésicos e antitérmicos de primeira escolha para dor leve a moderada e febre, sem ação anti-inflamatória relevante nas doses usuais.</p> <ul> <li><b>Paracetamol</b> (Tylenol®): adulto, 500 a 1.000 mg a cada 6 a 8 horas, máximo de 4 g/dia em adulto saudável. Em superdose, o metabólito tóxico (NAPQI) esgota a glutationa do fígado e causa necrose hepática, que pode aparecer só 2 a 3 dias depois de uma ingestão aparentemente sem sintomas. Etilistas, desnutridos, hepatopatas e usuários de indutores enzimáticos têm risco com doses menores; o teto é definido pelo prescritor. O maior perigo do balcão é a <strong>duplicação</strong>: o cliente toma paracetamol e, ao mesmo tempo, um antigripal que também contém paracetamol.</li> <li><b>Dipirona</b> (Novalgina®): adulto, 500 a 1.000 mg até 4 vezes ao dia, máximo de 4 g/dia. É MIP no Brasil e tem bom efeito em cólica. O efeito adverso mais temido é a agranulocitose, rara e imprevisível; febre, dor de garganta e aftas durante o uso pedem hemograma. Pode causar hipotensão (sobretudo por via injetável) e reações alérgicas. Na gestação, a bula restringe o uso, sobretudo no terceiro trimestre; a decisão é do prescritor.</li> </ul> <h3>Criança</h3> <p>Para febre e dor em criança, as opções do balcão são paracetamol, dipirona e ibuprofeno, sempre em dose por peso, com a apresentação pediátrica e a seringa ou o conta-gotas que acompanha o produto. O ibuprofeno é usado a partir de 6 meses na dose de 5 a 10 mg/kg por tomada a cada 6 a 8 horas (máximo de 40 mg/kg/dia); o paracetamol, na dose de 10 a 15 mg/kg por tomada, com intervalo mínimo de 4 a 6 horas e no máximo 5 tomadas em 24 horas. Erros comuns: confundir gotas com mL, alternar dois antitérmicos sem necessidade e dar AINE para criança desidratada (vômito ou diarreia), situação em que o risco de lesão renal aumenta. AAS é contraindicado em criança e adolescente com quadro viral pelo risco de síndrome de Reye.</p>  <h3>Pedidos frequentes no balcão</h3> <ul> <li><b>Entorse e dor muscular</b>: repouso relativo, gelo nas primeiras 48 horas, AINE tópico ou oral por 3 a 5 dias. Encaminhar se não consegue apoiar o pé, se há deformidade ou se a dor não cede em uma semana.</li> <li><b>Cólica menstrual</b>: AINE iniciado no começo do fluxo, por 2 a 3 dias. Cólica que mudou de padrão, sangramento muito aumentado, dor fora do período menstrual ou dor que não responde merecem avaliação ginecológica.</li> <li><b>Dor de garganta</b>: analgésico simples ou AINE, hidratação e pastilhas. Febre alta com placas, dificuldade para engolir saliva ou abrir a boca pedem avaliação médica; antibiótico não é dispensado sem receita.</li> <li><b>Dor de dente</b>: analgesia temporária e encaminhamento ao dentista; AINE controla a dor, mas não trata a causa.</li> <li><b>Crise de gota</b>: articulação muito vermelha e dolorosa (comum no dedão do pé). O tratamento (AINE em dose plena, colchicina ou corticoide) é prescrito; AINE é evitado em doença renal, que é comum nesses pacientes.</li> <li><b>Dor lombar aguda</b>: manter-se ativo, calor local, analgésico ou AINE por poucos dias. Dor com perda de força nas pernas, alteração urinária ou intestinal, febre ou história de câncer exige avaliação imediata.</li> </ul>  <h3>Como escolher entre os AINEs</h3> <p>Quando um AINE é adequado, a escolha segue o perfil de risco. Paciente jovem sem fatores de risco: ibuprofeno ou naproxeno em dose baixa, por poucos dias. Risco gastrointestinal aumentado sem risco cardiovascular: coxibe ou AINE não seletivo com inibidor da bomba de prótons, por prescrição. Risco cardiovascular aumentado (infarto ou AVC prévio, insuficiência cardíaca): evitar AINE sistêmico; se indispensável, o prescritor tende a preferir naproxeno em dose baixa com gastroproteção. Doença renal com TFG reduzida, gestação a partir de 20 semanas, dengue e anticoagulação: preferir analgésico simples e medidas não farmacológicas. Dor localizada em articulação superficial: AINE tópico antes do oral.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Antes de dispensar AINE, confira: gestação (e idade gestacional), suspeita de dengue, uso de anticoagulante, AAS, ISRS, anti-hipertensivo, lítio ou metotrexato, úlcera prévia, doença renal ou cardíaca, asma com pólipo nasal. Oriente tomar após refeição, não associar outro AINE (inclusive os escondidos em antigripais) e procurar atendimento se fezes pretas, vômito com sangue, inchaço nas pernas ou falta de ar.</p></div> <div class=\"cx exemplo\"><b>Caso</b><p>Senhor de 72 anos, em uso de losartana, hidroclorotiazida e AAS 100 mg, pede \"um anti-inflamatório forte\" para dor no joelho. O farmacêutico identifica três fatores de risco (idade, AAS, combinação anti-hipertensiva com diurético), indica paracetamol em horário fixo e diclofenaco gel no joelho, orienta compressa e encaminha ao médico se a dor persistir por mais de 7 dias ou houver inchaço e calor na articulação.</p></div>"
+  },
+  {
+   "id": "m06-corticoides-sistemicos",
+   "titulo": "Corticosteroides sistêmicos",
+   "resumo": "<p>Corticosteroides (ou glicocorticoides) são análogos sintéticos do cortisol, o hormônio produzido pela suprarrenal sob comando do eixo hipotálamo-hipófise-adrenal (HHA). São os anti-inflamatórios e imunossupressores mais potentes disponíveis e aparecem diariamente no balcão: prednisona para crise de asma, dexametasona em associação com anti-histamínico, betametasona injetável de depósito, prednisolona em gotas para criança. Todos os corticoides orais e injetáveis são de venda sob prescrição.</p> <h3>Mecanismo de ação</h3> <p>O corticoide atravessa a membrana e se liga ao receptor de glicocorticoide no citoplasma. O complexo entra no núcleo e:</p> <ul> <li><b>reprime genes inflamatórios</b> (inibe fatores de transcrição como NF-kappa-B e AP-1): cai a produção de citocinas, da COX-2, de moléculas de adesão e a migração de leucócitos;</li> <li><b>ativa genes</b> de proteínas anti-inflamatórias e também de enzimas metabólicas, origem de boa parte dos efeitos adversos (hiperglicemia, catabolismo de proteína, perda óssea).</li> </ul> <p>Como o efeito depende de transcrição gênica, ele demora algumas horas para aparecer (os efeitos principais surgem após 4 a 6 horas, segundo o PCDT da Asma, 2026). Por isso o corticoide fica fora da fase de emergência do choque anafilático e do broncoespasmo grave; sua função é conter a continuidade da inflamação.</p> <h3>Equivalência, potência e duração</h3> <p>Os corticoides diferem em potência glicocorticoide (anti-inflamatória), atividade mineralocorticoide (retenção de sódio e perda de potássio) e duração do efeito biológico (supressão do eixo HHA). A tabela de equivalência é usada para trocar um corticoide por outro e para comparar doses.</p> <div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Dose equivalente</th><th>Potência glicocorticoide</th><th>Potência mineralocorticoide</th><th>Duração</th></tr></thead><tbody> <tr><td>Hidrocortisona</td><td>20 mg</td><td>1</td><td>1</td><td>Curta (8 a 12 h)</td></tr> <tr><td>Prednisona</td><td>5 mg</td><td>4</td><td>0,8</td><td>Intermediária (12 a 36 h)</td></tr> <tr><td>Prednisolona</td><td>5 mg</td><td>4</td><td>0,8</td><td>Intermediária (12 a 36 h)</td></tr> <tr><td>Metilprednisolona</td><td>4 mg</td><td>5</td><td>0,5</td><td>Intermediária (12 a 36 h)</td></tr> <tr><td>Dexametasona</td><td>0,75 mg</td><td>25 a 30</td><td>Desprezível</td><td>Longa (36 a 72 h)</td></tr> <tr><td>Betametasona</td><td>0,6 a 0,75 mg</td><td>25 a 30</td><td>Desprezível</td><td>Longa (36 a 72 h)</td></tr> </tbody></table></div> <p>Exemplo: 40 mg de prednisona equivalem a cerca de 6 mg de dexametasona ou 32 mg de metilprednisolona. A prednisona é pró-fármaco convertida em prednisolona no fígado; em hepatopatia grave, prefere-se prednisolona. Hidrocortisona é o corticoide de reposição na insuficiência adrenal porque tem ação mineralocorticoide; dexametasona e betametasona são escolhidas quando se quer efeito potente, longo e sem retenção de sódio (por exemplo, edema cerebral, maturação pulmonar fetal), mas suprimem mais o eixo.</p> <h3>Efeitos adversos</h3> <div class=\"tab\"><table><thead><tr><th>Curto prazo (dias)</th><th>Longo prazo (semanas a meses)</th></tr></thead><tbody> <tr><td>Hiperglicemia, sobretudo à tarde</td><td>Síndrome de Cushing (face em lua cheia, gordura central, estrias violáceas)</td></tr> <tr><td>Insônia, euforia, irritabilidade, raramente psicose</td><td>Osteoporose e fraturas; necrose avascular da cabeça do fêmur</td></tr> <tr><td>Aumento do apetite, retenção hídrica</td><td>Diabetes, hipertensão, dislipidemia</td></tr> <tr><td>Elevação da pressão arterial</td><td>Catarata subcapsular posterior e glaucoma</td></tr> <tr><td>Dispepsia (maior risco de úlcera com AINE)</td><td>Miopatia proximal, pele fina, equimoses, má cicatrização</td></tr> <tr><td>Leucocitose sem infecção</td><td>Infecções (inclusive reativação de tuberculose e estrongiloidíase disseminada)</td></tr> <tr><td>Hipocalemia (maior com hidrocortisona)</td><td>Supressão do eixo HHA; atraso do crescimento em criança</td></tr> </tbody></table></div> <h3>Supressão do eixo e desmame</h3> <p>O corticoide exógeno desliga o eixo HHA. Depois de algumas semanas, a suprarrenal reduz sua produção e, se o medicamento for interrompido de repente, falta cortisol: fraqueza, náusea, hipotensão, hipoglicemia e, no extremo, crise adrenal. O risco depende da dose, da duração, do horário e do corticoide.</p> <ul> <li><b>Curso curto</b> (menos de 2 semanas, como na crise de asma): não precisa desmame; pode parar de uma vez (PCDT da Asma, 2026, com base na GINA).</li> <li><b>Uso por 3 semanas ou mais</b>, dose de prednisona de 20 mg/dia ou mais por algumas semanas, uso noturno, sinais de Cushing ou cursos repetidos: considerar o eixo suprimido; a retirada é gradual e definida pelo prescritor.</li> <li>Paciente em uso crônico <b>não deve parar por conta própria</b> e precisa avisar em cirurgia, infecção grave ou trauma (pode precisar de dose de estresse).</li> </ul> <h3>Horário, diabetes e hipertensão</h3> <p>O cortisol natural tem pico no início da manhã. Tomar o corticoide em <strong>dose única pela manhã</strong>, junto com o café da manhã, imita esse ritmo, suprime menos o eixo, reduz a insônia e diminui a irritação gástrica. Quando a dose é dividida, a maior parte vai de manhã.</p> <p>Em diabéticos, a prednisona tomada de manhã eleva principalmente a glicemia da tarde e da noite; a glicemia de jejum pode parecer normal e enganar. Orientar automonitorização mais frequente (incluindo antes do jantar) e contato com o médico se valores altos persistirem, porque pode ser preciso ajustar insulina ou antidiabético. Em hipertensos, monitorar pressão, reduzir sal e observar edema. Em ambos, cursos curtos costumam ser seguros com vigilância.</p> <h3>Interações e situações especiais</h3> <ul> <li><b>AINE</b>: soma risco de úlcera; associar gastroproteção quando o uso conjunto for necessário.</li> <li><b>Diuréticos tiazídicos e de alça</b>: hipocalemia.</li> <li><b>Indutores do CYP3A4</b> (rifampicina, carbamazepina, fenitoína, fenobarbital): reduzem o efeito do corticoide.</li> <li><b>Inibidores potentes do CYP3A4</b> (ritonavir, cobicistate, cetoconazol, itraconazol, claritromicina): aumentam o corticoide; com ritonavir há relatos de síndrome de Cushing até com fluticasona ou budesonida inalada e nasal.</li> <li><b>Vacinas de vírus vivo</b>: evitar quando a dose for imunossupressora (prednisona 20 mg/dia ou mais por 14 dias ou mais, ou equivalente); orientar a perguntar no posto de vacinação.</li> <li><b>Gestação</b>: prednisona e prednisolona são preferidas porque a placenta inativa grande parte da dose; dexametasona e betametasona atravessam a placenta e são usadas justamente para amadurecer o pulmão fetal.</li> </ul> <div class=\"cx alerta\"><b>Atenção</b><p>Corticoide injetável de depósito (por exemplo, associação de fosfato e dipropionato de betametasona) suprime o eixo por semanas e é usado em excesso para \"gripe forte\", dor nas costas ou alergia. Aplicação na farmácia exige prescrição. Pedidos repetidos sem receita devem ser recusados e o cliente orientado sobre os riscos.</p></div>  <h3>Doses frequentes na receita</h3> <p>A crise de asma é a indicação de curso curto mais comum. O PCDT da Asma (2026) preconiza, para adolescentes e adultos com exacerbação grave, prednisolona ou prednisona de 40 a 50 mg/dia por 5 a 7 dias, em dose única diária pela manhã; para crianças de 6 a 11 anos, prednisolona de 1 a 2 mg/kg/dia (máximo de 40 mg/dia) por 3 a 5 dias. As apresentações pediátricas de prednisolona em solução oral existem em mais de uma concentração (por exemplo, 1 mg/mL e 3 mg/mL), e trocar uma pela outra triplica ou reduz a um terço a dose. Conferir a concentração na receita e na embalagem é obrigatório.</p> <p>Outras indicações comuns de curso curto: urticária extensa, dermatite de contato grave, exacerbação de DPOC, crise de gota quando AINE é contraindicado e laringite na criança. Resfriado, gripe, dor de garganta comum e dor lombar sem diagnóstico não são indicações de corticoide.</p> <h3>Uso prolongado</h3> <p>Quem usa corticoide por 3 meses ou mais (doenças reumáticas, transplante, doença pulmonar, doença inflamatória intestinal) precisa de cuidados preventivos acompanhados pelo médico: avaliação de densidade óssea, ingestão adequada de cálcio e vitamina D, controle de pressão, glicemia e peso, exame oftalmológico e atualização vacinal antes da imunossupressão. Na farmácia, o papel é reforçar a adesão, reconhecer efeitos adversos e evitar automedicação concomitante com AINE.</p> <p>Corticoide aumenta o risco de infecções e muda a forma como elas aparecem: febre e dor podem ser menores. Contato com varicela em quem usa dose imunossupressora e nunca teve a doença exige procura de atendimento. Herpes ocular é contraindicação ao corticoide sem avaliação oftalmológica.</p>  <h3>Insuficiência adrenal após corticoide</h3> <p>Quem suspende de repente um corticoide usado por semanas pode apresentar cansaço intenso, perda de apetite, náusea, vômitos, dor abdominal, tontura ao levantar, dores musculares e articulares e, em casos graves, confusão e choque. Os sintomas podem ser confundidos com a doença de base voltando. No balcão, cliente com esse quadro que parou corticoide recentemente deve procurar atendimento no mesmo dia.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Ao dispensar corticoide oral: conferir dose em mg (não confundir prednisona 5 mg com 20 mg), explicar a tomada única de manhã com alimento, perguntar sobre diabetes, hipertensão, glaucoma, úlcera e infecção em curso, e reforçar que curso curto termina no dia indicado e uso longo não pode ser interrompido sem orientação. Associações de corticoide com anti-histamínico (ex.: betametasona com dexclorfeniramina) também são de venda sob prescrição.</p></div>"
+  },
+  {
+   "id": "m06-corticoides-topicos",
+   "titulo": "Corticosteroides tópicos",
+   "resumo": "<p>O corticoide aplicado na pele reduz inflamação, coceira e proliferação celular. É a base do tratamento de dermatite atópica, dermatite de contato, eczemas, psoríase localizada e picadas com reação inflamatória. Os riscos vêm do uso errado: potência alta em pele fina, uso longo sem pausa, aplicação em infecção não diagnosticada e associações desnecessárias com antifúngico e antibiótico.</p> <h3>Classes de potência</h3> <p>A potência depende da molécula, da concentração e do veículo. Pomada penetra mais que creme, que penetra mais que loção; oclusão (curativo, fralda, luva) multiplica a absorção. A classificação abaixo, em quatro grupos, é a mais usada na prática; a classificação americana divide em sete classes, com a I sendo a mais potente.</p> <div class=\"tab\"><table><thead><tr><th>Potência</th><th>Exemplos</th><th>Uso típico</th></tr></thead><tbody> <tr><td>Baixa</td><td>Hidrocortisona (acetato) 1%; desonida 0,05%; dexametasona (acetato) 0,1%</td><td>Face, pálpebras, dobras, área de fralda, criança</td></tr> <tr><td>Média</td><td>Valerato de betametasona 0,05% ou 0,1% creme; triancinolona 0,1%; propionato de fluticasona 0,05%; furoato de mometasona 0,1%</td><td>Tronco e membros em adulto; dermatite moderada</td></tr> <tr><td>Alta</td><td>Dipropionato de betametasona 0,05%; desoximetasona 0,25%; valerato de betametasona em pomada</td><td>Lesões espessas em adulto, por tempo curto</td></tr> <tr><td>Muito alta</td><td>Propionato de clobetasol 0,05%</td><td>Psoríase em placa, líquen, mãos e pés; prescrição especializada e cursos curtos</td></tr> </tbody></table></div> <p>Classificações de potência variam entre fontes (a mometasona, por exemplo, aparece como média em umas e potente em outras). Na dúvida, a bula e o veículo decidem.</p> <h3>Quantidade: unidade de ponta de dedo</h3> <p>A unidade de ponta de dedo (FTU, do inglês <i>fingertip unit</i>) é a quantidade de creme espremida do tubo de bico padrão sobre a falange distal do indicador de um adulto, da ponta até a primeira dobra. Equivale a cerca de <strong>0,5 g</strong> e cobre uma área igual a duas palmas de mão de adulto (com os dedos). Referência para adulto por aplicação:</p> <div class=\"tab\"><table><thead><tr><th>Região (adulto)</th><th>Unidades de ponta de dedo</th></tr></thead><tbody> <tr><td>Face e pescoço</td><td>2,5</td></tr> <tr><td>Uma mão (frente e verso)</td><td>1</td></tr> <tr><td>Um braço inteiro</td><td>3</td></tr> <tr><td>Um pé</td><td>2</td></tr> <tr><td>Uma perna inteira</td><td>6</td></tr> <tr><td>Tronco anterior ou posterior</td><td>7 cada</td></tr> </tbody></table></div> <p>A medida ajuda a evitar os dois erros mais comuns: quantidade pequena demais (por \"medo de corticoide\", com falha de tratamento) e uso em grande área por meses. Aplicação uma ou duas vezes ao dia é suficiente para a maioria das formulações; passar mais vezes não aumenta o efeito.</p> <h3>Locais e pacientes de maior risco</h3> <ul> <li><b>Face e pálpebras</b>: pele fina e absorção alta; usar baixa potência por poucos dias. Na região periocular, há risco de glaucoma e catarata.</li> <li><b>Dobras, axilas, virilha e genitais</b>: oclusão natural; risco de atrofia e estrias; baixa potência.</li> <li><b>Criança</b>: maior relação superfície/peso e maior absorção; baixa ou média potência, curso curto; na área de fralda a fralda funciona como oclusão.</li> <li><b>Idoso</b>: pele atrófica, equimoses fáceis.</li> <li><b>Áreas extensas ou pele muito lesada</b>: absorção sistêmica com possível supressão do eixo HHA e hiperglicemia.</li> </ul> <h3>Efeitos adversos</h3> <p>Locais: atrofia da pele, estrias (irreversíveis), telangiectasias, púrpura, dermatite perioral, acne e rosácea induzidas por corticoide, hipopigmentação, hipertricose, retardo de cicatrização e mascaramento de infecção (micose que fica atípica e se espalha, conhecida como tinha incógnita). Ao suspender um corticoide potente usado por muito tempo na face ou em área extensa, pode haver <strong>rebote</strong>: piora intensa com vermelhidão, ardor e descamação, que leva o paciente a reaplicar e prolonga o ciclo. Por isso, cursos longos são reduzidos aos poucos (menos vezes por semana ou troca por potência menor) sob orientação médica.</p> <div class=\"cx alerta\"><b>Atenção</b><p>Cremes que associam corticoide potente, antifúngico e antibiótico são muito pedidos como \"pomada para tudo\". Em micose, o corticoide alivia a coceira, mas favorece a expansão do fungo; em infecção bacteriana, o antibiótico tópico seleciona resistência. Lesão sem diagnóstico, que piora ou não melhora em 7 dias, deve ser avaliada pelo médico.</p></div> <h3>Corticoides nasais e inalatórios</h3> <p>Corticoides de uso nasal (rinite) e inalatório (asma e DPOC) agem no mesmo receptor, com absorção sistêmica baixa. Técnica de uso, efeitos locais (candidíase oral, disfonia, epistaxe) e doses estão no módulo 7.</p>  <h3>Veículo</h3> <ul> <li><b>Pomada</b>: oclusiva, maior penetração, boa para lesões secas, espessas e descamativas; menos indicada em dobras e áreas pilosas.</li> <li><b>Creme</b>: versátil, para lesões agudas e úmidas e para áreas maiores; mais aceito pelo paciente.</li> <li><b>Loção, solução e espuma</b>: couro cabeludo e áreas pilosas; podem arder em pele lesada (álcool).</li> <li><b>Gel</b>: áreas pilosas e oleosas; pode ressecar.</li> </ul> <h3>Dermatite atópica</h3> <p>A base do tratamento é a hidratação diária da pele com emoliente, banho morno e curto e sabonete suave. O corticoide tópico controla as crises e pode ser usado de forma intermitente para prevenir recaídas, conforme o prescritor. Na face e em pálpebras, inibidores de calcineurina tópicos (tacrolimo, pimecrolimo), de venda sob prescrição, são alternativa sem atrofia. O medo exagerado de corticoide leva ao uso de quantidades mínimas e à falha terapêutica; o farmacêutico pode corrigir isso explicando a unidade de ponta de dedo e o tempo de uso.</p> <h3>Picadas de inseto</h3> <p>Reação local (vermelhidão, coceira, inchaço de alguns centímetros) melhora com compressa fria, anti-H1 oral de segunda geração e, se necessário, corticoide tópico de baixa potência por poucos dias. Inchaço grande que ultrapassa duas articulações, sinais de infecção (calor crescente, dor, pus, febre) ou qualquer sintoma sistêmico exigem avaliação; sintomas fora do local da picada podem ser anafilaxia.</p>  <h3>Tempo de uso e suspensão</h3> <p>Para lesões agudas, cursos de poucos dias a 2 semanas costumam bastar. Depois que a pele melhora, o prescritor pode reduzir a frequência (uma vez ao dia, depois dias alternados) ou trocar por potência menor, mantendo o hidratante. Tubo de corticoide potente que acaba todo mês sem consulta é sinal de uso crônico sem acompanhamento e merece conversa e encaminhamento. Corticoide tópico em pele com ferida aberta, úlcera, acne, rosácea ou infecção viral (herpes, varicela) não deve ser usado.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Pergunte onde está a lesão, há quanto tempo, se coça, se há secreção, crosta ou bolha, se já usou algo e por quanto tempo. Em dermatite leve de adulto, fora da face, um corticoide de baixa potência pode ser orientado quando a condição de venda permitir. Encaminhe se: lesão na face de bebê, área extensa, febre, secreção purulenta, lesão que não melhora em 7 dias, suspeita de micose ou herpes, ou uso prolongado de corticoide potente.</p></div> <div class=\"cx exemplo\"><b>Caso</b><p>Mãe pede creme de clobetasol para \"assadura\" de bebê de 8 meses. O farmacêutico explica que a fralda funciona como oclusão e aumenta muito a absorção, que o clobetasol é de potência muito alta e não deve ser usado nessa área, orienta troca frequente de fralda, limpeza com água e pasta à base de óxido de zinco e encaminha ao pediatra se houver lesões com pontos satélites (sugestivas de candidíase) ou piora em 3 dias.</p></div>"
+  },
+  {
+   "id": "m06-antialergicos",
+   "titulo": "Anti-histamínicos e antialérgicos",
+   "resumo": "<p>Antialérgicos estão entre os produtos mais procurados no balcão, para coceira, espirros, coriza, urticária e picada de inseto. A escolha correta exige entender a histamina, os seus receptores e a diferença entre as duas gerações de anti-histamínicos H1 (anti-H1).</p> <h3>Histamina e receptores</h3> <p>A histamina fica armazenada em grânulos de mastócitos (pele, mucosas, vias aéreas) e basófilos. Na alergia do tipo imediato, o alérgeno se liga a anticorpos IgE presos ao mastócito, que libera histamina, leucotrienos, prostaglandinas e citocinas em minutos. Os receptores de histamina são quatro:</p> <div class=\"tab\"><table><thead><tr><th>Receptor</th><th>Onde atua</th><th>Efeito da histamina</th><th>Bloqueio usado em</th></tr></thead><tbody> <tr><td>H1</td><td>Vasos, brônquios, terminações nervosas, sistema nervoso central</td><td>Vasodilatação, edema, coceira, espirro, broncoconstrição; vigília</td><td>Alergia (anti-H1)</td></tr> <tr><td>H2</td><td>Célula parietal do estômago, coração</td><td>Secreção ácida</td><td>Dispepsia, refluxo (famotidina)</td></tr> <tr><td>H3</td><td>Sistema nervoso central</td><td>Modula liberação de neurotransmissores</td><td>Sem uso no balcão</td></tr> <tr><td>H4</td><td>Células imunes</td><td>Quimiotaxia</td><td>Em pesquisa</td></tr> </tbody></table></div> <p>Os anti-H1 funcionam como agonistas inversos: estabilizam o receptor na forma inativa. Funcionam melhor quando tomados <strong>antes</strong> da exposição ou no início dos sintomas, e agem pouco sobre a congestão nasal, que depende mais de leucotrienos e inflamação tardia.</p> <h3>Primeira geração</h3> <p>São lipofílicos, atravessam a barreira hematoencefálica e se ligam também a receptores muscarínicos, alfa-adrenérgicos e serotoninérgicos. Exemplos: <strong>dexclorfeniramina</strong>, <strong>prometazina</strong>, <strong>hidroxizina</strong>, difenidramina, clemastina, ciproeptadina, e a clorfeniramina e bronfeniramina dos antigripais.</p> <ul> <li><b>Sedação e prejuízo psicomotor</b>: sonolência, lentidão de reflexos, prejuízo para dirigir e operar máquinas, que pode persistir no dia seguinte quando tomados à noite. Somam efeito com álcool, benzodiazepínicos, opioides e outros depressores.</li> <li><b>Efeito anticolinérgico</b>: boca seca, visão turva, constipação, retenção urinária (risco na hiperplasia prostática), piora de glaucoma de ângulo fechado, taquicardia, confusão.</li> <li><b>Idoso</b>: os Critérios de Beers (Sociedade Americana de Geriatria, 2023) recomendam evitar anti-H1 de primeira geração pelo risco de confusão, quedas e retenção urinária.</li> <li><b>Criança menor de 2 anos</b>: prometazina e dexclorfeniramina são contraindicadas nessa idade (bulas registradas no Brasil); a prometazina por risco de depressão respiratória fatal. Em crianças maiores pode ocorrer excitação paradoxal (agitação, insônia).</li> <li><b>Hidroxizina</b>: útil no prurido e com efeito ansiolítico; prolonga o intervalo QT. A EMA (2015) limitou a dose diária de adulto a 100 mg (50 mg em idosos) e recomendou evitar em quem tem fatores de risco para arritmia.</li> </ul> <h3>Segunda geração</h3> <p>São pouco lipofílicas ou substratos da glicoproteína P que as retira do cérebro. Causam pouca sedação e quase nenhum efeito anticolinérgico, e têm ação de 24 horas. São a primeira escolha para rinite alérgica e urticária. Exemplos: loratadina, desloratadina, cetirizina, levocetirizina, fexofenadina, bilastina, rupatadina e ebastina.</p> <div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Dose adulto</th><th>Particularidade</th></tr></thead><tbody> <tr><td>Loratadina</td><td>10 mg 1x/dia</td><td>Pró-fármaco de desloratadina; muito usada em gestação</td></tr> <tr><td>Desloratadina</td><td>5 mg 1x/dia</td><td>Metabólito ativo da loratadina</td></tr> <tr><td>Cetirizina</td><td>10 mg 1x/dia</td><td>Sedação leve em parte dos pacientes; ajuste em doença renal</td></tr> <tr><td>Levocetirizina</td><td>5 mg 1x/dia</td><td>Enantiômero ativo da cetirizina; ajuste renal</td></tr> <tr><td>Fexofenadina</td><td>120 mg 1x/dia (rinite); 180 mg 1x/dia (urticária)</td><td>Tomar com água; sucos de frutas reduzem a absorção</td></tr> <tr><td>Bilastina</td><td>20 mg 1x/dia</td><td>Em jejum: 1 hora antes ou 2 horas depois de alimento ou suco</td></tr> <tr><td>Rupatadina</td><td>10 mg 1x/dia</td><td>Também antagoniza o fator ativador de plaquetas; evitar com inibidores do CYP3A4 e suco de toranja</td></tr> <tr><td>Ebastina</td><td>10 a 20 mg 1x/dia</td><td>Metabolizada pelo CYP3A4; cuidado com cetoconazol e macrolídeos</td></tr> </tbody></table></div> <p>A fexofenadina depende de transportadores intestinais (OATP) para ser absorvida. Sucos de laranja, maçã e toranja inibem esses transportadores e reduzem bastante a quantidade que chega ao sangue; a orientação é tomar com água e afastar o suco por algumas horas. Antiácidos com alumínio e magnésio também reduzem a absorção e devem ser separados. A bilastina também perde absorção com alimento e com suco de toranja.</p> <h3>Urticária</h3> <p>Urticária são placas elevadas, avermelhadas e muito pruriginosas que mudam de lugar e desaparecem em menos de 24 horas cada uma, às vezes com angioedema (inchaço de lábios, pálpebras). A forma aguda (menos de 6 semanas) costuma ter gatilho em infecção viral, medicamento (AINE, antibiótico) ou alimento. O tratamento é anti-H1 de segunda geração em dose padrão. Na urticária crônica, a diretriz internacional (EAACI/GA²LEN/EuroGuiDerm/APAAACI, 2022) recomenda anti-H1 de segunda geração diário e, se não houver controle, aumento até quatro vezes a dose padrão, decisão que cabe ao prescritor; a etapa seguinte é omalizumabe. Anti-H1 de primeira geração não são recomendados como tratamento regular.</p> <div class=\"cx alerta\"><b>Atenção</b><p>Angioedema sem placas de urticária, principalmente em usuário de IECA (enalapril, captopril), é mediado por bradicinina e não responde a anti-H1 nem a corticoide. Inchaço de língua ou garganta, rouquidão ou dificuldade para engolir pedem atendimento de urgência.</p></div> <h3>Rinite alérgica</h3> <p>Anti-H1 de segunda geração por via oral controlam bem espirros, prurido e coriza; agem pouco na obstrução nasal. Na rinite persistente ou com obstrução importante, o corticoide nasal é mais eficaz. A combinação, a lavagem nasal e o descongestionante estão detalhados no módulo 7.</p> <h3>Gestação, lactação e criança</h3> <p>Na gestação, loratadina e cetirizina são as mais estudadas e costumam ser as escolhidas pelo prescritor. Na lactação, as de segunda geração em dose habitual são compatíveis; as de primeira geração podem causar sonolência ou irritabilidade no lactente e reduzir a produção de leite. Em criança, usar a apresentação pediátrica (xarope ou gotas) e a idade mínima da bula de cada produto.</p> <h3>Antialérgicos oftálmicos</h3> <p>Na conjuntivite alérgica (coceira intensa, lacrimejamento, olho vermelho bilateral, sem secreção purulenta), os colírios são mais eficazes que o anti-H1 oral para os olhos.</p> <ul> <li><b>Anti-H1 tópicos com ação estabilizadora de mastócitos</b> (olopatadina, cetotifeno, epinastina): alívio em minutos e prevenção; uso uma a duas vezes ao dia conforme o produto.</li> <li><b>Estabilizadores de mastócitos puros</b> (cromoglicato dissódico): impedem a liberação de histamina, mas levam dias para fazer efeito; usados como prevenção na estação de alergia, várias vezes ao dia.</li> <li><b>Colírios vasoconstritores</b> (nafazolina, tetrizolina): clareiam o olho, mas causam rebote com uso continuado; não tratam a alergia.</li> </ul> <p>Lentes de contato devem ser retiradas antes da aplicação (o conservante cloreto de benzalcônio adere à lente) e recolocadas após cerca de 15 minutos.</p>  <h3>Anti-H1 escondidos em outros produtos</h3> <p>Muitos antigripais combinam anti-H1 de primeira geração (clorfeniramina, dexbronfeniramina) com descongestionante e analgésico. Indutores do sono vendidos sem receita costumam ser anti-H1 de primeira geração (difenidramina, doxilamina). O cliente que já usa um anti-H1, um benzodiazepínico ou bebe álcool soma sedação sem perceber. No idoso, a soma de anticolinérgicos (anti-H1, antidepressivos tricíclicos, oxibutinina, antiespasmódicos) aumenta o risco de confusão, retenção urinária e quedas.</p> <h3>Quando o anti-H1 de primeira geração ainda é usado</h3> <p>Há usos em que o efeito sedativo ou anticolinérgico é desejado: prometazina como antiemético ou para sedação por prescrição, hidroxizina para prurido noturno intenso, dexclorfeniramina injetável como adjuvante em reação alérgica no serviço de saúde. São escolhas do prescritor. Para alergia do dia a dia, a segunda geração é mais segura e tão eficaz quanto.</p> <h3>Interações e cuidados</h3> <ul> <li>Álcool, benzodiazepínicos, opioides, antipsicóticos: soma de depressão do sistema nervoso (1ª geração).</li> <li>Inibidores da monoaminoxidase: potencializam efeitos anticolinérgicos e sedativos de anti-H1 de primeira geração.</li> <li>Fármacos que prolongam QT (alguns antiarrítmicos, macrolídeos, antipsicóticos, ondansetrona): cautela com hidroxizina, ebastina e rupatadina em dose alta.</li> <li>Doença renal: reduzir dose de cetirizina e levocetirizina conforme a TFG.</li> </ul>  <h3>Coceira sem lesão e coceira que não passa</h3> <p>Prurido generalizado sem lesões visíveis pode ser pele seca (comum em idosos e no inverno), mas também sinal de doença hepática, renal, tireoidiana, hematológica, efeito de medicamento (opioides, alguns antimaláricos) ou escabiose (coceira pior à noite, com lesões entre os dedos e em familiares). O anti-H1 alivia pouco nesses casos. Prurido que dura mais de 2 semanas, que acorda à noite ou que acompanha emagrecimento, icterícia ou febre deve ser investigado pelo médico. Na gestação, coceira intensa em palmas e plantas no terceiro trimestre pode indicar colestase gestacional e exige avaliação obstétrica.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Prefira anti-H1 de segunda geração para quem dirige, trabalha, estuda, é idoso ou tem glaucoma ou próstata aumentada. Pergunte se toma suco no café da manhã (fexofenadina, bilastina), se usa antifúngico ou macrolídeo (ebastina, rupatadina) e se tem doença renal (cetirizina, levocetirizina). Olho vermelho com dor, baixa da visão, fotofobia, secreção amarela ou de um lado só exige avaliação médica.</p></div> <div class=\"cx exemplo\"><b>Caso</b><p>Motorista de aplicativo de 41 anos pede \"dexclorfeniramina\" para urticária que surgiu ontem. O farmacêutico pergunta sobre falta de ar, inchaço da boca e medicamentos novos (tomou ibuprofeno há dois dias), orienta suspender o ibuprofeno, indica loratadina 10 mg uma vez ao dia em vez de um anti-H1 sedativo e encaminha se as placas persistirem além de alguns dias ou surgirem sinais de gravidade.</p></div>"
+  },
+  {
+   "id": "m06-anafilaxia",
+   "titulo": "Anafilaxia e reação alérgica no balcão",
+   "resumo": "<p>Anafilaxia é uma reação de hipersensibilidade sistêmica grave, de início rápido, que pode matar por obstrução das vias aéreas, broncoespasmo ou choque. Pode começar dentro da farmácia, minutos depois de alguém tomar um comprimido, ou chegar como um cliente que diz \"estou me sentindo estranho\" após uma picada de abelha. O farmacêutico precisa reconhecer o quadro, chamar ajuda e saber que <strong>adrenalina é o tratamento de primeira linha</strong>.</p> <h3>Gatilhos mais comuns</h3> <ul> <li>Alimentos: amendoim, castanhas, leite, ovo, peixes e frutos do mar, trigo.</li> <li>Medicamentos: betalactâmicos, AINEs e AAS, dipirona, contraste iodado, bloqueadores neuromusculares, alguns imunobiológicos.</li> <li>Picada de himenópteros: abelha, vespa, formiga.</li> <li>Látex e, mais raramente, exercício físico associado a alimento.</li> </ul> <h3>Como reconhecer</h3> <p>Pelos critérios da Organização Mundial de Alergia (WAO, 2020), a anafilaxia é muito provável quando há:</p> <ol> <li><b>início agudo</b> (minutos a poucas horas) com envolvimento de pele ou mucosa (urticária generalizada, coceira, vermelhidão, inchaço de lábios, língua ou úvula) <b>mais</b> pelo menos um entre: comprometimento respiratório (falta de ar, chiado, estridor, tosse), queda da pressão ou sinais de má perfusão (desmaio, tontura, confusão, incontinência) ou sintomas gastrointestinais intensos (cólica forte, vômitos repetidos), especialmente após alimento; <b>ou</b></li> <li><b>hipotensão, broncoespasmo ou envolvimento da laringe</b> logo após exposição a um alérgeno conhecido ou muito provável para aquele paciente, <b>mesmo sem lesões de pele</b>.</li> </ol> <p>Até 10 a 20% das anafilaxias ocorrem sem urticária. Rouquidão, voz abafada, dificuldade para engolir e sensação de \"garganta fechando\" indicam edema de laringe. Sensação de morte iminente é um sintoma frequente e deve ser levada a sério.</p> <h3>O que fazer</h3> <ol> <li><b>Ligar para o SAMU (192)</b> imediatamente e informar \"suspeita de anafilaxia\". O médico regulador orienta por telefone.</li> <li><b>Interromper a exposição</b> quando possível (parar de comer, remover o ferrão de abelha raspando com um cartão).</li> <li><b>Posicionar</b>: deitado com as pernas elevadas; sentado se a falta de ar for o principal problema; gestante deitada sobre o lado esquerdo. Não deixar a pessoa levantar ou caminhar de repente, porque a mudança brusca para a posição de pé pode precipitar parada cardíaca.</li> <li><b>Adrenalina intramuscular</b> na face anterolateral da coxa, o mais cedo possível. Se o paciente tiver a própria adrenalina prescrita, o farmacêutico ajuda a aplicar.</li> <li>Manter a vigilância até a chegada da equipe; repetir a adrenalina se não houver melhora, conforme orientação do regulador.</li> </ol> <div class=\"tab\"><table><thead><tr><th>Item</th><th>Referência (WAO, 2020)</th></tr></thead><tbody> <tr><td>Medicamento</td><td>Adrenalina (epinefrina) 1 mg/mL</td></tr> <tr><td>Dose</td><td>0,01 mg/kg (0,01 mL/kg da solução 1 mg/mL)</td></tr> <tr><td>Dose máxima por aplicação</td><td>0,5 mg em adulto; 0,3 mg em criança</td></tr> <tr><td>Via e local</td><td>Intramuscular, face anterolateral do terço médio da coxa</td></tr> <tr><td>Repetição</td><td>A cada 5 a 15 minutos, se necessário</td></tr> </tbody></table></div> <h3>Por que anti-histamínico e corticoide não bastam</h3> <p>Anti-H1 alivia coceira e urticária, mas não desfaz o edema de laringe, não reverte broncoespasmo e não eleva a pressão. Corticoide leva horas para agir e não há prova de que previna a reação bifásica. Os dois são <strong>adjuvantes</strong>, dados depois da adrenalina. Dar um comprimido de anti-histamínico e \"esperar para ver\" atrasa o tratamento eficaz e é a falha mais comum relatada em mortes por anafilaxia. A GINA 2026 incluiu nos fluxos de crise de asma a orientação de aplicar adrenalina antes do broncodilatador quando houver sinais de anafilaxia junto com a crise.</p> <h3>Autoinjetor de adrenalina no Brasil</h3> <p>Em abril de 2026, a Associação Brasileira de Alergia e Imunologia (ASBAI) reafirmou que <strong>não há autoinjetor de adrenalina aprovado pela Anvisa</strong>. No mesmo mês, a Anvisa determinou a apreensão e a proibição de venda de um autoinjetor estrangeiro anunciado por uma rede de farmácias, por se tratar de produto sem registro (Diário Oficial da União de 2 de abril de 2026). Hoje, quem precisa de autoinjetor recorre à importação por pessoa física, sujeita às regras sanitárias, com custo alto. Alguns alergistas prescrevem um kit com ampola de adrenalina 1 mg/mL e seringa já orientada, com treinamento do paciente e da família. A farmácia não pode vender nem anunciar produto sem registro.</p> <div class=\"cx lei\"><b>O que diz a norma</b><p>Medicamento sem registro na Anvisa não pode ser comercializado, anunciado ou dispensado em farmácia. A Lei nº 6.360/1976 (art. 12) estabelece que nenhum medicamento pode ser industrializado, exposto à venda ou entregue ao consumo antes de registrado no Ministério da Saúde.</p></div> <h3>Reação alérgica leve no balcão</h3> <p>Nem toda alergia é anafilaxia. Urticária localizada, coceira ou inchaço restrito ao local de uma picada, sem falta de ar, sem rouquidão, sem tontura e sem vômitos, é reação leve. Conduta: identificar e suspender o suspeito, oferecer anti-H1 de segunda geração quando a condição de venda permitir, compressa fria, orientar os sinais de alarme e pedir que volte ou procure atendimento se algo novo aparecer nas próximas horas. Reação a medicamento deve ser notificada à Anvisa pelo VigiMed e registrada para o paciente informar em consultas futuras.</p>  <h3>Fatores que agravam a reação</h3> <p>Asma não controlada, doença cardiovascular, idade avançada, mastocitose e o uso de betabloqueador ou IECA tornam a anafilaxia mais grave ou mais difícil de tratar. O betabloqueador pode reduzir a resposta à adrenalina; isso não é motivo para deixar de aplicá-la, e a equipe de emergência dispõe de alternativas. Esforço físico, álcool, febre e AINE podem facilitar a reação a um alimento que antes era tolerado.</p> <h3>Adrenalina: segurança</h3> <p>Não existe contraindicação absoluta à adrenalina na anafilaxia. Palidez, tremor, palpitação, ansiedade e cefaleia passageiros são esperados e indicam que o fármaco chegou à circulação. A via intramuscular na coxa é preferida à subcutânea porque a absorção é mais rápida e previsível. A via venosa fica restrita ao ambiente hospitalar, pelo risco de arritmia quando usada sem monitorização.</p> <h3>Depois do episódio</h3> <p>Todo paciente que recebeu adrenalina precisa ser levado a um serviço de emergência, mesmo que melhore, porque os sintomas podem voltar horas depois (reação bifásica). Na alta, o médico deve orientar sobre o gatilho, prescrever adrenalina para uso em nova crise e encaminhar ao alergista. A farmácia pode ajudar a identificar o medicamento suspeito, anotar o nome do princípio ativo (não só a marca) no cadastro do cliente e alertar para produtos com o mesmo princípio ativo ou da mesma classe.</p>  <h3>Farmácia que aplica injetáveis e vacinas</h3> <p>Quando a farmácia oferece aplicação de injetáveis ou vacinação, a anafilaxia deixa de ser hipótese remota. O serviço precisa ter protocolo escrito de atendimento de intercorrências, equipe treinada, materiais e medicamentos previstos pela norma sanitária do serviço e o telefone de emergência visível. Após cada aplicação, o cliente deve permanecer em observação pelo tempo definido no protocolo, sentado e acompanhado, e ser orientado sobre sinais tardios. O registro de lote, horário e reação adversa é obrigatório.</p>  <h3>O que pode parecer anafilaxia</h3> <ul> <li><b>Reação vasovagal</b> (desmaio comum, por exemplo ao ver agulha): palidez, suor frio, náusea e pulso lento, sem urticária, sem chiado e com melhora rápida ao deitar.</li> <li><b>Crise de ansiedade</b>: falta de ar com formigamento em mãos e boca, sem urticária, sem queda de pressão.</li> <li><b>Crise de asma</b>: chiado e falta de ar sem lesões de pele, em asmático conhecido.</li> </ul> <p>Na dúvida entre anafilaxia e outro quadro, a conduta é tratar como anafilaxia e acionar o SAMU: o risco de atrasar a adrenalina é muito maior que o de aplicá-la sem necessidade.</p> <div class=\"cx balcao\"><b>No balcão</b><p>Quem já teve anafilaxia deve ter plano de ação escrito, adrenalina prescrita, identificação (pulseira ou cartão) e acompanhamento com alergista. Ao dispensar AINE, antibiótico ou dipirona, pergunte sobre reações anteriores. Cliente com histórico de anafilaxia por AINE não deve receber nenhum AINE no balcão.</p></div> <div class=\"cx exemplo\"><b>Caso</b><p>Rapaz de 19 anos entra na farmácia com placas pelo corpo, lábios inchados e voz rouca 20 minutos após comer camarão. O farmacêutico pede a um colega que ligue para o SAMU, deita o paciente com as pernas elevadas, pergunta se ele tem adrenalina (não tem) e segue as orientações do médico regulador até a chegada da ambulância, sem oferecer anti-histamínico como substituto.</p></div>"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m06-mapa-aines",
+   "titulo": "AINEs: mecanismo, riscos e balcão",
+   "centro": "AINEs",
+   "ramos": [
+    {
+     "t": "Mecanismo",
+     "itens": [
+      "Bloqueiam COX: menos prostaglandina",
+      "COX-1: estômago, plaqueta, rim",
+      "COX-2: inflamação, endotélio, rim",
+      "AAS: bloqueio irreversível da plaqueta"
+     ]
+    },
+    {
+     "t": "Escolha",
+     "itens": [
+      "Menor dose, menor tempo",
+      "Nunca dois AINEs juntos",
+      "Coxibe: menos úlcera, mesmo risco CV e renal",
+      "Nimesulida: fígado; máx. 15 dias (EMA)",
+      "Gel tópico: idoso com dor localizada"
+     ]
+    },
+    {
+     "t": "Riscos",
+     "itens": [
+      "Úlcera e sangramento sem dor prévia",
+      "Lesão renal em desidratado e idoso",
+      "Infarto, AVC, PA alta, piora da IC",
+      "Broncoespasmo em asma com pólipo nasal"
+     ]
+    },
+    {
+     "t": "Gestação e dengue",
+     "itens": [
+      "Evitar a partir de 20 semanas (FDA 2020)",
+      "3º trimestre: fecha canal arterial",
+      "Dengue: proibido AINE e AAS",
+      "Opção: paracetamol ou dipirona"
+     ]
+    },
+    {
+     "t": "Interações",
+     "itens": [
+      "Anticoagulante, AAS, ISRS: sangramento",
+      "IECA/BRA + diurético: lesão renal",
+      "Lítio: intoxicação",
+      "Metotrexato: toxicidade"
+     ]
+    },
+    {
+     "t": "Gastroproteção",
+     "itens": [
+      "Idade de 65 anos ou mais",
+      "Úlcera prévia",
+      "Anticoagulante, AAS, corticoide, ISRS",
+      "IBP diário durante o uso"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m06-mapa-corticoides",
+   "titulo": "Corticosteroides sistêmicos e tópicos",
+   "centro": "Corticosteroides",
+   "ramos": [
+    {
+     "t": "Mecanismo",
+     "itens": [
+      "Receptor no citoplasma, age no núcleo",
+      "Reprime genes inflamatórios",
+      "Efeito em horas, não em minutos"
+     ]
+    },
+    {
+     "t": "Equivalência",
+     "itens": [
+      "Hidrocortisona 20 mg",
+      "Prednisona/prednisolona 5 mg",
+      "Metilprednisolona 4 mg",
+      "Dexametasona 0,75 mg (longa)"
+     ]
+    },
+    {
+     "t": "Uso correto",
+     "itens": [
+      "Dose única pela manhã com alimento",
+      "Curso < 2 semanas: sem desmame",
+      "Uso longo: nunca parar sozinho",
+      "Diabético: glicemia da tarde sobe"
+     ]
+    },
+    {
+     "t": "Efeitos adversos",
+     "itens": [
+      "Curto: glicemia, insônia, PA, apetite",
+      "Longo: Cushing, osteoporose, catarata",
+      "Infecção e supressão do eixo HHA"
+     ]
+    },
+    {
+     "t": "Tópicos",
+     "itens": [
+      "Potência: baixa, média, alta, muito alta",
+      "1 ponta de dedo = 0,5 g = 2 palmas",
+      "Face, dobras, criança: baixa potência",
+      "Atrofia, estrias, rebote, tinha incógnita"
+     ]
+    },
+    {
+     "t": "Alertas",
+     "itens": [
+      "Ritonavir + fluticasona: Cushing",
+      "Vacina viva: evitar em dose alta",
+      "Injetável de depósito só com receita"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m06-mapa-antialergicos",
+   "titulo": "Antialérgicos e anafilaxia",
+   "centro": "Alergia no balcão",
+   "ramos": [
+    {
+     "t": "Histamina",
+     "itens": [
+      "H1: coceira, edema, espirro, vigília",
+      "H2: ácido gástrico",
+      "Anti-H1: melhor antes da exposição"
+     ]
+    },
+    {
+     "t": "Anti-H1 1ª geração",
+     "itens": [
+      "Dexclorfeniramina, prometazina, hidroxizina",
+      "Sono, reflexo lento, efeito anticolinérgico",
+      "Idoso: evitar (Beers 2023)",
+      "Menor de 2 anos: contraindicado"
+     ]
+    },
+    {
+     "t": "Anti-H1 2ª geração",
+     "itens": [
+      "Loratadina 10 mg, desloratadina 5 mg",
+      "Cetirizina 10 mg, levocetirizina 5 mg",
+      "Fexofenadina 120 a 180 mg: tomar com água",
+      "Bilastina 20 mg em jejum"
+     ]
+    },
+    {
+     "t": "Usos",
+     "itens": [
+      "Urticária: 2ª geração diária",
+      "Rinite: espirro e coriza",
+      "Olho: olopatadina, cetotifeno",
+      "Angioedema por IECA: não responde"
+     ]
+    },
+    {
+     "t": "Anafilaxia",
+     "itens": [
+      "Pele + respiração ou pressão",
+      "Ligar 192 e deitar com pernas elevadas",
+      "Adrenalina IM na coxa: 1ª linha",
+      "0,01 mg/kg; máx. 0,5 mg adulto",
+      "Anti-H1 e corticoide: só adjuvantes"
+     ]
+    },
+    {
+     "t": "Brasil",
+     "itens": [
+      "Sem autoinjetor registrado (2026)",
+      "Vender sem registro: infração",
+      "Notificar reação no VigiMed"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m06-tab-aines",
+   "titulo": "AINEs e analgésicos: doses de adulto e alertas",
+   "colunas": [
+    "Fármaco",
+    "Seletividade",
+    "Dose usual adulto",
+    "Dose máx./dia",
+    "Alerta"
+   ],
+   "linhas": [
+    [
+     "Ibuprofeno",
+     "Não seletivo",
+     "200 a 400 mg a cada 6 a 8 h",
+     "1.200 mg sem receita; até 2.400 mg com prescrição",
+     "Pode reduzir o efeito antiplaquetário do AAS"
+    ],
+    [
+     "Naproxeno",
+     "Não seletivo",
+     "250 a 500 mg a cada 12 h",
+     "1.000 mg (uso contínuo)",
+     "Meia-vida longa; risco GI maior, CV menor"
+    ],
+    [
+     "Diclofenaco",
+     "Não seletivo (tende a COX-2)",
+     "50 mg 2 a 3x/dia",
+     "150 mg",
+     "Risco CV semelhante ao dos coxibes; hepatotoxicidade"
+    ],
+    [
+     "Cetoprofeno",
+     "Não seletivo",
+     "50 mg 3x/dia ou 100 mg 2x/dia",
+     "300 mg",
+     "Gel: fotossensibilidade"
+    ],
+    [
+     "Nimesulida",
+     "Preferencial COX-2",
+     "50 a 100 mg a cada 12 h",
+     "200 mg",
+     "Hepatotoxicidade; menor de 12 anos: contraindicada"
+    ],
+    [
+     "Piroxicam",
+     "Não seletivo",
+     "20 mg 1x/dia",
+     "20 mg",
+     "Alto risco GI e reações cutâneas graves"
+    ],
+    [
+     "Meloxicam",
+     "Preferencial COX-2",
+     "7,5 a 15 mg 1x/dia",
+     "15 mg",
+     "Meia-vida longa"
+    ],
+    [
+     "Celecoxibe",
+     "Seletivo COX-2",
+     "100 mg 2x/dia ou 200 mg 1x/dia",
+     "400 mg",
+     "Risco CV e renal; alergia a sulfonamida"
+    ],
+    [
+     "Etoricoxibe",
+     "Seletivo COX-2",
+     "60 a 90 mg 1x/dia (120 mg na gota aguda, por até 8 dias)",
+     "120 mg",
+     "Eleva PA; evitar em hipertensão não controlada"
+    ],
+    [
+     "Dipirona",
+     "Sem ação anti-inflamatória relevante",
+     "500 a 1.000 mg até 4x/dia",
+     "4.000 mg",
+     "Agranulocitose rara; hipotensão"
+    ],
+    [
+     "Paracetamol",
+     "Sem ação anti-inflamatória relevante",
+     "500 a 1.000 mg a cada 6 a 8 h",
+     "4.000 mg (menos em hepatopata ou etilista)",
+     "Hepatotoxicidade por superdose"
+    ]
+   ],
+   "nota": "Doses de referência para adulto com função renal e hepática normais. Conferir sempre a bula do produto e a prescrição; em idosos e na doença renal (TFG por CKD-EPI 2021) usar a menor dose e o menor tempo."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m06-tab-corticoides",
+   "titulo": "Equivalência dos corticosteroides sistêmicos",
+   "colunas": [
+    "Fármaco",
+    "Dose equivalente",
+    "Potência glicocorticoide",
+    "Potência mineralocorticoide",
+    "Duração biológica"
+   ],
+   "linhas": [
+    [
+     "Hidrocortisona",
+     "20 mg",
+     "1",
+     "1",
+     "8 a 12 h"
+    ],
+    [
+     "Prednisona",
+     "5 mg",
+     "4",
+     "0,8",
+     "12 a 36 h"
+    ],
+    [
+     "Prednisolona",
+     "5 mg",
+     "4",
+     "0,8",
+     "12 a 36 h"
+    ],
+    [
+     "Metilprednisolona",
+     "4 mg",
+     "5",
+     "0,5",
+     "12 a 36 h"
+    ],
+    [
+     "Dexametasona",
+     "0,75 mg",
+     "25 a 30",
+     "Desprezível",
+     "36 a 72 h"
+    ],
+    [
+     "Betametasona",
+     "0,6 a 0,75 mg",
+     "25 a 30",
+     "Desprezível",
+     "36 a 72 h"
+    ]
+   ],
+   "nota": "Valores clássicos de referência farmacológica; pequenas variações existem entre fontes. Exemplo de conversão: prednisona 40 mg corresponde a cerca de dexametasona 6 mg."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m06-tab-topicos",
+   "titulo": "Potência dos corticosteroides tópicos",
+   "colunas": [
+    "Potência",
+    "Exemplos",
+    "Onde e quanto tempo"
+   ],
+   "linhas": [
+    [
+     "Baixa",
+     "Hidrocortisona 1%; desonida 0,05%; acetato de dexametasona 0,1%",
+     "Face, pálpebras, dobras, criança; cursos curtos"
+    ],
+    [
+     "Média",
+     "Valerato de betametasona creme; triancinolona 0,1%; fluticasona 0,05%; mometasona 0,1%",
+     "Tronco e membros de adulto; até 2 a 3 semanas"
+    ],
+    [
+     "Alta",
+     "Dipropionato de betametasona 0,05%; desoximetasona 0,25%",
+     "Lesões espessas em adulto; evitar face e dobras"
+    ],
+    [
+     "Muito alta",
+     "Propionato de clobetasol 0,05%",
+     "Psoríase, líquen, palmas e plantas; prescrição e cursos curtos"
+    ]
+   ],
+   "nota": "Pomada é mais potente que creme da mesma molécula; oclusão (fralda, curativo) aumenta a absorção. Uma unidade de ponta de dedo (cerca de 0,5 g) cobre duas palmas de mão de adulto."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m06-tab-antih1",
+   "titulo": "Anti-histamínicos H1: primeira e segunda geração",
+   "colunas": [
+    "Fármaco",
+    "Geração",
+    "Dose adulto",
+    "Sedação",
+    "Observação"
+   ],
+   "linhas": [
+    [
+     "Dexclorfeniramina",
+     "1ª",
+     "2 mg a cada 6 a 8 h (máx. 12 mg/dia)",
+     "Alta",
+     "Contraindicada em menores de 2 anos"
+    ],
+    [
+     "Prometazina",
+     "1ª",
+     "25 mg, conforme prescrição",
+     "Muito alta",
+     "Menor de 2 anos: depressão respiratória fatal"
+    ],
+    [
+     "Hidroxizina",
+     "1ª",
+     "25 mg 2 a 4x/dia (máx. 100 mg/dia)",
+     "Alta",
+     "Prolonga QT; idoso máx. 50 mg/dia (EMA 2015)"
+    ],
+    [
+     "Loratadina",
+     "2ª",
+     "10 mg 1x/dia",
+     "Mínima",
+     "Opção frequente na gestação"
+    ],
+    [
+     "Desloratadina",
+     "2ª",
+     "5 mg 1x/dia",
+     "Mínima",
+     "Metabólito ativo da loratadina"
+    ],
+    [
+     "Cetirizina",
+     "2ª",
+     "10 mg 1x/dia",
+     "Leve",
+     "Ajustar na doença renal"
+    ],
+    [
+     "Levocetirizina",
+     "2ª",
+     "5 mg 1x/dia",
+     "Leve",
+     "Ajustar na doença renal"
+    ],
+    [
+     "Fexofenadina",
+     "2ª",
+     "120 mg (rinite) ou 180 mg (urticária) 1x/dia",
+     "Mínima",
+     "Com água; sem suco de fruta e antiácido próximo"
+    ],
+    [
+     "Bilastina",
+     "2ª",
+     "20 mg 1x/dia",
+     "Mínima",
+     "Em jejum, longe de alimento e suco"
+    ],
+    [
+     "Rupatadina",
+     "2ª",
+     "10 mg 1x/dia",
+     "Leve",
+     "Inibidores do CYP3A4 e toranja aumentam o nível"
+    ],
+    [
+     "Ebastina",
+     "2ª",
+     "10 a 20 mg 1x/dia",
+     "Leve",
+     "Cuidado com cetoconazol e macrolídeos"
+    ]
+   ],
+   "nota": "Doses de adulto e adolescente conforme bulas. Na urticária crônica, o aumento até 4 vezes a dose padrão de anti-H1 de 2ª geração é decisão do prescritor (EAACI/GA²LEN/EuroGuiDerm/APAAACI, 2022)."
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m06-fluxo-alergia",
+   "titulo": "Reação alérgica no balcão",
+   "passos": [
+    {
+     "t": "Cliente com coceira, placas, inchaço ou mal-estar após alimento, medicamento ou picada",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Há falta de ar, chiado, rouquidão, inchaço de língua ou garganta, tontura, desmaio ou vômitos repetidos?",
+     "tipo": "decisao",
+     "sim": "Tratar como anafilaxia: seguir para o próximo passo",
+     "nao": "Reação leve: ir para o passo de conduta da reação leve"
+    },
+    {
+     "t": "Ligar para o SAMU (192) e informar suspeita de anafilaxia",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Deitar com pernas elevadas (sentado se falta de ar; gestante sobre o lado esquerdo); não deixar levantar de repente",
+     "tipo": "acao"
+    },
+    {
+     "t": "O paciente tem adrenalina prescrita?",
+     "tipo": "decisao",
+     "sim": "Ajudar a aplicar na face lateral da coxa e anotar o horário",
+     "nao": "Seguir orientação do médico regulador do SAMU"
+    },
+    {
+     "t": "Sem melhora em 5 a 15 minutos: nova dose de adrenalina se disponível, conforme o regulador",
+     "tipo": "acao"
+    },
+    {
+     "t": "Anti-H1 e corticoide não substituem a adrenalina e não atrasam o chamado",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Reação leve: suspender o suspeito, anti-H1 de 2ª geração quando permitido, compressa fria",
+     "tipo": "acao"
+    },
+    {
+     "t": "Orientar sinais de alarme nas próximas horas e retorno ou atendimento se surgirem",
+     "tipo": "acao"
+    },
+    {
+     "t": "Registrar, notificar no VigiMed se for medicamento e encaminhar ao médico ou alergista",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "id": "m06-check-aine",
+   "titulo": "Antes de dispensar um AINE",
+   "itens": [
+    "Perguntar se está grávida e com quantas semanas",
+    "Descartar suspeita de dengue em quadro febril agudo",
+    "Perguntar sobre anticoagulante, AAS, clopidogrel e antidepressivo",
+    "Perguntar sobre anti-hipertensivo, diurético, lítio e metotrexato",
+    "Investigar úlcera, sangramento digestivo ou gastrite prévia",
+    "Investigar doença renal, insuficiência cardíaca e infarto ou AVC prévio",
+    "Perguntar sobre asma com pólipo nasal ou reação prévia a AINE",
+    "Checar se já usa outro AINE, inclusive em antigripal",
+    "Orientar tomar após refeição e pelo menor tempo",
+    "Avaliar necessidade de gastroproteção"
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m06-cartoes",
+   "titulo": "Cartões de revisão",
+   "itens": [
+    {
+     "f": "Qual isoforma da COX protege a mucosa gástrica?",
+     "v": "COX-1 (constitutiva)."
+    },
+    {
+     "f": "Por que coxibes aumentam o risco de trombose?",
+     "v": "Reduzem a prostaciclina endotelial (COX-2) sem reduzir o tromboxano plaquetário (COX-1)."
+    },
+    {
+     "f": "A partir de quantas semanas a FDA (2020) recomenda evitar AINE na gestação?",
+     "v": "20 semanas, pelo risco de disfunção renal fetal e oligoâmnio."
+    },
+    {
+     "f": "Analgésicos indicados na suspeita de dengue?",
+     "v": "Dipirona ou paracetamol; AAS, AINEs e corticoides são contraindicados."
+    },
+    {
+     "f": "Fatores que indicam gastroproteção no uso de AINE?",
+     "v": "Idade de 65 anos ou mais, úlcera prévia, anticoagulante, AAS, corticoide ou ISRS, dose alta."
+    },
+    {
+     "f": "O que é a tríplice ameaça para o rim?",
+     "v": "AINE associado a IECA ou BRA e diurético."
+    },
+    {
+     "f": "Restrições da EMA para nimesulida?",
+     "v": "Segunda linha, máximo 15 dias, contraindicada em hepatopatia e menores de 12 anos."
+    },
+    {
+     "f": "Dose de dexametasona equivalente a prednisona 5 mg?",
+     "v": "0,75 mg."
+    },
+    {
+     "f": "Curso de corticoide que dispensa desmame?",
+     "v": "Menos de 2 semanas (ex.: crise de asma)."
+    },
+    {
+     "f": "Melhor horário para corticoide oral em dose única?",
+     "v": "Pela manhã, com o café da manhã."
+    },
+    {
+     "f": "Quanto vale uma unidade de ponta de dedo?",
+     "v": "Cerca de 0,5 g, suficiente para duas palmas de mão de adulto."
+    },
+    {
+     "f": "Exemplo de corticoide tópico de potência muito alta?",
+     "v": "Propionato de clobetasol 0,05%."
+    },
+    {
+     "f": "Por que evitar anti-H1 de 1ª geração em idosos?",
+     "v": "Sedação, confusão, quedas e efeito anticolinérgico (Critérios de Beers 2023)."
+    },
+    {
+     "f": "Como tomar fexofenadina?",
+     "v": "Com água, longe de sucos de frutas e de antiácidos com alumínio e magnésio."
+    },
+    {
+     "f": "Primeira linha na anafilaxia?",
+     "v": "Adrenalina intramuscular na face anterolateral da coxa."
+    },
+    {
+     "f": "Dose de adrenalina IM na anafilaxia?",
+     "v": "0,01 mg/kg da solução 1 mg/mL; máximo 0,5 mg em adulto e 0,3 mg em criança."
+    },
+    {
+     "f": "Há autoinjetor de adrenalina registrado no Brasil?",
+     "v": "Não; a ASBAI confirmou em abril de 2026 que nenhum foi aprovado pela Anvisa."
+    },
+    {
+     "f": "Angioedema por IECA responde a anti-H1?",
+     "v": "Não; é mediado por bradicinina e exige avaliação de urgência."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m06-questoes",
+   "titulo": "Questões de fixação",
+   "itens": [
+    {
+     "p": "Gestante de 24 semanas pede ibuprofeno para dor lombar. Segundo o alerta da FDA de 2020, a conduta mais adequada é:",
+     "alt": [
+      "Dispensar ibuprofeno 400 mg por até 5 dias, após refeições",
+      "Evitar AINE e orientar paracetamol, encaminhando se a dor persistir",
+      "Dispensar nimesulida, por ser preferencial para COX-2",
+      "Dispensar diclofenaco gel para aplicar em toda a região lombar",
+      "Indicar AAS 500 mg, por ter efeito antiagregante protetor"
+     ],
+     "c": 1,
+     "com": "A FDA (15/10/2020) recomenda evitar AINEs a partir de 20 semanas pelo risco de disfunção renal fetal e oligoâmnio. Nimesulida e AAS em dose analgésica também são AINEs. Gel em área extensa gera absorção sistêmica. Paracetamol é a opção de primeira linha na gestação."
+    },
+    {
+     "p": "Idoso de 70 anos em uso de varfarina pede algo para dor de dente. Qual a escolha mais segura no balcão?",
+     "alt": [
+      "Naproxeno 500 mg a cada 12 horas por 5 dias",
+      "Cetoprofeno 100 mg a cada 12 horas por 3 dias",
+      "Piroxicam 20 mg uma vez ao dia por 7 dias",
+      "Celecoxibe 200 mg uma vez ao dia por 5 dias",
+      "Paracetamol em dose habitual e encaminhar ao dentista"
+     ],
+     "c": 4,
+     "com": "AINEs, inclusive coxibes, aumentam o risco de sangramento com varfarina e o risco renal no idoso. Paracetamol em dose habitual, por pouco tempo, é a escolha; uso prolongado em dose alta pode elevar o INR, por isso o encaminhamento ao dentista para tratar a causa."
+    },
+    {
+     "p": "Sobre a seletividade dos AINEs, assinale a alternativa correta.",
+     "alt": [
+      "Coxibes reduzem úlcera, mas mantêm risco renal e cardiovascular",
+      "O diclofenaco tem o menor risco cardiovascular de toda a classe",
+      "Coxibes eliminam o risco renal porque poupam a COX-1 do rim",
+      "O ibuprofeno em dose baixa tem o maior risco gastrointestinal",
+      "O AAS inibe a cicloxigenase das plaquetas de forma reversível"
+     ],
+     "c": 0,
+     "com": "Coxibes reduzem lesão GI por pouparem a COX-1, mas a COX-2 participa da perfusão renal e da prostaciclina endotelial, mantendo risco renal e cardiovascular. Diclofenaco tem risco CV semelhante ao dos coxibes. Ibuprofeno em dose baixa está entre os de menor risco GI. O AAS acetila a COX de modo irreversível."
+    },
+    {
+     "p": "Cliente de 45 anos, asmático com pólipo nasal, teve crise de falta de ar após AAS no passado. Para dor de cabeça, pede diclofenaco. A conduta é:",
+     "alt": [
+      "Dispensar, porque o diclofenaco não tem relação com o AAS",
+      "Dispensar ibuprofeno em dose baixa, que não causa a reação",
+      "Dispensar AINE junto com anti-histamínico para prevenir a crise",
+      "Não dispensar AINE; orientar paracetamol e avaliação médica",
+      "Dispensar nimesulida, que não tem reação cruzada com o AAS"
+     ],
+     "c": 3,
+     "com": "A doença respiratória exacerbada por AINE tem reação cruzada entre inibidores de COX-1 (AAS, diclofenaco, ibuprofeno, nimesulida em dose alta). Paracetamol em dose habitual costuma ser tolerado; coxibes, se necessários, dependem de decisão médica. Anti-histamínico não previne broncoespasmo."
+    },
+    {
+     "p": "Paciente vai trocar prednisona 20 mg/dia por dexametasona. A dose equivalente aproximada de dexametasona é:",
+     "alt": [
+      "0,75 mg",
+      "1,5 mg",
+      "3 mg",
+      "6 mg",
+      "20 mg"
+     ],
+     "c": 2,
+     "com": "Prednisona 5 mg equivale a dexametasona 0,75 mg. Logo, 20 mg de prednisona (4 vezes 5 mg) equivalem a 4 vezes 0,75 mg, ou seja, 3 mg de dexametasona."
+    },
+    {
+     "p": "Adulto recebeu prednisona 40 mg/dia por 5 dias para crise de asma. Quanto à suspensão, é correto orientar que:",
+     "alt": [
+      "Deve reduzir 5 mg por semana até parar de vez",
+      "Pode parar ao fim do 5º dia, sem desmame",
+      "Deve passar a dose para a noite antes de parar",
+      "Deve manter 5 mg/dia por mais um mês inteiro",
+      "Precisa trocar por dexametasona antes de parar"
+     ],
+     "c": 1,
+     "com": "Cursos com menos de 2 semanas não exigem desmame (PCDT da Asma 2026, com base na GINA). A dose deve ser pela manhã, porque a tomada noturna suprime mais o eixo HHA. Desmame é necessário em uso prolongado ou em dose alta por semanas."
+    },
+    {
+     "p": "Diabético tipo 2 inicia prednisona 40 mg pela manhã. Qual orientação está correta?",
+     "alt": [
+      "Basta a glicemia de jejum para detectar a hiperglicemia do corticoide",
+      "Corticoide costuma reduzir a glicemia em diabéticos tipo 2",
+      "Deve suspender a metformina enquanto durar o curso de corticoide",
+      "Deve dividir a dose e tomar metade à noite para evitar picos",
+      "Medir também antes do jantar, quando a glicemia tende a subir"
+     ],
+     "c": 4,
+     "com": "Prednisona matinal eleva principalmente a glicemia pós-prandial e vespertina; a de jejum pode estar normal. Não se suspende antidiabético por conta própria; ajustes são do prescritor. Dose noturna aumenta insônia e supressão do eixo."
+    },
+    {
+     "p": "Mãe traz receita antiga de clobetasol para eczema no rosto da filha de 4 anos. A orientação mais adequada é:",
+     "alt": [
+      "Explicar que face de criança pede baixa potência e encaminhar ao pediatra",
+      "Usar clobetasol duas vezes ao dia por 30 dias seguidos, sem pausa",
+      "Usar clobetasol sob curativo oclusivo para potencializar o efeito",
+      "Trocar por creme com corticoide, antifúngico e antibiótico associados",
+      "Usar quantidade mínima, menos de meia unidade de ponta de dedo por mês"
+     ],
+     "c": 0,
+     "com": "Clobetasol é de potência muito alta; na face e em criança há maior absorção e risco de atrofia, telangiectasia e dermatite perioral. Oclusão aumenta a absorção. Associações tríplices sem diagnóstico favorecem micose atípica e resistência. Quantidade insuficiente leva à falha; a escolha da potência é do prescritor."
+    },
+    {
+     "p": "Cliente toma fexofenadina 180 mg com suco de laranja no café da manhã e diz que o remédio não faz efeito. A explicação mais provável é:",
+     "alt": [
+      "Indução do CYP3A4 hepático causada pelo suco de laranja",
+      "Redução da absorção por inibição de transportadores intestinais",
+      "Aumento da excreção renal do fármaco provocado pelo suco",
+      "Tolerância farmacológica após poucos dias de uso contínuo",
+      "Interação farmacodinâmica da fexofenadina com a cafeína"
+     ],
+     "c": 1,
+     "com": "Sucos de laranja, maçã e toranja inibem os transportadores OATP do intestino e reduzem a absorção da fexofenadina. A orientação é tomar com água e afastar o suco. A fexofenadina é pouco metabolizada pelo CYP3A4 e não sofre interação relevante com cafeína."
+    },
+    {
+     "p": "Senhora de 78 anos, com glaucoma de ângulo fechado e constipação, pede antialérgico para coceira. A melhor opção é:",
+     "alt": [
+      "Dexclorfeniramina 2 mg a cada 6 horas",
+      "Prometazina 25 mg à noite",
+      "Hidroxizina 25 mg três vezes ao dia",
+      "Loratadina 10 mg uma vez ao dia",
+      "Difenidramina 50 mg ao deitar"
+     ],
+     "c": 3,
+     "com": "Anti-H1 de 1ª geração (dexclorfeniramina, prometazina, hidroxizina, difenidramina) têm efeito anticolinérgico e sedativo, devem ser evitados em idosos (Critérios de Beers 2023) e pioram glaucoma de ângulo fechado e constipação. Loratadina é de 2ª geração, com efeito anticolinérgico mínimo."
+    },
+    {
+     "p": "Jovem apresenta urticária generalizada, rouquidão e tontura 15 minutos após comer amendoim, dentro da farmácia. A primeira conduta é:",
+     "alt": [
+      "Dar loratadina 10 mg e observar na farmácia por uma hora",
+      "Dar prednisona 40 mg e liberar com retorno no dia seguinte",
+      "Ligar 192, deitar com pernas elevadas e garantir adrenalina IM",
+      "Oferecer água e orientar ir a pé até a unidade de saúde",
+      "Aplicar corticoide tópico nas placas e anti-H1 em gotas"
+     ],
+     "c": 2,
+     "com": "Há pele mais comprometimento respiratório e circulatório: anafilaxia (WAO 2020). Adrenalina IM é a primeira linha; anti-H1 e corticoide são adjuvantes e não revertem edema de laringe nem choque. Levantar e caminhar pode precipitar colapso. O SAMU (192) deve ser acionado de imediato."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Brasil. Ministério da Saúde. Portaria Conjunta SAES/SCTIE nº 43, de 24 de março de 2026. Aprova o Protocolo Clínico e Diretrizes Terapêuticas da Asma (Relatório de Recomendação Conitec nº 1078, dez. 2025). https://www.gov.br/conitec/",
+  "FDA. Drug Safety Communication: FDA recommends avoiding use of NSAIDs in pregnancy at 20 weeks or later because they can result in low amniotic fluid. 15 out. 2020 (conferido por resumos da AAFP e do Indian Health Service, 2020).",
+  "European Medicines Agency. Questions and answers on the review of systemic medicines containing nimesulide (Article 107 procedure). EMA, 2012.",
+  "Associação Brasileira de Alergia e Imunologia (ASBAI). Nota sobre a inexistência de autoinjetor de adrenalina aprovado pela Anvisa. Abril de 2026 (conferida por reportagens de abril de 2026).",
+  "Anvisa. Resoluções de apreensão e proibição de autoinjetor de adrenalina sem registro. Diário Oficial da União, 2 abr. 2026 (conferidas por reportagens).",
+  "Brasil. Lei nº 6.360, de 23 de setembro de 1976, art. 12. Vigilância sanitária de medicamentos.",
+  "Ministério da Saúde. Dengue: diagnóstico e manejo clínico, adulto e criança (edição vigente, conferida por fontes secundárias); e Nota Técnica Conjunta SESA-ES nº 01/2024 (manejo clínico da dengue).",
+  "Cardona V, Ansotegui IJ, Ebisawa M, et al. World Allergy Organization Anaphylaxis Guidance 2020. World Allergy Organ J. 2020;13(10):100472 (referência clássica, não reaberta nesta revisão).",
+  "Zuberbier T, et al. The international EAACI/GA²LEN/EuroGuiDerm/APAAACI guideline for the definition, classification, diagnosis, and management of urticaria. Allergy. 2022;77(3):734-766 (referência clássica, não reaberta nesta revisão).",
+  "American Geriatrics Society. 2023 Updated AGS Beers Criteria for potentially inappropriate medication use in older adults. J Am Geriatr Soc. 2023 (referência clássica, não reaberta nesta revisão).",
+  "Bulas de prometazina (Fenergan) e de maleato de dexclorfeniramina registradas no Brasil: contraindicação para menores de 2 anos (consultadas em reproduções de bula, out. 2026).",
+  "FDA. Drug Safety Communication: FDA strengthens warning that non-aspirin NSAIDs can cause heart attacks or strokes. 9 jul. 2015 (referência clássica, não reaberta nesta revisão).",
+  "Long CC, Finlay AY. The finger-tip unit: a new practical measure. Clin Exp Dermatol. 1991;16(6):444-447 (referência clássica, não reaberta nesta revisão)."
+ ]
+}

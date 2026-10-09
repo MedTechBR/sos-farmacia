@@ -1,0 +1,816 @@
+{
+ "id": "m11",
+ "num": 11,
+ "titulo": "Medicamentos termolábeis e boas práticas de armazenamento",
+ "escopo": "Faixas de temperatura da Farmacopeia Brasileira, termolábeis, fotossensíveis e higroscópicos; estrutura e equipamentos de frio, monitorização e registro, excursão de temperatura e plano de contingência; conservação, conferida em bula, dos termolábeis comuns na farmácia comercial; recebimento, transporte e orientação ao paciente; boas práticas gerais de armazenamento. Fontes centrais: RDC 44/2009, RDC 430/2020, RDC 197/2017, Manual de Rede de Frio do PNI (6ª ed., 2025), Farmacopeia Brasileira (6ª ed.), OMS e bulas brasileiras.",
+ "topicos": [
+  {
+   "id": "m11-conceitos",
+   "titulo": "Faixas de temperatura, estabilidade e sensibilidade",
+   "resumo": "\n<p>Todo medicamento tem um prazo de validade, e esse prazo só vale se o produto ficar nas condições declaradas pelo fabricante. A validade impressa na embalagem é resultado de estudos de <strong>estabilidade</strong>: o fabricante testa o produto em temperatura, umidade e luz definidas e mostra que, nessas condições, ele mantém identidade, teor, pureza, características físicas e segurança até a data indicada. Fora dessas condições, a data deixa de ser garantia.</p>\n<p>O calor acelera reações químicas como hidrólise e oxidação, que reduzem o teor do fármaco e podem gerar produtos de degradação. Em medicamentos de origem biológica (insulinas, análogos de GLP-1, anticorpos monoclonais, vacinas), o problema é ainda maior: proteínas perdem a estrutura com calor, congelamento e agitação, formam agregados e perdem atividade, às vezes sem nenhuma mudança visível. Por isso, nesses produtos, o aspecto normal não prova que o medicamento está bom.</p>\n<h3>Faixas de temperatura da Farmacopeia Brasileira</h3>\n<p>A Farmacopeia Brasileira, 6ª edição (Volume I, Generalidades), define os termos usados nas monografias e nas bulas:</p>\n<div class=\"tab\"><table><thead><tr><th>Termo</th><th>Faixa</th></tr></thead><tbody>\n<tr><td>Em congelador</td><td>Entre -20 °C e 0 °C</td></tr>\n<tr><td>Em refrigerador</td><td>Entre 2 °C e 8 °C</td></tr>\n<tr><td>Local frio</td><td>Não excede 8 °C</td></tr>\n<tr><td>Local fresco</td><td>Entre 8 °C e 15 °C</td></tr>\n<tr><td>Temperatura ambiente</td><td>A normalmente encontrada em ambiente de trabalho, entre 15 °C e 30 °C</td></tr>\n<tr><td>Local quente</td><td>Entre 30 °C e 40 °C</td></tr>\n<tr><td>Calor excessivo</td><td>Acima de 40 °C</td></tr>\n</tbody></table></div>\n<p>Duas regras da mesma seção ajudam no dia a dia. Produto que deve ficar em local fresco pode ser conservado em refrigerador, se a monografia não disser o contrário. E, quando nada é especificado, as condições de conservação incluem proteção contra umidade, congelamento e calor excessivo.</p>\n<h3>Como as bulas expressam a conservação</h3>\n<ul>\n<li><strong>\"Conservar em temperatura ambiente (entre 15 °C e 30 °C)\"</strong>: é a maioria dos comprimidos, cápsulas e líquidos orais. O limite de 30 °C é real; vitrine ao sol ou depósito sem ventilação no verão podem ultrapassá-lo.</li>\n<li><strong>\"Conservar abaixo de 25 °C\"</strong> ou \"até 25 °C\": limite mais estreito, comum em alguns colírios após abertos, cremes e supositórios. Em cidades quentes, exige ambiente climatizado.</li>\n<li><strong>\"Conservar sob refrigeração (entre 2 °C e 8 °C). Não congelar\"</strong>: produtos termolábeis. As duas partes da frase importam igualmente.</li>\n<li><strong>\"Proteger da luz\"</strong> e \"manter na embalagem original\": a embalagem secundária faz parte da proteção.</li>\n<li><strong>\"Após aberto, válido por...\"</strong>: prazo de uso que começa na abertura, independentemente da validade impressa. A data de abertura deve ser anotada.</li>\n</ul>\n<h3>Termolábil, fotossensível e higroscópico</h3>\n<p>A RDC 430/2020 define <strong>medicamento termolábil</strong> como aquele \"cuja especificação de temperatura máxima seja igual ou inferior a 8°C\" (art. 3º, XVI). Um produto com limite de 25 °C, portanto, não é termolábil por essa definição, mas é sensível à temperatura e precisa de controle.</p>\n<div class=\"tab\"><table><thead><tr><th>Característica</th><th>O que degrada o produto</th><th>Exemplos verificados em bula</th><th>Cuidado no armazenamento</th></tr></thead><tbody>\n<tr><td>Termolábil</td><td>Temperatura acima de 8 °C; muitos também não toleram congelamento</td><td>Insulinas fechadas, semaglutida, adalimumabe, vacinas</td><td>Refrigerador exclusivo, 2 °C a 8 °C, longe do congelador</td></tr>\n<tr><td>Fotossensível</td><td>Luz visível ou ultravioleta</td><td>Dulaglutida (bula: \"fotossensível\"), latanoprosta, canetas de insulina (tampa colocada)</td><td>Embalagem original, recipiente opaco; tampa da caneta</td></tr>\n<tr><td>Higroscópico</td><td>Umidade do ar, que é absorvida pelo produto</td><td>Amoxicilina com clavulanato comprimido (Clavulin BD) em envelope com dessecante, usar em até 14 dias após abrir o envelope</td><td>Embalagem fechada, sem retirar o dessecante; ambiente seco</td></tr>\n</tbody></table></div>\n<p>A Farmacopeia esclarece que \"proteger da luz\" significa conservar em recipiente opaco ou capaz de impedir a ação da luz. Muitos produtos combinam as três sensibilidades: a insulina é termolábil, deve ser protegida da luz e não pode ser congelada.</p>\n<h3>Prazo após aberto</h3>\n<p>Muitos produtos têm dois prazos: a validade impressa, que vale para a embalagem fechada nas condições indicadas, e o prazo de uso depois de aberto, preparado ou retirado da geladeira. O segundo começa a contar no momento da abertura e prevalece se terminar antes da validade impressa. Exemplos verificados em bula: suspensões de antibióticos reconstituídas (7 a 14 dias em geladeira, conforme o produto), canetas de insulina em uso (4 a 8 semanas, conforme a marca), colírio de latanoprosta aberto (10 semanas na bula brasileira do Xalatan) e o comprimido de amoxicilina com clavulanato em envelope (14 dias após abrir o envelope). Na orientação ao paciente, o farmacêutico pede que ele escreva a data de abertura na embalagem.</p>\n<h3>Umidade</h3>\n<p>A umidade relativa do ar afeta sobretudo pós, comprimidos efervescentes, cápsulas gelatinosas e produtos higroscópicos. Por isso a RDC 44/2009 manda proteger o ambiente de armazenamento da umidade (art. 35, §2º) e pede que o POP inclua a metodologia de verificação da umidade, e não só da temperatura (art. 35, §4º). A norma não fixa um valor; o POP define a faixa aceitável a partir das especificações dos produtos e do mapeamento do ambiente. Sinais de umidade excessiva no estoque são caixas amolecidas, rótulos descolando, mofo nas paredes e comprimidos manchados.</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>A geladeira só entra quando a bula manda. Produto de temperatura ambiente não vai para o refrigerador sem indicação do fabricante, e algumas canetas de insulina em uso não devem voltar ao refrigerador por orientação do fabricante (por exemplo, insulina glargina 300 U/mL, glargina biossimilar e lispro em caneta KwikPen, conforme as bulas brasileiras).</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Mãe pergunta se pode guardar o xarope de ibuprofeno na geladeira \"para durar mais\". O farmacêutico explica que o prazo de uso depende do que a bula diz, não da geladeira, e que guardar em local diferente do indicado pode alterar o produto. Mostra na bula a frase de conservação e a validade após aberto.</p></div>\n"
+  },
+  {
+   "id": "m11-estrutura",
+   "titulo": "Área de armazenamento e equipamentos de frio",
+   "resumo": "\n<p>A farmácia precisa de ambiente para recebimento e armazenamento (RDC 44/2009, art. 5º), com capacidade suficiente para estocar de forma ordenada as diversas categorias de produtos, limpo e protegido da luz solar direta, da umidade e do calor (art. 35, §§ 1º e 2º). Os produtos ficam em prateleiras, gavetas ou suporte equivalente, afastados do piso, das paredes e do teto, para permitir limpeza e inspeção (art. 36). A Lei 13.021/2014 acrescenta que a farmácia deve dispor de equipamentos necessários à conservação adequada de imunobiológicos (art. 6º, III).</p>\n<h3>Estrados, distância e luz</h3>\n<p>Caixas de estoque não ficam no chão. A RDC 430/2020, escrita para distribuidoras e útil como referência, diz que os medicamentos não devem ficar diretamente no chão nem encostados nas paredes, devem guardar distância do telhado e ficar longe da luz solar direta (art. 51), e que os estrados (paletes) devem ser de material que permita limpeza, como madeira tratada, alumínio ou plástico (art. 52). A RDC 44/2009 não fixa distância em centímetros; o POP de armazenamento define a da loja.</p>\n<h3>Refrigerador: o que as normas dizem</h3>\n<div class=\"tab\"><table><thead><tr><th>Situação</th><th>Exigência</th><th>Fonte</th></tr></thead><tbody>\n<tr><td>Vacinas</td><td>Equipamento de refrigeração exclusivo, regularizado na Anvisa, com termômetro de momento, máxima e mínima. Proibido refrigerador doméstico e frigobar</td><td>RDC 197/2017, art. 10, III, f, e §2º; Manual de Rede de Frio do PNI, 6ª ed., 2025</td></tr>\n<tr><td>Reagentes de exames (glicemia, testes rápidos) que exigem frio</td><td>Equipamento exclusivo, com registro de máxima, mínima e momento; compartilhamento só com medicamentos que não exijam equipamento exclusivo</td><td>RDC 978/2025, art. 14, V, e §1º</td></tr>\n<tr><td>Demais medicamentos termolábeis</td><td>Obedecer à embalagem e medir e registrar a temperatura diariamente; a norma federal não especifica o tipo de equipamento</td><td>RDC 44/2009, art. 35, §3º</td></tr>\n</tbody></table></div>\n<p>Para os termolábeis em geral, a escolha do equipamento é técnica e também depende da vigilância sanitária local, que pode ter exigências próprias. O Manual de Rede de Frio explica por que o refrigerador doméstico é inadequado para vacinas: as paredes não têm espessura suficiente para o isolamento térmico, o que facilita a troca de calor com o ambiente e desestabiliza a temperatura interna. A <strong>câmara refrigerada científica</strong> tem circulação forçada de ar, temperatura uniforme entre as prateleiras, alarme e registrador eletrônico. Para farmácias que estocam insulinas, análogos de GLP-1 e biológicos de alto custo, ela reduz muito o risco de perda.</p>\n<h3>Organização interna da geladeira</h3>\n<p>Quando a farmácia usa refrigerador que não é científico para termolábeis que não são vacinas, as boas práticas abaixo diminuem a variação de temperatura. Elas derivam do funcionamento desses aparelhos e da orientação do CRF-SP sobre armazenamento de termolábeis:</p>\n<ul>\n<li><strong>Uso exclusivo.</strong> Nada de alimentos, bebidas, itens pessoais ou amostras. Cada abertura extra expõe os medicamentos a variação (orientação do CRF-SP).</li>\n<li><strong>Porta vazia.</strong> A porta é a região que mais aquece a cada abertura.</li>\n<li><strong>Sem medicamento na gaveta inferior</strong> (de verduras) nem encostado no evaporador ou no fundo, onde a temperatura pode cair abaixo de 2 °C e congelar o produto.</li>\n<li><strong>Circulação de ar.</strong> Caixas com espaço entre si, sem lotar o aparelho e sem colocar os produtos dentro de caixas de isopor, potes ou sacolas, que funcionam como barreira térmica (CRF-SP).</li>\n<li><strong>Sensor no centro</strong>, entre os produtos, e não encostado em parede ou em bobina de gelo.</li>\n<li><strong>Mapa da geladeira</strong> afixado: o que fica em cada prateleira, com lote e validade, para abrir a porta já sabendo onde pegar (o Manual de Rede de Frio recomenda esse \"mapa ilustrativo\").</li>\n<li><strong>PVPS</strong>: validade mais curta à frente.</li>\n</ul>\n<h3>Instalação</h3>\n<p>O Manual de Rede de Frio orienta posicionar câmaras longe da luz solar direta, em ambiente ventilado, com pelo menos 15 cm livres ao redor para circulação de ar, verificar o fechamento da porta a cada abertura e identificar o equipamento de forma visível. A tomada deve ser identificada para que ninguém desligue o aparelho por engano, e a farmácia deve ter alternativa para falta de energia, prevista no plano de contingência.</p>\n<h3>Instrumentos de medição</h3>\n<ul>\n<li><strong>Termômetro de momento, máxima e mínima</strong>, de preferência digital com cabo extensor: mostra a temperatura atual e os extremos desde a última reinicialização.</li>\n<li><strong>Registrador eletrônico (datalogger)</strong>: grava a temperatura em intervalos programados e permite saber quando e por quanto tempo houve desvio, inclusive à noite e nos fins de semana.</li>\n<li><strong>Registrador do próprio equipamento</strong>, nas câmaras científicas.</li>\n<li><strong>Termo-higrômetro</strong> para o ambiente de estoque e dispensação, que mede temperatura e umidade relativa.</li>\n</ul>\n<p>Todo instrumento de monitoramento deve ter certificado de calibração e ser recalibrado periodicamente, em frequência que depende do uso e do tipo, podendo variar de alguns meses a um ano (Manual de Rede de Frio, 2025). Os alarmes de temperatura, nas câmaras de vacinas, são programados entre 3 °C e 7 °C para dar margem de segurança antes de sair da faixa de 2 °C a 8 °C.</p>\n<h3>Mapeamento térmico</h3>\n<p>Mapear é medir a temperatura em vários pontos de uma área ou equipamento, em horários diferentes, para descobrir onde e quando ela fica mais alta ou mais baixa. Distribuidoras fazem estudos formais de qualificação térmica (RDC 430/2020, art. 3º, XXIII, e art. 43, §1º). Na farmácia, um mapeamento simples, com termômetros em pontos diferentes do estoque durante alguns dias quentes, mostra qual prateleira esquenta mais e em que horário. Esse dado sustenta a escolha do ponto e do horário de leitura que o POP precisa definir (RDC 44/2009, art. 35, §4º).</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Vacina guardada em geladeira doméstica ou frigobar é irregularidade sanitária, independentemente da temperatura registrada (RDC 197/2017, art. 10, §2º; Manual de Rede de Frio, 2025).</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Ao pegar uma caneta de insulina na geladeira, o balconista abre a porta já sabendo a prateleira (mapa afixado), retira o item com validade mais curta e fecha a porta em seguida. Se a porta ficar aberta para reposição, anota o horário e confere a temperatura depois.</p></div>\n"
+  },
+  {
+   "id": "m11-monitorizacao",
+   "titulo": "Monitorização e registro da temperatura",
+   "resumo": "\n<p>Monitorar a temperatura é a única forma de provar que os produtos ficaram nas condições do fabricante. A RDC 44/2009 exige que a temperatura do local dos produtos que precisam de armazenamento abaixo da temperatura ambiente seja \"medida e registrada diariamente\" (art. 35, §3º), que o POP defina a metodologia de verificação de temperatura e umidade e a faixa de horário de maior probabilidade de temperatura e umidade altas (§4º) e que ele preveja as medidas quando as condições forem inadequadas (§5º).</p>\n<h3>Frequência de leitura</h3>\n<div class=\"tab\"><table><thead><tr><th>Ponto</th><th>Frequência mínima recomendada</th><th>Base</th></tr></thead><tbody>\n<tr><td>Geladeira de medicamentos</td><td>Duas vezes ao dia, na abertura e no fechamento, com momento, máxima e mínima</td><td>RDC 44/2009, art. 35, §3º (diário); Manual de Rede de Frio, 2025 (duas vezes ao dia)</td></tr>\n<tr><td>Ambiente de estoque e dispensação</td><td>Diária, no horário de maior temperatura definido no POP</td><td>RDC 44/2009, art. 35, §4º</td></tr>\n<tr><td>Caixa térmica em transporte ou entrega</td><td>Registro contínuo (datalogger) ou leitura na saída e na chegada</td><td>RDC 44/2009, art. 56; RDC 197/2017, art. 12, §2º</td></tr>\n<tr><td>Loja fechada (noite, fim de semana, feriado)</td><td>Datalogger ou leitura de máxima e mínima na reabertura</td><td>Boa prática; Manual de Rede de Frio, 2025</td></tr>\n</tbody></table></div>\n<h3>Como ler o termômetro de máxima e mínima</h3>\n<ol>\n<li>Ler a temperatura de <strong>momento</strong>, a <strong>máxima</strong> e a <strong>mínima</strong> registradas desde a última reinicialização.</li>\n<li>Anotar as três na planilha, com data, hora e rubrica.</li>\n<li>Reiniciar o termômetro (botão \"reset\" ou \"clear\") logo após anotar, para que a próxima leitura mostre só o intervalo seguinte.</li>\n<li>Avaliar: se a máxima ou a mínima saíram de 2 °C a 8 °C, houve desvio no intervalo, mesmo que a temperatura de momento esteja normal.</li>\n</ol>\n<p>Esse último ponto é o mais negligenciado. Uma leitura de abertura com momento de 5 °C e máxima de 13 °C mostra que a geladeira esquentou durante a noite. Se ninguém reinicia o termômetro, a máxima fica \"presa\" no valor antigo e perde o sentido; se ninguém olha a máxima, a excursão passa despercebida.</p>\n<h3>Datalogger e alarmes</h3>\n<p>O registrador eletrônico grava a temperatura em intervalos programados (o Manual de Rede de Frio usa intervalo de 10 minutos para caixas térmicas) e permite reconstruir o início, a duração e o pico de qualquer desvio, informação que o fabricante pede para avaliar o produto. O alarme sonoro ou visual só ajuda se alguém o ouvir: o POP diz quem recebe o aviso fora do horário (por mensagem no celular, quando o equipamento permite) e como testar o alarme periodicamente. O Manual programa os alarmes entre 3 °C e 7 °C.</p>\n<h3>Calibração</h3>\n<p>Um termômetro descalibrado registra uma temperatura falsa com toda a aparência de controle. O POP exige certificado de calibração emitido por laboratório competente (o Manual de Rede de Frio indica a Rede Brasileira de Calibração do Inmetro), com o erro do instrumento na faixa de uso, e define a periodicidade. Troca de bateria, queda do aparelho ou leitura incoerente com outro instrumento justificam verificação antes do prazo.</p>\n<h3>Ambiente de estoque e dispensação</h3>\n<p>O ambiente também tem limite: a maioria dos produtos é de temperatura ambiente (15 °C a 30 °C), e alguns têm limite de 25 °C. O termo-higrômetro fica no ponto mais quente identificado no mapeamento, longe de janela, lâmpada e saída de ar-condicionado. Se a loja desliga a climatização à noite, a leitura na abertura mostra a máxima noturna. Quando o limite é ultrapassado com frequência, a solução é estrutural (climatização, mudança de leiaute, isolamento do telhado), e não apenas anotar o desvio. Produtos com limite mais estreito (até 25 °C) podem precisar de local específico, identificado no POP.</p>\n<h3>Boas práticas de registro</h3>\n<ul>\n<li>Preencher no momento da leitura, nunca depois, e com caneta.</li>\n<li>Não usar corretivo. Erro de escrita recebe um traço simples que deixe o valor original legível, com a correção, data e rubrica. A RDC 978/2025 traz regra semelhante para os registros dos exames: alterações com data e identificação do responsável, preservando o dado original (art. 116).</li>\n<li>Toda leitura fora da faixa tem ação registrada na mesma linha ou em formulário anexo.</li>\n<li>Dias sem leitura (loja fechada) são indicados como tais, com os dados do datalogger anexados.</li>\n<li>O farmacêutico revisa a planilha, no mínimo, semanalmente e assina; mensalmente, observa tendências (por exemplo, máximas que sobem aos poucos indicam vedação gasta ou sobrecarga).</li>\n<li>Guardar as planilhas pelo prazo mínimo de 5 anos (RDC 44/2009, art. 89).</li>\n</ul>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"Para aqueles produtos que exigem armazenamento em temperatura abaixo da temperatura ambiente, devem ser obedecidas as especificações declaradas na respectiva embalagem, devendo a temperatura do local ser medida e registrada diariamente\" (RDC 44/2009, art. 35, §3º).</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Segunda-feira, 8h. A planilha de sexta mostra 5 °C no fechamento. Na abertura, momento 6 °C, máxima 11 °C, mínima 4 °C. O datalogger revela que a temperatura passou de 8 °C às 2h de domingo e voltou à faixa às 9h, após queda de energia no bairro. A farmacêutica registra a excursão (cerca de 7 horas, pico de 11 °C), segrega insulinas e canetas de GLP-1 do lote exposto, mantém tudo em 2 °C a 8 °C com etiqueta \"aguardando avaliação\" e consulta os fabricantes antes de liberar qualquer unidade.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>A leitura de fechamento é feita por quem fecha a loja, e não \"pelo farmacêutico do dia seguinte\". O POP nomeia o cargo responsável em cada turno e prevê substituto em folgas.</p></div>\n"
+  },
+  {
+   "id": "m11-excursao",
+   "titulo": "Excursão de temperatura e plano de contingência",
+   "resumo": "\n<p>O Manual de Rede de Frio do PNI (6ª ed., 2025) define <strong>excursão de temperatura</strong> como qualquer variação fora do intervalo recomendado pelo fabricante, mantida por determinado período, capaz de comprometer a qualidade, a eficácia e a segurança do produto. Duas observações do Manual valem para qualquer termolábil: as exposições são <strong>cumulativas</strong> (cada excursão consome parte de uma tolerância limitada) e produtos que passaram por excursão, foram avaliados e liberados devem ter prioridade de uso.</p>\n<h3>Calor e congelamento</h3>\n<p>A excursão pode ser para cima (acima de 8 °C) ou para baixo (abaixo de 2 °C). O congelamento costuma ser mais grave para insulinas, análogos de GLP-1, anticorpos e vacinas adsorvidas: as bulas consultadas de todas as insulinas e análogos de GLP-1 citadas neste material trazem \"não congelar\" e mandam descartar o produto que congelou. Entre as falhas mais frequentes na cadeia de frio, o Manual cita exposição a altas temperaturas, congelamento acidental de vacinas adsorvidas, equipamento sem controle efetivo de temperatura, falha de leitura e de registro e armazenamento junto com medicamentos, alimentos ou bebidas.</p>\n<h3>Causas comuns na farmácia</h3>\n<ul>\n<li>queda de energia, disjuntor desarmado ou aparelho desligado da tomada;</li>\n<li>porta mal fechada, vedação gasta, abertura prolongada na reposição;</li>\n<li>termostato mal ajustado, gelo acumulado, aparelho encostado na parede ou exposto ao sol;</li>\n<li>sobrecarga com produtos recém-chegados ainda quentes;</li>\n<li>limpeza da geladeira no fim do expediente, sem tempo para a temperatura se estabilizar (o Manual recomenda limpar no início da semana e não na véspera de feriado nem no fim da jornada).</li>\n</ul>\n<h3>Plano de contingência</h3>\n<p>A RDC 430/2020 manda as distribuidoras elaborarem planos de contingência para proteger termolábeis em falha de energia ou de equipamentos (art. 80) e prever fonte alternativa de energia (art. 79). A RDC 197/2017 exige dos serviços de vacinação meios eficazes de conservação \"mesmo diante de falha no fornecimento de energia elétrica\" (art. 11, I). Para a farmácia, o plano de contingência é o desdobramento do art. 35, §5º, da RDC 44/2009 e deve conter:</p>\n<ul>\n<li>riscos identificados (falta de energia, pane, furto, incêndio, atraso de entrega);</li>\n<li>contatos atualizados: farmacêutico RT e substituto, concessionária de energia, assistência técnica, SAC dos fabricantes, vigilância sanitária;</li>\n<li>recurso de reserva: outro equipamento, nobreak ou gerador, ou caixas térmicas com bobinas e termômetro, prontas para uso;</li>\n<li>ponto de decisão para transferir os produtos;</li>\n<li>como registrar e comunicar.</li>\n</ul>\n<h3>Conduta passo a passo</h3>\n<ol>\n<li><strong>Não abrir a porta</strong> sem necessidade. Em falta de energia, o equipamento fechado segura a temperatura por mais tempo. Monitorar pelo termômetro ou datalogger.</li>\n<li><strong>Avisar o farmacêutico RT</strong>, inclusive fora do horário, e verificar a causa (tomada, disjuntor, porta, concessionária).</li>\n<li><strong>Transferir</strong> os produtos para outro equipamento em 2 °C a 8 °C ou para caixa térmica preparada se a energia não voltar ou se a temperatura se aproximar de 7 °C, como orienta o Manual de Rede de Frio para vacinas.</li>\n<li><strong>Registrar</strong> início, fim (ou estimativa pelo datalogger), temperatura máxima ou mínima atingida e produtos afetados, com lotes.</li>\n<li><strong>Segregar e identificar</strong> os produtos expostos, mantendo-os em 2 °C a 8 °C, com etiqueta \"aguardando avaliação, não dispensar\". O Manual orienta exatamente isso para as vacinas: segregar, identificar com clareza e manter na temperatura recomendada até a decisão.</li>\n<li><strong>Consultar o fabricante</strong> (detentor do registro), informando produto, lote, validade, temperaturas, duração e excursões anteriores do mesmo lote. Para vacinas da rede privada, o Manual manda encaminhar a ocorrência ao laboratório produtor ou ao detentor do registro e manter POP com o fluxo e os contatos dos responsáveis técnicos de cada laboratório.</li>\n<li><strong>Documentar a decisão</strong>: liberado (com prioridade de saída) ou reprovado (descarte conforme PGRSS e baixa no estoque).</li>\n<li><strong>Corrigir a causa</strong> e revisar o POP, se necessário.</li>\n</ol>\n<h3>O que perguntar ao fabricante e o que registrar</h3>\n<p>O serviço de atendimento ou a farmacovigilância do fabricante avalia a excursão com base nos estudos de estabilidade do produto. A resposta depende da qualidade da informação enviada. O registro da excursão contém: identificação do equipamento; data e hora de início e de fim; temperatura máxima ou mínima atingida e o gráfico do datalogger, se houver; produtos afetados com lote, validade e quantidade; se algum produto já tinha passado por excursão anterior; providências tomadas; nome de quem fez o contato, protocolo e data; decisão final e destino de cada lote. Esse registro fica junto da planilha de temperatura e é guardado pelo mesmo prazo. Respostas por telefone devem ser confirmadas por escrito sempre que possível.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Nunca dispensar produto exposto a excursão sem avaliação documentada. Algumas bulas informam tolerâncias para o paciente (por exemplo, canetas de dulaglutida podem ficar até 14 dias sem refrigeração até 30 °C), mas a decisão sobre estoque exposto em condição desconhecida, ou abaixo de 2 °C, é do fabricante. Produto que congelou não é liberado.</p></div>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>A sequência é sempre: proteger (fechar, transferir), registrar, segregar, consultar, decidir, corrigir. Vender antes de consultar transfere ao paciente um risco que a farmácia não sabe medir.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Cliente chega para buscar a caneta de semaglutida reservada no dia seguinte a uma excursão. O farmacêutico explica que o lote está em avaliação com o fabricante, oferece outro lote não exposto, se houver, ou combina a retirada após a resposta, sem minimizar o motivo.</p></div>\n"
+  },
+  {
+   "id": "m11-termolabeis",
+   "titulo": "Termolábeis comuns na farmácia comercial",
+   "resumo": "\n<p>As regras abaixo foram conferidas nas bulas brasileiras das apresentações citadas (texto das bulas reproduzido em compêndio de bulas, consultado em outubro de 2026) e, quando indicado, na informação europeia do produto. Cada marca, concentração e dispositivo (frasco, refil, caneta) pode ter regra própria: o que vale é a bula da apresentação dispensada.</p>\n<h3>Insulinas</h3>\n<p>Fechadas, todas ficam em refrigerador, de 2 °C a 8 °C, longe do congelador, sem congelar. Em uso, o prazo e a temperatura variam:</p>\n<div class=\"tab\"><table><thead><tr><th>Insulina (apresentação)</th><th>Em uso</th><th>Geladeira em uso?</th></tr></thead><tbody>\n<tr><td>NPH humana, frasco (Novolin N)</td><td>4 semanas, 15 °C a 30 °C</td><td>Não</td></tr>\n<tr><td>NPH humana, refil (Humulin N)</td><td>28 dias, abaixo de 30 °C</td><td>Não</td></tr>\n<tr><td>Regular humana (Novolin R)</td><td>6 semanas, 15 °C a 30 °C</td><td>Não</td></tr>\n<tr><td>Glargina 100 U/mL (Lantus)</td><td>28 dias; sem refrigeração, abaixo de 30 °C</td><td>Opcional para frasco de 10 mL e refil, conforme bula</td></tr>\n<tr><td>Glargina 300 U/mL (Toujeo)</td><td>6 semanas (42 dias), até 30 °C</td><td>Não; nunca voltar à geladeira</td></tr>\n<tr><td>Degludeca (Tresiba FlexTouch)</td><td>8 semanas, abaixo de 30 °C</td><td>Pode (2 °C a 8 °C)</td></tr>\n<tr><td>Asparte (NovoRapid, frasco)</td><td>4 semanas, 15 °C a 30 °C</td><td>Não</td></tr>\n<tr><td>Lispro (Humalog KwikPen)</td><td>28 dias, até 30 °C</td><td>Não</td></tr>\n</tbody></table></div>\n<p>A mesma substância pode ter regras diferentes em marcas diferentes. A insulina NPH de um fabricante vale 4 semanas após aberta; a de outro, 28 dias, e o refil em caneta não vai à geladeira. Por isso a orientação ao paciente se faz com a bula do produto na mão.</p>\n<h3>Agonistas de GLP-1 e tirzepatida</h3>\n<p>Antes do primeiro uso, refrigerador de 2 °C a 8 °C, longe do congelador, sem congelar. Depois: semaglutida (Ozempic e Wegovy), 6 semanas abaixo de 30 °C ou em geladeira; liraglutida, 1 mês (Victoza) ou 4 semanas (Saxenda), de 15 °C a 30 °C ou em geladeira; dulaglutida (Trulicity), fotossensível, pode ficar até 14 dias sem refrigeração até 30 °C; tirzepatida (Mounjaro, apresentação consultada), até 21 dias fora de refrigeração abaixo de 30 °C. Desde a RDC 973/2025, esses medicamentos seguem a RDC 471/2021: receita em duas vias, retenção, validade de 90 dias e escrituração no SNGPC (lista na IN 360/2025).</p>\n<h3>Biológicos de uso domiciliar e hormônios</h3>\n<ul>\n<li><strong>Adalimumabe (Humira)</strong>: 2 °C a 8 °C, na embalagem original, sem congelar. A bula brasileira consultada não traz período fora da geladeira; a informação europeia admite até 14 dias a até 25 °C. Diante de dúvida, consultar o fabricante.</li>\n<li><strong>Dupilumabe (Dupixent)</strong>: 2 °C a 8 °C, protegido da luz; se necessário, até 14 dias a até 30 °C, anotando a data de retirada.</li>\n<li><strong>Denosumabe (Prolia)</strong>: 2 °C a 8 °C; pela bula brasileira, depois que a seringa sai da geladeira e atinge a temperatura ambiente, deve ser aplicada ou descartada. A informação europeia admite 30 dias a até 25 °C, o que mostra por que a bula nacional é a referência.</li>\n<li><strong>Etanercepte, pó liófilo (Enbrel)</strong>: 2 °C a 8 °C; reconstituído, até 6 horas em geladeira.</li>\n<li><strong>Teriparatida (Fortéo)</strong>: sempre em refrigerador, descartar 28 dias após a primeira aplicação; se a caneta ficar fora da geladeira, a bula orienta devolvê-la ao refrigerador e contatar o fabricante.</li>\n<li><strong>Somatropina (Genotropin)</strong>: 2 °C a 8 °C, protegida da luz; preparada, até 28 dias sob refrigeração.</li>\n</ul>\n<h3>Colírios</h3>\n<p><strong>Latanoprosta (Xalatan)</strong>: até a abertura, refrigerador de 2 °C a 8 °C, protegido da luz; após aberto, temperatura ambiente até 25 °C, válido por 10 semanas, segundo a bula brasileira. A informação de outros países fala em 4 semanas. Genéricos e similares podem ter outras condições, inclusive temperatura ambiente desde o início: confira cada um.</p>\n<h3>Antibióticos em suspensão</h3>\n<p>O pó para suspensão fica em temperatura ambiente; após a reconstituição, a regra muda: amoxicilina (Amoxil), 14 dias em geladeira; amoxicilina com clavulanato (Clavulin BD), 7 dias em geladeira, e a bula informa que, fora da geladeira, a suspensão escurece em 48 horas; cefalexina (Keflex), 14 dias em geladeira. Outras marcas e outros antibióticos têm prazos próprios.</p>\n<h3>Vacinas, probióticos e supositórios</h3>\n<ul>\n<li><strong>Vacinas</strong>: de 2 °C a 8 °C, em equipamento próprio, sem congelar, conforme bula e Manual de Rede de Frio.</li>\n<li><strong>Probióticos</strong>: a maioria fica em temperatura ambiente, mas alguns produtos exigem refrigeração; confira o rótulo de cada um e armazene conforme indicado.</li>\n<li><strong>Supositórios e óvulos</strong>: geralmente em temperatura ambiente com limite máximo; o calor amolece e deforma a base, o que prejudica a aplicação. Seguir a bula.</li>\n</ul>\n<p>Ocitocina injetável é usada em ambiente hospitalar e não faz parte do estoque usual da farmácia comercial; se for necessária, segue a bula do produto.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>\"Não use se tiver sido congelado\" aparece nas bulas de todas as insulinas e análogos de GLP-1 consultados. Insulina congelada não volta a ser boa depois de descongelar, mesmo com aspecto normal.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Cliente leva a primeira caneta de semaglutida. O farmacêutico orienta: transportar em bolsa térmica, guardar na geladeira até o primeiro uso, longe do congelador; depois de começar, a caneta pode ficar abaixo de 30 °C ou na geladeira por até 6 semanas; anotar a data do primeiro uso na embalagem; manter a tampa para proteger da luz; nunca usar se congelou; descartar a agulha em recipiente rígido. Lembra que a receita fica retida.</p></div>\n"
+  },
+  {
+   "id": "m11-transporte",
+   "titulo": "Recebimento, transporte e orientação ao paciente",
+   "resumo": "\n<p>A cadeia de frio só é tão forte quanto o elo mais fraco. Um produto bem guardado na distribuidora e na farmácia pode se perder em 20 minutos esquecido no balcão ou em uma tarde no porta-luvas do carro do cliente.</p>\n<h3>Recebimento de termolábeis</h3>\n<p>A farmácia só pode receber produtos transportados conforme as especificações do fabricante (RDC 44/2009, art. 33) e deve verificar o bom estado de conservação no recebimento (art. 34). A RDC 430/2020, que obriga distribuidoras e transportadoras, ajuda a entender o que a farmácia pode cobrar delas: o recebimento verifica e registra as condições de transporte, incluindo temperatura (art. 56, I); cargas que não cumprem os requisitos são devolvidas no ato ou ficam em quarentena até decisão (art. 57); a exposição dos termolábeis à temperatura ambiente durante recebimento e expedição deve ser mínima, e o tempo total, registrado (art. 77); e a montagem da carga deve evitar contato direto dos medicamentos com os agentes refrigerantes (art. 85, parágrafo único).</p>\n<ul>\n<li>abrir primeiro os volumes refrigerados, assim que chegam;</li>\n<li>observar a integridade da caixa térmica, o estado das bobinas e o indicador ou registrador de temperatura, quando houver;</li>\n<li>medir a temperatura entre os produtos ao abrir, com termômetro de cabo extensor;</li>\n<li>procurar sinais de congelamento (cristais, frasco trincado, suspensão com grumos) e de aquecimento;</li>\n<li>conferir nota fiscal, lote e validade e guardar imediatamente;</li>\n<li>registrar hora de chegada, temperatura e tempo até a guarda;</li>\n<li>havendo divergência, manter o produto em 2 °C a 8 °C, separado e identificado como quarentena, e acionar o distribuidor antes de qualquer venda.</li>\n</ul>\n<p>A RDC 430/2020 permite que a transportadora deixe de monitorar temperatura e umidade quando o transporte dura menos de 8 horas, termina no ponto de dispensação e usa embalagem térmica qualificada para o tempo e as condições do trajeto (art. 64, §2º). Por isso, nem toda entrega vem com registrador. Nesses casos, a farmácia pode pedir ao distribuidor a comprovação da qualificação da embalagem.</p>\n<h3>Entrega em domicílio</h3>\n<p>Na dispensação remota, o transporte é responsabilidade da farmácia e deve respeitar a temperatura e a umidade da embalagem; termossensíveis seguem em embalagens especiais que mantenham a temperatura, sem misturar com produtos que possam afetá-los, e o POP de transporte faz parte da rotina (RDC 44/2009, art. 56, §§ 1º a 3º). Na prática: caixa térmica com bobinas de gelo reciclável ambientadas, separadas dos produtos por material isolante, tempo máximo de trajeto definido no POP, entrega em mãos com orientação e cartão com o contato do farmacêutico (art. 58, §2º).</p>\n<h3>Montagem da caixa térmica</h3>\n<p>O Manual de Rede de Frio (2025) descreve o preparo da caixa térmica para vacinas, e o método serve de modelo para qualquer termolábil:</p>\n<ul>\n<li>retirar as bobinas reutilizáveis do congelador e deixá-las sobre a superfície até desaparecer a névoa, conferindo com termômetro de cabo extensor que chegaram a 0 °C (ambientação); bobina recém-saída do congelador, muito abaixo de 0 °C, pode congelar o produto;</li>\n<li>secar as bobinas e posicioná-las no fundo, nas laterais e entre os produtos e a tampa, conforme a validação da caixa;</li>\n<li>usar barreira entre produtos e bobinas (plástico bolha, papelão);</li>\n<li>colocar o sensor no centro da caixa e só acondicionar os produtos quando a temperatura interna estiver adequada (o Manual cita o mínimo de 1 °C para vacinas);</li>\n<li>trocar as bobinas quando a temperatura máxima chegar a 7 °C e manter a caixa longe do sol e de fontes de calor.</li>\n</ul>\n<h3>Orientação para levar para casa</h3>\n<ul>\n<li>levar em bolsa térmica, com gelo reciclável envolvido em papel ou pano, sem contato direto com a caneta ou o frasco;</li>\n<li>ir direto para casa; não deixar o produto no carro, no sol ou no porta-malas;</li>\n<li>guardar na geladeira, na prateleira do meio, longe do congelador, fora da porta e da gaveta de verduras, na embalagem original;</li>\n<li>anotar na embalagem a data de abertura ou do primeiro uso;</li>\n<li>seguir a bula para o produto em uso: algumas canetas devem ficar fora da geladeira depois de abertas;</li>\n<li>descartar o produto que congelou ou que ficou exposto a calor excessivo;</li>\n<li>guardar agulhas e lancetas usadas em frasco rígido com tampa.</li>\n</ul>\n<h3>Viagens</h3>\n<ul>\n<li>levar os termolábeis na <strong>bagagem de mão</strong>, nunca despachados: no porão a temperatura não é controlada pelo passageiro e a mala pode extraviar;</li>\n<li>carregar a receita ou relatório médico e confirmar com a companhia aérea as regras para líquidos e agulhas;</li>\n<li>usar bolsa térmica; em viagem curta, a caneta em uso costuma tolerar a temperatura ambiente pelo prazo da bula, mas as de reserva ficam refrigeradas;</li>\n<li>levar quantidade extra para atrasos;</li>\n<li>no destino, guardar na geladeira do hotel, longe do congelador, e conferir se ela não congela os produtos;</li>\n<li>em lugares muito quentes, evitar deixar a bolsa ao sol.</li>\n</ul>\n<div class=\"cx exemplo\"><b>Caso</b><p>Entregador da farmácia chega ao cliente com atraso de 3 horas por pane da moto. A caixa térmica tem datalogger, que mostra 12 °C na última hora. O farmacêutico não entrega o produto: recolhe a caixa, segrega a caneta como \"aguardando avaliação\", consulta o fabricante e envia outra unidade em condição correta. A ocorrência entra no registro de não conformidades e leva à revisão do tempo máximo de trajeto no POP.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Ao entregar insulina, o farmacêutico pergunta: \"quanto tempo até sua casa?\" e \"vai a algum outro lugar antes?\". Se o trajeto for longo, oferece bolsa térmica ou orienta adquirir uma, e explica a diferença entre a caneta fechada (geladeira) e a caneta em uso (conforme a bula da marca).</p></div>\n"
+  },
+  {
+   "id": "m11-boaspraticas",
+   "titulo": "Boas práticas gerais de armazenamento",
+   "resumo": "\n<p>Além da temperatura, o armazenamento cuida de ordem, separação e segurança. A RDC 44/2009 exige que todos os produtos sejam armazenados de forma ordenada, conforme as especificações do fabricante e em condições que garantam identidade, integridade, qualidade, segurança, eficácia e rastreabilidade (art. 35).</p>\n<h3>Organização e endereçamento</h3>\n<p>O critério de organização é escolhido pela farmácia e descrito no Manual: ordem alfabética pelo nome comercial ou pela denominação comum brasileira, separação por forma farmacêutica (sólidos, líquidos, injetáveis, tópicos) ou por classe terapêutica. O que importa é que cada item tenha lugar fixo e identificado. A RDC 430/2020 chama isso de endereçamento lógico, que evita trocas e dá localização inequívoca (art. 53), e pede inventários periódicos com investigação de discrepâncias (art. 55). Na farmácia, inventário rotativo por seção e conferência de controlados com a escrituração fazem esse papel.</p>\n<h3>PVPS e FEFO</h3>\n<p><strong>PVPS</strong> (primeiro que vence, primeiro que sai), em inglês FEFO (<em>first expired, first out</em>), manda dispensar antes o lote com validade mais curta, colocando-o à frente. É diferente de PEPS (primeiro que entra, primeiro que sai, ou FIFO), que olha a data de chegada; como lotes novos podem vencer antes de lotes antigos, o PVPS é o critério adequado para medicamentos. O Manual de Rede de Frio também adota o PVPS para imunobiológicos.</p>\n<h3>Validade próxima</h3>\n<p>A política para produtos próximos do vencimento é escrita no Manual e conhecida por todos (RDC 44/2009, art. 38, §4º) e também detalhada em POP (art. 51). O usuário é alertado quando recebe produto com validade próxima (art. 51, §1º), e é vedado dispensar medicamento cuja posologia não possa ser concluída dentro da validade (art. 51, §2º). Exemplo: caixa de 30 comprimidos de uso diário com validade até o fim do mês corrente, faltando 10 dias, não serve para um tratamento de 30 dias.</p>\n<h3>Segregação</h3>\n<div class=\"tab\"><table><thead><tr><th>Situação</th><th>O que fazer</th><th>Base</th></tr></thead><tbody>\n<tr><td>Vencido, violado, avariado</td><td>Retirar do estoque utilizável, guardar em área segura fora da dispensação, identificado quanto à condição e ao destino</td><td>RDC 44/2009, art. 38</td></tr>\n<tr><td>Suspeito de falsificação, adulteração ou alteração</td><td>Segregar com identificação de que não se destina à venda; farmacêutico notifica a autoridade sanitária imediatamente</td><td>Art. 34, §§ 1º e 2º</td></tr>\n<tr><td>Recolhido por ato da vigilância ou do fabricante</td><td>Bloquear, segregar como \"recolhido\" e seguir as instruções do recolhimento</td><td>Art. 38, §3º</td></tr>\n<tr><td>Quarentena (aguardando decisão)</td><td>Separar e identificar, nas condições de conservação do produto, até a liberação ou reprovação</td><td>Boa prática; RDC 430/2020, arts. 42, VI, e 57</td></tr>\n<tr><td>Devolvido por cliente</td><td>Não reintegrar termolábil nem produto de integridade incerta; nunca armazenar medicamento com embalagem primária violada</td><td>RDC 44/2009, art. 76, §2º; RDC 430/2020, arts. 34 e 35 como referência</td></tr>\n</tbody></table></div>\n<h3>Controlados, inflamáveis e exposição</h3>\n<p>Medicamentos sujeitos a controle especial ficam em sistema segregado (armário resistente ou sala própria) com chave, sob guarda do farmacêutico (RDC 44/2009, art. 37). Corrosivos, inflamáveis e explosivos têm armazenamento justificado em POP, longe de fontes de calor e de materiais que provoquem faíscas (art. 39). Medicamentos permanecem em área restrita aos funcionários, salvo os isentos de prescrição autorizados ao alcance do usuário (art. 40). Na área de dispensação, produtos sensíveis ao calor não ficam em vitrines ensolaradas nem perto de lâmpadas ou equipamentos que aquecem.</p>\n<h3>Medicamentos potencialmente perigosos e nomes parecidos</h3>\n<p>Medicamentos potencialmente perigosos (ou de alta vigilância) são os que causam dano grave quando há erro. O ISMP Brasil mantém lista de uso ambulatorial em que aparecem, por exemplo, insulinas, anticoagulantes orais, metotrexato de uso oral e opioides. No armazenamento, eles ficam em local sinalizado, separados de apresentações parecidas, com dupla checagem na separação. Para nomes e embalagens semelhantes, as medidas são: separar fisicamente os pares de risco, destacar com letras maiúsculas a parte diferente do nome nas etiquetas das prateleiras e configurar alertas no sistema. Exemplos clássicos de confusão no balcão incluem concentrações diferentes do mesmo fármaco (insulina 100 U/mL e 300 U/mL) e embalagens de mesma cor do mesmo fabricante.</p>\n<h3>Limpeza e pragas</h3>\n<p>O ambiente de armazenamento é mantido limpo e protegido contra insetos, roedores e outros animais (RDC 44/2009, art. 6º, §2º). O programa de desratização e desinsetização é executado por empresa licenciada, com registros guardados no estabelecimento (art. 7º). Caixas de papelão vazias acumuladas, comida no estoque e frestas sem vedação atraem pragas e geram não conformidade.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Na conferência mensal, o auxiliar encontra duas caixas de anticoagulante oral de concentrações diferentes lado a lado, com embalagens quase idênticas. O farmacêutico separa as apresentações em prateleiras diferentes, coloca etiqueta de alta vigilância, destaca a concentração nas etiquetas e inclui o par na lista de dupla checagem do POP de dispensação.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Cliente devolve uma caixa de insulina comprada ontem, ainda lacrada, dizendo que o médico mudou a prescrição. O farmacêutico explica que não pode reintegrar ao estoque um termolábil cuja conservação fora da farmácia não é conhecida e registra a ocorrência conforme a política da loja.</p></div>\n"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m11-mapa-cadeia",
+   "titulo": "Cadeia de frio",
+   "centro": "Cadeia de frio",
+   "ramos": [
+    {
+     "t": "Faixas (FB 6ª ed.)",
+     "itens": [
+      "Refrigerador: 2 °C a 8 °C",
+      "Congelador: -20 °C a 0 °C",
+      "Local fresco: 8 °C a 15 °C",
+      "Ambiente: 15 °C a 30 °C",
+      "Termolábil: máxima até 8 °C (RDC 430)"
+     ]
+    },
+    {
+     "t": "Equipamento",
+     "itens": [
+      "Exclusivo, sem alimentos nem bebidas",
+      "Vacina: proibido doméstico e frigobar",
+      "Nada na porta nem na gaveta inferior",
+      "Termômetro máx/mín ou datalogger calibrado"
+     ]
+    },
+    {
+     "t": "Monitorar",
+     "itens": [
+      "Ler na abertura e no fechamento",
+      "Anotar momento, máxima e mínima",
+      "Reiniciar após cada leitura",
+      "Alarme programado entre 3 °C e 7 °C",
+      "Registro diário (RDC 44, art. 35, §3º)"
+     ]
+    },
+    {
+     "t": "Excursão",
+     "itens": [
+      "Porta fechada; checar energia",
+      "Perto de 7 °C: transferir os produtos",
+      "Segregar em 2 °C a 8 °C, identificado",
+      "Consultar o fabricante com lote e dados",
+      "Congelou: não libera"
+     ]
+    },
+    {
+     "t": "Recebimento",
+     "itens": [
+      "Volume refrigerado é aberto primeiro",
+      "Medir temperatura entre os produtos",
+      "Divergiu: quarentena refrigerada",
+      "Registrar tempo até a guarda"
+     ]
+    },
+    {
+     "t": "Paciente",
+     "itens": [
+      "Bolsa térmica, gelo sem contato direto",
+      "Avião: bagagem de mão",
+      "Em uso: prazo e faixa da bula",
+      "Anotar a data do primeiro uso"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m11-mapa-armazenamento",
+   "titulo": "Boas práticas de armazenamento",
+   "centro": "Armazenamento",
+   "ramos": [
+    {
+     "t": "Ambiente",
+     "itens": [
+      "Limpo, sem sol direto, sem umidade",
+      "Afastado de piso, parede e teto",
+      "Temperatura e umidade registradas",
+      "Horário de leitura no pico de calor"
+     ]
+    },
+    {
+     "t": "Organização",
+     "itens": [
+      "Ordem alfabética, forma ou classe",
+      "PVPS (FEFO): vence antes, sai antes",
+      "Endereço fixo e etiquetado",
+      "Inventário rotativo"
+     ]
+    },
+    {
+     "t": "Segregação",
+     "itens": [
+      "Vencidos, violados e avariados",
+      "Suspeita de falsificação: notificar",
+      "Recolhidos: não comercializar",
+      "Quarentena até a decisão"
+     ]
+    },
+    {
+     "t": "Segurança",
+     "itens": [
+      "Controlados: armário com chave",
+      "Alta vigilância sinalizada",
+      "Nomes parecidos: separar e destacar",
+      "Inflamáveis longe de calor (art. 39)"
+     ]
+    },
+    {
+     "t": "Validade",
+     "itens": [
+      "Política escrita no Manual e no POP",
+      "Alertar quando a validade é próxima",
+      "Não dispensar se não cobre o tratamento"
+     ]
+    },
+    {
+     "t": "Limpeza e pragas",
+     "itens": [
+      "Cronograma de limpeza registrado",
+      "Controle de pragas por empresa licenciada",
+      "Sem caixas vazias acumuladas"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m11-tab-termolabeis",
+   "titulo": "Termolábeis e conservação conforme bula",
+   "colunas": [
+    "Medicamento (apresentação)",
+    "Fechado",
+    "Após aberto ou em uso",
+    "Observação"
+   ],
+   "linhas": [
+    [
+     "Insulina NPH humana, frasco (Novolin N)",
+     "2 °C a 8 °C, longe do congelador",
+     "Até 4 semanas, 15 °C a 30 °C",
+     "Em uso não vai à geladeira; proteger da luz"
+    ],
+    [
+     "Insulina NPH humana, refil (Humulin N)",
+     "2 °C a 8 °C",
+     "28 dias, abaixo de 30 °C",
+     "Não refrigerar em uso; não usar se congelou"
+    ],
+    [
+     "Insulina regular humana (Novolin R)",
+     "2 °C a 8 °C",
+     "Até 6 semanas, 15 °C a 30 °C",
+     "Em uso não vai à geladeira"
+    ],
+    [
+     "Insulina glargina 100 U/mL (Lantus)",
+     "2 °C a 8 °C, protegida da luz",
+     "28 dias; sem refrigeração, abaixo de 30 °C",
+     "Descartar se congelou; evitar contato com congelador"
+    ],
+    [
+     "Insulina glargina 300 U/mL (Toujeo)",
+     "2 °C a 8 °C",
+     "6 semanas (42 dias), até 30 °C",
+     "Caneta em uso nunca volta à geladeira"
+    ],
+    [
+     "Insulina glargina (Basaglar)",
+     "2 °C a 8 °C",
+     "28 dias, abaixo de 30 °C",
+     "Não refrigerar em uso"
+    ],
+    [
+     "Insulina degludeca (Tresiba FlexTouch)",
+     "2 °C a 8 °C",
+     "8 semanas, abaixo de 30 °C ou 2 °C a 8 °C",
+     "Penfill em uso: não refrigerar"
+    ],
+    [
+     "Insulina asparte (NovoRapid, frasco)",
+     "2 °C a 8 °C",
+     "4 semanas, 15 °C a 30 °C",
+     "Em uso não vai à geladeira"
+    ],
+    [
+     "Insulina asparte (Fiasp)",
+     "2 °C a 8 °C",
+     "4 semanas, até 30 °C",
+     "Frasco e caneta podem ir à geladeira; carpule não"
+    ],
+    [
+     "Insulina lispro (Humalog KwikPen)",
+     "2 °C a 8 °C",
+     "28 dias, até 30 °C",
+     "Caneta em uso fora da geladeira"
+    ],
+    [
+     "Insulina glulisina (Apidra)",
+     "2 °C a 8 °C",
+     "28 dias, abaixo de 30 °C",
+     "Caneta com refil não vai à geladeira"
+    ],
+    [
+     "Semaglutida (Ozempic)",
+     "2 °C a 8 °C, longe do congelador",
+     "6 semanas, abaixo de 30 °C ou 2 °C a 8 °C",
+     "Receita retida (RDC 973/2025)"
+    ],
+    [
+     "Semaglutida (Wegovy)",
+     "2 °C a 8 °C",
+     "6 semanas, abaixo de 30 °C ou 2 °C a 8 °C",
+     "Proteger do calor e da luz; receita retida"
+    ],
+    [
+     "Liraglutida (Victoza)",
+     "2 °C a 8 °C",
+     "1 mês, 15 °C a 30 °C ou 2 °C a 8 °C",
+     "Tampa colocada para proteger da luz"
+    ],
+    [
+     "Liraglutida (Saxenda)",
+     "2 °C a 8 °C",
+     "4 semanas, 15 °C a 30 °C ou 2 °C a 8 °C",
+     "Não congelar"
+    ],
+    [
+     "Dulaglutida (Trulicity)",
+     "2 °C a 8 °C, embalagem original",
+     "Até 14 dias sem refrigeração, até 30 °C",
+     "Fotossensível"
+    ],
+    [
+     "Tirzepatida (Mounjaro, apresentação consultada)",
+     "2 °C a 8 °C, embalagem original",
+     "Até 21 dias fora da geladeira, abaixo de 30 °C",
+     "Não congelar; receita retida"
+    ],
+    [
+     "Adalimumabe (Humira)",
+     "2 °C a 8 °C, embalagem original",
+     "Dose única; bula brasileira sem período fora da geladeira",
+     "Informação europeia: 14 dias até 25 °C; consultar fabricante"
+    ],
+    [
+     "Dupilumabe (Dupixent)",
+     "2 °C a 8 °C, protegido da luz",
+     "Se necessário, até 14 dias até 30 °C",
+     "Anotar a data de retirada da geladeira"
+    ],
+    [
+     "Denosumabe (Prolia)",
+     "2 °C a 8 °C, protegido da luz",
+     "Após atingir temperatura ambiente: aplicar ou descartar",
+     "Bula brasileira mais restritiva que a europeia"
+    ],
+    [
+     "Etanercepte, pó liófilo (Enbrel)",
+     "2 °C a 8 °C",
+     "Reconstituído: até 6 horas em geladeira",
+     "Não congelar"
+    ],
+    [
+     "Teriparatida (Fortéo)",
+     "2 °C a 8 °C",
+     "28 dias após a primeira aplicação, sempre refrigerada",
+     "Se ficou fora, voltar à geladeira e contatar o SAC"
+    ],
+    [
+     "Somatropina (Genotropin)",
+     "2 °C a 8 °C, protegida da luz",
+     "Preparada: até 28 dias em refrigeração",
+     "Não congelar"
+    ],
+    [
+     "Latanoprosta colírio (Xalatan)",
+     "2 °C a 8 °C, protegida da luz",
+     "Até 25 °C, válido por 10 semanas",
+     "Genéricos e similares: conferir bula de cada um"
+    ],
+    [
+     "Amoxicilina pó para suspensão (Amoxil)",
+     "15 °C a 30 °C, protegido da umidade",
+     "14 dias em geladeira",
+     "Prazo começa na reconstituição"
+    ],
+    [
+     "Amoxicilina + clavulanato suspensão (Clavulin BD)",
+     "15 °C a 30 °C, local seco",
+     "7 dias em geladeira",
+     "Fora da geladeira escurece em 48 horas"
+    ],
+    [
+     "Cefalexina pó para suspensão (Keflex)",
+     "15 °C a 30 °C, ao abrigo da luz",
+     "14 dias em geladeira",
+     "Descartar a sobra após o prazo"
+    ],
+    [
+     "Vacinas",
+     "2 °C a 8 °C, equipamento próprio",
+     "Conforme bula e Manual de Rede de Frio",
+     "Não congelar; geladeira doméstica proibida"
+    ],
+    [
+     "Probióticos",
+     "Conforme rótulo; alguns exigem refrigeração",
+     "Conforme rótulo",
+     "Conferir produto a produto"
+    ]
+   ],
+   "nota": "Dados das bulas brasileiras das apresentações citadas, consultadas em outubro de 2026 em compêndio que reproduz o texto das bulas; adalimumabe e denosumabe também comparados com a informação europeia (EMA). Outras marcas, concentrações e dispositivos podem ter regras diferentes: oriente sempre pela bula da apresentação dispensada."
+  },
+  {
+   "tipo": "quadro",
+   "id": "m11-quadro-planilha",
+   "titulo": "Modelo de planilha de temperatura do refrigerador",
+   "html": "\n<p><b>Equipamento:</b> ____________ <b>Local:</b> ____________ <b>Mês/ano:</b> ____ <b>Faixa aceitável:</b> 2 °C a 8 °C <b>Termômetro nº:</b> ______ <b>Calibração válida até:</b> __/__/____</p>\n<div class=\"tab\"><table><thead><tr><th>Data e hora</th><th>Atual (°C)</th><th>Máxima (°C)</th><th>Mínima (°C)</th><th>Responsável</th><th>Ação (se fora da faixa)</th></tr></thead><tbody>\n<tr><td>__/__ ____h (abertura)</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>__/__ ____h (fechamento)</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>__/__ ____h (abertura)</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>__/__ ____h (fechamento)</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>__/__ ____h (abertura)</td><td></td><td></td><td></td><td></td><td></td></tr>\n<tr><td>__/__ ____h (fechamento)</td><td></td><td></td><td></td><td></td><td></td></tr>\n</tbody></table></div>\n<p><b>Como preencher:</b> anotar no momento da leitura; reiniciar o termômetro após anotar; qualquer valor abaixo de 2 °C ou acima de 8 °C (atual, máxima ou mínima) exige ação descrita na última coluna e comunicação ao farmacêutico; dias com a loja fechada são indicados e os dados do datalogger anexados.</p>\n<p><b>Revisão do farmacêutico:</b> semana 1 ____ semana 2 ____ semana 3 ____ semana 4 ____ (data e assinatura)</p>\n"
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m11-fluxo-excursao",
+   "titulo": "Excursão de temperatura no refrigerador",
+   "passos": [
+    {
+     "t": "Leitura ou alarme mostra temperatura fora de 2 °C a 8 °C (atual, máxima ou mínima)",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Manter a porta fechada; verificar tomada, disjuntor, energia e vedação; avisar o farmacêutico",
+     "tipo": "acao"
+    },
+    {
+     "t": "A causa foi corrigida e a temperatura está voltando à faixa?",
+     "tipo": "decisao",
+     "sim": "Acompanhar até estabilizar e seguir para o registro",
+     "nao": "Transferir os produtos para outro equipamento ou caixa térmica em 2 °C a 8 °C"
+    },
+    {
+     "t": "Registrar início, fim, temperatura máxima ou mínima atingida e produtos e lotes afetados",
+     "tipo": "acao"
+    },
+    {
+     "t": "Segregar os produtos expostos em 2 °C a 8 °C, com etiqueta \"aguardando avaliação, não dispensar\"",
+     "tipo": "acao"
+    },
+    {
+     "t": "Houve temperatura abaixo de 0 °C ou sinais de congelamento?",
+     "tipo": "decisao",
+     "sim": "Reprovar: produtos congelados não são liberados",
+     "nao": "Consultar o fabricante"
+    },
+    {
+     "t": "Consultar o fabricante com produto, lote, validade, temperaturas, duração e excursões anteriores",
+     "tipo": "acao"
+    },
+    {
+     "t": "Nunca dispensar antes da resposta documentada",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Fabricante liberou?",
+     "tipo": "decisao",
+     "sim": "Devolver ao estoque com prioridade de saída e anotar a liberação",
+     "nao": "Dar baixa e descartar conforme o PGRSS"
+    },
+    {
+     "t": "Corrigir a causa, revisar o POP se necessário e arquivar todos os registros",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "id": "m11-check-armazenamento",
+   "titulo": "Verificação diária e semanal do armazenamento",
+   "itens": [
+    "Diário: temperatura da geladeira registrada na abertura (momento, máxima, mínima) e termômetro reiniciado",
+    "Diário: temperatura da geladeira registrada no fechamento",
+    "Diário: temperatura e umidade do ambiente registradas no horário de maior calor",
+    "Diário: porta da geladeira bem fechada ao fim do expediente e alarme ativo",
+    "Diário: nenhum termolábil esquecido no balcão, no recebimento ou na sala de serviços",
+    "Diário: volumes refrigerados recebidos guardados com temperatura de chegada anotada",
+    "Diário: sala de serviços e área de dispensação limpas e registradas",
+    "Diário: leituras fora da faixa com ação registrada e farmacêutico ciente",
+    "Semanal: farmacêutico revisou e assinou as planilhas de temperatura",
+    "Semanal: geladeira sem alimentos, bebidas, isopor ou objetos pessoais",
+    "Semanal: porta e gaveta inferior da geladeira sem medicamentos",
+    "Semanal: produtos com espaço para circulação de ar e sensor no centro",
+    "Semanal: mapa da geladeira atualizado",
+    "Semanal: PVPS conferido nas prateleiras e na geladeira",
+    "Semanal: área segregada identificada e sem produto sem destino definido",
+    "Semanal: controlados conferidos e armário trancado",
+    "Semanal: estoque afastado de piso, parede e teto; nada sob sol direto",
+    "Semanal: produtos em quarentena ou aguardando avaliação com prazo de resposta acompanhado",
+    "Mensal: relatório de validade emitido e conferido",
+    "Mensal: certificado de calibração dos termômetros dentro do prazo",
+    "Mensal: teste do alarme e da bateria do termômetro",
+    "Mensal: contatos do plano de contingência atualizados"
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m11-pop-refrigerador",
+   "titulo": "Controle de temperatura do refrigerador de medicamentos",
+   "codigo": "POP-TEMP-02",
+   "objetivo": "Manter os termolábeis entre 2 °C e 8 °C, com monitoramento registrado e resposta imediata a desvios.",
+   "abrangencia": "Refrigerador de medicamentos da farmácia; todos os dias de funcionamento.",
+   "responsaveis": [
+    "Responsável pela abertura e pelo fechamento da loja: leituras",
+    "Farmacêutico do turno: análise e ações corretivas",
+    "Farmacêutico RT: calibração, revisão semanal e plano de contingência"
+   ],
+   "materiais": [
+    "Termômetro de momento, máxima e mínima calibrado, com cabo extensor",
+    "Registrador eletrônico (datalogger) com alarme, quando disponível",
+    "Planilha de temperatura",
+    "Etiquetas \"aguardando avaliação\"",
+    "Caixa térmica com bobinas e termômetro para contingência"
+   ],
+   "procedimento": [
+    "Conferir se a geladeira é exclusiva para medicamentos e se não há alimentos, bebidas ou objetos pessoais.",
+    "Manter o sensor do termômetro no centro do compartimento, entre os produtos, sem contato com paredes ou bobinas.",
+    "Na abertura da loja, ler e anotar temperatura de momento, máxima e mínima, com hora e rubrica.",
+    "Reiniciar o termômetro logo após a anotação.",
+    "Se o datalogger estiver em uso, verificar se houve alarme ou registro fora da faixa desde a última leitura.",
+    "Comparar as três leituras com a faixa de 2 °C a 8 °C.",
+    "Se tudo estiver na faixa, conferir a vedação da porta e seguir a rotina.",
+    "Se qualquer leitura estiver fora da faixa, comunicar o farmacêutico imediatamente e aplicar o fluxo de excursão.",
+    "Abrir a porta apenas o necessário, com o mapa da geladeira afixado para localizar os produtos.",
+    "Organizar os produtos fora da porta e da gaveta inferior, com espaço entre as caixas e validade mais curta à frente.",
+    "No fechamento, repetir a leitura, anotar, reiniciar e confirmar que a porta está fechada e o alarme ativo.",
+    "Limpar a geladeira no início da semana, com os produtos transferidos para equipamento ou caixa térmica monitorados, nunca na véspera de feriado ou no fim do expediente.",
+    "O farmacêutico revisa e assina a planilha semanalmente e arquiva."
+   ],
+   "cuidados": [
+    "Leitura com máxima acima de 8 °C indica excursão no intervalo, mesmo com momento normal.",
+    "Produto que congelou não é liberado.",
+    "Não desligar a geladeira da tomada para limpeza sem plano de transferência."
+   ],
+   "registros": [
+    "Planilha diária de temperatura",
+    "Relatórios do datalogger",
+    "Registro de excursões e decisões",
+    "Certificados de calibração"
+   ],
+   "referencias": [
+    "RDC 44/2009, art. 35, §§ 3º a 5º",
+    "Manual de Rede de Frio do PNI, 6ª ed., 2025",
+    "RDC 197/2017, arts. 10 e 11 (vacinas)",
+    "Orientação Farmacêutica CRF-SP: armazenamento inadequado de termolábeis"
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m11-pop-recebimento-termo",
+   "titulo": "Recebimento de medicamentos termolábeis",
+   "codigo": "POP-REC-02",
+   "objetivo": "Receber termolábeis somente quando transportados na faixa do fabricante e guardá-los sem demora.",
+   "abrangencia": "Recebimento de mercadorias; entregas de distribuidores com volume refrigerado.",
+   "responsaveis": [
+    "Responsável pelo recebimento: abertura, medição e guarda",
+    "Farmacêutico: decisão sobre divergências e contato com o distribuidor"
+   ],
+   "materiais": [
+    "Termômetro com cabo extensor calibrado",
+    "Formulário de recebimento de termolábeis",
+    "Etiqueta de quarentena",
+    "Nota fiscal"
+   ],
+   "procedimento": [
+    "Separar os volumes refrigerados da carga e abri-los antes dos demais (RDC 430/2020, art. 77, como referência).",
+    "Verificar a integridade da caixa térmica e a presença de indicador ou registrador de temperatura.",
+    "Ler o indicador ou registrador e anotar o resultado.",
+    "Medir a temperatura entre os produtos com o termômetro de cabo extensor e anotar.",
+    "Verificar se os produtos estavam em contato direto com as bobinas de gelo.",
+    "Inspecionar sinais de congelamento (cristais, frasco trincado, grumos) e de dano à embalagem.",
+    "Conferir nome, apresentação, quantidade, lote, validade e fabricante contra a nota fiscal (RDC 44/2009, art. 31, §2º).",
+    "Se tudo estiver conforme, guardar imediatamente no refrigerador, com validade mais curta à frente.",
+    "Registrar hora de chegada, hora da guarda e temperatura medida.",
+    "Se a temperatura estiver fora de 2 °C a 8 °C, houver sinal de congelamento ou faltar evidência de transporte adequado, manter o produto refrigerado, separado e identificado como quarentena.",
+    "Comunicar o distribuidor no mesmo dia e solicitar avaliação; não dispensar até a resposta documentada.",
+    "Devolver ou dar baixa conforme a decisão e arquivar os registros."
+   ],
+   "cuidados": [
+    "Só receber produto transportado conforme o fabricante (RDC 44/2009, art. 33).",
+    "Volume refrigerado não espera a conferência da carga seca.",
+    "Produto congelado é recusado."
+   ],
+   "registros": [
+    "Formulário de recebimento de termolábeis",
+    "Registro de não conformidade e resposta do distribuidor",
+    "Nota fiscal conferida"
+   ],
+   "referencias": [
+    "RDC 44/2009, arts. 31 a 34",
+    "RDC 430/2020, arts. 56, 57, 64, §2º, 77 e 85",
+    "Bulas dos produtos recebidos"
+   ]
+  },
+  {
+   "tipo": "tabela",
+   "id": "m11-tab-falhas",
+   "titulo": "Falhas frequentes na cadeia de frio e correção",
+   "colunas": [
+    "Falha",
+    "Risco",
+    "Correção"
+   ],
+   "linhas": [
+    [
+     "Termômetro nunca reiniciado",
+     "Máxima antiga mascara novas excursões",
+     "Reiniciar após cada leitura; treinar a equipe"
+    ],
+    [
+     "Só a temperatura de momento é anotada",
+     "Excursão noturna passa despercebida",
+     "Registrar momento, máxima e mínima"
+    ],
+    [
+     "Medicamentos na porta da geladeira",
+     "Aquecimento a cada abertura",
+     "Porta vazia; produtos nas prateleiras centrais"
+    ],
+    [
+     "Caixa encostada no fundo ou no congelador",
+     "Congelamento",
+     "Afastar do evaporador; sensor no centro"
+    ],
+    [
+     "Alimentos ou bebidas na geladeira",
+     "Aberturas extras, contaminação, autuação",
+     "Uso exclusivo"
+    ],
+    [
+     "Produtos dentro de isopor na geladeira",
+     "Barreira térmica",
+     "Retirar recipientes; permitir circulação de ar"
+    ],
+    [
+     "Limpeza no fim do expediente",
+     "Temperatura instável durante a noite",
+     "Limpar no início da semana, com produtos monitorados"
+    ],
+    [
+     "Termolábil esquecido no balcão",
+     "Perda de estabilidade",
+     "Guardar logo; separar só no momento da entrega"
+    ],
+    [
+     "Venda de lote exposto sem consulta",
+     "Produto ineficaz ao paciente",
+     "Segregar e consultar o fabricante"
+    ],
+    [
+     "Termômetro sem calibração",
+     "Registro falso de controle",
+     "Certificado válido e calibração periódica"
+    ]
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m11-cartoes",
+   "titulo": "Cartões de revisão: termolábeis e armazenamento",
+   "itens": [
+    {
+     "f": "Faixa \"em refrigerador\" na Farmacopeia Brasileira",
+     "v": "Entre 2 °C e 8 °C."
+    },
+    {
+     "f": "Faixa de \"temperatura ambiente\" na Farmacopeia Brasileira",
+     "v": "Entre 15 °C e 30 °C."
+    },
+    {
+     "f": "Faixa de \"local fresco\"",
+     "v": "Entre 8 °C e 15 °C; pode ser substituído por refrigerador se a monografia não proibir."
+    },
+    {
+     "f": "Definição de medicamento termolábil (RDC 430/2020)",
+     "v": "Aquele cuja especificação de temperatura máxima é igual ou inferior a 8 °C."
+    },
+    {
+     "f": "Frequência de registro exigida pela RDC 44/2009 para termolábeis",
+     "v": "Diária (art. 35, §3º); o Manual de Rede de Frio recomenda duas vezes ao dia."
+    },
+    {
+     "f": "Por que reiniciar o termômetro de máxima e mínima?",
+     "v": "Para que a próxima leitura mostre os extremos apenas do intervalo seguinte."
+    },
+    {
+     "f": "Vacina pode ficar em geladeira doméstica?",
+     "v": "Não. Exige equipamento regularizado na Anvisa (RDC 197/2017, art. 10, §2º); doméstico e frigobar são proibidos."
+    },
+    {
+     "f": "Faixa de alarme usada pelo Manual de Rede de Frio",
+     "v": "Entre 3 °C e 7 °C."
+    },
+    {
+     "f": "Em falta de energia, o que fazer primeiro com a geladeira?",
+     "v": "Manter fechada, monitorar e avisar o RT; transferir se a temperatura se aproximar de 7 °C."
+    },
+    {
+     "f": "Produto exposto a excursão pode ser vendido?",
+     "v": "Só após avaliação documentada do fabricante; até lá, segregado em 2 °C a 8 °C."
+    },
+    {
+     "f": "Toujeo em uso",
+     "v": "6 semanas (42 dias), até 30 °C, sem voltar à geladeira."
+    },
+    {
+     "f": "Ozempic após o primeiro uso",
+     "v": "6 semanas, abaixo de 30 °C ou em geladeira."
+    },
+    {
+     "f": "Clavulin BD suspensão após preparo",
+     "v": "7 dias em geladeira (2 °C a 8 °C)."
+    },
+    {
+     "f": "Xalatan após aberto (bula brasileira)",
+     "v": "Até 25 °C, válido por 10 semanas."
+    },
+    {
+     "f": "PVPS",
+     "v": "Primeiro que vence, primeiro que sai: lote de validade mais curta à frente."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m11-questoes",
+   "titulo": "Questões: termolábeis e armazenamento",
+   "itens": [
+    {
+     "p": "A bula de um produto indica \"conservar em local fresco\". Pela Farmacopeia Brasileira, 6ª edição, essa expressão corresponde a:",
+     "alt": [
+      "Entre 2 °C e 8 °C, obrigatoriamente em refrigerador",
+      "Entre 8 °C e 15 °C",
+      "Entre 15 °C e 25 °C",
+      "Entre 15 °C e 30 °C",
+      "Abaixo de 0 °C"
+     ],
+     "c": 1,
+     "com": "A Farmacopeia Brasileira define local fresco como ambiente entre 8 °C e 15 °C e admite conservar em refrigerador quando a monografia não disser o contrário, mas sem obrigar. Entre 2 °C e 8 °C é \"em refrigerador\"; 15 °C a 30 °C é temperatura ambiente; abaixo de 0 °C corresponde ao congelador."
+    },
+    {
+     "p": "Segundo a RDC 430/2020, um medicamento é classificado como termolábil quando:",
+     "alt": [
+      "Deve ser protegido da luz durante toda a validade do produto",
+      "A bula proíbe temperatura acima de 30 °C",
+      "A bula proíbe temperatura acima de 25 °C",
+      "Sua temperatura máxima é de até 8 °C",
+      "É de origem biológica, qualquer que seja a faixa"
+     ],
+     "c": 3,
+     "com": "O art. 3º, XVI, da RDC 430/2020 define termolábil como o medicamento cuja especificação de temperatura máxima seja igual ou inferior a 8 °C. Proteção da luz caracteriza fotossensibilidade; limites de 25 °C ou 30 °C indicam sensibilidade à temperatura, não termolabilidade; a origem biológica não define a categoria."
+    },
+    {
+     "p": "Drogaria licenciada para vacinação pretende guardar as vacinas em geladeira doméstica nova, exclusiva e com termômetro calibrado. Conforme a RDC 197/2017 e o Manual de Rede de Frio (2025):",
+     "alt": [
+      "Não é permitido: o equipamento deve ser regularizado na Anvisa",
+      "É permitido se a geladeira for exclusiva e tiver registro diário",
+      "É permitido se houver também um datalogger com alarme",
+      "É permitido para vacinas inativadas, não para vacinas vivas",
+      "É permitido se a vigilância local autorizar por escrito"
+     ],
+     "c": 0,
+     "com": "A RDC 197/2017 exige equipamento de refrigeração exclusivo e regularizado na Anvisa (art. 10, III, f, e §2º), e o Manual de Rede de Frio, 6ª ed., afirma ser proibido o uso de refrigeradores domésticos e frigobares para imunobiológicos, por isolamento térmico inadequado. Exclusividade, datalogger ou tipo de vacina não mudam a regra."
+    },
+    {
+     "p": "Ao escrever o POP de controle de temperatura do estoque, o farmacêutico deve definir o horário da leitura diária. A RDC 44/2009 orienta escolher:",
+     "alt": [
+      "O horário de abertura da loja, quando há menos movimento no balcão",
+      "Qualquer horário, desde que seja sempre o mesmo",
+      "A faixa de horário de maior temperatura e umidade",
+      "O horário em que o farmacêutico RT estiver presente",
+      "O horário indicado pelo fabricante do termômetro"
+     ],
+     "c": 2,
+     "com": "O art. 35, §4º, exige que o POP defina a metodologia de verificação de temperatura e umidade, especificando a faixa de horário em que há maior probabilidade de encontrar a maior temperatura e umidade do dia. Abertura da loja, horário fixo qualquer, presença do RT ou orientação do fabricante do instrumento não atendem ao critério da norma."
+    },
+    {
+     "p": "Na segunda-feira, a leitura da geladeira mostra momento 5 °C, máxima 12 °C e mínima 4 °C. O datalogger confirma 6 horas acima de 8 °C no domingo. A conduta correta é:",
+     "alt": [
+      "Liberar os produtos, porque a temperatura atual está normal",
+      "Descartar todo o conteúdo da geladeira imediatamente",
+      "Liberar apenas os produtos com validade superior a 6 meses",
+      "Transferir para temperatura ambiente até a vinda da assistência técnica",
+      "Segregar refrigerado, registrar e consultar o fabricante"
+     ],
+     "c": 4,
+     "com": "Houve excursão no intervalo, revelada pela máxima e pelo datalogger. O Manual de Rede de Frio e o art. 35, §5º, da RDC 44/2009 levam a segregar, identificar, manter na faixa correta, registrar e consultar o fabricante antes de qualquer decisão. Liberar pela temperatura atual ignora a excursão; descartar tudo sem avaliação pode desperdiçar produto aprovável; validade longa não protege contra degradação; retirar da geladeira agrava o problema."
+    },
+    {
+     "p": "Paciente começou hoje a usar insulina glargina 300 U/mL (Toujeo). Pela bula brasileira, a caneta em uso deve ficar:",
+     "alt": [
+      "Na geladeira entre as aplicações, por até 28 dias",
+      "Até 30 °C por 6 semanas, sem voltar à geladeira",
+      "Na porta da geladeira, por até 8 semanas",
+      "No congelador, para prolongar a validade após aberta",
+      "Em temperatura ambiente por até 14 dias, depois na geladeira"
+     ],
+     "c": 1,
+     "com": "A bula brasileira do Toujeo orienta manter a caneta em uso em temperatura até 30 °C e usar por até 6 semanas (42 dias), nunca colocando-a de volta na geladeira. Os 28 dias correspondem a outras insulinas; 8 semanas é o prazo da degludeca; congelar inutiliza a insulina; o esquema de 14 dias não existe para esse produto."
+    },
+    {
+     "p": "Mãe recebe amoxicilina com clavulanato em suspensão (Clavulin BD) já reconstituída na farmácia. A orientação de conservação, conforme a bula, é:",
+     "alt": [
+      "Temperatura ambiente por 14 dias, protegida da luz",
+      "Geladeira por 14 dias, como as demais amoxicilinas",
+      "Geladeira de 2 °C a 8 °C por 7 dias, sem congelar",
+      "Congelador, descongelando cada dose antes do uso",
+      "Temperatura ambiente por 7 dias, depois geladeira"
+     ],
+     "c": 2,
+     "com": "A bula do Clavulin BD informa que a suspensão preparada fica estável por 7 dias em refrigerador (2 °C a 8 °C), sem congelar, e que fora da geladeira escurece em 48 horas. A amoxicilina isolada (Amoxil) tem prazo de 14 dias em geladeira, o que mostra que cada produto tem regra própria."
+    },
+    {
+     "p": "Paciente que usa insulina vai viajar de avião por uma semana. A orientação adequada sobre o transporte é:",
+     "alt": [
+      "Levar na bagagem de mão, em bolsa térmica, com a receita",
+      "Despachar na mala, bem embalada, para evitar a inspeção",
+      "Levar em contato direto com gelo comum para garantir o frio",
+      "Congelar as canetas de reserva antes da viagem",
+      "Deixar as canetas fora da embalagem para economizar espaço"
+     ],
+     "c": 0,
+     "com": "Termolábeis viajam na bagagem de mão: no porão, a temperatura não é controlada pelo passageiro e há risco de extravio. A bolsa térmica protege do calor, e a receita ou relatório facilita a inspeção. Contato direto com gelo pode congelar, e congelar inutiliza a insulina; a embalagem original protege da luz."
+    },
+    {
+     "p": "Farmacêutico orienta um paciente sobre Xalatan (latanoprosta) colírio recém-aberto. Segundo a bula brasileira consultada:",
+     "alt": [
+      "Deve permanecer na geladeira e vale 4 semanas após aberto",
+      "Pode ficar em temperatura ambiente e vale até o fim da validade impressa",
+      "Deve ser congelado entre as aplicações",
+      "Após aberto, pode ficar até 25 °C e vale 10 semanas",
+      "Após aberto, deve ficar abaixo de 8 °C e vale 28 dias"
+     ],
+     "c": 3,
+     "com": "A bula brasileira do Xalatan indica refrigeração de 2 °C a 8 °C até a abertura e, depois de aberto, temperatura ambiente até 25 °C, válido por 10 semanas. O prazo de 4 semanas aparece em informações de outros países, por isso a bula da apresentação vendida no Brasil é a referência. Congelar não é permitido."
+    },
+    {
+     "p": "Chega à farmácia caixa térmica com canetas de semaglutida. O termômetro de cabo extensor marca 11 °C entre os produtos. Pela RDC 44/2009 e pelas boas práticas de recebimento, o responsável deve:",
+     "alt": [
+      "Guardar normalmente na geladeira, porque logo voltará à faixa",
+      "Recusar todas as mercadorias do pedido, inclusive as não refrigeradas",
+      "Colocar à venda com desconto para girar o estoque rapidamente",
+      "Guardar em temperatura ambiente até a resposta do distribuidor",
+      "Manter refrigerado em quarentena e acionar o distribuidor"
+     ],
+     "c": 4,
+     "com": "A RDC 44/2009 só admite receber produto transportado conforme o fabricante (art. 33). A boa prática, refletida no art. 57 da RDC 430/2020, é devolver no ato ou manter em quarentena até a decisão, sempre nas condições de conservação do produto. Guardar como se nada tivesse ocorrido, vender com desconto ou deixar em temperatura ambiente expõem o paciente a risco; recusar a carga seca não tem relação com o desvio."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Anvisa. Farmacopeia Brasileira, 6ª edição, Volume I. Generalidades: conservação e faixas de temperatura. Brasília, 2019 (com erratas).",
+  "Anvisa. Resolução RDC nº 44, de 17 de agosto de 2009. Boas Práticas Farmacêuticas em farmácias e drogarias (arts. 5º, 6º, 7º, 31 a 40, 51, 56, 58, 76 e 89). https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2009/rdc0044_17_08_2009.html",
+  "Anvisa. Resolução RDC nº 430, de 8 de outubro de 2020. Boas Práticas de Distribuição, Armazenagem e de Transporte de Medicamentos (arts. 3º, 34 a 36, 42, 43, 49 a 57, 64, 77 a 85). Diário Oficial da União, 9 out. 2020.",
+  "Anvisa. Resolução RDC nº 197, de 26 de dezembro de 2017. Serviços de vacinação humana (arts. 10 a 12).",
+  "Anvisa. Resolução RDC nº 978, de 6 de junho de 2025. Serviços que executam exames de análises clínicas (arts. 14 e 116). Diário Oficial da União, 10 jun. 2025.",
+  "Anvisa. Resolução RDC nº 471/2021, alterada pela RDC nº 973/2025; Instrução Normativa nº 360/2025 (agonistas de GLP-1).",
+  "Brasil. Lei nº 13.021, de 8 de agosto de 2014, art. 6º, III.",
+  "Ministério da Saúde. Manual de Rede de Frio do Programa Nacional de Imunizações. 6ª ed. Brasília: Secretaria de Vigilância em Saúde e Ambiente, 2025.",
+  "Ministério da Saúde. Manual de Rede de Frio do Programa Nacional de Imunizações. 5ª ed. Brasília, 2017 (comparação sobre refrigeradores domésticos).",
+  "Conselho Regional de Farmácia do Estado de São Paulo. Orientação Farmacêutica: armazenamento inadequado de termolábeis em farmácias privadas e públicas. 2023.",
+  "Organização Mundial da Saúde. Model guidance for the storage and transport of time- and temperature-sensitive pharmaceutical products. WHO Technical Report Series nº 961, Annex 9, 2011.",
+  "Bulas brasileiras (texto reproduzido em compêndio de bulas, consultado em out. 2026): Novolin N, Novolin R, NovoRapid, Fiasp, Tresiba, Ozempic, Wegovy, Victoza, Saxenda (Novo Nordisk); Lantus, Toujeo, Apidra (Sanofi); Humulin N, Humalog, Basaglar, Trulicity, Mounjaro, Fortéo (Eli Lilly); Humira (AbbVie); Dupixent (Sanofi); Prolia (Amgen); Enbrel e Genotropin (Pfizer); Xalatan (Pfizer/Viatris); Amoxil e Clavulin BD (GSK); Keflex.",
+  "European Medicines Agency. Product information (seções 6.3 e 6.4) de Humira, Prolia, Lantus, Toujeo, Tresiba, NovoRapid, Humalog, Ozempic, Wegovy, Victoza, Saxenda, Trulicity, Mounjaro, Dupixent, Enbrel, Forsteo e Omnitrope. https://www.ema.europa.eu, consultado em out. 2026."
+ ]
+}

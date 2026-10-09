@@ -1,0 +1,730 @@
+{
+ "id": "m08",
+ "num": 8,
+ "titulo": "RDC 471/2021: antimicrobianos",
+ "escopo": "Regras vigentes em outubro de 2026 para prescrição, receita, dispensação, retenção, escrituração e guarda de antimicrobianos (e, desde 2025, agonistas do GLP-1): RDC 471/2021 com a redação da RDC 973/2025, IN 360/2025, RDC 22/2014 (SNGPC) e orientações da Anvisa, do CFF e do CRF-SP.",
+ "topicos": [
+  {
+   "id": "m08-historico",
+   "titulo": "Histórico e objetivo da norma",
+   "resumo": "\n<p>Antimicrobiano é a substância que impede a proliferação de microrganismos ou os mata, e assim previne a disseminação da infecção (RDC 471/2021, art. 4º, I). Penicilinas, cefalosporinas, macrolídeos, quinolonas, tetraciclinas, sulfonamidas, nitroimidazólicos e tuberculostáticos estão nesse grupo. Antifúngicos, antivirais e antiparasitários de uso comum no balcão (como fluconazol, aciclovir e albendazol) não constam da lista que a Anvisa vinculou à norma e seguem as regras gerais dos medicamentos de venda sob prescrição.</p>\n<p>Por décadas, a venda de antibiótico no Brasil exigiu receita apenas no papel: a tarja vermelha dizia \"venda sob prescrição médica\", mas a farmácia não guardava nada e não havia como fiscalizar. O resultado era a automedicação com amoxicilina para dor de garganta viral, azitromicina \"para gripe\" e ciprofloxacino guardado em casa para qualquer ardor ao urinar. Esse uso alimenta a <strong>resistência antimicrobiana</strong>, que a Organização Mundial da Saúde trata como ameaça global à saúde pública.</p>\n<h3>A sequência das normas</h3>\n<p>A primeira norma com retenção de receita para antimicrobianos foi a RDC nº 44, de 26 de outubro de 2010. Ela foi substituída poucos meses depois pela RDC nº 20, de 5 de maio de 2011, que consolidou o modelo que o balcão conhece: receita em duas vias, validade de 10 dias, retenção de uma via pela farmácia e escrituração no Sistema Nacional de Gerenciamento de Produtos Controlados (SNGPC). A lista de substâncias ficava em anexo da própria resolução.</p>\n<p>Em 23 de fevereiro de 2021 a Anvisa publicou a RDC nº 471, que revogou expressamente a RDC 20/2011 e as resoluções nº 68/2014 e nº 174/2017 (RDC 471/2021, art. 26). A principal mudança de técnica normativa foi tirar a lista de substâncias do corpo da resolução e colocá-la em Instrução Normativa (IN) específica. Assim a lista pode ser atualizada sem reabrir a RDC inteira.</p>\n<div class=\"tab\"><table><thead><tr><th>Norma</th><th>O que fez</th><th>Situação em outubro de 2026</th></tr></thead><tbody>\n<tr><td>RDC 44/2010</td><td>Primeira exigência de retenção de receita de antimicrobianos</td><td>Revogada pela RDC 20/2011</td></tr>\n<tr><td>RDC 20/2011</td><td>Consolidou duas vias, validade de 10 dias, retenção e SNGPC; lista em anexo</td><td>Revogada (RDC 471/2021, art. 26, I)</td></tr>\n<tr><td>RDC 471/2021</td><td>Regra vigente; lista passa para IN específica</td><td>Vigente, com redação alterada pela RDC 973/2025</td></tr>\n<tr><td>RDC 973/2025</td><td>Altera a RDC 471 e amplia o alcance para \"medicamentos de uso sob prescrição e retenção da receita\"</td><td>Vigente desde 23/06/2025</td></tr>\n<tr><td>IN 360/2025</td><td>Lista atual de antimicrobianos e de agonistas do GLP-1; fixa validades</td><td>Vigente desde 23/06/2025; revogou a IN 244/2023</td></tr>\n</tbody></table></div>\n<h3>A reforma de 2025</h3>\n<p>A RDC nº 973, de 23 de abril de 2025, mudou a ementa e o art. 1º da RDC 471. O texto deixou de falar só em antimicrobianos e passou a tratar de \"medicamentos à base de substâncias isoladas ou em associação, de uso sob prescrição e retenção da receita, listadas na Instrução Normativa específica\". A IN nº 360, publicada no mesmo dia, trouxe duas listas: a dos antimicrobianos (art. 1º) e a dos agonistas do receptor do GLP-1 (art. 2º: semaglutida, liraglutida, dulaglutida, tirzepatida e lixisenatida). As duas normas entraram em vigor em 23 de junho de 2025.</p>\n<p>Outra mudança de 2025: o prazo de validade da receita saiu do corpo da RDC. O art. 7º agora diz que a receita \"terá validade conforme os prazos estabelecidos na Instrução Normativa específica\". Para antimicrobianos, a IN 360/2025 manteve os 10 dias (art. 1º, § 2º). Para os agonistas do GLP-1, a validade é de 90 dias (art. 2º, § 1º).</p>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"Esta Resolução dispõe sobre os critérios para a prescrição, dispensação, controle, embalagem e rotulagem de medicamentos à base de substâncias isoladas ou em associação, de uso sob prescrição e retenção da receita, listadas na Instrução Normativa específica.\" (RDC 471/2021, art. 1º, com redação da RDC 973/2025)</p></div>\n<h3>Objetivo sanitário</h3>\n<p>A norma tem três finalidades práticas. A primeira é garantir que o antimicrobiano chegue ao paciente com diagnóstico feito por profissional habilitado. A segunda é permitir a fiscalização, porque a via retida e a escrituração deixam rastro de cada venda. A terceira é gerar dados de consumo: a RDC prevê monitoramento sanitário e farmacoepidemiológico pelos entes do Sistema Nacional de Vigilância Sanitária (art. 17). Em 2025, o Perguntas e Respostas da Anvisa sobre a reforma reafirmou que a RDC 471 nasceu para promover o uso racional e evitar a resistência aos antimicrobianos.</p>\n<p>No plano profissional, o Conselho Federal de Farmácia definiu a dispensação e o controle de antimicrobianos como atribuições privativas do farmacêutico (Resolução CFF nº 542/2011, art. 1º). O balconista pode separar o produto, mas a conferência da receita, o registro da dispensação e a orientação são atos do farmacêutico.</p>\n<h3>Resistência no cotidiano da farmácia</h3>\n<p>A resistência aparece no balcão de forma concreta. A cistite que não melhora com o antibiótico de sempre, a otite da criança que volta depois de vários ciclos de amoxicilina, a gonorreia que já não responde a esquemas antigos. Parte desse problema vem de doses insuficientes, tratamentos interrompidos e antibiótico usado em infecção viral, situações em que o farmacêutico tem papel direto. Por isso a norma combina controle de acesso (receita e retenção) com dever de orientação (art. 4º, IV): o antimicrobiano certo, usado do jeito errado, também seleciona bactérias resistentes.</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Para saber se um produto exige retenção de receita, consulte a lista da IN vigente (hoje a IN 360/2025), não a memória da época da RDC 20/2011. A RDC 471 é a regra de procedimento; a IN é a lista e a validade.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Quando o cliente disser que \"antes não precisava de receita\" para determinado antibiótico, explique em uma frase o motivo (resistência bacteriana e segurança do próprio paciente) e ofereça o encaminhamento: unidade básica, consulta ou teleconsulta. A recusa educada, com alternativa, reduz conflito.</p></div>\n"
+  },
+  {
+   "id": "m08-abrangencia",
+   "titulo": "Abrangência: substâncias, formas e estabelecimentos",
+   "resumo": "\n<p>A RDC 471 vale para medicamentos que contenham as substâncias listadas na IN específica, <strong>isoladas ou em associação</strong>, e também para seus sais, éteres, ésteres e isômeros (art. 1º, parágrafo único). Basta um componente da fórmula estar na lista para o produto inteiro ficar sujeito à retenção.</p>\n<h3>A lista de antimicrobianos da IN 360/2025</h3>\n<p>O art. 1º da IN 360/2025 enumera as substâncias em itens numerados até 132. Os grupos que mais aparecem no balcão estão abaixo. Confira sempre o texto integral da IN ao classificar um produto novo.</p>\n<div class=\"tab\"><table><thead><tr><th>Grupo</th><th>Exemplos listados na IN 360/2025</th></tr></thead><tbody>\n<tr><td>Penicilinas e inibidores de betalactamase</td><td>amoxicilina, ampicilina, ácido clavulânico, penicilina G, penicilina V, oxacilina, dicloxacilina, sulbactam, sultamicilina, tazobactam</td></tr>\n<tr><td>Cefalosporinas</td><td>cefalexina, cefadroxil, cefaclor, cefuroxima, axetilcefuroxima, cefprozil, cefpodoxima, ceftriaxona</td></tr>\n<tr><td>Macrolídeos e lincosamidas</td><td>azitromicina, claritromicina, eritromicina, roxitromicina, espiramicina, clindamicina, lincomicina</td></tr>\n<tr><td>Quinolonas</td><td>ciprofloxacina, levofloxacina, moxifloxacino, norfloxacina, ofloxacina, ácido nalidíxico, ácido pipemídico, besifloxacino, gatifloxacina</td></tr>\n<tr><td>Tetraciclinas</td><td>doxiciclina, minociclina, limeciclina, tetraciclina, oxitetraciclina</td></tr>\n<tr><td>Sulfonamidas e afins</td><td>sulfametoxazol, trimetoprima, sulfadiazina, sulfacetamida, dapsona</td></tr>\n<tr><td>Urinários e outros orais</td><td>nitrofurantoína, fosfomicina, metronidazol, mandelamina, linezolida</td></tr>\n<tr><td>Tuberculostáticos e hansênicos</td><td>rifampicina, isoniazida, pirazinamida, etambutol, rifabutina, rifapentina, clofazimina</td></tr>\n<tr><td>Uso tópico frequente</td><td>neomicina, bacitracina, mupirocina, ácido fusídico, gramicidina, tirotricina, retapamulina, nitrofural, polimixina B</td></tr>\n<tr><td>Aminoglicosídeos</td><td>gentamicina, tobramicina, amicacina, estreptomicina</td></tr>\n</tbody></table></div>\n<p>Ficam de fora os antimicrobianos de uso exclusivo hospitalar (IN 360/2025, art. 1º, § 1º). Também ficam de fora classes que não estão na lista, como antifúngicos (nistatina, fluconazol, cetoconazol, clotrimazol), antivirais (aciclovir, oseltamivir) e anti-helmínticos (albendazol, ivermectina). Esses produtos podem ser de venda sob prescrição, mas sem retenção pela RDC 471.</p>\n<h3>Formas farmacêuticas e vias de administração</h3>\n<p>Nem a RDC 471 nem a IN 360/2025 fazem distinção por via de administração. O critério é a substância. Por isso, pomadas, cremes, colírios, pomadas oftálmicas, gotas otológicas, óvulos e géis vaginais que contenham substância listada entram na regra, assim como comprimidos, suspensões e injetáveis. A própria lista confirma essa leitura ao incluir substâncias que no Brasil só existem para uso tópico ou oftálmico, como mupirocina, retapamulina, besifloxacino, sulfacetamida, gramicidina e tirotricina.</p>\n<div class=\"tab\"><table><thead><tr><th>Produto no balcão</th><th>Substância listada</th><th>Retém receita?</th></tr></thead><tbody>\n<tr><td>Pomada de neomicina com bacitracina</td><td>neomicina, bacitracina</td><td>Sim</td></tr>\n<tr><td>Creme de mupirocina</td><td>mupirocina</td><td>Sim</td></tr>\n<tr><td>Colírio de tobramicina com dexametasona</td><td>tobramicina</td><td>Sim (a associação não exclui)</td></tr>\n<tr><td>Gel vaginal de metronidazol</td><td>metronidazol</td><td>Sim</td></tr>\n<tr><td>Creme de nistatina com óxido de zinco</td><td>nenhuma</td><td>Não pela RDC 471</td></tr>\n<tr><td>Comprimido de fluconazol</td><td>nenhuma</td><td>Não pela RDC 471 (é de venda sob prescrição)</td></tr>\n</tbody></table></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>A embalagem ajuda, mas não decide. Os medicamentos abrangidos devem trazer na bula e no rótulo a frase \"VENDA SOB PRESCRIÇÃO MÉDICA - SÓ PODE SER VENDIDO COM RETENÇÃO DA RECEITA\" (RDC 471/2021, art. 18). Lotes antigos sem a frase podem ser dispensados até o fim da validade, mas sempre com receita retida (art. 20, parágrafo único). Quem decide é a lista da IN.</p></div>\n<h3>Agonistas do GLP-1</h3>\n<p>Desde 23/06/2025, semaglutida, liraglutida, dulaglutida, tirzepatida e lixisenatida também seguem a RDC 471 (IN 360/2025, art. 2º). Valem os mesmos requisitos de receita, duas vias, retenção, anotações e escrituração. A diferença é a validade: 90 dias a contar da emissão (art. 2º, § 1º). O tema clínico desses medicamentos é tratado em outro módulo; aqui importa saber que o procedimento de balcão é o mesmo.</p>\n<h3>Quem está sujeito</h3>\n<p>O art. 2º obriga à retenção e à escrituração as farmácias e drogarias privadas e as unidades públicas de dispensação que fornecem medicamentos mediante ressarcimento, como as unidades do Programa Farmácia Popular do Brasil. O art. 3º trata das unidades públicas que não comercializam e das farmácias hospitalares: elas mantêm os controles de prescrição e dispensação que já tinham. Farmácias de manipulação também estão alcançadas, já que o art. 21 menciona medicamentos \"industrializados ou manipulados\".</p>\n<p>A RDC não proíbe a venda por meio remoto (telefone, aplicativo, site), desde que se cumpram as Boas Práticas Farmacêuticas da RDC 44/2009 (art. 12). Na prática, a farmácia precisa receber e reter a via exigida, ou acessar o documento eletrônico original, antes de entregar o produto.</p>\n<h3>Medicamentos manipulados</h3>\n<p>Na farmácia de manipulação, a receita de antimicrobiano segue os mesmos requisitos. A fórmula manipulada (por exemplo, um creme com ácido fusídico ou uma cápsula de doxiciclina) contém substância listada, e por isso exige receita em duas vias, retenção e escrituração. A vedação de devolução do art. 21 também alcança expressamente os manipulados.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Cliente de 41 anos pede uma pomada de neomicina com bacitracina \"para um machucado\" e diz que nunca precisou de receita. O farmacêutico confere que neomicina e bacitracina estão na IN 360/2025 e explica que o produto exige receita retida. Avalia a ferida: escoriação limpa, sem sinais de infecção. Orienta limpeza com água e sabão e curativo, e encaminha para avaliação se surgirem vermelhidão que se espalha, pus, febre ou dor crescente.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Antes de dizer \"não precisa de receita\" para qualquer produto com nome terminado em \"-micina\", \"-floxacino\" ou \"-ciclina\", leia a composição completa na embalagem e compare com a lista. Associações com corticoide, anestésico ou antifúngico continuam sujeitas à retenção se tiverem um antimicrobiano listado.</p></div>\n"
+  },
+  {
+   "id": "m08-receita",
+   "titulo": "Receita: requisitos, validade e quantidade",
+   "resumo": "\n<p>Não existe modelo oficial de receita de antimicrobiano. A prescrição é feita em receituário privativo do prescritor ou do estabelecimento de saúde (RDC 471/2021, art. 6º). O papel é comum, branco, mas o conteúdo tem campos obrigatórios e a receita precisa ter <strong>duas vias</strong>.</p>\n<h3>Dados obrigatórios</h3>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"A receita deve ser prescrita de forma legível, sem rasuras, em 2 (duas) vias e contendo os seguintes dados obrigatórios: I - identificação do paciente: nome completo, idade e sexo; II - nome do medicamento ou da substância prescrita sob a forma de Denominação Comum Brasileira (DCB), dose ou concentração, forma farmacêutica, posologia e quantidade (em algarismos arábicos); III - identificação do emitente: nome do profissional com sua inscrição no Conselho Regional ou nome da instituição, endereço completo, telefone, assinatura e marcação gráfica (carimbo); e IV - data da emissão.\" (RDC 471/2021, art. 6º, parágrafo único)</p></div>\n<div class=\"tab\"><table><thead><tr><th>Bloco</th><th>O que conferir</th><th>Erro frequente</th></tr></thead><tbody>\n<tr><td>Paciente</td><td>Nome completo, idade, sexo</td><td>Só o primeiro nome; idade e sexo ausentes</td></tr>\n<tr><td>Medicamento</td><td>DCB ou nome do medicamento, dose ou concentração, forma farmacêutica</td><td>\"Amoxicilina\" sem concentração</td></tr>\n<tr><td>Posologia</td><td>Dose, intervalo e duração</td><td>\"Tomar 1 cp\" sem intervalo ou sem dias</td></tr>\n<tr><td>Quantidade</td><td>Em algarismos arábicos</td><td>\"1 caixa\" sem número de unidades</td></tr>\n<tr><td>Emitente</td><td>Nome, inscrição no conselho ou nome da instituição, endereço completo, telefone, assinatura, carimbo</td><td>Receituário sem telefone ou sem endereço</td></tr>\n<tr><td>Data</td><td>Data da emissão</td><td>Receita sem data, que impede contar a validade</td></tr>\n</tbody></table></div>\n<p>A receita pode conter outros medicamentos, desde que não sejam sujeitos a controle especial (art. 8º). Não há limite de itens abrangidos pela RDC na mesma receita (art. 8º, parágrafo único). Um clonazepam, por exemplo, não pode estar na mesma folha de um antibiótico: ele exige receita própria da Portaria SVS/MS nº 344/1998.</p>\n<h3>Legibilidade, rasura e duas vias</h3>\n<p>O farmacêutico só pode dispensar receitas legíveis e sem rasuras (art. 10, § 2º). A RDC não define o meio de produzir a segunda via (carbono, segunda impressão ou cópia). O essencial é que ela reproduza todos os dados obrigatórios e traga a assinatura do prescritor; em caso de dúvida sobre cópias, siga a orientação da VISA local. Se o paciente chega com uma só via, a dispensação não deve ser feita como se houvesse duas: a farmácia não pode reter a única via do paciente sem deixar com ele um documento do tratamento, e a RDC exige a devolução da primeira via. Nesses casos, a conduta é contatar o prescritor ou orientar o paciente a obter a segunda via.</p>\n<h3>Quem pode prescrever</h3>\n<p>A RDC exige apenas que o prescritor seja \"profissional legalmente habilitado\" (art. 5º), dentro das suas competências. No balcão, os casos mais frequentes são:</p>\n<ul>\n<li><b>Médico</b>: prescreve qualquer antimicrobiano.</li>\n<li><b>Cirurgião-dentista</b>: prescreve medicamentos indicados em odontologia (Lei nº 5.081/1966). Amoxicilina, clindamicina, metronidazol e azitromicina são comuns em receitas odontológicas.</li>\n<li><b>Enfermeiro</b>: prescreve medicamentos estabelecidos em programas de saúde pública e em rotina aprovada pela instituição de saúde (Lei nº 7.498/1986). Em setembro de 2025, a Anvisa incluiu no SNGPC o campo de registro profissional do enfermeiro, permitindo escriturar receitas de antimicrobianos emitidas por enfermeiros \"com o devido amparo legal\" (Cofen, 12/09/2025).</li>\n</ul>\n<p>Fora de programas e protocolos institucionais, a prescrição pelo farmacêutico não alcança antimicrobianos no balcão (Resolução CFF nº 586/2013 regula a prescrição farmacêutica).</p>\n<h3>Receita eletrônica</h3>\n<p>Segundo a Anvisa, as receitas de antimicrobianos e de agonistas do GLP-1 podem ser emitidas eletronicamente, desde que tenham ao menos <strong>assinatura eletrônica avançada</strong> do prescritor, nos termos da Lei nº 14.063/2020 (Anvisa, Perguntas e Respostas sobre RDC 471 e IN 360, 2025, item 5). A assinatura qualificada, com certificado ICP-Brasil, é de nível superior e também é aceita; ela é a exigida para receitas de controle especial. A farmácia precisa ter como acessar o documento original e verificar a validade da assinatura, por exemplo pelo validador do Instituto Nacional de Tecnologia da Informação (ITI). Todos os campos, inclusive a data, devem estar preenchidos eletronicamente.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Foto da receita no celular, captura de tela ou PDF sem assinatura verificável não são receita eletrônica. Imprimir uma foto não cria a segunda via. Sem acesso ao original assinado, a dispensação não tem amparo.</p></div>\n<h3>Validade</h3>\n<p>A receita de antimicrobiano vale <strong>10 dias</strong> a contar da data de emissão (IN 360/2025, art. 1º, § 2º, para o qual remete o art. 7º da RDC 471). O farmacêutico não pode aceitar receita fora do prazo (RDC 471, art. 10, § 1º). A redação original do art. 7º dizia expressamente que a receita era válida \"em todo o território nacional\". O texto de 2025 apenas remete à IN e não cria restrição territorial; o Perguntas e Respostas de 2025 confirma a aceitação da receita eletrônica em todo o país.</p>\n<div class=\"tab\"><table><thead><tr><th>Situação</th><th>Validade</th><th>Fonte</th></tr></thead><tbody>\n<tr><td>Antimicrobiano, tratamento comum</td><td>10 dias da emissão; aviada uma única vez</td><td>IN 360/2025, art. 1º, § 2º; RDC 471, art. 13</td></tr>\n<tr><td>Antimicrobiano, tratamento prolongado (uso contínuo)</td><td>Aquisições posteriores em até 90 dias da emissão; quantidade para cada 30 dias indicada</td><td>RDC 471, art. 9º</td></tr>\n<tr><td>Programas do Ministério da Saúde (ex.: tuberculose, hanseníase)</td><td>Segue a diretriz do programa</td><td>RDC 471, art. 9º, § 2º</td></tr>\n<tr><td>Agonistas do GLP-1</td><td>90 dias da emissão</td><td>IN 360/2025, art. 2º, § 1º</td></tr>\n</tbody></table></div>\n<p>Para contar o prazo, considere o dia da emissão como ponto de partida e confira se a dispensação está dentro dos 10 dias. Receita emitida em 1º de outubro, por exemplo, está no prazo até 11 de outubro. Como as vigilâncias sanitárias locais podem ter orientação própria sobre a forma de contagem, siga a da sua VISA quando houver.</p>\n<h3>Tratamento prolongado</h3>\n<p>Tratamento prolongado é a terapia por período superior a 30 dias (art. 4º, XIV). Exemplos: doxiciclina ou limeciclina para acne, nitrofurantoína em profilaxia de infecção urinária de repetição, azitromicina em uso prolongado prescrito por pneumologista. Nesse caso a receita pode ser usada para compras posteriores em até 90 dias da emissão, desde que contenha a indicação de <strong>uso contínuo</strong> e a quantidade para cada 30 dias (art. 9º, § 1º). Sem essas duas informações, vale a regra geral: 10 dias e uma única dispensação (art. 13).</p>\n<h3>Quantidade e fracionamento</h3>\n<p>A dispensação deve \"atender essencialmente ao tratamento prescrito, inclusive mediante apresentação comercial fracionável\" (art. 11), nos termos da RDC 80/2006 sobre fracionamento. Se o médico prescreveu amoxicilina 500 mg de 8 em 8 horas por 7 dias, o tratamento pede 21 cápsulas. Se houver apresentação fracionável registrada, a farmácia autorizada a fracionar pode entregar exatamente 21. Se não houver, entrega a menor quantidade de embalagens que cubra o tratamento e orienta o paciente a descartar as sobras em ponto de coleta, nunca a guardar para \"a próxima vez\".</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Receita de cefalexina 500 mg, 1 cápsula de 6 em 6 horas por 10 dias, quantidade \"40 cápsulas\", emitida há 12 dias. O farmacêutico não dispensa: a receita está vencida (IN 360/2025, art. 1º, § 2º). Orienta o paciente a voltar ao prescritor ou à unidade de saúde para nova receita e pergunta se o tratamento chegou a ser iniciado, para avaliar se há interrupção de terapia em curso.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Ao receber a receita, confira nesta ordem: data (validade), duas vias, legibilidade, paciente, medicamento e posologia, quantidade, emitente e assinatura. Se faltar dado do emitente, do medicamento ou a data, contate o prescritor pelo telefone da receita antes de dispensar.</p></div>\n"
+  },
+  {
+   "id": "m08-dispensacao",
+   "titulo": "Dispensação e retenção da receita",
+   "resumo": "\n<p>A dispensação de antimicrobiano é ato privativo do farmacêutico (Resolução CFF nº 542/2011, art. 1º). Ela inclui conferir a receita, avaliar o tratamento, entregar o medicamento, registrar o atendimento nas duas vias, reter a via certa e orientar o paciente (RDC 471/2021, art. 4º, IV).</p>\n<h3>Qual via fica na farmácia</h3>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"A dispensação em farmácias e drogarias públicas e privadas dar-se-á mediante a retenção da 2ª (segunda) via da receita, devendo a 1ª (primeira) via ser devolvida ao paciente.\" (RDC 471/2021, art. 10)</p></div>\n<p>A primeira via, a original, volta com o paciente: é o documento dele, com a posologia e a duração do tratamento. A segunda via fica retida para fiscalização e escrituração. A inversão (reter a original e devolver a cópia) é erro comum, herdado do costume com outras receitas.</p>\n<h3>Anotações obrigatórias</h3>\n<p>No ato da dispensação, o farmacêutico registra nas duas vias da receita (art. 10, § 3º):</p>\n<ol>\n<li>a data da dispensação;</li>\n<li>a quantidade aviada do medicamento abrangido pela RDC;</li>\n<li>o <strong>número do lote</strong> do medicamento dispensado;</li>\n<li>a rubrica do farmacêutico, atestando o atendimento, no verso da receita.</li>\n</ol>\n<p>O número do lote é exigência expressa e permite rastrear o produto em caso de desvio de qualidade ou recolhimento. Quando houver mais de um lote na mesma dispensação (duas caixas de lotes diferentes), anote os dois. Muitas farmácias usam carimbo de dispensação com campos para esses dados e para identificação do estabelecimento.</p>\n<h3>Idade, sexo e dados do comprador</h3>\n<p>Idade e sexo do paciente são dados obrigatórios da receita (art. 6º, I) e alimentam o SNGPC. No documento de 2025, a Anvisa orientou que o farmacêutico anote idade e sexo no verso do receituário, considerando o retorno do SNGPC como escrituração oficial (Perguntas e Respostas, item 11). A RDC 471 não exige identificação do comprador, ao contrário das notificações da Portaria 344/98. Para receitas eletrônicas, porém, a Anvisa orienta que a cópia impressa guardada tenha carimbo ou registro com os dados do comprador e da farmácia (item 5). Siga também a orientação da VISA local.</p>\n<h3>Receitas de outros estados</h3>\n<p>A RDC 471 não restringe receita de antimicrobiano por unidade da federação. Receita emitida em outro estado, dentro da validade e com todos os dados, pode ser atendida. Para a receita eletrônica, a Anvisa afirma que ela pode ser aceita em todo o território nacional desde que a farmácia consiga acessar o original e verificar a assinatura (Perguntas e Respostas, 2025, item 5).</p>\n<h3>Uso prolongado em mais de uma compra</h3>\n<p>No tratamento prolongado, cada atendimento dentro dos 90 dias repete as anotações do art. 10, § 3º (art. 13, parágrafo único). A Anvisa orienta que cada dispensação cubra no mínimo 30 dias de tratamento, sendo permitido entregar a quantidade para os 90 dias de uma vez (Perguntas e Respostas, 2025, item 6). Se o paciente comprar sempre na mesma farmácia, a segunda via é retida no primeiro atendimento e cada dispensação mensal é atestada em ambas as vias. Se comprar em outra farmácia, o farmacêutico confere as dispensações anteriores anotadas, faz cópia da via do paciente, atesta o novo atendimento nas duas e retém a cópia (item 7). Em todos os casos, ao menos uma via fica retida em cada estabelecimento que dispensou.</p>\n<h3>Dispensação da receita eletrônica</h3>\n<p>Com a receita eletrônica, o paciente costuma mostrar um código, um link ou um QR Code. O passo a passo prático é: abrir o documento original pelo link ou pela plataforma emissora; verificar a assinatura do prescritor em validador oficial; conferir os dados obrigatórios como em qualquer receita; verificar no próprio documento ou na plataforma se já houve dispensação anterior; registrar a dispensação, quando a plataforma permitir; baixar a cópia eletrônica e imprimir uma cópia para o arquivo, com os dados da farmácia, do comprador e a quantidade anotada no verso (Perguntas e Respostas, 2025, item 5). Como a receita eletrônica não tem duas vias físicas, o arquivo eletrônico e a cópia impressa cumprem o papel da via retida.</p>\n<h3>Entrega em domicílio e venda remota</h3>\n<p>No pedido por telefone ou aplicativo, a farmácia só pode separar o antimicrobiano depois de receber o documento que permita a retenção. Com receita em papel, o entregador recolhe a segunda via no ato da entrega e a traz para o farmacêutico conferir e registrar; o ideal é que o farmacêutico tenha visto uma imagem da receita antes da saída, para não mandar o produto com receita vencida ou incompleta. Com receita eletrônica, a conferência é feita antes do envio. A orientação ao paciente não desaparece: pode ser feita por telefone ou por escrito, junto com o produto.</p>\n<h3>Substituição e intercambialidade</h3>\n<p>O farmacêutico pode trocar o medicamento de referência pelo genérico correspondente, e por similar intercambiável, conforme as regras de intercambialidade, registrando a troca na receita. Não pode trocar uma substância por outra (amoxicilina por cefalexina, por exemplo), nem mudar dose, forma farmacêutica ou duração. Mudança de antimicrobiano é decisão do prescritor.</p>\n<h3>Prazos e recusas</h3>\n<ul>\n<li>Receita fora dos 10 dias: recusar (art. 10, § 1º).</li>\n<li>Receita ilegível ou rasurada: recusar ou confirmar com o prescritor e solicitar nova receita (art. 10, § 2º).</li>\n<li>Receita sem a segunda via: não reter a única via do paciente; solicitar segunda via ao prescritor.</li>\n<li>Receita com antimicrobiano e medicamento de controle especial na mesma folha: o antimicrobiano pode ser atendido se a receita cumprir o art. 6º; o controlado segue a Portaria 344/98 e exige receituário próprio.</li>\n</ul>\n<h3>Devolução e troca</h3>\n<p>Pessoa física não pode devolver à farmácia medicamento com substância da lista (art. 21). A exceção é o desvio de qualidade ou de quantidade, ou a divergência com a rotulagem, avaliada e documentada pelo farmacêutico. Aceita a devolução, o produto nunca volta ao estoque e a autoridade sanitária deve ser notificada imediatamente (art. 21, §§ 1º e 2º).</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Mãe apresenta receita de amoxicilina 250 mg/5 mL suspensão para a filha de 4 anos, emitida ontem, em duas vias, com posologia de 5 mL de 8 em 8 horas por 10 dias, quantidade \"2 frascos\". O farmacêutico confere os dados, calcula que o tratamento usa 150 mL e verifica o volume do frasco disponível. Dispensa os dois frascos, anota data, quantidade, lote e rubrica nas duas vias, devolve a primeira via e retém a segunda. Orienta a reconstituição, a conservação conforme a bula e o uso da seringa dosadora.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Monte uma rotina fixa: conferir, separar, conferir de novo contra a receita, anotar nas duas vias, reter a segunda, orientar. Deixar a anotação \"para depois\" é a causa mais comum de via retida sem lote ou sem rubrica na hora da fiscalização.</p></div>\n"
+  },
+  {
+   "id": "m08-escrituracao",
+   "titulo": "Escrituração no SNGPC e guarda das receitas",
+   "resumo": "\n<p>Escriturar é registrar a movimentação dos medicamentos sujeitos a controle sanitário: entradas (compras, transferências recebidas), saídas (vendas, transferências enviadas) e perdas (RDC 471/2021, art. 4º, VI). Para os medicamentos da RDC 471, o credenciamento e a escrituração de compra e venda devem ser feitos no SNGPC, conforme a RDC nº 22/2014 (art. 14).</p>\n<h3>Situação do SNGPC</h3>\n<p>Em dezembro de 2021, a RDC nº 586/2021 suspendeu temporariamente, e por tempo indeterminado, os prazos de transmissão de arquivos ao SNGPC. Durante a suspensão, as farmácias continuaram obrigadas a registrar toda a movimentação em sistema informatizado interno ou livro, que servia de instrumento oficial para a fiscalização. A retenção da receita nunca foi suspensa.</p>\n<p>Em 2025, a Anvisa restabeleceu a transmissão obrigatória em cronograma regional:</p>\n<div class=\"tab\"><table><thead><tr><th>Região</th><th>Início da transmissão obrigatória</th></tr></thead><tbody>\n<tr><td>Sudeste</td><td>1º de setembro de 2025</td></tr>\n<tr><td>Sul e Norte</td><td>1º de novembro de 2025</td></tr>\n<tr><td>Centro-Oeste e Nordeste</td><td>2 de janeiro de 2026</td></tr>\n</tbody></table></div>\n<p>Em outubro de 2026, portanto, a transmissão ao SNGPC é obrigatória em todas as regiões. O SNGPC abrange medicamentos da Portaria 344/98, antimicrobianos e agonistas do GLP-1 (CFF, 24/10/2025). Os arquivos XML devem ser enviados com intervalo mínimo de 1 e máximo de 7 dias consecutivos, conforme os §§ 3º e 4º do art. 10 da RDC 22/2014 (CFF, 06/05/2025). O descumprimento é infração sanitária.</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Só o farmacêutico responsável técnico, com cadastro válido na Anvisa, faz o inventário inicial e transmite os arquivos. O inventário inicial exige contagem física, e um novo arquivo só pode ser enviado depois que o anterior estiver com status \"Aceito\" (CFF, 24/10/2025).</p></div>\n<h3>Livro de registro específico</h3>\n<p>Em localidades sem internet, a vigilância sanitária local pode autorizar a escrituração em livro de registro específico, para cada categoria listada na IN, ou em sistema informatizado previamente avaliado e aprovado. Nesse caso, o prazo máximo para escriturar é de 7 dias a contar da dispensação (art. 14, parágrafo único, e art. 16). As farmácias públicas que dispensam mediante ressarcimento, como as do Programa Farmácia Popular, escrituram em livro ou sistema aprovado pela VISA local, com o mesmo prazo de 7 dias (art. 15).</p>\n<h3>O que entra na escrituração de saída</h3>\n<p>Cada venda de antimicrobiano gera um registro com o medicamento, a quantidade, o lote, a data, os dados do prescritor (inclusive o conselho e o número de inscrição, agora com campo para o Coren) e os dados do paciente exigidos pelo leiaute do sistema, como idade e sexo. Por isso a receita precisa estar completa: o que falta nela falta no arquivo.</p>\n<h3>Entradas, perdas e transferências</h3>\n<p>A escrituração não se limita às vendas. Toda nota fiscal de compra de medicamento abrangido gera uma entrada, com o produto, o lote e a quantidade. Perdas também são escrituradas: produto vencido, frasco quebrado, embalagem violada, medicamento recolhido por determinação sanitária. A perda precisa de documento que a comprove (registro interno assinado pelo farmacêutico e, quando for o caso, o comprovante de destinação a empresa de resíduos de serviços de saúde). Transferências entre filiais da mesma rede saem de um estabelecimento e entram no outro, cada qual com sua nota.</p>\n<p>O objetivo do sistema é que o estoque escriturado bata com o estoque físico. Se a farmácia tem registradas 12 caixas de azitromicina 500 mg do lote X e a prateleira mostra 10, alguma movimentação ficou sem registro: uma venda sem receita, uma perda não lançada ou um erro de digitação. Por isso, a contagem periódica dos antimicrobianos de maior giro é uma boa prática, mesmo sem exigência de frequência na RDC.</p>\n<h3>Sistema interno e período de transição</h3>\n<p>Durante a suspensão da transmissão (2021 a 2025), o sistema informatizado interno ou o livro era o instrumento oficial de escrituração. No retorno, a Anvisa orientou que não era preciso encerrar inventários em andamento para incluir os agonistas do GLP-1: bastava lançar as entradas ocorridas a partir de 23/06/2025 e seguir com as transmissões normais (Perguntas e Respostas, 2025, item 10). Para a farmácia que abre agora, o caminho é cadastrar o estabelecimento e o responsável técnico, fazer o inventário inicial com contagem física e iniciar as transmissões.</p>\n<h3>Guarda das receitas e documentos</h3>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"Os estabelecimentos deverão manter à disposição das autoridades sanitárias, por um período de 2 (dois) anos a documentação referente à compra, venda, transferência, perda e devolução das substâncias bem como dos medicamentos que as contenham substâncias listadas na Instrução Normativa específica, objeto dessa norma.\" (RDC 471/2021, art. 22)</p></div>\n<p>As segundas vias retidas, as notas fiscais de compra, as notas de transferência, os registros de perda (vencimento, quebra) e de devolução formam esse arquivo. Organize por mês e por ordem de data de dispensação; a fiscalização costuma cruzar receitas com saídas registradas.</p>\n<h3>Guarda da receita eletrônica</h3>\n<p>Para receitas eletrônicas, a Anvisa orienta guardar uma cópia eletrônica baixada, que serve de comprovante, e uma cópia impressa para consulta, com carimbo ou registro dos dados do comprador e da farmácia e a quantidade anotada no verso (Perguntas e Respostas, 2025, item 5).</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Venda registrada no caixa sem receita retida correspondente, ou receita retida sem lançamento no SNGPC, gera divergência de estoque. Divergência de estoque de medicamento controlado é um dos achados mais comuns em inspeção e pode levar a autuação do estabelecimento e a processo ético do responsável técnico.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Ao fim de cada turno, confira se cada antimicrobiano que saiu no caixa tem a segunda via retida com lote e rubrica, e se o lançamento foi feito no sistema. Resolver no mesmo dia é muito mais fácil do que reconstruir a movimentação na semana seguinte.</p></div>\n"
+  },
+  {
+   "id": "m08-infracoes",
+   "titulo": "Infrações e erros comuns",
+   "resumo": "\n<p>O descumprimento da RDC 471 é infração sanitária, nos termos da Lei nº 6.437/1977, sem prejuízo das responsabilidades civil, administrativa e penal (RDC 471/2021, art. 25). A Lei 6.437/1977 prevê penalidades como advertência, multa, apreensão de produto, interdição e cancelamento de autorização ou licença. Para o farmacêutico, a mesma conduta pode gerar processo ético no Conselho Regional de Farmácia.</p>\n<h3>Responsabilidade ética</h3>\n<p>O Código de Ética da Profissão Farmacêutica (Resolução CFF nº 724/2022) proíbe ao farmacêutico dispensar ou aviar prescrições em desacordo com a técnica farmacêutica, as boas práticas ou a legislação vigente (art. 17, XII), e expor, comercializar, dispensar ou entregar medicamento em contrariedade à legislação, ou permitir que isso seja feito (art. 17, VI). A Lei nº 13.021/2014 determina que o proprietário não pode desautorizar ou desconsiderar as orientações técnicas do farmacêutico (art. 11).</p>\n<h3>Erros mais frequentes</h3>\n<div class=\"tab\"><table><thead><tr><th>Erro</th><th>Por que é infração</th><th>Conduta correta</th></tr></thead><tbody>\n<tr><td>Vender sem receita, \"o cliente traz depois\"</td><td>Dispensação sem retenção (art. 2º)</td><td>Não dispensar; encaminhar</td></tr>\n<tr><td>Aceitar receita com mais de 10 dias</td><td>Receita vencida (art. 10, § 1º)</td><td>Recusar; orientar nova consulta</td></tr>\n<tr><td>Reter a 1ª via e devolver a 2ª</td><td>Contraria o art. 10</td><td>Reter a 2ª, devolver a 1ª</td></tr>\n<tr><td>Não anotar lote ou rubrica</td><td>Falta registro obrigatório (art. 10, § 3º)</td><td>Anotar nas duas vias no ato</td></tr>\n<tr><td>Atender receita rasurada ou ilegível</td><td>Vedado (art. 10, § 2º)</td><td>Confirmar com prescritor; nova receita</td></tr>\n<tr><td>Reutilizar receita comum em nova compra</td><td>Receita é aviada uma vez (art. 13)</td><td>Só reutilizar no uso contínuo do art. 9º</td></tr>\n<tr><td>Aceitar foto de receita</td><td>Sem original e sem segunda via</td><td>Exigir papel em 2 vias ou original eletrônico verificável</td></tr>\n<tr><td>Trocar antimicrobiano por outro</td><td>Altera a prescrição</td><td>Contatar prescritor</td></tr>\n<tr><td>Aceitar devolução e revender</td><td>Vedado (art. 21)</td><td>Só desvio de qualidade, sem reintegrar ao estoque</td></tr>\n<tr><td>Atrasar a escrituração</td><td>Prazo do SNGPC ou de 7 dias no livro</td><td>Escriturar na rotina diária</td></tr>\n<tr><td>Balconista dispensando sozinho</td><td>Ato privativo (Res. CFF 542/2011)</td><td>Farmacêutico confere e registra</td></tr>\n</tbody></table></div>\n<h3>Como a fiscalização costuma agir</h3>\n<p>Na inspeção, o fiscal da vigilância sanitária costuma pedir as segundas vias retidas de um período, os relatórios de movimentação do SNGPC ou do sistema interno e as notas fiscais de compra. Depois confere, por amostragem, se cada saída tem receita correspondente, se as receitas estavam dentro da validade no dia da dispensação, se trazem lote e rubrica e se o estoque físico confere. O fiscal do Conselho Regional de Farmácia, por sua vez, verifica a presença do farmacêutico e se a dispensação foi feita por ele. O CRF-SP, por exemplo, mantém um termo de orientação específico para dispensação de antimicrobianos com receituário incompleto ou inadequado.</p>\n<p>Para o farmacêutico, a melhor defesa é a rotina documentada: receitas organizadas por data, anotações completas, intervenções registradas e escrituração em dia. Uma farmácia que mostra procedimento escrito (POP de dispensação de antimicrobianos) e registros consistentes demonstra controle mesmo quando aparece um erro isolado.</p>\n<h3>Receitas incompletas: o que dá para resolver</h3>\n<div class=\"tab\"><table><thead><tr><th>Falha na receita</th><th>Conduta sugerida</th></tr></thead><tbody>\n<tr><td>Sem data</td><td>Não dispensar; sem data não há como contar a validade</td></tr>\n<tr><td>Sem concentração ou forma farmacêutica</td><td>Confirmar com o prescritor antes de dispensar</td></tr>\n<tr><td>Sem quantidade em algarismos</td><td>Confirmar com o prescritor; calcular pela posologia e duração não substitui o dado</td></tr>\n<tr><td>Sem idade e sexo do paciente</td><td>Perguntar e anotar no verso, conforme orientação da Anvisa de 2025</td></tr>\n<tr><td>Sem telefone ou endereço do emitente</td><td>Avaliar com a VISA local; o dado é obrigatório (art. 6º, III)</td></tr>\n<tr><td>Sem assinatura</td><td>Não dispensar</td></tr>\n</tbody></table></div>\n<p>As condutas acima são práticas de segurança. Quando o dado faltante é obrigatório e não pode ser obtido com o prescritor, a dispensação fica sem amparo na norma.</p>\n<h3>Situações de pressão no balcão</h3>\n<p>As infrações quase nunca nascem de desconhecimento da regra. Nascem de pressão: o cliente conhecido, o gerente preocupado com a venda perdida, o paciente que \"já toma esse remédio há anos\". Ter um roteiro de recusa ajuda: explicar a regra em uma frase, mostrar que a recusa protege o próprio paciente, oferecer o caminho (unidade básica, pronto atendimento, teleconsulta) e, quando cabível, oferecer alívio sintomático com medicamento isento de prescrição e critérios claros de retorno.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Homem de 52 anos pede ciprofloxacino \"porque sempre toma quando o xixi arde\" e se irrita com a recusa. O farmacêutico explica que, em homem, infecção urinária pede avaliação médica, inclusive por possível acometimento da próstata, e que a automedicação pode mascarar o quadro. Pergunta por febre, dor lombar e retenção urinária. Sem sinais de alarme, orienta procurar a unidade básica no mesmo dia. Com febre ou dor lombar, orienta pronto atendimento.</p></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>A venda sem receita de antimicrobiano costuma ser descoberta pelo cruzamento entre notas de compra, estoque físico e saídas escrituradas. Uma única venda \"por fora\" desequilibra o estoque e deixa rastro.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Combine com a equipe uma frase padrão para a recusa e deixe a decisão final com o farmacêutico. Registre as intervenções relevantes (contato com prescritor, recusa por receita vencida com encaminhamento) para documentar a conduta técnica.</p></div>\n"
+  },
+  {
+   "id": "m08-orientacao",
+   "titulo": "Orientação ao paciente na dispensação",
+   "resumo": "\n<p>A RDC 471 define a dispensação como o ato em que o farmacêutico informa e orienta o paciente sobre o uso adequado do medicamento, com ênfase no cumprimento do regime posológico, na influência dos alimentos, nas interações, nas reações adversas e na conservação (art. 4º, IV). A orientação clínica completa sobre antimicrobianos está no módulo 3; aqui fica o roteiro mínimo do balcão.</p>\n<h3>Roteiro mínimo</h3>\n<ol>\n<li><b>Horários</b>: transformar \"de 8 em 8 horas\" em horários concretos (por exemplo, 6 h, 14 h e 22 h) e escrever na embalagem.</li>\n<li><b>Duração</b>: tomar até o fim do período prescrito, mesmo com melhora, salvo orientação contrária do prescritor.</li>\n<li><b>Alimentos e outros medicamentos</b>: avisar quando o antimicrobiano deve ser separado de leite, antiácidos, cálcio, ferro ou zinco (tetraciclinas e quinolonas); o detalhamento está no módulo de interações.</li>\n<li><b>Álcool</b>: evitar com metronidazol durante o tratamento e após o fim (a bula brasileira pede pelo menos 1 dia; a bula norte-americana, 3 dias).</li>\n<li><b>Reações adversas</b>: diarreia leve é comum; diarreia intensa, com sangue ou febre, e qualquer sinal de alergia (urticária, inchaço de lábios, falta de ar) exigem procurar atendimento.</li>\n<li><b>Conservação</b>: suspensões reconstituídas seguem o prazo e a temperatura da bula; descartar a sobra no fim do tratamento.</li>\n<li><b>Retorno</b>: sem melhora em 48 a 72 horas, ou com piora, procurar o prescritor.</li>\n</ol>\n<div class=\"tab\"><table><thead><tr><th>Antimicrobiano</th><th>Orientação específica de balcão</th></tr></thead><tbody>\n<tr><td>Doxiciclina</td><td>Tomar com um copo cheio de água e não deitar logo após; proteger-se do sol</td></tr>\n<tr><td>Quinolonas</td><td>Separar de antiácidos, cálcio, ferro e zinco; procurar atendimento se houver dor em tendão</td></tr>\n<tr><td>Metronidazol</td><td>Evitar álcool; gosto metálico é esperado</td></tr>\n<tr><td>Amoxicilina com clavulanato</td><td>Tomar no início da refeição para reduzir desconforto gastrointestinal</td></tr>\n<tr><td>Nitrofurantoína</td><td>Tomar com alimento; urina pode escurecer</td></tr>\n</tbody></table></div>\n<h3>Situações que pedem atenção redobrada</h3>\n<ul>\n<li><b>Criança</b>: conferir se a dose prescrita em mg/kg é compatível com o peso informado; ensinar a medir na seringa dosadora, nunca em colher de cozinha.</li>\n<li><b>Gestante</b>: tetraciclinas e quinolonas costumam ser evitadas na gestação; diante de prescrição dessas classes para gestante, confirmar com o prescritor.</li>\n<li><b>Idoso</b>: perguntar pela função renal conhecida (nitrofurantoína, por exemplo, perde eficácia e ganha toxicidade com função renal reduzida) e pelos medicamentos de uso contínuo.</li>\n<li><b>Alergia relatada a penicilina</b>: diante de amoxicilina ou ampicilina, perguntar qual foi a reação e contatar o prescritor quando a alergia for provável.</li>\n</ul>\n<p>A orientação deve caber em dois ou três minutos e terminar com uma pergunta de checagem (\"Como o senhor vai tomar?\"). Quando há muita informação, escreva os horários na caixa ou entregue um cartão de horários.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Pergunte sempre se o paciente usa varfarina, anticoncepcional, antiácido, suplemento de cálcio ou ferro, levotiroxina ou estatina, e se tem alergia conhecida. Essas quatro perguntas pegam a maior parte das interações relevantes com antimicrobianos orais.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 29 anos recebe azitromicina 500 mg, 1 comprimido ao dia por 3 dias. Ela pergunta se pode parar no segundo dia, porque já melhorou. O farmacêutico explica que a dose total prescrita faz parte do tratamento, que o esquema curto já é o completo e que interromper antes aumenta o risco de falha. Confirma que ela não usa outros medicamentos que prolongam o intervalo QT.</p></div>\n"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m08-mapa-receita",
+   "titulo": "Receita e validade",
+   "centro": "Receita de antimicrobiano",
+   "ramos": [
+    {
+     "t": "Formato",
+     "itens": [
+      "Receituário comum do prescritor ou serviço",
+      "Sem modelo oficial (art. 6º)",
+      "Duas vias, legível, sem rasura",
+      "Eletrônica: assinatura avançada no mínimo"
+     ]
+    },
+    {
+     "t": "Dados obrigatórios",
+     "itens": [
+      {
+       "t": "Paciente",
+       "itens": [
+        "Nome completo",
+        "Idade",
+        "Sexo"
+       ]
+      },
+      {
+       "t": "Medicamento",
+       "itens": [
+        "DCB, dose ou concentração",
+        "Forma farmacêutica e posologia",
+        "Quantidade em algarismos"
+       ]
+      },
+      {
+       "t": "Emitente",
+       "itens": [
+        "Nome e conselho ou instituição",
+        "Endereço completo e telefone",
+        "Assinatura e carimbo"
+       ]
+      },
+      "Data da emissão"
+     ]
+    },
+    {
+     "t": "Validade",
+     "itens": [
+      "Antimicrobiano: 10 dias (IN 360/2025)",
+      "Aviada uma única vez (art. 13)",
+      "GLP-1: 90 dias",
+      "Vencida: recusar (art. 10, § 1º)"
+     ]
+    },
+    {
+     "t": "Tratamento prolongado",
+     "itens": [
+      "Mais de 30 dias de terapia",
+      "Indicar uso contínuo",
+      "Quantidade para cada 30 dias",
+      "Compras em até 90 dias da emissão"
+     ]
+    },
+    {
+     "t": "Quem prescreve",
+     "itens": [
+      "Profissional legalmente habilitado",
+      "Médico; dentista em odontologia",
+      "Enfermeiro em programa ou protocolo"
+     ]
+    },
+    {
+     "t": "Mesma receita",
+     "itens": [
+      "Pode ter outros não controlados",
+      "Sem limite de itens da RDC 471",
+      "Controlado: receituário próprio"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m08-mapa-dispensacao",
+   "titulo": "Dispensação e escrituração",
+   "centro": "Dispensar e escriturar",
+   "ramos": [
+    {
+     "t": "Retenção",
+     "itens": [
+      "Retém a 2ª via",
+      "Devolve a 1ª ao paciente",
+      "Ato privativo do farmacêutico"
+     ]
+    },
+    {
+     "t": "Anotar nas duas vias",
+     "itens": [
+      "Data da dispensação",
+      "Quantidade aviada",
+      "Número do lote",
+      "Rubrica no verso"
+     ]
+    },
+    {
+     "t": "Quantidade",
+     "itens": [
+      "Atender ao tratamento prescrito",
+      "Fracionável quando houver (RDC 80/2006)",
+      "Uso contínuo: no mínimo 30 dias por vez"
+     ]
+    },
+    {
+     "t": "SNGPC",
+     "itens": [
+      "Obrigatório em todas as regiões em 2026",
+      "XML a cada 1 a 7 dias",
+      "Sem internet: livro, 7 dias",
+      "Só o RT transmite"
+     ]
+    },
+    {
+     "t": "Guarda",
+     "itens": [
+      "Documentos por 2 anos (art. 22)",
+      "Eletrônica: cópia digital e impressa",
+      "Compras, vendas, perdas, devoluções"
+     ]
+    },
+    {
+     "t": "Proibições",
+     "itens": [
+      "Devolução por pessoa física",
+      "Exceção: desvio de qualidade",
+      "Nunca reintegrar ao estoque",
+      "Infração: Lei 6.437/1977"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "receita",
+   "id": "m08-receita-modelo",
+   "titulo": "Receita de antimicrobiano (RDC 471/2021)",
+   "cor": "branca",
+   "subtitulo": "Receituário comum do prescritor ou do estabelecimento, em duas vias",
+   "numeracao": "Não há numeração oficial nem talonário fornecido pela vigilância sanitária; a receita não depende de cadastro prévio do prescritor.",
+   "secoes": [
+    {
+     "t": "Identificação do emitente",
+     "campos": [
+      "Nome do profissional ou nome da instituição",
+      "Inscrição no Conselho Regional",
+      "Endereço completo",
+      "Telefone"
+     ]
+    },
+    {
+     "t": "Identificação do paciente",
+     "campos": [
+      "Nome completo",
+      "Idade",
+      "Sexo"
+     ]
+    },
+    {
+     "t": "Prescrição",
+     "campos": [
+      "Nome do medicamento ou substância (DCB)",
+      "Dose ou concentração",
+      "Forma farmacêutica",
+      "Posologia",
+      "Quantidade em algarismos arábicos"
+     ]
+    },
+    {
+     "t": "Data e assinatura",
+     "campos": [
+      "Data da emissão",
+      "Assinatura do prescritor",
+      "Marcação gráfica (carimbo)"
+     ]
+    },
+    {
+     "t": "Registro da dispensação (nas duas vias)",
+     "campos": [
+      "Data da dispensação",
+      "Quantidade aviada",
+      "Número do lote",
+      "Rubrica do farmacêutico no verso"
+     ]
+    }
+   ],
+   "regras": [
+    [
+     "Vias",
+     "Duas: a 2ª fica retida na farmácia, a 1ª volta ao paciente (art. 10)"
+    ],
+    [
+     "Validade",
+     "10 dias a contar da emissão (IN 360/2025, art. 1º, § 2º)"
+    ],
+    [
+     "Tratamento prolongado",
+     "Até 90 dias da emissão, com uso contínuo e quantidade por 30 dias (art. 9º)"
+    ],
+    [
+     "Abrangência",
+     "Sem restrição por estado; eletrônica aceita em todo o país se verificável"
+    ],
+    [
+     "Outros itens",
+     "Pode incluir medicamentos não sujeitos a controle especial (art. 8º)"
+    ],
+    [
+     "Guarda",
+     "2 anos à disposição da vigilância sanitária (art. 22)"
+    ]
+   ],
+   "obs": "A RDC 471/2021 não tem modelo oficial (art. 6º); a ordem dos campos acima segue o parágrafo único do art. 6º e o § 3º do art. 10."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m08-tab-requisitos",
+   "titulo": "Requisitos da receita e da dispensação",
+   "colunas": [
+    "Item",
+    "Exigência",
+    "Artigo"
+   ],
+   "linhas": [
+    [
+     "Prescritor",
+     "Profissional legalmente habilitado",
+     "RDC 471, art. 5º"
+    ],
+    [
+     "Receituário",
+     "Privativo do prescritor ou do estabelecimento; sem modelo específico",
+     "art. 6º"
+    ],
+    [
+     "Forma",
+     "Legível, sem rasuras, em 2 vias",
+     "art. 6º, parágrafo único"
+    ],
+    [
+     "Paciente",
+     "Nome completo, idade e sexo",
+     "art. 6º, I"
+    ],
+    [
+     "Medicamento",
+     "DCB, dose ou concentração, forma farmacêutica, posologia, quantidade em algarismos",
+     "art. 6º, II"
+    ],
+    [
+     "Emitente",
+     "Nome e inscrição no conselho ou instituição, endereço, telefone, assinatura, carimbo",
+     "art. 6º, III"
+    ],
+    [
+     "Data",
+     "Data da emissão",
+     "art. 6º, IV"
+    ],
+    [
+     "Validade",
+     "Conforme a IN: 10 dias para antimicrobianos",
+     "art. 7º; IN 360/2025, art. 1º, § 2º"
+    ],
+    [
+     "Outros medicamentos",
+     "Permitidos se não forem de controle especial; sem limite de itens",
+     "art. 8º"
+    ],
+    [
+     "Tratamento prolongado",
+     "Até 90 dias; uso contínuo e quantidade por 30 dias",
+     "art. 9º"
+    ],
+    [
+     "Retenção",
+     "Reter a 2ª via e devolver a 1ª",
+     "art. 10"
+    ],
+    [
+     "Anotações",
+     "Data, quantidade, lote e rubrica nas duas vias",
+     "art. 10, § 3º"
+    ],
+    [
+     "Quantidade",
+     "Atender ao tratamento; fracionável quando houver",
+     "art. 11"
+    ],
+    [
+     "Uso único",
+     "Receita aviada uma vez, salvo art. 9º",
+     "art. 13"
+    ],
+    [
+     "Escrituração",
+     "SNGPC; livro ou sistema aprovado só onde não há internet (7 dias)",
+     "arts. 14 a 16"
+    ],
+    [
+     "Devolução",
+     "Vedada, salvo desvio de qualidade documentado",
+     "art. 21"
+    ],
+    [
+     "Guarda",
+     "2 anos",
+     "art. 22"
+    ]
+   ],
+   "nota": "Artigos da RDC 471/2021 com a redação dada pela RDC 973/2025."
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m08-fluxo-dispensacao",
+   "titulo": "Dispensação de antimicrobiano",
+   "passos": [
+    {
+     "t": "Paciente apresenta receita com antimicrobiano",
+     "tipo": "inicio"
+    },
+    {
+     "t": "A substância está na lista da IN 360/2025?",
+     "tipo": "decisao",
+     "sim": "Seguir o fluxo da RDC 471",
+     "nao": "Dispensar pelas regras gerais da receita comum"
+    },
+    {
+     "t": "Receita dentro de 10 dias, ou no prazo de uso contínuo?",
+     "tipo": "decisao",
+     "sim": "Seguir",
+     "nao": "Recusar e orientar nova consulta"
+    },
+    {
+     "t": "Há duas vias legíveis, sem rasura, ou original eletrônico com assinatura verificável?",
+     "tipo": "decisao",
+     "sim": "Seguir",
+     "nao": "Não dispensar; solicitar segunda via ou nova receita"
+    },
+    {
+     "t": "Dados do paciente, do medicamento, do emitente e data completos?",
+     "tipo": "decisao",
+     "sim": "Seguir",
+     "nao": "Contatar o prescritor; não dispensar com dado essencial faltando"
+    },
+    {
+     "t": "Avaliar dose, duração, alergias e interações",
+     "tipo": "acao"
+    },
+    {
+     "t": "Problema clínico relevante encontrado?",
+     "tipo": "decisao",
+     "sim": "Contatar o prescritor e registrar a intervenção",
+     "nao": "Separar a quantidade que atende ao tratamento"
+    },
+    {
+     "t": "Anotar data, quantidade, lote e rubrica nas duas vias",
+     "tipo": "acao"
+    },
+    {
+     "t": "Reter a 2ª via e devolver a 1ª ao paciente",
+     "tipo": "acao"
+    },
+    {
+     "t": "Orientar horários, duração, alimentos, álcool e sinais de alerta",
+     "tipo": "acao"
+    },
+    {
+     "t": "Lançar a saída no SNGPC dentro do prazo",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Arquivar a 2ª via por 2 anos",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "id": "m08-check-receita",
+   "titulo": "Conferência da receita de antimicrobiano",
+   "itens": [
+    "Conferir na IN 360/2025 se alguma substância da fórmula está listada",
+    "Conferir a data de emissão e contar os 10 dias",
+    "Verificar se há indicação de uso contínuo e quantidade por 30 dias, quando for tratamento prolongado",
+    "Confirmar duas vias legíveis e sem rasuras",
+    "Na receita eletrônica, abrir o original e validar a assinatura",
+    "Conferir nome completo, idade e sexo do paciente",
+    "Conferir DCB, dose ou concentração, forma farmacêutica, posologia e quantidade em algarismos",
+    "Conferir nome, conselho e número, endereço, telefone, assinatura e carimbo do emitente",
+    "Verificar se não há medicamento de controle especial na mesma folha",
+    "Calcular a quantidade que atende ao tratamento",
+    "Perguntar por alergias, gestação e medicamentos em uso",
+    "Anotar data, quantidade, lote e rubrica nas duas vias",
+    "Reter a 2ª via e devolver a 1ª",
+    "Lançar a saída no SNGPC"
+   ]
+  },
+  {
+   "tipo": "tabela",
+   "id": "m08-tab-comparativo",
+   "titulo": "RDC 20/2011 e RDC 471/2021 comparadas",
+   "colunas": [
+    "Aspecto",
+    "RDC 20/2011",
+    "RDC 471/2021 (texto vigente)"
+   ],
+   "linhas": [
+    [
+     "Situação",
+     "Revogada (RDC 471, art. 26, I)",
+     "Vigente, alterada pela RDC 973/2025"
+    ],
+    [
+     "Lista de substâncias",
+     "Anexo da própria resolução",
+     "Instrução Normativa específica (hoje IN 360/2025)"
+    ],
+    [
+     "Alcance",
+     "Somente antimicrobianos",
+     "Antimicrobianos e, desde 23/06/2025, agonistas do GLP-1"
+    ],
+    [
+     "Validade da receita",
+     "10 dias",
+     "Definida na IN: 10 dias (antimicrobianos), 90 dias (GLP-1)"
+    ],
+    [
+     "Vias e retenção",
+     "Duas vias, com retenção de uma pela farmácia",
+     "Retém a 2ª via e devolve a 1ª (art. 10)"
+    ],
+    [
+     "Tratamento prolongado",
+     "Até 90 dias",
+     "Até 90 dias, com uso contínuo e quantidade por 30 dias (art. 9º)"
+    ],
+    [
+     "Fracionamento",
+     "Possível conforme RDC 80/2006",
+     "Dispensação deve atender ao tratamento, inclusive por apresentação fracionável (art. 11)"
+    ],
+    [
+     "Escrituração",
+     "SNGPC",
+     "SNGPC (RDC 22/2014); livro só sem internet, com autorização (art. 14)"
+    ],
+    [
+     "Venda remota",
+     "Seguia a RDC 44/2009",
+     "Não vedada, observada a RDC 44/2009 (art. 12)"
+    ],
+    [
+     "Rotulagem",
+     "Frase de retenção na embalagem",
+     "Frase em caixa alta na bula e no rótulo (art. 18)"
+    ]
+   ],
+   "nota": "A coluna da RDC 20/2011 é histórica e resumida; para a prática, vale apenas a coluna da direita. Confira o texto da RDC 20/2011 se precisar de detalhe de artigo."
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m08-cartoes",
+   "titulo": "Cartões de revisão: RDC 471/2021",
+   "itens": [
+    {
+     "f": "Validade da receita de antimicrobiano?",
+     "v": "10 dias a contar da emissão (IN 360/2025, art. 1º, § 2º)."
+    },
+    {
+     "f": "Qual via fica retida na farmácia?",
+     "v": "A 2ª via; a 1ª é devolvida ao paciente (art. 10)."
+    },
+    {
+     "f": "Quatro anotações obrigatórias nas duas vias?",
+     "v": "Data da dispensação, quantidade aviada, número do lote e rubrica do farmacêutico (art. 10, § 3º)."
+    },
+    {
+     "f": "Dados obrigatórios do paciente?",
+     "v": "Nome completo, idade e sexo (art. 6º, I)."
+    },
+    {
+     "f": "Existe modelo oficial de receita de antimicrobiano?",
+     "v": "Não. Receituário privativo do prescritor ou do estabelecimento, em duas vias (art. 6º)."
+    },
+    {
+     "f": "O que é tratamento prolongado na RDC 471?",
+     "v": "Terapia por mais de 30 dias (art. 4º, XIV)."
+    },
+    {
+     "f": "Regra da receita de uso contínuo?",
+     "v": "Compras em até 90 dias da emissão, com uso contínuo e quantidade por 30 dias indicados (art. 9º)."
+    },
+    {
+     "f": "Pomada com neomicina exige retenção?",
+     "v": "Sim. A regra segue a substância listada, independentemente da via."
+    },
+    {
+     "f": "Antimicrobianos fora da lista da IN 360?",
+     "v": "Os de uso exclusivo hospitalar (art. 1º, § 1º)."
+    },
+    {
+     "f": "Assinatura mínima da receita eletrônica, segundo a Anvisa?",
+     "v": "Assinatura eletrônica avançada (Lei 14.063/2020), com acesso ao original para verificação."
+    },
+    {
+     "f": "Prazo de guarda dos documentos?",
+     "v": "2 anos (art. 22)."
+    },
+    {
+     "f": "Prazo de escrituração em livro onde não há internet?",
+     "v": "Até 7 dias da dispensação (art. 14, parágrafo único)."
+    },
+    {
+     "f": "Intervalo de envio de arquivos ao SNGPC?",
+     "v": "Mínimo de 1 e máximo de 7 dias consecutivos (RDC 22/2014, art. 10)."
+    },
+    {
+     "f": "Quem dispensa e controla antimicrobianos?",
+     "v": "O farmacêutico, como atribuição privativa (Res. CFF 542/2011)."
+    },
+    {
+     "f": "Validade da receita de semaglutida?",
+     "v": "90 dias, com retenção (IN 360/2025, art. 2º, § 1º)."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m08-questoes",
+   "titulo": "Questões: RDC 471/2021",
+   "itens": [
+    {
+     "p": "Paciente apresenta receita de cefalexina 500 mg emitida há 12 dias, sem indicação de uso contínuo. Conforme a norma vigente, o farmacêutico deve:",
+     "alt": [
+      "dispensar, pois a validade é de 30 dias",
+      "recusar, pois a validade é de 10 dias",
+      "dispensar metade da quantidade prescrita",
+      "dispensar e anotar o atraso no verso",
+      "dispensar se a receita for do mesmo estado"
+     ],
+     "c": 1,
+     "com": "A IN 360/2025 (art. 1º, § 2º), à qual remete o art. 7º da RDC 471/2021, fixa validade de 10 dias para receitas de antimicrobianos, e o art. 10, § 1º, proíbe aceitar receita vencida. Não há validade de 30 dias, dispensação parcial ou ressalva por estado."
+    },
+    {
+     "p": "Sobre a retenção da receita de antimicrobiano em drogaria, é correto afirmar que:",
+     "alt": [
+      "a 1ª via fica retida e a 2ª volta ao paciente",
+      "as duas vias ficam retidas",
+      "a 2ª via fica retida e a 1ª volta ao paciente",
+      "nenhuma via é retida se houver SNGPC",
+      "retém-se uma cópia simples da 1ª via"
+     ],
+     "c": 2,
+     "com": "O art. 10 da RDC 471/2021 determina a retenção da 2ª via e a devolução da 1ª ao paciente. Reter a original ou as duas vias contraria a norma, e a escrituração no SNGPC não dispensa a retenção."
+    },
+    {
+     "p": "Na dispensação de amoxicilina, NÃO é anotação exigida nas duas vias pela RDC 471/2021:",
+     "alt": [
+      "data da dispensação",
+      "quantidade aviada",
+      "número do lote",
+      "rubrica do farmacêutico",
+      "CPF do comprador"
+     ],
+     "c": 4,
+     "com": "O art. 10, § 3º, exige data, quantidade, lote e rubrica no verso. A RDC 471 não exige identificação do comprador; essa exigência é típica das notificações de receita da Portaria 344/98."
+    },
+    {
+     "p": "Cliente pede pomada de neomicina com bacitracina sem receita, alegando ser de uso tópico. A conduta correta é:",
+     "alt": [
+      "vender, pois os produtos de uso tópico estão excluídos da norma",
+      "exigir receita, porque as substâncias estão listadas na IN",
+      "vender, desde que anote nome e documento do cliente no caixa",
+      "exigir receita só se for para criança",
+      "vender a menor embalagem disponível"
+     ],
+     "c": 1,
+     "com": "A RDC 471/2021 abrange medicamentos com substâncias listadas na IN, isoladas ou em associação (art. 1º), sem exclusão por via. Neomicina e bacitracina estão na IN 360/2025. A única exclusão expressa é a dos antimicrobianos de uso exclusivo hospitalar."
+    },
+    {
+     "p": "Receita de limeciclina para acne, com 'uso contínuo' e quantidade para cada 30 dias, emitida há 50 dias. A paciente já comprou o primeiro mês na mesma farmácia. Agora:",
+     "alt": [
+      "pode comprar o segundo mês, com novas anotações nas vias",
+      "precisa de nova receita, pois já se passaram mais de 10 dias",
+      "pode comprar, mas a farmácia fica dispensada de anotar o lote",
+      "só pode comprar mediante notificação de receita do tipo B",
+      "pode comprar apenas em outra farmácia, com cópia da receita"
+     ],
+     "c": 0,
+     "com": "No tratamento prolongado, a receita vale para aquisições em até 90 dias da emissão, se indicar uso contínuo e quantidade por 30 dias (art. 9º). Cada atendimento repete as anotações do art. 10, § 3º (art. 13, parágrafo único)."
+    },
+    {
+     "p": "Sobre a receita eletrônica de antimicrobiano, segundo a Anvisa (2025):",
+     "alt": [
+      "só vale com certificado ICP-Brasil emitido para o paciente",
+      "não é aceita para antimicrobianos, só para GLP-1",
+      "vale com foto enviada pelo aplicativo de mensagens",
+      "exige assinatura avançada e acesso ao original",
+      "só vale no estado onde o prescritor está inscrito"
+     ],
+     "c": 3,
+     "com": "O Perguntas e Respostas da Anvisa sobre RDC 471 e IN 360 (2025) admite receita eletrônica com assinatura avançada do prescritor (Lei 14.063/2020), aceita em todo o país se a farmácia puder acessar o original e verificar a assinatura. Foto não é documento eletrônico assinado."
+    },
+    {
+     "p": "Por quanto tempo a drogaria deve manter as segundas vias de receitas de antimicrobianos à disposição da vigilância sanitária?",
+     "alt": [
+      "6 meses",
+      "1 ano",
+      "2 anos",
+      "5 anos",
+      "10 anos"
+     ],
+     "c": 2,
+     "com": "O art. 22 da RDC 471/2021 determina manter por 2 anos a documentação de compra, venda, transferência, perda e devolução."
+    },
+    {
+     "p": "Em outubro de 2026, uma drogaria do Nordeste que vende antimicrobianos deve:",
+     "alt": [
+      "usar só sistema interno, pois o SNGPC segue suspenso",
+      "transmitir ao SNGPC apenas medicamentos da Portaria 344",
+      "transmitir ao SNGPC a cada 30 dias",
+      "escriturar em livro, sem autorização da VISA",
+      "transmitir ao SNGPC com intervalo de 1 a 7 dias"
+     ],
+     "c": 4,
+     "com": "A Anvisa restabeleceu a transmissão obrigatória com início em 02/01/2026 para Centro-Oeste e Nordeste; o SNGPC abrange antimicrobianos, e o intervalo de envio é de 1 a 7 dias (RDC 22/2014, art. 10). Livro só onde não há internet e com autorização da VISA (RDC 471, art. 14)."
+    },
+    {
+     "p": "Paciente quer devolver uma caixa fechada de azitromicina porque o médico trocou o antibiótico. O farmacêutico deve:",
+     "alt": [
+      "aceitar e devolver o produto ao estoque comercializável",
+      "aceitar e trocar pelo novo antibiótico prescrito",
+      "aceitar, desde que o cliente apresente a nota fiscal",
+      "recusar, pois a norma veda a devolução nesse caso",
+      "aceitar e registrar a entrada no SNGPC como devolução"
+     ],
+     "c": 3,
+     "com": "O art. 21 da RDC 471/2021 veda a devolução por pessoa física. A exceção é desvio de qualidade ou de quantidade, ou divergência com a rotulagem; mesmo aceita, o produto nunca volta ao estoque e a autoridade sanitária deve ser notificada."
+    },
+    {
+     "p": "Receita traz, na mesma folha, amoxicilina e clonazepam. Sobre a amoxicilina:",
+     "alt": [
+      "pode ser dispensada se a receita cumprir a RDC 471",
+      "nunca pode ser dispensada a partir dessa receita",
+      "passa a exigir notificação de receita do tipo B",
+      "só pode ser dispensada junto com o clonazepam",
+      "deve ser dispensada sem retenção de nenhuma via"
+     ],
+     "c": 0,
+     "com": "O art. 8º permite outros medicamentos na receita de antimicrobiano, desde que não sejam de controle especial. O clonazepam exige receituário próprio da Portaria 344/98 e não pode ser atendido assim; a amoxicilina segue a RDC 471 se a receita estiver completa."
+    },
+    {
+     "p": "Uma receita de semaglutida emitida há 60 dias, em duas vias e completa, pode ser atendida?",
+     "alt": [
+      "Não, pois vale 10 dias",
+      "Não, pois exige notificação azul",
+      "Sim, pois vale 90 dias, com retenção",
+      "Sim, sem retenção de via",
+      "Só com laudo médico anexo"
+     ],
+     "c": 2,
+     "com": "Desde 23/06/2025, os agonistas do GLP-1 seguem a RDC 471/2021 com validade de 90 dias (IN 360/2025, art. 2º, § 1º), com retenção da receita e escrituração. Os 10 dias valem para antimicrobianos."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 471, de 23 de fevereiro de 2021. Diário Oficial da União, 24/02/2021, Seção 1, p. 85. Texto consolidado com alterações da RDC nº 973/2025 e da Resolução nº 768/2022 (consultado em legisweb.com.br, out. 2026).",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 973, de 23 de abril de 2025. Altera a RDC nº 471/2021. Diário Oficial da União, 24/04/2025, Seção 1, p. 226.",
+  "Anvisa. Instrução Normativa IN nº 360, de 23 de abril de 2025. Define a lista de substâncias de uso sob prescrição e retenção da receita de que trata a RDC nº 471/2021. Diário Oficial da União, 24/04/2025, Seção 1, p. 225.",
+  "Anvisa (GGMON/GPCON). Perguntas & Respostas: Mudanças na comercialização e escrituração de medicamentos agonistas do receptor do GLP-1. RDC nº 471/2021 e IN nº 360/2025. 1ª ed., versão de 30/06/2025. https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/monitoramento/farmacovigilancia/perguntas-e-respostas/perguntas-respostas-mudancas-na-comercializacao-e-escrituracao-dos-medicamentos-inibidores-glp-1",
+  "Conselho Federal de Farmácia. Anvisa reestabelece prazos para transmissão obrigatória de arquivos eletrônicos ao SNGPC. Notícia de 06/05/2025. https://site.cff.org.br",
+  "Conselho Federal de Farmácia. SNGPC: Sistema Nacional de Gerenciamento de Produtos Controlados. Notícia de 24/10/2025. https://site.cff.org.br",
+  "Conselho Federal de Enfermagem. Notícia sobre a inclusão do registro do enfermeiro no SNGPC para receitas de antimicrobianos, 12/09/2025. https://www.cofen.gov.br",
+  "CRF-SP. Orientação Farmacêutica: Dispensação de antimicrobianos sujeitos ao controle da RDC nº 471/21 mediante receituários com preenchimento inadequado/incompleto. 2023 (inclui trechos da Res. CFF 542/2011, Res. CFF 724/2022 e Lei 13.021/2014).",
+  "Bulas brasileiras de metronidazol comprimido (seção de interações: álcool), consultadas em out. 2026."
+ ]
+}
