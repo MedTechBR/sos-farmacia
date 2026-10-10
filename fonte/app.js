@@ -1,8 +1,24 @@
 (function () {
 'use strict';
 
-/* Cópia intacta do arquivo, tirada antes de qualquer desenho: é a base de "Salvar arquivo". */
-const ORIGEM = '<!doctype html>\n' + document.documentElement.outerHTML;
+/* Conta MedTech (10/10/2026): no site (medtechbr.com.br/sos-farmacia/) o casca.html liga o portão de
+   login e a checagem de compra (mtsync.js + /_mtacesso.js + conta-sos.js) e marca window.__sosPortao.
+   Aberto do computador (file://) ou no localhost, nada disso entra e o app é a ferramenta do dono, como antes.
+   No site, edição, "Salvar arquivo", importar/exportar conteúdo e marca-d'água livre ficam só para a
+   conta de administração (SOS.liberarEdicao); o cliente lê, estuda e gera PDF com a marca-d'água
+   travada em "Licenciado para <e-mail da conta>" (SOS.cliente). Nada do aparelho é apagado. */
+const PORTAO = window.__sosPortao === true;
+let podeEditar = !PORTAO, licenciado = '';
+/* Cópia intacta do arquivo, tirada antes de qualquer desenho: é a base de "Salvar arquivo".
+   Sai sem o que o portão de login pôs na página (classe, estilo e o script carregado por ele). */
+const ORIGEM = (() => {
+  const c = document.documentElement.cloneNode(true);
+  c.classList.remove('mts-trava'); if (!c.classList.length) c.removeAttribute('class');
+  c.querySelectorAll('#mtsCSS,#mtsPortao,#mta,#mta-css,#mtc,[data-sos-portao]').forEach(n => n.remove());
+  [...c.style].filter(k => k.startsWith('--mts-')).forEach(k => c.style.removeProperty(k));
+  if (!c.getAttribute('style')) c.removeAttribute('style');
+  return '<!doctype html>\n' + c.outerHTML;
+})();
 const CHAVE = 'sos-farmacia:';
 const DADOS = JSON.parse(document.getElementById('sos-dados').textContent);
 const GLIFO = /*GLIFOS*/{};
@@ -367,6 +383,7 @@ function itemModulo(m, atual) {
 function moldura(atual) {
   $('#abas').innerHTML = `<a class="aba" href="#/" style="--c:var(--marca)" ${atual ? '' : 'aria-current="true"'}>${ic('home')}<span>Início</span></a>` +
     `<div class="navGrupo">Módulos</div>` + DADOS.modulos.map(m => itemModulo(m, atual)).join('');
+  document.body.classList.toggle('sos-leitura', !podeEditar);
   $('#bt-editar').classList.toggle('on', editando);
   $('#bt-editar span').textContent = editando ? 'Editando' : 'Editar';
   $('#bt-salvar').classList.toggle('alerta', alterado);
@@ -386,7 +403,7 @@ function gaveta(tipo) {
   g.innerHTML = `<div class="puxa"></div>` + (tipo === 'modulos'
     ? `<a class="aba" href="#/" style="--c:var(--marca)">${ic('home')}<span>Início</span></a>` + DADOS.modulos.map(m => itemModulo(m, (moduloAtual() || {}).id)).join('')
     : `<div class="gradeMais">${[['pdf', 'file-type-pdf', 'Gerar PDF'], ['editar', 'pencil', editando ? 'Sair da edição' : 'Editar'], ['salvar', 'device-floppy', 'Salvar arquivo'], ['tema', 'moon', 'Tema'], ['ajustes', 'settings', 'Ajustes'], ['buscar', 'search', 'Buscar']]
-      .map(([a, i, r]) => `<button data-mais="${a}">${ic(i)}${r}</button>`).join('')}</div>`);
+      .filter(([a]) => podeEditar || (a !== 'editar' && a !== 'salvar')).map(([a, i, r]) => `<button data-mais="${a}">${ic(i)}${r}</button>`).join('')}</div>`);
   g.addEventListener('click', e => { if (e.target.closest('a')) fecha(); const b = e.target.closest('[data-mais]'); if (b) { fecha(); acaoGeral(b.dataset.mais); } });
   document.body.append(veu, g);
 }
@@ -568,7 +585,7 @@ function rota() {
 
 /* ---------------- edição ---------------- */
 function ativaEdicao() { $$('[data-edit]').forEach(el => { if (editando) el.contentEditable = 'true'; else el.removeAttribute('contenteditable'); }); }
-function alternaEdicao() { commitTodos(); editando = !editando; document.body.classList.toggle('editando', editando); try { document.execCommand('defaultParagraphSeparator', false, 'p'); } catch (e) { /* antigo */ } rota(); aviso(editando ? 'Modo edição ligado: clique em um texto para alterar.' : 'Modo edição desligado.'); }
+function alternaEdicao() { if (!podeEditar) return; commitTodos(); editando = !editando; document.body.classList.toggle('editando', editando); try { document.execCommand('defaultParagraphSeparator', false, 'p'); } catch (e) { /* antigo */ } rota(); aviso(editando ? 'Modo edição ligado: clique em um texto para alterar.' : 'Modo edição desligado.'); }
 function marcaAlterado() {
   alterado = true; indice = null;
   if (!gravarLS('rascunho', { base: DADOS.versao, quando: new Date().toISOString(), dados: DADOS })) aviso('O navegador não guardou o rascunho (sem espaço). Salve o arquivo agora.');
@@ -742,6 +759,7 @@ function htmlComDados() {
   return ORIGEM.slice(0, ini) + abre + json + ORIGEM.slice(fim);
 }
 async function salvarArquivo() {
+  if (!podeEditar) return;
   commitTodos();
   const anterior = DADOS.versao;
   DADOS.versao = new Date().toISOString();
@@ -767,16 +785,39 @@ function verificaRascunho() {
   $('#rs-desc', d).onclick = () => { if (confirm('Descartar as alterações guardadas no navegador?')) { apagarLS('rascunho'); d.remove(); } };
   $('#rs-rec', d).onclick = () => { Object.assign(DADOS, r.dados); alterado = true; d.remove(); indice = null; rota(); };
 }
+/* Conta MedTech (só no site): quem está conectado e o botão de sair. Sair não apaga nada do aparelho. */
+function blocoConta() {
+  const u = PORTAO && window.MTS && MTS.usuario;
+  if (!u) return '';
+  return `<div class="contaAj"><h3>${ic('user-circle')} Conta MedTech</h3><p class="sub">Conectado como <b>${esc(u.email || u.displayName || '')}</b>. ` +
+    `O progresso (tópicos estudados, respostas e cartões) fica neste aparelho.</p><div class="linhaBt"><button class="bt sec mini" id="aj-sair">${ic('logout')} Sair da conta</button></div></div>`;
+}
+function ligaConta(d) {
+  const b = $('#aj-sair', d);
+  if (b) b.onclick = () => { if (confirm('Sair da conta? O SOS Farmácia Comercial pede login, então a tela de entrada volta. Seu progresso continua neste aparelho.')) MTS.sair(); };
+}
 function ajustes() {
   const cfg = DADOS.config;
+  if (!podeEditar) {
+    /* cliente do site: sem edição de conteúdo nem de marca-d'água */
+    const d = abreModal(`<h2>Ajustes</h2>` + blocoConta() +
+      `<div class="linhaBt"><button class="bt sec mini" id="aj-zera">${ic('restore')} Zerar meu progresso</button></div>` +
+      `<p class="sub" style="margin-top:14px">Versão do conteúdo: ${esc(new Date(DADOS.versao).toLocaleString('pt-BR'))}</p>` +
+      `<div class="rodM"><button class="bt sec" data-fecha>Fechar</button></div>`);
+    $('[data-fecha]', d).onclick = () => d.remove();
+    $('#aj-zera', d).onclick = () => { if (confirm('Apagar tópicos estudados, respostas e cartões revisados deste aparelho?')) { ['estudado', 'resp', 'vistos', 'check'].forEach(apagarLS); d.remove(); rota(); } };
+    ligaConta(d);
+    return;
+  }
   const d = abreModal(`<h2>Ajustes</h2><p class="sub">Marca-d'água padrão dos PDFs e cópia de segurança do conteúdo.</p>` +
     `<div class="duas"><label class="campo">Marca-d'água (linha principal)<input type="text" id="aj-m1" value="${esc(cfg.marca)}"></label>` +
     `<label class="campo">Segunda linha (opcional)<input type="text" id="aj-m2" value="${esc(cfg.marca2 || '')}" placeholder="Ex.: Licenciado para Fulano"></label></div>` +
     `<div class="linhaBt"><button class="bt sec mini" id="aj-exp">${ic('download')} Exportar conteúdo (.json)</button><label class="bt sec mini">${ic('upload')} Importar conteúdo (.json)<input type="file" id="aj-imp" accept=".json,application/json" hidden></label>` +
     `<button class="bt sec mini" id="aj-zera">${ic('restore')} Zerar meu progresso</button></div>` +
-    `<p class="sub" style="margin-top:14px">Versão do conteúdo: ${esc(new Date(DADOS.versao).toLocaleString('pt-BR'))}</p>` +
+    `<p class="sub" style="margin-top:14px">Versão do conteúdo: ${esc(new Date(DADOS.versao).toLocaleString('pt-BR'))}</p>` + blocoConta() +
     `<div class="rodM"><button class="bt sec" data-fecha>Fechar</button><button class="bt" id="aj-ok">${ic('check')} Aplicar</button></div>`);
   $('[data-fecha]', d).onclick = () => d.remove();
+  ligaConta(d);
   $('#aj-ok', d).onclick = () => { cfg.marca = $('#aj-m1', d).value.trim() || 'SOS Farmácia Comercial'; cfg.marca2 = $('#aj-m2', d).value.trim(); d.remove(); marcaAlterado(); };
   $('#aj-exp', d).onclick = () => { commitTodos(); baixar(new Blob([JSON.stringify(DADOS, null, 1)], { type: 'application/json' }), `sos-farmacia-conteudo-${new Date().toISOString().slice(0, 10)}.json`); };
   $('#aj-zera', d).onclick = () => { if (confirm('Apagar tópicos estudados, respostas e cartões revisados deste aparelho?')) { ['estudado', 'resp', 'vistos', 'check'].forEach(apagarLS); d.remove(); rota(); } };
@@ -793,16 +834,22 @@ function ajustes() {
 }
 
 /* ---------------- PDF ---------------- */
+/* marca-d'água que vale agora: a dos Ajustes para o dono; para o cliente do site, travada com a licença */
+function marcaVigente() {
+  const cfg = DADOS.config;
+  if (podeEditar) return { marca: cfg.marca, marca2: cfg.marca2 || '' };
+  return { marca: cfg.marca || 'SOS Farmácia Comercial', marca2: licenciado ? 'Licenciado para ' + licenciado : (cfg.marca2 || '') };
+}
 function janelaPdf() {
   commitTodos();
-  const m = moduloAtual(), cfg = DADOS.config;
+  const m = moduloAtual(), cfg = Object.assign({}, DADOS.config, marcaVigente()), trava = podeEditar ? '' : ' disabled';
   const d = abreModal(`<h2>Gerar PDF</h2><p class="sub">Na janela de impressão, escolha <b>Salvar como PDF</b> no destino. Todo PDF sai com marca-d'água em todas as páginas.</p>` +
     `<div class="opcoes">` + (m ? `<label><input type="radio" name="pdf-esc" value="${m.id}" checked> Este módulo: ${esc(m.num + '. ' + m.titulo)}</label>` : '') +
     `<label><input type="radio" name="pdf-esc" value="todos" ${m ? '' : 'checked'}> Todos os módulos (arquivo grande)</label>` +
     `<label><input type="radio" name="pdf-esc" value="um"> Outro módulo <select id="pdf-um" style="flex:1;width:auto">${DADOS.modulos.map(x => `<option value="${x.id}">${x.num}. ${esc(x.titulo)}</option>`).join('')}</select></label></div>` +
     `<div class="opcoes" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr))"><label><input type="checkbox" id="pdf-capa" checked> Capa</label><label><input type="checkbox" id="pdf-resumo" checked> Resumo</label>` +
     `<label><input type="checkbox" id="pdf-mapa" checked> Mapas mentais</label><label><input type="checkbox" id="pdf-apoio" checked> Material de apoio</label><label><input type="checkbox" id="pdf-gab" checked> Gabarito</label></div>` +
-    `<div class="duas"><label class="campo">Marca-d'água<input type="text" id="pdf-m1" value="${esc(cfg.marca)}"></label><label class="campo">Segunda linha (opcional)<input type="text" id="pdf-m2" value="${esc(cfg.marca2 || '')}" placeholder="Ex.: Licenciado para Fulano"></label></div>` +
+    `<div class="duas"><label class="campo">Marca-d'água<input type="text" id="pdf-m1" value="${esc(cfg.marca)}"${trava}></label><label class="campo">Segunda linha (opcional)<input type="text" id="pdf-m2" value="${esc(cfg.marca2 || '')}" placeholder="Ex.: Licenciado para Fulano"${trava}></label></div>` +
     `<div class="rodM"><button class="bt sec" data-fecha>Cancelar</button><button class="bt" id="pdf-ok">${ic('file-type-pdf')} Gerar PDF</button></div>`);
   $('[data-fecha]', d).onclick = () => d.remove();
   $('#pdf-um', d).onchange = () => { $('input[value=um]', d).checked = true; };
@@ -810,6 +857,7 @@ function janelaPdf() {
     const e = $('input[name=pdf-esc]:checked', d).value;
     const ids = e === 'todos' ? DADOS.modulos.map(x => x.id) : [e === 'um' ? $('#pdf-um', d).value : e];
     const o = { ids, capa: $('#pdf-capa', d).checked, resumo: $('#pdf-resumo', d).checked, mapa: $('#pdf-mapa', d).checked, apoio: $('#pdf-apoio', d).checked, gabarito: $('#pdf-gab', d).checked, marca: $('#pdf-m1', d).value.trim() || 'SOS Farmácia Comercial', marca2: $('#pdf-m2', d).value.trim() };
+    if (!podeEditar) Object.assign(o, marcaVigente());
     if (!o.resumo && !o.mapa && !o.apoio) { alert('Escolha ao menos uma parte.'); return; }
     d.remove(); imprimindo = true; montaImpressao(o); setTimeout(() => window.print(), 300);
   };
@@ -841,7 +889,7 @@ window.addEventListener('beforeprint', () => {
   commitTodos();
   const m = moduloAtual();
   imprimindo = true;
-  montaImpressao({ ids: m ? [m.id] : DADOS.modulos.map(x => x.id), capa: true, resumo: true, mapa: true, apoio: true, gabarito: true, marca: DADOS.config.marca, marca2: DADOS.config.marca2 });
+  montaImpressao(Object.assign({ ids: m ? [m.id] : DADOS.modulos.map(x => x.id), capa: true, resumo: true, mapa: true, apoio: true, gabarito: true }, marcaVigente()));
 });
 window.addEventListener('afterprint', () => {
   if (new URLSearchParams(location.search).get('pdf')) return;
@@ -955,7 +1003,7 @@ window.addEventListener('beforeunload', e => { commitTodos(); if (alterado) { e.
 async function inicia() {
   try { await document.fonts.load('16px tabler-icons'); } catch (e) { /* segue */ }
   const q = new URLSearchParams(location.search);
-  if (q.get('pdf')) {
+  if (q.get('pdf') && !PORTAO) {
     /* Geração automática (ferramentas/gera_pdfs.py): monta a impressão e avisa que terminou. */
     const ids = q.get('pdf') === 'todos' ? DADOS.modulos.map(x => x.id) : q.get('pdf').split(',');
     const partes = (q.get('partes') || 'resumo,mapa,apoio').split(',');
@@ -965,8 +1013,18 @@ async function inicia() {
     return;
   }
   rota();
-  verificaRascunho();
+  /* no site, o rascunho (edição antiga guardada neste navegador) só é oferecido à administração: para o
+     cliente ele fica guardado como está, sem aviso e sem botão de descartar */
+  if (!PORTAO) verificaRascunho();
 }
-window.SOS = { dados: DADOS, htmlComDados }; /* para conferência e testes */
+/* Ganchos da conta (conta-sos.js). liberarEdicao: administração; cliente: leitura com marca-d'água licenciada. */
+let rascunhoVisto = false;
+function liberarEdicao() {
+  if (podeEditar && rascunhoVisto) return;
+  podeEditar = true; rota();
+  if (!rascunhoVisto) { rascunhoVisto = true; verificaRascunho(); }
+}
+function cliente(email) { licenciado = String(email || '').trim(); }
+window.SOS = { dados: DADOS, htmlComDados, liberarEdicao, cliente, get podeEditar() { return podeEditar; }, PORTAO }; /* conta e testes */
 inicia();
 })();

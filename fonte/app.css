@@ -585,3 +585,9 @@ body.editando .edNovo{display:flex;gap:8px;flex-wrap:wrap}
   .pi .fontesL{font-size:9pt}
   .pi a{color:inherit;text-decoration:none}
 }
+
+/* Conta MedTech no site (10/10/2026): o cliente não vê os botões de edição; a conta aparece nos Ajustes */
+body.sos-leitura #bt-editar,body.sos-leitura #bt-salvar{display:none!important}
+.contaAj{margin:12px 0 16px;padding:12px 14px;border:1px solid var(--linha);border-radius:14px;background:var(--sup2)}
+.contaAj h3{font-size:15px;display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.contaAj .sub{margin:0 0 10px}

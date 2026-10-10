@@ -6,6 +6,20 @@
 <title>SOS Farmácia Comercial</title>
 <meta name="theme-color" content="#F5F6FB" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0D1017" media="(prefers-color-scheme: dark)">
+<script>
+/* Conta MedTech (10/10/2026). Só no site: portão de login (mtsync.js, síncrono, cobre a página antes do
+   primeiro desenho), checagem de compra (/_mtacesso.js) e conta-sos.js. Aberto do computador (file://)
+   ou no localhost (prévia do dono; teste com ?portao=1), nada disso carrega. Os scripts escritos aqui
+   levam data-sos-portao para o "Salvar arquivo" não os gravar no HTML. */
+(function () {
+  var l = location, local = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(l.hostname);
+  if (!/^https?:$/.test(l.protocol) || (local && !/[?&]portao=1\b/.test(l.search))) return;
+  window.__sosPortao = true;
+  ['mtsync.js?v=1', '/_mtacesso.js?v=13', 'conta-sos.js?v=1'].forEach(function (s) {
+    document.write('<script data-sos-portao src="' + s + '"><\/script>');
+  });
+})();
+</script>
 <style>/*FONTES*/</style>
 <style>/*CSS*/</style>
 </head>

@@ -9,6 +9,13 @@ Material para alunos do 9º e 10º semestres de Farmácia e farmacêuticos recé
 `SOS-Farmacia-Comercial.html`: é o aplicativo inteiro, em um arquivo só, que funciona sem internet.
 Abra com dois cliques (Chrome ou Edge recomendados). Pode copiar para pendrive, Drive ou mandar por e-mail.
 
+## No site (medtechbr.com.br/sos-farmacia/)
+
+Desde 10/10/2026 o SOS é vendido no MedTech (R$ 49,90 por mês ou R$ 397 por ano). No site ele pede login com a
+conta MedTech e, sem compra, mostra a tela de assinatura. Só a conta de administração vê Modo edição e Salvar
+arquivo; o cliente lê, estuda e gera PDF com a marca-d'água "Licenciado para" o e-mail dele. O progresso fica no
+aparelho. O arquivo aberto do computador continua funcionando como antes, sem login.
+
 ## Modificar o conteúdo
 
 1. Clique em **Modo edição** (barra da esquerda).

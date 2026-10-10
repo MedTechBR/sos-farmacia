@@ -1,8 +1,10 @@
 # SOS Farmácia Comercial
 
 Material didático (11 módulos) para alunos do 9º/10º semestre de Farmácia e recém-formados, criado em 08/10/2026.
-Público de farmácia: produto à parte, fora dos portais/vitrine MedTech, sem login. No ar desde 08/10/2026 em
-https://medtechbr.com.br/sos-farmacia/ (repo público MedTechBR/sos-farmacia, Pages da main na raiz).
+Público de farmácia. No ar desde 08/10/2026 em https://medtechbr.com.br/sos-farmacia/ (repo público
+MedTechBR/sos-farmacia, Pages da main na raiz). **Desde 10/10/2026 é vendido no MedTech** (produto `sosfarmacia` do
+`planos.json` do site, linha provas, publico farmacia, R$ 49,90/mês ou R$ 397/ano; aparece no portal Provas, na
+vitrine e nas liberações do admin) e, **no site, só abre com conta MedTech e compra** (ver "Conta e venda").
 Publicar: `python3 monta.py && cp SOS-Farmacia-Comercial.html index.html`, commit e push; conferir por hash.
 
 - Entregável: `SOS-Farmacia-Comercial.html` (arquivo único, offline, editável no próprio app, "Salvar arquivo"
@@ -28,3 +30,24 @@ clique, "Teste-se", vista em cartões (padrão no celular). Armadilhas: CSS `tex
 SVG (ícone vira quadrado; usar classe `mm-ico`); aba em segundo plano congela requestAnimationFrame e animações
 (animaVB tem setTimeout de garantia; prints de aba oculta saem transparentes); Chrome headless não fica abaixo de
 ~500 px de largura (testar celular no navegador embutido); `ferramentas/foto.py URL saida.png L A --claro`.
+
+## Conta e venda (10/10/2026)
+- `fonte/casca.html` tem no `<head>` um carregador: só em http(s) fora do localhost (ou no localhost com `?portao=1`,
+  para teste) ele marca `window.__sosPortao` e escreve `mtsync.js` (portão de login, cópia SEM mudança de
+  `~/Documents/Claude/_mtsync/`), `/_mtacesso.js?v=N` (compra/tela de assinatura do site; subir o `?v=` junto com o
+  site) e `conta-sos.js`. Aberto do computador (file://), no `gera_pdfs.py` ou na prévia do localhost: nada disso
+  carrega e o app é a ferramenta do dono, igual a antes.
+- `conta-sos.js`: `MTS.iniciar` sem coleções (o progresso do SOS NÃO sobe para a nuvem; fica nas chaves
+  `sos-farmacia:*` do aparelho) e, depois do login, `MTAcesso.verificar({appId:'sosfarmacia'})`. Administração
+  (claim `mt.adm`) chama `SOS.liberarEdicao()`: modo edição, "Salvar arquivo", importar/exportar e marca-d'água livres,
+  e o aviso do rascunho. Cliente (`SOS.cliente(email)`): só leitura e estudo; botões Editar/Salvar escondidos
+  (`body.sos-leitura`), Ajustes só com a conta e "Zerar meu progresso", PDF e Ctrl+P com a marca-d'água travada em
+  "Licenciado para <e-mail>", `?pdf=` desligado. O rascunho de edição antigo que estiver no navegador do cliente fica
+  guardado, sem aviso.
+- REGRA DO DONO: nada salvo no aparelho é apagado por causa da conta (limparLocal vazio; o mtsync só mexe em
+  `sos-farmacia:mts` e `sos-farmacia:mts_uid`).
+- `ORIGEM` (base do "Salvar arquivo") sai limpa do que o portão põe na página (classe `mts-trava`, `#mtsCSS`, `--mts-*`
+  e os scripts `[data-sos-portao]`); o carregador do `<head>` fica no arquivo salvo (é inofensivo no file://).
+- Teste sem backend: cópia do index com `fake-firebase.js` (de `_mtsync`, com `getIdTokenResult` lendo
+  `localStorage.__fakeClaims`) antes do carregador, servida junto de uma cópia do site, URL com `?portao=1`.
+
