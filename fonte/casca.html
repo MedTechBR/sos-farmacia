@@ -15,7 +15,7 @@
   var l = location, local = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(l.hostname);
   if (!/^https?:$/.test(l.protocol) || (local && !/[?&]portao=1\b/.test(l.search))) return;
   window.__sosPortao = true;
-  ['mtsync.js?v=1', '/_mtacesso.js?v=13', 'conta-sos.js?v=1'].forEach(function (s) {
+  ['mtsync.js?v=1', '/_mtacesso.js?v=13', 'conta-sos.js?v=1', '/_mtvoltar.js?v=1'].forEach(function (s) {
     document.write('<script data-sos-portao src="' + s + '"><\/script>');
   });
 })();
