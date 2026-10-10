@@ -1,0 +1,1815 @@
+{
+ "id": "m12",
+ "num": 12,
+ "parte": "a",
+ "titulo": "Passo a passo do SNGPC",
+ "escopo": "Guia prático para o farmacêutico que assume uma drogaria operar o SNGPC desde o primeiro dia: cadastro, credenciamento, inventário, escrituração, transmissão, correção de erros e fiscalização, com base na RDC 22/2014, na RDC 471/2021 com a RDC 973/2025 e nos documentos técnicos vigentes da Anvisa.",
+ "topicos": [
+  {
+   "id": "m12-o-que-e",
+   "titulo": "O que é o SNGPC e quem é obrigado",
+   "resumo": "\n<p>O <strong>Sistema Nacional de Gerenciamento de Produtos Controlados (SNGPC)</strong> é o sistema da Anvisa em que farmácias e drogarias fazem a escrituração sanitária dos medicamentos controlados. Escrituração sanitária é o registro de cada entrada e de cada saída desses produtos (RDC 22/2014, art. 5º, IX). Na prática, o software de gestão da loja registra a movimentação, gera um arquivo XML no padrão da Anvisa e o farmacêutico transmite esse arquivo. O sistema monta, a partir dos arquivos, o estoque oficial de cada lote em cada loja do país.</p>\n<p>O SNGPC controla <strong>o medicamento</strong>. O Sistema Nacional de Controle de Receituários (SNCR) controla <strong>a receita</strong> (numeração, autenticidade e uso único). Os dois convivem e um não substitui o outro.</p>\n<h3>O que entra no SNGPC</h3>\n<div class=\"tab\"><table><thead><tr><th>Grupo</th><th>Norma de base</th><th>Desde quando no SNGPC</th></tr></thead><tbody>\n<tr><td>Medicamentos e insumos das listas da Portaria 344/1998</td><td>RDC 22/2014, art. 2º</td><td>Desde a criação do sistema (2007)</td></tr>\n<tr><td>Antimicrobianos de uso sob prescrição (lista na IN 360/2025, art. 1º)</td><td>RDC 471/2021, art. 14; RDC 22/2014, art. 2º</td><td>Desde a versão 2.0 do SNGPC (2013)</td></tr>\n<tr><td>Agonistas do receptor de GLP-1: semaglutida, liraglutida, dulaglutida, tirzepatida e lixisenatida</td><td>RDC 471/2021 com a RDC 973/2025; IN 360/2025, art. 2º</td><td>Retenção e escrituração desde 23/06/2025; SNGPC obrigatório conforme o cronograma de retomada</td></tr>\n</tbody></table></div>\n<p>Os agonistas de GLP-1 seguem no XML o mesmo padrão de preenchimento dos antimicrobianos (Anvisa, Perguntas e Respostas GLP-1, junho de 2025). A receita deles vale 90 dias (IN 360/2025, art. 2º, § 1º); a de antimicrobiano vale 10 dias (IN 360/2025, art. 1º, § 2º).</p>\n<h3>Quem é obrigado</h3>\n<ul>\n<li><strong>Farmácias e drogarias privadas</strong>: todas (RDC 22/2014, art. 3º). Isso inclui a farmácia de manipulação, que escritura também insumos com o lote do fabricante (art. 10, § 5º) e a operação de transformação.</li>\n<li><strong>Farmácias públicas e farmácias de hospital</strong>: ficam fora do SNGPC enquanto não houver módulo específico (art. 3º, parágrafo único).</li>\n<li><strong>Unidades públicas que dispensam com ressarcimento</strong>, como as do Farmácia Popular: escrituram antimicrobianos e agonistas de GLP-1 em livro de registro específico ou em sistema aprovado pela VISA, em até 7 dias da dispensação (RDC 471/2021, art. 15, redação da RDC 973/2025).</li>\n<li><strong>Município sem internet</strong>: a VISA local pode autorizar o livro de registro (RDC 22/2014, art. 35, § 1º; RDC 471/2021, art. 14, parágrafo único).</li>\n</ul>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"Todas as farmácias e drogarias devem, obrigatoriamente, utilizar o SNGPC para escrituração sanitária dos medicamentos, insumos farmacêuticos e preparações e/ou especialidades farmacêuticas de que trata esta Resolução.\" (RDC 22/2014, art. 3º)</p></div>\n<h3>Histórico curto</h3>\n<ol>\n<li>2007: o SNGPC começa a operar para farmácias e drogarias (RDC 27/2007).</li>\n<li>2013: versão 2.0 inclui os antimicrobianos; o inventário passa a ser enviado por arquivo XML (Nota Técnica 003/2013).</li>\n<li>2014: a RDC 22/2014 revoga a RDC 27/2007 e passa a regular o sistema. Continua vigente, sem alterações no texto consolidado da Anvisa.</li>\n<li>2021: por instabilidade, a RDC 586/2021 suspende por tempo indeterminado os prazos de transmissão do art. 10, §§ 3º e 4º. A falta de envio deixa de ser infração a partir de 5 de outubro de 2021. A escrituração interna continua obrigatória (art. 4º).</li>\n<li>2024: a Anvisa abre testes ampliados com farmácias privadas; transmissões da fase de teste não servem de base para fiscalização.</li>\n<li>2025: em 5 de maio a Anvisa divulga o cronograma de retomada. Pela própria RDC 586/2021 (art. 5º), a suspensão termina na data divulgada, sem necessidade de nova resolução. Em agosto, o acesso passa a ser possível também pela conta gov.br.</li>\n</ol>\n<div class=\"tab\"><table><thead><tr><th>Região</th><th>Transmissão obrigatória desde</th></tr></thead><tbody>\n<tr><td>Sudeste</td><td>1º/09/2025</td></tr>\n<tr><td>Sul e Norte</td><td>1º/11/2025</td></tr>\n<tr><td>Centro-Oeste e Nordeste</td><td>02/01/2026</td></tr>\n</tbody></table></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>Nem durante a suspensão de 2021 a 2025 a escrituração deixou de ser obrigatória: a RDC 586/2021 suspendeu só o prazo de transmissão e manteve o registro interno e a guarda dos documentos (art. 4º). Loja que \"não escriturou porque o SNGPC estava parado\" não tem como provar o estoque.</p></div>\n<h3>O que o SNGPC não faz</h3>\n<ul>\n<li>Não avalia a receita. Validade, campos obrigatórios e quantidade continuam sendo conferidos pelo farmacêutico no balcão.</li>\n<li>Não substitui a consulta e o registro de uso da receita eletrônica no SNCR.</li>\n<li>Não guarda a receita. Notificações e receitas retidas ficam arquivadas na loja, e as eletrônicas, em meio eletrônico.</li>\n<li>Não corrige o estoque sozinho. O saldo oficial é o resultado dos arquivos aceitos; arquivo não enviado é movimento que não existe para o sistema.</li>\n</ul>\n<h3>Situação em outubro de 2026</h3>\n<p>A transmissão é obrigatória em todo o país. Valem os prazos da RDC 22/2014: arquivos a cada 1 a 7 dias consecutivos, mesmo sem movimento (art. 10, § 3º). Descumprir é infração sanitária (RDC 586/2021, art. 5º, parágrafo único). Desde 30/09/2026 o SNCR numera receitas eletrônicas e a farmácia registra nele o uso dessas receitas, mas não há cronograma de integração entre SNCR e SNGPC (Perguntas e Respostas sobre a RDC 1.000/2025). Por isso a escrituração de cada dispensação continua sendo feita no software da loja e transmitida ao SNGPC.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>No primeiro dia, pergunte ao responsável legal três coisas: qual software gera o XML, quando foi o último arquivo aceito e quem estava associado como RT no SNGPC. As três respostas dizem se a loja está em dia ou se o seu primeiro trabalho é regularizar.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Recém-formada assume uma drogaria em Teresina em outubro de 2026. O dono diz que \"o SNGPC voltou só para o Sudeste\". A informação está desatualizada: no Nordeste a transmissão é obrigatória desde 02/01/2026. Ela verifica no sistema a data do último arquivo aceito e, como há meses sem envio, trata a loja como estabelecimento em atraso, com inventário novo e comunicação à VISA.</p></div>\n"
+  },
+  {
+   "id": "m12-pre-requisitos",
+   "titulo": "Pré-requisitos e papéis",
+   "resumo": "\n<p>O SNGPC só funciona depois que a empresa e as pessoas estão cadastradas na Anvisa. O acesso pressupõe o cadastro atualizado do estabelecimento, do gestor de segurança, do farmacêutico RT e do responsável legal (RDC 22/2014, art. 6º). Faltando qualquer um, o sistema não libera o acesso ou não deixa transmitir.</p>\n<h3>O que precisa existir</h3>\n<div class=\"tab\"><table><thead><tr><th>Item</th><th>Para que serve</th><th>Base</th></tr></thead><tbody>\n<tr><td>CNPJ ativo e CNAE de farmácia ou drogaria</td><td>Identifica o estabelecimento; o SNGPC recusa acesso a CNAE de outra atividade</td><td>RDC 22/2014, art. 5º, XI; Nota Técnica 003/2013</td></tr>\n<tr><td>Autorização de Funcionamento (AFE) da Anvisa</td><td>Permite à farmácia ou drogaria exercer a atividade</td><td>RDC 17/2013</td></tr>\n<tr><td>Autorização Especial (AE)</td><td>Só para farmácia que manipula substâncias da Portaria 344; drogaria não precisa</td><td>RDC 17/2013, art. 2º, II</td></tr>\n<tr><td>Licença sanitária local</td><td>Funcionamento perante a VISA do município ou do estado</td><td>RDC 17/2013, art. 2º, XIII</td></tr>\n<tr><td>Cadastro da empresa na Anvisa</td><td>Porta de entrada para os sistemas da Anvisa, inclusive SNGPC</td><td>Anvisa, Cadastro de Empresas</td></tr>\n<tr><td>RT com inscrição ativa no CRF</td><td>Único profissional que inventaria e transmite</td><td>RDC 22/2014, arts. 5º, XXVI, e 18, § 2º</td></tr>\n<tr><td>Software de gestão que gere o XML no padrão SNGPC</td><td>Escritura, guarda a cópia de segurança e gera os arquivos</td><td>RDC 22/2014, arts. 10, 17 a 20</td></tr>\n</tbody></table></div>\n<p>A RDC 22/2014 não exige certificado digital ICP-Brasil para o SNGPC: o acesso é por senha pessoal e intransferível (art. 7º) ou, desde agosto de 2025, pela conta gov.br do próprio RT ou responsável legal. O SNCR, que a loja também precisa usar, exige login gov.br individual e AFE ativa.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>A Anvisa não indica nem homologa software de farmácia. A escolha, a compra e a manutenção do sistema são responsabilidade do estabelecimento (RDC 22/2014, art. 20). Se o software gera XML fora do padrão, quem responde pela falta de transmissão é a loja.</p></div>\n<h3>Os papéis</h3>\n<div class=\"tab\"><table><thead><tr><th>Papel</th><th>Quem é</th><th>O que faz no SNGPC</th></tr></thead><tbody>\n<tr><td>Responsável legal (RL)</td><td>Pessoa designada no contrato social para representar a empresa (art. 5º, XXV)</td><td>Mantém o cadastro da empresa e associa o RT ao estabelecimento; responde junto com o RT pelo uso da senha (art. 7º, parágrafo único)</td></tr>\n<tr><td>Gestor de segurança</td><td>Pessoa que administra os usuários da empresa nos sistemas da Anvisa (art. 5º, XII)</td><td>Cadastra usuários e atribui perfis de acesso; pode ser o RL, o RT ou outra pessoa</td></tr>\n<tr><td>Farmacêutico RT</td><td>Farmacêutico inscrito no CRF, com assistência técnica à loja (art. 5º, XXVI)</td><td>Faz o inventário, gera e envia os XML, responde pela escrituração (arts. 8º, 10, § 1º, e 18, § 2º)</td></tr>\n<tr><td>Farmacêutico substituto</td><td>Farmacêutico que cobre ausências do RT</td><td>Pode escriturar e transmitir se estiver cadastrado e associado no SNGPC (art. 10, § 1º)</td></tr>\n<tr><td>Atendentes e auxiliares</td><td>Equipe do balcão e do estoque</td><td>Digitam dados no software, com acesso parcial delegado pelo RT, sob responsabilidade dele (art. 18, § 1º)</td></tr>\n</tbody></table></div>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"O sistema informatizado do estabelecimento, que gera os arquivos XML para envio ao SNGPC, deve ter acesso restrito ao farmacêutico responsável técnico ou seu substituto legal devidamente cadastrado e associado no SNGPC.\" (RDC 22/2014, art. 18). \"É função do farmacêutico responsável técnico a geração e envio dos arquivos XML ao SNGPC.\" (art. 18, § 2º)</p></div>\n<h3>Ausência do RT e substituto</h3>\n<p>A farmácia deve ter farmacêutico durante todo o horário de funcionamento (Lei 13.021/2014, art. 6º, I). Sem RT nem substituto, a lei permite funcionar por até 30 dias, mas sem vender medicamentos sujeitos a controle especial (Lei 5.991/1973, art. 17). No SNGPC, a falta de substituto não interrompe a obrigação: ao fim da ausência, transmitem-se os arquivos do período sem movimentação de medicamentos da Portaria 344 (RDC 22/2014, art. 11).</p>\n<p>A troca de quem transmite, mesmo temporária, exige finalizar o inventário antes (art. 12). Por isso o arranjo mais simples para férias e folgas é ter o substituto já cadastrado, com perfil atribuído, e planejar a passagem com antecedência. O sistema tem a função no menu Informar Ausência: o RT registra início e fim do afastamento, com início a partir da data atual (não se informa ausência passada) e no máximo 30 dias por período, sem sobrepor o período anterior (tela consultada em 10/10/2026; Nota Técnica 003/2013). Confirme com a sua VISA como ela trata o afastamento sem substituto.</p>\n<ol>\n<li>Pedir ao responsável legal o contrato social e conferir quem é o RL e quem é o gestor de segurança.</li>\n<li>Conferir no cadastro da empresa na Anvisa se o seu CPF aparece como responsável técnico e se os dados do CRF estão completos.</li>\n<li>Confirmar com o gestor de segurança que o perfil de acesso ao SNGPC foi atribuído ao seu usuário.</li>\n<li>Pedir ao fornecedor do software a versão do leiaute que o sistema gera e um teste de geração de arquivo.</li>\n<li>Definir por escrito quem pode lançar dados no software e com qual perfil; só o RT e o substituto geram e enviam.</li>\n<li>Combinar com o RL como será a cobertura de férias: substituto cadastrado ou loja sem venda de controlados no período.</li>\n</ol>\n<div class=\"cx balcao\"><b>No balcão</b><p>Senha do SNGPC não se empresta, nem para o gerente \"só mandar o arquivo de hoje\". O Código de Ética proíbe permitir que terceiros tenham acesso a senhas pessoais (Resolução CFF 724/2022, art. 18, XXIX), e o uso indevido recai sobre o RT e o RL (RDC 22/2014, art. 7º).</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>O gerente pede ao farmacêutico que deixe a senha do SNGPC salva no computador do caixa para o software transmitir de madrugada. O farmacêutico recusa, explica o art. 7º e o art. 18, § 2º, e combina com o fornecedor do sistema uma rotina em que ele próprio dispara o envio ao chegar, todos os dias.</p></div>\n"
+  },
+  {
+   "id": "m12-credenciamento",
+   "titulo": "Credenciamento, acesso e troca de RT",
+   "resumo": "\n<p><strong>Credenciamento</strong> é a adesão do estabelecimento ao SNGPC, que se completa quando o RT envia o inventário inicial e a base da Anvisa o recebe (RDC 22/2014, art. 5º, IV, e art. 8º). Depois disso o sistema emite o <strong>Certificado de Escrituração Digital</strong>, que deve ser impresso e ficar à disposição da fiscalização (art. 9º).</p>\n<h3>Cadastro da empresa e das pessoas</h3>\n<ol>\n<li>O responsável legal acessa o Cadastro de Empresas da Anvisa (www9.anvisa.gov.br/recadastramento) com CNPJ, CNAE e senha da empresa. Empresa nova usa a opção \"Cadastrar Nova Empresa\".</li>\n<li>Na opção \"Associar Representante/Responsável\", informa o CPF do farmacêutico. Se a pessoa não existir na base, cadastra os dados, inclusive e-mail e senha pessoais.</li>\n<li>Escolhe o tipo \"Responsável Técnico\" e completa os dados profissionais pedidos na tela.</li>\n<li>Cadastra ao menos um gestor de segurança da empresa.</li>\n<li>Usa \"Verificar Cadastro\". Item marcado como \"Falhou\" indica o que falta; volta-se à matriz para completar.</li>\n<li>O gestor de segurança entra no Sistema de Segurança da Anvisa, em \"Manter Usuários\" confere o usuário e em \"Atribuir Perfis aos Usuários\" concede o perfil do SNGPC ao RT.</li>\n</ol>\n<p>O e-mail de cada pessoa deve ser diferente do e-mail de qualquer outro usuário e de qualquer empresa (Anvisa, Passo a passo do Cadastro de Empresa, 2023). E-mail repetido é causa frequente de cadastro travado.</p>\n<h3>Entrar no sistema</h3>\n<ol>\n<li>Acessar sngpc.anvisa.gov.br.</li>\n<li>Entrar com o e-mail e a senha cadastrados ou com a conta gov.br pessoal. O acesso pelo gov.br não exige mudar o cadastro existente (CFF, notícia de 20/08/2025).</li>\n<li>Ao entrar pela primeira vez, conferir se o sistema mostra o CNPJ certo e o seu nome como RT.</li>\n<li>Se o sistema disser que o CPF não tem perfil para acesso ao SNGPC, voltar ao gestor de segurança. Persistindo, abrir chamado na Anvisa (0800 642 9782 ou Fale Conosco).</li>\n<li>Se a mensagem disser que o acesso só é permitido a empresas com CNAE de farmácia ou drogaria, conferir o CNAE no cartão do CNPJ e no cadastro da Anvisa.</li>\n</ol>\n<p><strong>Senha</strong>: no Cadastro de Empresas há a opção \"Esqueci minha senha\" para a senha da empresa; no Sistema de Segurança, o próprio usuário troca a senha em \"Alterar Senha\". Quem entra pelo gov.br gerencia a credencial no próprio gov.br. Senha bloqueada pela Anvisa só se libera pela central de atendimento.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>A mensagem \"An attack was detected, originating from your system\" indica bloqueio do endereço IP pela segurança da Anvisa. A orientação oficial é pedir o desbloqueio à Anvisa (Nota Técnica 003/2013, item 8.5). Não adianta tentar de novo várias vezes.</p></div>\n<h3>Troca de responsável técnico</h3>\n<p>A troca é o momento de maior risco de perder a continuidade da escrituração. A regra está no art. 12 da RDC 22/2014: a substituição, definitiva ou eventual, é precedida da finalização do inventário; o novo RT confere o inventário finalizado e, se houver divergência com o estoque físico, corrige antes de começar e informa a VISA.</p>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"A substituição definitiva ou eventual do farmacêutico responsável técnico no SNGPC deve ser precedida de finalização do inventário, de modo que as transmissões da escrituração possam ter continuidade pelo substituto ou pelo novo farmacêutico responsável técnico.\" (RDC 22/2014, art. 12)</p></div>\n<h4>RT que sai</h4>\n<ol>\n<li>Transmitir todos os arquivos até o último dia de trabalho e conferir que o último está aceito.</li>\n<li>Fazer o levantamento do estoque de controlados até o último dia e apresentá-lo à VISA (Portaria 6/1999, art. 113).</li>\n<li>Finalizar o inventário no SNGPC, escolhendo o motivo de saída do RT.</li>\n<li>Pedir a baixa da responsabilidade técnica no CRF e comunicar a VISA, guardando os protocolos.</li>\n<li>Guardar cópia do último relatório de estoque e do comprovante de finalização.</li>\n</ol>\n<h4>Responsável legal</h4>\n<ol>\n<li>Associar o novo RT no cadastro da empresa e pedir ao gestor de segurança o perfil do SNGPC.</li>\n<li>Associar o novo RT ao estabelecimento no SNGPC. Se o RT anterior não finalizou, o inventário é finalizado automaticamente quando o RL associa o novo RT (Anvisa, Perguntas e Respostas sobre instabilidade do SNGPC, 2021, pergunta 9).</li>\n<li>Até a associação, não há transmissão: sem RT transmissor o sistema não recebe movimentos.</li>\n</ol>\n<h4>RT que entra</h4>\n<ol>\n<li>Entrar no SNGPC e conferir o inventário finalizado. Na versão 2.0, após a finalização o sistema permite obter o arquivo com a situação do estoque, para conferir e reaproveitar (Guia do padrão SNGPC, versão 2.3).</li>\n<li>Fazer contagem física completa, por registro, lote e quantidade.</li>\n<li>Comparar contagem, inventário finalizado e saldo do software. Divergência corrigida antes de começar e comunicada à VISA (art. 12, § 2º).</li>\n<li>Gerar no software o XML de inventário com a data da contagem. A data pode ser até 7 dias anterior à transmissão (Nota Técnica 003/2013, item 1).</li>\n<li>Transmitir e acompanhar até o inventário ser aceito; conferir em Inventário Inicial, linha a linha, e confirmar com o número verificador; depois de confirmado, o inventário não pode ser modificado.</li>\n<li>Imprimir o novo Certificado de Escrituração Digital, com os dados atualizados (art. 9º, parágrafo único).</li>\n<li>Retomar os arquivos de movimentação a partir da data do inventário, em ordem e sem lacuna.</li>\n</ol>\n<p>Os movimentos ocorridos entre a finalização e a data do novo inventário ficam escriturados no software e documentados (notas e receitas) para a fiscalização (Nota Técnica 003/2013, item 1).</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Combine a troca para um dia de pouco movimento e faça a contagem com o RT que sai, se ele aceitar. Assinem juntos a folha de contagem. Divergência descoberta na passagem fica claramente separada entre a gestão de um e a do outro.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>RT pede demissão na sexta e não finaliza o inventário. Na segunda, a nova farmacêutica não consegue transmitir. O responsável legal associa a nova RT no SNGPC, o que finaliza o inventário anterior automaticamente. Ela conta o estoque, encontra 3 frascos de fenobarbital gotas a menos que o saldo, comunica a VISA com a folha de contagem e envia o inventário com o estoque real, datado do dia da contagem.</p></div>\n"
+  },
+  {
+   "id": "m12-inventario",
+   "titulo": "Inventário inicial",
+   "resumo": "\n<p><strong>Inventário inicial</strong> é a declaração de todo o estoque de medicamentos e insumos sujeitos ao SNGPC, enviada em arquivo XML (RDC 22/2014, art. 5º, XIX). Desde a versão 2.0 não existe digitação de inventário em tela: a única forma de enviá-lo é pelo XML gerado no software, e o inventário passa a valer quando o arquivo é validado (Guia do padrão SNGPC, versão 2.3, item 3.1.1).</p>\n<h3>Quando fazer</h3>\n<div class=\"tab\"><table><thead><tr><th>Situação</th><th>O que acontece</th><th>Base</th></tr></thead><tbody>\n<tr><td>Loja nova ou primeiro credenciamento</td><td>Inventário inicial credencia o estabelecimento</td><td>RDC 22/2014, art. 8º</td></tr>\n<tr><td>Troca de RT, definitiva ou eventual</td><td>Inventário finalizado; novo RT confere e envia o seu</td><td>RDC 22/2014, art. 12</td></tr>\n<tr><td>Erro de estoque que não se corrige por arquivo</td><td>Finalização pela opção de ajuste, com justificativa, e novo inventário</td><td>Perguntas e Respostas Anvisa, 2021</td></tr>\n<tr><td>Retorno depois de período sem transmissão</td><td>Novo XML de inventário com a data do retorno</td><td>Perguntas e Respostas Anvisa, 2021, perguntas 3 e 4</td></tr>\n<tr><td>Classe terapêutica informada errada</td><td>Finalizar o inventário para ajuste</td><td>Nota Técnica 003/2013, item 6</td></tr>\n</tbody></table></div>\n<p>Na retomada de 2025 e 2026, o CFF orientou: finalizar o inventário anterior, se houver; fazer o inventário com conferência física; e, depois do aceite, enviar os arquivos de movimentação a cada 1 a 7 dias (CFF, 24/10/2025). A inclusão dos agonistas de GLP-1 não exigiu finalizar inventário: bastou lançar as entradas ocorridas a partir de 23/06/2025 (Perguntas e Respostas GLP-1, pergunta 10).</p>\n<h3>O que o arquivo de inventário contém</h3>\n<div class=\"tab\"><table><thead><tr><th>Parte</th><th>Medicamento industrializado</th><th>Insumo (manipulação)</th></tr></thead><tbody>\n<tr><td>Cabeçalho</td><td colspan=\"2\">CNPJ do estabelecimento, CPF do RT transmissor e data do inventário</td></tr>\n<tr><td>Classe terapêutica</td><td>1 = antimicrobiano; 2 = sujeito a controle especial</td><td>Mesma codificação</td></tr>\n<tr><td>Identificação</td><td>Número de registro do medicamento na Anvisa</td><td>Código DCB e CNPJ do fornecedor</td></tr>\n<tr><td>Lote</td><td>Lote impresso na embalagem</td><td>Lote do fabricante</td></tr>\n<tr><td>Quantidade e unidade</td><td>Quantidade em caixas ou frascos</td><td>Grama, mililitro ou unidade</td></tr>\n</tbody></table></div>\n<p>Fonte: Guia para geração do padrão de transmissão SNGPC, versão 2.3 (setembro de 2025). O arquivo segue compactado em ZIP.</p>\n<h3>Como montar</h3>\n<ol>\n<li>Escolher um horário sem movimento e suspender a venda de controlados, antimicrobianos e GLP-1 durante a contagem.</li>\n<li>Imprimir do software a posição de estoque por produto, registro e lote, mas contar sem olhar o saldo (contagem cega), de preferência em dupla.</li>\n<li>Separar fisicamente por número de registro e lote. Produtos iguais com lotes diferentes são linhas diferentes.</li>\n<li>Contar na unidade que o SNGPC usa para medicamento industrializado: caixa ou frasco, e não comprimido. Apresentações fracionáveis seguem regra própria (RDC 22/2014, art. 35, § 3º).</li>\n<li>Incluir vencidos, avariados, recolhidos e segregados: todo estoque movimentado deve estar escriturado, comercializável ou não (art. 16).</li>\n<li>Conferir para cada linha a classe terapêutica correta (antimicrobiano ou controle especial). GLP-1 segue o padrão dos antimicrobianos.</li>\n<li>Comparar a contagem com o saldo do software e investigar cada diferença antes de gerar o arquivo.</li>\n<li>Ajustar o software ao estoque real, com registro do motivo de cada ajuste.</li>\n<li>Gerar o XML de inventário com a data da contagem. Transmitir em até 7 dias dessa data (Nota Técnica 003/2013, item 1).</li>\n<li>Acompanhar até o arquivo ser aceito e conferir no sistema o inventário recebido.</li>\n<li>Assinar e arquivar a folha de contagem, o relatório do software e o comprovante de envio.</li>\n</ol>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"O estoque físico dos medicamentos e substâncias sujeitas a controle especial deve ser qualitativa e quantitativamente idêntico ao escriturado no SNGPC, bem como no sistema informatizado do estabelecimento, observando-se o prazo de escrituração.\" (RDC 22/2014, art. 15)</p></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>A opção de finalizar encerra o inventário em curso. A Anvisa registrou como erro frequente finalizar logo depois de confirmar: a finalização encerra o inventário e o sistema deixa de receber arquivos até que um novo inventário seja aceito (Anvisa, SNGPC passo a passo, 2009). Finalização serve para saída de RT, ajuste e as demais situações previstas.</p></div>\n<h3>Quando começar as movimentações</h3>\n<p>Depois que o inventário é aceito, o primeiro arquivo de movimentação cobre o período que começa na data do inventário. A partir daí os arquivos seguem em ordem cronológica, sem lacunas, a cada 1 a 7 dias (RDC 22/2014, art. 10, § 3º). Movimentos ocorridos entre a data do inventário e a data do envio entram no primeiro arquivo; por isso a contagem e o envio devem ficar próximos.</p>\n<h3>Erros comuns no inventário</h3>\n<ul>\n<li><strong>Data antiga</strong>: inventário com data mais de 7 dias anterior à transmissão é recusado. A mensagem documentada pela Anvisa informa que a data deve ser anterior ao máximo sete dias da data de transmissão (Nota Técnica 003/2013). Refazer com a contagem atualizada.</li>\n<li><strong>Lote com espaço</strong>: para o sistema, \"ABC \" é diferente de \"ABC\". Depois, a saída do lote é recusada como lote não encontrado (Nota Técnica 003/2013, item 12).</li>\n<li><strong>Classe trocada</strong>: controlado lançado como antimicrobiano passa a ter saída recusada após 10 dias da prescrição (Nota Técnica 003/2013, item 6).</li>\n<li><strong>Unidade errada</strong>: contar comprimidos em vez de caixas multiplica o estoque.</li>\n<li><strong>Esquecer item parado</strong>: vencido no armário de segregados não declarado vira divergência na fiscalização.</li>\n<li><strong>Medicamento que o sistema não encontra</strong>: é inconsistência cadastral. Notificar pela funcionalidade do SNGPC e escriturar no software até a correção (RDC 22/2014, art. 14).</li>\n</ul>\n<div class=\"cx balcao\"><b>No balcão</b><p>Faça o inventário com a caixa na mão e o número do lote lido da embalagem, não copiado da nota fiscal. Nota e embalagem às vezes divergem num caractere, e o SNGPC compara texto exato.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Farmacêutico conta o estoque numa terça, mas só consegue enviar o inventário na quarta da semana seguinte, oito dias depois. O arquivo é recusado pela data. Ele refaz a contagem no mesmo dia, aproveitando a separação por lote já feita, gera novo inventário com a data dessa contagem e transmite antes de fechar a loja.</p></div>\n"
+  },
+  {
+   "id": "m12-rotina",
+   "titulo": "Rotina diária de escrituração",
+   "resumo": "\n<p>A escrituração acontece no software da loja, no momento de cada movimentação. O SNGPC só recebe o resultado, no arquivo. Escriturar bem é lançar com o documento na mão: nota fiscal na entrada, receita na saída, boletim ou termo na perda.</p>\n<p>Movimentação, para o SNGPC, é a entrada (compra ou transferência) e a saída (venda ou dispensação, transformação, transferência ou perda) (RDC 22/2014, art. 5º, XXII).</p>\n<h3>Entradas</h3>\n<ol>\n<li>Conferir a mercadoria contra a nota fiscal: produto, apresentação, lote, validade e quantidade.</li>\n<li>Conferir na nota o CNPJ de destino. Ele precisa ser o CNPJ da sua loja; o SNGPC recusa entrada com destino diferente do CNPJ transmissor (Nota Técnica 003/2013, item 8.2).</li>\n<li>Lançar no software: número da nota, tipo de operação (compra ou transferência), data da nota, CNPJ de origem e de destino, data do recebimento.</li>\n<li>Lançar cada item com registro, lote exatamente como na embalagem, quantidade em caixas ou frascos e classe terapêutica.</li>\n<li>Guardar a nota no arquivo de controlados, em ordem de data.</li>\n</ol>\n<h3>Saída por dispensação</h3>\n<p>Os dados exigidos no arquivo dependem da classe do produto (Guia do padrão SNGPC, versão 2.3):</p>\n<div class=\"tab\"><table><thead><tr><th>Campo</th><th>Portaria 344</th><th>Antimicrobiano e GLP-1</th></tr></thead><tbody>\n<tr><td>Tipo de receituário</td><td>1 RCE; 2 Notificação B; 3 Notificação Especial; 4 Notificação A</td><td>5 Receita antimicrobiano em 2 vias</td></tr>\n<tr><td>Número da notificação</td><td>Obrigatório nos tipos 2, 3 e 4</td><td>Não obrigatório</td></tr>\n<tr><td>Data da prescrição</td><td>Obrigatória</td><td>Obrigatória</td></tr>\n<tr><td>Prescritor</td><td>Nome, número, conselho e UF; uso humano: CRM, CRO, CRF ou RMS</td><td>Nome, número, conselho e UF; admite também COREN</td></tr>\n<tr><td>Uso</td><td>Humano ou veterinário (veterinário só com CRMV)</td><td>Humano ou veterinário</td></tr>\n<tr><td>Comprador</td><td>Obrigatório: nome e documento</td><td>Não obrigatório</td></tr>\n<tr><td>Paciente</td><td>Não obrigatório</td><td>Obrigatório: nome, idade e sexo; não informar em uso veterinário</td></tr>\n<tr><td>Uso prolongado</td><td>Não se informa</td><td>Sim ou não</td></tr>\n</tbody></table></div>\n<p>Em todas as saídas entram registro, lote, quantidade, unidade e data da venda. O campo de quantidade de venda aceita até 999 unidades. O CID é opcional.</p>\n<ol>\n<li>Avaliar a receita pelas regras do receituário (validade, campos, quantidade). Receita irregular não chega ao software.</li>\n<li>Na receita eletrônica numerada pelo SNCR, consultar o número, validar a assinatura e registrar o uso no SNCR antes de entregar.</li>\n<li>No software, escolher o tipo de receituário correto e informar o número. Para receita eletrônica, o número vai no mesmo campo usado para o papel (Perguntas e Respostas RDC 1.000/2025, pergunta 31). Para números do SNCR, o CFF divulgou a orientação de excluir os quatro primeiros dígitos ao lançar no sistema interno (CFF, 24/10/2025); confirme com o fornecedor do software e a VISA.</li>\n<li>Lançar prescritor com conselho e UF exatamente como na receita.</li>\n<li>Lançar comprador (controlados) com documento conferido no balcão, ou paciente com idade e sexo (antimicrobianos e GLP-1). Se a receita de GLP-1 não trouxer idade e sexo, a Anvisa orienta o farmacêutico a anotá-los no verso (Perguntas e Respostas GLP-1, pergunta 11).</li>\n<li>Escolher na tela o lote que está saindo de fato, com a caixa na mão.</li>\n<li>Anotar nas duas vias da receita de antimicrobiano ou GLP-1 a data, a quantidade aviada, o lote e a rubrica (RDC 471/2021, art. 10, § 3º).</li>\n<li>Reter a via devida e arquivar no lote do dia.</li>\n</ol>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>A notificação em papel continua sem registro de uso no SNCR: \"o procedimento de retenção da notificação de receita e sua posterior escrituração no Sistema Nacional de Gerenciamento de Produtos Controlados (SNGPC) permanece inalterado.\" (Anvisa, Perguntas e Respostas RDC 1.000/2025, pergunta 24)</p></div>\n<h3>Perdas</h3>\n<p>Perda é saída por vencimento, apreensão ou recolhimento pela VISA, roubo ou furto, avaria, desvio de qualidade, exclusão da lista, coleta de amostra, erro de manipulação, análise fiscal ou devolução e recolhimento ao fabricante (RDC 22/2014, art. 5º, XXIV). No arquivo, cada perda leva um motivo codificado:</p>\n<div class=\"tab\"><table><thead><tr><th>Código</th><th>Motivo da perda</th><th>Documento que justifica</th></tr></thead><tbody>\n<tr><td>1</td><td>Furto ou roubo</td><td>Boletim de ocorrência; comunicação à VISA</td></tr>\n<tr><td>2</td><td>Avaria</td><td>Registro interno com descrição; produto segregado</td></tr>\n<tr><td>3</td><td>Vencimento</td><td>Relação dos itens; termo ou orientação da VISA para inutilização</td></tr>\n<tr><td>4</td><td>Apreensão ou recolhimento pela VISA</td><td>Termo da VISA</td></tr>\n<tr><td>5</td><td>Perda no processo</td><td>Registro de manipulação (farmácia magistral)</td></tr>\n<tr><td>6</td><td>Coleta para controle de qualidade</td><td>Termo de coleta</td></tr>\n<tr><td>7</td><td>Exclusão da Portaria 344</td><td>Norma que excluiu a substância</td></tr>\n<tr><td>8</td><td>Desvio de qualidade</td><td>Notificação e comunicação ao fornecedor</td></tr>\n<tr><td>9</td><td>Recolhimento do fabricante</td><td>Comunicado de recolhimento e nota de devolução</td></tr>\n</tbody></table></div>\n<h3>Transferências e devoluções</h3>\n<ul>\n<li><strong>Transferência</strong> só entre estabelecimentos da mesma rede, com a mesma raiz de CNPJ (RDC 22/2014, art. 5º, XXXI), sempre com nota fiscal. Quem envia escritura a saída por transferência; quem recebe, a entrada.</li>\n<li><strong>Encerramento, mudança de atividade ou junção</strong>: a transferência de estoque é permitida e escriturada; quem recebe lança a entrada pela nota do estabelecimento que encerrou (art. 13).</li>\n<li><strong>Devolução pelo cliente</strong>: é vedada para medicamentos com antimicrobianos e agonistas de GLP-1 (RDC 471/2021, art. 21). Para controlados da Portaria 344, o CFF lembra que troca e devolução são proibidas, salvo desvio de qualidade comprovado.</li>\n<li><strong>Devolução ao fornecedor</strong> por desvio de qualidade ou recolhimento: escriturada como perda com o motivo correspondente e a nota de devolução.</li>\n</ul>\n<h3>Unidade de medida</h3>\n<p>Para medicamento industrializado, o padrão SNGPC aceita duas unidades: caixa e frasco. A quantidade é o número de embalagens. Venda de 2 caixas com 30 comprimidos é quantidade 2, e não 60. Para insumos, a unidade é grama, mililitro ou unidade, conforme o insumo. Apresentações fracionáveis seguem escrituradas no sistema interno, fora do SNGPC (RDC 22/2014, art. 35, § 3º).</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Dado errado lançado no balcão vira dado errado no SNGPC e, se o arquivo for aceito, vira estoque oficial errado. Cada dispensação deve ser lançada com a receita na mão, antes de o cliente ir embora. Deixar para o fim do dia é a causa mais comum de lote trocado e quantidade errada.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Ao fim de cada turno, separe as receitas retidas do dia por tipo e confira, uma a uma, contra a lista de saídas do software. Cinco minutos de conferência evitam semanas de investigação de divergência.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Cliente apresenta receita de semaglutida de 40 dias atrás, com indicação de uso por 3 meses e quantidade para cada 30 dias. A receita é válida (90 dias). O farmacêutico dispensa o mês, anota data, quantidade e lote no anverso das duas vias, retém a segunda via e lança a saída com tipo de receituário de antimicrobiano, uso prolongado \"sim\", paciente com idade e sexo.</p></div>\n"
+  },
+  {
+   "id": "m12-transmissao",
+   "titulo": "Transmissão do arquivo XML",
+   "resumo": "\n<p>Transmitir é enviar ao SNGPC o arquivo XML com todas as movimentações de um período. O período de cada arquivo tem data inicial e data final, e os arquivos precisam se encadear em ordem, sem buracos.</p>\n<h3>Periodicidade e prazo</h3>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"Os dados da escrituração sanitária devem ser transmitidos eletronicamente em arquivos no intervalo de, no mínimo, 1 (um) e, no máximo, 7 (sete) dias consecutivos, ainda que nenhuma movimentação no estoque do estabelecimento tenha ocorrido no respectivo período.\" (RDC 22/2014, art. 10, § 3º). \"A transmissão eletrônica deve ser realizada e atualizada, no mínimo, uma vez por semana.\" (§ 4º)</p></div>\n<ul>\n<li>Cada arquivo cobre de 1 a 7 dias.</li>\n<li>Semana sem movimento também gera arquivo.</li>\n<li>Um arquivo novo só é liberado depois que o anterior está \"Aceito\" (CFF, 24/10/2025).</li>\n<li>Os arquivos seguem ordem sequencial e cronológica, sem lacunas (informes de inconsistência da Anvisa).</li>\n</ul>\n<p>Transmitir todos os dias é a forma mais segura: o erro aparece no dia seguinte, com a receita ainda à mão, e a loja nunca fica perto do limite de 7 dias.</p>\n<h3>Contagem do prazo na prática</h3>\n<div class=\"tab\"><table><thead><tr><th>Último arquivo aceito</th><th>Próximo arquivo</th><th>Situação</th></tr></thead><tbody>\n<tr><td>Segunda a domingo (7 dias)</td><td>Começa na segunda seguinte</td><td>Regular: período no limite máximo</td></tr>\n<tr><td>Período até quinta-feira</td><td>Período de sexta em diante, enviado até a quinta seguinte</td><td>Regular</td></tr>\n<tr><td>Período até quinta-feira</td><td>Primeiro envio só na sexta da semana seguinte</td><td>Atraso: mais de 7 dias consecutivos</td></tr>\n<tr><td>Loja fechada no feriado</td><td>Os dias entram no período, sem movimento</td><td>Regular, desde que dentro dos 7 dias</td></tr>\n</tbody></table></div>\n<h3>Como o arquivo chega à Anvisa</h3>\n<ol>\n<li>O software gera o XML do período, com cabeçalho (CNPJ, CPF do RT transmissor, data inicial e data final) e corpo (entradas, saídas, perdas, transferências).</li>\n<li>O arquivo é compactado em ZIP. A partir da versão 2.0 só são aceitos arquivos compactados (Guia do padrão SNGPC, versão 2.3, item 5).</li>\n<li>O envio pode ser feito pelo próprio software, ligado ao webservice ou à API da Anvisa, ou manualmente, no menu Transmissão de arquivos do SNGPC (arquivo ZIP, e-mail e senha do farmacêutico, botão Enviar).</li>\n<li>No envio, o sistema calcula um código de identificação do arquivo (hash) e responde que o arquivo foi recebido, com data, hora e o hash (Manual do Desenvolvedor, versão 2.0.1). Anote ou guarde esse código: é por ele que se consulta a situação do arquivo.</li>\n</ol>\n<p>A Anvisa publicou uma API nova para transmissão e consulta e avisou que o webservice antigo será descontinuado (página Desenvolvedores do SNGPC). Peça ao fornecedor do software a confirmação de que o sistema já usa a API.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Arquivo mandado por e-mail, CD ou pen drive não conta. Só vale o que entra na base do SNGPC pelos canais do sistema. O mesmo vale para o arquivo gerado e esquecido na pasta do computador.</p></div>\n<h3>Situações do arquivo</h3>\n<div class=\"tab\"><table><thead><tr><th>Situação</th><th>Significado</th><th>O que fazer</th></tr></thead><tbody>\n<tr><td>Recebido</td><td>O arquivo chegou à base</td><td>Aguardar a validação</td></tr>\n<tr><td>Validado</td><td>Estrutura conferida</td><td>Aguardar o aceite</td></tr>\n<tr><td>Aceito</td><td>Movimentações integradas ao estoque oficial</td><td>Liberado o próximo período</td></tr>\n<tr><td>Recusado</td><td>Erro impediu o registro</td><td>Ler o motivo, corrigir no software e reenviar o mesmo período</td></tr>\n</tbody></table></div>\n<p>Fonte: CFF, campanha sobre o SNGPC (24/10/2025) e Perguntas e Respostas sobre instabilidade do SNGPC (Anvisa, 2021).</p>\n<h3>Passo a passo do envio diário</h3>\n<ol>\n<li>Antes de gerar, revisar no software as pendências do dia: dispensação sem lote, entrada sem nota, perda sem motivo.</li>\n<li>Conferir no SNGPC a data final do último arquivo aceito (Visualizar Inventário, campo Data final do último período informado).</li>\n<li>Gerar no software o arquivo cujo período começa no dia seguinte a essa data final.</li>\n<li>Transmitir e guardar a resposta de recebimento com o hash.</li>\n<li>Consultar a situação do arquivo em Relatórios > Status de Transmissão (Validação executada e Foi aceito?) ou pelo próprio software.</li>\n<li>Se estiver aceito, registrar no controle diário e seguir.</li>\n<li>Se estiver recusado, ler o motivo, corrigir o lançamento na origem e gerar de novo o mesmo período.</li>\n<li>Se o sistema estiver fora do ar, registrar as tentativas e tentar de novo mais tarde.</li>\n</ol>\n<h3>Quando o sistema está fora do ar</h3>\n<p>Falta de transmissão causada estritamente por instabilidade do próprio SNGPC não deve ser autuada (RDC 22/2014, art. 33). Para provar, a Anvisa orientou imprimir a página que mostra a tentativa e registrar protocolo na central de atendimento (Nota Técnica 003/2013, item 3). Mensagens como tempo esgotado, serviço indisponível ou erro HTTP 500 no login foram descritas pela Anvisa como sinais de instabilidade (item 2). A escrituração no software continua normalmente; quando o sistema volta, os arquivos são enviados em ordem.</p>\n<p>Se um medicamento não é encontrado na base da Anvisa (inconsistência), o RT notifica pela funcionalidade do SNGPC, escritura as movimentações no software e retoma o envio desse produto quando a Anvisa corrigir (RDC 22/2014, art. 14).</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Crie uma planilha simples com uma linha por arquivo: período, data do envio, hash, situação e rubrica. Na fiscalização ela mostra a regularidade em segundos, e no dia a dia avisa quando algum arquivo ficou para trás.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Na quinta-feira o arquivo de quarta volta recusado. O farmacêutico não envia o arquivo de quinta \"para não atrasar\", porque o sistema não libera o novo enquanto o anterior não estiver aceito. Ele corrige o erro de quarta, reenvia o mesmo período, espera o aceite e só então transmite quinta.</p></div>\n"
+  },
+  {
+   "id": "m12-erros",
+   "titulo": "Erros, recusas e correções",
+   "resumo": "\n<p>Um arquivo recusado avisa que algo na escrituração está errado. A infração começa quando o erro não é corrigido e a loja passa do prazo de 7 dias, ou quando o estoque físico deixa de bater com o escriturado (RDC 22/2014, arts. 10, § 3º, e 15).</p>\n<h3>Os três grupos de erro</h3>\n<div class=\"tab\"><table><thead><tr><th>Grupo</th><th>Exemplos</th><th>Quem resolve</th></tr></thead><tbody>\n<tr><td>Acesso</td><td>Sem perfil, CNAE, IP bloqueado, senha</td><td>Gestor de segurança, RL, central da Anvisa</td></tr>\n<tr><td>Estrutura do arquivo</td><td>Caractere inválido, elemento fora do padrão, arquivo não compactado</td><td>Suporte do software</td></tr>\n<tr><td>Conteúdo da escrituração</td><td>Lote não encontrado, falta de estoque, classe trocada, CNPJ de destino, número de notificação ausente, conselho incompatível</td><td>Farmacêutico, com correção na origem</td></tr>\n</tbody></table></div>\n<h3>Como corrigir um arquivo recusado</h3>\n<ol>\n<li>Ler a mensagem completa do motivo e identificar o produto, o lote e a data citados.</li>\n<li>Localizar no software o lançamento de origem: a nota, a receita ou a perda.</li>\n<li>Comparar com o documento físico. Corrigir o que estiver errado no lançamento, não no arquivo.</li>\n<li>Se o erro for de estrutura (mensagem técnica sobre elemento ou caractere), abrir chamado com o suporte do software, enviando a mensagem.</li>\n<li>Gerar novamente o arquivo do mesmo período.</li>\n<li>Transmitir e acompanhar até o aceite.</li>\n<li>Registrar no controle diário o que foi corrigido e por quê.</li>\n</ol>\n<h3>Erro em arquivo já aceito</h3>\n<p>A RDC 22/2014 não prevê edição de movimento já integrado. O caminho documentado pela Anvisa para corrigir quantidade de estoque no SNGPC é a <strong>finalização do inventário pela opção de ajuste</strong>, com uma justificativa que permita identificar o motivo, seguida do envio de novo XML de inventário (Anvisa, Perguntas e Respostas sobre instabilidade do SNGPC, 2021). Todas as finalizações e reaberturas ficam registradas no histórico da empresa e podem ser vistas pelas VISAs. Por isso o ajuste é recurso de exceção, documentado, e não rotina.</p>\n<ol>\n<li>Corrigir o lançamento no software e guardar o documento que prova o valor certo.</li>\n<li>Avaliar se a diferença afeta o estoque oficial. Erro sem efeito de estoque (por exemplo, grafia do nome do comprador) fica corrigido no software e documentado.</li>\n<li>Se o estoque do SNGPC ficou diferente do físico, contar o produto afetado e confirmar a diferença.</li>\n<li>Finalizar o inventário com motivo de ajuste e justificativa objetiva: produto, lote, diferença, causa e documentos.</li>\n<li>Enviar novo inventário com o estoque real, datado em até 7 dias antes da transmissão.</li>\n<li>Comunicar a VISA local quando houver divergência de controlado sem explicação documental, e seguir os procedimentos adicionais que ela determinar.</li>\n</ol>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"Quando houver inconsistências que impeçam o envio de arquivo XML, as movimentações desta inconsistência devem ser escrituradas no sistema informatizado do estabelecimento para controle e fiscalização pela autoridade sanitária.\" (RDC 22/2014, art. 14, § 1º)</p></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>Entrada fictícia, perda sem fato real ou venda sem escrituração para \"acertar\" o saldo são infrações e escondem a causa da diferença. Diferença de estoque se resolve com documento, ajuste pelo procedimento da Anvisa e, quando não há explicação, comunicação à VISA.</p></div>\n<h3>Situações sem mensagem padrão</h3>\n<p>Algumas falhas não têm texto de recusa documentado em norma ou nota técnica, mas aparecem na rotina:</p>\n<ul>\n<li><strong>Período fora de ordem ou com lacuna</strong>: a Anvisa exige envio em ordem sequencial e cronológica, sem lacunas. Gerar o arquivo a partir do dia seguinte ao último aceito.</li>\n<li><strong>Mesmo movimento em dois arquivos</strong> (duplicidade): pode aparecer como baixa de estoque em dobro e, depois, falta de estoque. Conferir períodos sobrepostos no software antes de gerar.</li>\n<li><strong>CPF, CRM ou número de documento digitado errado</strong>: o arquivo pode até ser aceito e o erro só aparecer na fiscalização. Conferir no balcão, com o documento na mão.</li>\n<li><strong>Estoque negativo no software</strong>: sinal de entrada não lançada ou saída em lote errado. Resolver antes de gerar o arquivo.</li>\n</ul>\n<h3>Prevenção</h3>\n<ul>\n<li>Cadastrar no software cada produto com o número de registro e a classe terapêutica certos uma única vez, na primeira entrada.</li>\n<li>Bloquear no software a venda de lote que não tem entrada lançada.</li>\n<li>Configurar o software para exigir número de notificação nos tipos 2, 3 e 4 e paciente com idade e sexo em antimicrobianos e GLP-1.</li>\n<li>Conferir o CNPJ de destino em toda nota de controlado antes de dar entrada.</li>\n<li>Fazer contagem cega semanal dos itens de maior giro e comparar com o estoque do SNGPC.</li>\n<li>Pedir ao fornecedor do software que avise com antecedência qualquer atualização do leiaute ou da forma de envio.</li>\n</ul>\n<h3>Quando procurar a VISA</h3>\n<ul>\n<li>Divergência de controlado sem explicação documental: boletim de ocorrência quando houver suspeita de desvio, comunicação à VISA e escrituração da perda.</li>\n<li>Troca de RT com divergência entre inventário e estoque (RDC 22/2014, art. 12, § 2º).</li>\n<li>Furto, roubo ou extravio de medicamentos ou de receitas retidas.</li>\n<li>Atraso de transmissão por qualquer motivo que não seja instabilidade comprovada do SNGPC.</li>\n<li>Município sem acesso à internet, para autorização de livro (art. 35, § 1º).</li>\n<li>Caso não previsto: comunicar a VISA municipal e, além disso, a Anvisa pelos canais de atendimento (Perguntas e Respostas, 2021, pergunta 13).</li>\n</ul>\n<div class=\"cx balcao\"><b>No balcão</b><p>Quando o motivo da recusa citar um lote, vá ao armário antes de mexer no software. Muitas vezes a própria caixa mostra o problema: lote com letra O no lugar de zero, sufixo esquecido ou caixa de outro lote vendida no lugar.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Arquivo recusado por falta de estoque do lote 2405B de clonazepam 2 mg. O farmacêutico consulta o histórico de movimentações do produto no SNGPC e vê que a entrada daquele lote nunca foi transmitida: a nota foi lançada no software com o lote \"2405 B\". Ele corrige o lote na entrada, gera de novo o período e o arquivo é aceito.</p></div>\n"
+  },
+  {
+   "id": "m12-fiscalizacao",
+   "titulo": "Fiscalização, relatórios e penalidades",
+   "resumo": "\n<p>A fiscalização do cumprimento da RDC 22/2014 cabe às vigilâncias sanitárias dos estados, do Distrito Federal e dos municípios (art. 32). Cada VISA acessa no SNGPC os dados dos estabelecimentos da sua área: a estadual vê o estado, a regional vê a regional, a municipal vê o município; o RT vê só a própria loja (página da Anvisa sobre o SNGPC para vigilâncias).</p>\n<h3>O que a vigilância confere</h3>\n<ol>\n<li>Certificado de Escrituração Digital impresso e atualizado com o RT atual (art. 9º).</li>\n<li>Regularidade das transmissões, que pode ser atestada pelo Certificado de Transmissão Regular (art. 5º, VI, e art. 36). No sistema ele fica em Relatórios e só é emitido com pelo menos quatro arquivos validados e aceitos nos últimos 30 dias e o último período informado com até dez dias de diferença da data de geração.</li>\n<li>Estoque físico de controlados igual ao do SNGPC e ao do software (art. 15). Na comparação, a VISA considera arquivos ainda não enviados ou não validados dentro do prazo (art. 36, parágrafo único).</li>\n<li>Escrituração mantida no software, com cópia de segurança guardada por 2 anos (art. 10, § 6º, e art. 19, I).</li>\n<li>Relatórios de estoque e movimentação gerados pelo software (art. 19, II).</li>\n<li>Notas fiscais, receitas e notificações retidas, boletins e termos que justificam cada movimento, guardados por 2 anos (Portaria 344/1998, art. 64; RDC 471/2021, art. 22).</li>\n<li>Guarda dos controlados sob chave, em local exclusivo (Portaria 344/1998, art. 67).</li>\n<li>Balanços e relações periódicas exigidos pela Portaria 344, na forma que a VISA local adotar.</li>\n<li>Restrição de acesso ao software que gera o XML (art. 18) e sigilo dos dados (art. 21).</li>\n</ol>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"Durante a inspeção sanitária local, caso seja verificada divergência entre o estoque físico e o estoque no SNGPC, deverá ser considerada a existência de arquivos não enviados e/ou não validados no prazo previsto pelo § 4º do art. 10.\" (RDC 22/2014, art. 36, parágrafo único)</p></div>\n<h3>Relatórios do SNGPC</h3>\n<p>O sistema tem uma área de relatórios, de onde se emitem os certificados e se consulta o histórico de movimentações por produto e lote (documentos da Anvisa de 2009, 2020 e 2021). O RT deve usá-la como ferramenta de conferência: comparar periodicamente o estoque oficial dos itens de maior giro com o software e com a prateleira.</p>\n<h3>Relação com os balanços da Portaria 344</h3>\n<p>O SNGPC substituiu o livro de registro de farmácias e drogarias (RDC 22/2014, art. 35), mas não revogou os balanços e relações da Portaria 344. Durante a suspensão das transmissões, a Anvisa reafirmou que BSPO, BMPO, RMNRA e RMNRB2 mantinham os prazos dos arts. 68, 69 e 72 da Portaria 344 e que a VISA local pode definir procedimentos próprios (Perguntas e Respostas, 2021, pergunta 12). A falta de remessa no prazo é infração (Portaria 344, art. 73).</p>\n<div class=\"tab\"><table><thead><tr><th>Documento</th><th>Conteúdo</th><th>Prazo na Portaria 344</th></tr></thead><tbody>\n<tr><td>BMPO</td><td>Vendas de medicamentos das listas A1, A2, A3 e B2</td><td>Trimestral, até o dia 15 de abril, julho, outubro e janeiro; anual até 31 de janeiro (art. 69)</td></tr>\n<tr><td>RMNRA</td><td>Notificações A retidas</td><td>Mensal, até o dia 15 (art. 72)</td></tr>\n</tbody></table></div>\n<h3>Sigilo dos dados</h3>\n<p>O software da loja deve garantir sigilo, integridade, autenticidade e disponibilidade dos dados, e é proibido repassar a terceiros não autorizados informações capazes de identificar padrões de prescrição, dispensação ou consumo (RDC 22/2014, art. 21). Os dados do SNGPC recebem tratamento sigiloso também dentro da vigilância (art. 31). A Lei Geral de Proteção de Dados (Lei 13.709/2018) se soma a essas regras. Na prática: relatório de vendas de controlados por médico não sai da loja, o acesso ao módulo de controlados é restrito e o computador do RT não fica aberto no balcão.</p>\n<h3>Penalidades</h3>\n<p>A empresa responde administrativa e civilmente pela inobservância da RDC 22/2014, nos termos da Lei 6.437/1977, sem prejuízo das responsabilidades do RT e do responsável legal (RDC 22/2014, art. 39). A VISA pode também comunicar o fato ao conselho profissional (art. 34).</p>\n<div class=\"tab\"><table><thead><tr><th>Ponto</th><th>Regra</th><th>Base</th></tr></thead><tbody>\n<tr><td>Enquadramento usual</td><td>Transgredir normas destinadas à proteção da saúde; aviar receita em desacordo com a norma</td><td>Lei 6.437/1977, art. 10, XXIX e XI</td></tr>\n<tr><td>Penas possíveis</td><td>Advertência, multa, apreensão, interdição, cancelamento de autorização ou de licença, entre outras</td><td>Lei 6.437/1977, art. 2º</td></tr>\n<tr><td>Multa leve</td><td>R$ 2.000 a R$ 75.000</td><td>Lei 6.437/1977, art. 2º, § 1º, I</td></tr>\n<tr><td>Multa grave</td><td>R$ 75.000 a R$ 200.000</td><td>Art. 2º, § 1º, II</td></tr>\n<tr><td>Multa gravíssima</td><td>R$ 200.000 a R$ 1.500.000</td><td>Art. 2º, § 1º, III</td></tr>\n<tr><td>Reincidência</td><td>Multa em dobro</td><td>Art. 2º, § 2º</td></tr>\n<tr><td>Classificação</td><td>Leve com atenuante; grave com uma agravante; gravíssima com duas ou mais</td><td>Art. 4º</td></tr>\n</tbody></table></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>Instabilidade do SNGPC só afasta a autuação quando o motivo é estritamente a falha do próprio sistema (RDC 22/2014, art. 33). Problema no software da loja, falta de internet da loja ou RT de férias sem substituto não entram nessa exceção.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Monte uma pasta da fiscalização: Certificado de Escrituração Digital, último Certificado de Transmissão Regular, controle diário de arquivos, último relatório de estoque, protocolos de chamados na Anvisa e comunicações à VISA. Na visita, o fiscal recebe a pasta e você ganha tempo para a contagem.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Na inspeção, o fiscal conta 14 caixas de metilfenidato 10 mg e o SNGPC mostra 16. A farmacêutica mostra que duas dispensações de ontem estão no software e no arquivo de hoje, enviado de manhã e ainda não aceito. O fiscal considera o arquivo em trânsito (art. 36, parágrafo único), confere as duas notificações retidas e encerra o item sem divergência.</p></div>\n"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m12-mapa-geral",
+   "titulo": "SNGPC: do credenciamento ao dia a dia",
+   "centro": "SNGPC na drogaria",
+   "ramos": [
+    {
+     "t": "O que entra",
+     "itens": [
+      "Portaria 344: listas de controle especial",
+      "Antimicrobianos (IN 360/2025, art. 1º)",
+      "GLP-1: padrão XML dos antimicrobianos",
+      "Públicas e hospitalares: fora (art. 3º)"
+     ]
+    },
+    {
+     "t": "Antes de começar",
+     "itens": [
+      "Cadastro da empresa e do RT na Anvisa",
+      "Gestor de segurança atribui o perfil",
+      "AFE, licença local, CRF ativo",
+      "Software que gera XML no padrão"
+     ]
+    },
+    {
+     "t": "Credenciamento",
+     "itens": [
+      "Inventário inicial por XML (art. 8º)",
+      "Data até 7 dias antes do envio",
+      "Certificado de Escrituração Digital",
+      "Acesso: senha pessoal ou gov.br"
+     ]
+    },
+    {
+     "t": "Rotina",
+     "itens": [
+      "Lançar com o documento na mão",
+      "Caixa ou frasco, nunca comprimido",
+      "Comprador (344) ou paciente (ATM, GLP-1)",
+      "Perda sempre com motivo"
+     ]
+    },
+    {
+     "t": "Transmissão",
+     "itens": [
+      "Arquivo a cada 1 a 7 dias (art. 10, § 3º)",
+      "Sem movimento também envia",
+      "Recebido, validado, aceito",
+      "Próximo só após o aceite"
+     ]
+    },
+    {
+     "t": "Troca de RT",
+     "itens": [
+      "Finalizar inventário antes (art. 12)",
+      "Novo RT confere e conta",
+      "Divergência: corrigir e avisar a VISA",
+      "Novo certificado impresso"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m12-mapa-erros",
+   "titulo": "Erros e correções",
+   "centro": "Erros no SNGPC",
+   "ramos": [
+    {
+     "t": "Acesso",
+     "itens": [
+      "CPF sem perfil: gestor de segurança",
+      "CNAE fora de farmácia: corrigir cadastro",
+      "IP bloqueado: pedir desbloqueio",
+      "Timeout, HTTP 500: instabilidade"
+     ]
+    },
+    {
+     "t": "Estrutura do arquivo",
+     "itens": [
+      "Caractere não UTF-8: suporte do software",
+      "Elemento inválido: fora do leiaute",
+      "Arquivo precisa ir em ZIP"
+     ]
+    },
+    {
+     "t": "Estoque e lote",
+     "itens": [
+      "Lote não encontrado: espaço ou caractere",
+      "Falta de estoque: entrada não enviada",
+      "Classe trocada: finalizar e refazer"
+     ]
+    },
+    {
+     "t": "Receita e prescritor",
+     "itens": [
+      "Tipos 2, 3 e 4 exigem número",
+      "Uso humano não aceita CRMV",
+      "CNPJ de destino igual ao da loja"
+     ]
+    },
+    {
+     "t": "Como corrigir",
+     "itens": [
+      "Corrigir na origem, no software",
+      "Reenviar o mesmo período",
+      "Aceito com erro: ajuste e novo inventário",
+      "Registrar o motivo e os documentos"
+     ]
+    },
+    {
+     "t": "VISA",
+     "itens": [
+      "Divergência sem explicação",
+      "Troca de RT com diferença",
+      "Furto, roubo, extravio",
+      "Atraso que não é instabilidade"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "simulador",
+   "id": "m12-sim-sngpc",
+   "titulo": "Simulador: o SNGPC tela a tela",
+   "sistema": "SNGPC",
+   "subtitulo": "Sistema Nacional de Gerenciamento de Produtos Controlados (réplica didática, dados fictícios)",
+   "menu": [
+    "Dados da Empresa",
+    "Alterar Dados CRF",
+    "Inventário Inicial",
+    "Finalizar Inventário",
+    "Informar Ausência",
+    "Visualizar Inventário",
+    "Transmissão de arquivos",
+    "Relatórios",
+    "Sair do Sistema"
+   ],
+   "telas": [
+    {
+     "menu": "Entrada",
+     "nome": "Tela de entrada",
+     "menuProprio": [
+      "Entrada"
+     ],
+     "resumo": "Endereço: sngpc.anvisa.gov.br. Use o Chrome ou o Edge atualizados. O acesso é pessoal: cada farmacêutico entra com o próprio login.",
+     "elementos": [
+      {
+       "e": "titulo",
+       "t": "Acesso restrito"
+      },
+      {
+       "e": "campo",
+       "r": "E-mail:",
+       "v": "farmaceutico@exemplo.com.br",
+       "n": 1
+      },
+      {
+       "e": "campo",
+       "r": "Senha:",
+       "v": "••••••••",
+       "n": 2
+      },
+      {
+       "e": "aviso",
+       "tipo": "info",
+       "t": "Não sou um robô (reCAPTCHA)",
+       "n": 3
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Entrar"
+       ]
+      },
+      {
+       "e": "links",
+       "itens": [
+        "Esqueci minha senha"
+       ],
+       "n": 4
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Entrar com gov.br",
+        "Entrar como Anvisa"
+       ],
+       "n": 5
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "E-mail cadastrado do responsável técnico ou do responsável legal. O acesso é nominal: não empreste a senha a balconista nem a outro farmacêutico, porque tudo o que é feito fica registrado no seu nome."
+      },
+      {
+       "n": 2,
+       "t": "Senha pessoal do SNGPC. Em caso de troca de RT, o novo farmacêutico recebe acesso próprio; não se herda a senha do anterior."
+      },
+      {
+       "n": 3,
+       "t": "O reCAPTCHA é marcado pela própria pessoa. Sem ele o botão Entrar não funciona."
+      },
+      {
+       "n": 4,
+       "t": "Recupera a senha pelo e-mail cadastrado. Se o e-mail mudou, é preciso atualizar o cadastro antes."
+      },
+      {
+       "n": 5,
+       "t": "Entrar com gov.br usa a conta gov.br do farmacêutico. \"Entrar como Anvisa\" é para servidores da Anvisa, não para a farmácia."
+      }
+     ]
+    },
+    {
+     "menu": "Dados da Empresa",
+     "nome": "Dados da Empresa",
+     "resumo": "Primeira tela a conferir no primeiro dia: confirma que você está no estabelecimento certo e que o seu nome aparece como responsável técnico com acesso.",
+     "elementos": [
+      {
+       "e": "titulo",
+       "t": "Dados da empresa"
+      },
+      {
+       "e": "campo",
+       "r": "Nome Fantasia:",
+       "v": "DROGARIA EXEMPLO",
+       "n": 1
+      },
+      {
+       "e": "campo",
+       "r": "Razão Social:",
+       "v": "DROGARIA EXEMPLO LTDA"
+      },
+      {
+       "e": "campo",
+       "r": "CNPJ:",
+       "v": "00.000.000/0001-00"
+      },
+      {
+       "e": "campo",
+       "r": "Número A.F.E.:",
+       "v": "0.00.000-0",
+       "n": 2
+      },
+      {
+       "e": "campo",
+       "r": "Número A.E.:",
+       "v": "Inexistente",
+       "n": 3
+      },
+      {
+       "e": "titulo",
+       "t": "Dados dos responsáveis"
+      },
+      {
+       "e": "campo",
+       "r": "Responsável Técnico com acesso ao SNGPC:",
+       "v": "FARMACÊUTICA A (CRF 0000/UF)",
+       "n": 4
+      },
+      {
+       "e": "campo",
+       "r": "Responsável Técnico com acesso ao SNGPC:",
+       "v": "FARMACÊUTICO B (CRF 0000/UF)"
+      },
+      {
+       "e": "campo",
+       "r": "Responsável Legal com acesso ao SNGPC:",
+       "v": "SÓCIO-ADMINISTRADOR",
+       "n": 5
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Nome fantasia, razão social, CNPJ, CNAE e endereço vêm do cadastro da empresa na Anvisa. Se algo estiver errado, a correção é feita no cadastro da empresa (e na AFE), não nesta tela."
+      },
+      {
+       "n": 2,
+       "t": "Autorização de Funcionamento da Empresa. Sem AFE válida a drogaria não opera com controlados."
+      },
+      {
+       "n": 3,
+       "t": "Autorização Especial: exigida de quem manipula ou fabrica controlados. Para drogaria que só dispensa medicamento industrializado costuma aparecer \"Inexistente\"."
+      },
+      {
+       "n": 4,
+       "t": "Todos os farmacêuticos vinculados com acesso aparecem aqui, cada um com nome, CRF e e-mail. No primeiro dia, confira se o seu nome está na lista."
+      },
+      {
+       "n": 5,
+       "t": "O responsável legal (sócio ou administrador) também pode ter acesso, mas a escrituração e as decisões técnicas são do farmacêutico."
+      }
+     ]
+    },
+    {
+     "menu": "Alterar Dados CRF",
+     "nome": "Alterar Dados CRF",
+     "resumo": "Quando os dados da carteira profissional estão incompletos, o sistema mostra um aviso e pede que o RT os informe.",
+     "elementos": [
+      {
+       "e": "aviso",
+       "tipo": "alerta",
+       "t": "Atenção. Prezado(a) RT, verificamos que os dados referentes à carteirinha de registro profissional (CRF) estão pendentes. Favor informar os dados abaixo.",
+       "n": 1
+      },
+      {
+       "e": "campo",
+       "r": "Número carteira CRF:",
+       "v": "0000",
+       "n": 2
+      },
+      {
+       "e": "campo",
+       "r": "Data Expedição:",
+       "v": "",
+       "n": 3
+      },
+      {
+       "e": "campo",
+       "r": "UF Órgão Expedidor:",
+       "v": "UF"
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Salvar"
+       ],
+       "n": 4
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Se este aviso aparecer, resolva no primeiro acesso. Os três campos são obrigatórios."
+      },
+      {
+       "n": 2,
+       "t": "Número da carteira de identidade profissional emitida pelo CRF (não confundir com o número de inscrição, se forem diferentes)."
+      },
+      {
+       "n": 3,
+       "t": "Data de expedição que está na carteira do CRF."
+      },
+      {
+       "n": 4,
+       "t": "Salvar grava os dados no seu cadastro de RT. Confira antes de salvar."
+      }
+     ]
+    },
+    {
+     "menu": "Inventário Inicial",
+     "nome": "Inventário Inicial",
+     "resumo": "O inventário inicial é a fotografia do estoque de controlados no dia em que o farmacêutico assume. Ele chega pelo arquivo do software e é CONFIRMADO nesta tela; depois de confirmado, não se altera.",
+     "elementos": [
+      {
+       "e": "titulo",
+       "t": "Inventário inicial"
+      },
+      {
+       "e": "campo",
+       "r": "Empresa:",
+       "v": "DROGARIA EXEMPLO LTDA (dados fictícios)"
+      },
+      {
+       "e": "campo",
+       "r": "Data de confirmação do inventário:",
+       "v": "(em branco até confirmar)",
+       "n": 1
+      },
+      {
+       "e": "tabela",
+       "n": 2,
+       "colunas": [
+        "Registro",
+        "Medicamento",
+        "Lote",
+        "Quantidade"
+       ],
+       "linhas": [
+        [
+         "1.0000.0000.001-1",
+         "CLONAZEPAM 2 MG COM",
+         "AB1234",
+         "60"
+        ],
+        [
+         "1.0000.0000.002-2",
+         "ALPRAZOLAM 0,5 MG COM",
+         "CD5678",
+         "30"
+        ],
+        [
+         "1.0000.0000.003-3",
+         "AMOXICILINA 500 MG CAP",
+         "EF9012",
+         "42"
+        ]
+       ]
+      },
+      {
+       "e": "texto",
+       "t": "Inventário Inicial do Estoque de Insumos Farmacêuticos: Não foram localizados dados!",
+       "n": 3
+      },
+      {
+       "e": "campo",
+       "r": "Número verificador:",
+       "v": "",
+       "n": 4
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Confirmar"
+       ]
+      },
+      {
+       "e": "aviso",
+       "tipo": "dialogo",
+       "t": "Uma vez confirmado este inventário não poderá ser modificado. Deseja realmente confirmar este inventário?   [OK]  [Cancelar]",
+       "n": 5
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Fica em branco enquanto o inventário não é confirmado. A data de confirmação marca o início da sua escrituração."
+      },
+      {
+       "n": 2,
+       "t": "Cada linha é um lote: registro do medicamento na Anvisa, nome e apresentação, lote e quantidade em unidades. Confira linha a linha contra a contagem física da gaveta e do armário de controlados."
+      },
+      {
+       "n": 3,
+       "t": "Insumos farmacêuticos só aparecem em farmácia com manipulação. Em drogaria esta parte fica vazia."
+      },
+      {
+       "n": 4,
+       "t": "Código mostrado na tela para comprovar que é uma pessoa confirmando. Digite exatamente como aparece."
+      },
+      {
+       "n": 5,
+       "t": "Atenção: depois de confirmado, o inventário não muda. Se houver erro de quantidade ou lote, não confirme: corrija no software, gere o arquivo de novo e só então confirme. Erro descoberto depois de confirmado só se corrige com finalização por \"Ajuste de inventário\" e novo inventário."
+      }
+     ]
+    },
+    {
+     "menu": "Finalizar Inventário",
+     "nome": "Finalizar Inventário",
+     "resumo": "Encerra a escrituração em curso. Usa-se quando o farmacêutico deixa a responsabilidade, quando a empresa para de trabalhar com controlados, para ajuste ou por ordem da vigilância.",
+     "elementos": [
+      {
+       "e": "tabela",
+       "n": 1,
+       "colunas": [
+        "Registro",
+        "Medicamento",
+        "Lote",
+        "Quantidade"
+       ],
+       "linhas": [
+        [
+         "1.0000.0000.001-1",
+         "CLONAZEPAM 2 MG COM",
+         "AB1234",
+         "48"
+        ],
+        [
+         "1.0000.0000.002-2",
+         "ALPRAZOLAM 0,5 MG COM",
+         "CD5678",
+         "30"
+        ]
+       ]
+      },
+      {
+       "e": "select",
+       "r": "Motivo da Finalização:",
+       "v": ":: Selecione ::",
+       "n": 2,
+       "opcoes": [
+        "Ajuste de inventário",
+        "Desligamento do Responsável Técnico: rescisão contratual e/ou baixa de responsabilidade técnica",
+        "Determinação da autoridade sanitária",
+        "Encerramento das atividades com produtos controlados",
+        "Férias",
+        "Licença",
+        "Substituição temporária de Responsável Técnico"
+       ]
+      },
+      {
+       "e": "campo",
+       "r": "Justificativa:",
+       "v": "",
+       "n": 3
+      },
+      {
+       "e": "texto",
+       "t": "Favor confirmar o código abaixo para validar as informações:"
+      },
+      {
+       "e": "campo",
+       "r": "Código:",
+       "v": "",
+       "n": 4
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Finalizar Inventário"
+       ]
+      },
+      {
+       "e": "aviso",
+       "tipo": "dialogo",
+       "t": "Deseja realmente finalizar este inventário?   [OK]  [Cancelar]",
+       "n": 5
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Mostra o estoque que o sistema calculou (inventário inicial mais entradas menos saídas transmitidas). É esse saldo que fica registrado na finalização: confira com o estoque físico antes."
+      },
+      {
+       "n": 2,
+       "t": "Sete motivos. Desligamento do RT: o farmacêutico sai da empresa ou dá baixa na responsabilidade. Férias, Licença e Substituição temporária: outro farmacêutico assume a escrituração por um período. Encerramento: a empresa deixa de trabalhar com controlados. Determinação da autoridade sanitária: quando a VISA ordena. Ajuste de inventário: para corrigir divergência e abrir inventário novo."
+      },
+      {
+       "n": 3,
+       "t": "A justificativa é obrigatória quando o motivo é Ajuste de inventário. Escreva o que aconteceu de forma objetiva (por exemplo: divergência de lote apurada na contagem de 10/10)."
+      },
+      {
+       "n": 4,
+       "t": "Código verificador exibido na tela; digite exatamente."
+      },
+      {
+       "n": 5,
+       "t": "Finalizar encerra a sua escrituração. Depois disso, quem assumir precisa abrir inventário novo. Nunca finalize \"para testar\"."
+      }
+     ]
+    },
+    {
+     "menu": "Informar Ausência",
+     "nome": "Informar Ausência",
+     "resumo": "Registra um afastamento temporário do responsável técnico, com início e fim, sem encerrar o inventário.",
+     "elementos": [
+      {
+       "e": "titulo",
+       "t": "Informar ausência do Responsável Técnico"
+      },
+      {
+       "e": "campo",
+       "r": "Empresa:",
+       "v": "DROGARIA EXEMPLO LTDA (dados fictícios)"
+      },
+      {
+       "e": "campo",
+       "r": "Data Início da Ausência:",
+       "v": "15/10/2026",
+       "n": 1
+      },
+      {
+       "e": "campo",
+       "r": "Data Final da Ausência:",
+       "v": "29/10/2026",
+       "n": 2
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Incluir Ausência"
+       ]
+      },
+      {
+       "e": "titulo",
+       "t": "Ausências do Responsável Técnico"
+      },
+      {
+       "e": "texto",
+       "t": "Não foram localizados dados !!!",
+       "n": 3
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "A data de início não pode ser anterior a hoje: a ausência é informada antes de acontecer, não depois."
+      },
+      {
+       "n": 2,
+       "t": "O período tem no máximo 30 dias, o fim tem de ser depois do início e o novo período não pode começar antes do fim do último já cadastrado. Para afastamento maior, avalie a substituição (Finalizar Inventário com o motivo adequado)."
+      },
+      {
+       "n": 3,
+       "t": "Lista das ausências já informadas. Elas também aparecem no Histórico de Inventários."
+      }
+     ]
+    },
+    {
+     "menu": "Visualizar Inventário",
+     "nome": "Visualizar Inventário",
+     "resumo": "É o estoque de controlados que a Anvisa enxerga hoje. Se não bate com a gaveta, há erro de escrituração.",
+     "elementos": [
+      {
+       "e": "titulo",
+       "t": "Posição atual do inventário"
+      },
+      {
+       "e": "campo",
+       "r": "Data de confirmação do inventário:",
+       "v": "02/06/2026",
+       "n": 1
+      },
+      {
+       "e": "campo",
+       "r": "Data da validação do último arquivo:",
+       "v": "09/10/2026",
+       "n": 2
+      },
+      {
+       "e": "campo",
+       "r": "Data final do último período informado:",
+       "v": "08/10/2026",
+       "n": 3
+      },
+      {
+       "e": "tabela",
+       "n": 4,
+       "colunas": [
+        "Registro",
+        "Medicamento",
+        "Apresentação",
+        "Forma farm.",
+        "Qtd",
+        "Hist"
+       ],
+       "linhas": [
+        [
+         "1.0000.0000.001-1",
+         "CLONAZEPAM",
+         "2 MG COM CT BL X 30",
+         "Comprimido",
+         "48",
+         "ver"
+        ],
+        [
+         "1.0000.0000.002-2",
+         "ALPRAZOLAM",
+         "0,5 MG COM CT BL X 30",
+         "Comprimido",
+         "30",
+         "ver"
+        ]
+       ]
+      },
+      {
+       "e": "texto",
+       "t": "Posição atual do inventário de medicamentos transformados / de insumos farmacêuticos",
+       "n": 5
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "IMPRIMIR"
+       ],
+       "n": 6
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Dia em que o inventário em curso foi confirmado."
+      },
+      {
+       "n": 2,
+       "t": "Último arquivo que a Anvisa validou. Se estiver muito antiga, a farmácia está atrasada na transmissão."
+      },
+      {
+       "n": 3,
+       "t": "Até que dia as movimentações já foram informadas. Compare com hoje: é o \"atraso\" da escrituração."
+      },
+      {
+       "n": 4,
+       "t": "Saldo por apresentação. Passar o mouse mostra fabricante e classe; clicar abre a janela do medicamento com a escolha do lote. Use esta tela para conferir o estoque físico por amostragem toda semana."
+      },
+      {
+       "n": 5,
+       "t": "Transformados e insumos só existem em farmácia com manipulação."
+      },
+      {
+       "n": 6,
+       "t": "Imprime a posição para conferência ou para mostrar à fiscalização."
+      }
+     ]
+    },
+    {
+     "menu": "Transmissão de arquivos",
+     "nome": "Transmissão de arquivos",
+     "resumo": "Aqui se envia o arquivo de movimentação gerado pelo software da farmácia. Muitos softwares transmitem sozinhos; esta tela é o caminho manual.",
+     "elementos": [
+      {
+       "e": "titulo",
+       "t": "Transmissão de arquivos de movimentação do SNGPC"
+      },
+      {
+       "e": "texto",
+       "t": "Clique em Procurar para localizar o arquivo XML compactado em formato ZIP no seu computador e, em seguida, no botão Enviar.",
+       "n": 1
+      },
+      {
+       "e": "arquivo",
+       "r": "Arquivo:",
+       "v": "movimentacao_2026-10-09.zip",
+       "n": 2
+      },
+      {
+       "e": "campo",
+       "r": "E-mail:",
+       "v": "farmaceutico@exemplo.com.br",
+       "n": 3
+      },
+      {
+       "e": "campo",
+       "r": "Senha:",
+       "v": "••••••••"
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Enviar"
+       ],
+       "n": 4
+      },
+      {
+       "e": "aviso",
+       "tipo": "alerta",
+       "t": "O arquivo XML a ser enviado deve estar compactado no formato ZIP.",
+       "n": 5
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "O site não tem tela para digitar entradas e saídas. Toda movimentação sai do software de gestão em um arquivo XML no leiaute da Anvisa."
+      },
+      {
+       "n": 2,
+       "t": "Escolha o arquivo .zip que o software gerou (o XML vai dentro do ZIP). Confira o período no nome ou no relatório do software antes de enviar."
+      },
+      {
+       "n": 3,
+       "t": "E-mail e senha do farmacêutico que está transmitindo: a transmissão fica registrada em nome dele."
+      },
+      {
+       "n": 4,
+       "t": "Enviar não significa aceito. O arquivo vai para validação; o resultado aparece em Relatórios > Status de Transmissão."
+      },
+      {
+       "n": 5,
+       "t": "Mensagem que aparece se o arquivo não for ZIP. Outra mensagem comum: \"Informar localização do arquivo compactado no formato ZIP\" (nenhum arquivo escolhido)."
+      }
+     ]
+    },
+    {
+     "menu": "Relatórios",
+     "nome": "Relatórios (submenu)",
+     "menuProprio": [
+      "Certificado de transmissão regular",
+      "Histórico de Inventários",
+      "Histórico de Movimentações",
+      "Certificado Escrituração Digital",
+      "Status de Transmissão",
+      "Voltar"
+     ],
+     "resumo": "Ao clicar em Relatórios, o menu da esquerda muda para estas seis opções.",
+     "elementos": [
+      {
+       "e": "titulo",
+       "t": "Relatórios"
+      },
+      {
+       "e": "links",
+       "n": 1,
+       "itens": [
+        "Certificado de transmissão regular",
+        "Histórico de Inventários",
+        "Histórico de Movimentações",
+        "Certificado Escrituração Digital",
+        "Status de Transmissão",
+        "Voltar"
+       ]
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Certificado de transmissão regular: prova de que a farmácia está em dia. Histórico de Inventários: todos os inventários, com quem era RT e por que foram finalizados. Histórico de Movimentações: extrato por medicamento, lote e período. Certificado de Escrituração Digital: PDF de comprovação. Status de Transmissão: resultado de cada arquivo enviado. Voltar: retorna ao menu principal."
+      }
+     ]
+    },
+    {
+     "menu": "Status de Transmissão",
+     "nome": "Relatórios > Status de Transmissão",
+     "menuProprio": [
+      "Certificado de transmissão regular",
+      "Histórico de Inventários",
+      "Histórico de Movimentações",
+      "Certificado Escrituração Digital",
+      "Status de Transmissão",
+      "Voltar"
+     ],
+     "resumo": "A tela mais importante da rotina: confirma se o arquivo do dia foi validado e aceito.",
+     "elementos": [
+      {
+       "e": "titulo",
+       "t": "Relatório status de transmissão"
+      },
+      {
+       "e": "tabela",
+       "n": 1,
+       "colunas": [
+        "Hash identificação",
+        "Data inicial",
+        "Data final",
+        "Data recebimento",
+        "Data validação",
+        "Validação executada",
+        "Foi aceito?"
+       ],
+       "linhas": [
+        [
+         "A1B2C3...",
+         "08/10/2026",
+         "08/10/2026",
+         "09/10/2026 08:12",
+         "09/10/2026 08:20",
+         "SIM",
+         "SIM"
+        ],
+        [
+         "D4E5F6...",
+         "07/10/2026",
+         "07/10/2026",
+         "08/10/2026 08:05",
+         "08/10/2026 08:31",
+         "SIM",
+         "NÃO"
+        ]
+       ]
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Imprimir",
+        "Mais"
+       ],
+       "n": 2
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Cada linha é um arquivo. Data inicial e final mostram o período de movimentação que ele cobre. \"Validação executada = SIM\" significa que a Anvisa já processou; \"Foi aceito? = NÃO\" significa que o arquivo foi recusado e nada daquele período entrou: corrija no software e envie de novo o mesmo período. O hash identifica o arquivo se você precisar falar com a VISA ou com o suporte do software."
+      },
+      {
+       "n": 2,
+       "t": "Imprimir guarda o comprovante; Mais carrega os arquivos anteriores."
+      }
+     ]
+    },
+    {
+     "menu": "Certificado de transmissão regular",
+     "nome": "Relatórios > Certificado de transmissão regular",
+     "menuProprio": [
+      "Certificado de transmissão regular",
+      "Histórico de Inventários",
+      "Histórico de Movimentações",
+      "Certificado Escrituração Digital",
+      "Status de Transmissão",
+      "Voltar"
+     ],
+     "resumo": "Emite o certificado de regularidade. Se a farmácia está atrasada, o sistema recusa e explica a regra.",
+     "elementos": [
+      {
+       "e": "titulo",
+       "t": "Consultar certificado de transmissão regular"
+      },
+      {
+       "e": "campo",
+       "r": "Razão Social:",
+       "v": "DROGARIA EXEMPLO LTDA (dados fictícios)"
+      },
+      {
+       "e": "aviso",
+       "tipo": "alerta",
+       "n": 1,
+       "t": "A referida empresa não está regular na transmissão de arquivos, estando impossibilitada de emitir o Certificado de Regularidade de Transmissão. A emissão do certificado só é possível após regularização da empresa junto ao SNGPC."
+      },
+      {
+       "e": "campo",
+       "r": "Data do último arquivo enviado:",
+       "v": "21/09/2026",
+       "n": 2
+      },
+      {
+       "e": "aviso",
+       "tipo": "info",
+       "n": 3,
+       "t": "Nota: a empresa é considerada regular quando possui pelo menos quatro arquivos validados e aceitos nos últimos trinta dias e quando a data final do período de movimentação do último arquivo enviado for menor ou igual a dez dias da diferença da data de geração do certificado."
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Mensagem de quem está irregular. Quando está em dia, o sistema gera o certificado para imprimir."
+      },
+      {
+       "n": 2,
+       "t": "Ajuda a ver há quanto tempo não se transmite."
+      },
+      {
+       "n": 3,
+       "t": "A regra do próprio sistema: pelo menos 4 arquivos aceitos nos últimos 30 dias E o último período informado com no máximo 10 dias de atraso. Transmitir todo dia útil resolve as duas condições com folga."
+      }
+     ]
+    },
+    {
+     "menu": "Histórico de Inventários",
+     "nome": "Relatórios > Histórico de Inventários",
+     "menuProprio": [
+      "Certificado de transmissão regular",
+      "Histórico de Inventários",
+      "Histórico de Movimentações",
+      "Certificado Escrituração Digital",
+      "Status de Transmissão",
+      "Voltar"
+     ],
+     "resumo": "Linha do tempo da responsabilidade técnica no SNGPC: cada inventário, quem respondia e como terminou.",
+     "elementos": [
+      {
+       "e": "titulo",
+       "t": "Histórico de inventários"
+      },
+      {
+       "e": "tabela",
+       "n": 1,
+       "colunas": [
+        "DT início",
+        "DT finalização",
+        "Motivo da finalização",
+        "Responsável técnico",
+        "DT último arquivo"
+       ],
+       "linhas": [
+        [
+         "02/06/2026",
+         "",
+         "Inventário em andamento",
+         "FARMACÊUTICA A (CRF 0000/UF)",
+         "09/10/2026"
+        ],
+        [
+         "10/01/2025",
+         "01/06/2026",
+         "Desligamento do Responsável Técnico",
+         "FARMACÊUTICO C (CRF 0000/UF)",
+         "31/05/2026"
+        ]
+       ]
+      },
+      {
+       "e": "texto",
+       "t": "Justificativa / ausências do período / quantidade de medicamentos em estoque no início e na finalização",
+       "n": 2
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "O inventário aberto aparece como \"Inventário em andamento\". Os anteriores mostram data de finalização, motivo e o RT da época. Também podem aparecer motivos gerados pelo sistema (por exemplo, alteração de RT feita pelo sistema de segurança)."
+      },
+      {
+       "n": 2,
+       "t": "Para cada inventário: a justificativa (quando houve ajuste), as ausências informadas e quantos itens havia no início e no fim. É o que a fiscalização olha numa troca de RT."
+      }
+     ]
+    },
+    {
+     "menu": "Histórico de Movimentações",
+     "nome": "Relatórios > Histórico de Movimentações",
+     "menuProprio": [
+      "Certificado de transmissão regular",
+      "Histórico de Inventários",
+      "Histórico de Movimentações",
+      "Certificado Escrituração Digital",
+      "Status de Transmissão",
+      "Voltar"
+     ],
+     "resumo": "Extrato de entradas e saídas, como um extrato bancário do medicamento. Serve para achar onde o estoque divergiu.",
+     "elementos": [
+      {
+       "e": "select",
+       "r": "Selecione o tipo de relatório:",
+       "v": "Medicamento",
+       "n": 1,
+       "opcoes": [
+        "Insumo",
+        "Medicamento",
+        "Transformado"
+       ]
+      },
+      {
+       "e": "campo",
+       "r": "Data Início:",
+       "v": "01/10/2026",
+       "n": 2
+      },
+      {
+       "e": "campo",
+       "r": "Data Final:",
+       "v": "09/10/2026"
+      },
+      {
+       "e": "campo",
+       "r": "Número de registro:",
+       "v": "1.0000.0000.001-1",
+       "n": 3
+      },
+      {
+       "e": "campo",
+       "r": "Número do Lote:",
+       "v": "AB1234"
+      },
+      {
+       "e": "campo",
+       "r": "Nome do Medicamento:",
+       "v": "CLONAZEPAM"
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Gerar Relatório"
+       ]
+      },
+      {
+       "e": "aviso",
+       "tipo": "alerta",
+       "t": "O registro MS digitado não pertence ao inventário!",
+       "n": 4
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Em drogaria, escolha Medicamento. Insumo e Transformado são da farmácia de manipulação."
+      },
+      {
+       "n": 2,
+       "t": "Período da consulta. A data de início não pode ser maior que a de fim."
+      },
+      {
+       "n": 3,
+       "t": "Filtre pelo registro do medicamento (número do registro na Anvisa) e, se quiser, pelo lote ou pelo nome. Abaixo dos filtros aparece a lista dos medicamentos do inventário para ajudar a escolher."
+      },
+      {
+       "n": 4,
+       "t": "Aparece quando o registro digitado não existe no seu inventário. Confira o número ou procure pelo nome."
+      }
+     ]
+    },
+    {
+     "menu": "Sair do Sistema",
+     "nome": "Sair do Sistema",
+     "resumo": "Encerra a sessão.",
+     "elementos": [
+      {
+       "e": "texto",
+       "t": "Sessão encerrada. Feche o navegador se o computador for compartilhado.",
+       "n": 1
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Sempre saia ao terminar, principalmente no computador do balcão. Sessões abertas permitem que outra pessoa transmita ou finalize em seu nome."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m12-fluxo-primeiro-dia",
+   "titulo": "Primeiro dia como RT no SNGPC",
+   "passos": [
+    {
+     "t": "Assumir a responsabilidade técnica: contrato assinado e RT registrado no CRF",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Conferir no Cadastro de Empresas da Anvisa se o seu CPF está associado como responsável técnico",
+     "tipo": "acao"
+    },
+    {
+     "t": "Pedir ao gestor de segurança o perfil de acesso ao SNGPC para o seu usuário",
+     "tipo": "acao"
+    },
+    {
+     "t": "Entrar no SNGPC com e-mail e senha ou com o gov.br",
+     "tipo": "acao"
+    },
+    {
+     "t": "Há inventário em curso de outro RT?",
+     "tipo": "decisao",
+     "sim": "Pedir ao RL que associe você; o inventário anterior é finalizado e você confere",
+     "nao": "Seguir para a contagem do inventário inicial"
+    },
+    {
+     "t": "Contar fisicamente controlados, antimicrobianos e GLP-1 por registro, lote e quantidade",
+     "tipo": "acao"
+    },
+    {
+     "t": "Comparar contagem, saldo do software e inventário anterior",
+     "tipo": "acao"
+    },
+    {
+     "t": "Divergência de controlado sem explicação: corrigir antes de começar e comunicar a VISA",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Gerar e transmitir o XML de inventário com a data da contagem (até 7 dias)",
+     "tipo": "acao"
+    },
+    {
+     "t": "Inventário aceito?",
+     "tipo": "decisao",
+     "sim": "Imprimir o Certificado de Escrituração Digital",
+     "nao": "Ler o motivo, corrigir e reenviar"
+    },
+    {
+     "t": "Combinar com a equipe a rotina de lançamento e definir o horário do envio diário",
+     "tipo": "acao"
+    },
+    {
+     "t": "Primeiro arquivo de movimentação enviado a partir da data do inventário",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m12-fluxo-transmissao",
+   "titulo": "Transmissão diária",
+   "passos": [
+    {
+     "t": "Fim do expediente ou início do dia seguinte",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Revisar pendências no software: saída sem lote, entrada sem nota, perda sem motivo",
+     "tipo": "acao"
+    },
+    {
+     "t": "Conferir a data final do último arquivo aceito",
+     "tipo": "acao"
+    },
+    {
+     "t": "Gerar o XML do período seguinte, sem lacuna e sem sobreposição",
+     "tipo": "acao"
+    },
+    {
+     "t": "Transmitir e guardar a resposta com o hash",
+     "tipo": "acao"
+    },
+    {
+     "t": "O sistema respondeu?",
+     "tipo": "decisao",
+     "sim": "Consultar Relatórios > Status de Transmissão",
+     "nao": "Registrar a tentativa, guardar o comprovante e tentar mais tarde (art. 33)"
+    },
+    {
+     "t": "Arquivo aceito?",
+     "tipo": "decisao",
+     "sim": "Anotar no controle diário e encerrar",
+     "nao": "Ler o motivo, corrigir o lançamento na origem e reenviar o mesmo período"
+    },
+    {
+     "t": "Prazo de 7 dias se aproximando sem aceite: acionar suporte do software e documentar",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Período registrado como aceito",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m12-fluxo-troca-rt",
+   "titulo": "Troca de responsável técnico",
+   "passos": [
+    {
+     "t": "RT comunica a saída e a data do último dia",
+     "tipo": "inicio"
+    },
+    {
+     "t": "RT que sai transmite tudo até o último dia e confere o aceite",
+     "tipo": "acao"
+    },
+    {
+     "t": "Levantamento do estoque de controlados até o último dia, apresentado à VISA (Portaria 6/1999, art. 113)",
+     "tipo": "acao"
+    },
+    {
+     "t": "RT que sai finaliza o inventário no SNGPC (RDC 22/2014, art. 12)",
+     "tipo": "acao"
+    },
+    {
+     "t": "Baixa da responsabilidade técnica no CRF e comunicação à VISA",
+     "tipo": "acao"
+    },
+    {
+     "t": "RL associa o novo RT no cadastro e no SNGPC; gestor de segurança atribui o perfil",
+     "tipo": "acao"
+    },
+    {
+     "t": "Sem RT associado não há transmissão nem venda de controlados",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Novo RT confere o inventário finalizado e conta o estoque",
+     "tipo": "acao"
+    },
+    {
+     "t": "Há divergência?",
+     "tipo": "decisao",
+     "sim": "Corrigir o inventário antes de começar e informar a VISA (art. 12, § 2º)",
+     "nao": "Seguir com o inventário conferido"
+    },
+    {
+     "t": "Enviar o XML de inventário do novo RT e acompanhar até o aceite",
+     "tipo": "acao"
+    },
+    {
+     "t": "Imprimir novo Certificado de Escrituração Digital e retomar os arquivos em ordem",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "id": "m12-check-abertura",
+   "titulo": "Checklist de abertura (antes do primeiro envio)",
+   "itens": [
+    "CNPJ ativo com CNAE de farmácia ou drogaria",
+    "AFE publicada e licença sanitária local válida",
+    "Cadastro da empresa na Anvisa completo em Verificar Cadastro",
+    "RT associado no cadastro da empresa, com dados do CRF completos",
+    "Gestor de segurança cadastrado e perfil do SNGPC atribuído ao RT",
+    "E-mails distintos para empresa, RT, RL e gestor",
+    "Acesso ao SNGPC testado com senha e com gov.br",
+    "Software gera XML no padrão vigente, compactado em ZIP",
+    "Fornecedor do software confirmou envio pela API da Anvisa",
+    "Produtos cadastrados no software com registro e classe terapêutica corretos",
+    "Contagem física completa assinada, por registro e lote",
+    "Vencidos, avariados e recolhidos incluídos no inventário",
+    "Inventário transmitido em até 7 dias da data da contagem",
+    "Inventário aceito e conferido no sistema",
+    "Certificado de Escrituração Digital impresso",
+    "Acesso ao software de controlados restrito e perfis de digitação definidos",
+    "Rotina de cópia de segurança do software configurada",
+    "Pasta da fiscalização montada"
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "id": "m12-check-diario",
+   "titulo": "Checklist diário do RT",
+   "itens": [
+    "Conferir a situação do último arquivo enviado",
+    "Receitas retidas do dia separadas por tipo e conferidas contra as saídas do software",
+    "Notas de controlados recebidas lançadas com lote e CNPJ de destino conferidos",
+    "Perdas do dia lançadas com motivo e documento",
+    "Nenhum lote com saldo negativo no software",
+    "Arquivo do período gerado sem lacuna nem sobreposição",
+    "Arquivo transmitido e hash guardado",
+    "Aceite confirmado ou recusa tratada no mesmo dia",
+    "Controle diário de arquivos preenchido e rubricado",
+    "Receitas eletrônicas do SNCR com uso registrado",
+    "Armário de controlados trancado e chave sob controle do farmacêutico",
+    "Contagem por amostragem dos itens de maior giro no dia programado"
+   ]
+  },
+  {
+   "tipo": "tabela",
+   "id": "m12-tab-erros",
+   "titulo": "Erro ou recusa: causa provável e correção",
+   "colunas": [
+    "Erro ou recusa",
+    "Causa provável",
+    "Como corrigir"
+   ],
+   "linhas": [
+    [
+     "Inventário recusado: data informada deve ser anterior ao máximo sete dias da transmissão",
+     "Contagem antiga demais",
+     "Refazer a contagem e enviar inventário com data de até 7 dias antes do envio (NT 003/2013)"
+    ],
+    [
+     "Lote não encontrado nem no inventário inicial nem nas transações de entrada",
+     "Lote digitado diferente, com espaço ou caractere trocado; entrada não transmitida",
+     "Conferir o lote na caixa e na entrada; corrigir; se o erro estiver no inventário, finalizar e reenviar (NT 003/2013, item 12)"
+    ],
+    [
+     "Medicamento de entrada: não é possível inserir classe terapêutica distinta",
+     "Produto cadastrado com classe errada (controlado como antimicrobiano ou o inverso)",
+     "Corrigir o cadastro no software e finalizar o inventário para ajuste (NT 003/2013, item 6)"
+    ],
+    [
+     "Número de notificação deve ser informado para tipo de receituário 2, 3 e 4",
+     "Notificação B, Especial ou A lançada sem número",
+     "Lançar o número da notificação retida e reenviar (NT 003/2013, item 8.1)"
+    ],
+    [
+     "CNPJ de destino não pode ser diferente do CNPJ de transmissão",
+     "Nota fiscal de outra loja ou digitação errada",
+     "Conferir a nota; lançar com o CNPJ do estabelecimento; nota de outra filial exige transferência formal (NT 003/2013, item 8.2)"
+    ],
+    [
+     "Arquivo XML inválido: existem caracteres não UTF-8",
+     "Software inclui caractere fora da codificação aceita",
+     "Chamado ao suporte do software com a mensagem (NT 003/2013, item 8.3)"
+    ],
+    [
+     "Uso humano: conselho deve ser CRM ou CRO e não CRMV",
+     "Receita veterinária lançada como uso humano",
+     "Marcar uso veterinário e conselho CRMV; não informar paciente (NT 003/2013, item 8.4)"
+    ],
+    [
+     "Mensagem técnica de elemento inválido no XML",
+     "Arquivo fora do esquema da Anvisa",
+     "Suporte do software analisa e corrige o gerador (NT 003/2013, item 8.6)"
+    ],
+    [
+     "Recusa por falta de estoque do produto ou lote",
+     "Entrada não enviada, saída em lote errado ou movimento duplicado",
+     "Consultar o histórico de movimentações; corrigir na origem e reenviar (Perguntas e Respostas 2021, pergunta 7)"
+    ],
+    [
+     "Saída de antimicrobiano recusada após 10 dias da prescrição",
+     "Receita vencida ou controlado cadastrado como antimicrobiano",
+     "Não dispensar receita vencida; se a classe estiver errada, ajustar o inventário (NT 003/2013, item 6)"
+    ],
+    [
+     "CPF sem perfil para acesso ao SNGPC",
+     "Perfil não atribuído ou vínculo incompleto",
+     "Gestor de segurança atribui o perfil; persistindo, central da Anvisa (NT 003/2013, item 2)"
+    ],
+    [
+     "Acesso só permitido a empresas com CNAE de farmácia ou drogaria",
+     "CNAE errado no cadastro ou instabilidade",
+     "Conferir CNAE; se estiver certo, tratar como instabilidade (NT 003/2013, item 2)"
+    ],
+    [
+     "An attack was detected, originating from your system",
+     "IP bloqueado pela segurança da Anvisa",
+     "Pedir desbloqueio do IP à Anvisa (NT 003/2013, item 8.5)"
+    ],
+    [
+     "Time out, Service Unavailable, HTTP 500 no acesso",
+     "Instabilidade do SNGPC",
+     "Tentar mais tarde, guardar prova da tentativa e protocolo (RDC 22/2014, art. 33)"
+    ],
+    [
+     "Medicamento não localizado na base da Anvisa",
+     "Inconsistência cadastral do produto",
+     "Notificar inconsistência no SNGPC; escriturar no software até a correção (RDC 22/2014, art. 14)"
+    ],
+    [
+     "Novo arquivo não liberado",
+     "Arquivo anterior ainda não aceito ou recusado",
+     "Resolver o anterior e só depois enviar o seguinte (CFF, 2025)"
+    ]
+   ],
+   "nota": "Mensagens transcritas ou resumidas de documentos oficiais da Anvisa (Nota Técnica 003/2013; Perguntas e Respostas sobre instabilidade do SNGPC, 2021). O texto exato na tela pode variar com a versão do sistema."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m12-tab-prazos",
+   "titulo": "Prazos e periodicidades do SNGPC",
+   "colunas": [
+    "Obrigação",
+    "Prazo ou periodicidade",
+    "Norma"
+   ],
+   "linhas": [
+    [
+     "Transmissão do XML de movimentação",
+     "Arquivos de 1 a 7 dias consecutivos, mesmo sem movimento",
+     "RDC 22/2014, art. 10, § 3º"
+    ],
+    [
+     "Atualização mínima da transmissão",
+     "Uma vez por semana",
+     "RDC 22/2014, art. 10, § 4º"
+    ],
+    [
+     "Data do XML de inventário",
+     "Até 7 dias antes da transmissão",
+     "Nota Técnica 003/2013; Guia SNGPC 2.3"
+    ],
+    [
+     "Cópia de segurança da escrituração",
+     "Guardar por 2 anos",
+     "RDC 22/2014, art. 19, I"
+    ],
+    [
+     "Documentos de movimentação de controlados",
+     "Guardar por 2 anos",
+     "Portaria 344/1998, art. 64"
+    ],
+    [
+     "Documentos de antimicrobianos e GLP-1",
+     "Guardar por 2 anos",
+     "RDC 471/2021, art. 22"
+    ],
+    [
+     "Escrituração em livro (sem internet ou farmácia pública com ressarcimento)",
+     "Até 7 dias da dispensação",
+     "RDC 471/2021, arts. 14, parágrafo único, e 15"
+    ],
+    [
+     "Receita de antimicrobiano",
+     "Válida por 10 dias",
+     "IN 360/2025, art. 1º, § 2º"
+    ],
+    [
+     "Receita de agonista de GLP-1",
+     "Válida por 90 dias",
+     "IN 360/2025, art. 2º, § 1º"
+    ],
+    [
+     "Uso prolongado (antimicrobiano e GLP-1)",
+     "Até 90 dias, com quantidade para cada 30 dias",
+     "RDC 471/2021, art. 9º"
+    ],
+    [
+     "Funcionamento sem farmacêutico",
+     "Até 30 dias, sem venda de controlados",
+     "Lei 5.991/1973, art. 17"
+    ],
+    [
+     "BMPO",
+     "Trimestral até o dia 15 do mês seguinte ao trimestre; anual até 31 de janeiro",
+     "Portaria 344/1998, art. 69"
+    ],
+    [
+     "RMNRA",
+     "Mensal, até o dia 15",
+     "Portaria 344/1998, art. 72"
+    ],
+    [
+     "Obrigatoriedade regional da transmissão",
+     "Sudeste 1º/09/2025; Sul e Norte 1º/11/2025; Centro-Oeste e Nordeste 02/01/2026",
+     "Anvisa, 05/05/2025; RDC 586/2021, art. 5º"
+    ]
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m12-pop-sngpc",
+   "titulo": "Escrituração e transmissão no SNGPC",
+   "codigo": "POP-SNGPC-01",
+   "objetivo": "Escriturar toda movimentação de controlados, antimicrobianos e agonistas de GLP-1 e transmitir ao SNGPC dentro do prazo, com estoque físico igual ao escriturado.",
+   "abrangencia": "Entradas, dispensações, perdas e transferências de medicamentos sujeitos ao SNGPC na drogaria; todos os dias de funcionamento.",
+   "responsaveis": [
+    "Farmacêutico RT: geração e envio dos arquivos, conferência e correções",
+    "Farmacêutico substituto cadastrado e associado: mesmas funções na ausência do RT",
+    "Equipe de balcão e estoque: digitação no software com perfil delegado pelo RT",
+    "Responsável legal: cadastro da empresa, associação do RT e software adequado"
+   ],
+   "materiais": [
+    "Software de gestão que gera XML no padrão SNGPC",
+    "Acesso pessoal do RT ao SNGPC (senha ou gov.br)",
+    "Notas fiscais, receitas e notificações retidas",
+    "Controle diário de arquivos (período, envio, hash, situação)",
+    "Folha de contagem"
+   ],
+   "procedimento": [
+    "Conferir cada entrada contra a nota fiscal: produto, lote, validade, quantidade e CNPJ de destino.",
+    "Lançar a entrada no software no dia do recebimento, com lote igual ao da embalagem e classe terapêutica correta.",
+    "Na dispensação, avaliar a receita; na receita eletrônica numerada, consultar e registrar o uso no SNCR.",
+    "Lançar a saída com tipo de receituário, número da notificação quando exigido, prescritor com conselho e UF, lote e quantidade em caixas ou frascos.",
+    "Lançar comprador para controlados e paciente com idade e sexo para antimicrobianos e GLP-1.",
+    "Anotar a dispensação na receita, conforme o tipo, e reter a via devida.",
+    "Lançar perdas com o motivo e anexar o documento que justifica.",
+    "Ao fim do dia, conferir as receitas retidas contra as saídas do software.",
+    "Conferir no SNGPC a data final do último arquivo aceito (Visualizar Inventário, campo Data final do último período informado).",
+    "Gerar o XML do período seguinte, sem lacuna nem sobreposição, e transmitir.",
+    "Guardar a resposta de recebimento com o hash e anotar no controle diário.",
+    "Consultar Relatórios > Status de Transmissão até o aceite.",
+    "Em caso de recusa, corrigir o lançamento na origem e reenviar o mesmo período no mesmo dia.",
+    "Fazer contagem cega semanal dos itens de maior giro e comparar com software e SNGPC.",
+    "Registrar e comunicar à VISA divergências sem explicação documental."
+   ],
+   "cuidados": [
+    "Senha do SNGPC é pessoal; não salvar no computador nem compartilhar",
+    "Nunca enviar arquivo novo antes do aceite do anterior",
+    "Não ultrapassar 7 dias entre arquivos, mesmo sem movimento",
+    "Instabilidade do SNGPC: guardar prova da tentativa e protocolo",
+    "Finalização de inventário só por motivo previsto e com justificativa"
+   ],
+   "registros": [
+    "Controle diário de arquivos transmitidos",
+    "Folhas de contagem assinadas",
+    "Certificado de Escrituração Digital",
+    "Protocolos de chamados na Anvisa e comunicações à VISA",
+    "Cópia de segurança do software (2 anos)"
+   ],
+   "referencias": [
+    "RDC 22/2014",
+    "Portaria SVS/MS 344/1998",
+    "RDC 471/2021 com a RDC 973/2025",
+    "IN 360/2025",
+    "RDC 1.000/2025",
+    "Guia para geração do padrão de transmissão SNGPC, versão 2.3",
+    "Nota Técnica 003/2013"
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m12-cartoes",
+   "titulo": "Cartões do SNGPC",
+   "itens": [
+    {
+     "f": "Qual norma regula o SNGPC?",
+     "v": "RDC 22/2014, vigente e sem alterações no texto consolidado."
+    },
+    {
+     "f": "Intervalo de cada arquivo de movimentação",
+     "v": "De 1 a 7 dias consecutivos, mesmo sem movimento (art. 10, § 3º)."
+    },
+    {
+     "f": "O que é credenciamento no SNGPC?",
+     "v": "Adesão do estabelecimento pelo envio do inventário inicial pelo RT (art. 5º, IV, e art. 8º)."
+    },
+    {
+     "f": "Documento impresso após o credenciamento",
+     "v": "Certificado de Escrituração Digital (art. 9º)."
+    },
+    {
+     "f": "Quem gera e envia os arquivos XML?",
+     "v": "O farmacêutico RT ou o substituto cadastrado e associado (art. 18, § 2º)."
+    },
+    {
+     "f": "Data máxima do XML de inventário",
+     "v": "Até 7 dias antes da transmissão do arquivo."
+    },
+    {
+     "f": "O que precede a troca de RT no SNGPC?",
+     "v": "A finalização do inventário (art. 12)."
+    },
+    {
+     "f": "Unidades de medicamento no SNGPC",
+     "v": "Caixa ou frasco; a quantidade é o número de embalagens."
+    },
+    {
+     "f": "Comprador ou paciente?",
+     "v": "Comprador para Portaria 344; paciente com idade e sexo para antimicrobianos e GLP-1."
+    },
+    {
+     "f": "Tipos de receituário que exigem número de notificação",
+     "v": "2 (Notificação B), 3 (Notificação Especial) e 4 (Notificação A)."
+    },
+    {
+     "f": "Situações do arquivo",
+     "v": "Recebido, validado e aceito; ou recusado."
+    },
+    {
+     "f": "Quando o SNGPC voltou a ser obrigatório no Nordeste?",
+     "v": "Em 02/01/2026."
+    },
+    {
+     "f": "Instabilidade do SNGPC gera autuação por atraso?",
+     "v": "Não, se o motivo for estritamente a falha do sistema (art. 33)."
+    },
+    {
+     "f": "Como corrigir estoque errado já aceito?",
+     "v": "Finalizar o inventário por ajuste, com justificativa, e enviar novo inventário."
+    },
+    {
+     "f": "Lei das penalidades sanitárias",
+     "v": "Lei 6.437/1977; multa de R$ 2.000 a R$ 1.500.000 conforme a gravidade."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m12-questoes",
+   "titulo": "Questões sobre o SNGPC",
+   "itens": [
+    {
+     "p": "Drogaria em Recife transmitiu o último arquivo aceito com período até quinta-feira, dia 8. Não houve venda de controlados nos dias seguintes. Pela RDC 22/2014, a conduta correta é:",
+     "alt": [
+      "Aguardar a próxima venda de controlado para então transmitir",
+      "Transmitir arquivo sem movimento em até 7 dias",
+      "Transmitir só no fim do mês, junto com a RMNRA da loja",
+      "Transmitir apenas quando a VISA local solicitar",
+      "Dispensar o envio, porque o Nordeste está fora do cronograma"
+     ],
+     "c": 1,
+     "com": "O art. 10, § 3º, da RDC 22/2014 manda transmitir em arquivos de 1 a 7 dias consecutivos, ainda que não haja movimentação. Esperar venda, enviar mensalmente ou só a pedido da VISA descumpre o prazo. O Nordeste está obrigado desde 02/01/2026."
+    },
+    {
+     "p": "Farmacêutica assume uma drogaria e descobre que o RT anterior saiu sem finalizar o inventário. O que permite a ela começar a transmitir?",
+     "alt": [
+      "Usar a senha do RT anterior até o fim do mês corrente",
+      "Enviar os arquivos de movimentação dentro do inventário dele",
+      "Pedir ao RL que a associe no SNGPC e conferir o inventário",
+      "Abrir nova empresa, com outro CNPJ, para começar do zero",
+      "Mandar o inventário por e-mail à Anvisa para registro"
+     ],
+     "c": 2,
+     "com": "A senha é pessoal e intransferível (art. 7º). Quando o RL associa o novo RT, o inventário anterior é finalizado automaticamente (Perguntas e Respostas Anvisa, 2021, pergunta 9). Depois, a nova RT confere, corrige divergências, informa a VISA (art. 12) e envia o próprio inventário. Arquivo por e-mail não tem valor."
+    },
+    {
+     "p": "Arquivo recusado com a mensagem de que o lote não foi encontrado nem no inventário inicial nem nas transações de entrada. A causa mais provável a investigar primeiro é:",
+     "alt": [
+      "Grafia do lote diferente entre entrada e saída",
+      "Receita de controle especial apresentada vencida",
+      "Instabilidade momentânea do próprio SNGPC",
+      "Ausência do CID na receita do paciente",
+      "CNAE da drogaria desatualizado no cadastro"
+     ],
+     "c": 0,
+     "com": "A Nota Técnica 003/2013 (item 12) explica que o sistema compara o lote como texto exato: 'ABC ' é diferente de 'ABC'. Receita vencida não gera essa mensagem; o CID é opcional; CNAE e instabilidade afetam o acesso, não a saída de um lote específico."
+    },
+    {
+     "p": "Sobre a unidade de medida de medicamento industrializado no arquivo do SNGPC, é correto afirmar:",
+     "alt": [
+      "Deve ser informada em comprimidos ou mililitros",
+      "Deve ser informada em miligramas do princípio ativo",
+      "É livre, desde que constante em todo o arquivo",
+      "É informada em caixas ou frascos",
+      "Só é exigida para antimicrobianos"
+     ],
+     "c": 3,
+     "com": "O Guia para geração do padrão SNGPC (versão 2.3) prevê para medicamentos as unidades 1 (caixas) e 2 (frascos). Grama, mililitro e unidade são unidades de insumos da manipulação. A unidade é exigida em todas as operações e classes."
+    },
+    {
+     "p": "Na dispensação de amoxicilina com receita de antimicrobiano, quais dados de identificação são obrigatórios no arquivo do SNGPC?",
+     "alt": [
+      "Nome e documento de identidade do comprador",
+      "Nome, idade e sexo do paciente",
+      "CPF do paciente e também do comprador",
+      "Apenas o número do CRM do prescritor",
+      "CID da doença e endereço do paciente"
+     ],
+     "c": 1,
+     "com": "Pelo Guia SNGPC 2.3, para a classe antimicrobiano os dados do paciente (nome, idade, sexo) são obrigatórios; os do comprador, não. Para a Portaria 344 é o inverso. O CID é opcional. Os mesmos padrões valem para agonistas de GLP-1 (Perguntas e Respostas GLP-1, 2025)."
+    },
+    {
+     "p": "Uma drogaria descobre que um arquivo já aceito baixou 3 caixas de alprazolam quando foram vendidas 2. O estoque oficial ficou menor que o físico. Segundo a orientação da Anvisa, o caminho é:",
+     "alt": [
+      "Enviar outro arquivo com entrada fictícia de 1 caixa",
+      "Vender uma caixa sem escriturar para igualar os estoques",
+      "Aguardar a próxima fiscalização e explicar ao fiscal",
+      "Finalizar o inventário por ajuste e enviar novo inventário",
+      "Excluir o arquivo aceito usando o próprio software da loja"
+     ],
+     "c": 3,
+     "com": "A RDC 22/2014 não prevê edição de movimento já integrado. A Anvisa documentou a finalização do inventário pela opção de ajuste, com justificativa, seguida de novo XML de inventário (Perguntas e Respostas, 2021). Entrada fictícia e venda sem escrituração são infrações; esperar a fiscalização mantém a divergência (art. 15)."
+    },
+    {
+     "p": "Durante três dias o SNGPC apresentou erro HTTP 500 no login e a drogaria passou do prazo de 7 dias. Qual a situação?",
+     "alt": [
+      "Infração automática, porque o prazo de 7 dias é absoluto",
+      "Escrituração em livro, de forma definitiva, a partir de então",
+      "Envio do arquivo por e-mail para garantir a data",
+      "Suspensão da venda de antimicrobianos até o retorno do sistema",
+      "Sem autuação por instabilidade comprovada; guardar provas"
+     ],
+     "c": 4,
+     "com": "O art. 33 da RDC 22/2014 afasta a autuação quando a falta de regularidade decorre estritamente de instabilidade do SNGPC. A Nota Técnica 003/2013 orienta guardar prova da tentativa e protocolo. Livro só com autorização da VISA em município sem internet (art. 35, § 1º); e-mail não vale; a venda continua com escrituração no software."
+    },
+    {
+     "p": "Em relação ao alcance do SNGPC, assinale a alternativa correta:",
+     "alt": [
+      "Farmácias de hospital escrituram no SNGPC desde 2014",
+      "Drogarias privadas escrituram apenas os itens da Portaria 344",
+      "GLP-1 é escriturado no padrão XML dos antimicrobianos",
+      "Farmácias de manipulação estão dispensadas do sistema",
+      "A lista de antimicrobianos fica na própria Portaria 344"
+     ],
+     "c": 2,
+     "com": "A RDC 973/2025 e a IN 360/2025 incluíram os agonistas de GLP-1 na RDC 471/2021, com retenção de receita e escrituração; a Anvisa orientou seguir o padrão XML dos antimicrobianos. Hospitalares e públicas estão fora (RDC 22/2014, art. 3º, parágrafo único); manipulação está incluída (art. 10, § 5º); a lista de antimicrobianos está na IN 360/2025."
+    },
+    {
+     "p": "Ao lançar a entrada de clonazepam, o arquivo é recusado porque o CNPJ de destino é diferente do CNPJ de transmissão. A nota foi emitida para a matriz e a mercadoria chegou na filial. A conduta é:",
+     "alt": [
+      "Trocar o CNPJ de destino no software para o da filial",
+      "Não lançar a entrada, pois a mercadoria já está na prateleira",
+      "Lançar a quantidade como perda no estoque da matriz",
+      "Pedir à VISA que altere o CNPJ que consta na nota",
+      "Entrar na matriz e transferir à filial com nota fiscal"
+     ],
+     "c": 4,
+     "com": "O SNGPC exige que o destino da entrada seja o CNPJ transmissor (Nota Técnica 003/2013, item 8.2). Mercadoria faturada para a matriz entra na matriz; a passagem à filial da mesma raiz de CNPJ é transferência, com nota (RDC 22/2014, art. 5º, XXXI). Alterar o CNPJ no software falseia o documento fiscal."
+    },
+    {
+     "p": "O farmacêutico RT vai tirar 15 dias de férias e a drogaria tem substituto. Para o SNGPC, a providência correta é:",
+     "alt": [
+      "Substituto cadastrado e associado, com passagem pelo art. 12",
+      "Substituto usando o login do RT durante as férias",
+      "Suspensão das transmissões durante os 15 dias de férias",
+      "Autorização da VISA para uso de livro no período",
+      "Transmissão pelo RT, de casa, com o gov.br do gerente"
+     ],
+     "c": 0,
+     "com": "A escrituração pode ser feita pelo substituto devidamente cadastrado e associado no SNGPC (art. 10, § 1º), e a substituição eventual também é precedida de finalização do inventário (art. 12). Senha é pessoal (art. 7º); suspender transmissões descumpre o art. 10; livro só no caso do art. 35, § 1º."
+    },
+    {
+     "p": "Na inspeção, a VISA encontra 12 caixas de metilfenidato e o SNGPC mostra 14. O arquivo da véspera, com 2 saídas, foi enviado hoje e ainda não foi aceito. Qual dispositivo orienta a avaliação?",
+     "alt": [
+      "Lei 5.991/1973, art. 17, caput",
+      "RDC 471/2021, art. 9º, § 1º",
+      "RDC 22/2014, art. 36, parágrafo único",
+      "Portaria SVS/MS 344/1998, art. 73",
+      "Lei 6.437/1977, art. 4º, inciso II"
+     ],
+     "c": 2,
+     "com": "O parágrafo único do art. 36 manda a autoridade considerar, na divergência entre estoque físico e SNGPC, a existência de arquivos não enviados ou não validados dentro do prazo. O art. 17 da Lei 5.991 trata da ausência do RT; o art. 9º da RDC 471, do uso prolongado; o art. 73 da 344, dos balanços; o art. 4º da Lei 6.437, da classificação das infrações."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 22, de 29 de abril de 2014 (SNGPC). Texto consolidado, anvisalegis.datalegis.net; texto original, Saúde Legis.",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 586, de 17 de dezembro de 2021. Diário Oficial da União nº 238, 20 dez. 2021, Seção 1, p. 287.",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 471, de 23 de fevereiro de 2021, com a redação da RDC nº 973, de 23 de abril de 2025. Texto consolidado, anvisalegis.datalegis.net.",
+  "Anvisa. Instrução Normativa IN nº 360, de 23 de abril de 2025. Texto vigente, anvisalegis.datalegis.net.",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 17, de 28 de março de 2013 (AFE e AE de farmácias e drogarias), e RDC nº 16, de 1º de abril de 2014. Textos consolidados, anvisalegis.datalegis.net.",
+  "Anvisa. SNGPC: retorno da transmissão regular obrigatória. Notícia, 5 maio 2025. gov.br/anvisa.",
+  "Anvisa. Páginas do SNGPC: Farmácias e drogarias; Desenvolvedores; Legislação; Vigilâncias sanitárias; Informes. gov.br/anvisa/pt-br/assuntos/fiscalizacao-e-monitoramento/sngpc (consulta em 10 out. 2026).",
+  "Anvisa. Guia para geração do padrão de transmissão SNGPC: evolução para escrituração de medicamentos antimicrobianos. Versão 2.3, setembro de 2025.",
+  "Anvisa. Conexão ao Webservice do SNGPC: manual do desenvolvedor. Versão 2.0.1, outubro de 2013.",
+  "Anvisa. Nota Técnica nº 003/2013: orientações de procedimentos referentes à versão 2.0 SNGPC. 17 jun. 2013.",
+  "Anvisa. Perguntas e Respostas: instabilidade do Sistema Nacional de Gerenciamento de Produtos Controlados (SNGPC). 1ª ed., 17 dez. 2021.",
+  "Anvisa. Perguntas e Respostas: mudanças na comercialização e escrituração de medicamentos agonistas do receptor do GLP-1. 1ª ed., junho de 2025.",
+  "Anvisa. Perguntas e Respostas: RDC nº 1.000/2025. 1ª ed., 2026 (perguntas 24, 25, 31 e 52).",
+  "Anvisa. Sistema Nacional de Gerenciamento de Produtos Controlados: passo a passo 2 de 3. 2009. Biblioteca Digital da Anvisa.",
+  "Anvisa. Guia de credenciamento no SNGPC. Novembro de 2006. Biblioteca Digital da Anvisa.",
+  "Anvisa. Passo a passo: cadastramento de empresa e sistema de segurança. 27 mar. 2023. gov.br/anvisa.",
+  "Anvisa. Cadastro de Empresas. gov.br/anvisa/pt-br/sistemas/cadastro/cadastro-de-empresas.",
+  "Conselho Federal de Farmácia. Acesso ao SNGPC será facilitado pela plataforma Gov.Br. Notícia, 20 ago. 2025. cff.org.br.",
+  "Conselho Federal de Farmácia. SNGPC: Sistema Nacional de Gerenciamento de Produtos Controlados. Notícia, 24 out. 2025. cff.org.br.",
+  "Conselho Regional de Farmácia do Estado de São Paulo. Orientação farmacêutica: fornecimento da senha de acesso ao SNGPC a terceiros. 2023. crfsp.org.br.",
+  "Brasil. Lei nº 6.437, de 20 de agosto de 1977 (infrações à legislação sanitária federal), texto compilado. planalto.gov.br.",
+  "Brasil. Lei nº 5.991, de 17 de dezembro de 1973, art. 17, texto compilado. planalto.gov.br.",
+  "Brasil. Lei nº 13.021, de 8 de agosto de 2014, art. 6º. planalto.gov.br.",
+  "Brasil. Ministério da Saúde. Portaria SVS/MS nº 344, de 12 de maio de 1998, e Portaria SVS/MS nº 6, de 29 de janeiro de 1999 (dispositivos conforme o módulo 2 deste material)."
+ ]
+}

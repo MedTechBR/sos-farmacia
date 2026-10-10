@@ -51,3 +51,11 @@ SVG (ícone vira quadrado; usar classe `mm-ico`); aba em segundo plano congela r
 - Teste sem backend: cópia do index com `fake-firebase.js` (de `_mtsync`, com `getIdTokenResult` lendo
   `localStorage.__fakeClaims`) antes do carregador, servida junto de uma cópia do site, URL com `?portao=1`.
 
+
+## Módulo 12: Passo a passo do SNGPC (10/10/2026)
+`m12.json` (parte a, normas e rotina, por agente com fontes) + `m12b.json` (tela a tela, mapa, tabela, cartões,
+questões). Bloco novo `simulador` (réplica de sistema com dados fictícios: menu clicável, elementos
+titulo/texto/campo/select/tabela/botoes/aviso/arquivo/links com marcador `n`, notas numeradas; edição em JSON;
+no PDF uma tela por página). Telas do SNGPC levantadas com a conta do dono só por GET, sem enviar formulário:
+`docs/sngpc_visita.md` (sem dado real). Mesmo procedimento para outros sistemas: o dono entra, eu leio as páginas por
+fetch GET, mascaro números e nomes, nunca submeto formulário nem clico em ação (confirmar, finalizar, enviar).

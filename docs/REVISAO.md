@@ -45,3 +45,10 @@ apixabana).
 
 **M10/M11** Prazo de defesa de 15 dias (Lei 6.437/1977); divisão Notivisa × VigiMed; período fora da geladeira de
 Humira e Mounjaro; lista ISMP de medicamentos potencialmente perigosos ambulatoriais.
+
+## Módulo 12 (SNGPC), 10/10/2026
+Telas conferidas no próprio sistema (docs/sngpc_visita.md). Ficaram sem confirmação em fonte primária: esquema XSD
+do XML (403), se o webservice antigo já foi desligado em favor da API, códigos de classe e receituário dos GLP-1 no
+XML, texto exato das mensagens de período fora de ordem, duplicidade e CPF/CRM inválido, prazo de baixa de RT no CRF.
+Módulo 2 corrigido em 10/10: GLP-1 na abrangência do SNGPC; retirado o limite de 10 caracteres do campo (não
+confirmado).

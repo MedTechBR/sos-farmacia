@@ -13,7 +13,7 @@ CLASSES_DIV = {"tab", "cx chave", "cx alerta", "cx balcao", "cx lei", "cx exempl
 PROIBIDAS = ["neste módulo", "neste tópico", "nesta seção", "vamos ver", "em resumo", "é importante ressaltar",
              "vale lembrar", "vale destacar", "fique atento", "neste texto"]
 EMOJI = re.compile("[\U0001F300-\U0001FAFF☀-➿⭐✅]")
-TIPOS = {"tabela", "quadro", "checklist", "fluxo", "cartoes", "questoes", "receita", "pop"}
+TIPOS = {"tabela", "quadro", "checklist", "fluxo", "cartoes", "questoes", "receita", "pop", "simulador"}
 
 
 class Html(HTMLParser):

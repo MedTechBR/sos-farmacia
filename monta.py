@@ -23,6 +23,7 @@ MODULOS = {  # cor (paleta do FarmaUTI), ícone Tabler e nome curto da barra lat
     'm07': ('#0E9384', 'lungs', 'Sistema respiratório'), 'm08': ('#E89A00', 'prescription', 'RDC 471/2021'),
     'm09': ('#5B5BF0', 'arrows-exchange', 'Interações medicamentosas'), 'm10': ('#4D9A12', 'clipboard-list', 'POPs'),
     'm11': ('#0AA5C2', 'temperature-snow', 'Termolábeis e armazenamento'),
+    'm12': ('#3E5BD8', 'cloud-upload', 'Passo a passo do SNGPC'),
 }
 GERAL_PADRAO = {
     'titulo': 'SOS Farmácia Comercial',

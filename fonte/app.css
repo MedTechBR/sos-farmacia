@@ -446,6 +446,55 @@ body.editando .ctl{display:inline-flex}
 .pop-ass div:last-child{border-right:0}
 @media(max-width:640px){.bloco{padding:18px 16px;border-radius:22px}.mapaCard{padding:16px 14px 12px;border-radius:22px}.pop-cab{grid-template-columns:1fr}.pop-cab>div{border-right:0;border-bottom:1px solid #D3D9E6}.carta .face{padding:22px 20px 16px}.carta .cont{font-size:17px}.enun{font-size:16px}.alt:not([disabled]):hover{transform:none}.bloco>header .tipo{display:none}.mmBotoes [data-mapa="vista"]{margin-left:0}}
 
+/* simulador de tela (réplica do sistema com dados fictícios) */
+.sim{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,1fr);gap:18px;align-items:start}
+.simJanela{border:1px solid #9FB3C2;border-radius:12px;overflow:hidden;background:#fff;color:#1d2b36;font:12.5px/1.45 Verdana,Tahoma,var(--sans);box-shadow:var(--sombraM)}
+.simTopo{display:flex;align-items:center;gap:10px;background:#C3D2DC;padding:8px 12px;border-bottom:3px solid #F2C94C;font-size:11.5px;color:#334}
+.simLogo{font-weight:800;color:#1f4e6b;letter-spacing:.02em}
+.simCorpo{display:grid;grid-template-columns:150px 1fr;min-height:330px}
+.simMenu{background:#eef3f6;padding:10px 0;display:flex;flex-direction:column;gap:2px;border-right:1px solid #d5e0e7}
+.simMenu button{all:unset;cursor:pointer;background:#8FAABB;color:#fff;font:11.5px/1.25 Verdana,Tahoma,sans-serif;padding:4px 8px;margin-right:6px;border-radius:0 6px 6px 0;transition:background .15s,transform .15s}
+.simMenu button:hover:not(:disabled){background:#5f8399;transform:translateX(2px)}
+.simMenu button.on{background:#1f4e6b;font-weight:700}
+.simMenu button.semTela{opacity:.55}
+.simArea{padding:12px 14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.simTit{font-weight:800;color:#1f4e6b;text-transform:uppercase;font-size:12.5px;border-bottom:1px solid #d5e0e7;padding-bottom:4px}
+.simTx{margin:0}
+.simCampo{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.simCampo .r{font-weight:700;min-width:120px}
+.simCampo .v{flex:1;min-width:120px;border:1px solid #9FB3C2;border-radius:3px;padding:3px 6px;background:#fff}
+.simCampo .v.vazio{min-height:22px}
+.simCampo .v.sel::after{content:"▾";float:right;color:#557}
+.simCampo .v.arq b{font-weight:400;background:#e9eef2;border:1px solid #9FB3C2;border-radius:3px;padding:0 6px;margin-right:6px}
+.simOps{margin:0 0 0 128px;padding:4px 8px;list-style:none;border:1px dashed #9FB3C2;border-radius:4px;font-size:11.5px;background:#fbfcfd}
+.simOps li{padding:1px 0}
+.simTab{overflow-x:auto}
+.simTab table{border-collapse:collapse;width:100%;font-size:11.5px}
+.simTab th{background:#1f4e6b;color:#fff;padding:3px 6px;text-align:left;white-space:nowrap}
+.simTab td{border-bottom:1px solid #e1e8ed;padding:3px 6px}
+.simBts{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.simBt{background:#E8EDF1;border:1px solid #8a9aa6;border-radius:3px;padding:2px 12px;font-size:12px}
+.simAviso{border-radius:6px;padding:7px 10px;font-size:12px}
+.simAviso.info{background:#eef6fb;border:1px solid #b9d4e6}
+.simAviso.alerta{background:#fff6dd;border:1px solid #f0d27a}
+.simAviso.dialogo{background:#fff;border:1px solid #8a9aa6;box-shadow:0 8px 18px rgba(0,0,0,.18);font-family:var(--sans)}
+.simLinks{display:flex;align-items:flex-start}
+.simLinks>div{display:flex;flex-direction:column;gap:3px}
+.simLinks span{color:#1f4e6b;text-decoration:underline}
+.simN{display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:var(--ac);color:#fff;font:800 11px var(--sans);flex:0 0 auto;margin-right:6px;cursor:pointer;box-shadow:0 0 0 3px color-mix(in srgb,var(--ac) 22%,transparent);transition:transform .2s var(--mola)}
+.simN.on{transform:scale(1.25);box-shadow:0 0 0 5px color-mix(in srgb,var(--ac) 30%,transparent)}
+.simNotas{background:var(--sup2);border-radius:20px;padding:14px 16px}
+.simNotasTit{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.simNotasTit b{font-size:15.5px}
+.simResumo{margin:0 0 8px;font-size:14px;color:var(--ink2)}
+.simNotas ol{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.simNotas li{display:flex;gap:8px;align-items:flex-start;font-size:14px;line-height:1.5;padding:6px 8px;border-radius:12px;transition:background .2s}
+.simNotas li.on{background:var(--acSup)}
+.simNotas li .simN{margin-top:1px}
+.simNotas .navQ{margin-top:12px}
+@media(max-width:980px){.sim{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:640px){.simCorpo{grid-template-columns:1fr}.simMenu{flex-direction:row;overflow-x:auto;padding:6px}.simMenu button{white-space:nowrap;border-radius:6px;margin:0}.simOps{margin-left:0}.simCampo .r{min-width:0}}
+
 /* ---------- busca ---------- */
 .caixaBusca{width:min(700px,100%);background:var(--sup);border-radius:26px;box-shadow:var(--sombraM);overflow:hidden;animation:sobe .3s var(--suave)}
 .caixaBusca .campoB{display:flex;align-items:center;gap:10px;padding:14px 18px;border-bottom:1px solid var(--linha)}
@@ -583,6 +632,8 @@ body.editando .edNovo{display:flex;gap:8px;flex-wrap:wrap}
   .pi .check label{border:.3mm solid #D3D9E6;padding:2mm 3mm;border-radius:2.5mm}
   .pi .check .cx-q{flex:none;width:4mm;height:4mm;border:.4mm solid #5D6579;border-radius:50%;margin-top:.8mm}
   .pi .fontesL{font-size:9pt}
+  .pi .simImp{display:grid;grid-template-columns:1.3fr 1fr;gap:5mm;break-inside:avoid;margin-bottom:6mm}
+  .pi .simJanela{box-shadow:none;font-size:8.5pt}.pi .simCorpo{min-height:0}.pi .simNotas{font-size:9pt;padding:3mm}.pi .simNotas li{font-size:9pt;padding:1mm}
   .pi a{color:inherit;text-decoration:none}
 }
 

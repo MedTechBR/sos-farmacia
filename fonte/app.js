@@ -304,7 +304,8 @@ const TIPOS = {
   tabela: { nome: 'Tabela', plural: 'Tabelas', ic: 'table' }, quadro: { nome: 'Quadro', plural: 'Quadros', ic: 'layout-list' },
   checklist: { nome: 'Checklist', plural: 'Checklists', ic: 'list-check' }, fluxo: { nome: 'Fluxo', plural: 'Fluxos', ic: 'git-fork' },
   cartoes: { nome: 'Cartões de revisão', plural: 'Cartões', ic: 'cards' }, questoes: { nome: 'Questões', plural: 'Questões', ic: 'help-circle' },
-  receita: { nome: 'Modelo de receita', plural: 'Receitas', ic: 'prescription' }, pop: { nome: 'POP', plural: 'POPs', ic: 'file-text' }
+  receita: { nome: 'Modelo de receita', plural: 'Receitas', ic: 'prescription' }, pop: { nome: 'POP', plural: 'POPs', ic: 'file-text' },
+  simulador: { nome: 'Simulador de tela', plural: 'Simuladores', ic: 'device-desktop' }
 };
 const LETRAS = 'ABCDE';
 const posQ = {}, posC = {};
@@ -342,8 +343,39 @@ function blocoCorpo(b, imp) {
         lista('Responsáveis', b.responsaveis) + lista('Materiais', b.materiais) + lista('Procedimento', b.procedimento, true) + lista('Cuidados', b.cuidados) + lista('Registros', b.registros) + lista('Referências', b.referencias) +
         `<div class="pop-ass"><div>Elaborado por:</div><div>Revisado por:</div><div>Aprovado por (farmacêutico RT):</div></div></div>`;
     }
+    case 'simulador': return imp ? (b.telas || []).map((t, i) => `<div class="simImp">${simTela(b, i, true)}</div>`).join('') : `<div class="sim" data-sim="${b.id}">${simTela(b, posSim[b.id] || 0)}</div>`;
     default: return `<p>Tipo de bloco desconhecido.</p>`;
   }
+}
+/* simulador de tela: réplica do sistema com dados fictícios, menu clicável e marcadores numerados */
+const posSim = {};
+function simElemento(el) {
+  const n = el.n ? `<span class="simN" data-n="${el.n}">${el.n}</span>` : '';
+  switch (el.e) {
+    case 'titulo': return `<div class="simTit">${n}${esc(el.t)}</div>`;
+    case 'texto': return `<p class="simTx">${n}${inl(el.t)}</p>`;
+    case 'campo': return `<div class="simCampo">${n}<span class="r">${esc(el.r)}</span><span class="v${el.v ? '' : ' vazio'}">${esc(el.v || '')}</span></div>`;
+    case 'arquivo': return `<div class="simCampo">${n}<span class="r">${esc(el.r)}</span><span class="v arq"><b>Escolher arquivo</b> ${esc(el.v || 'Nenhum arquivo escolhido')}</span></div>`;
+    case 'select': return `<div class="simCampo">${n}<span class="r">${esc(el.r)}</span><span class="v sel">${esc(el.v || (el.opcoes || [])[0] || ':: Selecione ::')}</span></div>` +
+      ((el.opcoes || []).length ? `<ul class="simOps">${el.opcoes.map(o => `<li>${esc(o)}</li>`).join('')}</ul>` : '');
+    case 'tabela': return `<div class="simTab">${n}<table><thead><tr>${(el.colunas || []).map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${(el.linhas || []).map(l => `<tr>${l.map(c => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+    case 'botoes': return `<div class="simBts">${n}${(el.itens || []).map(t => `<span class="simBt">${esc(t)}</span>`).join('')}</div>`;
+    case 'aviso': return `<div class="simAviso ${esc(el.tipo || 'info')}">${n}${inl(el.t)}</div>`;
+    case 'links': return `<div class="simLinks">${n}<div>${(el.itens || []).map(t => `<span>${esc(t)}</span>`).join('')}</div></div>`;
+    default: return '';
+  }
+}
+function simTela(b, i, imp) {
+  const telas = b.telas || []; if (!telas.length) return '';
+  i = Math.max(0, Math.min(telas.length - 1, i));
+  const t = telas[i], menu = t.menuProprio || b.menu || [];
+  return `<div class="simJanela"><div class="simTopo"><span class="simLogo">${esc(b.sistema || 'Sistema')}</span><span>${esc(b.subtitulo || '')}</span></div>` +
+    `<div class="simCorpo"><nav class="simMenu">${menu.map(m => `<button type="button" ${imp ? 'disabled' : ''} data-simir="${esc(m)}" class="${m === t.menu ? 'on' : ''}${telas.some(x => x.menu === m) ? '' : ' semTela'}">${esc(m)}</button>`).join('')}</nav>` +
+    `<div class="simArea">${(t.elementos || []).map(simElemento).join('')}</div></div></div>` +
+    `<div class="simNotas"><div class="simNotasTit">${imp ? '' : `<span class="pil">Tela ${i + 1} de ${telas.length}</span>`}<b>${esc(t.nome || t.menu)}</b></div>` +
+    (t.resumo ? `<p class="simResumo">${inl(t.resumo)}</p>` : '') +
+    `<ol>${(t.notas || []).map(x => `<li data-n="${x.n}"><span class="simN">${x.n}</span><span>${inl(x.t)}</span></li>`).join('')}</ol>` +
+    (imp ? '' : `<div class="navQ"><button class="bt sec mini" data-simnav="-1" ${i ? '' : 'disabled'}>${ic('arrow-left')} Tela anterior</button>${pontos(telas.length, i, () => '')}<button class="bt mini" data-simnav="1" ${i < telas.length - 1 ? '' : 'disabled'}>Próxima tela ${ic('arrow-right')}</button></div>`) + `</div>`;
 }
 function pontos(n, at, cls) { return `<div class="pontos">${Array.from({ length: n }, (_, i) => `<i class="${cls(i)}${i === at ? ' at' : ''}"></i>`).join('')}</div>`; }
 function cartaHtml(b) {
@@ -616,6 +648,11 @@ function abreModal(html) {
 }
 
 const FORMATOS = {
+  simulador: {
+    ajuda: 'Edite em JSON: "sistema", "subtitulo", "menu" (lista) e "telas": [{"menu", "nome", "resumo", "elementos": [{"e": "titulo|texto|campo|select|tabela|botoes|aviso|arquivo|links", ...}], "notas": [{"n": 1, "t": "..."}]}].',
+    para: b => JSON.stringify({ sistema: b.sistema, subtitulo: b.subtitulo, menu: b.menu, telas: b.telas }, null, 1),
+    de: (t, b) => { let o; try { o = JSON.parse(t); } catch (e) { throw new Error('JSON inválido: ' + e.message); } if (!Array.isArray(o.telas)) throw new Error('Falta a lista "telas".'); Object.assign(b, o); }
+  },
   tabela: {
     ajuda: 'Primeira linha: nomes das colunas. Demais linhas: uma linha da tabela.\nSepare as células com  |  (barra vertical).\nPode usar <b>negrito</b>, <i>itálico</i> e <br> dentro da célula.',
     para: b => [b.colunas || [], ...(b.linhas || [])].map(l => l.join(' | ')).join('\n'),
@@ -956,6 +993,16 @@ document.addEventListener('click', e => {
   }
   const cn = e.target.closest('[data-cnav]');
   if (cn) { const f2 = cn.closest('[data-flash]'), b = moduloAtual().apoio.find(x => x.id === f2.dataset.flash); posC[b.id] = Math.max(0, Math.min(b.itens.length - 1, (posC[b.id] || 0) + +cn.dataset.cnav)); f2.innerHTML = cartaHtml(b); return; }
+  const sm = e.target.closest('[data-simir],[data-simnav]');
+  if (sm) {
+    const box = sm.closest('[data-sim]'), b = moduloAtual().apoio.find(x => x.id === box.dataset.sim), telas = b.telas || [];
+    let i = posSim[b.id] || 0;
+    if (sm.dataset.simnav) i += +sm.dataset.simnav;
+    else { const alvo = sm.dataset.simir === 'Voltar' ? (b.menu || [])[0] : sm.dataset.simir; const k = telas.findIndex(x => x.menu === alvo); if (k < 0) { aviso('Esta opção não tem tela no simulador.'); return; } i = k; }
+    posSim[b.id] = Math.max(0, Math.min(telas.length - 1, i)); box.innerHTML = simTela(b, posSim[b.id]); return;
+  }
+  const mk = e.target.closest('.sim .simN[data-n]');
+  if (mk) { const box = mk.closest('.sim'), n = mk.dataset.n; $$('.simNotas li', box).forEach(li => li.classList.toggle('on', li.dataset.n === n)); $$('.simArea .simN', box).forEach(x => x.classList.toggle('on', x.dataset.n === n)); const li = $(`.simNotas li[data-n="${n}"]`, box); if (li) li.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); return; }
   const bb = e.target.closest('#barra [data-b]');
   if (bb) { const k = bb.dataset.b; if (k === 'inicio') location.hash = '#/'; else if (k === 'buscar') abreBusca(); else gaveta(k); }
 });

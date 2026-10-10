@@ -1,0 +1,262 @@
+{
+ "id": "m12",
+ "num": 12,
+ "parte": "b",
+ "titulo": "Passo a passo do SNGPC",
+ "escopo": "Guia prático para o farmacêutico que assume uma drogaria operar o SNGPC desde o primeiro dia: cadastro, credenciamento, inventário, escrituração, transmissão, correção de erros e fiscalização, com base na RDC 22/2014, na RDC 471/2021 com a RDC 973/2025 e nos documentos técnicos vigentes da Anvisa.",
+ "topicos": [
+  {
+   "id": "m12-telas",
+   "titulo": "O SNGPC por dentro, tela a tela",
+   "resumo": "<p>O SNGPC tem duas partes que o recém-formado costuma confundir. A <strong>escrituração</strong> (cada entrada, saída, perda ou transferência de controlado) é feita no <em>software de gestão</em> da farmácia, que gera um arquivo XML no leiaute da Anvisa. O <strong>site do SNGPC</strong> recebe esse arquivo, valida e guarda o estoque oficial. No site não existe tela para digitar uma dispensação: ali o farmacêutico confere, confirma, informa e consulta.</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Se o estoque do site não bate com o do software, o problema quase sempre está no arquivo que não foi enviado ou foi recusado. Sempre confira o Status de Transmissão antes de procurar erro no balcão.</p></div>\n<h3>Entrada no sistema</h3>\n<p>Endereço: sngpc.anvisa.gov.br. A tela de entrada tem e-mail e senha com reCAPTCHA, o link \"Esqueci minha senha\" e o botão \"Entrar com gov.br\". O botão \"Entrar como Anvisa\" é para servidores da agência. O acesso é pessoal: tudo o que é transmitido, confirmado ou finalizado fica em nome de quem entrou.</p>\n<h3>O menu principal</h3>\n<div class=\"tab\"><table><thead><tr><th>Menu</th><th>Para que serve</th><th>Quando usar</th></tr></thead><tbody>\n<tr><td><b>Dados da Empresa</b></td><td>Mostra o cadastro do estabelecimento (razão social, CNPJ, AFE, AE) e quem tem acesso: responsáveis técnicos e responsável legal</td><td>Primeiro dia; depois de qualquer mudança de RT</td></tr>\n<tr><td><b>Alterar Dados CRF</b></td><td>Completa número, data de expedição e UF da carteira do CRF</td><td>Quando o sistema avisa que os dados do CRF estão pendentes</td></tr>\n<tr><td><b>Inventário Inicial</b></td><td>Mostra o inventário recebido do software e permite confirmá-lo com o código verificador</td><td>Ao assumir a escrituração (começo, troca de RT, ajuste)</td></tr>\n<tr><td><b>Finalizar Inventário</b></td><td>Encerra o inventário em curso, com motivo, justificativa (no ajuste) e código</td><td>Saída do RT, substituição, encerramento das atividades, ajuste, ordem da VISA</td></tr>\n<tr><td><b>Informar Ausência</b></td><td>Registra afastamento temporário do RT (início e fim)</td><td>Antes de um afastamento curto, sempre com data futura e até 30 dias por período</td></tr>\n<tr><td><b>Visualizar Inventário</b></td><td>Posição atual do estoque segundo a Anvisa, por apresentação e lote, com as datas do último arquivo</td><td>Conferência semanal por amostragem; antes da fiscalização</td></tr>\n<tr><td><b>Transmissão de arquivos</b></td><td>Envio manual do XML compactado em ZIP</td><td>Quando o software não transmite sozinho</td></tr>\n<tr><td><b>Relatórios</b></td><td>Abre o submenu de relatórios e certificados</td><td>Todo dia (Status de Transmissão) e quando precisar comprovar regularidade</td></tr>\n<tr><td><b>Sair do Sistema</b></td><td>Encerra a sessão</td><td>Sempre ao terminar</td></tr></tbody></table></div>\n<h3>O submenu Relatórios</h3>\n<ul><li><b>Status de Transmissão</b>: cada arquivo enviado, com período (data inicial e final), data de recebimento, data de validação, \"Validação executada\" e \"Foi aceito?\". É a conferência diária.</li>\n<li><b>Certificado de transmissão regular</b>: só é emitido se a farmácia está em dia. A regra exibida pelo próprio sistema é ter pelo menos quatro arquivos validados e aceitos nos últimos 30 dias e o último período informado com até dez dias de diferença da data de geração.</li>\n<li><b>Histórico de Inventários</b>: cada inventário com data de início e de finalização, motivo, RT da época, último arquivo, ausências e quantidades no início e no fim.</li>\n<li><b>Histórico de Movimentações</b>: extrato por tipo (medicamento, insumo, transformado), período, registro, lote e nome. É onde se investiga uma divergência.</li>\n<li><b>Certificado de Escrituração Digital</b>: comprovante em PDF.</li></ul>\n<div class=\"cx alerta\"><b>Atenção</b><p>Três ações do site não têm volta: confirmar o inventário (\"Uma vez confirmado este inventário não poderá ser modificado\"), finalizar o inventário e transmitir um arquivo. Leia a tela inteira antes do OK, e nunca use a conta real para \"testar\".</p></div>\n<h3>Tarefas do RT no site, passo a passo</h3>\n<h4>Conferir a transmissão do dia</h4>\n<ol><li>Entrar no sistema.</li><li>Relatórios.</li><li>Status de Transmissão.</li><li>Na primeira linha, conferir se o período (data inicial e final) é o do último dia de movimento.</li><li>Conferir \"Validação executada = SIM\" e \"Foi aceito? = SIM\".</li><li>Se \"Foi aceito? = NÃO\": corrigir no software e reenviar o mesmo período; se ainda estiver \"NÃO\" na validação, aguardar e consultar de novo.</li><li>Voltar e Sair do Sistema.</li></ol>\n<h4>Enviar o arquivo manualmente</h4>\n<ol><li>No software, gerar o arquivo de movimentação do período (XML) e compactar em ZIP, se o software não fizer isso.</li><li>No site, Transmissão de arquivos.</li><li>Escolher o arquivo .zip.</li><li>Informar e-mail e senha.</li><li>Enviar.</li><li>Conferir o resultado em Relatórios &gt; Status de Transmissão.</li></ol>\n<h4>Conferir o estoque oficial</h4>\n<ol><li>Visualizar Inventário.</li><li>Ver a data da validação do último arquivo e a data final do último período informado.</li><li>Escolher alguns itens e contar o físico (por lote, clicando no medicamento).</li><li>Se divergir: Relatórios &gt; Histórico de Movimentações, filtrando o medicamento e o lote no período, para achar a entrada ou saída que faltou.</li></ol>\n<h4>Avisar um afastamento curto</h4>\n<ol><li>Informar Ausência.</li><li>Data de início (hoje ou futura) e data final (no máximo 30 dias depois).</li><li>Incluir Ausência e conferir a lista \"Ausências do Responsável Técnico\".</li></ol>\n<h4>Sair da responsabilidade técnica</h4>\n<ol><li>Transmitir todas as movimentações até o último dia e conferir no Status de Transmissão que foram aceitas.</li><li>Conferir o estoque em Visualizar Inventário contra o físico.</li><li>Finalizar Inventário com o motivo correto (por exemplo, desligamento do RT ou substituição temporária).</li><li>Digitar o código verificador e confirmar.</li><li>Imprimir ou guardar o Histórico de Inventários com a finalização.</li><li>O farmacêutico que assume abre e confirma o inventário dele a partir dessa contagem.</li></ol>\n<div class=\"cx balcao\"><b>No balcão</b><p>Combine com o dono da farmácia quem transmite quando você não estiver e deixe isso escrito no POP. Senha não se empresta: cada farmacêutico vinculado tem acesso próprio.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Recém-formada assume uma drogaria e, em Relatórios, o Certificado de transmissão regular é recusado: o último arquivo é de 20 dias atrás. Ela não finaliza nem confirma nada no primeiro dia. Primeiro confere em Dados da Empresa se o nome dela já consta como RT com acesso, depois vê no Status de Transmissão quais períodos faltam, pede ao suporte do software que gere os arquivos pendentes, transmite, confere que foram aceitos e só então trata do inventário com a VISA e o RT anterior.</p></div>"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m12-mapa-telas",
+   "titulo": "O SNGPC na tela",
+   "centro": "Site do SNGPC",
+   "ramos": [
+    {
+     "t": "Entrar",
+     "itens": [
+      "sngpc.anvisa.gov.br",
+      "E-mail, senha e reCAPTCHA",
+      "Ou Entrar com gov.br",
+      "Acesso pessoal do farmacêutico"
+     ]
+    },
+    {
+     "t": "Cadastro",
+     "itens": [
+      "Dados da Empresa: AFE e RTs com acesso",
+      "Alterar Dados CRF quando pendente"
+     ]
+    },
+    {
+     "t": "Inventário",
+     "itens": [
+      "Chega pelo XML do software",
+      "Confirmar: sem volta",
+      "Visualizar: estoque oficial",
+      {
+       "t": "Finalizar",
+       "itens": [
+        "Motivo",
+        "Justificativa no ajuste",
+        "Código verificador"
+       ]
+      }
+     ]
+    },
+    {
+     "t": "Ausência",
+     "itens": [
+      "Data futura",
+      "Até 30 dias por período",
+      "Sem sobrepor o anterior"
+     ]
+    },
+    {
+     "t": "Transmissão",
+     "itens": [
+      "XML compactado em ZIP",
+      "Enviar não é aceito",
+      "Conferir Status de Transmissão"
+     ]
+    },
+    {
+     "t": "Relatórios",
+     "itens": [
+      "Status: Foi aceito? SIM/NÃO",
+      "Certificado: 4 aceitos em 30 dias",
+      "Históricos de inventário e movimentação"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m12-tab-telas",
+   "titulo": "Telas do SNGPC: pergunta do dia a dia e onde responder",
+   "colunas": [
+    "Pergunta",
+    "Caminho no site",
+    "O que olhar"
+   ],
+   "linhas": [
+    [
+     "O arquivo de ontem entrou?",
+     "Relatórios > Status de Transmissão",
+     "Período, Validação executada e Foi aceito?"
+    ],
+    [
+     "Estamos em dia com a Anvisa?",
+     "Relatórios > Certificado de transmissão regular",
+     "Certificado emitido ou mensagem de irregularidade"
+    ],
+    [
+     "O estoque oficial bate com a gaveta?",
+     "Visualizar Inventário",
+     "Qtd por apresentação e lote; datas do último arquivo"
+    ],
+    [
+     "Onde está a saída que sumiu?",
+     "Relatórios > Histórico de Movimentações",
+     "Filtro por registro, lote e período"
+    ],
+    [
+     "Quem era RT em tal data?",
+     "Relatórios > Histórico de Inventários",
+     "Datas, motivo da finalização, RT"
+    ],
+    [
+     "Meu nome está vinculado?",
+     "Dados da Empresa",
+     "Lista de responsáveis técnicos com acesso"
+    ],
+    [
+     "Vou me afastar alguns dias",
+     "Informar Ausência",
+     "Início a partir de hoje, até 30 dias"
+    ],
+    [
+     "Vou deixar a farmácia",
+     "Finalizar Inventário",
+     "Motivo, código verificador, confirmação"
+    ]
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m12-c-telas",
+   "titulo": "Cartões: as telas do SNGPC",
+   "itens": [
+    {
+     "f": "Onde se digita uma dispensação de controlado?",
+     "v": "No software de gestão; o SNGPC recebe o XML"
+    },
+    {
+     "f": "Formato do arquivo na transmissão manual",
+     "v": "XML compactado em ZIP"
+    },
+    {
+     "f": "Onde ver se o arquivo foi aceito?",
+     "v": "Relatórios > Status de Transmissão (Foi aceito? SIM/NÃO)"
+    },
+    {
+     "f": "O que acontece ao confirmar o inventário inicial?",
+     "v": "Ele não pode mais ser modificado"
+    },
+    {
+     "f": "Motivo de finalização que exige justificativa",
+     "v": "Ajuste de inventário"
+    },
+    {
+     "f": "Período máximo de uma ausência informada",
+     "v": "30 dias, com início a partir de hoje"
+    },
+    {
+     "f": "Regra do certificado de transmissão regular",
+     "v": "4 arquivos aceitos em 30 dias e último período até 10 dias"
+    },
+    {
+     "f": "Onde investigar divergência de estoque?",
+     "v": "Relatórios > Histórico de Movimentações, por registro e lote"
+    },
+    {
+     "f": "O que mostra Visualizar Inventário?",
+     "v": "O estoque oficial e as datas do último arquivo e do último período"
+    },
+    {
+     "f": "Para que serve Dados da Empresa?",
+     "v": "Conferir cadastro, AFE e quem é RT com acesso"
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m12-q-telas",
+   "titulo": "Questões sobre as telas do SNGPC",
+   "itens": [
+    {
+     "p": "Recém-formada quer registrar no site do SNGPC a venda de uma caixa de clonazepam feita hoje. Onde ela faz isso?",
+     "alt": [
+      "Em Inventário Inicial, somando a saída ao estoque do dia anterior",
+      "No software de gestão da farmácia, que gera o XML transmitido ao SNGPC",
+      "Em Visualizar Inventário, editando a quantidade do lote vendido",
+      "Em Informar Ausência, registrando a saída feita fora do horário do RT",
+      "Em Dados da Empresa, na área de movimentação do responsável técnico"
+     ],
+     "c": 1,
+     "com": "O site não tem tela de digitação de movimentações. Entradas e saídas são escrituradas no software de gestão, que gera o arquivo XML enviado ao SNGPC (pelo próprio software ou em Transmissão de arquivos). As outras telas servem para confirmar inventário, consultar estoque, registrar ausência e ver o cadastro."
+    },
+    {
+     "p": "Em Relatórios > Status de Transmissão, o arquivo de ontem aparece com \"Validação executada: SIM\" e \"Foi aceito?: NÃO\". O que isso significa?",
+     "alt": [
+      "O arquivo foi aceito, mas com observações que devem ser lidas no histórico",
+      "O arquivo ainda não foi processado e deve ser reenviado no dia seguinte",
+      "O arquivo foi recusado e o período não entrou no estoque oficial",
+      "O inventário foi finalizado automaticamente por falta de transmissão regular",
+      "A farmácia teve o certificado de regularidade suspenso pelos próximos 30 dias"
+     ],
+     "c": 2,
+     "com": "Validação executada SIM indica que a Anvisa processou o arquivo; Foi aceito NÃO indica recusa. Nada daquele período entrou: é preciso corrigir no software e reenviar o mesmo período. Não há aceite parcial nem finalização automática."
+    },
+    {
+     "p": "Segundo a regra exibida no próprio SNGPC, quando a farmácia consegue emitir o Certificado de transmissão regular?",
+     "alt": [
+      "Um arquivo validado e aceito por mês, enviado até o quinto dia útil",
+      "Quatro arquivos aceitos em 30 dias e último período com até 10 dias",
+      "Inventário inicial confirmado, independentemente das transmissões feitas",
+      "Somente depois de inspeção presencial da vigilância sanitária local",
+      "Um arquivo enviado nos últimos 10 dias, mesmo que tenha sido recusado"
+     ],
+     "c": 1,
+     "com": "A nota da tela de certificado define regularidade pelas duas condições: quatro arquivos validados e aceitos nos últimos 30 dias e último período informado até dez dias da data de geração. Arquivo recusado não conta, e o inventário confirmado sozinho não basta."
+    },
+    {
+     "p": "O RT vai tirar 12 dias de folga a partir da semana que vem e não haverá outro farmacêutico assumindo a escrituração. Qual tela registra isso?",
+     "alt": [
+      "Finalizar Inventário com o motivo Férias, abrindo novo inventário na volta",
+      "Alterar Dados CRF, registrando o período de afastamento na carteira",
+      "Informar Ausência, com data de início futura e fim até 30 dias depois",
+      "Transmissão de arquivos, enviando um arquivo vazio para cada dia de folga",
+      "Inventário Inicial, confirmando de novo o estoque no dia do retorno"
+     ],
+     "c": 2,
+     "com": "Informar Ausência registra afastamento temporário sem encerrar o inventário; o formulário só aceita início a partir de hoje e período de até 30 dias. Finalizar Inventário encerra a escrituração e serve quando outro farmacêutico assume ou o RT sai."
+    },
+    {
+     "p": "Ao conferir o inventário inicial que veio do software, o farmacêutico percebe um lote com quantidade errada. O que fazer?",
+     "alt": [
+      "Confirmar e corrigir depois a quantidade em Visualizar Inventário",
+      "Não confirmar; corrigir no software, gerar o arquivo de novo e então confirmar",
+      "Confirmar e informar ausência até o suporte do software corrigir o lote",
+      "Confirmar e finalizar no mesmo dia pelo motivo Licença, sem justificativa",
+      "Confirmar e enviar e-mail à Anvisa pedindo a edição do inventário confirmado"
+     ],
+     "c": 1,
+     "com": "A própria tela avisa que o inventário confirmado não pode ser modificado. O erro se corrige antes, na origem (software). Depois de confirmado, só resta finalizar por ajuste de inventário com justificativa e abrir outro."
+    },
+    {
+     "p": "Na tela Finalizar Inventário, qual motivo exige o preenchimento da justificativa?",
+     "alt": [
+      "Férias",
+      "Licença",
+      "Encerramento das atividades com produtos controlados",
+      "Ajuste de inventário",
+      "Substituição temporária de Responsável Técnico"
+     ],
+     "c": 3,
+     "com": "O formulário só obriga a justificativa quando o motivo é Ajuste de inventário, porque é a finalização usada para corrigir divergência e o registro precisa explicar o que aconteceu."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Anvisa. SNGPC, Sistema Nacional de Gerenciamento de Produtos Controlados: telas do módulo de farmácias e drogarias (sngpc.anvisa.gov.br), consultadas em 10/10/2026."
+ ]
+}
