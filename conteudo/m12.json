@@ -1141,6 +1141,1132 @@
    ]
   },
   {
+   "tipo": "simulador",
+   "id": "m12-sim-software",
+   "titulo": "Simulador: o software de gestão (exemplo: Trier SNGPC Web)",
+   "sistema": "SNGPC WEB",
+   "subtitulo": "Software de gestão da farmácia (réplica didática do Trier SNGPC Web, dados fictícios)",
+   "menu": [
+    "Painel",
+    "Produtos",
+    "Médicos (prescritores)",
+    "Cliente (comprador/paciente)",
+    "Lojas",
+    "Entrada de Mercadorias",
+    "Receitas",
+    "Outras Saídas",
+    "Manutenção Movimentos",
+    "Histórico de Importações",
+    "Conferência de Medicamentos",
+    "Lançamento de Inventário Inicial",
+    "Geração de Arquivo SNGPC",
+    "Livro de Registro Específico P. 344/98",
+    "Balanço de Medicamentos",
+    "Relação Mensal de Notificação Receita",
+    "Ficha de Estoque",
+    "Log de Eventos e Usuários"
+   ],
+   "telas": [
+    {
+     "menu": "Painel",
+     "nome": "Painel inicial: arquivos transmitidos",
+     "resumo": "A primeira tela depois do login lista os últimos arquivos enviados. É a conferência mais rápida do dia.",
+     "elementos": [
+      {
+       "e": "tabela",
+       "n": 1,
+       "colunas": [
+        "Tipo envio",
+        "Período",
+        "Data geração",
+        "Data validação",
+        "Status (aprovação na Anvisa)",
+        "Hash"
+       ],
+       "linhas": [
+        [
+         "MOVIMENTO",
+         "28/09/2026 a 04/10/2026",
+         "05/10/2026",
+         "05/10/2026",
+         "S",
+         "9F2C...A71B"
+        ],
+        [
+         "MOVIMENTO",
+         "05/10/2026 a 11/10/2026",
+         "12/10/2026",
+         "12/10/2026",
+         "S",
+         "4D81...0C3E"
+        ]
+       ]
+      },
+      {
+       "e": "texto",
+       "n": 2,
+       "t": "Campo de busca no topo: Informe o recurso para pesquisa [CTRL+0]"
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Cada linha é um arquivo: tipo (MOVIMENTO ou inventário), período coberto, quando foi gerado, quando a Anvisa validou, se foi aprovado (S/N) e o hash. O hash é o mesmo que aparece no SNGPC da Anvisa em Status de Transmissão: é assim que se casa um arquivo do software com o registro da Anvisa. Os períodos têm de ser contínuos, sem buraco e sem sobreposição."
+      },
+      {
+       "n": 2,
+       "t": "O campo de busca abre qualquer tela pelo nome (atalho Ctrl+0). Quase todas as telas têm atalhos de teclado nos botões (F2 salvar, F5 limpar, F3 ou F10 consultar)."
+      }
+     ]
+    },
+    {
+     "menu": "Produtos",
+     "nome": "Cadastros > Produtos",
+     "resumo": "Todo controlado precisa estar cadastrado com registro, classe e lista corretos. Erro aqui contamina todas as movimentações daquele produto.",
+     "elementos": [
+      {
+       "e": "campo",
+       "r": "Registro MS*",
+       "v": "1.0000.0000.001-1",
+       "n": 1
+      },
+      {
+       "e": "campo",
+       "r": "Código de barras*",
+       "v": "7890000000000"
+      },
+      {
+       "e": "select",
+       "r": "Classe terapêutica*",
+       "v": "CONTROLE ESPECIAL",
+       "opcoes": [
+        "AGONISTAS GLP-1",
+        "ANTIMICROBIANOS",
+        "CONTROLE ESPECIAL"
+       ],
+       "n": 2
+      },
+      {
+       "e": "campo",
+       "r": "Nome*",
+       "v": "CLONAZEPAM 2 MG COM CT BL X 30"
+      },
+      {
+       "e": "campo",
+       "r": "DCB",
+       "v": "clonazepam"
+      },
+      {
+       "e": "select",
+       "r": "Lista controlados*",
+       "v": "B1",
+       "opcoes": [
+        "A1",
+        "A2",
+        "A3",
+        "B1",
+        "B2",
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+       ],
+       "n": 3
+      },
+      {
+       "e": "select",
+       "r": "Unidade SNGPC*",
+       "v": "CAIXAS",
+       "opcoes": [
+        "CAIXAS",
+        "FRASCOS"
+       ],
+       "n": 4
+      },
+      {
+       "e": "select",
+       "r": "Bloquear envio movimento ANVISA?",
+       "v": "NÃO",
+       "n": 5
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Salvar [F2]",
+        "Consultar MS ANVISA [F10]",
+        "Cópia produtos troca lista controlados [Alt+C]",
+        "Histórico alteração Reg.MS [Alt+D]"
+       ],
+       "n": 6
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "O registro MS é a chave que a Anvisa usa para reconhecer o medicamento. Registro errado gera recusa ou estoque em produto errado. O botão Consultar MS ANVISA confere o número."
+      },
+      {
+       "n": 2,
+       "t": "Classe terapêutica define em que escrituração o produto entra: controle especial (Portaria 344), antimicrobianos ou agonistas de GLP-1."
+      },
+      {
+       "n": 3,
+       "t": "Lista da Portaria 344 do produto (o adendo, quando houver, vai no campo ao lado). Ela define o receituário exigido e a ordem nos livros e balanços."
+      },
+      {
+       "n": 4,
+       "t": "Unidade em que o produto é escriturado: caixas (comprimidos, cápsulas) ou frascos (líquidos). A quantidade transmitida é contada nessa unidade, não em comprimidos soltos."
+      },
+      {
+       "n": 5,
+       "t": "Bloqueia o envio das movimentações do produto. Só se usa com orientação (por exemplo, produto cadastrado por engano como controlado), nunca para esconder divergência: o estoque oficial deixa de bater."
+      },
+      {
+       "n": 6,
+       "t": "Quando a Anvisa muda uma substância de lista, a cópia de produto para a nova lista mantém o histórico; o histórico de alteração do registro mostra quem mudou o quê."
+      }
+     ]
+    },
+    {
+     "menu": "Médicos (prescritores)",
+     "nome": "Cadastros > Médicos",
+     "resumo": "Cadastro de quem prescreve. O nome da tela diz médicos, mas o campo Tipo CR aceita outros conselhos.",
+     "elementos": [
+      {
+       "e": "campo",
+       "r": "Nome*",
+       "v": "PRESCRITOR FICTÍCIO"
+      },
+      {
+       "e": "select",
+       "r": "Estado CR*",
+       "v": "CEARÁ",
+       "n": 1
+      },
+      {
+       "e": "campo",
+       "r": "Número CR*",
+       "v": "00000"
+      },
+      {
+       "e": "select",
+       "r": "Tipo CR*",
+       "v": "CRM - Medicina",
+       "opcoes": [
+        "COREN - Enfermagem",
+        "CRM - Medicina",
+        "CRMV - Veterinária",
+        "CRO - Odontologia",
+        "RMS - Registro MS"
+       ],
+       "n": 2
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Salvar [F2]",
+        "Limpar [F5]",
+        "Excluir [F6]"
+       ]
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "UF e número do conselho, como estão na receita. Prescritor cadastrado com UF ou número errado é causa comum de recusa ou de achado na fiscalização."
+      },
+      {
+       "n": 2,
+       "t": "Tipo de conselho: CRM, CRO, CRMV, COREN ou RMS. Neste software, em outubro de 2026, a tela de geração avisava que receitas com prescritor COREN ainda não estavam sendo enviadas à Anvisa, à espera de confirmação da agência."
+      }
+     ]
+    },
+    {
+     "menu": "Cliente (comprador/paciente)",
+     "nome": "Cadastros > Cliente (comprador/paciente)",
+     "resumo": "Comprador e paciente são cadastrados aqui e escolhidos na receita. O documento do comprador é obrigatório nas dispensações que exigem identificação.",
+     "elementos": [
+      {
+       "e": "campo",
+       "r": "Nome*",
+       "v": "COMPRADOR FICTÍCIO"
+      },
+      {
+       "e": "select",
+       "r": "Tipo doc.*",
+       "v": "CARTEIRA DE IDENTIDADE",
+       "opcoes": [
+        "CARTEIRA DE IDENTIDADE",
+        "CARTEIRA DE REGISTRO PROFISSIONAL",
+        "CADASTRO NACIONAL DE PESSOA JURÍDICA",
+        "..."
+       ],
+       "n": 1
+      },
+      {
+       "e": "campo",
+       "r": "Núm. doc.*",
+       "v": "0000000"
+      },
+      {
+       "e": "select",
+       "r": "Órgão expedidor*",
+       "v": "SSP",
+       "n": 2
+      },
+      {
+       "e": "select",
+       "r": "Estado emissor*",
+       "v": "CEARÁ"
+      },
+      {
+       "e": "select",
+       "r": "Sexo*",
+       "v": "FEMININO"
+      },
+      {
+       "e": "campo",
+       "r": "Data nascto.",
+       "v": "01/01/1990"
+      },
+      {
+       "e": "campo",
+       "r": "Endereço, telefone, e-mail",
+       "v": ""
+      },
+      {
+       "e": "select",
+       "r": "Ativo/Inativo",
+       "v": "Ativo",
+       "n": 3
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Tipo e número do documento de quem compra, como no documento apresentado no balcão."
+      },
+      {
+       "n": 2,
+       "t": "Órgão e UF que emitiram o documento."
+      },
+      {
+       "n": 3,
+       "t": "Cliente inativo não aparece para novas receitas, mas o histórico permanece. Dados pessoais exigem o cuidado da LGPD: só quem precisa acessa."
+      }
+     ]
+    },
+    {
+     "menu": "Lojas",
+     "nome": "Cadastros > Lojas",
+     "resumo": "Dados do estabelecimento e do envio. Aqui ficam o responsável pelo envio, a autorização da Anvisa, o farmacêutico responsável e o alerta de atraso.",
+     "elementos": [
+      {
+       "e": "campo",
+       "r": "Razão social* / CNPJ*",
+       "v": "DROGARIA EXEMPLO LTDA / 00.000.000/0001-00"
+      },
+      {
+       "e": "campo",
+       "r": "CPF responsável envio*",
+       "v": "000.000.000-00",
+       "n": 1
+      },
+      {
+       "e": "campo",
+       "r": "E-mail / senha (envio)",
+       "v": "farmaceutico@exemplo.com.br / ••••"
+      },
+      {
+       "e": "campo",
+       "r": "Data de início dos antimicrobianos",
+       "v": "01/01/2026"
+      },
+      {
+       "e": "campo",
+       "r": "Alerta de não envio do arquivo SNGPC (dias)",
+       "v": "3",
+       "n": 2
+      },
+      {
+       "e": "campo",
+       "r": "Data última geração SNGPC",
+       "v": "12/10/2026"
+      },
+      {
+       "e": "select",
+       "r": "Permitir lancto. receita COREN",
+       "v": "NÃO"
+      },
+      {
+       "e": "campo",
+       "r": "Autoridade sanitária* / Nº licença (alvará)*",
+       "v": "VISA MUNICIPAL / 0000/2026",
+       "n": 3
+      },
+      {
+       "e": "campo",
+       "r": "Número autorização ANVISA* (AFE)",
+       "v": "0.00.000-0"
+      },
+      {
+       "e": "campo",
+       "r": "Farmacêutico(a) responsável* / CRF*",
+       "v": "FARMACÊUTICA A / 0000"
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "CPF, e-mail e senha de quem transmite: o envio sai em nome desse farmacêutico. Na troca de RT, atualize aqui junto com o SNGPC da Anvisa."
+      },
+      {
+       "n": 2,
+       "t": "Número de dias sem gerar arquivo que dispara aviso no sistema. Coloque um valor menor que o prazo legal para ter folga."
+      },
+      {
+       "n": 3,
+       "t": "Licença sanitária, AFE e farmacêutico responsável saem nos termos dos livros, no balanço e no inventário. Dados vencidos aparecem impressos."
+      }
+     ]
+    },
+    {
+     "menu": "Entrada de Mercadorias",
+     "nome": "Lançamentos > Entrada de Mercadorias",
+     "resumo": "Toda compra de controlado entra aqui, pela nota fiscal, item a item, com lote.",
+     "elementos": [
+      {
+       "e": "campo",
+       "r": "Fornecedor*",
+       "v": "DISTRIBUIDORA EXEMPLO",
+       "n": 1
+      },
+      {
+       "e": "campo",
+       "r": "Número nota* / sequencial*",
+       "v": "123456 / 1"
+      },
+      {
+       "e": "campo",
+       "r": "Data emissão* / data entrada*",
+       "v": "10/10/2026 / 11/10/2026",
+       "n": 2
+      },
+      {
+       "e": "campo",
+       "r": "Produto (cód. red./Reg. MS)*",
+       "v": "CLONAZEPAM 2 MG COM CT BL X 30"
+      },
+      {
+       "e": "campo",
+       "r": "Quantidade* / Lote*",
+       "v": "10 / AB1234",
+       "n": 3
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Inc.Item [F9]",
+        "Salvar [F2]",
+        "Inf.Registro MS [Ctrl+F3]"
+       ],
+       "n": 4
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Fornecedor com CNPJ, como na nota."
+      },
+      {
+       "n": 2,
+       "t": "Data da nota e data em que a mercadoria entrou. A entrada vale a partir da data de entrada: saída de um lote antes da entrada dele gera estoque negativo e recusa."
+      },
+      {
+       "n": 3,
+       "t": "Quantidade na unidade SNGPC do produto (caixas ou frascos) e lote exatamente como na caixa e na nota."
+      },
+      {
+       "n": 4,
+       "t": "Inclua cada item e salve a nota. O registro MS enviado para a Anvisa aparece abaixo do item para conferência."
+      }
+     ]
+    },
+    {
+     "menu": "Receitas",
+     "nome": "Lançamentos > Receitas",
+     "resumo": "A dispensação de controlado. Em muitas lojas a venda vem do caixa por importação e o farmacêutico completa os dados aqui.",
+     "elementos": [
+      {
+       "e": "select",
+       "r": "Tipo documento fiscal",
+       "v": "Cupom fiscal eletrônico",
+       "opcoes": [
+        "Cupom fiscal",
+        "Nota fiscal",
+        "Nota fiscal consumidor",
+        "Cupom fiscal eletrônico"
+       ]
+      },
+      {
+       "e": "select",
+       "r": "Tipo receita*",
+       "v": "2 - NOTIFICAÇÃO DE RECEITA B (AZUL)",
+       "n": 1,
+       "opcoes": [
+        "1 - RECEITA DE CONTROLE ESPECIAL EM 2 VIAS (BRANCA)",
+        "2 - NOTIFICAÇÃO DE RECEITA B (AZUL)",
+        "3 - NOTIFICAÇÃO DE RECEITA ESPECIAL (BRANCA)",
+        "4 - NOTIFICAÇÃO DE RECEITA A (AMARELA)",
+        "5 - RECEITA ANTIMICROBIANOS/AGONISTAS GLP-1 EM 2 VIAS"
+       ]
+      },
+      {
+       "e": "campo",
+       "r": "Número receita / data receita*",
+       "v": "0000000000 / 09/10/2026",
+       "n": 2
+      },
+      {
+       "e": "select",
+       "r": "Uso medicamento*",
+       "v": "HUMANO",
+       "opcoes": [
+        "HUMANO",
+        "VETERINÁRIO"
+       ]
+      },
+      {
+       "e": "campo",
+       "r": "Prescritor (CR)* / médico*",
+       "v": "CRM / PRESCRITOR FICTÍCIO",
+       "n": 3
+      },
+      {
+       "e": "campo",
+       "r": "Comprador* + documento*",
+       "v": "COMPRADOR FICTÍCIO / RG 0000000 SSP CE",
+       "n": 4
+      },
+      {
+       "e": "campo",
+       "r": "Paciente* / sexo* / idade*",
+       "v": "PACIENTE FICTÍCIO / F / 34 ANOS",
+       "n": 5
+      },
+      {
+       "e": "campo",
+       "r": "CID*",
+       "v": "F41.1"
+      },
+      {
+       "e": "campo",
+       "r": "Produto* / uso prolongado*",
+       "v": "CLONAZEPAM 2 MG / NÃO",
+       "n": 6
+      },
+      {
+       "e": "campo",
+       "r": "Qtd. vendida* / qtd. prescrita*",
+       "v": "2 / 2",
+       "n": 7
+      },
+      {
+       "e": "campo",
+       "r": "Lote*",
+       "v": "AB1234"
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Lotes c/ saldo [F11]",
+        "Salvar item [Ctrl+F2]",
+        "Salvar receita [F2]"
+       ],
+       "n": 8
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "O tipo de receita tem de bater com a lista do produto: B1 com notificação azul, C1 com receita de controle especial, antimicrobiano ou GLP-1 com receita em 2 vias. Tipo errado é erro de escrituração."
+      },
+      {
+       "n": 2,
+       "t": "Número da notificação (no SNCR, conforme a regra vigente de lançamento) e data de emissão da receita. A data de emissão também mostra se a receita estava no prazo de validade."
+      },
+      {
+       "n": 3,
+       "t": "Conselho e prescritor, escolhidos no cadastro."
+      },
+      {
+       "n": 4,
+       "t": "Quem comprou, com documento. Pode ser diferente do paciente."
+      },
+      {
+       "n": 5,
+       "t": "Paciente, sexo e idade; o sistema pede também CID."
+      },
+      {
+       "n": 6,
+       "t": "Uso prolongado marca tratamento contínuo, que tem regras próprias de quantidade e validade."
+      },
+      {
+       "n": 7,
+       "t": "Quantidade vendida e quantidade prescrita separadas: quando a farmácia dispensa menos do que foi prescrito, as duas ficam registradas."
+      },
+      {
+       "n": 8,
+       "t": "Lotes com saldo mostra só os lotes que existem em estoque: use para não vender lote inexistente. Salve o item e depois a receita."
+      }
+     ]
+    },
+    {
+     "menu": "Outras Saídas",
+     "nome": "Lançamentos > Outras Saídas",
+     "resumo": "Toda saída que não é dispensação: perdas, transferências entre lojas da mesma rede e devoluções.",
+     "elementos": [
+      {
+       "e": "campo",
+       "r": "Data emissão* / controle",
+       "v": "11/10/2026"
+      },
+      {
+       "e": "campo",
+       "r": "Tipo saída*",
+       "v": "(escolhido na lista do sistema)",
+       "n": 1
+      },
+      {
+       "e": "campo",
+       "r": "Loja destino / CNPJ loja destino",
+       "v": "",
+       "n": 2
+      },
+      {
+       "e": "campo",
+       "r": "Fornecedor / nota entrada / nota fiscal",
+       "v": "",
+       "n": 3
+      },
+      {
+       "e": "campo",
+       "r": "Produto* / quantidade* / lote*",
+       "v": "CLONAZEPAM 2 MG / 1 / AB1234"
+      },
+      {
+       "e": "campo",
+       "r": "Observação",
+       "v": "Caixa avariada no recebimento, termo em anexo",
+       "n": 4
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Lotes c/ saldo [F11]",
+        "Salvar [F2]"
+       ]
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "O tipo de saída vem de uma lista do sistema que segue os motivos aceitos pela Anvisa (perdas por vencimento, avaria, furto ou roubo, recolhimento, apreensão pela VISA e outros; transferência; devolução)."
+      },
+      {
+       "n": 2,
+       "t": "Na transferência, informe a loja de destino (mesma raiz de CNPJ)."
+      },
+      {
+       "n": 3,
+       "t": "Na devolução ao fornecedor, informe fornecedor e nota."
+      },
+      {
+       "n": 4,
+       "t": "Descreva o fato e guarde o documento (boletim de ocorrência no furto, termo de inutilização no vencimento)."
+      }
+     ]
+    },
+    {
+     "menu": "Manutenção Movimentos",
+     "nome": "Lançamentos > Manutenção Movimentos",
+     "resumo": "Corrige movimentos já lançados de um produto, filtrando por período e lote.",
+     "elementos": [
+      {
+       "e": "campo",
+       "r": "Produto* / lote",
+       "v": "CLONAZEPAM 2 MG / AB1234"
+      },
+      {
+       "e": "campo",
+       "r": "Data inicial* / final*",
+       "v": "01/10/2026 / 11/10/2026"
+      },
+      {
+       "e": "select",
+       "r": "Ordenação",
+       "v": "Por data e lote",
+       "opcoes": [
+        "Por data e lote",
+        "Por lote e data"
+       ]
+      },
+      {
+       "e": "campo",
+       "r": "Tipo mov.* / data* / número receita*",
+       "v": "SAÍDA / 09/10/2026 / 0000000000",
+       "n": 1
+      },
+      {
+       "e": "campo",
+       "r": "Quantid.* / quantid. prescrita* / lote* / registro MS*",
+       "v": "2 / 2 / AB1234 / 1.0000.0000.001-1",
+       "n": 2
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Consultar [F3]",
+        "Salvar [F2]"
+       ]
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Use para corrigir data, número da receita, quantidade, lote ou registro de um movimento lançado errado."
+      },
+      {
+       "n": 2,
+       "t": "Corrigir aqui só muda a Anvisa quando o período for transmitido. Se o período já foi aceito, a correção precisa seguir a orientação do fornecedor do software e, se for o caso, da VISA (ajuste de inventário)."
+      }
+     ]
+    },
+    {
+     "menu": "Histórico de Importações",
+     "nome": "SNGPC > Histórico de Importações",
+     "resumo": "Mostra as vendas que vieram do sistema de caixa da loja e se ficaram pendentes.",
+     "elementos": [
+      {
+       "e": "campo",
+       "r": "Data referência*",
+       "v": "11/10/2026"
+      },
+      {
+       "e": "select",
+       "r": "Filtro",
+       "v": "Por período de importação",
+       "opcoes": [
+        "Por período de importação",
+        "Por data de importação"
+       ]
+      },
+      {
+       "e": "campo",
+       "r": "Somente sem movimento / somente com pendência",
+       "v": "[x] com pendência",
+       "n": 1
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Consultar [F3]",
+        "Gerar relatório [F2]"
+       ]
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Venda de controlado que entrou pelo caixa sem todos os dados de receita fica pendente e não vai no arquivo. Confira as pendências todo dia antes de gerar o arquivo."
+      }
+     ]
+    },
+    {
+     "menu": "Conferência de Medicamentos",
+     "nome": "Cadastros > Conferência de Medicamentos",
+     "resumo": "O farmacêutico marca as receitas e entradas que conferiu contra o papel.",
+     "elementos": [
+      {
+       "e": "campo",
+       "r": "Produtos / data inicial / data final",
+       "v": "todos / 05/10/2026 / 11/10/2026"
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Consultar [F3]",
+        "Marcar todas receitas",
+        "Marcar todas entradas",
+        "Conferir [ALT+C]"
+       ],
+       "n": 1
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Confira cada receita do período com a via retida (tipo, número, prescritor, quantidade, lote) e cada entrada com a nota. Marcar sem olhar o papel anula o propósito da conferência."
+      }
+     ]
+    },
+    {
+     "menu": "Lançamento de Inventário Inicial",
+     "nome": "SNGPC > Lançamento de Inventário Inicial",
+     "resumo": "Monta o inventário que vai para a Anvisa: ao assumir a loja, ao trocar de RT ou num ajuste.",
+     "elementos": [
+      {
+       "e": "aviso",
+       "tipo": "info",
+       "t": "Para concluir a implantação, favor iniciar um inventário e inserir no mínimo um item. Concluído o inventário, clique em Confirmar Inventário."
+      },
+      {
+       "e": "campo",
+       "r": "Data inventário*",
+       "v": "11/10/2026",
+       "n": 1
+      },
+      {
+       "e": "select",
+       "r": "Classe terapêutica",
+       "v": "Todas",
+       "opcoes": [
+        "Todas",
+        "Antimicrobianos",
+        "Controle especial",
+        "Agonistas GLP-1"
+       ]
+      },
+      {
+       "e": "select",
+       "r": "Origem estoque",
+       "v": "Estoque atual (base local)",
+       "opcoes": [
+        "Estoque atual (base local)",
+        "Estoque zerado"
+       ],
+       "n": 2
+      },
+      {
+       "e": "campo",
+       "r": "Reg.MS* / lote* / qtd. lote* / fabricação* / validade*",
+       "v": "1.0000.0000.001-1 / AB1234 / 8 / 01/2026 / 01/2028",
+       "n": 3
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Carregar estoque inicial [F2]",
+        "Verificar inconsistências [F7]",
+        "Confirmar inventário [F10]",
+        "Troca resp. técn. [Alt+F4]"
+       ],
+       "n": 4
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Data da contagem física."
+      },
+      {
+       "n": 2,
+       "t": "Partir do estoque do sistema poupa digitação, mas cada lote tem de ser conferido contra a contagem real; partir do zero obriga a lançar tudo."
+      },
+      {
+       "n": 3,
+       "t": "Cada lote com quantidade, fabricação e validade. O que não estiver na gaveta não entra."
+      },
+      {
+       "n": 4,
+       "t": "Verifique inconsistências antes de confirmar. A troca de responsável técnico também começa aqui. Depois de confirmado, o inventário segue para a Anvisa, onde é confirmado de novo no site."
+      }
+     ]
+    },
+    {
+     "menu": "Geração de Arquivo SNGPC",
+     "nome": "SNGPC > Geração de Arquivo SNGPC",
+     "resumo": "Gera o XML do período e envia à Anvisa ou baixa o arquivo para envio manual.",
+     "elementos": [
+      {
+       "e": "aviso",
+       "tipo": "alerta",
+       "t": "Atenção! As receitas do tipo prescritor COREN não serão enviadas para a ANVISA. Estamos aguardando a confirmação de que a ANVISA está preparada para receber e processar essas informações adequadamente.",
+       "n": 1
+      },
+      {
+       "e": "campo",
+       "r": "Loja* / data inicial* / data final*",
+       "v": "DROGARIA EXEMPLO / 12/10/2026 / 18/10/2026",
+       "n": 2
+      },
+      {
+       "e": "select",
+       "r": "Tipo do envio",
+       "v": "Envio para ANVISA",
+       "opcoes": [
+        "Download do arquivo",
+        "Envio para ANVISA"
+       ],
+       "n": 3
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Gerar",
+        "Atualizar último arquivo [F3]",
+        "Download do último arquivo gerado [F12]"
+       ]
+      },
+      {
+       "e": "campo",
+       "r": "Retorno: válido? / cancelado? / retorno ANVISA",
+       "v": "S / N / Arquivo validado",
+       "n": 4
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Aviso do próprio software em outubro de 2026. Leia os avisos da tela: eles mudam com as regras."
+      },
+      {
+       "n": 2,
+       "t": "O período começa no dia seguinte ao fim do último arquivo aceito. Sem buraco, sem sobreposição."
+      },
+      {
+       "n": 3,
+       "t": "Envio para ANVISA transmite direto. Download gera o ZIP para enviar no site do SNGPC (Transmissão de arquivos)."
+      },
+      {
+       "n": 4,
+       "t": "O retorno mostra se a Anvisa validou. Confira também no painel e, se quiser, no Status de Transmissão do site da Anvisa pelo hash."
+      }
+     ]
+    },
+    {
+     "menu": "Livro de Registro Específico P. 344/98",
+     "nome": "Relatórios > Livro de Registro Específico P. 344/98",
+     "resumo": "Emite o livro de registro por tipo (entorpecentes, psicotrópicos, controle especial, antimicrobiano, GLP-1).",
+     "elementos": [
+      {
+       "e": "aviso",
+       "tipo": "alerta",
+       "t": "Ao emitir o livro, o período informado será bloqueado para movimentação, assim não será mais possível fazer lançamento de entradas ou saídas (receitas) para este período.",
+       "n": 1
+      },
+      {
+       "e": "select",
+       "r": "Tipo do livro*",
+       "v": "PSICOTRÓPICOS",
+       "opcoes": [
+        "ENTORPECENTES",
+        "PSICOTRÓPICOS",
+        "CONTROLE ESPECIAL",
+        "ANTIMICROBIANO",
+        "AGONISTAS GLP-1"
+       ]
+      },
+      {
+       "e": "campo",
+       "r": "Livro nº* / data inicial / data final",
+       "v": "1 / 01/09/2026 / 30/09/2026"
+      },
+      {
+       "e": "botoes",
+       "itens": [
+        "Gerar relatório [F2]",
+        "Histórico de emissão do livro [F6]",
+        "Conferência [F8]"
+       ],
+       "n": 2
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Emitir o livro fecha o período no software. Só emita depois de conferir tudo."
+      },
+      {
+       "n": 2,
+       "t": "Use a conferência antes; o histórico mostra o que já foi emitido."
+      }
+     ]
+    },
+    {
+     "menu": "Balanço de Medicamentos",
+     "nome": "Relatórios > Balanço de Medicamentos",
+     "resumo": "Gera o balanço por classe e lista, trimestral ou anual, no layout escolhido.",
+     "elementos": [
+      {
+       "e": "campo",
+       "r": "Exercício* / loja*",
+       "v": "2026 / DROGARIA EXEMPLO"
+      },
+      {
+       "e": "select",
+       "r": "Classe terapêutica",
+       "v": "Controle especial",
+       "opcoes": [
+        "Antimicrobianos",
+        "Controle especial",
+        "Agonista GLP-1"
+       ]
+      },
+      {
+       "e": "campo",
+       "r": "Listas",
+       "v": "[x] A1 [x] A2 [x] A3 [x] B1 [x] B2 [x] C1 [x] C2 [x] C3 [x] C5"
+      },
+      {
+       "e": "select",
+       "r": "Tipo layout",
+       "v": "Padrão Portaria",
+       "opcoes": [
+        "Padrão TRIER",
+        "Padrão Rio Grande do Sul (RS)",
+        "Padrão Portaria"
+       ],
+       "n": 1
+      },
+      {
+       "e": "select",
+       "r": "Periodicidade",
+       "v": "3º trimestre",
+       "opcoes": [
+        "1º trimestre",
+        "2º trimestre",
+        "3º trimestre",
+        "4º trimestre",
+        "Anual"
+       ],
+       "n": 2
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Escolha o layout que a sua vigilância aceita."
+      },
+      {
+       "n": 2,
+       "t": "Periodicidade trimestral ou anual, conforme a exigência para cada lista."
+      }
+     ]
+    },
+    {
+     "menu": "Relação Mensal de Notificação Receita",
+     "nome": "Relatórios > Relação Mensal de Notificação Receita",
+     "resumo": "Relação mensal das notificações de receita para a vigilância.",
+     "elementos": [
+      {
+       "e": "campo",
+       "r": "Exercício* / mês*",
+       "v": "2026 / setembro"
+      },
+      {
+       "e": "campo",
+       "r": "Listas",
+       "v": "[x] A1 [x] A2 [x] A3"
+      },
+      {
+       "e": "select",
+       "r": "Tipo layout",
+       "v": "Padrão Portaria",
+       "opcoes": [
+        "Padrão TRIER",
+        "Padrão Portaria"
+       ]
+      },
+      {
+       "e": "campo",
+       "r": "Secretaria",
+       "v": "[ ] secretaria municipal",
+       "n": 1
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Marque a secretaria que recebe a relação na sua cidade e entregue no prazo que a VISA fixar."
+      }
+     ]
+    },
+    {
+     "menu": "Ficha de Estoque",
+     "nome": "Relatórios > Ficha de Estoque",
+     "resumo": "Extrato de um produto por data e lote: o mesmo papel do Histórico de Movimentações da Anvisa, do lado do software.",
+     "elementos": [
+      {
+       "e": "campo",
+       "r": "Produto / lote / período",
+       "v": "CLONAZEPAM 2 MG / AB1234 / 01/10 a 11/10/2026"
+      },
+      {
+       "e": "campo",
+       "r": "Mostrar só compras / vendas / outras saídas / transferências",
+       "v": "[ ] [ ] [ ] [ ]",
+       "n": 1
+      },
+      {
+       "e": "select",
+       "r": "Saída",
+       "v": "PDF",
+       "opcoes": [
+        "PDF",
+        "DOC",
+        "HTML"
+       ]
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "Compare a ficha do software com o Histórico de Movimentações do SNGPC: a primeira diferença mostra onde está o lançamento que não foi ou foi errado. Saldo Estoque e Conferência completam a investigação."
+      }
+     ]
+    },
+    {
+     "menu": "Log de Eventos e Usuários",
+     "nome": "Relatórios > Log de Eventos / Diversos > Usuários",
+     "resumo": "Quem fez o quê. Cada pessoa com acesso tem usuário próprio e permissões por evento.",
+     "elementos": [
+      {
+       "e": "campo",
+       "r": "Usuário / evento / usuário autorizador / período",
+       "v": "todos / exclusão de receita / todos / outubro",
+       "n": 1
+      },
+      {
+       "e": "campo",
+       "r": "Cadastro de usuário: nome*, senha*, ativo",
+       "v": "BALCONISTA 1 / •••• / ATIVO"
+      },
+      {
+       "e": "select",
+       "r": "Evento: tipo / solicitar senha?",
+       "v": "RESTRINGIR / SIM",
+       "opcoes": [
+        "PERMITIR / NÃO",
+        "RESTRINGIR / SIM"
+       ],
+       "n": 2
+      }
+     ],
+     "notas": [
+      {
+       "n": 1,
+       "t": "O log registra cada evento com o usuário e quem autorizou. Útil quando aparece uma exclusão ou alteração que ninguém lembra."
+      },
+      {
+       "n": 2,
+       "t": "Restrinja eventos sensíveis (excluir receita, alterar movimento, gerar arquivo) ou exija senha do farmacêutico. Balconista não precisa poder apagar receita."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "tipo": "fluxo",
    "id": "m12-fluxo-primeiro-dia",
    "titulo": "Primeiro dia como RT no SNGPC",

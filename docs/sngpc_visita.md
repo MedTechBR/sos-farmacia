@@ -60,3 +60,14 @@ enviado. Nada de identificação do estabelecimento, de pessoas ou de estoque en
 Não há digitação de entradas e saídas no site: toda movimentação (e o inventário inicial) vem do software de
 gestão da farmácia em XML, compactado em ZIP, enviado na Transmissão de arquivos (ou direto pelo software, quando
 ele transmite). No site o RT confirma inventário, finaliza inventário, informa ausência, atualiza CRF e consulta.
+
+# Visita ao software de gestão Trier SNGPC Web (10/10/2026), modo leitura
+Mesma regra: só GET das páginas (estrutura de campos, botões e filtros), nenhum dado da loja carregado no material.
+Único clique: a lupa de "Tipo Saída" (consulta), cujo pop-up o navegador bloqueou; a lista ficou de fora.
+Grupos: Cadastros (Produtos, Cliente, Laboratórios, Fornecedores, Médicos, DCBs, Lojas, Manutenção Lotes, Livro de
+Medicamento, Conferência de Medicamentos), Lançamentos (Entrada de Mercadorias, Receitas, Outras Saídas, Manutenção
+Movimentos), SNGPC (Manutenção de Pág. do Livro, Geração de Arquivo, Arquivos Gerados, Histórico de Importações,
+Lançamento de Inventário Inicial), Relatórios (Livro de Registro Específico, Relação Mensal de Notificação Receita,
+Balanço, Conferência, Saldo Estoque, Ficha de Estoque, Médicos, Entradas x Saídas, Inventário Inicial, Log de Eventos,
+Livro P. 344/98), Diversos (Alteração Senha, Usuários, Controle de Acesso). Detalhes transcritos no simulador
+`m12-sim-software` (conteudo/m12.json).

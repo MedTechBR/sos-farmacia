@@ -1,0 +1,307 @@
+{
+ "id": "m12",
+ "num": 12,
+ "parte": "c",
+ "titulo": "Passo a passo do SNGPC",
+ "escopo": "Guia prático para o farmacêutico que assume uma drogaria operar o SNGPC desde o primeiro dia: cadastro, credenciamento, inventário, escrituração, transmissão, correção de erros e fiscalização, com base na RDC 22/2014, na RDC 471/2021 com a RDC 973/2025 e nos documentos técnicos vigentes da Anvisa.",
+ "topicos": [
+  {
+   "id": "m12-software",
+   "titulo": "O software de gestão por dentro",
+   "resumo": "<p>O site da Anvisa só recebe arquivos. Quem escritura é o <strong>software de gestão</strong> da farmácia. Cada fornecedor tem telas próprias, mas todos fazem as mesmas tarefas: cadastrar produtos, prescritores e clientes; lançar entradas, receitas e outras saídas; montar o inventário; gerar e enviar o XML; emitir livros e balanços. O exemplo deste tópico é o <em>Trier SNGPC Web</em>, comum em drogarias; em outro software, procure a tela equivalente pela função.</p>\n<h3>Mapa do software</h3>\n<div class=\"tab\"><table><thead><tr><th>Grupo</th><th>Telas</th><th>Para quê</th></tr></thead><tbody>\n<tr><td><b>Cadastros</b></td><td>Produtos, Cliente (comprador/paciente), Laboratórios, Fornecedores, Médicos, DCBs, Lojas, Manutenção de lotes, Livro de medicamento, Conferência de medicamentos</td><td>Deixar certos os dados que todo lançamento usa</td></tr>\n<tr><td><b>Lançamentos</b></td><td>Entrada de mercadorias, Receitas, Outras saídas, Manutenção de movimentos</td><td>A escrituração propriamente dita</td></tr>\n<tr><td><b>SNGPC</b></td><td>Geração de arquivo, Arquivos gerados, Histórico de importações, Lançamento de inventário inicial, Manutenção de página do livro</td><td>Montar e enviar o que vai para a Anvisa</td></tr>\n<tr><td><b>Relatórios</b></td><td>Livro de registro específico (Portaria 344), Relação mensal de notificação de receita, Balanço, Conferência, Saldo de estoque, Ficha de estoque, Médicos, Entradas x saídas, Inventário inicial, Log de eventos</td><td>Prestar contas à VISA e investigar divergência</td></tr>\n<tr><td><b>Diversos</b></td><td>Alteração de senha, Cadastro de usuários, Controle de acesso</td><td>Quem pode fazer o quê</td></tr></tbody></table></div>\n<h3>Do balcão à Anvisa, na ordem</h3>\n<ol><li><b>Cadastro certo</b>: produto com registro MS, classe terapêutica, lista e unidade SNGPC; prescritor com conselho e UF; cliente com documento.</li>\n<li><b>Entrada</b>: nota fiscal lançada item a item, com lote, antes de qualquer venda daquele lote.</li>\n<li><b>Venda</b>: o caixa vende; a venda de controlado chega ao SNGPC Web (importação) ou é lançada em Receitas, com tipo de receita, número, prescritor, comprador, paciente, quantidade vendida e prescrita e lote.</li>\n<li><b>Pendências</b>: em Histórico de importações, nenhuma venda pendente; em Conferência, receitas e entradas conferidas com o papel.</li>\n<li><b>Outras saídas</b>: perdas, transferências e devoluções lançadas com o motivo e o documento.</li>\n<li><b>Arquivo</b>: Geração de arquivo SNGPC do período seguinte ao último aceito, com Envio para ANVISA (ou download e envio no site).</li>\n<li><b>Conferência do retorno</b>: no painel do software (status S) e, pelo hash, no Status de Transmissão do site da Anvisa.</li></ol>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Unidade SNGPC é por embalagem (caixa ou frasco). Lançar comprimidos soltos como se fossem caixas, ou o contrário, multiplica o erro de estoque a cada venda.</p></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>Três ações do software fecham portas: confirmar o inventário, emitir o livro de registro (o período fica bloqueado para lançamentos) e gerar o arquivo de um período. Confira antes. E restrinja, em Usuários, quem pode excluir receita ou alterar movimento.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Combine com o caixa: venda de controlado só se conclui com a receita em mãos e os dados completos. A pendência que nasce no caixa vira atraso no arquivo e, depois, irregularidade no certificado.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>O painel mostra o último arquivo aceito até 11/10 e o software acusa alerta de não envio. Em Histórico de importações há três vendas de alprazolam pendentes, sem número de notificação. A farmacêutica localiza as notificações retidas, completa os dados em Receitas, confere, gera o arquivo de 12/10 a 18/10 com Envio para ANVISA e confirma no painel o status S e o mesmo hash no Status de Transmissão do site.</p></div>"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m12-mapa-software",
+   "titulo": "O software de gestão",
+   "centro": "Software de gestão",
+   "ramos": [
+    {
+     "t": "Cadastros",
+     "itens": [
+      "Produto: registro MS, classe, lista",
+      "Unidade SNGPC: caixa ou frasco",
+      "Prescritor: conselho e UF",
+      "Cliente: documento do comprador"
+     ]
+    },
+    {
+     "t": "Lançamentos",
+     "itens": [
+      "Entrada: nota e lote",
+      "Receitas: tipo, número, quantidades",
+      "Outras saídas: motivo e documento",
+      "Manutenção de movimentos"
+     ]
+    },
+    {
+     "t": "Antes de gerar",
+     "itens": [
+      "Importações sem pendência",
+      "Conferência com o papel"
+     ]
+    },
+    {
+     "t": "Arquivo",
+     "itens": [
+      "Período após o último aceito",
+      "Envio para ANVISA ou download",
+      "Status S e mesmo hash"
+     ]
+    },
+    {
+     "t": "Relatórios",
+     "itens": [
+      "Livro 344: bloqueia o período",
+      "Balanço trimestral ou anual",
+      "Relação mensal de notificações",
+      "Ficha e saldo de estoque"
+     ]
+    },
+    {
+     "t": "Segurança",
+     "itens": [
+      "Usuário por pessoa",
+      "Eventos restritos com senha",
+      "Log de eventos"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "fluxo",
+   "id": "m12-fluxo-ponta",
+   "titulo": "Uma venda de clonazepam, do balcão à Anvisa",
+   "passos": [
+    {
+     "t": "Cliente entrega a notificação B (azul) e o documento",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Farmacêutico confere a receita (prazo, dados, quantidade) e o documento do comprador",
+     "tipo": "acao"
+    },
+    {
+     "t": "A receita está correta?",
+     "tipo": "decisao",
+     "sim": "Seguir para a venda",
+     "nao": "Não dispensar; orientar o paciente a voltar ao prescritor"
+    },
+    {
+     "t": "Caixa registra a venda escolhendo um lote com saldo",
+     "tipo": "acao"
+    },
+    {
+     "t": "No software: Receitas com tipo 2 (notificação B), número, data, prescritor, comprador, paciente, quantidade vendida e prescrita, lote",
+     "tipo": "acao"
+    },
+    {
+     "t": "Ficou pendência em Histórico de importações?",
+     "tipo": "decisao",
+     "sim": "Completar os dados antes de gerar o arquivo",
+     "nao": "Seguir"
+    },
+    {
+     "t": "Conferência de medicamentos: receita marcada como conferida contra a via retida",
+     "tipo": "acao"
+    },
+    {
+     "t": "Geração de arquivo SNGPC do período seguinte ao último aceito, Envio para ANVISA",
+     "tipo": "acao"
+    },
+    {
+     "t": "Status S no painel e Foi aceito? SIM no site da Anvisa?",
+     "tipo": "decisao",
+     "sim": "Guardar a notificação retida e seguir a rotina",
+     "nao": "Ler o retorno, corrigir em Manutenção de movimentos e reenviar o mesmo período"
+    },
+    {
+     "t": "Venda escriturada e transmitida",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "tabela",
+   "id": "m12-tab-software-anvisa",
+   "titulo": "Mesma tarefa, duas telas: software de gestão e site da Anvisa",
+   "colunas": [
+    "Tarefa",
+    "No software (exemplo Trier)",
+    "No site do SNGPC"
+   ],
+   "linhas": [
+    [
+     "Lançar compra",
+     "Lançamentos > Entrada de Mercadorias",
+     "Não existe: chega pelo arquivo"
+    ],
+    [
+     "Lançar dispensação",
+     "Lançamentos > Receitas",
+     "Não existe: chega pelo arquivo"
+    ],
+    [
+     "Lançar perda, transferência, devolução",
+     "Lançamentos > Outras Saídas",
+     "Não existe: chega pelo arquivo"
+    ],
+    [
+     "Corrigir um movimento",
+     "Lançamentos > Manutenção Movimentos",
+     "Não existe: reenviar o período ou ajuste de inventário"
+    ],
+    [
+     "Montar o inventário",
+     "SNGPC > Lançamento de Inventário Inicial",
+     "Inventário Inicial (conferir e confirmar)"
+    ],
+    [
+     "Enviar",
+     "SNGPC > Geração de Arquivo (Envio para ANVISA)",
+     "Transmissão de arquivos (ZIP), se for manual"
+    ],
+    [
+     "Ver se foi aceito",
+     "Painel (status S) e Geração de Arquivo (retorno)",
+     "Relatórios > Status de Transmissão"
+    ],
+    [
+     "Extrato do produto",
+     "Relatórios > Ficha de Estoque",
+     "Relatórios > Histórico de Movimentações"
+    ],
+    [
+     "Estoque atual",
+     "Relatórios > Saldo Estoque",
+     "Visualizar Inventário"
+    ],
+    [
+     "Trocar de RT",
+     "Inventário Inicial > Troca resp. técn.; Lojas",
+     "Finalizar Inventário; vínculo do novo RT"
+    ]
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m12-c-software",
+   "titulo": "Cartões: o software de gestão",
+   "itens": [
+    {
+     "f": "Onde se lança a compra de controlado no software?",
+     "v": "Lançamentos > Entrada de Mercadorias, com lote"
+    },
+    {
+     "f": "Onde se lança a dispensação?",
+     "v": "Lançamentos > Receitas"
+    },
+    {
+     "f": "Onde se lança perda, transferência ou devolução?",
+     "v": "Lançamentos > Outras Saídas"
+    },
+    {
+     "f": "Unidade SNGPC de um comprimido",
+     "v": "Caixa (líquidos: frasco)"
+    },
+    {
+     "f": "Por que separar quantidade vendida e prescrita?",
+     "v": "Registra a dispensação menor que a prescrição"
+    },
+    {
+     "f": "Onde ver vendas do caixa com dados faltando?",
+     "v": "SNGPC > Histórico de Importações (com pendência)"
+    },
+    {
+     "f": "Envio para ANVISA × Download do arquivo",
+     "v": "Transmite direto × gera o ZIP para enviar no site"
+    },
+    {
+     "f": "O que acontece ao emitir o livro de registro?",
+     "v": "O período fica bloqueado para lançamentos"
+    },
+    {
+     "f": "Como casar o arquivo do software com o da Anvisa?",
+     "v": "Pelo hash"
+    },
+    {
+     "f": "Quem deve poder excluir receita?",
+     "v": "Só o farmacêutico, com senha (Usuários > eventos)"
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m12-q-software",
+   "titulo": "Questões: o software de gestão",
+   "itens": [
+    {
+     "p": "No cadastro de um comprimido controlado, a farmacêutica escolhe a unidade SNGPC. Qual escolha é coerente?",
+     "alt": [
+      "Frascos, porque é a unidade padrão do sistema",
+      "Caixas, e a quantidade é lançada em número de caixas",
+      "Comprimidos, porque a receita prescreve comprimidos",
+      "Miligramas, porque a Anvisa controla a substância",
+      "Qualquer uma, desde que seja sempre a mesma"
+     ],
+     "c": 1,
+     "com": "No software o produto é escriturado por embalagem: caixas para formas sólidas e frascos para líquidos. A quantidade de cada lançamento segue essa unidade. Comprimidos ou miligramas não são opções da tela."
+    },
+    {
+     "p": "Ao lançar uma notificação azul de alprazolam em Receitas, qual tipo de receita deve ser escolhido?",
+     "alt": [
+      "1 - Receita de controle especial em 2 vias",
+      "3 - Notificação de receita especial (branca)",
+      "4 - Notificação de receita A (amarela)",
+      "2 - Notificação de receita B (azul)",
+      "5 - Receita de antimicrobianos/agonistas GLP-1 em 2 vias"
+     ],
+     "c": 3,
+     "com": "Alprazolam é da lista B1, dispensado com notificação B (azul). O tipo de receita lançado tem de corresponder à lista do produto; a receita branca em duas vias é da lista C1, a amarela da A e a especial branca de retinoides e talidomida."
+    },
+    {
+     "p": "O software avisa que, ao emitir o livro de registro específico, o período será bloqueado. O que isso significa na prática?",
+     "alt": [
+      "O período fica oculto do arquivo da Anvisa",
+      "As receitas do período são apagadas do sistema",
+      "Não será mais possível lançar entradas ou saídas naquele período",
+      "O livro passa a ser enviado à Anvisa no lugar do XML",
+      "O inventário é finalizado automaticamente"
+     ],
+     "c": 2,
+     "com": "A emissão do livro trava o período para novos lançamentos, justamente para que o livro impresso não fique diferente da escrituração. Por isso o livro só deve ser emitido depois da conferência."
+    },
+    {
+     "p": "Uma venda de clonazepam entrou pelo caixa sem o número da notificação. Onde a farmacêutica percebe isso antes de gerar o arquivo?",
+     "alt": [
+      "No Histórico de Importações, filtrando as vendas com pendência",
+      "No Balanço de Medicamentos anual",
+      "No cadastro de Laboratórios",
+      "Na Relação Mensal de Notificação de Receita do ano anterior",
+      "Apenas no site da Anvisa, depois da recusa"
+     ],
+     "c": 0,
+     "com": "As vendas importadas do caixa com dados incompletos aparecem como pendentes no Histórico de Importações. Resolver ali, antes de gerar o arquivo, evita atraso e recusa."
+    },
+    {
+     "p": "Qual configuração de usuários reduz o risco de alteração indevida da escrituração?",
+     "alt": [
+      "Um único usuário com a senha do farmacêutico para toda a equipe",
+      "Restringir aos farmacêuticos eventos como excluir receita e alterar movimento, com senha",
+      "Permitir todos os eventos a todos e consultar o log uma vez por ano",
+      "Desativar o log de eventos para não pesar o sistema",
+      "Deixar o balconista gerar o arquivo e o farmacêutico só assinar o livro"
+     ],
+     "c": 1,
+     "com": "Cada pessoa com usuário próprio e eventos sensíveis restritos ou com senha do farmacêutico. O log de eventos mostra quem fez cada ação e quem autorizou; senha compartilhada apaga essa rastreabilidade."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Trier Sistemas. SNGPC Web: telas de cadastro, lançamentos, geração de arquivo e relatórios (sngpc.triersistemas.com.br), consultadas em 10/10/2026."
+ ]
+}
