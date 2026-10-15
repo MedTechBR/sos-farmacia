@@ -412,9 +412,13 @@ function itemModulo(m, atual) {
   const p = progresso(m);
   return `<a class="aba" href="#/${m.id}/resumo" style="--c:${m.cor}" ${m.id === atual ? 'aria-current="true"' : ''}>${ic(m.icone)}<span>${esc(m.curto || m.titulo)}</span><em class="pct">${p ? p + '%' : ''}</em></a>`;
 }
+/* Gestão da farmácia (ex-FarmáciaGest, 15/10/2026): página própria em gestao/, mesma conta e compra */
+const GESTAO = 'gestao/index.html';
+function itemGestao() { return `<a class="aba" href="${GESTAO}" style="--c:var(--c-teal)">${ic('building-store')}<span>Gestão da farmácia</span></a>`; }
 function moldura(atual) {
   $('#abas').innerHTML = `<a class="aba" href="#/" style="--c:var(--marca)" ${atual ? '' : 'aria-current="true"'}>${ic('home')}<span>Início</span></a>` +
-    `<div class="navGrupo">Módulos</div>` + DADOS.modulos.map(m => itemModulo(m, atual)).join('');
+    `<div class="navGrupo">Módulos</div>` + DADOS.modulos.map(m => itemModulo(m, atual)).join('') +
+    `<div class="navGrupo">Ferramentas</div>` + itemGestao();
   document.body.classList.toggle('sos-leitura', !podeEditar);
   $('#bt-editar').classList.toggle('on', editando);
   $('#bt-editar span').textContent = editando ? 'Editando' : 'Editar';
@@ -433,13 +437,14 @@ function gaveta(tipo) {
   const fecha = () => { veu.remove(); g.remove(); };
   veu.onclick = fecha;
   g.innerHTML = `<div class="puxa"></div>` + (tipo === 'modulos'
-    ? `<a class="aba" href="#/" style="--c:var(--marca)">${ic('home')}<span>Início</span></a>` + DADOS.modulos.map(m => itemModulo(m, (moduloAtual() || {}).id)).join('')
-    : `<div class="gradeMais">${[['pdf', 'file-type-pdf', 'Gerar PDF'], ['editar', 'pencil', editando ? 'Sair da edição' : 'Editar'], ['salvar', 'device-floppy', 'Salvar arquivo'], ['tema', 'moon', 'Tema'], ['ajustes', 'settings', 'Ajustes'], ['buscar', 'search', 'Buscar']]
+    ? `<a class="aba" href="#/" style="--c:var(--marca)">${ic('home')}<span>Início</span></a>` + DADOS.modulos.map(m => itemModulo(m, (moduloAtual() || {}).id)).join('') + itemGestao()
+    : `<div class="gradeMais">${[['gestao', 'building-store', 'Gestão da farmácia'], ['pdf', 'file-type-pdf', 'Gerar PDF'], ['editar', 'pencil', editando ? 'Sair da edição' : 'Editar'], ['salvar', 'device-floppy', 'Salvar arquivo'], ['tema', 'moon', 'Tema'], ['ajustes', 'settings', 'Ajustes'], ['buscar', 'search', 'Buscar']]
       .filter(([a]) => podeEditar || (a !== 'editar' && a !== 'salvar')).map(([a, i, r]) => `<button data-mais="${a}">${ic(i)}${r}</button>`).join('')}</div>`);
   g.addEventListener('click', e => { if (e.target.closest('a')) fecha(); const b = e.target.closest('[data-mais]'); if (b) { fecha(); acaoGeral(b.dataset.mais); } });
   document.body.append(veu, g);
 }
 function acaoGeral(a) {
+  if (a === 'gestao') { location.href = GESTAO; return; }
   if (a === 'pdf') janelaPdf(); else if (a === 'editar') alternaEdicao(); else if (a === 'salvar') salvarArquivo();
   else if (a === 'tema') trocaTema(); else if (a === 'ajustes') ajustes(); else if (a === 'buscar') abreBusca();
 }
@@ -481,6 +486,9 @@ function telaInicio() {
     `<a class="vStat" href="#/${proxM.id}/mapa" style="--k:var(--c-rosa)"><span class="ic">${ic('sitemap')}</span><div><b>${nMapas}</b><span>mapas mentais</span></div></a>` +
     `<a class="vStat" href="#/${proxM.id}/apoio" style="--k:var(--c-azul)"><span class="ic">${ic('target-arrow')}</span><div><b>${nResp ? Math.round(100 * certas / nResp) + '%' : totQ}</b><span>${nResp ? `de acerto em ${nResp} respostas` : 'questões comentadas'}</span></div></a>` +
     `<a class="vStat" href="#/${modModelo.id}/apoio" style="--k:var(--c-verde)"><span class="ic">${ic('prescription')}</span><div><b>${nModelos}</b><span>modelos de receita e POPs</span></div></a></div>` +
+    `<section class="vGestao" style="--k:var(--c-teal)"><div class="txt"><span class="ic">${ic('building-store')}</span><div><h3>Gestão da farmácia</h3><p>Escala da equipe, trocas e banco de horas, recebimento de mercadoria, divergências de nota e validades, salvos na sua conta.</p></div></div>` +
+    `<div class="atalhos">${[['dia', 'calendar-week', 'Escala do dia', 'var(--c-indigo)'], ['receb', 'package-import', 'Recebimento', 'var(--c-verde)'], ['diverg', 'file-alert', 'Divergências', 'var(--c-laranja)'], ['validade', 'calendar-exclamation', 'Validade', 'var(--c-rosa)']]
+      .map(([h, i, r, c]) => `<a href="${GESTAO}#${h}" style="--c:${c}">${ic(i)}<span>${r}</span></a>`).join('')}</div></section>` +
     `<div class="vTit"><span class="ti ti-layout-grid"></span><h3>Módulos</h3><small>resumo, mapas mentais e material de apoio em cada um</small></div>` +
     `<div class="listaL">${DADOS.modulos.map(m => `<a class="itemL" href="#/${m.id}/resumo" style="--k:${m.cor}"><div class="topo"><span class="ic">${ic(m.icone)}</span><div><div class="num">Módulo ${m.num}</div><h3>${esc(m.titulo)}</h3></div></div>` +
       `<div class="conta"><span class="pil" title="Tópicos">${ic('book')} ${m.topicos.length}</span><span class="pil" title="Mapas mentais">${ic('sitemap')} ${m.mapas.length}</span><span class="pil" title="Questões">${ic('help-circle')} ${contaQ(m)}</span><span class="pil" title="Cartões">${ic('cards')} ${contaC(m)}</span></div>` +

@@ -642,3 +642,16 @@ body.sos-leitura #bt-editar,body.sos-leitura #bt-salvar{display:none!important}
 .contaAj{margin:12px 0 16px;padding:12px 14px;border:1px solid var(--linha);border-radius:14px;background:var(--sup2)}
 .contaAj h3{font-size:15px;display:flex;align-items:center;gap:8px;margin-bottom:4px}
 .contaAj .sub{margin:0 0 10px}
+
+/* ---------- Gestão da farmácia na tela inicial (15/10/2026) ---------- */
+.vGestao{grid-column:1/-1;border-radius:24px;padding:20px 22px;background:color-mix(in srgb,var(--k) 9%,var(--sup));border:1px solid color-mix(in srgb,var(--k) 20%,transparent);display:flex;align-items:center;gap:20px;flex-wrap:wrap;animation:sobe .5s var(--suave) both;animation-delay:calc(var(--i,0) * 60ms)}
+.vGestao .txt{display:flex;gap:14px;align-items:flex-start;flex:1 1 320px;min-width:0}
+.vGestao .ic{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:var(--k);color:#fff;font-size:23px;flex:0 0 auto;box-shadow:0 8px 18px color-mix(in srgb,var(--k) 32%,transparent)}
+.vGestao h3{font-size:17px;margin:2px 0 4px}
+.vGestao p{margin:0;color:var(--ink2);font-size:13.5px;line-height:1.5}
+.vGestao .atalhos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;flex:1 1 420px}
+.vGestao .atalhos a{--c:var(--c-indigo);display:flex;flex-direction:column;align-items:center;gap:6px;padding:12px 6px;border-radius:18px;background:var(--sup);border:1px solid var(--linha);color:var(--ink);text-decoration:none;font-size:12.5px;font-weight:600;text-align:center;transition:transform .2s var(--mola),box-shadow .2s,border-color .2s}
+.vGestao .atalhos a .ti{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:color-mix(in srgb,var(--c) 14%,transparent);color:var(--c);font-size:18px}
+.vGestao .atalhos a:hover{transform:translateY(-2px);box-shadow:var(--sombra);border-color:color-mix(in srgb,var(--c) 40%,transparent)}
+@media(max-width:560px){.vGestao{padding:16px}.vGestao .atalhos{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media print{.vGestao{display:none}}
