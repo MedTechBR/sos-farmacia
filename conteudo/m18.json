@@ -1,0 +1,806 @@
+{
+ "id": "m18",
+ "num": 11,
+ "titulo": "Serviços clínicos na farmácia comercial",
+ "escopo": "O que o farmacêutico da drogaria pode fazer na sala de serviços e como fazer: base legal, consulta e documentação (Declaração de Serviço Farmacêutico, encaminhamento, LGPD), aferição de pressão arterial e temperatura, glicemia capilar e outros exames do Serviço Tipo I, testes rápidos, injetáveis, vacinação, perfuração de lóbulo, revisão da farmacoterapia, adesão, dispositivos e biossegurança. Normas centrais: Lei 13.021/2014, RDC 44/2009, RDC 978/2025 (alterada pela RDC 986/2025), RDC 197/2017, Resoluções CFF 585/2013 e 499/2008; valores pela DBHA 2025, SBD (edição 2026) e guia de febre do CFF (2018).",
+ "topicos": [
+  {
+   "id": "m18-base-legal",
+   "titulo": "Base legal e catálogo de serviços",
+   "resumo": "<p>Na drogaria, serviço clínico é o atendimento em que o farmacêutico avalia a pessoa e decide algo sobre a saúde dela, além de entregar um produto: medir a pressão, fazer uma glicemia capilar, aplicar um injetável, revisar a lista de remédios de um idoso, ensinar o uso da caneta de insulina. A Lei 13.021/2014 deu a base para isso ao definir a farmácia como \"unidade de prestação de serviços destinada a prestar assistência farmacêutica, assistência à saúde e orientação sanitária individual e coletiva\" (art. 3º). Antes de oferecer qualquer serviço, duas condições precisam estar cumpridas: a norma sanitária permite aquele serviço e a licença da farmácia onde você trabalha o inclui.</p><h3>Três camadas de norma</h3><ul><li><strong>Lei federal</strong>: a Lei 13.021/2014 permite que a farmácia disponha de vacinas e soros conforme o perfil epidemiológico da região (art. 7º) e obriga o farmacêutico a notificar reações adversas e intoxicações, fazer acompanhamento farmacoterapêutico, manter o perfil farmacoterapêutico do paciente em fichas e prestar orientação sobre uso, conservação e interações (art. 13).</li><li><strong>Norma sanitária</strong>: define o que o estabelecimento pode fazer e com que estrutura. As centrais são a RDC 44/2009 (serviços, ambiente e Declaração de Serviço Farmacêutico), a RDC 978/2025, alterada pela RDC 986/2025 (exames de análises clínicas), a RDC 197/2017 (vacinação) e a RDC 222/2018 (resíduos).</li><li><strong>Norma profissional</strong>: define o que o farmacêutico pode fazer como profissional. Resolução CFF 585/2013 (atribuições clínicas), 586/2013 (prescrição, com situação judicial própria), 499/2008 (serviços em farmácias e drogarias) e 654/2018 (vacinação).</li></ul><p>Na inspeção, quem decide se o serviço é regular é a vigilância sanitária, com base na RDC e nas normas estaduais e municipais. Uma resolução do CFF organiza a prática do farmacêutico, mas não dá à farmácia permissão para um serviço que a RDC 44/2009 não prevê.</p><h3>O que a RDC 44/2009 permite</h3><div class=\"cx lei\"><b>O que diz a norma</b><p>\"São considerados serviços farmacêuticos passíveis de serem prestados em farmácias ou drogarias a atenção farmacêutica e a perfuração de lóbulo auricular para colocação de brincos.\" \"A prestação de serviço de atenção farmacêutica compreende a atenção farmacêutica domiciliar, a aferição de parâmetros fisiológicos, a execução de Exames de Análises Clínicas nos termos da legislação vigente e a administração de medicamentos.\" (RDC 44/2009, art. 61, §§ 1º e 2º, este com redação da RDC 786/2023)</p></div><p>A RDC 786/2023 foi revogada pela RDC 978/2025 (art. 193), mas as mudanças que ela fez no texto da RDC 44/2009 continuam no texto consolidado publicado no AnvisaLegis, que segue citando a redação de 2023. Os parâmetros fisiológicos permitidos são apenas dois: <strong>pressão arterial e temperatura corporal</strong> (art. 69, §1º). Exames, como a glicemia capilar, seguem a RDC 978/2025.</p><p>Regras gerais que valem para todos os serviços:</p><ul><li>só é regular o serviço indicado no licenciamento do estabelecimento, e é vedado usar qualquer dependência da farmácia como consultório ou para fim diverso do licenciado (art. 61, §3º; art. 90);</li><li>o serviço é permitido pela autoridade sanitária após inspeção prévia, sem prejuízo de normas estaduais e municipais (art. 61, §4º), e é vedado prestar serviço não abrangido pela Resolução (art. 61, §5º);</li><li>a farmácia mantém lista atualizada dos estabelecimentos públicos de saúde mais próximos, com endereço e telefone, para informar o usuário (art. 62);</li><li>há protocolos com referências bibliográficas e indicadores (art. 64), registro que permita avaliar os resultados e POP com a metodologia dessa avaliação (art. 65);</li><li>o farmacêutico orienta o usuário a procurar outro profissional quando julgar necessário (art. 66) e notifica eventos adversos e queixas técnicas (art. 67);</li><li>atenção farmacêutica no domicílio só é permitida a estabelecimento licenciado para isso (art. 68, parágrafo único).</li></ul><p>A Resolução CFF 499/2008 acrescenta a regra profissional: somente o farmacêutico inscrito no CRF presta serviços farmacêuticos em farmácias e drogarias (art. 1º). Para injetáveis, admite outro profissional habilitado com autorização expressa do farmacêutico responsável técnico, e a presença ou supervisão do farmacêutico é condição essencial (art. 21).</p><h3>Atribuições clínicas do farmacêutico</h3><p>A Resolução CFF 585/2013 lista 28 atribuições clínicas no art. 7º. As que aparecem todo dia na drogaria são: prover a consulta farmacêutica em ambiente que garanta privacidade (VII); fazer a anamnese e verificar sinais e sintomas (VIII); determinar parâmetros bioquímicos e fisiológicos para acompanhamento da farmacoterapia e rastreamento em saúde (XIV); administrar medicamentos no âmbito da competência profissional (XXI); orientar quanto à administração de formas farmacêuticas (XXII); manejar problemas de saúde autolimitados (XXV); avaliar e promover a adesão (XXVII); e realizar rastreamento em saúde em consonância com as políticas vigentes (XXVIII).</p><h3>Os serviços do arcabouço do CFF (2016)</h3><p>O documento \"Serviços farmacêuticos diretamente destinados ao paciente, à família e à comunidade: contextualização e arcabouço conceitual\" (CFF, 2016) padronizou nomes e conceitos. O mesmo documento esclarece que a <strong>consulta farmacêutica</strong> não é um serviço: é o encontro entre farmacêutico e paciente, dentro do qual um ou mais serviços são prestados.</p><div class=\"tab\"><table><thead><tr><th>Serviço</th><th>Conceito resumido (CFF, 2016)</th><th>Exemplo na drogaria</th></tr></thead><tbody><tr><td>Rastreamento em saúde</td><td>Identificação provável de doença em pessoa assintomática ou sob risco, com encaminhamento para diagnóstico</td><td>Campanha de PA; glicemia capilar em pessoa com fatores de risco</td></tr><tr><td>Educação em saúde</td><td>Estratégias educativas para autonomia e autocuidado</td><td>Roda sobre uso de inaladores; cartaz e conversa sobre sal e PA</td></tr><tr><td>Dispensação</td><td>Análise técnica e legal da receita, entrega e orientação</td><td>Toda receita atendida no balcão</td></tr><tr><td>Manejo de problema de saúde autolimitado</td><td>Acolher a queixa, indicar medida não farmacológica ou MIP, ou encaminhar</td><td>Resfriado, azia, diarreia aguda leve (módulo de MIP)</td></tr><tr><td>Monitorização terapêutica de medicamentos</td><td>Medir e interpretar nível sérico de fármaco para individualizar a dose</td><td>Rara na drogaria (serviço de hospital)</td></tr><tr><td>Conciliação de medicamentos</td><td>Lista precisa de tudo o que o paciente usa, comparando fontes, nas transições de cuidado</td><td>Paciente com alta hospitalar e receitas antigas em casa</td></tr><tr><td>Revisão da farmacoterapia</td><td>Análise estruturada dos medicamentos em uso para resolver problemas e melhorar a adesão</td><td>Idoso que traz a sacola de remédios</td></tr><tr><td>Gestão da condição de saúde</td><td>Gerenciamento de uma condição estabelecida (hipertensão, diabetes) com metas e seguimento</td><td>Programa de acompanhamento de hipertensos da farmácia</td></tr><tr><td>Acompanhamento farmacoterapêutico</td><td>Gerenciamento de toda a farmacoterapia em vários encontros</td><td>Paciente polimedicado com retornos mensais</td></tr></tbody></table></div><h3>Prescrição farmacêutica</h3><p>A Resolução CFF 586/2013 foi declarada ilegal em primeira instância (sentença de 18/11/2024, ACP 0060624-78.2013.4.01.3400), com recurso do CFF; a Resolução CFF 5/2025 está suspensa por liminar. O módulo de MIP traz o texto completo e a situação judicial. Para os serviços deste módulo, o caminho com base sanitária vigente é: indicar MIP e medidas não farmacológicas, orientar, encaminhar e registrar tudo na Declaração de Serviço Farmacêutico (RDC 44/2009, art. 81). Diante de parâmetro alterado, a RDC proíbe indicar ou alterar medicamento de venda sob prescrição (art. 69, §4º).</p><div class=\"cx balcao\"><b>No balcão</b><p>O gerente pede que um balconista meça a pressão dos clientes na entrada da loja, num banquinho ao lado do caixa, durante a campanha do mês. A resposta técnica: a aferição é serviço farmacêutico, feita pelo farmacêutico (Resolução CFF 499/2008, art. 1º), na sala de serviços licenciada (RDC 44/2009, art. 15), com registro e Declaração de Serviço Farmacêutico. Campanha na calçada ou fora da sala depende de autorização da vigilância local. Proponha a campanha dentro da sala, com agenda e fluxo de fila.</p></div>"
+  },
+  {
+   "id": "m18-consulta-registro",
+   "titulo": "Consulta farmacêutica, registro e documentos",
+   "resumo": "<p>A Resolução CFF 585/2013 define consulta farmacêutica como o atendimento do farmacêutico ao paciente, com respeito aos princípios éticos e profissionais, para obter os melhores resultados com a farmacoterapia e promover o uso racional de medicamentos (glossário). Na drogaria, a consulta acontece na sala de serviços farmacêuticos licenciada, que precisa garantir privacidade e conforto (RDC 44/2009, art. 15, §1º). A anamnese, os roteiros de perguntas e os sinais de alerta por queixa estão no módulo de MIP; aqui o foco é a sequência do atendimento e os documentos que ele gera.</p><h3>Sequência do atendimento</h3><ol><li><strong>Acolhimento</strong>: entender o motivo da procura e levar a pessoa à sala quando o assunto pedir reserva.</li><li><strong>Coleta de dados</strong>: queixa, história, medicamentos em uso (inclusive MIP, fitoterápicos e suplementos), alergias, hábitos; e, quando útil, PA, temperatura ou exame permitido.</li><li><strong>Avaliação</strong>: o farmacêutico decide se há problema relacionado a medicamento, se o caso cabe na farmácia ou se é preciso encaminhar, e com que urgência.</li><li><strong>Plano</strong>: orientação, medida não farmacológica, MIP quando cabível, encaminhamento por escrito, data de retorno.</li><li><strong>Registro e documentos</strong>: ficha do atendimento e Declaração de Serviço Farmacêutico.</li><li><strong>Seguimento</strong>: retorno ou contato combinado, com o resultado anotado.</li></ol><h3>Registro no formato SOAP</h3><p>O arcabouço do CFF (2016) cita as notas de evolução no formato SOAP (dados subjetivos, objetivos, avaliação e plano) como as mais usadas na área da saúde, sem torná-las obrigatórias. O formato se adapta bem à drogaria.</p><div class=\"tab\"><table><thead><tr><th>Letra</th><th>Conteúdo</th><th>Exemplo curto</th></tr></thead><tbody><tr><td>S (subjetivo)</td><td>O que a pessoa relata</td><td>Hipertensa há 6 anos, \"esquece o remédio da noite\", cefaleia leve hoje</td></tr><tr><td>O (objetivo)</td><td>O que foi medido ou conferido</td><td>PA média 152/94 mmHg (duas últimas de três); losartana 50 mg 2 vezes ao dia na receita</td></tr><tr><td>A (avaliação)</td><td>Interpretação do farmacêutico</td><td>PA acima da meta, provável baixa adesão à dose noturna; sem sinais de urgência</td></tr><tr><td>P (plano)</td><td>O que foi feito e combinado</td><td>Tabela de horários, alarme no celular, encaminhamento por escrito à UBS, retorno em 15 dias para nova aferição</td></tr></tbody></table></div><p>O registro precisa do <strong>consentimento expresso</strong> do usuário e deve conter, no mínimo, nome, endereço e telefone do usuário, orientações e intervenções realizadas, resultados e identificação do farmacêutico com inscrição no CRF (RDC 44/2009, art. 64, §§ 1º e 2º).</p><h3>Declaração de Serviço Farmacêutico</h3><p>Após qualquer serviço, o usuário recebe a Declaração de Serviço Farmacêutico, em papel com nome, endereço, telefone e CNPJ do estabelecimento e identificação do usuário (RDC 44/2009, art. 81, §1º). O conteúdo varia com o serviço (§2º): na atenção farmacêutica, medicamento prescrito e prescritor, MIP indicado e posologia, valores medidos ou resultados de exames seguidos dos valores de referência, a frase obrigatória \"ESTE PROCEDIMENTO NÃO TEM FINALIDADE DE DIAGNÓSTICO E NÃO SUBSTITUI A CONSULTA MÉDICA\" quando houver aferição ou exame, dados do medicamento administrado, orientação, plano de intervenção, data, assinatura e carimbo com CRF. Na perfuração de lóbulo, nome e CNPJ do fabricante e lote do brinco e da pistola. São duas vias, uma para o usuário e outra arquivada (§4º), e é proibido usá-la como propaganda ou para indicar medicamento que exige prescrição (§3º). O modelo com os campos está no material de apoio.</p><p>Quando a farmácia executa exame de análises clínicas, entrega a Declaração e o laudo do exame, que podem compor um único documento (Anvisa, Perguntas e Respostas da RDC 978/2025, 2025, pergunta 42). O registro do resultado deve constar na Declaração (RDC 978/2025, art. 60, §2º).</p><h3>Encaminhamento por escrito</h3><p>Encaminhar é parte do serviço (RDC 44/2009, art. 66). Um encaminhamento oral se perde; o escrito chega ao médico com dados úteis. Conteúdo sugerido: identificação da farmácia e do farmacêutico com CRF; nome e idade do paciente; motivo do encaminhamento em linguagem objetiva; valores medidos com data, hora e técnica; medicamentos em uso; o que foi orientado; urgência sugerida. O texto descreve achados (\"PA média de 168/102 mmHg em três medidas\") e não faz diagnóstico (\"paciente hipertenso descompensado\"). Situação de risco imediato não espera papel: aciona-se o SAMU (192) e o registro é feito depois.</p><h3>Sigilo e LGPD</h3><ul><li>Os dados obtidos nos serviços recebem tratamento sigiloso e não podem ser usados para finalidade diversa (RDC 44/2009, art. 82).</li><li>Dado referente à saúde é dado pessoal sensível (Lei 13.709/2018, art. 5º, II). O tratamento para tutela da saúde, em procedimento realizado por profissionais de saúde, serviços de saúde ou autoridade sanitária, é hipótese legal própria (art. 11, II, \"f\").</li><li>É vedado comunicar ou compartilhar dado sensível de saúde entre controladores para obter vantagem econômica, salvo as exceções da lei (art. 11, §4º). Glicemia anotada na sala de serviços não alimenta cadastro de promoção nem programa de fidelidade.</li><li>Serviço que executa exames precisa de política de acesso e proteção dos dados conforme a LGPD (RDC 978/2025, art. 77).</li></ul><h3>Por quanto tempo guardar</h3><p>A RDC 44/2009 exige o registro e a segunda via da Declaração, mas não fixa prazo de guarda. Para exames de análises clínicas, toda a documentação e os registros são mantidos por no mínimo 5 anos (RDC 978/2025, art. 115). O arcabouço do CFF (2016), com base na Resolução CFF 555/2011, indica guarda mínima de 5 anos a contar da última anotação, em papel ou meio eletrônico, salvo prazo maior fixado pela autoridade sanitária. Na prática, o POP da farmácia adota 5 anos para todos os registros de serviços, e o farmacêutico confere se a vigilância estadual ou municipal exige prazo maior.</p><h3>Cobrança do serviço</h3><p>Nenhuma norma federal citada aqui proíbe cobrar por serviço farmacêutico. Se houver cobrança, o preço é informado de forma clara antes do atendimento (Código de Defesa do Consumidor, art. 6º, III). Condicionar o serviço à compra de um produto é prática abusiva (CDC, art. 39, I). Serviço gratuito exige a mesma técnica, o mesmo registro e a mesma Declaração.</p><div class=\"cx balcao\"><b>No balcão</b><p>Cliente pergunta se pode levar \"o papel da pressão\" para mostrar ao médico. Entregue a primeira via da Declaração com os valores, a referência e a frase obrigatória, e anexe o encaminhamento escrito quando houver motivo. Explique que o número medido na farmácia é triagem e que o diagnóstico é do médico. A segunda via fica arquivada, com o consentimento registrado na ficha.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>A rede pede ao farmacêutico a planilha com nomes e glicemias dos clientes da campanha para enviar ofertas de tiras reagentes. O farmacêutico recusa: os dados do serviço são sigilosos e de uso exclusivo do serviço (RDC 44/2009, art. 82), e o uso de dado de saúde para vantagem econômica é vedado (Lei 13.709/2018, art. 11, §4º). Ele oferece um relatório com números agregados, sem identificação, para o indicador de resultados do serviço (art. 65).</p></div>"
+  },
+  {
+   "id": "m18-pressao",
+   "titulo": "Aferição da pressão arterial",
+   "resumo": "<p>Medir a pressão é o serviço mais procurado na drogaria e o mais feito de forma errada. Uma medida mal feita gera dois danos: assusta quem está bem e tranquiliza quem precisa de médico. A aferição na farmácia serve à assistência e à orientação, \"não possuindo, em nenhuma hipótese, o objetivo de diagnóstico\" (RDC 44/2009, art. 69). A Diretriz Brasileira de Hipertensão Arterial 2025 (DBHA 2025) registra que a PA deve ser medida por todos os profissionais de saúde capacitados, mas que o diagnóstico de hipertensão e a conduta clínica são de responsabilidade dos médicos.</p><h3>Aparelho</h3><ul><li>Preferir <strong>aparelho automático oscilométrico de braço, validado</strong>: a DBHA 2025 recomenda o equipamento automático de braço para reduzir erros, e prefere os certificados pelo Inmetro.</li><li>A calibração é avaliada pelo menos uma vez por ano (DBHA 2025). A farmácia guarda o registro de manutenção e calibração (RDC 44/2009, art. 71, parágrafo único) e usa só aparelho regularizado na Anvisa (art. 71).</li><li>Aparelho de punho fica para exceções, como braço muito largo sem manguito adequado: os resultados têm mais erros sistemáticos e dependem da posição do punho em relação ao coração (Diretriz Brasileira de Medidas da PA Dentro e Fora do Consultório, SBC 2023).</li><li>Esfigmomanômetro e termômetro de coluna de mercúrio são proibidos em serviços de saúde desde janeiro de 2019 (RDC 145/2017, conforme o guia de febre do CFF, 2018).</li><li>Ter manguitos de tamanhos diferentes. A largura da bolsa inflável corresponde a 37% a 50% da circunferência do braço e o comprimento envolve pelo menos 75% a 100% do braço (Diretriz de Medidas da PA, SBC 2023).</li></ul><div class=\"tab\"><table><thead><tr><th>Circunferência do braço</th><th>Manguito</th><th>Bolsa inflável (largura x comprimento)</th></tr></thead><tbody><tr><td>22 a 26 cm</td><td>Adulto pequeno</td><td>10 x 24 cm</td></tr><tr><td>27 a 34 cm</td><td>Adulto</td><td>13 x 30 cm</td></tr><tr><td>35 a 44 cm</td><td>Adulto grande</td><td>16 x 38 cm</td></tr><tr><td>45 a 52 cm</td><td>Coxa</td><td>20 x 42 cm</td></tr></tbody></table></div><p>Fonte da tabela: Diretriz Brasileira de Medidas da PA Dentro e Fora do Consultório (SBC, 2023), Quadro 7. Manguito pequeno para o braço superestima a pressão. A circunferência é medida no ponto médio entre o acrômio e o olécrano, com o braço estendido ao longo do corpo.</p><h3>Preparo da pessoa</h3><p>Pela Diretriz de Medidas da PA (SBC, 2023, Quadro 4), antes da medida a pessoa:</p><ul><li>não está com a bexiga cheia;</li><li>não praticou exercício físico há pelo menos 90 minutos;</li><li>não ingeriu bebida alcoólica, café ou alimentos e não fumou nos 30 minutos anteriores;</li><li>fica em repouso por 5 minutos em ambiente calmo, sem falar e sem se mexer durante a medida;</li><li>está sentada, pernas descruzadas, pés apoiados no chão, dorso recostado; braço apoiado na altura do coração, palma para cima, sem roupa garroteando.</li></ul><h3>Técnica</h3><ol><li>Na primeira vez, medir nos dois braços e usar o de maior valor nas medidas seguintes; anotar qual braço. Diferença de PA sistólica acima de 15 mmHg entre os braços indica risco cardiovascular aumentado (DBHA 2025) e entra no encaminhamento.</li><li>Colocar o manguito sem folga, 2 a 3 cm acima da fossa cubital, com o meio da bolsa sobre a artéria braquial.</li><li><strong>Fazer três medidas, com intervalo de 1 minuto, e usar a média das duas últimas.</strong> Se houver diferença maior que 10 mmHg, fazer medidas adicionais (DBHA 2025, Quadro 3.1).</li><li>Em idosos, diabéticos, pessoas com disautonomia ou em uso de anti-hipertensivo com queixa de tontura ao levantar, investigar hipotensão ortostática: medir deitado após 5 minutos e em pé com 1 e 3 minutos; queda de 20 mmHg ou mais na sistólica ou de 10 mmHg ou mais na diastólica define o quadro (DBHA 2025; Diretriz de Medidas, 2023).</li><li>Informar o valor por escrito e de forma exata (\"134/76 mmHg\", e não \"13 por 7\"), como pede a DBHA 2025.</li></ol><h3>Classificação</h3><div class=\"tab\"><table><thead><tr><th>Classificação (DBHA 2025, adultos a partir de 18 anos)</th><th>Sistólica (mmHg)</th><th></th><th>Diastólica (mmHg)</th></tr></thead><tbody><tr><td>PA normal</td><td>abaixo de 120</td><td>e</td><td>abaixo de 80</td></tr><tr><td>Pré-hipertensão</td><td>120 a 139</td><td>e/ou</td><td>80 a 89</td></tr><tr><td>Hipertensão estágio 1</td><td>140 a 159</td><td>e/ou</td><td>90 a 99</td></tr><tr><td>Hipertensão estágio 2</td><td>160 a 179</td><td>e/ou</td><td>100 a 109</td></tr><tr><td>Hipertensão estágio 3</td><td>180 ou mais</td><td>e/ou</td><td>110 ou mais</td></tr></tbody></table></div><p>Quando sistólica e diastólica caem em categorias diferentes, vale a mais alta. A pré-hipertensão da DBHA 2025 reúne o que a diretriz de 2020 chamava de normal e pré-hipertensão. O Protocolo Clínico e Diretrizes Terapêuticas de Hipertensão do Ministério da Saúde (2025) mantém outra nomenclatura (PA ótima, normal, normal alta e graus 1 a 3), e a Secretaria de Saúde de Santa Catarina registrou, em setembro de 2025, que a rede pública segue o PCDT. Na Declaração, cite a referência usada (\"DBHA 2025\") ao lado dos valores.</p><h3>Conduta</h3><ul><li><strong>Abaixo de 120/80 mmHg</strong>: orientar hábitos e medir pelo menos uma vez por ano (DBHA 2025).</li><li><strong>Pré-hipertensão</strong>: orientar medidas não medicamentosas (peso, sal, atividade física, álcool, tabaco) e sugerir avaliação de risco cardiovascular na unidade de saúde, sem urgência.</li><li><strong>Média das duas últimas medidas de 140/90 mmHg ou mais</strong>: a DBHA 2025 orienta vincular a pessoa à unidade de saúde de referência para consulta agendada. Entregar Declaração e encaminhamento escrito.</li><li><strong>180/110 mmHg ou mais sem sintomas</strong>: a DBHA 2025 trata como elevação importante sem lesão aguda de órgão-alvo (termo que substitui \"urgência hipertensiva\"), com reavaliação médica precoce, em 1 a 7 dias. Orientar avaliação médica no mesmo dia ou no dia seguinte; em hipertenso tratado, perguntar se tomou os remédios.</li><li><strong>180/110 mmHg ou mais com sintomas</strong> (dor no peito, falta de ar, fraqueza ou dormência em um lado do corpo, alteração da fala ou da visão, confusão): suspeita de emergência hipertensiva, que se define pela lesão aguda de órgão-alvo e não só pelo número. Acionar o SAMU (192).</li><li><strong>Gestante</strong>: hipertensão na gestação é PA de 140/90 mmHg ou mais (DBHA 2025). Gestante com valor nessa faixa é orientada a procurar o pré-natal ou a maternidade no mesmo dia.</li></ul><div class=\"cx alerta\"><b>Atenção</b><p>Diante de PA alta, a farmácia não indica nem altera medicamento de venda sob prescrição (RDC 44/2009, art. 69, §4º). Também não se recomenda \"tomar mais um comprimido\" do anti-hipertensivo nem colocar comprimido debaixo da língua. A conduta é orientar, encaminhar e registrar.</p></div><p>A Diretriz de Medidas (SBC, 2023) reconhece o potencial da medida em farmácia para rastreamento e seguimento, mas registra que faltam protocolos validados e que não há critérios próprios de valores anormais para esse ambiente. Por isso a farmácia usa a técnica e os valores de consultório. A DBHA 2025 também recomenda que mulheres em uso de anticoncepcional hormonal combinado meçam a PA regularmente, a cada 6 meses: oportunidade de oferecer o serviço na dispensação.</p><div class=\"cx balcao\"><b>No balcão</b><p>Homem de 52 anos pede para \"ver a pressão rapidinho\" porque está com dor de cabeça. Na sala, você pergunta sobre dor no peito, falta de ar, fraqueza em um lado do corpo, alteração visual: nega. Ele subiu a escada correndo e tomou café há 10 minutos. Você explica que a medida agora sairia falsamente alta, oferece água, espera os 30 minutos na sala de espera e faz três medidas. Média das duas últimas: 146/92 mmHg. Declaração com valores, referência e frase obrigatória; encaminhamento escrito para consulta agendada na UBS; orientação sobre sal; nenhum anti-hipertensivo indicado.</p></div>"
+  },
+  {
+   "id": "m18-glicemia",
+   "titulo": "Glicemia capilar",
+   "resumo": "<p>A glicemia capilar feita pelo farmacêutico é um exame de análises clínicas (EAC). Desde a RDC 786/2023, substituída pela RDC 978/2025, ela deixou de ser um \"parâmetro bioquímico\" da RDC 44/2009 e passou a seguir a norma de exames. Segundo as Perguntas e Respostas da Anvisa sobre a RDC 978/2025 (2025, pergunta 14), a glicemia capilar pelo farmacêutico é permitida em farmácia classificada como <strong>Serviço Tipo I</strong>, desde que cumpridos os requisitos. Quando o farmacêutico usa um glicosímetro de autoteste dentro da farmácia, a atividade é EAC e segue a RDC 978/2025 (art. 4º, parágrafo único; pergunta 27). A venda do glicosímetro e das tiras para uso em casa continua livre.</p><h3>Requisitos para fazer glicemia na farmácia</h3><ul><li>licença sanitária que indique as atividades de EAC (RDC 978/2025, art. 63) e inscrição no CNES (art. 74);</li><li>execução exclusivamente por profissional legalmente habilitado (art. 11); na farmácia, só o farmacêutico (Perguntas e Respostas, pergunta 39); balconista e atendente não podem (pergunta 34);</li><li>responsável técnico e substituto (art. 75) e supervisor do pessoal técnico presente durante o funcionamento, que pode ser o próprio RT (art. 122);</li><li>sala de coleta e execução com lavatório, bancada, mesa, cadeira para coleta, área para equipamentos e recipiente para perfurocortantes e resíduos (art. 14);</li><li>controle interno da qualidade (CIQ) com amostra controle, no mínimo a cada troca de lote e a cada remessa de tiras, conforme o fabricante, e a cada manutenção preventiva ou corretiva do glicosímetro (arts. 180 e 183); controle externo da qualidade (CEQ) para todos os equipamentos e analitos (arts. 185 a 188);</li><li>procedimento escrito para resultados potencialmente críticos, disponível no local (art. 119) e fluxo de comunicação quando houver necessidade de decisão imediata (art. 165, parágrafo único);</li><li>registros guardados por pelo menos 5 anos (art. 115).</li></ul><div class=\"cx lei\"><b>O que diz a norma</b><p>\"O EAC realizado pela farmácia autorizada como Serviço Tipo I tem a finalidade de triagem, sem fins confirmatórios, com vistas a compor as ações de assistência farmacêutica, assistência à saúde e orientação sanitária.\" (RDC 978/2025, art. 60)</p></div><h3>Técnica</h3><ol><li>Conferir o registro do CIQ do glicosímetro e do lote de tiras em uso; tira vencida ou fora da faixa de conservação não é usada.</li><li>Higienizar as mãos e calçar luvas (RDC 44/2009, art. 84).</li><li>Identificar a pessoa, registrar o horário da última refeição e os medicamentos (insulina, sulfonilureias, corticoides).</li><li>Mãos do cliente lavadas com água e sabão e secas, ou antissepsia com álcool 70% esperando secar: álcool úmido dilui a gota e resíduo de açúcar na pele falseia o valor.</li><li>Puncionar a face lateral da polpa digital, local usual citado pela SBD (2026), com lanceta de uso único; descartar a lanceta imediatamente no coletor rígido.</li><li>Aplicar a gota conforme a instrução do fabricante do glicosímetro, sem espremer com força.</li><li>Registrar valor, hora, condição (jejum de 8 horas ou mais, ou casual com horário da refeição) e entregar a Declaração com o valor de referência e a frase obrigatória.</li></ol><h3>Interpretação</h3><p>Os critérios de diagnóstico da Sociedade Brasileira de Diabetes usam glicemia plasmática de laboratório e HbA1c; a glicemia capilar não está entre eles. Os valores abaixo orientam a triagem e o encaminhamento.</p><div class=\"tab\"><table><thead><tr><th>Situação</th><th>Valor</th><th>Fonte</th></tr></thead><tbody><tr><td>Jejum normal</td><td>abaixo de 100 mg/dL</td><td>SBD, critérios diagnósticos (edição 2026 do site, texto de 2024)</td></tr><tr><td>Jejum na faixa de pré-diabetes</td><td>100 a 125 mg/dL</td><td>Idem</td></tr><tr><td>Jejum na faixa de diabetes</td><td>126 mg/dL ou mais</td><td>Idem</td></tr><tr><td>Casual com sintomas (sede, urina em excesso, perda de peso)</td><td>200 mg/dL ou mais</td><td>Idem</td></tr><tr><td>Hipoglicemia nível 1</td><td>54 a 69 mg/dL</td><td>SBD 2026, metas de controle glicêmico</td></tr><tr><td>Hipoglicemia nível 2</td><td>abaixo de 54 mg/dL</td><td>Idem</td></tr><tr><td>Hipoglicemia nível 3</td><td>evento grave com alteração mental ou física que exige ajuda de outra pessoa, qualquer valor</td><td>Idem</td></tr><tr><td>Meta capilar em adulto com diabetes</td><td>jejum e pré-prandial 80 a 130 mg/dL; 2 horas após refeição abaixo de 180 mg/dL</td><td>Idem</td></tr></tbody></table></div><p>A SBD (capítulo de diagnóstico revisado em 2024 e mantido na edição 2026) recomenda rastrear diabetes em todos os adultos a partir de 35 anos e, antes disso, em quem tem sobrepeso ou obesidade com ao menos um fator de risco (parente de primeiro grau com diabetes tipo 2, doença cardiovascular, hipertensão, síndrome dos ovários policísticos, sedentarismo, diabetes gestacional prévio, entre outros). O exame de triagem na farmácia ajuda a levar essas pessoas à unidade de saúde.</p><h3>Conduta</h3><ul><li><strong>Valor normal</strong>: orientar, registrar e lembrar que o rastreamento formal é feito com exame de laboratório.</li><li><strong>Jejum de 100 mg/dL ou mais, ou casual de 200 mg/dL ou mais</strong>: encaminhar por escrito para glicemia plasmática e HbA1c, com consulta agendada.</li><li><strong>Pessoa com diabetes fora da meta</strong>: revisar adesão, técnica de insulina, alimentação e dias de doença; encaminhar ao médico que acompanha. Sem indicar nem ajustar dose de medicamento sob prescrição (RDC 44/2009, art. 69, §4º).</li><li><strong>Hipoglicemia</strong> (abaixo de 70 mg/dL, com ou sem sintomas): se a pessoa está consciente e consegue engolir, oferecer carboidrato de absorção rápida (suco, refrigerante comum, açúcar), repetir a glicemia e não deixá-la sair sozinha dirigindo. Confusão, sonolência, convulsão ou incapacidade de engolir: SAMU (192), sem dar nada pela boca.</li><li><strong>Glicemia muito alta</strong> (leitura \"HI\" no aparelho ou valores acima de 250 mg/dL) com vômitos, dor abdominal, respiração rápida, sonolência ou desidratação: encaminhar com urgência. A SBD (2026) usa 250 mg/dL em duas medidas seguidas como gatilho para pesquisar cetonas em pessoas com diabetes tipo 1 em dia de doença.</li></ul><div class=\"cx alerta\"><b>Atenção</b><p>Resultado crítico pede ação imediata, prevista no procedimento escrito da farmácia (RDC 978/2025, arts. 119 e 165). Um valor de 45 mg/dL anotado com calma na Declaração, enquanto o cliente vai embora, é falha grave de serviço.</p></div><div class=\"cx balcao\"><b>No balcão</b><p>Senhora de 61 anos, sem diagnóstico de diabetes, mãe diabética, IMC alto, pede a glicemia \"de jejum\" às 10h, após café com pão. Você registra como glicemia casual (refeição às 8h), mede 182 mg/dL, explica que o valor não fecha nem descarta diabetes, entrega a Declaração e o encaminhamento escrito para glicemia de jejum e HbA1c na UBS, e orienta que pela idade ela já está no grupo que a SBD manda rastrear.</p></div>"
+  },
+  {
+   "id": "m18-exames-testes",
+   "titulo": "Exames de análises clínicas e testes rápidos",
+   "resumo": "<p>Além da glicemia, a drogaria pode oferecer outros exames de análises clínicas, desde que cumpra a RDC 978/2025. A norma revogou a RDC 786/2023 (art. 193), entrou em vigor em 10/06/2025, data da publicação (art. 194), deu 90 dias para adequação (art. 191) e foi alterada pela RDC 986/2025, de 15/08/2025, que mudou a redação dos tipos de amostra permitidos ao Serviço Tipo I. Fazer exames é opcional: cada farmácia escolhe se oferece e quais oferece (Perguntas e Respostas da Anvisa, 2025, pergunta 38).</p><h3>Os cinco requisitos do Serviço Tipo I</h3><div class=\"cx lei\"><b>O que diz a norma</b><p>A farmácia pode ser classificada como Serviço Tipo I (RDC 978/2025, art. 8º) se: \"executar EAC exclusivamente em material biológico obtido por coleta por punção capilar, coleta em cavidade oral, em nasofaringe ou em orofaringe\" (art. 10, I, redação da RDC 986/2025); realizar todas as etapas no próprio serviço, inclusive CIQ e CEQ (II); não guardar, armazenar nem transportar material biológico, exceto o de controle de qualidade (III); não usar metodologia própria (IV); e usar só equipamento que não exija água reagente produzida no serviço (V).</p></div><p>Consequências práticas:</p><ul><li><strong>Só quatro tipos de amostra</strong>: sangue de punção capilar, material da cavidade oral, swab de nasofaringe e de orofaringe. Urina, fezes, sangue venoso e secreções genitais ficam de fora.</li><li><strong>Tudo no local e na hora</strong>: a farmácia não coleta para mandar ao laboratório (pergunta 43) e não guarda amostra.</li><li><strong>Nada remoto</strong>: é proibida qualquer atividade de execução do exame de forma remota, inclusive leitura remota do resultado (pergunta 33). O termo antigo \"teste laboratorial remoto\" não descreve o que a farmácia faz hoje.</li><li><strong>Finalidade de triagem</strong>: o exame não confirma diagnóstico (art. 60). As Perguntas e Respostas enquadram o exame em farmácia no conceito de rastreamento em saúde da Resolução CFF 585/2013 (pergunta 1).</li></ul><h3>Estrutura e gestão</h3><p>O Serviço Tipo I tem recepção separada da sala de coleta, depósito de material de limpeza, sanitário de uso público e sala de coleta e execução (art. 13); os três primeiros podem ser compartilhados com outras áreas da farmácia (§2º), e o depósito pode ficar no espaço do sanitário (§1º). Reagente que exija temperatura controlada vai para refrigerador exclusivo com registro de máxima, mínima e momento; o mesmo equipamento pode receber medicamentos que não exijam refrigerador exclusivo (art. 14, V e §1º). A sala de coleta pode ser compartilhada com outros serviços farmacêuticos, somando os requisitos de cada atividade (art. 14, §2º; pergunta 44). Exigências de infraestrutura física valem em reforma, ampliação, construção nova ou adaptação de imóvel (art. 191, parágrafo único).</p><p>A gestão exige instruções escritas de biossegurança (art. 110), PGRSS (art. 111), limpeza registrada no início e no fim do expediente (art. 113), programa de educação permanente com capacitação no mínimo anual e registrada (arts. 124 a 127), e documentos disponíveis: relação e registros de todos os procedimentos, inventário de produtos, relação nominal da equipe e registros de CIQ e CEQ (art. 117).</p><h3>Laudo, registro e notificação</h3><ul><li>A farmácia entrega a Declaração de Serviço Farmacêutico e o laudo, que podem ser um documento só (pergunta 42). O laudo é legível, datado e assinado pelo profissional habilitado (art. 166) e traz, entre outros itens, nome e CNES do serviço, RT e profissional que assina com registro no conselho, identificação e idade do paciente, nome do exame, material e método, resultado com unidade, valores de referência e limitações do método (art. 167).</li><li>Resultado que indique suspeita de doença de notificação compulsória é notificado, inclusive pela farmácia (art. 66; pergunta 41), e o serviço segue as diretrizes de diagnóstico do Ministério da Saúde para essas doenças (art. 67).</li></ul><h3>Testes rápidos: o que cabe na farmácia</h3><div class=\"tab\"><table><thead><tr><th>Teste</th><th>Amostra</th><th>Na farmácia Tipo I</th><th>Observação</th></tr></thead><tbody><tr><td>Glicemia capilar</td><td>Punção capilar</td><td>Pode, com requisitos</td><td>Perguntas e Respostas, pergunta 14</td></tr><tr><td>Antígeno de COVID-19 ou influenza</td><td>Swab nasofaríngeo ou orofaríngeo</td><td>Pode, com requisitos</td><td>Instrução de biossegurança para aerossóis; EPI com máscara e proteção ocular</td></tr><tr><td>Colesterol, triglicerídeos, HbA1c em equipamento portátil</td><td>Punção capilar</td><td>Pode, se o produto for regularizado e houver CIQ e CEQ</td><td>Resultado alterado: encaminhar para exame de laboratório</td></tr><tr><td>HIV, sífilis, hepatites B e C</td><td>Punção capilar ou fluido oral</td><td>A amostra é compatível com o Tipo I</td><td>Doenças de notificação compulsória (art. 66); seguir o fluxo de diagnóstico do Ministério da Saúde (art. 67); confirmar com a vigilância local antes de ofertar</td></tr><tr><td>Gravidez (hCG em urina)</td><td>Urina</td><td>Não pode executar</td><td>Urina não é amostra do Tipo I; a venda do autoteste é livre</td></tr><tr><td>Qualquer exame em sangue venoso</td><td>Punção venosa</td><td>Não pode</td><td>Coleta venosa é de posto de coleta (Serviço Tipo II)</td></tr></tbody></table></div><p>Vender autoteste (glicemia, COVID-19, HIV, gravidez) é comércio de produto, fora do alcance da RDC 978/2025 (art. 4º). O cliente faz o teste em casa, seguindo a instrução do fabricante; o farmacêutico orienta a leitura, a conduta diante de resultado reagente e o descarte da lanceta.</p><div class=\"cx alerta\"><b>Atenção</b><p>Teste reagente para HIV, sífilis ou hepatite feito na farmácia é triagem. A pessoa recebe a notícia em local reservado, com orientação clara, e sai com encaminhamento ao serviço de referência para confirmação e tratamento. A farmácia notifica a suspeita, mantém o sigilo e não divulga o resultado a acompanhantes sem autorização.</p></div><div class=\"cx balcao\"><b>No balcão</b><p>Jovem pede para fazer \"o teste de gravidez aí dentro, para não fazer em casa\". Explique que a farmácia não executa exame em urina, ofereça o teste para uso próprio com orientação de leitura (horário, tempo de espera, linha fraca, repetição) e acrescente o que fazer com cada resultado: positivo, procurar a unidade de saúde para iniciar o pré-natal; negativo com atraso persistente, repetir conforme a bula do teste e procurar avaliação.</p></div>"
+  },
+  {
+   "id": "m18-temperatura-campanhas",
+   "titulo": "Temperatura, rastreamento e campanhas",
+   "resumo": "<p>Temperatura corporal é o outro parâmetro fisiológico permitido (RDC 44/2009, art. 69, §1º). Ela entra no atendimento de febre, de suspeita de infecção e de reação após vacina. Rastreamento e educação em saúde, por sua vez, são os serviços que dão forma às campanhas da farmácia.</p><h3>Termômetro e técnica</h3><ul><li>Usar termômetro regularizado na Anvisa (RDC 44/2009, art. 71). O de coluna de mercúrio é proibido em serviços de saúde desde 2019 (RDC 145/2017, citada pelo guia de febre do CFF, 2018).</li><li>O guia do CFF (2018) não recomenda medida retal na farmácia, pelo risco, pelo desconforto e pela inconveniência. A via mais usada é a axilar, com axila seca; a oral sofre influência de bebida quente ou fria, comida e cigarro recentes.</li><li>Higienizar o termômetro entre usos conforme o fabricante (em geral, álcool 70% na ponteira) e registrar a via usada.</li></ul><div class=\"tab\"><table><thead><tr><th>Via</th><th>Normotermia</th><th>Febre</th></tr></thead><tbody><tr><td>Axilar</td><td>34,7 a 37,4 °C</td><td>acima de 37,4 °C</td></tr><tr><td>Oral</td><td>35,5 a 37,5 °C</td><td>acima de 37,5 °C</td></tr><tr><td>Timpânica</td><td>35,7 a 37,8 °C</td><td>acima de 37,8 °C</td></tr><tr><td>Temporal (testa)</td><td>36,6 a 37,8 °C</td><td>acima de 37,8 °C a partir de 4 anos; acima de 37,9 °C de 3 meses a 4 anos; acima de 38,1 °C até 2 meses</td></tr><tr><td>Retal</td><td>36,6 a 38 °C</td><td>acima de 38 °C</td></tr></tbody></table></div><p>Fonte: CFF, Guia de prática clínica: febre (2018), Tabela 1, adaptada de Krinsky et al. (2014). O próprio guia registra falta de consenso na literatura sobre esses limites.</p><p>Pelo mesmo guia: hipotermia é temperatura interna abaixo de 35 °C e deve ser encaminhada ao atendimento médico; hiperpirexia, acima de 41,1 °C, vai para urgência; criança com menos de 6 meses com 38 °C retal ou equivalente, ou com mais de 6 meses e 40 °C ou mais, é encaminhada ao médico. O módulo de MIP traz os demais sinais de alerta de febre (menor de 2 meses, suspeita de dengue, manchas na pele, convulsão, falta de ar) e a escolha do antitérmico.</p><div class=\"cx balcao\"><b>No balcão</b><p>Mãe chega com bebê de 5 meses \"quentinho\". Temperatura axilar de 38,2 °C, criança sonolenta e mamando pouco. Pelo guia do CFF, menor de 6 meses com febre vai ao médico. Você não indica antitérmico por conta própria para adiar a consulta, registra a medida, entrega a Declaração e orienta procurar o pronto-atendimento pediátrico agora, informando o endereço do serviço mais próximo da lista da farmácia (RDC 44/2009, art. 62).</p></div><h3>Rastreamento em saúde</h3><p>Rastreamento é a identificação provável de doença em pessoa assintomática ou sob risco, com encaminhamento para diagnóstico e tratamento (CFF, 2016). Funciona quando tem público certo, técnica certa e encaminhamento garantido. Na drogaria, os rastreamentos com base em diretriz vigente são:</p><ul><li><strong>Pressão arterial</strong> em todo adulto, pelo menos uma vez por ano (DBHA 2025).</li><li><strong>Glicemia</strong> em adultos a partir de 35 anos e em pessoas com sobrepeso ou obesidade e fator de risco (SBD); na farmácia, a glicemia capilar como triagem, com encaminhamento para exame de laboratório.</li><li><strong>Questionário FINDRISC</strong>, usado pela SBD para estratificar risco de diabetes (pontuação de 0 a 26; 15 ou mais indica risco alto ou muito alto).</li></ul><h3>Medidas antropométricas</h3><p>Peso, altura, IMC e circunferência abdominal não estão entre os parâmetros fisiológicos listados na RDC 44/2009 (art. 69, §1º, só PA e temperatura). Muitas farmácias têm balança de autoatendimento, e a medida da cintura com fita é usada em ações educativas. Antes de incluir essas medidas como serviço registrado na Declaração, confirme o entendimento da vigilância local. Como informação educativa, a DBHA 2025 classifica obesidade por IMC (classe 1 de 30 a menos de 35 kg/m², classe 2 de 35 a menos de 40, classe 3 de 40 ou mais) e recomenda manter a circunferência abdominal abaixo de 102 cm em homens e de 88 cm em mulheres.</p><h3>Educação em saúde e campanhas</h3><p>A RDC 44/2009 permite que farmácias participem de campanhas e programas de promoção da saúde e educação sanitária do Poder Público (art. 92). Uma campanha bem feita tem:</p><ul><li>público definido e mensagem curta (por exemplo, \"adultos acima de 35 anos: PA e risco de diabetes\");</li><li>atendimento na sala licenciada, por farmacêutico, com a mesma técnica do dia a dia;</li><li>Declaração para cada atendido e encaminhamento escrito para quem tiver valor alterado, com o endereço da unidade de saúde;</li><li>registro dos números (atendidos, alterados, encaminhados) para o indicador do serviço (art. 65);</li><li>material educativo sem marca de medicamento: a Declaração não pode ter finalidade de propaganda (art. 81, §3º).</li></ul><div class=\"cx exemplo\"><b>Caso</b><p>Campanha de novembro sobre diabetes: 140 atendidos em uma semana. O farmacêutico registra 31 glicemias alteradas e 31 encaminhamentos escritos, liga para 20 deles no mês seguinte e descobre que 12 fizeram exame de laboratório. Esse número entra no relatório do serviço e orienta a próxima campanha (por exemplo, agendar com a UBS vizinha um horário para os encaminhados).</p></div>"
+  },
+  {
+   "id": "m18-administracao-vacinas",
+   "titulo": "Administração de medicamentos, vacinação e perfuração de lóbulo",
+   "resumo": "<p>Aplicar um injetável parece rotina, mas é o serviço da drogaria com maior risco imediato: reação alérgica grave, erro de medicamento, lesão no local, acidente com agulha. A norma trata a administração como parte da atenção farmacêutica, com regras próprias, e a vacinação como serviço com norma específica.</p><h3>Administração de medicamentos</h3><div class=\"cx lei\"><b>O que diz a norma</b><p>\"Fica permitida a administração de medicamentos nas farmácias e drogarias no contexto do acompanhamento farmacoterapêutico.\" \"É vedada a administração de medicamentos de uso exclusivo hospitalar.\" (RDC 44/2009, art. 74 e parágrafo único)</p></div><ul><li><strong>Receita</strong>: medicamento que exige prescrição só é administrado com receita apresentada e avaliada pelo farmacêutico (art. 75). Em caso de dúvida (dose, via, diluição, duração), o farmacêutico contata o prescritor (§1º) e confere a validade antes de aplicar (§2º).</li><li><strong>Quem aplica</strong>: o farmacêutico, ou outro profissional habilitado com autorização expressa do farmacêutico responsável técnico; a presença ou supervisão do farmacêutico é condição essencial (Resolução CFF 499/2008, art. 21).</li><li><strong>Sobra</strong>: medicamento comprado na farmácia em embalagem de múltiplas doses tem a sobra entregue ao usuário, com orientação de conservação; a farmácia não pode guardar medicamento com embalagem primária violada (RDC 44/2009, art. 76).</li><li><strong>Material</strong>: seringas, agulhas e acessórios regularizados na Anvisa, com registro de manutenção e calibração dos aparelhos (art. 77).</li><li><strong>Registro</strong>: a Declaração traz nome comercial (exceto genérico), DCB, concentração e forma farmacêutica, via, lote e número de registro na Anvisa (art. 81, §2º, I, \"e\").</li></ul><p>A técnica por via (locais, volumes, ângulo, agulha) e a conduta em intercorrência estão no POP de aplicação de injetáveis do módulo de POPs. Três decisões de balcão merecem atenção:</p><ol><li><strong>Medicamento trazido de casa</strong>: a RDC 44/2009 trata da sobra do medicamento comprado na farmácia; a aplicação de medicamento trazido pelo cliente fica a critério do POP. Se aceitar, confira receita, procedência, lote, validade, aspecto e conservação. Termolábil que viajou sem refrigeração ou sem informação confiável sobre o transporte não é aplicado.</li><li><strong>Anticoagulante, plaquetopenia, alergia prévia</strong>: perguntar antes de toda aplicação; aplicação intramuscular em quem usa anticoagulante é discutida com o prescritor.</li><li><strong>Observação após a aplicação</strong>: o cliente fica sentado na farmácia pelo tempo definido no POP. Falta de ar, inchaço de face ou lábios, urticária extensa, tontura com queda de pressão: SAMU (192) e kit de primeiros socorros, que deve estar identificado e acessível na sala (RDC 44/2009, art. 15, §4º).</li></ol><p>A RDC 44/2009 não cita nebulização. Como a administração de medicamentos não está limitada por via na norma, há vigilâncias que aceitam a inalação como administração de medicamento, com receita, equipamento regularizado e máscara de uso individual ou reprocessada conforme o fabricante; outras não aceitam. Antes de oferecer, confirme por escrito com a vigilância local e inclua no licenciamento.</p><div class=\"cx alerta\"><b>Atenção</b><p>Aplicar injetável sem receita quando o medicamento exige prescrição, aplicar medicamento de uso exclusivo hospitalar ou deixar o balconista aplicar sem farmacêutico na loja são infrações sanitárias e éticas. A pressa do cliente não muda a regra.</p></div><h3>Vacinação</h3><p>A farmácia pode dispor de vacinas e soros (Lei 13.021/2014, art. 7º). O serviço segue a RDC 197/2017 e a Lei 14.675/2023; a atuação do farmacêutico é regulada pela Resolução CFF 654/2018.</p><div class=\"tab\"><table><thead><tr><th>Exigência</th><th>Base (RDC 197/2017)</th></tr></thead><tbody><tr><td>Licença sanitária para a atividade e inscrição no CNES</td><td>Arts. 4º e 5º</td></tr><tr><td>Calendário Nacional de Vacinação do SUS afixado em local visível</td><td>Art. 6º</td></tr><tr><td>Responsável técnico e substituto; profissional habilitado durante todo o período do serviço; capacitação periódica</td><td>Arts. 7º a 9º</td></tr><tr><td>Recepção separada, sanitário e sala com pia, bancada, mesa, cadeira, caixa térmica, refrigerador exclusivo regularizado na Anvisa com termômetro de máxima e mínima, coletores, maca e termômetro com cabo extensor para as caixas</td><td>Art. 10</td></tr><tr><td>Registro diário de temperatura máxima e mínima; conservação garantida mesmo em falta de energia; só vacinas registradas</td><td>Art. 11</td></tr><tr><td>Atendimento imediato de intercorrências e encaminhamento</td><td>Art. 13</td></tr><tr><td>Vacina fora do Calendário Nacional, em estabelecimento privado, só com prescrição médica; dispensação vinculada à administração</td><td>Art. 14</td></tr><tr><td>Registro no cartão e no sistema de informação definido pelo Ministério da Saúde; prontuário individual; notificação de eventos adversos e de erros de vacinação</td><td>Arts. 15 e 16</td></tr></tbody></table></div><p>O parágrafo único do art. 14 tem efeito direto no balcão: a farmácia que vacina não vende a vacina para o cliente levar e aplicar em outro lugar. A Lei 14.675/2023 garante ao usuário acompanhar a retirada da vacina do refrigerador e conferir nome e validade (art. 8º, conforme o módulo de POPs). A rede de frio, o plano de contingência e o registro de temperatura estão nos módulos de termolábeis e de POPs.</p><h3>Perfuração de lóbulo auricular</h3><ul><li>Aparelho específico que usa o próprio brinco como material perfurante; vedado usar agulha de injeção, agulha de sutura ou outro objeto (RDC 44/2009, art. 78).</li><li>Brincos e pistola regularizados na Anvisa; brinco mantido estéril e aberto só no ambiente do serviço, à vista do usuário, depois da antissepsia (art. 79).</li><li>POP com antissepsia do lóbulo e das mãos, uso e assepsia do aparelho, EPI e referência bibliográfica (art. 80).</li><li>Declaração com nome e CNPJ do fabricante e lote do brinco e da pistola, data, assinatura e CRF (art. 81, §2º, II).</li><li>A norma fala em lóbulo; cartilagem da orelha e outras regiões não estão incluídas. Alguns estados têm lei própria sobre o tema.</li></ul><div class=\"cx balcao\"><b>No balcão</b><p>Cliente chega com uma ampola de anti-inflamatório injetável e uma receita de 8 meses atrás, pedindo para aplicar \"porque a dor voltou\". Você explica que a aplicação depende de receita válida para o tratamento atual e da avaliação do farmacêutico (RDC 44/2009, art. 75), pergunta sobre a dor (tempo, sinais de alerta), oferece manejo com medidas não farmacológicas e MIP quando cabível e, se a dor tiver característica de alerta, encaminha por escrito. A recusa e a orientação entram no registro.</p></div>"
+  },
+  {
+   "id": "m18-farmacoterapia",
+   "titulo": "Revisão da farmacoterapia, adesão e uso de dispositivos",
+   "resumo": "<p>O cliente que mais se beneficia de um serviço clínico costuma ser o que compra mais: o idoso com cinco, oito, doze medicamentos. A DBHA 2025 define polifarmácia como o uso regular de cinco ou mais medicamentos e lembra que ela se associa a mais eventos adversos, interações e pior adesão. Revisar a farmacoterapia, apoiar a adesão e ensinar o uso de dispositivos são serviços que cabem na drogaria e não dependem de exame.</p><h3>Revisão da farmacoterapia no balcão</h3><p>Revisão da farmacoterapia é a análise estruturada e crítica dos medicamentos em uso, para reduzir problemas relacionados à farmacoterapia, melhorar a adesão e os resultados e evitar desperdício (CFF, 2016). Na drogaria, o formato mais viável é a revisão com o paciente presente e os medicamentos na mesa (\"revisão da sacola\").</p><ol><li><strong>Agendar</strong>: pedir que traga todos os medicamentos, inclusive os que parou, colírios, pomadas, MIP, fitoterápicos e suplementos, e as receitas e exames recentes.</li><li><strong>Montar a lista</strong>: nome pela DCB, concentração, como o paciente realmente toma, para que acha que serve, quem prescreveu. Discrepâncias entre receita e uso real aparecem aqui.</li><li><strong>Procurar problemas</strong>: duplicidade (mesmo fármaco em marca e genérico; dois anti-inflamatórios), interações relevantes, dose fora da faixa da bula, medicamento sem indicação clara, indicação sem tratamento, efeito adverso que o paciente atribui à idade, medicamento potencialmente inapropriado para idoso (Critérios de Beers, citados no módulo de MIP), dificuldade de uso de forma farmacêutica, custo que leva a falhas.</li><li><strong>Agir dentro do papel</strong>: o farmacêutico orienta, organiza horários e encaminha ao prescritor por escrito o que exige mudança na prescrição. Ele não suspende nem troca medicamento de venda sob prescrição (RDC 44/2009, art. 69, §4º; Código de Ética, módulo de MIP).</li><li><strong>Entregar</strong>: lista atualizada para o paciente levar às consultas, tabela de horários, Declaração com orientação e plano.</li><li><strong>Retorno</strong>: data combinada para saber se as mudanças funcionaram.</li></ol><p>Conciliação de medicamentos é o mesmo cuidado com foco nas transições: alta hospitalar, troca de médico, mudança do SUS para o privado. A lista conciliada evita que o paciente volte a tomar em casa o que foi suspenso no hospital (CFF, 2016; Resolução CFF 585/2013, art. 7º, XXIV).</p><h3>Adesão</h3><p>A Resolução CFF 585/2013 inclui avaliar e promover a adesão entre as atribuições clínicas (art. 7º, XXVII), e a DBHA 2025 recomenda estratégias com equipe multiprofissional, comunicação, educação e aplicativos para melhorar a adesão ao anti-hipertensivo. Perguntas que funcionam sem constranger:</p><ul><li>\"Muita gente esquece algum comprimido durante a semana. Isso acontece com você?\"</li><li>\"Quantas vezes, nos últimos 7 dias, você deixou de tomar?\"</li><li>\"Algum remédio você toma diferente do que está na receita, ou parou por conta própria? Por quê?\"</li><li>\"Sobra ou falta remédio no fim do mês?\"</li></ul><p>Ferramentas simples: tabela de horários com desenhos, alarme no celular, caixa organizadora semanal, alinhar as tomadas a hábitos (café da manhã, escovar os dentes), revisar o custo com alternativas genéricas intercambiáveis, combinar com o prescritor um esquema mais simples quando possível (a DBHA 2025 prefere associações em dose única diária para quem toma muitos comprimidos).</p><h3>Caneta de insulina</h3><p>Pela diretriz da SBD (Práticas seguras para preparo e aplicação de insulina, Sparapani et al., edição 2026):</p><ul><li>usar a agulha mais curta disponível; na caneta, 4 ou 5 mm são primeira escolha em adultos e crianças; agulha de 12 mm ou mais não deve ser usada;</li><li>com agulha de 4 ou 5 mm, a prega cutânea é dispensável, exceto em crianças menores de 6 anos e pessoas com pouco tecido subcutâneo; ângulo de 90°;</li><li>insulina NPH e pré-misturas são homogeneizadas com 20 movimentos suaves antes do uso;</li><li>teste de fluxo antes de cada aplicação: selecionar 1 UI, caneta com a agulha para cima, pressionar e ver a gota;</li><li>após injetar, manter o botão pressionado por no mínimo 10 segundos e retirar a agulha com o botão ainda pressionado;</li><li>não reutilizar agulha; fazer rodízio dos locais e não aplicar em área com lipo-hipertrofia (endurecimento);</li><li>insulina lacrada em 2 a 8 °C até a validade; em uso, refrigerada ou em temperatura ambiente até 30 °C pelo tempo que cada fabricante indica na bula;</li><li>agulha usada em recipiente rígido, sem reencapar, dobrar ou quebrar, e nunca no lixo doméstico.</li></ul><p>Peça ao paciente que demonstre a aplicação com a caneta dele. A falha mais comum aparece na demonstração: retirar a agulha logo após apertar o botão, sem esperar os 10 segundos, ou aplicar sempre no mesmo ponto da barriga.</p><h3>Inaladores</h3><p>Cada dispositivo tem instrução própria na bula, e a técnica correta depende do modelo. Pontos que valem para a orientação no balcão:</p><ul><li><strong>Aerossol dosimetrado (\"bombinha\")</strong>: agitar quando a bula pedir, expirar fora do bocal, disparar no início de uma inspiração lenta e profunda, segurar a respiração por alguns segundos conforme a bula; com espaçador, seguir a instrução do espaçador. Criança pequena e idoso com dificuldade de coordenação se beneficiam do espaçador.</li><li><strong>Inalador de pó seco</strong>: carregar a dose conforme o modelo, expirar longe do bocal (umidade estraga o pó), inspirar de forma rápida e forte, segurar a respiração. Não agitar e não usar espaçador.</li><li>Com corticoide inalatório, enxaguar a boca e cuspir depois do uso.</li><li>Contar as doses (contador do aparelho ou anotação) para não usar dispositivo vazio.</li></ul><p>O módulo de MIP e os PCDT de asma (2026) e DPOC (2025) trazem o tratamento; aqui o serviço é verificar a técnica, porque erro de técnica é causa frequente de falha de tratamento.</p><div class=\"cx balcao\"><b>No balcão</b><p>Senhor de 74 anos compra o terceiro frasco de broncodilatador no mês e diz que \"a bombinha não faz efeito\". Na demonstração, ele dispara o aerossol e só depois inspira, pela boca entreaberta. Você ensina a técnica com espaçador, pede que ele repita, anota a orientação na Declaração e encaminha por escrito ao médico, porque o uso frequente de broncodilatador de alívio indica asma ou DPOC mal controlada.</p></div>"
+  },
+  {
+   "id": "m18-biosseguranca-inspecao",
+   "titulo": "Biossegurança, resíduos e sala de serviços",
+   "resumo": "<p>A sala de serviços farmacêuticos é a parte da drogaria que mais se parece com um serviço de saúde, e a inspeção a avalia assim. Os POPs exigidos, a tabela de EPI, a classificação de resíduos e a autoinspeção completa estão no módulo de POPs; aqui ficam os pontos que o recém-formado verifica no primeiro dia como farmacêutico da sala.</p><h3>Ambiente</h3><ul><li>Ambiente diverso da área de dispensação e de circulação, com privacidade e conforto (RDC 44/2009, art. 15, §1º).</li><li>Lavatório com água corrente, toalha descartável, sabonete líquido, gel antisséptico e lixeira com pedal e tampa (§2º); acesso ao sanitário que não passe pela sala (§3º); kit de primeiros socorros identificado e acessível (§4º).</li><li>Limpeza diária no início e no fim do expediente, registrada; ambiente limpo antes de cada atendimento e nova limpeza quando necessário (art. 16; para exames, RDC 978/2025, art. 113).</li><li>Para exames: itens da sala de coleta do Serviço Tipo I (RDC 978/2025, art. 14). Para vacinas: itens da sala de vacinação (RDC 197/2017, art. 10).</li></ul><h3>Mãos, EPI e perfurocortantes</h3><ul><li>\"A execução de qualquer serviço farmacêutico deve ser precedida da anti-sepsia das mãos do profissional, independente do uso de Equipamentos de Proteção Individual\" (RDC 44/2009, art. 84).</li><li>EPI fornecido pela farmácia (art. 18), com treinamento sobre uso e descarte (art. 26) e indicado no POP de cada serviço (art. 72, parágrafo único; art. 80, §2º).</li><li>Lanceta, agulha e ampola: resíduo do grupo E em coletor rígido, trocado ao atingir 3/4 da capacidade ou conforme o fabricante, sem reencapar agulha com as mãos (RDC 222/2018; detalhes no módulo de POPs).</li><li>Algodão e gaze com sangue seguem o PGRSS (RDC 44/2009, art. 73).</li></ul><div class=\"cx alerta\"><b>Atenção</b><p>Picada com lanceta ou agulha usada é acidente de trabalho com material biológico: lavar o local com água e sabão sem espremer, comunicar o farmacêutico responsável, identificar a pessoa atendida quando possível e encaminhar o trabalhador logo ao serviço de referência para avaliação de profilaxia (POP de biossegurança, RDC 44/2009, art. 27).</p></div><h3>Documentos que a fiscalização pede na sala</h3><ul><li>licença sanitária com os serviços listados (RDC 44/2009, art. 61, §3º), incluindo EAC (RDC 978/2025, art. 63) e vacinação (RDC 197/2017, art. 4º) quando houver;</li><li>POPs dos serviços, com referências e EPI (RDC 44/2009, arts. 64, 72, 80 e 83);</li><li>registros de atendimento com consentimento e segundas vias das Declarações (arts. 64 e 81, §4º);</li><li>registros de limpeza, de calibração dos aparelhos (art. 71, parágrafo único) e de temperatura dos refrigeradores;</li><li>para exames: CIQ, CEQ, relação dos procedimentos, relação nominal da equipe, educação permanente e instruções de biossegurança (RDC 978/2025, arts. 110, 117 e 127);</li><li>registros de treinamento da equipe (RDC 44/2009, art. 28) e PGRSS com comprovantes de coleta.</li></ul><div class=\"cx balcao\"><b>No balcão</b><p>No primeiro dia, abra a sala antes do expediente e confira: planilha de limpeza do dia anterior assinada, coletor de perfurocortantes abaixo de 3/4, glicosímetro com CIQ do lote em uso, tiras na validade, refrigerador com máxima e mínima anotadas, Declarações em branco com cabeçalho completo, kit de primeiros socorros no lugar. O checklist do material de apoio cobre o resto.</p></div>"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m18-mapa-servicos",
+   "titulo": "Serviços clínicos na drogaria",
+   "centro": "Serviços clínicos",
+   "ramos": [
+    {
+     "t": "Base legal",
+     "itens": [
+      "Lei 13.021/2014: farmácia presta serviços",
+      "RDC 44/2009, art. 61: o que é permitido",
+      "Só o que consta na licença sanitária",
+      "Res. CFF 499/2008: serviço é do farmacêutico",
+      "Res. CFF 586/2013: ilegal em 1ª instância"
+     ]
+    },
+    {
+     "t": "Permitidos (RDC 44)",
+     "itens": [
+      "Aferição de PA e temperatura",
+      "Exames: RDC 978/2025 (Serviço Tipo I)",
+      "Administração de medicamentos",
+      "Perfuração de lóbulo auricular",
+      "Atenção domiciliar, se licenciada"
+     ]
+    },
+    {
+     "t": "Serviços do CFF (2016)",
+     "itens": [
+      "Rastreamento e educação em saúde",
+      "Dispensação e manejo autolimitado",
+      "Conciliação e revisão da farmacoterapia",
+      "Gestão da condição e acompanhamento",
+      "Consulta = encontro, não serviço"
+     ]
+    },
+    {
+     "t": "Documentos",
+     "itens": [
+      "Ficha com consentimento expresso (art. 64)",
+      "DSF em 2 vias (art. 81)",
+      "Frase: não tem finalidade de diagnóstico",
+      "Encaminhamento por escrito (art. 66)",
+      "Guarda: 5 anos (RDC 978, art. 115)"
+     ]
+    },
+    {
+     "t": "Limites",
+     "itens": [
+      "Não diagnosticar (art. 69)",
+      "Não indicar nem alterar tarjado (§4º)",
+      "Dependência não vira consultório (art. 90)",
+      "DSF sem propaganda (art. 81, §3º)",
+      "Dado de saúde é sensível (LGPD)"
+     ]
+    },
+    {
+     "t": "Vacina e injetável",
+     "itens": [
+      "Injetável só com receita avaliada (art. 75)",
+      "Vedado uso exclusivo hospitalar",
+      "Vacina: RDC 197/2017 e Lei 14.675/2023",
+      "Fora do calendário SUS: prescrição médica",
+      "Registro no sistema do Ministério da Saúde"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m18-mapa-afericoes",
+   "titulo": "Aferições e exames: valores e condutas",
+   "centro": "Medir e encaminhar",
+   "ramos": [
+    {
+     "t": "PA: técnica",
+     "itens": [
+      "Aparelho automático de braço validado",
+      "Manguito pela circunferência do braço",
+      "Repouso 5 min; 30 min sem café ou cigarro",
+      "3 medidas, 1 min; média das 2 últimas",
+      "Diferença > 10 mmHg: medir de novo"
+     ]
+    },
+    {
+     "t": "PA: DBHA 2025",
+     "itens": [
+      "Normal: < 120/80 mmHg",
+      "Pré-hipertensão: 120 a 139 e/ou 80 a 89",
+      "HA: 140/90 ou mais: UBS agendada",
+      "180/110 sem sintoma: médico em até 7 dias",
+      "180/110 com sintoma: SAMU 192"
+     ]
+    },
+    {
+     "t": "Glicemia: SBD",
+     "itens": [
+      "Jejum < 100 mg/dL normal",
+      "Jejum 100 a 125: faixa de pré-diabetes",
+      "Jejum 126 ou mais / casual 200: encaminhar",
+      "Hipoglicemia: < 70; grave < 54",
+      "Capilar é triagem, não diagnóstico"
+     ]
+    },
+    {
+     "t": "Exames (RDC 978)",
+     "itens": [
+      "Punção capilar, oral, naso e orofaringe",
+      "Tudo no local; sem guardar amostra",
+      "CIQ por lote e remessa; CEQ",
+      "Laudo + DSF; notificar DNC",
+      "Só farmacêutico executa"
+     ]
+    },
+    {
+     "t": "Temperatura (CFF 2018)",
+     "itens": [
+      "Axilar: febre acima de 37,4 °C",
+      "Oral: febre acima de 37,5 °C",
+      "Hiperpirexia > 41,1 °C: urgência",
+      "Hipotermia < 35 °C: médico",
+      "Termômetro de mercúrio proibido"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m18-tab-servicos",
+   "titulo": "Serviço, pode fazer?, requisitos, norma",
+   "colunas": [
+    "Serviço",
+    "Pode fazer na drogaria?",
+    "Requisitos principais",
+    "Norma"
+   ],
+   "linhas": [
+    [
+     "Aferição de pressão arterial",
+     "Sim",
+     "Sala de serviços; aparelho regularizado e calibrado; POP; DSF com referência e frase",
+     "RDC 44/2009, arts. 15, 69, 71, 72 e 81"
+    ],
+    [
+     "Temperatura corporal",
+     "Sim",
+     "Termômetro regularizado (sem mercúrio); POP com via e referência; DSF",
+     "RDC 44/2009, art. 69, §1º; RDC 145/2017"
+    ],
+    [
+     "Glicemia capilar",
+     "Sim, como Serviço Tipo I",
+     "Licença com EAC; CNES; só farmacêutico; CIQ e CEQ; procedimento para resultado crítico; laudo e DSF",
+     "RDC 978/2025, arts. 8º a 14, 60, 63, 74, 119"
+    ],
+    [
+     "Outros exames em punção capilar, cavidade oral, naso ou orofaringe",
+     "Sim, como Serviço Tipo I",
+     "Produto regularizado; tudo no local; sem metodologia própria; notificar doença de notificação compulsória",
+     "RDC 978/2025, art. 10 (redação RDC 986/2025), arts. 66 e 67"
+    ],
+    [
+     "Exame em urina, fezes ou sangue venoso",
+     "Não",
+     "Fora do Tipo I; coleta venosa é de posto de coleta",
+     "RDC 978/2025, art. 10"
+    ],
+    [
+     "Coletar e enviar amostra ao laboratório",
+     "Não",
+     "Farmácia não guarda nem transporta material biológico",
+     "RDC 978/2025, art. 10, III"
+    ],
+    [
+     "Venda de autoteste",
+     "Sim (comércio)",
+     "Orientar leitura, conduta e descarte",
+     "RDC 978/2025, art. 4º"
+    ],
+    [
+     "Administração de injetáveis",
+     "Sim",
+     "Receita avaliada; vedado uso exclusivo hospitalar; farmacêutico presente; registro de lote e registro Anvisa",
+     "RDC 44/2009, arts. 74 a 77 e 81; Res. CFF 499/2008, art. 21"
+    ],
+    [
+     "Nebulização",
+     "Depende da vigilância local",
+     "Não citada na RDC 44/2009; confirmar enquadramento e licença",
+     "RDC 44/2009, art. 61, §§ 3º a 5º"
+    ],
+    [
+     "Vacinação",
+     "Sim, com licença específica",
+     "CNES; RT e substituto; sala e refrigerador exclusivos; registro no sistema do MS; fora do calendário SUS só com prescrição médica",
+     "RDC 197/2017; Lei 14.675/2023; Res. CFF 654/2018"
+    ],
+    [
+     "Perfuração de lóbulo auricular",
+     "Sim",
+     "Pistola e brinco regularizados; brinco estéril aberto na frente do usuário; POP; DSF com lotes",
+     "RDC 44/2009, arts. 78 a 81"
+    ],
+    [
+     "Perfuração de cartilagem ou outra região",
+     "Não",
+     "Fora do art. 61",
+     "RDC 44/2009, art. 61, §5º"
+    ],
+    [
+     "Atenção farmacêutica domiciliar",
+     "Só se licenciada",
+     "Licença e autorização específicas",
+     "RDC 44/2009, art. 68"
+    ],
+    [
+     "Prescrição de medicamento tarjado",
+     "Não",
+     "Proibido indicar ou alterar tarjado; Res. CFF 586/2013 e 5/2025 contestadas judicialmente",
+     "RDC 44/2009, arts. 69, §4º, e 81, §3º"
+    ],
+    [
+     "Medidas antropométricas (peso, IMC, cintura)",
+     "Confirmar com a vigilância",
+     "Não listadas como parâmetro fisiológico; usar como ação educativa",
+     "RDC 44/2009, art. 69, §1º"
+    ]
+   ],
+   "nota": "Todo serviço precisa constar da licença sanitária do estabelecimento e pode ter exigência adicional estadual ou municipal (RDC 44/2009, art. 61, §§ 3º e 4º)."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m18-tab-valores",
+   "titulo": "Valores de referência e quando encaminhar",
+   "colunas": [
+    "Medida",
+    "Valor",
+    "Conduta na farmácia",
+    "Fonte e ano"
+   ],
+   "linhas": [
+    [
+     "PA (média das 2 últimas de 3)",
+     "Abaixo de 120/80 mmHg",
+     "Orientar hábitos; medir ao menos 1 vez por ano",
+     "DBHA 2025"
+    ],
+    [
+     "PA",
+     "120 a 139 e/ou 80 a 89 mmHg (pré-hipertensão)",
+     "Medidas não medicamentosas; avaliação de risco na UBS, sem urgência",
+     "DBHA 2025"
+    ],
+    [
+     "PA",
+     "140/90 mmHg ou mais",
+     "Encaminhamento escrito para consulta agendada na unidade de saúde",
+     "DBHA 2025, cap. 14"
+    ],
+    [
+     "PA",
+     "180/110 mmHg ou mais, sem sintomas",
+     "Avaliação médica precoce (diretriz: reavaliação em 1 a 7 dias); conferir adesão",
+     "DBHA 2025, cap. 11"
+    ],
+    [
+     "PA",
+     "180/110 mmHg ou mais, com dor no peito, falta de ar, déficit neurológico ou confusão",
+     "SAMU 192",
+     "DBHA 2025, cap. 11"
+    ],
+    [
+     "PA em gestante",
+     "140/90 mmHg ou mais",
+     "Pré-natal ou maternidade no mesmo dia",
+     "DBHA 2025, cap. 10 (definição)"
+    ],
+    [
+     "Glicemia capilar de jejum (8 h ou mais)",
+     "Abaixo de 100 mg/dL",
+     "Orientar; rastreamento formal é exame de laboratório",
+     "SBD, critérios diagnósticos (texto 2024, edição 2026)"
+    ],
+    [
+     "Glicemia capilar de jejum",
+     "100 a 125 mg/dL",
+     "Encaminhar para glicemia plasmática e HbA1c",
+     "SBD (texto 2024, edição 2026)"
+    ],
+    [
+     "Glicemia capilar de jejum",
+     "126 mg/dL ou mais",
+     "Encaminhar com consulta agendada",
+     "SBD (texto 2024, edição 2026)"
+    ],
+    [
+     "Glicemia capilar casual",
+     "200 mg/dL ou mais com sintomas",
+     "Encaminhar com prioridade",
+     "SBD (texto 2024, edição 2026)"
+    ],
+    [
+     "Glicemia capilar",
+     "54 a 69 mg/dL (hipoglicemia nível 1)",
+     "Consciente: carboidrato de absorção rápida e nova medida",
+     "SBD 2026, metas de controle glicêmico"
+    ],
+    [
+     "Glicemia capilar",
+     "Abaixo de 54 mg/dL ou confusão (níveis 2 e 3)",
+     "Inconsciente ou sem engolir: nada pela boca, SAMU 192",
+     "SBD 2026"
+    ],
+    [
+     "Glicemia capilar",
+     "Leitura HI ou acima de 250 mg/dL com vômitos, sonolência, respiração rápida",
+     "Urgência",
+     "SBD 2026 (cetonemia em dia de doença no DM1)"
+    ],
+    [
+     "Temperatura axilar",
+     "34,7 a 37,4 °C normal; acima de 37,4 °C febre",
+     "Avaliar sinais de alerta (módulo de MIP)",
+     "CFF, Guia de febre, 2018"
+    ],
+    [
+     "Temperatura oral",
+     "35,5 a 37,5 °C normal; acima de 37,5 °C febre",
+     "Idem",
+     "CFF, 2018"
+    ],
+    [
+     "Temperatura",
+     "Acima de 41,1 °C (hiperpirexia)",
+     "Urgência",
+     "CFF, 2018"
+    ],
+    [
+     "Temperatura",
+     "Abaixo de 35 °C (hipotermia)",
+     "Atendimento médico",
+     "CFF, 2018"
+    ],
+    [
+     "Temperatura em criança",
+     "Menor de 6 meses com 38 °C retal ou equivalente; maior de 6 meses com 40 °C ou mais",
+     "Encaminhar ao médico",
+     "CFF, 2018"
+    ]
+   ],
+   "nota": "Valores de triagem: não fecham diagnóstico (RDC 44/2009, art. 69; RDC 978/2025, art. 60). A Declaração de Serviço Farmacêutico traz o valor medido, a referência usada e a frase obrigatória."
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m18-fluxo-pa",
+   "titulo": "Aferição de PA no balcão",
+   "passos": [
+    {
+     "t": "Cliente pede para medir a pressão; levar à sala de serviços",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Tem dor no peito, falta de ar, fraqueza ou dormência de um lado, alteração da fala ou da visão?",
+     "tipo": "decisao",
+     "sim": "Acionar SAMU 192 sem esperar a medida; registrar depois",
+     "nao": "Seguir para o preparo"
+    },
+    {
+     "t": "Fumou, tomou café, comeu ou bebeu álcool há menos de 30 min, ou fez exercício há menos de 90 min?",
+     "tipo": "decisao",
+     "sim": "Aguardar o intervalo na sala de espera",
+     "nao": "Seguir"
+    },
+    {
+     "t": "Repouso de 5 min sentado; medir o braço e escolher o manguito",
+     "tipo": "acao"
+    },
+    {
+     "t": "Três medidas com 1 min de intervalo; média das duas últimas (mais medidas se diferença > 10 mmHg)",
+     "tipo": "acao"
+    },
+    {
+     "t": "Média de 180/110 mmHg ou mais?",
+     "tipo": "decisao",
+     "sim": "Sem sintomas: avaliação médica no mesmo dia ou seguinte; com sintomas: SAMU 192",
+     "nao": "Classificar pela DBHA 2025"
+    },
+    {
+     "t": "Média de 140/90 mmHg ou mais?",
+     "tipo": "decisao",
+     "sim": "Encaminhamento escrito para consulta agendada na UBS",
+     "nao": "Normal ou pré-hipertensão: orientar hábitos e reavaliação"
+    },
+    {
+     "t": "Não indicar nem alterar anti-hipertensivo (RDC 44/2009, art. 69, §4º)",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Registrar com consentimento; entregar DSF com valores, referência e frase obrigatória",
+     "tipo": "acao"
+    },
+    {
+     "t": "Combinar retorno ou contato; higienizar braçadeira e mãos",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m18-fluxo-glicemia",
+   "titulo": "Glicemia capilar alterada",
+   "passos": [
+    {
+     "t": "Resultado lido; CIQ do lote conferido antes do exame",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Valor abaixo de 70 mg/dL?",
+     "tipo": "decisao",
+     "sim": "Ir para a conduta de hipoglicemia",
+     "nao": "Seguir para valores altos"
+    },
+    {
+     "t": "Consciente e consegue engolir?",
+     "tipo": "decisao",
+     "sim": "Carboidrato de absorção rápida, nova medida, não liberar dirigindo; encaminhar ao médico que acompanha",
+     "nao": "Nada pela boca; SAMU 192"
+    },
+    {
+     "t": "Valor HI ou acima de 250 mg/dL com vômitos, dor abdominal, sonolência ou respiração rápida?",
+     "tipo": "decisao",
+     "sim": "Encaminhar com urgência",
+     "nao": "Interpretar pela condição (jejum ou casual)"
+    },
+    {
+     "t": "Sem diagnóstico de diabetes e jejum de 100 mg/dL ou mais, ou casual de 200 mg/dL ou mais?",
+     "tipo": "decisao",
+     "sim": "Encaminhamento escrito para glicemia plasmática e HbA1c",
+     "nao": "Com diabetes: comparar com a meta e revisar adesão e técnica"
+    },
+    {
+     "t": "Resultado não diagnostica; não indicar nem ajustar medicamento sob prescrição",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Seguir o procedimento escrito para resultado crítico (RDC 978/2025, art. 119)",
+     "tipo": "acao"
+    },
+    {
+     "t": "Entregar laudo e DSF com referência e frase obrigatória; registrar e combinar retorno",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "id": "m18-quadro-dsf",
+   "titulo": "Modelo de Declaração de Serviço Farmacêutico (campos)",
+   "html": "<p>Campos montados a partir do art. 81 da RDC 44/2009. Os itens entre colchetes são preenchidos no atendimento; \"quando houver\" indica campo que só aparece se o serviço o exigir.</p><div class=\"tab\"><table><thead><tr><th>Bloco</th><th>Campos</th></tr></thead><tbody><tr><td>Cabeçalho (papel do estabelecimento)</td><td>[Nome do estabelecimento] · [Endereço] · [Telefone] · [CNPJ] (§1º)</td></tr><tr><td>Título</td><td>DECLARAÇÃO DE SERVIÇO FARMACÊUTICO · [Serviço prestado] · [Data e hora]</td></tr><tr><td>Usuário</td><td>[Nome do usuário ou do responsável legal] (§1º)</td></tr><tr><td>Prescrição apresentada</td><td>Quando houver: [Medicamento prescrito] · [Nome e inscrição do prescritor no conselho] (§2º, I, a)</td></tr><tr><td>Medicamento isento indicado</td><td>Quando houver: [MIP pela DCB] · [Posologia] (§2º, I, b)</td></tr><tr><td>Parâmetros e exames</td><td>Quando houver: [Valor medido ou resultado, com unidade] · [Valor de referência e fonte] (§2º, I, c)</td></tr><tr><td>Frase obrigatória</td><td>Quando houver aferição ou exame: \"ESTE PROCEDIMENTO NÃO TEM FINALIDADE DE DIAGNÓSTICO E NÃO SUBSTITUI A CONSULTA MÉDICA\" (§2º, I, d)</td></tr><tr><td>Medicamento administrado</td><td>Quando houver: [Nome comercial, exceto genérico] · [DCB] · [Concentração e forma farmacêutica] · [Via] · [Lote] · [Registro na Anvisa] (§2º, I, e)</td></tr><tr><td>Perfuração de lóbulo</td><td>Quando houver: brinco [fabricante, CNPJ, lote] · pistola [fabricante, CNPJ, lote] (§2º, II)</td></tr><tr><td>Orientação farmacêutica</td><td>[Texto da orientação] (§2º, I, f)</td></tr><tr><td>Plano de intervenção</td><td>Quando houver: [Encaminhamento, retorno, metas] (§2º, I, g)</td></tr><tr><td>Responsável</td><td>[Data] · [Assinatura] · [Carimbo com nome e CRF do farmacêutico] (§2º, I, h)</td></tr><tr><td>Vias</td><td>1ª via: usuário · 2ª via: arquivo do estabelecimento (§4º)</td></tr></tbody></table></div><div class=\"cx alerta\"><b>Atenção</b><p>Sem logotipo de laboratório, cupom ou propaganda, e sem indicação de medicamento que exige prescrição (art. 81, §3º). Em exame de análises clínicas, a farmácia entrega também o laudo com os itens do art. 167 da RDC 978/2025, e os dois podem formar um documento único.</p></div>"
+  },
+  {
+   "tipo": "quadro",
+   "id": "m18-quadro-encaminhamento",
+   "titulo": "Modelo de encaminhamento por escrito",
+   "html": "<p>Texto curto, com achados e sem diagnóstico. Entregue junto com a Declaração.</p><div class=\"tab\"><table><thead><tr><th>Campo</th><th>Exemplo de preenchimento (dados fictícios)</th></tr></thead><tbody><tr><td>De</td><td>[Farmácia, endereço, telefone] · Farmacêutico [nome], CRF [UF e número]</td></tr><tr><td>Para</td><td>Médico da unidade de saúde de referência</td></tr><tr><td>Paciente</td><td>[Nome], [idade] anos</td></tr><tr><td>Motivo</td><td>PA elevada em aferição de triagem na farmácia</td></tr><tr><td>Achados</td><td>[Data e hora]: três medidas no braço direito, aparelho automático de braço, manguito adulto; média das duas últimas 152/96 mmHg. Nega dor torácica, dispneia e déficit neurológico.</td></tr><tr><td>Medicamentos em uso</td><td>[Lista com dose e horário, como o paciente usa]</td></tr><tr><td>Orientações dadas</td><td>Redução de sal; retorno à farmácia para nova aferição em [data]</td></tr><tr><td>Solicitação</td><td>Avaliação clínica em consulta agendada</td></tr><tr><td>Assinatura</td><td>[Data] · [Assinatura e carimbo com CRF]</td></tr></tbody></table></div>"
+  },
+  {
+   "tipo": "checklist",
+   "id": "m18-check-sala",
+   "titulo": "Sala de serviços farmacêuticos pronta para a inspeção",
+   "itens": [
+    "Licença sanitária lista cada serviço oferecido (PA, temperatura, EAC, injetáveis, lóbulo, vacinação)",
+    "Farmácia que faz exames está inscrita no CNES",
+    "Sala separada da dispensação, com privacidade e acesso ao sanitário que não passa por ela",
+    "Lavatório com água, sabonete líquido, toalha descartável, gel antisséptico e lixeira com pedal e tampa",
+    "Kit de primeiros socorros identificado e de fácil acesso",
+    "Planilha de limpeza com registro no início e no fim de cada dia",
+    "POP de cada serviço assinado, com técnica, referências, EPI e conduta em intercorrência",
+    "Aparelho de PA automático de braço, regularizado, com registro de calibração no último ano",
+    "Manguitos de pelo menos três tamanhos e fita métrica",
+    "Termômetro regularizado, sem mercúrio",
+    "Glicosímetro e tiras regularizados, tiras na validade, CIQ registrado por lote e remessa",
+    "Comprovante de participação em controle externo da qualidade",
+    "Procedimento escrito para resultado crítico afixado ou acessível na sala",
+    "Refrigerador de reagentes ou vacinas com registro diário de máxima, mínima e momento",
+    "Coletor de perfurocortantes rígido, identificado, abaixo de 3/4",
+    "PGRSS e comprovantes de coleta de resíduos",
+    "Declarações com cabeçalho completo (nome, endereço, telefone, CNPJ) e frase obrigatória",
+    "Segundas vias das Declarações e fichas com consentimento arquivadas e acessíveis",
+    "Lista atualizada dos serviços públicos de saúde próximos, com endereço e telefone",
+    "Registros de treinamento da equipe e de educação permanente anual (para EAC)"
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m18-cartoes",
+   "titulo": "Cartões de revisão: serviços clínicos",
+   "itens": [
+    {
+     "f": "Quais parâmetros fisiológicos a RDC 44/2009 permite aferir?",
+     "v": "Somente pressão arterial e temperatura corporal (art. 69, §1º)."
+    },
+    {
+     "f": "Que norma rege a glicemia capilar feita na farmácia?",
+     "v": "A RDC 978/2025, alterada pela RDC 986/2025: a farmácia precisa estar classificada como Serviço Tipo I."
+    },
+    {
+     "f": "Quais amostras o Serviço Tipo I pode usar?",
+     "v": "Punção capilar, cavidade oral, nasofaringe ou orofaringe (art. 10, I, redação da RDC 986/2025)."
+    },
+    {
+     "f": "Balconista pode fazer glicemia capilar?",
+     "v": "Não. Na farmácia, só o farmacêutico executa exame de análises clínicas (Anvisa, Perguntas e Respostas, 2025)."
+    },
+    {
+     "f": "Qual a finalidade do exame feito na farmácia?",
+     "v": "Triagem, sem fins confirmatórios (RDC 978/2025, art. 60)."
+    },
+    {
+     "f": "Por quanto tempo guardar os registros de exames?",
+     "v": "No mínimo 5 anos (RDC 978/2025, art. 115)."
+    },
+    {
+     "f": "Técnica de PA da DBHA 2025: quantas medidas?",
+     "v": "Três, com intervalo de 1 minuto, usando a média das duas últimas; mais medidas se diferença > 10 mmHg."
+    },
+    {
+     "f": "Pré-hipertensão pela DBHA 2025",
+     "v": "Sistólica 120 a 139 e/ou diastólica 80 a 89 mmHg."
+    },
+    {
+     "f": "PA de 180/110 mmHg com dor no peito: conduta?",
+     "v": "Suspeita de emergência hipertensiva: acionar o SAMU (192)."
+    },
+    {
+     "f": "Preparo antes da medida da PA (SBC, 2023)",
+     "v": "Bexiga vazia; 90 min sem exercício; 30 min sem café, álcool, comida ou cigarro; 5 min de repouso."
+    },
+    {
+     "f": "Glicemia de jejum na faixa de pré-diabetes (SBD)",
+     "v": "100 a 125 mg/dL."
+    },
+    {
+     "f": "Hipoglicemia nível 2 (SBD 2026)",
+     "v": "Glicemia abaixo de 54 mg/dL."
+    },
+    {
+     "f": "Frase obrigatória na DSF com aferição ou exame",
+     "v": "\"ESTE PROCEDIMENTO NÃO TEM FINALIDADE DE DIAGNÓSTICO E NÃO SUBSTITUI A CONSULTA MÉDICA\" (art. 81, §2º, I, d)."
+    },
+    {
+     "f": "Quantas vias tem a Declaração de Serviço Farmacêutico?",
+     "v": "Duas: a primeira para o usuário e a segunda arquivada (RDC 44/2009, art. 81, §4º)."
+    },
+    {
+     "f": "Injetável que exige receita: condição para aplicar",
+     "v": "Receita apresentada e avaliada pelo farmacêutico, validade conferida (RDC 44/2009, art. 75)."
+    },
+    {
+     "f": "Vacina fora do Calendário Nacional em farmácia privada",
+     "v": "Só com prescrição médica, e a dispensação fica vinculada à administração (RDC 197/2017, art. 14)."
+    },
+    {
+     "f": "Febre axilar pelo guia do CFF (2018)",
+     "v": "Acima de 37,4 °C."
+    },
+    {
+     "f": "Caneta de insulina: tempo com o botão pressionado",
+     "v": "No mínimo 10 segundos, retirando a agulha com o botão ainda pressionado (SBD)."
+    },
+    {
+     "f": "Teste de gravidez em urina pode ser executado na farmácia?",
+     "v": "Não: urina não é amostra do Tipo I. A venda do autoteste é livre."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m18-questoes",
+   "titulo": "Questões: serviços clínicos na farmácia comercial",
+   "itens": [
+    {
+     "p": "Uma drogaria licenciada para aferir parâmetros fisiológicos quer ampliar os serviços. Considerando a RDC 44/2009 e a RDC 978/2025, assinale a alternativa correta.",
+     "alt": [
+      "Peso e altura estão entre os parâmetros fisiológicos listados na RDC 44/2009.",
+      "A glicemia capilar segue como parâmetro bioquímico da RDC 44/2009, sem controle de qualidade.",
+      "Exame em amostra de urina é permitido se o resultado sair na hora, no próprio local.",
+      "A glicemia capilar exige classificação como Serviço Tipo I, com CIQ e CEQ.",
+      "O balconista treinado pode executar a glicemia sob supervisão do farmacêutico."
+     ],
+     "c": 3,
+     "com": "Correta a D: a glicemia capilar é exame de análises clínicas e a farmácia precisa ser Serviço Tipo I (RDC 978/2025, arts. 8º e 10), com CIQ e CEQ (arts. 183 e 185). A: a RDC 44/2009 só lista PA e temperatura (art. 69, §1º). B: o §2º do art. 69 e o art. 70, que tratavam da glicemia, foram revogados. C: urina não é amostra do Tipo I (art. 10, I). E: na farmácia, só o farmacêutico executa EAC (Perguntas e Respostas da Anvisa, 2025)."
+    },
+    {
+     "p": "O farmacêutico afere a pressão de um cliente de 50 anos com aparelho automático de braço. Segundo a Diretriz Brasileira de Hipertensão Arterial 2025, o valor a registrar é:",
+     "alt": [
+      "a média das duas últimas de três medidas feitas com 1 minuto de intervalo",
+      "a primeira medida, feita logo após o cliente sentar, sem repouso prévio",
+      "o maior valor entre três medidas feitas no mesmo braço em 5 minutos",
+      "a média de duas medidas, uma em cada braço, feitas ao mesmo tempo na primeira consulta",
+      "o menor valor obtido, para reduzir o efeito do avental branco"
+     ],
+     "c": 0,
+     "com": "Correta a A: a DBHA 2025 (Quadro 3.1) recomenda três medidas com intervalo de 1 minuto e a média das duas últimas, com medidas adicionais se a diferença passar de 10 mmHg. B ignora o repouso de 5 minutos. C e E escolhem um valor isolado, o que a técnica não prevê. D confunde a medida inicial nos dois braços, que serve para escolher o braço de referência, com o valor final."
+    },
+    {
+     "p": "Adulto sem diagnóstico de hipertensão tem média de 134/86 mmHg, com técnica correta, na farmácia. Pela DBHA 2025, a classificação e a conduta adequadas são:",
+     "alt": [
+      "PA normal; orientar a medir de novo daqui a cinco anos",
+      "hipertensão estágio 1; acionar o SAMU pelo risco imediato",
+      "hipertensão estágio 2; orientar iniciar anti-hipertensivo hoje",
+      "PA ótima; nenhuma orientação é necessária no momento",
+      "pré-hipertensão; medidas não medicamentosas e reavaliação"
+     ],
+     "c": 4,
+     "com": "Correta a E: a DBHA 2025 define pré-hipertensão como 120 a 139 e/ou 80 a 89 mmHg e recomenda medidas não medicamentosas. A e D: normal é abaixo de 120/80 mmHg, e a categoria PA ótima deixou de existir na DBHA 2025. B e C: hipertensão começa em 140/90 mmHg; além disso, a farmácia não indica medicamento sob prescrição (RDC 44/2009, art. 69, §4º)."
+    },
+    {
+     "p": "Hipertenso de 63 anos, em tratamento, tem média de 186/114 mmHg na farmácia. Nega dor no peito, falta de ar, alteração neurológica ou visual. Qual a conduta adequada?",
+     "alt": [
+      "Indicar uma dose extra do anti-hipertensivo e repetir a medida em 1 hora.",
+      "Orientar avaliação médica precoce, conferir a adesão e encaminhar por escrito.",
+      "Acionar o SAMU, pois o valor isolado acima de 180/110 mmHg já define emergência hipertensiva.",
+      "Considerar o valor aceitável por se tratar de hipertenso em tratamento.",
+      "Oferecer captopril sublingual e liberar o cliente após nova medida."
+     ],
+     "c": 1,
+     "com": "Correta a B: sem sintomas, a DBHA 2025 trata como elevação importante sem lesão aguda de órgão-alvo, com reavaliação médica precoce (1 a 7 dias). A e E: a farmácia não indica nem altera medicamento sob prescrição (RDC 44/2009, art. 69, §4º). C: emergência hipertensiva se define pela lesão aguda de órgão-alvo, não só pelo número. D: 180/110 mmHg ou mais é estágio 3 e pede avaliação."
+    },
+    {
+     "p": "Mulher de 47 anos, sem diagnóstico de diabetes, faz glicemia capilar em jejum de 10 horas na farmácia Tipo I: 112 mg/dL. Qual a conduta correta?",
+     "alt": [
+      "Registrar o diagnóstico de pré-diabetes na Declaração de Serviço Farmacêutico.",
+      "Indicar metformina e marcar retorno na farmácia em 30 dias.",
+      "Encaminhar por escrito para glicemia plasmática e HbA1c, como resultado de triagem.",
+      "Considerar normal, pois o limite superior da glicemia capilar de jejum é de 140 mg/dL.",
+      "Repetir a glicemia capilar até obter valor abaixo de 100 mg/dL."
+     ],
+     "c": 2,
+     "com": "Correta a C: o exame na farmácia é de triagem, sem fins confirmatórios (RDC 978/2025, art. 60), e a SBD usa glicemia plasmática e HbA1c para diagnóstico; 100 a 125 mg/dL em jejum é a faixa de pré-diabetes. A: farmácia não registra diagnóstico. B: metformina exige prescrição (RDC 44/2009, art. 69, §4º). D: o limite normal de jejum é abaixo de 100 mg/dL. E: repetir até o valor agradar não tem base técnica."
+    },
+    {
+     "p": "Senhora de 70 anos, em uso de insulina, chega suada e trêmula. Glicemia capilar: 48 mg/dL. Está consciente e consegue engolir. A conduta imediata é:",
+     "alt": [
+      "registrar o valor na Declaração e orientar a procurar o médico que a acompanha na próxima semana",
+      "aplicar insulina rápida para corrigir o desequilíbrio da glicose",
+      "não oferecer nada e aguardar a melhora espontânea na sala",
+      "oferecer carboidrato de absorção rápida, medir de novo e não liberá-la sozinha",
+      "encaminhá-la a pé ao pronto-socorro, sem nova medida"
+     ],
+     "c": 3,
+     "com": "Correta a D: 48 mg/dL é hipoglicemia nível 2 (abaixo de 54 mg/dL, SBD 2026); com a pessoa consciente e capaz de engolir, oferece-se carboidrato de absorção rápida, repete-se a medida e não se libera a pessoa sozinha; se houver confusão ou incapacidade de engolir, SAMU. A adia uma situação crítica (RDC 978/2025, art. 119). B piora a hipoglicemia. C e E deixam a pessoa sem tratamento."
+    },
+    {
+     "p": "Sobre a Declaração de Serviço Farmacêutico da RDC 44/2009, assinale a correta.",
+     "alt": [
+      "É emitida em duas vias: uma para o usuário e outra arquivada na farmácia.",
+      "Pode trazer o logotipo do laboratório que patrocinou a campanha de saúde da farmácia.",
+      "Pode indicar medicamento tarjado quando a pressão aferida estiver alta.",
+      "Dispensa a frase de alerta quando o valor medido está dentro do normal.",
+      "Só é obrigatória quando o serviço farmacêutico for cobrado do cliente."
+     ],
+     "c": 0,
+     "com": "Correta a A (art. 81, §4º). B e C: é proibido usar a Declaração para propaganda ou para indicar medicamento que exige prescrição (art. 81, §3º). D: a frase é exigida quando houver aferição ou exame, independentemente do resultado (§2º, I, d). E: a Declaração é entregue após a prestação de qualquer serviço farmacêutico (art. 81, caput)."
+    },
+    {
+     "p": "Farmácia licenciada para vacinação recebe pedido de cliente que quer comprar uma vacina que não consta do Calendário Nacional de Vacinação, para aplicar na clínica de um amigo. Pela RDC 197/2017, a farmácia deve:",
+     "alt": [
+      "vender, pois a vacina fora do calendário dispensa prescrição na rede privada",
+      "vender, desde que o cliente transporte a vacina em caixa térmica com gelo",
+      "aplicar sem receita, porque a farmácia já tem licença sanitária para vacinar",
+      "vender e anotar lote e validade no cartão de vacinação do próprio cliente",
+      "só aplicar na farmácia, com prescrição médica, sem vender para uso externo"
+     ],
+     "c": 4,
+     "com": "Correta a E: vacina fora do Calendário Nacional, em estabelecimento privado, só é administrada com prescrição médica, e a dispensação deve estar vinculada à administração (RDC 197/2017, art. 14 e parágrafo único). A e C contrariam a exigência de prescrição. B e D permitem venda para aplicação externa, vedada pelo parágrafo único do art. 14."
+    },
+    {
+     "p": "Farmácia classificada como Serviço Tipo I faz teste rápido de sífilis em sangue capilar, com resultado reagente. Assinale a alternativa correta.",
+     "alt": [
+      "O resultado confirma o diagnóstico e dispensa outros exames.",
+      "A suspeita é notificada e a pessoa é encaminhada para confirmação.",
+      "A farmácia guarda a amostra e a envia ao laboratório de apoio para confirmação.",
+      "O resultado pode ser informado ao acompanhante sem autorização.",
+      "Teste em sangue capilar é proibido em qualquer farmácia."
+     ],
+     "c": 1,
+     "com": "Correta a B: resultado que indique suspeita de doença de notificação compulsória é notificado também pela farmácia (RDC 978/2025, art. 66), e o exame na farmácia é de triagem (art. 60), seguindo as diretrizes de diagnóstico do Ministério da Saúde (art. 67). A contraria o art. 60. C: o Tipo I não guarda nem transporta material biológico (art. 10, III). D fere o sigilo (RDC 44/2009, art. 82). E: punção capilar é amostra permitida ao Tipo I (art. 10, I)."
+    },
+    {
+     "p": "Sobre a administração de medicamentos em drogaria, segundo a RDC 44/2009, é correto afirmar:",
+     "alt": [
+      "Medicamentos de uso exclusivo hospitalar podem ser aplicados se houver receita.",
+      "A sobra de frasco multidose fica guardada na farmácia para a próxima aplicação.",
+      "Medicamento sob prescrição pode ser aplicado sem receita se o cliente já o usou antes.",
+      "A Declaração registra o lote e o número de registro na Anvisa do medicamento aplicado.",
+      "A aplicação dispensa o farmacêutico na loja quando é feita por técnico experiente e treinado."
+     ],
+     "c": 3,
+     "com": "Correta a D (art. 81, §2º, I, e). A: é vedada a administração de medicamentos de uso exclusivo hospitalar (art. 74, parágrafo único). B: a sobra é entregue ao usuário, e é vedado guardar embalagem primária violada (art. 76). C: é preciso receita avaliada pelo farmacêutico (art. 75). E: a presença ou supervisão do farmacêutico é condição essencial (Resolução CFF 499/2008, art. 21)."
+    },
+    {
+     "p": "A gerência da rede pede ao farmacêutico a lista de nomes e glicemias dos clientes atendidos na campanha, para enviar ofertas de tiras reagentes. O farmacêutico deve considerar que:",
+     "alt": [
+      "é permitido, pois o cliente assinou o consentimento para o registro do serviço",
+      "é permitido, desde que as ofertas sejam enviadas apenas por e-mail",
+      "é vedado, pois os dados do serviço são sigilosos e de uso exclusivo dele",
+      "é permitido para quem teve glicemia alterada, por interesse sanitário",
+      "é vedado apenas no caso de clientes menores de 18 anos"
+     ],
+     "c": 2,
+     "com": "Correta a C: os dados dos serviços farmacêuticos são sigilosos e não podem ser usados para finalidade diversa (RDC 44/2009, art. 82); dado de saúde é sensível, e seu compartilhamento para vantagem econômica é vedado (Lei 13.709/2018, arts. 5º, II, e 11, §4º). A: o consentimento do art. 64 cobre o registro do serviço, não a oferta comercial. B, D e E criam exceções que a norma não prevê."
+    },
+    {
+     "p": "Adulto tem temperatura axilar de 37,6 °C medida na farmácia com termômetro digital. Pela tabela do guia de febre do CFF (2018), ele:",
+     "alt": [
+      "está em normotermia, pois o limite axilar de febre é 38,5 °C",
+      "tem febre, pois a normotermia axilar vai até 37,4 °C",
+      "tem hiperpirexia e deve ser levado à urgência agora",
+      "tem hipotermia e precisa ser aquecido antes de nova medida",
+      "precisa repetir a medida por via retal, a única aceita"
+     ],
+     "c": 1,
+     "com": "Correta a B: o guia do CFF (2018, Tabela 1) adota normotermia axilar de 34,7 a 37,4 °C e febre acima de 37,4 °C. A usa limite inexistente na tabela. C: hiperpirexia é acima de 41,1 °C. D: hipotermia é temperatura interna abaixo de 35 °C. E: o guia não recomenda a via retal na farmácia."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Brasil. Lei nº 13.021, de 8 de agosto de 2014. Exercício e fiscalização das atividades farmacêuticas (arts. 3º, 7º e 13). https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13021.htm",
+  "Brasil. Lei nº 13.709, de 14 de agosto de 2018. Lei Geral de Proteção de Dados Pessoais (arts. 5º, II, e 11, II, f, e §4º), com redação da Lei nº 13.853/2019. https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+  "Brasil. Lei nº 8.078, de 11 de setembro de 1990. Código de Defesa do Consumidor (arts. 6º, III, e 39, I).",
+  "Anvisa. Resolução RDC nº 44, de 17 de agosto de 2009. Boas Práticas Farmacêuticas em farmácias e drogarias. Texto consolidado com as alterações das RDC nº 41/2012, 786/2023 e 812/2023. AnvisaLegis, consultado em 15/10/2026.",
+  "Anvisa. Resolução RDC nº 978, de 6 de junho de 2025. Funcionamento de serviços que executam exames de análises clínicas. Diário Oficial da União, 10 jun. 2025. https://www.in.gov.br/en/web/dou/-/resolucao-anvisa-n-978-de-6-de-junho-de-2025-635044217",
+  "Anvisa. Resolução RDC nº 986, de 15 de agosto de 2025. Altera a RDC nº 978/2025 (art. 10, I, entre outros). Texto consolidado da RDC 978/2025 no AnvisaLegis, consultado em 15/10/2026.",
+  "Anvisa. Perguntas e Respostas: Resolução da Diretoria Colegiada nº 978, de 06 de junho de 2025. 1ª edição. GGTES/GRECS, Brasília, 27 ago. 2025.",
+  "Anvisa. Resolução RDC nº 197, de 26 de dezembro de 2017. Requisitos mínimos para o funcionamento dos serviços de vacinação humana. Texto no AnvisaLegis, consultado em 15/10/2026.",
+  "Anvisa. Resolução RDC nº 222, de 28 de março de 2018. Boas Práticas de Gerenciamento dos Resíduos de Serviços de Saúde (conforme o módulo de POPs).",
+  "Brasil. Lei nº 14.675, de 14 de setembro de 2023. Funcionamento dos serviços privados de vacinação humana (conforme o módulo de POPs).",
+  "Conselho Federal de Farmácia. Resolução nº 585, de 29 de agosto de 2013. Regulamenta as atribuições clínicas do farmacêutico. https://www.cff.org.br/userfiles/file/resolucoes/585.pdf",
+  "Conselho Federal de Farmácia. Resolução nº 586, de 29 de agosto de 2013, e situação judicial (ACP 0060624-78.2013.4.01.3400, sentença de 18/11/2024), conforme o módulo de MIP.",
+  "Conselho Federal de Farmácia. Resolução nº 499, de 17 de dezembro de 2008 (arts. 1º e 21), citada em CRF-SP, Orientação Farmacêutica: Serviços Farmacêuticos (documento que já cita a RDC 978/2025). https://crfsp.org.br/images/2023/OrientacaoFarmaceutica/Servios_farmacuticos.pdf",
+  "Conselho Federal de Farmácia. Serviços farmacêuticos diretamente destinados ao paciente, à família e à comunidade: contextualização e arcabouço conceitual. Brasília: CFF, 2016. https://www.cff.org.br/userfiles/Profar_Arcabouco_TELA_FINAL.pdf",
+  "Conselho Federal de Farmácia. Guia de prática clínica: sinais e sintomas não específicos: febre. Brasília: CFF, 2018 (Tabela 1 e Quadro 4; cita a RDC nº 145/2017). https://cff.org.br/userfiles/GuiaFebre.pdf",
+  "Brandão AA, Rodrigues CIS, Bortolotto LA, et al. Diretriz Brasileira de Hipertensão Arterial 2025. Arq Bras Cardiol. 2025;122(9):e20250624. doi:10.36660/abc.20250624 (texto completo no SciELO).",
+  "Feitosa ADM, et al. Diretrizes Brasileiras de Medidas da Pressão Arterial Dentro e Fora do Consultório 2023. Arq Bras Cardiol. 2024. doi:10.36660/abc.20240113 (PMC11186661).",
+  "Santa Catarina. Secretaria de Estado da Saúde. Informação nº 602/2025 DAPS/SES: posicionamento sobre a atualização dos parâmetros de hipertensão arterial em 2025 (comparação DBHA 2025 e PCDT de Hipertensão Arterial Sistêmica, Portaria SECTICS/MS nº 49/2025). 26 set. 2025.",
+  "Rodacki M, et al. Diagnóstico de diabetes mellitus. Diretriz Oficial da Sociedade Brasileira de Diabetes (última revisão 09/07/2024; exibido na edição 2026). https://diretriz.diabetes.org.br/diagnostico-de-diabetes-mellitus/",
+  "Almeida-Pititto B, et al. Metas de controle glicêmico. Diretriz Oficial da Sociedade Brasileira de Diabetes (2026). doi:10.29327/5881296.2026-1",
+  "Marino EC, et al. Monitorização da glicemia capilar, da glicose intersticial (CGM) e cetonemia capilar em pessoas com diabetes mellitus. Diretriz Oficial da Sociedade Brasileira de Diabetes (2026). doi:10.29327/5937216.2026-1",
+  "Sparapani VC, et al. Práticas seguras para preparo e aplicação de insulina. Diretriz Oficial da Sociedade Brasileira de Diabetes (edição 2026; doi:10.29327/5660187.2025-15)."
+ ]
+}

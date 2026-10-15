@@ -1,0 +1,801 @@
+{
+ "id": "m15",
+ "num": 8,
+ "titulo": "Organização de prateleiras, validade e etiquetagem",
+ "escopo": "Onde cada produto pode ficar na farmácia e na drogaria, critérios de arrumação de gôndolas e prateleiras, PVPS e reposição, inspeção mensal de validade, destino de vencidos, avariados e recolhidos, afixação de preço, PMC e promoções, e a rotina de reposição e conferência. Normas centrais: RDC 44/2009 (com a RDC 41/2012), IN 9/2009, Portaria 344/1998, Lei 6.437/1977, Lei 10.962/2004, Decreto 5.903/2006, Resoluções CM-CMED 2/2018 e 4/2026, RDC 96/2008, RDC 768/2022 e RDC 222/2018.",
+ "topicos": [
+  {
+   "id": "m15-areas",
+   "titulo": "Áreas da loja e o que fica em cada uma",
+   "resumo": "\n<p>A Lei 5.991/1973 define a <strong>drogaria</strong> como o estabelecimento de dispensação e comércio de drogas, medicamentos, insumos farmacêuticos e correlatos em suas embalagens originais (art. 4º, XI). Antes de arrumar a primeira prateleira, quem chega à loja precisa responder duas perguntas: o que a farmácia pode vender e em que área cada produto pode ficar. A RDC 44/2009 manda organizar os produtos em área de circulação comum ou em área de circulação restrita aos funcionários, conforme o tipo e a categoria de cada um (art. 40).</p>\n<h3>Área restrita aos funcionários</h3>\n<p>É o lugar padrão de todo medicamento. A norma é direta: os medicamentos \"deverão permanecer em área de circulação restrita aos funcionários, não sendo permitida sua exposição direta ao alcance dos usuários do estabelecimento\" (RDC 44/2009, art. 40, §1º). Na loja, essa área é o espaço atrás do balcão: prateleiras de parede, gaveteiros, armários e o estoque. O cliente pode ver as embalagens, mas não pode pegá-las.</p>\n<p>Ficam na área restrita os medicamentos de venda sob prescrição (com ou sem retenção de receita), os antimicrobianos, os agonistas de GLP-1, os injetáveis, os medicamentos de uso contínuo de tarja vermelha e qualquer MIP que a loja prefira não deixar no autosserviço. A RDC 471/2021 trata de receita, retenção e escrituração dos antimicrobianos; a guarda deles segue a regra geral da área restrita.</p>\n<h3>Área de livre acesso (autosserviço)</h3>\n<p>O medicamento isento de prescrição (MIP) é a única exceção. Desde a RDC 41/2012, que deu nova redação ao art. 40, §2º, da RDC 44/2009, os MIP podem permanecer ao alcance dos usuários para obtenção por autosserviço. A mesma RDC 41/2012 reescreveu o art. 41 e fixou as condições:</p>\n<ul>\n<li>cartaz em local visível, legível a partir da área de circulação comum, com a frase \"MEDICAMENTOS PODEM CAUSAR EFEITOS INDESEJADOS. EVITE A AUTOMEDICAÇÃO: INFORME-SE COM O FARMACÊUTICO\" (art. 41);</li>\n<li>MIP com o mesmo princípio ativo, ou a mesma associação, organizados em um mesmo local e identificados de forma visível pela DCB ou, na falta dela, pela DCI (art. 41, §1º);</li>\n<li>MIP dispostos separadamente dos demais produtos da área de autosserviço, como cosméticos e alimentos (art. 41, §2º).</li>\n</ul>\n<p>Para saber se um produto é MIP, consulta-se a Lista de Medicamentos Isentos de Prescrição (IN 285/2024, com anexos atualizados) e o enquadramento do registro. Um medicamento recém-enquadrado como MIP só vai para o autosserviço depois que a empresa adequar bula e rotulagem (RDC 882/2024, art. 19). O módulo de MIP detalha esses critérios.</p>\n<h3>Controlados e termolábeis</h3>\n<p>Medicamentos sujeitos a controle especial ficam \"sob chave ou outro dispositivo que ofereça segurança, em local exclusivo\" (Portaria SVS/MS 344/1998, art. 67), em sistema segregado (armário resistente ou sala própria) sob guarda do farmacêutico (RDC 44/2009, art. 37). Controlado não fica em prateleira aberta, nem solto atrás do balcão. Os termolábeis ficam no equipamento de refrigeração, com temperatura medida e registrada diariamente (art. 35, §3º); o módulo de termolábeis e armazenamento trata do equipamento, da leitura e da excursão de temperatura.</p>\n<h3>Outros produtos: o que a drogaria pode vender</h3>\n<p>A RDC 44/2009 permite estender às farmácias e drogarias o comércio de determinados correlatos, \"conforme relação, requisitos e condições estabelecidos em legislação sanitária específica\" (art. 29). Essa relação é a Instrução Normativa 9/2009, publicada junto com a RDC 44/2009. Até outubro de 2026 não localizamos ato que a revogue. Pontos que mais aparecem na arrumação:</p>\n<div class=\"tab\"><table><thead><tr><th>Categoria</th><th>Regra</th><th>IN 9/2009</th></tr></thead><tbody>\n<tr><td>Cosméticos, perfumes, higiene pessoal</td><td>Permitidos, se regularizados na Anvisa</td><td>Art. 3º, caput e §4º</td></tr>\n<tr><td>Produtos médicos</td><td>Só os de uso por leigos em ambiente doméstico</td><td>Art. 3º, §2º</td></tr>\n<tr><td>Diagnóstico in vitro</td><td>Só autoteste</td><td>Art. 3º, §3º</td></tr>\n<tr><td>Mamadeiras, chupetas, bicos</td><td>Permitidos, observada a NBCAL (Lei 11.265/2006)</td><td>Art. 4º, I</td></tr>\n<tr><td>Brincos estéreis</td><td>Só se a loja presta o serviço de perfuração de lóbulo; piercing e brinco comum, não</td><td>Art. 4º, III, e §1º</td></tr>\n<tr><td>Lentes de grau</td><td>Vedadas, salvo se não houver estabelecimento específico no município</td><td>Art. 5º</td></tr>\n<tr><td>Alimentos para fins especiais, suplementos de vitaminas e minerais, chás, mel, própolis</td><td>Permitidos se regularizados; sem alegação terapêutica; alimentos para diabéticos em local exclusivo</td><td>Arts. 6º a 12</td></tr>\n</tbody></table></div>\n<p>O parágrafo único do art. 13 da IN 9/2009 veda \"comercializar, expor à venda, ter em depósito para vender\" produtos não permitidos. Há leis estaduais e decisões judiciais, em casos concretos, que admitem artigos de conveniência em farmácias. Como a regra aplicada depende do estado e do município, a loja confirma com a vigilância sanitária local antes de expor produto fora da lista.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Alimento exposto ao lado de medicamento, com cartaz dizendo que \"ajuda a controlar a glicose\", junta dois erros: mistura categorias que a norma manda separar (RDC 44/2009, art. 41, §2º; IN 9/2009, art. 6º, parágrafo único) e atribui finalidade terapêutica a alimento (IN 9/2009, art. 12).</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Cliente pega na gôndola um antigripal e pergunta se pode levar também \"aquele remédio de pressão que fica atrás do balcão\". O atendente explica que medicamentos sob prescrição ficam na área restrita justamente para passarem pela dispensação, pede a receita e chama o farmacêutico se houver dúvida sobre a associação com o antigripal (descongestionante sistêmico eleva a pressão arterial).</p></div>\n"
+  },
+  {
+   "id": "m15-arrumacao",
+   "titulo": "Critérios de arrumação",
+   "resumo": "\n<p>Arrumar bem é fazer com que qualquer pessoa da equipe encontre o produto certo em poucos segundos, sem confundir apresentações. A RDC 44/2009 exige armazenamento ordenado, que garanta identidade, integridade e rastreabilidade (art. 35), e pede POP para \"exposição e organização dos produtos para comercialização\" (art. 86, III). A norma não impõe um critério único: a loja escolhe, escreve no Manual de Boas Práticas e no POP e aplica igual em todas as seções.</p>\n<h3>Primeiro nível: categoria</h3>\n<p>A loja é dividida em blocos. Na área restrita, os blocos mais comuns são: medicamentos sólidos orais, líquidos orais, uso tópico, uso oftálmico e otológico, injetáveis, hormônios e contraceptivos, e os blocos que exigem separação física (controlados, termolábeis, inflamáveis). No autosserviço, os MIP costumam ser agrupados por indicação (dor e febre, gripe e resfriado, azia e má digestão, vitaminas) e, dentro de cada indicação, por princípio ativo, como manda o art. 41, §1º.</p>\n<h3>Segundo nível: ordem alfabética</h3>\n<p>Dentro de cada bloco, a ordem é alfabética. Há duas escolhas possíveis, e a loja precisa adotar uma só por bloco:</p>\n<div class=\"tab\"><table><thead><tr><th>Critério</th><th>Como fica</th><th>Vantagem</th><th>Cuidado</th></tr></thead><tbody>\n<tr><td>Pela DCB (substância)</td><td>Referência, similares e genéricos da mesma substância ficam juntos</td><td>Facilita a troca por intercambiável e mostra de uma vez todas as opções e preços</td><td>Associações exigem regra (ordenar pela primeira substância do nome)</td></tr>\n<tr><td>Pelo nome comercial</td><td>Cada marca em seu lugar; genéricos em bloco próprio, pela DCB</td><td>Rápido quando a receita traz a marca; parecido com o que o cliente pede</td><td>A mesma substância fica espalhada; marcas parecidas ficam vizinhas</td></tr>\n</tbody></table></div>\n<p>Muitas lojas usam a combinação: marcas pela ordem do nome comercial e genéricos em bloco separado, pela DCB. Funciona, desde que o POP diga isso e a etiqueta de cada prateleira mostre a faixa alfabética (\"A a C\", \"D a F\").</p>\n<h3>Sentido de leitura</h3>\n<p>Como boa prática, a gôndola é lida como página de livro: <strong>da esquerda para a direita e de cima para baixo</strong>. A letra A começa na prateleira de cima, à esquerda, e a sequência continua na prateleira de baixo, de novo a partir da esquerda. Dentro do mesmo produto, a regra mais usada é concentração crescente da esquerda para a direita (dipirona 500 mg antes de 1 g) e, na mesma concentração, embalagem menor antes da maior. O mesmo sentido vale para o gaveteiro: gaveta de cima à esquerda, depois para a direita, depois a fileira de baixo.</p>\n<h3>Genéricos</h3>\n<p>A exigência federal que a RDC 44/2009 faz sobre genéricos é de informação: manter à disposição dos usuários, em local de fácil visualização e de imediata identificação, lista atualizada dos medicamentos genéricos comercializados no país, com base na relação publicada pela Anvisa (art. 42, §1º). Nas normas federais consultadas não encontramos obrigação de expor genéricos em prateleira separada; algumas leis estaduais e municipais exigem cartaz ou lista própria, e cabe conferir a da cidade. O genérico se reconhece pela faixa amarela com o logotipo na face frontal da embalagem secundária (RDC 768/2022, art. 25). Separar ou não é decisão da loja, registrada no POP.</p>\n<h3>Nomes e embalagens parecidos</h3>\n<p>A ordem alfabética coloca lado a lado nomes que começam igual. Para medicamentos potencialmente perigosos e pares de nomes ou embalagens semelhantes, a boa prática é quebrar a ordem e separar fisicamente, sinalizar a prateleira e destacar em maiúsculas a parte que difere nas etiquetas (ex.: \"hidrOXIZINA\" e \"hidrALAZINA\"). O módulo de termolábeis e armazenamento traz as medidas para alta vigilância.</p>\n<h3>Etiqueta de endereço</h3>\n<p>Cada prateleira ou gaveta recebe uma etiqueta com o endereço (bloco, gôndola, prateleira, posição) e, se a loja usar sistema, esse endereço fica cadastrado no produto. Quem repõe sabe onde guardar; quem atende sabe onde procurar; o inventário confere por endereço.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Uma drogaria organizava a área restrita pelo nome comercial e os genéricos misturados entre as marcas, pela DCB. \"Losartana\" ficava entre \"Lipitor\" e \"Lustral\". O farmacêutico reescreveu o POP: marcas por nome comercial, genéricos em bloco próprio por DCB, e etiqueta de faixa alfabética em cada prateleira. O tempo de busca caiu e acabaram as trocas entre losartana 50 mg e 100 mg, que passaram a ficar em ordem crescente.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Receita de \"Glifage XR 500 mg\". Com organização pela DCB, o atendente encontra no mesmo ponto a referência e os genéricos de cloridrato de metformina de liberação prolongada e pode oferecer o intercambiável. A troca segue a regra da intercambialidade: genérico no lugar da referência, liberação prolongada por liberação prolongada, nunca por metformina de liberação imediata.</p></div>\n"
+  },
+  {
+   "id": "m15-gondola",
+   "titulo": "Gôndola, alturas e condições do ambiente",
+   "resumo": "\n<p><strong>Gôndola</strong> é o móvel de prateleiras usado na área de vendas; na área restrita, as prateleiras de parede e os gaveteiros cumprem o mesmo papel. A posição de cada produto na altura e na profundidade afeta três coisas: segurança de quem pega, conservação do produto e venda.</p>\n<h3>Partes e vocabulário</h3>\n<ul>\n<li><strong>Frente</strong> (ou face): cada unidade visível de um mesmo produto na linha da frente. Três caixas lado a lado são três frentes.</li>\n<li><strong>Profundidade</strong>: as unidades enfileiradas atrás da frente.</li>\n<li><strong>Ponta de gôndola</strong>: a cabeceira do móvel, voltada para o corredor, muito vista pelo cliente.</li>\n<li><strong>Testeira</strong>: faixa de sinalização no alto da gôndola, com o nome da categoria.</li>\n<li><strong>Trilho de preço</strong>: régua na borda da prateleira onde ficam as etiquetas.</li>\n</ul>\n<h3>Altura das prateleiras</h3>\n<p>A divisão abaixo é prática corrente de varejo, sem norma sanitária que a imponha:</p>\n<div class=\"tab\"><table><thead><tr><th>Nível</th><th>O que costuma ficar</th><th>Motivo</th></tr></thead><tbody>\n<tr><td>Superior (acima da cabeça)</td><td>Itens leves, de pouco giro, embalagens grandes e leves</td><td>Difícil de alcançar; risco de queda</td></tr>\n<tr><td>Nível dos olhos</td><td>Itens de maior giro e os que a loja quer destacar</td><td>É o que o cliente vê primeiro</td></tr>\n<tr><td>Nível das mãos</td><td>Itens de compra frequente e de escolha rápida</td><td>Pega fácil, sem abaixar</td></tr>\n<tr><td>Inferior (perto do piso)</td><td>Pesados e volumosos (fraldas, embalagens grandes)</td><td>Evita queda de peso do alto</td></tr>\n</tbody></table></div>\n<p>Na área restrita vale a mesma lógica pensando no atendente: o que sai muito fica entre o ombro e a cintura, frascos de vidro e pesados não vão para o alto, e itens de alta vigilância não ficam em prateleira que exija escada ou pegar \"às cegas\".</p>\n<h3>Afastamentos</h3>\n<p>Os produtos ficam \"em gavetas, prateleiras ou suporte equivalente, afastados do piso, parede e teto, a fim de permitir sua fácil limpeza e inspeção\" (RDC 44/2009, art. 36). A norma não fixa distância em centímetros; o POP da loja define. Caixa de estoque nunca fica no chão: vai para estrado (palete) ou prateleira baixa. Produto encostado na parede pega umidade e calor e esconde sujeira e pragas.</p>\n<h3>Luz, calor e umidade</h3>\n<p>O ambiente deve ser mantido limpo e protegido da ação direta da luz solar, da umidade e do calor (art. 35, §2º). Na prática:</p>\n<ul>\n<li>vitrine que recebe sol da tarde não expõe medicamento nem produto sensível ao calor; serve para sinalização ou produto resistente;</li>\n<li>prateleira sob lâmpada que esquenta, perto de motor de refrigerador, de forno de micro-ondas da copa ou de saída de ar quente não recebe medicamento;</li>\n<li>parede com infiltração, área próxima a banheiro ou pia e local onde se lava o piso com muita água não recebem estoque;</li>\n<li>temperatura e umidade do ambiente são medidas na faixa de horário de maior risco definida no POP (art. 35, §4º), com medidas previstas para quando estiverem inadequadas (§5º).</li>\n</ul>\n<p>Corrosivos, inflamáveis e explosivos (álcool líquido, acetona, éter) ficam em local justificado em POP, longe de calor e de fontes de faísca (art. 39). Isso inclui não guardá-los perto do quadro de energia.</p>\n<h3>Como a embalagem fica na prateleira</h3>\n<ul>\n<li>Face principal voltada para fora, com nome e concentração legíveis.</li>\n<li>Embalagem íntegra: caixa amassada, molhada, com lacre rompido ou etiqueta de outra loja sai da exposição e vai para avaliação (avariado).</li>\n<li>Etiqueta de preço colada na caixa, quando usada, nunca cobre lote, validade, registro, concentração ou advertências (boa prática).</li>\n<li>Prateleira sem excesso de peso e sem pilhas instáveis; as caixas de transporte respeitam o empilhamento máximo indicado nelas.</li>\n</ul>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Altura é decisão comercial e de segurança; afastamento, luz, calor e umidade são exigência sanitária (RDC 44/2009, arts. 35 e 36). Quando as duas se chocam, prevalece a exigência sanitária: vitrine ao sol não recebe medicamento, mesmo sendo o ponto mais visto da loja.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Cliente reclama que o protetor solar \"separou\" e ficou com cheiro estranho. O atendente verifica que o lote veio da vitrine da frente, que recebe sol à tarde. Troca o produto, retira os demais da vitrine, registra a ocorrência e avisa o farmacêutico para avaliar o lote exposto e revisar o local de exposição.</p></div>\n"
+  },
+  {
+   "id": "m15-pvps",
+   "titulo": "Validade na prateleira e reposição",
+   "resumo": "\n<p>Validade é a data até a qual o fabricante garante a qualidade do produto, desde que conservado como indica a embalagem. Toda embalagem de medicamento traz lote e data de validade impressos de forma legível e indelével, no formato mês/ano ou dia/mês/ano (RDC 768/2022, art. 83). Quando a data vem só com mês e ano, a prática corrente é considerar o produto válido até o último dia daquele mês; a loja registra no POP como trata essa situação e quando retira o produto.</p>\n<h3>PVPS e PEPS</h3>\n<p>Dois critérios de saída aparecem em qualquer estoque:</p>\n<div class=\"tab\"><table><thead><tr><th>Sigla</th><th>Significa</th><th>Olha para</th><th>Uso na farmácia</th></tr></thead><tbody>\n<tr><td>PVPS (FEFO)</td><td>Primeiro que vence, primeiro que sai (<i>first expired, first out</i>)</td><td>Data de validade</td><td>Critério para medicamentos e produtos com validade</td></tr>\n<tr><td>PEPS (FIFO)</td><td>Primeiro que entra, primeiro que sai (<i>first in, first out</i>)</td><td>Data de chegada</td><td>Só funciona se os lotes chegarem sempre em ordem de validade</td></tr>\n</tbody></table></div>\n<p>Um lote recebido hoje pode vencer antes de um lote recebido no mês passado (o distribuidor pode mandar sobra de lote antigo). Por isso o PEPS falha com medicamentos e o critério correto é o <strong>PVPS</strong>.</p>\n<h3>Onde fica o lote que vence primeiro</h3>\n<p>Como boa prática, a unidade que vence primeiro fica onde a mão vai primeiro:</p>\n<ul>\n<li><strong>na frente</strong>, na profundidade da prateleira ou da gaveta;</li>\n<li><strong>à esquerda</strong>, quando o mesmo produto ocupa várias frentes lado a lado, seguindo o sentido de leitura da gôndola;</li>\n<li>no gaveteiro, na posição mais próxima da abertura.</li>\n</ul>\n<p>A reposição entra <strong>por trás e pela direita</strong>. Quem repõe puxa as unidades antigas para a frente e para a esquerda e só então coloca as novas no fundo. Colocar a caixa nova na frente, por pressa, é a origem da maior parte dos vencidos encontrados na prateleira.</p>\n<h3>Lotes misturados</h3>\n<p>Se duas validades diferentes ocupam a mesma fileira, a fileira fica em ordem: validade mais curta na frente, mais longa atrás. Quando há mais de duas validades para o mesmo item, a boa prática é concentrar na prateleira o lote mais curto e manter os demais no estoque, identificados, até a vez deles.</p>\n<h3>Puxar frente</h3>\n<p>\"Puxar frente\" é a rotina de trazer as unidades para a borda da prateleira, alinhar as faces e completar as frentes vazias. Feita na abertura e ao longo do dia, ela mantém o PVPS (quem puxa vê a validade) e mostra a ruptura antes que o cliente a perceba.</p>\n<h3>Recebimento e sistema</h3>\n<p>O PVPS começa no recebimento. A farmácia verifica o estado de conservação dos produtos ao receber (RDC 44/2009, art. 34) e confere lote e validade com a nota fiscal. Muitas lojas definem, por acordo comercial, uma validade mínima aceita na entrega (por exemplo, recusar produto com menos de alguns meses de validade restante); isso é política comercial, não exigência sanitária. Cadastrar lote e validade no sistema permite emitir o relatório mensal de vencimentos. Para controlados e antimicrobianos, o lote já é informado na escrituração do SNGPC.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Auxiliar novo repõe amoxicilina 500 mg colocando as caixas recém-chegadas (validade 2028) na frente das antigas (validade 03/2027). Na inspeção do mês, aparecem três caixas a quatro meses do vencimento, escondidas no fundo. O farmacêutico corrige a fileira, mostra o sentido de reposição (por trás, pela direita) e inclui no POP a conferência da validade da primeira e da última unidade de cada fileira ao repor.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Cliente pede \"a caixa do fundo, que deve ter validade maior\". O atendente pode atender, porque o produto da frente está válido e o pedido é do cliente; mas, se for dispensar uma caixa com validade próxima, deve avisar (RDC 44/2009, art. 51, §1º) e conferir se o tratamento termina antes do vencimento (art. 51, §2º).</p></div>\n"
+  },
+  {
+   "id": "m15-inspecao",
+   "titulo": "Controle mensal de validade",
+   "resumo": "\n<p>O PVPS organiza a saída; a inspeção mensal descobre o que escapou. A RDC 44/2009 exige que a política da empresa para produtos próximos ao vencimento seja clara para todos os funcionários e descrita no Manual de Boas Práticas (art. 38, §4º) e em POP (arts. 51 e 86, VI), e exige POP para o destino dos vencidos (art. 86, V).</p>\n<h3>O que a norma manda na dispensação</h3>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"O usuário deve ser alertado quando for dispensado produto com prazo de validade próximo ao seu vencimento\" (RDC 44/2009, art. 51, §1º). \"É vedado dispensar medicamentos cuja posologia para o tratamento não possa ser concluída no prazo de validade\" (art. 51, §2º).</p></div>\n<p>Exemplo: anticoncepcional oral em cartela para 21 dias, com validade no fim deste mês, faltando 10 dias. Se a cliente vai começar a cartela hoje, não completa o ciclo dentro da validade: a caixa não pode ser dispensada para esse uso.</p>\n<h3>Como fazer a inspeção</h3>\n<ol>\n<li>Dividir a loja em setores (gôndolas, gaveteiros, estoque, geladeira, armário de controlados) e montar um cronograma para que todos os setores sejam conferidos dentro do mês.</li>\n<li>Emitir o relatório de validades do sistema para os próximos meses, por setor.</li>\n<li>Conferir fisicamente: cada fileira, frente e fundo, e não só a primeira caixa.</li>\n<li>Marcar os itens próximos do vencimento com a etiqueta definida no POP.</li>\n<li>Registrar na planilha: produto, apresentação, lote, validade, quantidade, local, ação decidida, responsável, data.</li>\n<li>Corrigir o sistema quando o físico não bater com o cadastro.</li>\n<li>Levar ao farmacêutico a lista de ações (troca, devolução, transferência, promoção, retirada).</li>\n</ol>\n<h3>Etiqueta colorida</h3>\n<p>Como boa prática, muitas lojas usam uma cor de etiqueta por mês de vencimento, com legenda afixada no estoque. Quem passa pela prateleira vê de longe o que vence logo, sem ler data por data. A etiqueta fica na prateleira ou na caixa, sem cobrir lote, validade ou informações obrigatórias. Uma alternativa mais simples é a etiqueta escrita \"VENCE 03/27\" em cor única de alerta.</p>\n<h3>Antecedência para agir</h3>\n<p>A norma não fixa prazos; a política é da loja (art. 38, §4º). Um modelo usado como boa prática:</p>\n<div class=\"tab\"><table><thead><tr><th>Faltam</th><th>Ação sugerida</th></tr></thead><tbody>\n<tr><td>6 meses</td><td>Identificar; verificar giro; suspender nova compra do item se o estoque for alto</td></tr>\n<tr><td>3 a 4 meses</td><td>Negociar troca ou devolução com o fornecedor, conforme o contrato; transferir para filial com mais giro</td></tr>\n<tr><td>1 a 2 meses</td><td>Priorizar a saída (PVPS); promoção permitida dentro das regras de preço e propaganda; avisar o cliente na dispensação</td></tr>\n<tr><td>Mês do vencimento</td><td>Retirar da venda na data definida no POP; segregar; registrar; dar o destino</td></tr>\n</tbody></table></div>\n<p>Medicamento de uso contínuo, vendido em caixa para 30 dias, precisa sair da prateleira antes do que um analgésico de uso pontual, por causa do art. 51, §2º. O POP pode fixar antecedências diferentes por tipo de produto.</p>\n<h3>Promoção de produto com validade próxima</h3>\n<p>Baixar o preço é permitido, desde que o produto esteja dentro da validade, o cliente seja avisado (art. 51, §1º) e o tratamento caiba no prazo (art. 51, §2º). As regras de preço e propaganda continuam valendo: anúncio de desconto informa também o preço integral (RDC 96/2008, art. 11, §4º); medicamento não entra como prêmio ou pontuação de programa de fidelidade (art. 10); e medicamento sob prescrição só tem preço divulgado em lista, sem argumento publicitário (art. 18 e art. 47).</p>\n<h3>Validade depois de aberto</h3>\n<p>Medicamento em embalagem multidose que perde validade após aberto traz no rótulo a frase \"Após aberto, válido por ____\" (RDC 768/2022, art. 54); a frase \"Data do 1º uso: ____\" é facultativa (art. 55). Na loja, isso importa em dois pontos: produtos abertos para uso interno (álcool 70%, antissépticos da sala de serviços) recebem a data de abertura escrita na embalagem; e o cliente é orientado a anotar a data de abertura de colírios, suspensões reconstituídas e frascos multidose. Os prazos por produto estão no módulo de termolábeis e armazenamento.</p>\n<h3>Fracionados</h3>\n<p>O fracionamento só ocorre depois da apresentação da receita, na quantidade prescrita e com dispensação imediata (RDC 80/2006, Anexo I, Parte II, item 4.1); não existe estoque de fracionados na prateleira. A embalagem original fracionável já aberta volta para a área restrita, identificada, e segue o controle de validade do fabricante. O rótulo do fracionado traz lote e validade (mês/ano) do medicamento de origem (RDC 80/2006), e a validade dele nunca vai além da validade da embalagem original.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Cliente leva losartana 50 mg, caixa com 30 comprimidos, uso contínuo. A caixa disponível vence daqui a 20 dias. O atendente avisa a validade, procura outro lote no estoque e, se não houver, chama o farmacêutico, que só dispensa se o paciente for usar o conteúdo dentro do prazo; caso contrário, encomenda ou indica outra unidade.</p></div>\n"
+  },
+  {
+   "id": "m15-vencidos",
+   "titulo": "Produto vencido, avariado, interditado ou recolhido",
+   "resumo": "\n<p>Quatro situações tiram um produto da venda na hora, e todas seguem a mesma lógica: separar, identificar, bloquear, registrar e dar destino.</p>\n<div class=\"tab\"><table><thead><tr><th>Situação</th><th>Exemplo</th><th>Quem decide o destino</th></tr></thead><tbody>\n<tr><td>Vencido</td><td>Caixa com validade 08/2026 encontrada em outubro</td><td>Farmácia, pelo POP e pelo PGRSS</td></tr>\n<tr><td>Avariado ou violado</td><td>Caixa molhada, frasco vazando, lacre rompido, blister furado</td><td>Farmácia; fornecedor, se a avaria veio na entrega</td></tr>\n<tr><td>Interditado ou suspenso</td><td>Lote atingido por resolução da Anvisa publicada no Diário Oficial</td><td>Autoridade sanitária, nos termos do ato</td></tr>\n<tr><td>Recolhido</td><td>Comunicado de recolhimento do detentor do registro</td><td>Detentor do registro, conforme as instruções do recolhimento</td></tr>\n</tbody></table></div>\n<h3>Base legal</h3>\n<ul>\n<li><strong>RDC 44/2009, art. 38</strong>: produtos violados, vencidos ou sob suspeita de falsificação, corrupção, adulteração ou alteração são segregados em ambiente seguro, diverso da área de dispensação, e identificados quanto à condição e ao destino; não podem ser vendidos nem usados (§1º); o descarte segue as normas de resíduos de serviços de saúde (§2º); recolhimento segue regulamentação específica (§3º).</li>\n<li><strong>Lei 6.437/1977, art. 10, XVIII</strong>: é infração sanitária expor à venda ou entregar ao consumo produto de interesse à saúde com prazo de validade expirado, ou \"apor-lhes novas datas, após expirado o prazo\". Penas: advertência, apreensão, inutilização, interdição, cancelamento da licença e da autorização, e multa.</li>\n<li><strong>Código de Defesa do Consumidor, art. 18, §6º</strong>: são impróprios ao uso e consumo os produtos com prazo de validade vencido (inciso I) e os deteriorados, alterados, adulterados ou avariados (inciso II).</li>\n<li><strong>Lei 8.137/1990, art. 7º, IX</strong>: vender, ter em depósito para vender ou expor à venda mercadoria em condições impróprias ao consumo é crime contra as relações de consumo, com detenção de 2 a 5 anos ou multa; a forma culposa também é punida, com pena reduzida (parágrafo único).</li>\n</ul>\n<div class=\"cx alerta\"><b>Atenção</b><p>Vencido na prateleira já configura exposição à venda, mesmo que ninguém tenha comprado. E trocar ou cobrir a data de validade é infração sanitária específica (Lei 6.437/1977, art. 10, XVIII), além de crime contra o consumidor.</p></div>\n<h3>Segregação</h3>\n<p>A loja mantém uma área segregada fora da área de dispensação: armário, caixa fechada ou prateleira própria, com placa \"PRODUTOS SEGREGADOS: NÃO COMERCIALIZAR\" e separação por motivo (vencido, avariado, recolhido, suspeito). O produto é bloqueado no sistema no mesmo momento para não aparecer como disponível. Controlados vencidos ou avariados continuam no armário com chave, separados dos utilizáveis e identificados, até a baixa conforme a Portaria 344/1998 e a orientação da vigilância local.</p>\n<h3>Registro</h3>\n<p>Cada retirada gera registro: data, produto, apresentação, lote, validade, quantidade, motivo, local onde estava, quem retirou e destino. O registro serve à inspeção sanitária, à baixa contábil e à análise de perdas (quais itens vencem sempre e por quê).</p>\n<h3>Destino</h3>\n<ul>\n<li><strong>Devolução ou troca com o fornecedor</strong>: quando prevista no acordo comercial; avaria constatada no recebimento é recusada no ato.</li>\n<li><strong>Recolhimento ou interdição</strong>: segue as instruções do ato ou do comunicado (quantidades, lotes, prazo e forma de devolução), com comprovante guardado.</li>\n<li><strong>Descarte</strong>: como resíduo de serviço de saúde, pelo Plano de Gerenciamento de Resíduos de Serviços de Saúde (PGRSS), com empresa licenciada (RDC 222/2018). O vencido do estoque da farmácia não vai para o coletor de medicamentos domiciliares dos clientes, porque o Decreto 10.388/2020 não se aplica a medicamentos descartados por prestadores de serviços de saúde (art. 5º, III).</li>\n</ul>\n<p>Suspeita de falsificação ou adulteração exige, além da segregação, notificação imediata à autoridade sanitária pelo farmacêutico (RDC 44/2009, art. 34, §§ 1º e 2º). O fluxo de reclamações, recolhimentos e notificações está no módulo de POPs.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Cliente volta com um xarope comprado ontem: vencido no mês anterior. O farmacêutico pede desculpas, troca o produto ou devolve o valor, confere se há outras unidades do mesmo lote na loja, segrega e bloqueia, registra a ocorrência e revê com a equipe por que a inspeção mensal não pegou o item. O cliente é orientado a procurar atendimento se tiver usado o xarope e apresentar qualquer reação.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Ao separar uma receita, o atendente percebe que a caixa de omeprazol está com o lacre aberto. Não dispensa, entrega a caixa ao farmacêutico para segregação como violada e pega outra unidade íntegra.</p></div>\n"
+  },
+  {
+   "id": "m15-preco",
+   "titulo": "Preço, etiqueta de gôndola e promoções",
+   "resumo": "\n<p>O preço do medicamento obedece a três conjuntos de normas ao mesmo tempo: as regras gerais de informação ao consumidor (Lei 10.962/2004 e Decreto 5.903/2006), o teto de preço fixado pela Câmara de Regulação do Mercado de Medicamentos (CMED) e as regras sanitárias de propaganda (RDC 96/2008 e RDC 44/2009).</p>\n<h3>Formas de afixar o preço</h3>\n<p>A Lei 10.962/2004 admite, no varejo (art. 2º):</p>\n<ul>\n<li>no comércio em geral, etiqueta ou similar afixada diretamente no produto exposto, e preço à vista legível em vitrines (inciso I);</li>\n<li>onde o cliente tem acesso direto ao produto, como o autosserviço: preço impresso ou afixado na embalagem, código referencial ou código de barras (inciso II).</li>\n</ul>\n<p>Com código de barras ou código referencial, o comerciante expõe junto aos itens o preço à vista, as características e o código (art. 2º, parágrafo único). Se a loja apreça por código de barras, deve oferecer leitores óticos para consulta na área de vendas (art. 4º): o Decreto 5.903/2006 manda sinalizar os leitores com cartazes suspensos, manter distância máxima de 15 metros entre qualquer produto e o leitor mais próximo e ter croqui da área de vendas para a fiscalização (art. 7º, §§ 1º a 3º). O preço por unidade de medida (por mL, por grama), obrigatório para produtos fracionados em pequenas quantidades, não se aplica a medicamentos (art. 2º-A, parágrafo único).</p>\n<h3>Como deve ser a informação</h3>\n<p>O preço deve ter correção, clareza, precisão, ostensividade e legibilidade (Decreto 5.903/2006, art. 2º). Fica sempre visível enquanto a loja estiver aberta, inclusive durante montagem, rearranjo ou limpeza (art. 4º). A etiqueta afixada no produto tem a face principal voltada para o consumidor (art. 5º). O art. 9º lista infrações, entre elas: letras de tamanho irregular, cor da letra igual ou parecida com a do fundo, caracteres apagados ou rasurados, preço só em parcelas, referência que deixa dúvida sobre o item, preços distintos para o mesmo item e informação na vertical. Havendo preços diferentes para o mesmo produto entre os sistemas da loja (etiqueta, leitor, caixa), o consumidor paga o menor (Lei 10.962/2004, art. 5º).</p>\n<h3>Etiqueta de gôndola de medicamento</h3>\n<p>Com base no Decreto 5.903/2006 (art. 6º, §3º), a etiqueta mostra preço à vista, características que particularizam o item (nome, quantidade e demais elementos) e código, em caracteres ostensivos e cor de destaque. Para medicamento, isso se traduz em:</p>\n<ul>\n<li>nome comercial e substância pela DCB (o genérico, só pela DCB);</li>\n<li>concentração, forma farmacêutica e quantidade da embalagem;</li>\n<li>preço à vista em reais;</li>\n<li>código de barras ou código interno;</li>\n<li>como boa prática, data de impressão da etiqueta, para saber se está atualizada.</li>\n</ul>\n<div class=\"cx alerta\"><b>Atenção</b><p>A etiqueta de medicamento não leva slogan, figura, selo, frase de efeito ou indicação de uso (\"o melhor para dor\", \"mais vendido\", \"acaba com a gripe\"). Preço de medicamento informado ao público vai em lista com nome comercial, DCB, apresentação, registro, detentor e preço (RDC 96/2008, art. 18), sem designações, símbolos, figuras ou argumentos publicitários (art. 47). Para MIP são permitidas outras formas de comunicação, desde que tragam as demais informações exigidas (art. 18, parágrafo único). Medicamento sob prescrição só tem propaganda em meios dirigidos a profissionais (art. 27).</p></div>\n<h3>CMED e preço máximo ao consumidor</h3>\n<p>A CMED define o <strong>Preço Fábrica (PF)</strong>, teto de venda do fabricante ou distribuidor, e o <strong>Preço Máximo ao Consumidor (PMC)</strong>, preço máximo a ser praticado pelo comércio varejista (Resolução CM-CMED 2/2018). O ajuste dos tetos é anual: em 2026, a Resolução CM-CMED nº 4, de 30 de março de 2026, autorizou a partir de 31 de março ajustes máximos de 3,81% (nível 1), 2,47% (nível 2) e 1,13% (nível 3).</p>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"As unidades de comércio varejista deverão manter à disposição dos consumidores e dos órgãos de proteção e defesa do consumidor as listas dos preços de medicamentos atualizadas, não podendo ser superiores aos preços publicados pela CMED no Portal da Anvisa\" (Resolução CM-CMED 4/2026, art. 6º). O PMC varia conforme o ICMS de cada estado (art. 6º, parágrafo único).</p></div>\n<p>A Resolução CM-CMED 2/2018 classifica como infração deixar de manter essas listas atualizadas e também ofertar ou vender medicamento acima do limite máximo (art. 5º). Por isso, etiqueta acima do PMC já é infração, mesmo sem venda. Preço abaixo do PMC é livre. A lista oficial é atualizada pela CMED e publicada no portal da Anvisa; a loja mantém à mão a lista atualizada ou a revista de preços, e o sistema precisa usar o PMC do estado da loja.</p>\n<h3>Promoções</h3>\n<ul>\n<li>Desconto em percentual ou preço promocional vem acompanhado do preço integral praticado pela farmácia (RDC 96/2008, art. 11, §4º).</li>\n<li>Desconto anunciado em qualquer meio exige lista dos medicamentos anunciados, com o preço reduzido, em local visível ao público (art. 11, §5º).</li>\n<li>Frase de desconto por grupo (\"genéricos com 30% de desconto\") não pode vir com outros argumentos publicitários (art. 19).</li>\n<li>Comparação de preços dirigida ao consumidor, só entre medicamentos intercambiáveis (art. 11).</li>\n<li>Programa de fidelidade não usa medicamento como objeto de pontuação, troca, sorteio ou prêmio (art. 10).</li>\n<li>Desconto por forma ou prazo de pagamento é informado em local e formato visíveis (Lei 10.962/2004, art. 5º-A).</li>\n</ul>\n<p>Em agosto de 2026 a Anvisa abriu processo para revisar as normas de propaganda de medicamentos; até a data deste material, a RDC 96/2008 continuava sendo aplicada.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>A etiqueta da gôndola mostra R$ 18,90 e o caixa registra R$ 21,40. O atendente cobra R$ 18,90 (Lei 10.962/2004, art. 5º), avisa o responsável para corrigir o cadastro ou a etiqueta e confere se o preço do sistema não ultrapassa o PMC.</p></div>\n"
+  },
+  {
+   "id": "m15-rotina",
+   "titulo": "Rotina de reposição, ruptura e conferência",
+   "resumo": "\n<p>Organização de prateleira se mantém com rotina. As normas sanitárias pedem o resultado (produtos ordenados, limpos, dentro da validade, com preço correto); as ferramentas abaixo são boas práticas de varejo que ajudam a chegar lá.</p>\n<h3>Rotina do dia</h3>\n<div class=\"tab\"><table><thead><tr><th>Momento</th><th>Tarefas</th></tr></thead><tbody>\n<tr><td>Abertura</td><td>Puxar frente; completar frentes vazias pelo PVPS; conferir etiquetas caídas ou trocadas; ler temperatura e umidade conforme o POP</td></tr>\n<tr><td>Durante o dia</td><td>Repor itens de maior giro; recolher produtos deixados fora do lugar pelos clientes; manter corredores livres de caixas</td></tr>\n<tr><td>Fechamento</td><td>Repor o que zerou; anotar faltas para compra; devolver ao estoque o que ficou no balcão; organizar o caixa de produtos para segregação</td></tr>\n</tbody></table></div>\n<p>A reposição feita com a loja aberta não pode deixar o produto sem preço visível (Decreto 5.903/2006, art. 4º, parágrafo único).</p>\n<h3>Ruptura</h3>\n<p><strong>Ruptura</strong> é o produto faltar na prateleira quando o cliente procura. Tem três origens: falta no estoque (compra atrasada ou falta no fornecedor), falta só na gôndola (o produto está no estoque e ninguém repôs) e divergência de sistema (o sistema mostra saldo que não existe fisicamente). Em medicamento de uso contínuo, a ruptura interrompe tratamento e leva o cliente para outra farmácia. O indicador simples é o percentual de itens da lista de referência que estavam em falta na conferência.</p>\n<h3>Curva ABC</h3>\n<p>A curva ABC ordena os itens pela participação no faturamento (ou na quantidade vendida) em um período:</p>\n<ul>\n<li><strong>A</strong>: poucos itens que somam a maior parte do faturamento; nunca podem faltar, têm conferência mais frequente e estoque de segurança;</li>\n<li><strong>B</strong>: participação intermediária;</li>\n<li><strong>C</strong>: muitos itens, pouca venda cada um; são os que mais vencem na prateleira e pedem compra em quantidade pequena.</li>\n</ul>\n<p>Os cortes entre A, B e C são definidos pela empresa. O uso prático para quem arruma: itens A ficam nos melhores pontos e são conferidos toda semana; itens C entram primeiro na lista de validade.</p>\n<h3>Planograma</h3>\n<p><strong>Planograma</strong> é o mapa de cada gôndola: em que prateleira, em que posição e com quantas frentes cada produto fica. Ele padroniza a loja (e as filiais), mostra ao repositor onde cada item volta e evita que um produto ocupe o espaço de outro. Pode ser desenho, foto anotada ou tela do sistema. Muda quando entra ou sai um produto, e a etiqueta de endereço acompanha a mudança.</p>\n<h3>Limpeza das prateleiras</h3>\n<p>O ambiente de armazenamento é mantido limpo (RDC 44/2009, art. 35, §2º) e a limpeza segue o POP de limpeza (art. 86, I). Na prateleira, a boa prática é: retirar os produtos por trecho, limpar com pano apenas umedecido conforme o POP, secar, e devolver os produtos na ordem do planograma e do PVPS. Não se borrifa produto de limpeza sobre embalagens. A limpeza é o melhor momento para ver validade, avaria e sinais de pragas.</p>\n<h3>Conferência de preço e sistema</h3>\n<ul>\n<li>Conferir por amostragem, toda semana, etiqueta de gôndola contra preço do sistema; corrigir na hora.</li>\n<li>Repetir a conferência completa depois do ajuste anual da CMED e de cada campanha de promoção.</li>\n<li>Retirar etiquetas antigas antes de colocar a nova (duas etiquetas para o mesmo item são preços distintos: Decreto 5.903/2006, art. 9º, VII).</li>\n<li>Testar os leitores de preço do autosserviço.</li>\n<li>Comparar o preço do sistema com o PMC do estado para os itens de maior venda.</li>\n</ul>\n<h3>Indicadores que valem acompanhar</h3>\n<p>Percentual de ruptura, valor perdido por vencimento por mês, número de divergências de preço encontradas e número de produtos encontrados fora do lugar. Cada indicador aponta um ajuste: de compra, de reposição ou de treinamento da equipe.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Uma loja perdia todo mês caixas de colírios e pomadas de pouco giro. A curva ABC mostrou que eram itens C comprados em caixa fechada de 12 unidades. O farmacêutico passou a comprar esses itens por unidade, incluiu-os na conferência quinzenal de validade e moveu os de maior risco para o nível das mãos, onde o PVPS é mais fácil de manter.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Cliente procura um antiácido que \"sempre tinha ali\". O atendente consulta o sistema, vê saldo de 6 unidades, não encontra no endereço e acha as caixas no estoque, ainda no volume da entrega. Repõe pelo PVPS, atende o cliente e anota a falha de reposição para a reunião da equipe.</p></div>\n"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m15-mapa-exposicao",
+   "titulo": "Onde e como expor",
+   "centro": "Exposição na farmácia",
+   "ramos": [
+    {
+     "t": "Área restrita",
+     "itens": [
+      "Regra para todo medicamento (art. 40, §1º)",
+      "Sob prescrição, antimicrobianos, injetáveis",
+      "Cliente vê, mas não pega"
+     ]
+    },
+    {
+     "t": "Autosserviço (MIP)",
+     "itens": [
+      "RDC 41/2012: MIP ao alcance do usuário",
+      "Mesmo ativo junto, identificado pela DCB",
+      "Separado de cosméticos e alimentos",
+      "Cartaz: EVITE A AUTOMEDICAÇÃO"
+     ]
+    },
+    {
+     "t": "Separação física",
+     "itens": [
+      "Controlados: armário com chave (Port. 344)",
+      "Termolábeis: refrigerador com registro",
+      "Inflamáveis: longe de calor e faísca",
+      "Alimento p/ diabético: local exclusivo"
+     ]
+    },
+    {
+     "t": "Ordem na gôndola",
+     "itens": [
+      "Categoria, depois ordem alfabética",
+      "DCB ou nome comercial: um critério por bloco",
+      "Esquerda para direita, cima para baixo",
+      "Concentração crescente da esquerda"
+     ]
+    },
+    {
+     "t": "Ambiente",
+     "itens": [
+      "Afastado de piso, parede e teto (art. 36)",
+      "Sem sol direto, calor e umidade",
+      "Distância em cm: definida no POP",
+      "Caixa de estoque nunca no chão"
+     ]
+    },
+    {
+     "t": "Genéricos",
+     "itens": [
+      "Lista atualizada visível (art. 42, §1º)",
+      "Faixa amarela na embalagem",
+      "Prateleira separada: decisão da loja"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m15-mapa-validade",
+   "titulo": "Validade, preço e etiqueta",
+   "centro": "Validade e etiquetagem",
+   "ramos": [
+    {
+     "t": "PVPS na prateleira",
+     "itens": [
+      "Vence primeiro: frente e à esquerda",
+      "Repor por trás e pela direita",
+      "PEPS falha: lote novo pode vencer antes",
+      "Puxar frente todo dia"
+     ]
+    },
+    {
+     "t": "Inspeção mensal",
+     "itens": [
+      "Relatório + conferência física",
+      "Etiqueta colorida por mês",
+      "Avisar cliente de validade próxima",
+      "Tratamento não cabe na validade: não vende"
+     ]
+    },
+    {
+     "t": "Vencido ou avariado",
+     "itens": [
+      "Segregar fora da dispensação (art. 38)",
+      "Bloquear no sistema e registrar",
+      "Remarcar data: infração (6.437, XVIII)",
+      "Descarte pelo PGRSS, não no coletor"
+     ]
+    },
+    {
+     "t": "Etiqueta de gôndola",
+     "itens": [
+      "Nome, DCB, concentração, quantidade",
+      "Preço à vista legível e código",
+      "Sem slogan, figura ou indicação",
+      "Divergência: cliente paga o menor"
+     ]
+    },
+    {
+     "t": "CMED",
+     "itens": [
+      "PMC: teto do varejo, varia com ICMS",
+      "Lista de preços à disposição",
+      "Ofertar acima do PMC já é infração",
+      "Ajuste anual a partir de março"
+     ]
+    },
+    {
+     "t": "Promoção",
+     "itens": [
+      "Mostrar também o preço integral",
+      "Lista visível dos itens anunciados",
+      "Medicamento não vira prêmio ou ponto",
+      "Comparar preço só entre intercambiáveis"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m15-tab-onde",
+   "titulo": "Onde fica cada produto",
+   "colunas": [
+    "Produto",
+    "Área",
+    "Condição",
+    "Base"
+   ],
+   "linhas": [
+    [
+     "MIP (analgésico, antiácido, antigripal isento)",
+     "Autosserviço ou área restrita",
+     "Agrupado por princípio ativo, identificado pela DCB, separado de outros produtos; cartaz obrigatório",
+     "RDC 44/2009, arts. 40, §2º, e 41 (RDC 41/2012)"
+    ],
+    [
+     "Medicamento sob prescrição (tarja vermelha)",
+     "Área restrita",
+     "Fora do alcance do cliente",
+     "RDC 44/2009, art. 40, §1º"
+    ],
+    [
+     "Antimicrobiano e agonista de GLP-1",
+     "Área restrita",
+     "Dispensação com retenção de receita",
+     "RDC 44/2009, art. 40, §1º; RDC 471/2021"
+    ],
+    [
+     "Controlado (Portaria 344/1998)",
+     "Armário ou sala com chave, local exclusivo",
+     "Guarda do farmacêutico",
+     "Portaria 344/1998, art. 67; RDC 44/2009, art. 37"
+    ],
+    [
+     "Termolábil (insulina, GLP-1, alguns colírios)",
+     "Refrigerador da área restrita",
+     "2 °C a 8 °C, temperatura registrada diariamente",
+     "RDC 44/2009, art. 35, §3º; módulo de termolábeis"
+    ],
+    [
+     "Inflamável ou corrosivo (álcool líquido, acetona)",
+     "Local definido em POP",
+     "Longe de calor e de faíscas",
+     "RDC 44/2009, art. 39"
+    ],
+    [
+     "Cosmético, perfume, higiene pessoal",
+     "Área comum",
+     "Separado dos MIP",
+     "IN 9/2009, art. 3º; RDC 44/2009, arts. 40, §3º, e 41, §2º"
+    ],
+    [
+     "Produto médico de uso doméstico (termômetro, bolsa térmica)",
+     "Área comum",
+     "Só os de uso por leigos",
+     "IN 9/2009, art. 3º, §2º"
+    ],
+    [
+     "Teste de diagnóstico in vitro",
+     "Área comum ou restrita, conforme o produto",
+     "Só autoteste",
+     "IN 9/2009, art. 3º, §3º"
+    ],
+    [
+     "Alimento para diabéticos",
+     "Área comum",
+     "Local exclusivo, separado de outros produtos e alimentos",
+     "IN 9/2009, art. 6º, parágrafo único"
+    ],
+    [
+     "Suplemento, chá, mel, própolis",
+     "Área comum",
+     "Regularizado; sem alegação terapêutica",
+     "IN 9/2009, arts. 7º a 12"
+    ],
+    [
+     "Brinco estéril",
+     "Área comum ou restrita",
+     "Só se a loja faz perfuração de lóbulo",
+     "IN 9/2009, art. 4º, III"
+    ],
+    [
+     "Vencido, avariado, recolhido",
+     "Área segregada, fora da dispensação",
+     "Identificado, bloqueado, sem venda",
+     "RDC 44/2009, art. 38"
+    ]
+   ],
+   "nota": "Itens não previstos na IN 9/2009 dependem da posição da vigilância sanitária local, porque há leis estaduais e decisões judiciais divergentes."
+  },
+  {
+   "tipo": "quadro",
+   "id": "m15-quadro-gondola",
+   "titulo": "Desenho de uma gôndola: posição e validade",
+   "html": "\n<p><b>Vista de frente</b> (sentido de leitura: esquerda para a direita, de cima para baixo). Exemplo de bloco de MIP para dor e febre, agrupado por princípio ativo e identificado pela DCB.</p>\n<div class=\"tab\"><table><thead><tr><th>Prateleira</th><th>Posição 1 (esquerda)</th><th>Posição 2</th><th>Posição 3</th><th>Posição 4 (direita)</th></tr></thead><tbody>\n<tr><td>1 (alta)</td><td>Ácido acetilsalicílico 500 mg</td><td>Ácido acetilsalicílico 500 mg, embalagem maior</td><td>Dipirona 500 mg</td><td>Dipirona 1 g</td></tr>\n<tr><td>2 (olhos)</td><td>Dipirona gotas 500 mg/mL</td><td>Ibuprofeno 200 mg</td><td>Ibuprofeno 400 mg</td><td>Ibuprofeno suspensão</td></tr>\n<tr><td>3 (mãos)</td><td>Paracetamol 500 mg</td><td>Paracetamol 750 mg</td><td>Paracetamol gotas</td><td>Paracetamol suspensão</td></tr>\n<tr><td>4 (baixa)</td><td>Embalagens grandes e pesadas do bloco</td><td>idem</td><td>idem</td><td>idem</td></tr>\n</tbody></table></div>\n<p><b>Vista de cima de uma posição</b> (paracetamol 500 mg com três frentes). A seta de saída é a frente; a reposição entra pelo fundo.</p>\n<div class=\"tab\"><table><thead><tr><th>Profundidade</th><th>Frente 1 (esquerda)</th><th>Frente 2</th><th>Frente 3 (direita)</th></tr></thead><tbody>\n<tr><td>Frente (borda, sai primeiro)</td><td>Validade 02/2027</td><td>Validade 02/2027</td><td>Validade 05/2027</td></tr>\n<tr><td>Meio</td><td>Validade 02/2027</td><td>Validade 05/2027</td><td>Validade 05/2027</td></tr>\n<tr><td>Fundo (reposição entra aqui)</td><td>Validade 05/2027</td><td>Validade 11/2027</td><td>Validade 11/2027</td></tr>\n</tbody></table></div>\n<ul>\n<li>Validade mais curta: frente e esquerda. Validade mais longa: fundo e direita.</li>\n<li>Para repor: puxar as unidades que ficaram para a frente e para a esquerda, conferir a validade da primeira e da última unidade, colocar as novas no fundo.</li>\n<li>Etiqueta de preço no trilho, logo abaixo da posição, com a face voltada para o cliente (Decreto 5.903/2006, art. 5º, por analogia ao produto).</li>\n<li>Produtos afastados da parede do fundo e da prateleira de cima (RDC 44/2009, art. 36).</li>\n</ul>\n<p>As posições e a ordem são exemplo de boa prática; o critério de cada loja fica no seu POP.</p>\n"
+  },
+  {
+   "tipo": "checklist",
+   "id": "m15-check-validade",
+   "titulo": "Inspeção mensal de validade",
+   "itens": [
+    "Emitir o relatório de validades do sistema dos próximos 6 meses, por setor",
+    "Seguir o cronograma: todos os setores conferidos dentro do mês, inclusive estoque, geladeira e armário de controlados",
+    "Conferir cada fileira na frente e no fundo, não só a primeira caixa",
+    "Verificar se a validade mais curta está na frente e à esquerda",
+    "Marcar os itens próximos do vencimento com a etiqueta do mês definida no POP",
+    "Retirar e segregar o que venceu ou vence no mês, conforme a política do Manual",
+    "Bloquear no sistema todo item retirado",
+    "Registrar produto, lote, validade, quantidade, local, ação e responsável",
+    "Corrigir o cadastro quando o físico divergir do sistema",
+    "Separar avariados encontrados (caixa molhada, lacre rompido, frasco vazando)",
+    "Conferir se produtos abertos para uso interno têm a data de abertura anotada",
+    "Entregar ao farmacêutico a lista de ações: troca, devolução, transferência, promoção ou descarte",
+    "Assinar e datar a planilha e arquivar com os registros do mês"
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "id": "m15-check-etiqueta",
+   "titulo": "Etiquetagem",
+   "itens": [
+    "Todo produto exposto tem preço visível, inclusive durante reposição e limpeza",
+    "Etiqueta com nome comercial e DCB (genérico só pela DCB), concentração, forma e quantidade",
+    "Preço à vista em reais, em caracteres legíveis e com contraste com o fundo",
+    "Etiqueta no trilho logo abaixo do produto certo, com a face voltada para o cliente",
+    "Uma só etiqueta por item: retirar a antiga antes de colocar a nova",
+    "Preço da etiqueta igual ao do sistema",
+    "Preço do sistema não ultrapassa o PMC do estado",
+    "Lista de preços da CMED atualizada à disposição do consumidor",
+    "Promoção mostra o preço integral junto do preço promocional",
+    "Lista dos medicamentos anunciados em desconto em local visível",
+    "Sem slogan, figura, selo ou indicação de uso na etiqueta de medicamento",
+    "Etiqueta colada na caixa não cobre lote, validade, registro ou advertências",
+    "Leitores de código de barras funcionando e sinalizados, a no máximo 15 m de qualquer produto",
+    "Lista atualizada de genéricos em local de fácil visualização"
+   ]
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m15-fluxo-vencido",
+   "titulo": "Achei um produto vencido na prateleira",
+   "passos": [
+    {
+     "t": "Produto com validade expirada encontrado na área de venda ou no estoque",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Retirar imediatamente da prateleira, junto com todas as unidades do mesmo lote",
+     "tipo": "acao"
+    },
+    {
+     "t": "É medicamento sujeito a controle especial?",
+     "tipo": "decisao",
+     "sim": "Manter no armário com chave, separado e identificado como vencido, para baixa conforme a Portaria 344/1998 e a vigilância local",
+     "nao": "Levar para a área segregada, fora da área de dispensação"
+    },
+    {
+     "t": "Identificar: VENCIDO, NÃO COMERCIALIZAR, com data e destino previsto",
+     "tipo": "acao"
+    },
+    {
+     "t": "Bloquear o lote no sistema para que não apareça como disponível",
+     "tipo": "acao"
+    },
+    {
+     "t": "Alguma unidade desse lote foi vendida depois do vencimento?",
+     "tipo": "decisao",
+     "sim": "Avisar o farmacêutico, que avalia contato com o cliente, quando identificável, e registra a ocorrência",
+     "nao": "Seguir para o registro"
+    },
+    {
+     "t": "Registrar produto, lote, validade, quantidade, local, data e responsável",
+     "tipo": "acao"
+    },
+    {
+     "t": "Há acordo de troca ou devolução com o fornecedor para esse item?",
+     "tipo": "decisao",
+     "sim": "Separar para devolução, com nota e comprovante",
+     "nao": "Encaminhar ao descarte pelo PGRSS, com empresa licenciada"
+    },
+    {
+     "t": "Nunca remarcar a data nem colocar no coletor de medicamentos dos clientes",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Verificar por que escapou da inspeção mensal e corrigir a reposição ou o cronograma",
+     "tipo": "acao"
+    },
+    {
+     "t": "Comprovante de devolução ou de destinação arquivado",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m15-pop-prateleiras",
+   "titulo": "Organização e reposição de prateleiras",
+   "codigo": "POP-EXP-01",
+   "objetivo": "Manter os produtos expostos e armazenados em local permitido, em ordem padronizada, dentro da validade, com preço visível, para que qualquer funcionário encontre o item certo e o cliente receba produto adequado.",
+   "abrangencia": "Área de autosserviço, prateleiras e gaveteiros da área restrita e estoque da loja.",
+   "responsaveis": [
+    "Auxiliar ou repositor: reposição, puxar frente, etiquetas",
+    "Atendentes: devolver ao lugar os produtos deixados fora do endereço",
+    "Farmacêutico: aprovar critério de organização, planograma e exceções (nomes parecidos, alta vigilância)"
+   ],
+   "materiais": [
+    "Planograma ou mapa de endereços atualizado",
+    "Etiquetas de endereço e de preço",
+    "Trilhos de preço",
+    "Estrados para caixas de estoque",
+    "Etiquetas de validade próxima",
+    "Caixa identificada para segregação"
+   ],
+   "procedimento": [
+    "Conferir no planograma o endereço de cada produto antes de repor.",
+    "Manter medicamentos sob prescrição na área restrita (RDC 44/2009, art. 40, §1º); só MIP vão para o autosserviço (art. 40, §2º).",
+    "No autosserviço, agrupar MIP do mesmo princípio ativo, identificados pela DCB, separados de cosméticos e alimentos, com o cartaz do art. 41 visível.",
+    "Organizar cada bloco por categoria e, dentro dela, em ordem alfabética pelo critério do Manual (DCB ou nome comercial).",
+    "Seguir o sentido de leitura: da esquerda para a direita e de cima para baixo; concentração crescente da esquerda para a direita.",
+    "Posicionar pesados e volumosos embaixo e itens de maior giro entre o nível dos olhos e o das mãos.",
+    "Manter os produtos afastados do piso, da parede e do teto, sem sol direto, calor ou umidade (arts. 35, §2º, e 36).",
+    "Repor por trás e pela direita: puxar as unidades antigas para a frente e para a esquerda e colocar as novas no fundo (PVPS).",
+    "Conferir a validade da primeira e da última unidade da fileira a cada reposição.",
+    "Retirar da exposição qualquer embalagem avariada ou violada e encaminhar à segregação.",
+    "Conferir se cada posição tem etiqueta de preço correta, voltada para o cliente, sem etiqueta duplicada.",
+    "Puxar frente na abertura e ao longo do dia; anotar faltas para compra.",
+    "Não deixar caixas de estoque no chão nem nos corredores da área de vendas.",
+    "Atualizar planograma e etiquetas de endereço sempre que um item entrar ou sair do mix."
+   ],
+   "cuidados": [
+    "Controlados ficam sempre no armário com chave (Portaria 344/1998, art. 67).",
+    "Separar fisicamente nomes e embalagens parecidos e sinalizar medicamentos de alta vigilância.",
+    "Reposição com a loja aberta não pode deixar produto sem preço visível (Decreto 5.903/2006, art. 4º, parágrafo único).",
+    "Produto fora da lista permitida não é exposto sem posição da vigilância local (IN 9/2009, art. 13)."
+   ],
+   "registros": [
+    "Planograma datado e aprovado",
+    "Lista de faltas e rupturas do dia",
+    "Registro de produtos retirados por avaria"
+   ],
+   "referencias": [
+    "RDC 44/2009, arts. 35, 36, 37, 40, 41 e 86, III",
+    "RDC 41/2012",
+    "Instrução Normativa 9/2009",
+    "Portaria SVS/MS 344/1998, art. 67",
+    "Decreto 5.903/2006, arts. 4º e 5º",
+    "Manual de Boas Práticas Farmacêuticas do estabelecimento"
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m15-pop-validade",
+   "titulo": "Controle de validade",
+   "codigo": "POP-VAL-01",
+   "objetivo": "Garantir que nenhum produto vencido seja exposto ou dispensado, agir com antecedência sobre os próximos do vencimento e dar destino rastreável aos retirados.",
+   "abrangencia": "Todos os produtos com validade: área de autosserviço, área restrita, estoque, refrigerador e armário de controlados.",
+   "responsaveis": [
+    "Auxiliar designado: inspeção mensal, etiquetas e registro",
+    "Comprador ou gerente: troca, devolução e transferência entre lojas",
+    "Farmacêutico: aprovar a política, decidir destino, baixa de controlados e descarte"
+   ],
+   "materiais": [
+    "Relatório de validades do sistema",
+    "Planilha de inspeção mensal",
+    "Etiquetas coloridas por mês com legenda",
+    "Caixas identificadas para segregação",
+    "Formulário de baixa por vencimento ou avaria"
+   ],
+   "procedimento": [
+    "Conferir lote e validade de cada produto no recebimento e cadastrar no sistema.",
+    "Aplicar o PVPS na guarda e na reposição: validade mais curta na frente e à esquerda.",
+    "No início de cada mês, emitir o relatório de validades dos próximos 6 meses por setor.",
+    "Conferir fisicamente todos os setores no mês, seguindo o cronograma, frente e fundo de cada fileira.",
+    "Marcar com a etiqueta da cor do mês os itens que vencem nos próximos meses, conforme a política do Manual (RDC 44/2009, art. 38, §4º).",
+    "Com 6 meses: suspender nova compra do item se o estoque for alto; com 3 a 4 meses: negociar troca ou devolução conforme o contrato ou transferir para outra loja.",
+    "Com 1 a 2 meses: priorizar a saída; promoção só dentro das regras de preço e propaganda (RDC 96/2008, arts. 10, 11 e 18).",
+    "Na dispensação de produto com validade próxima, avisar o cliente (art. 51, §1º) e não dispensar se o tratamento não puder terminar antes do vencimento (art. 51, §2º).",
+    "Retirar da venda na data definida no POP os produtos que vencem no mês; segregar fora da área de dispensação, identificados (art. 38).",
+    "Bloquear no sistema e registrar produto, lote, validade, quantidade, motivo e destino.",
+    "Encaminhar para devolução ao fornecedor, para o recolhimento em curso ou para descarte pelo PGRSS (RDC 222/2018).",
+    "Analisar mensalmente as perdas por vencimento e ajustar compra e reposição."
+   ],
+   "cuidados": [
+    "Nunca alterar, cobrir ou remarcar a data de validade (Lei 6.437/1977, art. 10, XVIII).",
+    "Vencido do estoque não vai para o coletor de medicamentos domiciliares (Decreto 10.388/2020, art. 5º, III).",
+    "Controlados vencidos permanecem no armário com chave, separados, até a baixa conforme a Portaria 344/1998 e a vigilância local.",
+    "Produto aberto para uso interno recebe a data de abertura; vale o prazo de \"Após aberto, válido por\" do rótulo (RDC 768/2022, art. 54)."
+   ],
+   "registros": [
+    "Planilha de inspeção mensal assinada",
+    "Formulário de baixa por vencimento ou avaria",
+    "Comprovantes de devolução, recolhimento ou destinação"
+   ],
+   "referencias": [
+    "RDC 44/2009, arts. 34, 38, 51 e 86, V e VI",
+    "Lei 6.437/1977, art. 10, XVIII",
+    "Lei 8.078/1990, art. 18, §6º",
+    "RDC 222/2018",
+    "Decreto 10.388/2020",
+    "RDC 768/2022, arts. 54 e 83",
+    "RDC 80/2006"
+   ]
+  },
+  {
+   "tipo": "tabela",
+   "id": "m15-tab-preco",
+   "titulo": "Preço e etiqueta: o que a norma exige",
+   "colunas": [
+    "Tema",
+    "Regra",
+    "Fonte"
+   ],
+   "linhas": [
+    [
+     "Autosserviço",
+     "Preço na embalagem, código referencial ou código de barras com preço, características e código junto ao produto",
+     "Lei 10.962/2004, art. 2º, II, e parágrafo único"
+    ],
+    [
+     "Leitor ótico",
+     "Obrigatório se apreçar por código de barras; sinalizado; máximo de 15 m de qualquer produto",
+     "Lei 10.962/2004, art. 4º; Decreto 5.903/2006, art. 7º"
+    ],
+    [
+     "Preço divergente",
+     "Consumidor paga o menor",
+     "Lei 10.962/2004, art. 5º"
+    ],
+    [
+     "Visibilidade",
+     "Preço sempre visível com a loja aberta, inclusive em montagem e limpeza",
+     "Decreto 5.903/2006, art. 4º"
+    ],
+    [
+     "Infrações de apresentação",
+     "Letra irregular, sem contraste, rasurada, só parcelas, preços distintos para o mesmo item",
+     "Decreto 5.903/2006, art. 9º"
+    ],
+    [
+     "Teto de preço",
+     "Não ofertar nem vender acima do PMC publicado pela CMED",
+     "Resolução CM-CMED 4/2026, art. 6º; CM-CMED 2/2018, art. 5º"
+    ],
+    [
+     "Lista de preços",
+     "Lista atualizada à disposição de consumidores e órgãos de defesa do consumidor",
+     "Resolução CM-CMED 4/2026, art. 6º"
+    ],
+    [
+     "Promoção",
+     "Informar também o preço integral; lista visível dos anunciados",
+     "RDC 96/2008, art. 11, §§ 4º e 5º"
+    ],
+    [
+     "Conteúdo da lista de preço",
+     "Nome comercial, DCB, apresentação, registro, detentor e preço, sem argumento publicitário",
+     "RDC 96/2008, arts. 18 e 47"
+    ],
+    [
+     "Fidelidade",
+     "Medicamento não é objeto de pontuação, troca, sorteio ou prêmio",
+     "RDC 96/2008, art. 10"
+    ]
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m15-cartoes",
+   "titulo": "Cartões de revisão: prateleiras, validade e etiquetas",
+   "itens": [
+    {
+     "f": "Onde devem ficar os medicamentos, como regra?",
+     "v": "Em área de circulação restrita aos funcionários, fora do alcance do cliente (RDC 44/2009, art. 40, §1º)."
+    },
+    {
+     "f": "Qual norma permitiu MIP ao alcance do usuário?",
+     "v": "A RDC 41/2012, que deu nova redação ao art. 40, §2º, e ao art. 41 da RDC 44/2009."
+    },
+    {
+     "f": "Três condições para MIP no autosserviço",
+     "v": "Mesmo princípio ativo junto e identificado pela DCB; separado dos demais produtos; cartaz \"EVITE A AUTOMEDICAÇÃO\" visível."
+    },
+    {
+     "f": "Onde ficam os controlados?",
+     "v": "Sob chave, em local exclusivo, sob guarda do farmacêutico (Portaria 344/1998, art. 67; RDC 44/2009, art. 37)."
+    },
+    {
+     "f": "Que norma lista os produtos permitidos em farmácias e drogarias?",
+     "v": "A Instrução Normativa 9/2009, ligada ao art. 29 da RDC 44/2009."
+    },
+    {
+     "f": "Diagnóstico in vitro na drogaria",
+     "v": "Só produtos para autoteste, de uso por leigos (IN 9/2009, art. 3º, §3º)."
+    },
+    {
+     "f": "Alimentos para diabéticos",
+     "v": "Em local exclusivo, separados de outros produtos e alimentos (IN 9/2009, art. 6º, parágrafo único)."
+    },
+    {
+     "f": "Sentido de leitura da gôndola",
+     "v": "Da esquerda para a direita e de cima para baixo, como página de livro (boa prática)."
+    },
+    {
+     "f": "O que a RDC 44/2009 exige sobre genéricos?",
+     "v": "Lista atualizada dos genéricos em local de fácil visualização (art. 42, §1º). Prateleira separada não é exigência federal."
+    },
+    {
+     "f": "Distância do piso, parede e teto",
+     "v": "Afastados para limpeza e inspeção (RDC 44/2009, art. 36); a distância em centímetros é definida no POP."
+    },
+    {
+     "f": "PVPS x PEPS",
+     "v": "PVPS sai pela validade; PEPS, pela data de chegada. Para medicamento vale PVPS, porque lote novo pode vencer antes."
+    },
+    {
+     "f": "Onde fica a unidade que vence primeiro?",
+     "v": "Na frente e à esquerda. A reposição entra por trás e pela direita."
+    },
+    {
+     "f": "Validade próxima na dispensação",
+     "v": "Avisar o cliente (art. 51, §1º) e não dispensar se o tratamento não puder ser concluído na validade (art. 51, §2º)."
+    },
+    {
+     "f": "Remarcar a data de um vencido",
+     "v": "Infração sanitária (Lei 6.437/1977, art. 10, XVIII) e venda de produto impróprio é crime (Lei 8.137/1990, art. 7º, IX)."
+    },
+    {
+     "f": "Vencido do estoque vai para o coletor do cliente?",
+     "v": "Não. Segue o PGRSS; o Decreto 10.388/2020 não vale para serviços de saúde (art. 5º, III)."
+    },
+    {
+     "f": "Preço da etiqueta diferente do caixa",
+     "v": "O consumidor paga o menor (Lei 10.962/2004, art. 5º)."
+    },
+    {
+     "f": "Distância máxima até o leitor de preço",
+     "v": "15 metros entre qualquer produto e o leitor mais próximo (Decreto 5.903/2006, art. 7º, §2º)."
+    },
+    {
+     "f": "O que é PMC?",
+     "v": "Preço Máximo ao Consumidor: teto de preço do varejo, publicado pela CMED, que varia com o ICMS do estado."
+    },
+    {
+     "f": "Promoção de medicamento: o que mostrar?",
+     "v": "O preço promocional e também o preço integral (RDC 96/2008, art. 11, §4º)."
+    },
+    {
+     "f": "Curva ABC",
+     "v": "Classifica itens pela participação na venda: A poucos itens e muita venda; C muitos itens e pouca venda, maior risco de vencer."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m15-questoes",
+   "titulo": "Questões: prateleiras, validade e etiquetagem",
+   "itens": [
+    {
+     "p": "Auxiliar recém-contratado quer expor, na gôndola de livre acesso, caixas de omeprazol 20 mg de venda sob prescrição ao lado do omeprazol isento de prescrição, \"porque é o mesmo remédio\". Qual conduta está de acordo com a RDC 44/2009?",
+     "alt": [
+      "Pode expor, desde que os dois fiquem agrupados pelo princípio ativo e identificados pela DCB",
+      "Só o MIP vai ao autosserviço; o sob prescrição fica na área restrita",
+      "Pode expor se houver o cartaz de alerta sobre automedicação na gôndola",
+      "Só pode expor se o farmacêutico estiver presente na área de vendas",
+      "Nenhuma das duas pode ficar no autosserviço, por serem do mesmo ativo"
+     ],
+     "c": 1,
+     "com": "O art. 40, §1º, da RDC 44/2009 manda manter medicamentos em área restrita aos funcionários; a exceção do §2º (redação da RDC 41/2012) vale só para MIP. O agrupamento pela DCB e o cartaz (art. 41) são condições para o MIP, não autorizam medicamento sob prescrição. A presença do farmacêutico não muda a regra. O MIP de omeprazol pode ficar no autosserviço."
+    },
+    {
+     "p": "Na conferência mensal, a funcionária encontra cinco caixas de um anti-hipertensivo vencidas no mês anterior, no fundo da prateleira. Qual a primeira providência?",
+     "alt": [
+      "Vender com desconto ainda nesta semana, avisando o cliente da validade",
+      "Colar etiqueta com nova validade até a devolução ao fornecedor",
+      "Colocar as caixas no coletor de medicamentos domiciliares da loja",
+      "Retirar, segregar fora da dispensação, identificar e bloquear",
+      "Deixar na prateleira até o farmacêutico decidir o destino"
+     ],
+     "c": 3,
+     "com": "Vencidos são segregados em ambiente diverso da área de dispensação e identificados (RDC 44/2009, art. 38). Vender é expor produto impróprio (CDC, art. 18, §6º, I; Lei 8.137/1990, art. 7º, IX). Apor nova data é infração do art. 10, XVIII, da Lei 6.437/1977. O coletor domiciliar não recebe resíduo de serviço de saúde (Decreto 10.388/2020, art. 5º, III). Mantê-lo na prateleira continua sendo exposição à venda."
+    },
+    {
+     "p": "Uma farmácia recebe paracetamol 750 mg com validade 01/2027 e ainda tem em estoque unidades com validade 06/2027, recebidas no mês anterior. Pelo critério adequado a medicamentos, qual sai primeiro?",
+     "alt": [
+      "As unidades com validade 01/2027, que vencem antes",
+      "As unidades com validade 06/2027, que chegaram antes",
+      "Tanto faz, porque as duas estão dentro da validade",
+      "As que estiverem na frente da prateleira no momento",
+      "As de maior preço de custo"
+     ],
+     "c": 0,
+     "com": "Pelo PVPS (primeiro que vence, primeiro que sai), sai antes o lote de validade mais curta, mesmo que tenha chegado depois. O PEPS (data de chegada) falharia aqui. \"O que está na frente\" só funciona se a reposição respeitou o PVPS, e custo não é critério de saída."
+    },
+    {
+     "p": "Cliente compra uma caixa de anticoncepcional oral (21 comprimidos) para começar hoje. A única caixa disponível vence em 12 dias. Segundo a RDC 44/2009, o farmacêutico deve:",
+     "alt": [
+      "dispensar normalmente, porque o produto está dentro da validade",
+      "dispensar com desconto e registrar a venda como promoção",
+      "dispensar e orientar a guardar na geladeira para durar mais",
+      "dispensar metade da cartela e encomendar o restante",
+      "não dispensar para esse uso, pois o ciclo não termina na validade"
+     ],
+     "c": 4,
+     "com": "O art. 51, §2º, veda dispensar medicamento cuja posologia não possa ser concluída no prazo de validade. Estar válido no dia não basta. Desconto não muda a regra; refrigerar não estende validade; fracionar a cartela sem embalagem fracionável e sem os requisitos da RDC 80/2006 não é permitido."
+    },
+    {
+     "p": "Sobre a organização de genéricos, assinale a afirmativa correta segundo as normas federais consultadas.",
+     "alt": [
+      "A RDC 44/2009 exige gôndola exclusiva para genéricos, identificada com placa própria",
+      "Genéricos devem ficar sempre em ordem alfabética pelo nome do fabricante do produto",
+      "A RDC 44/2009 exige lista atualizada de genéricos visível; separar é opção da loja",
+      "Genéricos não podem ficar ao lado do medicamento de referência da mesma substância",
+      "Genéricos só podem ser expostos na área de autosserviço da loja"
+     ],
+     "c": 2,
+     "com": "O art. 42, §1º, da RDC 44/2009 exige a lista atualizada. Não há, nas normas federais consultadas, obrigação de prateleira exclusiva; leis estaduais ou municipais podem exigir cartaz ou lista. Organizar pela DCB, com referência e genéricos lado a lado, é uma opção válida. Genérico sob prescrição fica na área restrita."
+    },
+    {
+     "p": "A etiqueta da gôndola informa R$ 32,50 para um MIP e o leitor de preço do caixa mostra R$ 35,90. O cliente reclama. Pela Lei 10.962/2004, o cliente paga:",
+     "alt": [
+      "R$ 35,90, porque vale o preço do sistema",
+      "R$ 32,50, o menor dos preços informados",
+      "o PMC do produto",
+      "a média entre os dois preços",
+      "R$ 35,90, se a etiqueta estiver com data antiga"
+     ],
+     "c": 1,
+     "com": "Havendo divergência entre os sistemas de informação de preço do estabelecimento, o consumidor paga o menor (Lei 10.962/2004, art. 5º). O PMC é teto, não preço a cobrar. A loja corrige depois a etiqueta ou o cadastro; preços distintos para o mesmo item também são infração do Decreto 5.903/2006 (art. 9º, VII)."
+    },
+    {
+     "p": "Uma drogaria cola na gôndola de MIP a etiqueta: \"O MAIS VENDIDO PARA DOR! De R$ 12,00 por R$ 9,90\". Qual o problema principal?",
+     "alt": [
+      "Falta o preço integral",
+      "O preço promocional não pode ser menor que o PMC",
+      "Etiqueta de MIP não pode mostrar preço",
+      "Desconto em MIP só é permitido com receita",
+      "Usa argumento publicitário em informação de preço"
+     ],
+     "c": 4,
+     "com": "A etiqueta já mostra preço integral e promocional (RDC 96/2008, art. 11, §4º). O problema é a frase de efeito: em informação de preço não cabem argumentos publicitários (arts. 19 e 47), e expressões como \"o mais vendido para dor\" estimulam o uso. Preço abaixo do PMC é livre; MIP pode ter preço exposto e desconto não depende de receita."
+    },
+    {
+     "p": "Sobre a lista de preços da CMED, é correto afirmar:",
+     "alt": [
+      "A loja mantém a lista atualizada à disposição e não cobra acima dela",
+      "A lista só precisa ser apresentada à vigilância sanitária durante a inspeção",
+      "O PMC é o mesmo em todos os estados, porque é fixado pela CMED",
+      "Vender abaixo do PMC é infração, porque desequilibra a concorrência",
+      "A loja pode ofertar acima do PMC desde que não efetive a venda"
+     ],
+     "c": 0,
+     "com": "A Resolução CM-CMED 4/2026 (art. 6º) exige a lista atualizada à disposição de consumidores e órgãos de defesa do consumidor, sem preços superiores aos publicados. O PMC varia com o ICMS do estado (parágrafo único). Preço abaixo do teto é permitido. A Resolução CM-CMED 2/2018 (art. 5º) classifica como infração tanto ofertar quanto vender acima do limite."
+    },
+    {
+     "p": "A loja usa código de barras para o preço no autosserviço. Qual exigência do Decreto 5.903/2006 se aplica aos leitores óticos?",
+     "alt": [
+      "Um leitor por caixa registradora, sem nenhuma outra exigência",
+      "Leitores apenas na entrada da loja, perto da porta",
+      "Na área de vendas, sinalizados, a até 15 m de qualquer produto",
+      "Leitores dispensados se houver lista de preços no balcão",
+      "Um leitor para cada 50 metros quadrados de área de vendas"
+     ],
+     "c": 2,
+     "com": "O art. 7º do Decreto 5.903/2006 exige leitores em perfeito funcionamento na área de vendas (caput), indicados por cartazes suspensos (§1º), com distância máxima de 15 metros entre qualquer produto e o leitor mais próximo (§2º), e croqui para a fiscalização (§3º). A lista de preços só é admitida quando for impossível usar as outras modalidades (art. 8º)."
+    },
+    {
+     "p": "Ao repor dipirona 500 mg, o repositor encontra três validades diferentes no estoque. Pela boa prática de reposição, ele deve:",
+     "alt": [
+      "colocar as caixas novas na frente para renovar a exposição",
+      "puxar as antigas para frente e esquerda e pôr as novas no fundo",
+      "misturar as validades, já que todas estão dentro do prazo",
+      "expor só o lote de validade mais longa e guardar o resto",
+      "deixar a validade mais curta no estoque para vender por último"
+     ],
+     "c": 1,
+     "com": "O PVPS manda a validade mais curta sair primeiro: ela fica na frente e à esquerda, e a reposição entra por trás e pela direita. Colocar o novo na frente é a causa mais comum de vencidos escondidos no fundo. Misturar validades sem ordem e guardar o lote curto para depois aumentam a perda."
+    },
+    {
+     "p": "Uma drogaria quer vender chinelos e refrigerantes no caixa. Considerando a IN 9/2009, qual a orientação mais adequada do farmacêutico ao proprietário?",
+     "alt": [
+      "Pode vender livremente, porque a RDC 44/2009 não trata do assunto",
+      "Pode vender, desde que os itens fiquem longe dos medicamentos",
+      "Só pode vender se tiver também alvará de supermercado",
+      "Consultar a vigilância local, pois a IN 9/2009 não inclui esses itens",
+      "Pode vender se pedir autorização ao Conselho Regional de Farmácia"
+     ],
+     "c": 3,
+     "com": "A IN 9/2009 lista os produtos permitidos e veda comercializar ou expor os não permitidos (art. 13, parágrafo único); chinelos e refrigerantes não estão na lista. A RDC 44/2009 remete a essa relação (art. 29). Há leis estaduais e decisões judiciais em casos concretos admitindo conveniências, por isso a vigilância local deve ser consultada antes. O CRF fiscaliza o exercício profissional e não autoriza o mix de produtos; separar dos medicamentos não resolve a questão de o produto ser ou não permitido."
+    },
+    {
+     "p": "Um lote de xarope é objeto de recolhimento comunicado pelo detentor do registro. Na farmácia, a conduta correta é:",
+     "alt": [
+      "bloquear a venda, segregar como recolhido e seguir o comunicado",
+      "vender o estoque restante antes da data-limite do comunicado",
+      "transferir o lote para outra filial com mais giro",
+      "descartar imediatamente no coletor de medicamentos dos clientes",
+      "manter na prateleira com uma etiqueta de alerta ao cliente"
+     ],
+     "c": 0,
+     "com": "Produtos recolhidos seguem a regulamentação específica e as instruções do recolhimento (RDC 44/2009, art. 38, §3º); são segregados fora da área de dispensação e identificados (caput). Vender, transferir ou manter exposto mantém o risco. Descarte no coletor domiciliar é vedado para o serviço de saúde (Decreto 10.388/2020, art. 5º, III) e impediria a devolução."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Brasil. Lei nº 5.991, de 17 de dezembro de 1973. Controle sanitário do comércio de drogas, medicamentos, insumos farmacêuticos e correlatos (art. 4º, XI). https://www.planalto.gov.br/ccivil_03/leis/l5991.htm",
+  "Brasil. Lei nº 6.437, de 20 de agosto de 1977. Infrações à legislação sanitária federal (art. 10, XVIII, redação da MP 2.190-34/2001). https://www.planalto.gov.br/ccivil_03/leis/l6437.htm",
+  "Brasil. Lei nº 8.078, de 11 de setembro de 1990. Código de Defesa do Consumidor (art. 18, §6º). https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+  "Brasil. Lei nº 8.137, de 27 de dezembro de 1990. Crimes contra as relações de consumo (art. 7º, IX). https://www.planalto.gov.br/ccivil_03/leis/l8137.htm",
+  "Brasil. Lei nº 10.962, de 11 de outubro de 2004. Oferta e formas de afixação de preços (com alterações das Leis 13.175/2015, 13.455/2017 e 13.543/2017). https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.962.htm",
+  "Brasil. Decreto nº 5.903, de 20 de setembro de 2006. Regulamenta a Lei 10.962/2004 e a Lei 8.078/1990. https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/decreto/d5903.htm",
+  "Brasil. Decreto nº 10.388, de 5 de junho de 2020. Logística reversa de medicamentos domiciliares vencidos ou em desuso (art. 5º, III).",
+  "Anvisa. Resolução RDC nº 44, de 17 de agosto de 2009. Boas Práticas Farmacêuticas em farmácias e drogarias (arts. 29, 34 a 42, 51, 54, 86 e 99). https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2009/rdc0044_17_08_2009.html",
+  "Anvisa. Resolução RDC nº 41, de 26 de julho de 2012. Altera os arts. 40 e 41 da RDC 44/2009 e revoga a IN 10/2009. https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2012/rdc0041_26_07_2012.html",
+  "Anvisa. Instrução Normativa nº 9, de 17 de agosto de 2009. Relação de produtos permitidos para dispensação e comercialização em farmácias e drogarias. Texto publicado pelo CFF: https://www.cff.org.br/userfiles/file/noticias/in9_170809.pdf",
+  "Anvisa. Resolução RDC nº 96, de 17 de dezembro de 2008. Propaganda, publicidade, informação e outras práticas de promoção comercial de medicamentos (arts. 8º, 10, 11, 18, 19, 22, 27 e 47). https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2008/rdc0096_17_12_2008.html",
+  "Anvisa. Resolução RDC nº 768, de 12 de dezembro de 2022. Regras para a rotulagem de medicamentos (arts. 25, 54, 55 e 83).",
+  "Anvisa. Resolução RDC nº 80, de 11 de maio de 2006. Fracionamento de medicamentos em farmácias e drogarias. https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2006/rdc0080_11_05_2006.html",
+  "Anvisa. Resolução RDC nº 222, de 28 de março de 2018. Boas Práticas de Gerenciamento dos Resíduos de Serviços de Saúde.",
+  "Anvisa. Resolução RDC nº 882/2024 (enquadramento de MIP, art. 19) e Instrução Normativa nº 285/2024 (Lista de Medicamentos Isentos de Prescrição), com atualizações.",
+  "Ministério da Saúde. Portaria SVS/MS nº 344, de 12 de maio de 1998 (art. 67).",
+  "Câmara de Regulação do Mercado de Medicamentos. Resolução CM-CMED nº 4, de 30 de março de 2026. Ajuste máximo de preços a partir de 31 de março de 2026 e publicidade dos preços (arts. 3º e 6º). Diário Oficial da União, 31 mar. 2026, Seção 1, p. 33.",
+  "Câmara de Regulação do Mercado de Medicamentos. Resolução CM-CMED nº 2, de 16 de abril de 2018, alterada pela Resolução CMED nº 2, de 3 de junho de 2025. Processo administrativo e infrações à regulação do mercado de medicamentos (conceitos de PF e PMC; infrações no art. 5º).",
+  "Anvisa. Lista de preços de medicamentos (PMC), portal gov.br/anvisa, seção CMED, consultada em out. 2026. https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/cmed/precos",
+  "Ouvidoria/Anvisa e Senacon. Consumo e Saúde: Preços de medicamentos, existe um limite? Ano 7, nº 35, jun. 2014.",
+  "Agência Gov. Anvisa aprova abertura de processo para revisar normas da propaganda de alimentos e de medicamentos. Ago. 2026."
+ ]
+}

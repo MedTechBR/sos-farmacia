@@ -1,0 +1,701 @@
+{
+ "id": "m16",
+ "num": 9,
+ "titulo": "Registro no Ministério da Saúde (código MS) e DCB",
+ "escopo": "Como um produto se torna regular na Anvisa (registro, notificação ou isenção), a leitura do número de registro de 13 dígitos, a consulta no portal da Anvisa, os outros códigos da embalagem e a Denominação Comum Brasileira, com base na Lei 6.360/1976, no Decreto 8.077/2013, nas RDC 912/2024, 768/2022, 576/2021 e 955/2024 e na Lei 9.787/1999.",
+ "topicos": [
+  {
+   "id": "m16-registro",
+   "titulo": "Registro, notificação e isenção",
+   "resumo": "<p>Todo medicamento vendido no Brasil precisa estar <strong>regularizado na Anvisa</strong>. Regularizar é obter da agência a autorização para fabricar, importar e vender aquele produto. A regra vem da Lei 6.360/1976, que trata da vigilância sanitária de medicamentos, cosméticos, saneantes e outros produtos, e do Decreto 8.077/2013, que a regulamenta. A lei fala em registro \"no Ministério da Saúde\" porque é anterior à Anvisa (criada pela Lei 9.782/1999); por isso o número ainda é chamado de \"código MS\" ou \"registro MS\".</p>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>\"Nenhum dos produtos de que trata esta Lei, inclusive os importados, poderá ser industrializado, exposto à venda ou entregue ao consumo antes de registrado no Ministério da Saúde.\" (Lei 6.360/1976, art. 12, caput)</p></div>\n<p>O Decreto 8.077/2013 repete a ideia (art. 7º: os produtos \"somente poderão ser objeto das atividades a eles relacionadas se registrados junto a Anvisa\") e acrescenta dois pontos que interessam ao balcão: o produto só pode ser oferecido ao consumo na <strong>embalagem original</strong>, salvo norma específica (art. 11), e a responsabilidade pela qualidade do produto até o consumidor é solidária entre todos os agentes da cadeia, o que inclui a farmácia (art. 15, § 2º).</p>\n<h3>Três caminhos de regularização</h3>\n<div class=\"tab\"><table><thead><tr><th>Caminho</th><th>Como funciona</th><th>O que aparece na caixa</th></tr></thead><tbody>\n<tr><td><b>Registro</b></td><td>A empresa protocola um dossiê; a Anvisa analisa qualidade, segurança e eficácia e publica a decisão no Diário Oficial da União (DOU)</td><td>\"Registro:\" seguido do número de 13 dígitos (RDC 768/2022, art. 5º, VII)</td></tr>\n<tr><td><b>Notificação</b></td><td>Comunicação eletrônica à Anvisa de produto de baixo risco já descrito em lista oficial; não há análise prévia do dossiê</td><td>\"MEDICAMENTO NOTIFICADO\" (ou variante) no lugar do número de registro (RDC 768/2022, art. 5º, § 4º)</td></tr>\n<tr><td><b>Isenção</b></td><td>Casos previstos em lei, como produtos de fórmula inscrita na Farmacopeia ou em formulário oficial e medicamento novo de uso exclusivamente experimental</td><td>Sem número de registro; segue sob fiscalização sanitária</td></tr>\n</tbody></table></div>\n<h3>Registro</h3>\n<p>O registro é o ato pelo qual a Anvisa reconhece que aquele medicamento, naquela fórmula, fabricado por aquela empresa, pode ser vendido. Ele vale para a <strong>fórmula aprovada</strong>: qualquer mudança de composição depende de autorização prévia e é averbada no registro (Lei 6.360/1976, art. 13). Os atos de registro só produzem efeito depois de publicados no DOU (RDC 250/2004, art. 2º).</p>\n<p>O registro tem um <strong>detentor</strong>: a empresa titular, que responde pelo produto perante a Anvisa. O detentor pode fabricar ou terceirizar a fabricação; na caixa isso aparece como \"Registrado por:\", \"Registrado e produzido por:\" ou \"Produzido por:\" (RDC 768/2022, art. 5º, III).</p>\n<h3>Notificação simplificada</h3>\n<p>Para medicamentos de baixo risco, a Anvisa criou a <strong>notificação</strong>. A RDC 576/2021 define notificação como a \"comunicação à Anvisa, realizada exclusivamente por meio eletrônico, referente à fabricação, importação e comercialização dos medicamentos isentos de registro presentes na lista de medicamentos de baixo risco sujeitos à notificação\" (art. 3º, V). A lista é a <strong>LMN</strong>, publicada pela IN 106/2021 e atualizada pela IN 430/2026 (DOU de 26/03/2026). Depois de pagar a taxa e ativar a notificação, a empresa gera a Declaração de Notificação e o produto fica autorizado a ser vendido (RDC 576/2021, art. 6º).</p>\n<p>Os medicamentos notificados de baixo risco são de <strong>venda isenta de prescrição</strong> (art. 3º, IV). Exemplos de itens que aparecem como notificados nos dados abertos da Anvisa: solução nasal de cloreto de sódio 0,9%, óleo mineral, água oxigenada 3%, iodopovidona 10% em solução aquosa, simeticona 75 mg/mL em emulsão oral, álcool etílico 70%. A embalagem não traz número de registro: traz a frase \"MEDICAMENTO NOTIFICADO\" (RDC 576/2021, art. 18, § 5º, com redação da RDC 981/2025).</p>\n<p>A notificação não se limita à LMN. Medicamentos dinamizados e medicamentos tradicionais fitoterápicos também podem ser notificados, com as frases \"MEDICAMENTO DINAMIZADO NOTIFICADO\" e \"MEDICAMENTO TRADICIONAL FITOTERÁPICO NOTIFICADO\" (RDC 768/2022, art. 5º, § 4º, com redação da RDC 1.004/2025). Nos dados abertos da Anvisa, além de baixo risco, dinamizados e fitoterápicos, há gases medicinais e radiofármacos sob notificação.</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Notificado também é regular. A falta de número de registro em um soro nasal ou em um óleo mineral não indica irregularidade quando a caixa traz \"MEDICAMENTO NOTIFICADO\" e o produto consta na consulta de notificados da Anvisa.</p></div>\n<h3>Isenção de registro</h3>\n<p>A Lei 6.360/1976 lista os isentos: produtos cujas fórmulas estejam inscritas na Farmacopeia Brasileira, no códex ou em formulários aceitos; preparados homeopáticos de simples associação de tinturas ou incorporação a sólidos; solutos concentrados oficinais; e produtos equiparados aos oficinais aprovados pelo Ministério da Saúde (art. 23). Também são isentos os medicamentos novos destinados exclusivamente a uso experimental, sob controle médico, por até 3 anos (art. 24). Isenção de registro não significa ausência de controle: a fiscalização alcança \"inclusive os isentos de registro\" (Decreto 8.077/2013, art. 15).</p>\n<p>O medicamento manipulado na farmácia, a partir de prescrição, também não tem número de registro: a regularidade dele está na licença da farmácia e no cumprimento das boas práticas de manipulação, assunto de outro módulo.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Diante de um produto sem número de registro, pergunte primeiro qual é a categoria: medicamento notificado (frase na caixa), cosmético ou alimento (regras próprias, ver tópico seguinte) ou manipulado (rótulo da farmácia). Só depois de descartar essas hipóteses trate o item como suspeito e confira no portal da Anvisa.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Repositor estranha um frasco de solução nasal de cloreto de sódio 0,9% sem \"Registro:\" na caixa e separa o lote. A farmacêutica lê a lateral: \"MEDICAMENTO NOTIFICADO\", nome e CNPJ da empresa notificante, lote e validade. Ela confere o produto na consulta de medicamentos notificados e libera o lote para venda.</p></div>"
+  },
+  {
+   "id": "m16-validade",
+   "titulo": "Validade, renovação e situação do registro",
+   "resumo": "<p>O registro tem prazo. A redação original da Lei 6.360/1976 fixava 5 anos; a Lei 13.097/2015 deu à Anvisa o poder de definir esse prazo por ato próprio, até o limite de 10 anos, conforme a natureza e o risco do produto (art. 12, § 1º). O Decreto 8.077/2013 ainda fala em 5 anos (art. 8º, § 1º), mas a norma que vale para medicamentos hoje é a <strong>RDC 912/2024</strong>, que fixou o prazo de <strong>10 anos</strong> para o registro de medicamentos (art. 2º) e prorrogou para 10 anos os registros concedidos antes dela (art. 9º).</p>\n<div class=\"tab\"><table><thead><tr><th>Situação</th><th>Prazo de validade</th><th>Base</th></tr></thead><tbody>\n<tr><td>Medicamento registrado (regra geral)</td><td>10 anos</td><td>RDC 912/2024, art. 2º</td></tr>\n<tr><td>Registro concedido com Termo de Compromisso</td><td>3 anos no início; 5 anos após a 1ª renovação; 10 anos após a 2ª</td><td>RDC 912/2024, art. 3º</td></tr>\n<tr><td>Medicamento notificado</td><td>Sem renovação; declaração de interesse na continuidade a cada 10 anos</td><td>RDC 912/2024, arts. 4º e 5º</td></tr>\n<tr><td>Dispositivo médico registrado (classes III e IV)</td><td>10 anos</td><td>RDC 751/2022, art. 11</td></tr>\n</tbody></table></div>\n<h3>Renovação (revalidação)</h3>\n<p>A empresa deve pedir a renovação com antecedência <strong>máxima de 12 meses e mínima de 6 meses</strong> do vencimento. Se o pedido foi feito no prazo e a Anvisa não decidiu até o vencimento, o registro é considerado <strong>automaticamente revalidado</strong> (RDC 250/2004, art. 1º, com redação da RDC 212/2018; Decreto 8.077/2013, art. 8º, §§ 2º e 3º). A revalidação automática não encerra a análise: se depois o pedido for indeferido, o registro é cancelado (Decreto 8.077/2013, art. 8º, § 6º).</p>\n<p>Para renovar, a empresa precisa comprovar que vendeu o medicamento durante pelo menos os <strong>dois terços finais</strong> do período de validade que expirou (Lei 6.360/1976, art. 12, § 8º, II, com redação da Lei 13.411/2016; RDC 912/2024, art. 6º, III). Medicamento registrado e não comercializado tende a perder o registro.</p>\n<h3>As situações que o farmacêutico encontra</h3>\n<div class=\"tab\"><table><thead><tr><th>Situação</th><th>O que significa</th><th>Efeito para a farmácia</th></tr></thead><tbody>\n<tr><td><b>Válido (ativo)</b></td><td>Dentro do prazo, ou em revalidação automática</td><td>Pode comprar e vender</td></tr>\n<tr><td><b>Vencido</b></td><td>Prazo terminou sem renovação deferida ou automática</td><td>Não comprar lote novo; conferir com o detentor e com a VISA o destino do estoque</td></tr>\n<tr><td><b>Caduco</b></td><td>A empresa não pediu a renovação no prazo; a Anvisa declara a caducidade</td><td>Mesmo tratamento do vencido</td></tr>\n<tr><td><b>Cancelado</b></td><td>Por pedido da empresa, por indeferimento da renovação, por mudança não autorizada na fórmula ou por infração</td><td>Ler o motivo e a data na consulta; seguir a orientação da Anvisa e da VISA</td></tr>\n</tbody></table></div>\n<p>A caducidade está prevista na RDC 250/2004 (art. 1º, § 1º) e na Lei 6.360/1976 (art. 12, § 7º). O cancelamento por modificação não autorizada de fórmula, dosagem, fabricação ou indicações está no art. 19 da Lei 6.360/1976. Para os notificados, a falta da declaração de interesse na continuidade resulta em cancelamento (RDC 912/2024, art. 5º, § 2º).</p>\n<p>No portal de consulta, a situação aparece no registro do produto e em cada apresentação. Uma apresentação pode estar inativa (por exemplo, a caixa com 60 comprimidos foi descontinuada) enquanto o produto segue válido com outras apresentações.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Lote fabricado com registro válido e vendido depois do vencimento do registro é situação que exige consulta à vigilância sanitária local e ao detentor, porque o tratamento depende do motivo (vencimento simples, cancelamento a pedido, cancelamento por risco). Quando a Anvisa publica suspensão ou recolhimento de lote, a ordem é segregar o lote e seguir a resolução publicada, assunto do módulo de recolhimento.</p></div>\n<h3>Produto sem registro: infração e crime</h3>\n<p>Vender produto sem registro, licença ou autorização, quando exigidos, é <strong>infração sanitária</strong>. A Lei 6.437/1977 (art. 10, IV) inclui \"comprar, vender, ceder ou usar\" medicamentos, cosméticos, saneantes e correlatos \"sem registro, licença, ou autorizações do órgão sanitário competente\", com penas de advertência, apreensão e inutilização, interdição, cancelamento do registro e/ou multa.</p>\n<p>A mesma conduta pode ser <strong>crime</strong>. O Código Penal, art. 273, § 1º-B, I, sujeita às penas do artigo quem importa, vende, expõe à venda, tem em depósito para vender ou entrega a consumo produto terapêutico \"sem registro, quando exigível, no órgão de vigilância sanitária competente\". O § 1º-B também alcança produto em desacordo com a fórmula registrada (II), de procedência ignorada (V) e adquirido de estabelecimento sem licença sanitária (VI). A pena prevista no caput é de reclusão de 10 a 15 anos e multa (redação da Lei 9.677/1998). Em 2021, o Supremo Tribunal Federal (RE 979.962, Tema 1003) considerou essa pena desproporcional para a importação de medicamento sem registro e mandou aplicar, nessa hipótese, a pena da redação original do artigo (reclusão de 1 a 3 anos e multa).</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Cliente pede \"aquele remédio para emagrecer que vem do Paraguai\". Responda que a farmácia não pode vender nem guardar produto sem registro, explique que não há garantia do conteúdo e oriente procurar o médico. Se alguém oferecer esse tipo de produto à loja, recuse e registre o contato; a denúncia vai para a vigilância sanitária.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Distribuidor oferece um suplemento de ferro \"registrado no MS\". O comprador da loja encontra o número na consulta, mas com situação \"cancelado\" há dois anos. A farmacêutica não autoriza a compra e pede ao fornecedor o documento de regularização vigente. Sem esse documento, o item não entra no cadastro.</p></div>"
+  },
+  {
+   "id": "m16-numero",
+   "titulo": "O número de registro do medicamento",
+   "resumo": "<p>O número de registro de um medicamento tem <strong>13 dígitos</strong> e identifica uma <strong>apresentação</strong>: aquela concentração, naquela forma farmacêutica, naquela embalagem, daquele detentor. Os <strong>9 primeiros dígitos</strong> identificam o <strong>produto</strong> (o registro do medicamento como um todo). Por isso o mesmo medicamento tem um número de 9 dígitos e vários números de 13, um por apresentação.</p>\n<h3>Dígito a dígito</h3>\n<p>Exemplo <b>fictício</b>, escrito como costuma aparecer nos sistemas: <b>1.9990.0045.002-7</b>.</p>\n<div class=\"tab\"><table><thead><tr><th>Posição</th><th>Dígitos no exemplo</th><th>O que indica</th></tr></thead><tbody>\n<tr><td>1º</td><td>1</td><td>Tipo de produto: medicamento. Todo registro de medicamento começa com 1</td></tr>\n<tr><td>2º ao 5º</td><td>9990</td><td>Código da empresa detentora do registro</td></tr>\n<tr><td>6º ao 9º</td><td>0045</td><td>Número do produto dentro daquela empresa</td></tr>\n<tr><td>10º ao 12º</td><td>002</td><td>Apresentação (cada concentração e tamanho de embalagem tem a sua)</td></tr>\n<tr><td>13º</td><td>7</td><td>Dígito verificador, que acusa erro de digitação</td></tr>\n</tbody></table></div>\n<p>Essa divisão se confirma nos dados abertos da Anvisa. Na base de medicamentos, os registros de produto têm 9 dígitos e começam com 1. Na lista de preços da CMED, todas as apresentações trazem um registro de 13 dígitos cujos 9 primeiros coincidem com o registro do produto; os dígitos 10 a 12 mudam de uma apresentação para outra do mesmo produto, e os dígitos 2 a 5 se repetem para a mesma empresa. O cálculo do dígito verificador é feito pelo sistema da Anvisa e não precisa ser feito à mão.</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>9 dígitos = o produto. 13 dígitos = a apresentação. Clonazepam 0,5 mg com 30 comprimidos e clonazepam 2 mg com 30 comprimidos do mesmo detentor e do mesmo registro têm os mesmos 9 primeiros dígitos e números completos diferentes.</p></div>\n<h3>Como o número aparece na embalagem</h3>\n<div class=\"tab\"><table><thead><tr><th>Onde</th><th>Exigência</th><th>Base</th></tr></thead><tbody>\n<tr><td>Embalagem secundária (caixa)</td><td>\"Registro:\" + número conforme publicado no DOU, com os 13 dígitos</td><td>RDC 768/2022, art. 5º, VII</td></tr>\n<tr><td>Embalagem primária vendida sem caixa</td><td>\"Registro:\" + no mínimo os 9 dígitos</td><td>RDC 768/2022, art. 31, I</td></tr>\n<tr><td>Embalagem primária fracionável</td><td>\"Registro\" + no mínimo os 9 primeiros dígitos</td><td>RDC 768/2022, art. 50 (redação da RDC 808/2023)</td></tr>\n<tr><td>Amostra grátis</td><td>Os 13 dígitos da apresentação comercial de origem</td><td>RDC 768/2022, art. 47</td></tr>\n<tr><td>Medicamento notificado</td><td>\"MEDICAMENTO NOTIFICADO\" (ou variante) ou código gerado na notificação, no lugar do registro</td><td>RDC 768/2022, art. 5º, § 4º</td></tr>\n</tbody></table></div>\n<p>Caixas antigas e muitos sistemas ainda usam as formas \"Reg. MS\", \"MS nº\" ou só \"MS\" antes do número, herança das normas de rotulagem anteriores. A RDC 768/2022 padronizou a expressão \"Registro:\". O número pode vir com pontos e hífen (1.9990.0045.002-7) ou corrido (1999000450027); os dígitos são os mesmos.</p>\n<h3>Onde o farmacêutico usa o número</h3>\n<ul>\n<li><strong>SNGPC</strong>: cada entrada, saída e perda de medicamento controlado ou antimicrobiano industrializado é escriturada pelo número de registro da apresentação. Número errado gera recusa do arquivo ou saldo lançado no produto errado (módulos do SNGPC e do software de gestão).</li>\n<li><strong>Cadastro do produto no software</strong>: o campo \"Registro MS\" precisa ter os 13 dígitos da apresentação que está na prateleira, e não os 9 do produto.</li>\n<li><strong>Nota fiscal eletrônica</strong>: nas notas de medicamentos há campo para o código do produto na Anvisa, com 13 dígitos (ou a indicação de isento, para produto sem registro). A conferência da nota no recebimento inclui esse número.</li>\n<li><strong>Lista de preços da CMED</strong>: o registro de 13 dígitos permite achar o preço máximo daquela apresentação.</li>\n<li><strong>Recolhimentos e alertas</strong>: resoluções da Anvisa identificam o produto pelo nome, pelo registro e pelo lote.</li>\n</ul>\n<div class=\"cx alerta\"><b>Atenção</b><p>Erro comum de cadastro: copiar para todas as apresentações o número de 9 dígitos ou o número da primeira apresentação. O estoque do SNGPC passa a misturar 0,5 mg e 2 mg, e o inventário não fecha.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Ao receber um produto novo, leia o \"Registro:\" da caixa e compare com o número que o fornecedor mandou na nota e com o que está no cadastro. Os três precisam bater nos 13 dígitos. Se a caixa é antiga e mostra só 9 dígitos, complete o número pela consulta da Anvisa, escolhendo a apresentação exata.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>O SNGPC recusa a entrada de alprazolam 1 mg. No cadastro, o produto está com o registro 1.9876.0110.001-3 (fictício), mas a caixa recebida mostra 1.9876.0110.003-X (fictício): é outra apresentação do mesmo produto, com 60 comprimidos. A farmacêutica cria o cadastro da apresentação correta, transfere o lançamento e reenvia.</p></div>"
+  },
+  {
+   "id": "m16-outros-produtos",
+   "titulo": "Cosméticos, saneantes, alimentos e dispositivos médicos",
+   "resumo": "<p>A farmácia vende muito mais do que medicamentos: protetor solar, repelente, álcool em gel, fraldas, termômetros, suplementos, desinfetantes. Cada grupo tem seu próprio regime na Anvisa, e o formato do número muda. Saber isso evita dois erros opostos: recusar produto regular só porque não tem número de registro e aceitar produto irregular porque \"tem um número\".</p>\n<h3>Cosméticos, produtos de higiene e perfumes</h3>\n<p>A RDC 907/2024 divide esses produtos em Grau 1 e Grau 2, conforme o risco. A maior parte é <strong>isenta de registro</strong> e regularizada por comunicação prévia (notificação) no portal da Anvisa (art. 35). Ficam <strong>sujeitos a registro</strong> apenas os grupos listados no art. 34: bronzeador, gel antisséptico para as mãos, produto para alisar os cabelos, produto para alisar e tingir os cabelos, produto para ondular os cabelos, protetor solar, protetor solar infantil, repelente de insetos e repelente de insetos infantil. Nos dados abertos da Anvisa, o número de registro de cosmético tem 9 dígitos e começa, em quase todos os casos, com <strong>2</strong>.</p>\n<h3>Saneantes</h3>\n<p>A RDC 989/2025, que substituiu a RDC 59/2010, classifica os saneantes em <strong>risco 1 (notificação)</strong> e <strong>risco 2 (registro)</strong> (art. 8º). Produtos com ação antimicrobiana e desinfestantes estão entre os grupos tratados pela norma. Nos dados abertos, o registro de saneante tem 9 dígitos e começa com <strong>3</strong>; os notificados aparecem sem número de registro, identificados pelo número do processo.</p>\n<h3>Alimentos</h3>\n<p>A RDC 843/2024 organiza a regularização de alimentos em quatro situações: <strong>registro</strong> na Anvisa, <strong>notificação</strong> na Anvisa, comunicação de início de fabricação ou importação à vigilância local, e dispensa de regularização, conforme as categorias listadas nos anexos da IN 281/2024 (art. 3º). Nos dados abertos, alimentos registrados têm número de 9 dígitos, que começa com 4, 5 ou 6; os notificados aparecem com número longo de processo. Suplementos alimentares, fórmulas infantis e alimentos para nutrição enteral são os alimentos mais vistos na farmácia.</p>\n<h3>Dispositivos médicos</h3>\n<p>A RDC 751/2022 classifica os dispositivos médicos em quatro classes de risco: I (baixo), II (médio), III (alto) e IV (máximo) (art. 5º). Classes I e II são sujeitas a <strong>notificação</strong> (art. 6º); classes III e IV, a <strong>registro</strong> (art. 7º), com validade de 10 anos (art. 11). Os produtos notificados também recebem número publicado no DOU, e só podem ser vendidos depois dessa publicação (art. 60, § 1º). Nos dados abertos, o número de notificação ou registro de dispositivo médico tem <strong>11 dígitos</strong>: os mais antigos começam com 1 (em geral 10) e os mais recentes com 8 (80 a 83).</p>\n<div class=\"tab\"><table><thead><tr><th>Grupo</th><th>Regularização</th><th>Número que aparece</th><th>Norma</th></tr></thead><tbody>\n<tr><td>Medicamento</td><td>Registro ou notificação</td><td>13 dígitos, começa com 1; notificado: \"MEDICAMENTO NOTIFICADO\"</td><td>Lei 6.360/1976; RDC 768/2022</td></tr>\n<tr><td>Cosmético</td><td>Notificação (maioria) ou registro (9 grupos)</td><td>Registrado: 9 dígitos, começa com 2</td><td>RDC 907/2024, arts. 34 e 35</td></tr>\n<tr><td>Saneante</td><td>Notificação (risco 1) ou registro (risco 2)</td><td>Registrado: 9 dígitos, começa com 3</td><td>RDC 989/2025, art. 8º</td></tr>\n<tr><td>Alimento</td><td>Registro, notificação, comunicação ou dispensa</td><td>Registrado: 9 dígitos, começa com 4, 5 ou 6</td><td>RDC 843/2024; IN 281/2024</td></tr>\n<tr><td>Dispositivo médico</td><td>Notificação (classes I e II) ou registro (III e IV)</td><td>11 dígitos, começa com 1 ou 8</td><td>RDC 751/2022, arts. 5º a 7º</td></tr>\n</tbody></table></div>\n<p>Os prefixos da tabela foram observados nos dados abertos da Anvisa e servem como pista de leitura. A prova de regularidade é sempre a consulta no portal, pelo nome, pela empresa ou pelo número.</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Um protetor solar, um repelente ou um gel antisséptico para as mãos precisam ter registro. Um xampu, um hidratante comum ou um desodorante não precisam: são notificados e não trazem número de registro.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Cliente quer devolver um repelente porque \"não tem número da Anvisa na embalagem\". Antes de responder, procure o número na lateral ou no verso: repelente é registrado e deve trazer número de 9 dígitos começando com 2. Se a embalagem realmente não traz número, separe o lote e confira na consulta de cosméticos.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Fornecedor novo oferece termômetro digital e mostra o número \"80999990001\" (fictício) no folheto. O comprador faz a consulta de produtos para saúde pelo número e pelo nome da empresa. O número existe, mas pertence a outro modelo de outro fabricante. A loja não compra e comunica a vigilância sanitária.</p></div>"
+  },
+  {
+   "id": "m16-consulta",
+   "titulo": "Consulta de registro no portal da Anvisa",
+   "resumo": "<p>A consulta pública da Anvisa fica em <strong>consultas.anvisa.gov.br</strong> e é gratuita, sem login. Ela reúne medicamentos, cosméticos, saneantes, alimentos, produtos para saúde e outras áreas. A página de serviços da Anvisa separa duas consultas de medicamentos: <strong>medicamentos registrados</strong> (no portal de consultas) e <strong>medicamentos de notificação simplificada</strong> (relatório próprio).</p>\n<h3>Passo a passo para medicamentos</h3>\n<ol>\n<li>Entrar em consultas.anvisa.gov.br e escolher a área <b>Medicamentos</b>.</li>\n<li>Preencher um critério. Os mais úteis no balcão são o <b>nome do produto</b>, o <b>número de registro</b> (os 9 primeiros dígitos já localizam o produto), o <b>princípio ativo</b> e o nome ou CNPJ da <b>empresa</b>.</li>\n<li>Na lista de resultados, conferir nome, detentor e número antes de abrir. Medicamentos com o mesmo nome comercial podem existir em empresas diferentes, ativos e inativos.</li>\n<li>Abrir a ficha do produto e ler os campos descritos abaixo.</li>\n<li>Abrir as <b>apresentações</b> e localizar a que está na mão: concentração, forma farmacêutica, quantidade e o número completo de 13 dígitos.</li>\n<li>Abrir a <b>bula</b> do paciente ou do profissional, quando precisar de informação técnica.</li>\n</ol>\n<h3>O que a ficha mostra</h3>\n<div class=\"tab\"><table><thead><tr><th>Campo</th><th>Para que serve no balcão</th></tr></thead><tbody>\n<tr><td>Nome do produto e princípio ativo</td><td>Confirmar que é o medicamento procurado e qual a DCB</td></tr>\n<tr><td>Empresa detentora (razão social e CNPJ)</td><td>Conferir com o \"Registrado por\" da caixa e com a nota fiscal</td></tr>\n<tr><td>Número do registro e do processo</td><td>Ligar a caixa ao cadastro e ao SNGPC</td></tr>\n<tr><td>Situação e vencimento do registro</td><td>Saber se pode comprar e vender</td></tr>\n<tr><td>Categoria regulatória</td><td>Saber se é novo, genérico, similar, específico, fitoterápico, biológico, dinamizado ou outra</td></tr>\n<tr><td>Medicamento de referência</td><td>Para genéricos e similares, indica o produto de comparação</td></tr>\n<tr><td>Classe terapêutica e código ATC</td><td>Classificar o produto no cadastro</td></tr>\n<tr><td>Apresentações</td><td>Número de 13 dígitos, forma, embalagem, tarja e restrições de cada uma</td></tr>\n<tr><td>Bula e rotulagem</td><td>Texto aprovado pela Anvisa</td></tr>\n</tbody></table></div>\n<p>Os dados abertos da Anvisa usam as mesmas categorias da consulta: similar, genérico, novo, específico, fitoterápico, biológico, dinamizado, radiofármaco, gases medicinais, produto de terapia avançada e, para notificados, baixo risco.</p>\n<h3>As categorias regulatórias em uma linha</h3>\n<ul>\n<li><strong>Novo</strong>: medicamento com insumo ativo novo no país, em geral o produto inovador. Muitos são também o <strong>medicamento de referência</strong>, definido pela Lei 6.360/1976 (art. 3º, XXII, incluído pela Lei 9.787/1999) como produto inovador registrado e comercializado, com eficácia, segurança e qualidade comprovadas no registro.</li>\n<li><strong>Genérico</strong>: similar a um produto de referência, intercambiável com ele, com eficácia, segurança e qualidade comprovadas, designado pela DCB ou, na falta, pela DCI (art. 3º, XXI).</li>\n<li><strong>Similar</strong>: mesmo princípio ativo, concentração, forma, via, posologia e indicação do referência, identificado por nome comercial ou marca (art. 3º, XX). Desde a Lei 13.235/2015, o similar precisa comprovar eficácia, segurança e qualidade de forma equivalente à do genérico (Lei 6.360/1976, art. 21, § 6º).</li>\n<li><strong>Específico</strong>: categoria da Anvisa para produtos que não se encaixam em novo, genérico ou similar, como muitas soluções de grande volume, vitaminas e minerais isolados.</li>\n<li><strong>Fitoterápico</strong>: obtido de matéria-prima vegetal; tem as categorias medicamento fitoterápico e medicamento tradicional fitoterápico (RDC 1.004/2025).</li>\n<li><strong>Biológico</strong>: obtido de fonte biológica (vacinas, soros, hemoderivados, anticorpos monoclonais, insulinas, entre outros).</li>\n<li><strong>Dinamizado</strong>: homeopáticos, antroposóficos e anti-homotóxicos.</li>\n</ul>\n<div class=\"cx balcao\"><b>No balcão</b><p>Três usos rápidos da consulta. (1) Cliente pergunta se um medicamento novo \"já foi aprovado\": procure pelo princípio ativo e veja se há registro válido. (2) Receita com nome comercial que você não reconhece: a consulta mostra o princípio ativo e a empresa. (3) Dúvida se determinado produto é genérico ou similar: a categoria regulatória responde.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Cliente traz caixa de um anti-hipertensivo comprado em outra cidade e quer o \"mesmo\" na loja. A farmacêutica digita os 9 primeiros dígitos do \"Registro:\" da caixa, abre a ficha e vê: losartana potássica 50 mg, categoria similar, situação válida. Ela oferece o produto de referência, o genérico ou um similar intercambiável, conforme a receita, e explica a diferença de categoria.</p></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>A consulta mostra o que está na base da Anvisa naquele momento. Resoluções de suspensão, apreensão ou recolhimento de lote saem no DOU e na página de alertas da Anvisa; registro válido não garante que um lote específico esteja liberado.</p></div>"
+  },
+  {
+   "id": "m16-codigos",
+   "titulo": "Outros códigos da embalagem e do cadastro",
+   "resumo": "<p>Além do registro, a caixa de medicamento e o cadastro da loja trazem outros códigos. Cada um tem dono e função diferentes, e o software de gestão costuma pedir vários deles na mesma tela.</p>\n<h3>Código de barras: EAN-13 ou GTIN-13</h3>\n<p>É o código de barras comercial, com <strong>13 dígitos</strong>, atribuído pela própria empresa dentro do sistema GS1. O dicionário de dados da lista de preços da CMED descreve o EAN como código de 13 dígitos que identifica a origem, a empresa, o produto e um dígito verificador. Os três primeiros dígitos indicam a organização GS1 que licenciou o número (789 e 790 para a GS1 Brasil, os mais vistos na farmácia); eles não provam o país onde o produto foi fabricado.</p>\n<p>O EAN serve para a venda no caixa e o controle de estoque. Ele <strong>não substitui</strong> o registro: dois códigos de barras diferentes podem pertencer à mesma apresentação registrada (a lista da CMED tem colunas EAN 1, EAN 2 e EAN 3), e um código de barras não diz nada sobre a regularidade sanitária.</p>\n<h3>Código GGREM</h3>\n<p>Código de <strong>15 dígitos</strong> gerado pela Câmara de Regulação do Mercado de Medicamentos (CMED). Segundo o dicionário de dados da lista de preços, é \"um campo específico de identificação de determinada apresentação, cujo fornecimento e geração são exclusivos da CMED e são únicos para cada apresentação\". Na lista da CMED, cada linha traz substância, CNPJ, laboratório, código GGREM, registro (13 dígitos), EAN, produto, apresentação, classe terapêutica, tipo de produto, preço fábrica (PF) e preço máximo ao consumidor (PMC). O farmacêutico usa essa lista para conferir o preço máximo de venda.</p>\n<h3>Rastreabilidade de medicamentos</h3>\n<p>A Lei 11.903/2009 criou o Sistema Nacional de Controle de Medicamentos (SNCM). A Lei 13.410/2016 reorganizou o sistema em torno de um identificador individual por embalagem, com número de série único e banco de dados centralizado, e a Anvisa chegou a regulamentar esse modelo (RDC 157/2017 e RDC 319/2019). A <strong>Lei 14.338/2022</strong> mudou o rumo: revogou o número de série único e o banco centralizado (arts. 4º, 4º-A e 5º). Em 2024, a RDC 886/2024 revogou expressamente a RDC 157/2017 e a RDC 319/2019.</p>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>Pela Lei 11.903/2009, art. 3º, § 1º, com as redações das Leis 13.410/2016 e 14.338/2022, as embalagens de todos os medicamentos registrados devem conter no mínimo: número de registro, número do lote, data de validade e código de barras bidimensional que leve à bula digital. O detentor do registro deve manter mapa de distribuição com os quantitativos de cada lote e os destinatários (art. 3º-A).</p></div>\n<p>Na prática, em outubro de 2026 a farmácia não transmite dados de unidade serializada para um banco nacional. A rastreabilidade se apoia em <strong>registro + lote + validade</strong>, no mapa de distribuição do detentor e na nota fiscal. Para controlados e antimicrobianos, o SNGPC continua exigindo o lote em cada movimentação.</p>\n<h3>Lote, fabricação e validade</h3>\n<p>A caixa deve trazer data de validade, data de fabricação e número de lote (RDC 768/2022, art. 5º, VIII). O lote liga a embalagem à ordem de produção do fabricante; é por ele que a Anvisa determina recolhimentos e que o SNGPC controla o saldo. O lote é digitado exatamente como está impresso, com letras, zeros e hifens.</p>\n<h3>Código de compras públicas</h3>\n<p>Em licitações e compras de órgãos públicos, o item costuma ser descrito pelo código do Catálogo de Materiais do governo federal (CATMAT). Esse código identifica a especificação do item na compra e não substitui o registro: o edital exige, além dele, o registro válido na Anvisa e a especificação pela DCB (Lei 9.787/1999, art. 3º).</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Registro (13 dígitos) diz que o produto é autorizado. EAN (13 dígitos) serve para vender e contar. GGREM (15 dígitos) liga a apresentação ao preço da CMED. Lote e validade identificam a fabricação. Os dois códigos de 13 dígitos são diferentes e não podem trocar de campo no cadastro.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Se o leitor do caixa não reconhece o código de barras de uma caixa nova, não cadastre o EAN no campo do registro nem o registro no campo do EAN. Leia os dois na caixa: o registro está junto da expressão \"Registro:\"; o EAN está sob as barras.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Auxiliar cadastra um genérico novo e, no campo \"Registro MS\", digita 7899990001234 (fictício), lido pelo leitor de código de barras. O SNGPC recusa a primeira venda. A farmacêutica percebe que o número começa com 789, típico de EAN, corrige o campo com o registro da caixa e reenvia.</p></div>"
+  },
+  {
+   "id": "m16-dcb",
+   "titulo": "Denominação Comum Brasileira (DCB)",
+   "resumo": "<p>A <strong>Denominação Comum Brasileira (DCB)</strong> é o nome genérico oficial de um fármaco no Brasil. A Lei 6.360/1976, art. 3º, XVIII (incluído pela Lei 9.787/1999), define a DCB como a \"denominação do fármaco ou princípio farmacologicamente ativo aprovada pelo órgão federal responsável pela vigilância sanitária\". A RDC 955/2024 a define como \"nomenclatura genérica oficial atribuída aos insumos farmacêuticos pela Farmacopeia Brasileira, sendo de domínio público\" (art. 4º, I).</p>\n<h3>Quem publica e como se atualiza</h3>\n<ul>\n<li><strong>Regras</strong>: RDC 955/2024, que trata do estabelecimento das DCB e da atualização da lista.</li>\n<li><strong>Lista</strong>: aprovada por Instrução Normativa (RDC 955/2024, art. 1º, § 1º). A lista vigente é a da IN 342/2024, alterada periodicamente: a IN 416/2025 (dezembro de 2025) incluiu 22 DCB e alterou 3, e a IN 439/2026 (abril de 2026) trouxe novas inclusões. Em 22/07/2026 a Diretoria Colegiada aprovou mais uma atualização, com 21 inclusões e 2 alterações (Voto 221/2026).</li>\n<li><strong>Quem decide</strong>: o Comitê Técnico Temático de DCB da Farmacopeia Brasileira (CTT DCB), a partir de pedidos de interessados (RDC 955/2024, arts. 5º e 6º).</li>\n<li><strong>Adequação</strong>: após alteração ou exclusão de DCB, o setor tem 180 dias para se adequar (art. 7º, § 4º).</li>\n</ul>\n<p>A lista consolidada fica no portal da Anvisa e traz, para cada DCB, o <strong>número</strong>, o <strong>nome</strong> e o <strong>número CAS</strong> ou, na falta dele, a referência usada (art. 8º).</p>\n<h3>O número DCB, a DCI e o CAS</h3>\n<div class=\"tab\"><table><thead><tr><th>Identificador</th><th>Quem atribui</th><th>Formato</th></tr></thead><tbody>\n<tr><td>Número DCB</td><td>Farmacopeia Brasileira (Anvisa)</td><td>Número sequencial de 5 dígitos (RDC 955/2024, art. 9º)</td></tr>\n<tr><td>DCI (INN)</td><td>Organização Mundial da Saúde</td><td>Nome genérico internacional, em geral em inglês, latim, francês e espanhol</td></tr>\n<tr><td>Número CAS</td><td>Chemical Abstracts Service (American Chemical Society)</td><td>Três grupos de números separados por hífen; os dois últimos com 2 e 1 algarismos (RDC 955/2024, art. 4º, X)</td></tr>\n</tbody></table></div>\n<p>A DCB deve, sempre que possível, convergir com a DCI e ser uma tradução adequada do nome adotado em inglês pela OMS, respeitando a grafia do português (RDC 955/2024, arts. 10 e 15). Exemplo real tirado do Voto 221/2026 da Anvisa: a substância de DCB nº <b>00342</b>, CAS <b>14882-18-9</b>, teve o nome alterado de \"salicilato de bismuto monobásico\" para \"subsalicilato de bismuto\". O número DCB e o CAS ficaram; mudou o nome.</p>\n<h3>Sal e base</h3>\n<p>A DCB considera a forma de sal, de éster e a hidratação da substância (RDC 955/2024, art. 16). Por isso a lista traz nomes distintos para a base e para seus sais, cada um com número próprio. Exemplos de nomes: losartana e losartana potássica; sertralina e cloridrato de sertralina; enalapril e maleato de enalapril.</p>\n<p>Na caixa, a face frontal traz a DCB em letras minúsculas e <strong>sem o grau de hidratação</strong> (RDC 768/2022, art. 3º, II, a). Uma das demais faces traz a composição quantitativa e, quando existir, a <strong>equivalência sal-base</strong> (art. 5º, I). Assim, \"cloridrato de sertralina 55,95 mg equivalente a 50 mg de sertralina\" significa que a dose clínica é 50 mg de sertralina. Já na losartana o padrão de mercado é expressar a dose pelo sal: \"losartana potássica 50 mg\".</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Trocar sal por base no cadastro ou no cálculo muda a quantidade de fármaco. Em manipulação e em conversões de dose, confira se a concentração da receita e a da matéria-prima se referem ao sal ou à base antes de calcular.</p></div>\n<h3>DCB na prescrição e na embalagem</h3>\n<ul>\n<li><strong>SUS</strong>: as prescrições médicas e odontológicas e as compras de medicamentos \"adotarão obrigatoriamente a Denominação Comum Brasileira (DCB) ou, na sua falta, a Denominação Comum Internacional (DCI)\" (Lei 9.787/1999, art. 3º).</li>\n<li><strong>Uso geral</strong>: a RDC 955/2024 manda usar a DCB para nomear os insumos na regularização, na rotulagem, na bula, na propaganda, nos documentos oficiais, na prescrição e na dispensação (art. 3º).</li>\n<li><strong>Embalagem</strong>: medicamento com nome comercial deve trazer também a DCB com o mesmo destaque (Lei 6.360/1976, art. 57, parágrafo único). A RDC 768/2022 fixa o tamanho: no mínimo 50% da altura do maior caractere do nome comercial para até dois insumos ativos e 30% para três ou mais (art. 72).</li>\n<li><strong>Genérico</strong>: é designado pela DCB ou, na falta, pela DCI (Lei 6.360/1976, art. 3º, XXI).</li>\n</ul>\n<h3>DCB no SNGPC e no cadastro de insumos</h3>\n<p>No SNGPC, o medicamento industrializado é identificado pelo registro de 13 dígitos; o <strong>insumo farmacêutico</strong>, na farmácia de manipulação, é identificado pelo <strong>código DCB</strong>, com o CNPJ do fornecedor e o lote do fabricante (módulo do SNGPC). No software de gestão, a tabela de DCB é um cadastro próprio, ligado aos produtos e insumos. Por isso, DCB errada no cadastro de insumo gera recusa ou saldo no insumo errado, do mesmo modo que registro errado no medicamento.</p>\n<h3>Como achar a DCB certa</h3>\n<ol>\n<li>Ler a DCB impressa na face frontal da caixa ou no laudo do insumo.</li>\n<li>Conferir na consulta da Anvisa o princípio ativo do produto.</li>\n<li>Buscar o nome na lista consolidada de DCB, observando se é a base ou o sal (e qual sal).</li>\n<li>Anotar o número de 5 dígitos e o CAS; o CAS do laudo do fornecedor deve coincidir.</li>\n<li>Se não houver DCB, usar a DCI e registrar a ausência; a falta de DCB pode ser pedida à Anvisa por qualquer interessado (RDC 955/2024, art. 5º).</li>\n</ol>\n<div class=\"cx balcao\"><b>No balcão</b><p>Receita de UBS traz \"Cozaar 50 mg\". Pela Lei 9.787/1999, no SUS a prescrição deve usar a DCB, e o farmacêutico da rede pública pode precisar contatar o prescritor conforme o protocolo local. Na drogaria privada, a mesma receita pode ser aviada, e o farmacêutico explica ao cliente que o princípio ativo é losartana potássica, o que permite oferecer o genérico.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Farmácia de manipulação recebe cloridrato de sertralina, mas o cadastro de insumos aponta a DCB de \"sertralina\" (base). O SNGPC aceita o arquivo, mas o saldo fica no insumo errado e o livro não fecha. A farmacêutica corrige o cadastro para a DCB do sal, refaz o lançamento e confere o CAS do laudo com o da lista.</p></div>"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m16-mapa-registro",
+   "titulo": "Registro sanitário e código MS",
+   "centro": "Registro na Anvisa",
+   "ramos": [
+    {
+     "t": "Base legal",
+     "itens": [
+      "Lei 6.360/1976, art. 12: sem registro, sem venda",
+      "Decreto 8.077/2013 regulamenta",
+      "Venda só na embalagem original",
+      "Responsabilidade solidária até o consumidor"
+     ]
+    },
+    {
+     "t": "Três caminhos",
+     "itens": [
+      "Registro: dossiê analisado, DOU",
+      "Notificação: baixo risco, LMN (IN 106/2021)",
+      "Isenção: Farmacopeia, uso experimental",
+      "Notificado: frase no lugar do número"
+     ]
+    },
+    {
+     "t": "Validade",
+     "itens": [
+      "Medicamento: 10 anos (RDC 912/2024)",
+      "Renovar 12 a 6 meses antes",
+      "Sem decisão: revalidação automática",
+      "Sem pedido no prazo: caducidade"
+     ]
+    },
+    {
+     "t": "Número de 13 dígitos",
+     "itens": [
+      {
+       "t": "1 + 4 + 4 + 3 + 1",
+       "itens": [
+        "1º: medicamento",
+        "Empresa, produto, apresentação",
+        "Último: dígito verificador"
+       ]
+      },
+      "9 primeiros = produto",
+      "13 = apresentação",
+      "Caixa: \"Registro:\" + 13 dígitos"
+     ]
+    },
+    {
+     "t": "Outros produtos",
+     "itens": [
+      "Cosmético registrado: 2, 9 dígitos",
+      "Saneante registrado: 3, 9 dígitos",
+      "Alimento registrado: 4, 5 ou 6",
+      "Dispositivo: 11 dígitos, 1 ou 8"
+     ]
+    },
+    {
+     "t": "Sem registro",
+     "itens": [
+      "Infração: Lei 6.437/1977, art. 10, IV",
+      "Crime: CP, art. 273, § 1º-B, I",
+      "Procedência ignorada também é crime",
+      "Recusar, segregar, avisar a VISA"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m16-mapa-dcb",
+   "titulo": "DCB e outros códigos",
+   "centro": "DCB e códigos",
+   "ramos": [
+    {
+     "t": "O que é a DCB",
+     "itens": [
+      "Nome genérico oficial no Brasil",
+      "Farmacopeia Brasileira, domínio público",
+      "Regras: RDC 955/2024",
+      "Lista: IN 342/2024 e atualizações"
+     ]
+    },
+    {
+     "t": "Identificadores",
+     "itens": [
+      "Número DCB: 5 dígitos",
+      "DCI/INN: nome da OMS",
+      "CAS: 3 grupos com hífen",
+      "Ex.: DCB 00342, CAS 14882-18-9"
+     ]
+    },
+    {
+     "t": "Sal e base",
+     "itens": [
+      "Sal tem DCB própria",
+      "Caixa: DCB sem grau de hidratação",
+      "Composição traz equivalência sal-base",
+      "Losartana potássica: dose pelo sal"
+     ]
+    },
+    {
+     "t": "Onde a DCB é exigida",
+     "itens": [
+      "SUS: prescrição e compra (Lei 9.787)",
+      "Rótulo: 50% do nome comercial",
+      "Genérico é designado pela DCB",
+      "SNGPC: insumo pelo código DCB"
+     ]
+    },
+    {
+     "t": "Códigos da caixa",
+     "itens": [
+      "Registro: 13 dígitos, autorização",
+      "EAN/GTIN: 13 dígitos, venda",
+      "GGREM: 15 dígitos, preço CMED",
+      "Lote, fabricação e validade"
+     ]
+    },
+    {
+     "t": "Rastreabilidade hoje",
+     "itens": [
+      "Lei 14.338/2022 tirou o número de série",
+      "RDC 157/2017 e 319/2019 revogadas",
+      "Caixa: registro, lote, validade, QR",
+      "Detentor mantém mapa de distribuição"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "quadro",
+   "id": "m16-quadro-anatomia",
+   "titulo": "Anatomia do número de registro",
+   "html": "\n<p>Número <b>fictício</b> de uma apresentação de medicamento: <b>1.9990.0045.002-7</b> (corrido: 1999000450027).</p>\n<div class=\"tab\"><table><thead><tr><th>Dígito</th><th>Valor</th><th>Bloco</th><th>Significado</th></tr></thead><tbody>\n<tr><td>1º</td><td>1</td><td>Categoria</td><td>Medicamento (todo registro de medicamento começa com 1)</td></tr>\n<tr><td>2º</td><td>9</td><td>Empresa</td><td>Início do código da empresa detentora</td></tr>\n<tr><td>3º</td><td>9</td><td>Empresa</td><td>Código da empresa</td></tr>\n<tr><td>4º</td><td>9</td><td>Empresa</td><td>Código da empresa</td></tr>\n<tr><td>5º</td><td>0</td><td>Empresa</td><td>Fim do código da empresa (9990)</td></tr>\n<tr><td>6º</td><td>0</td><td>Produto</td><td>Início do número do produto na empresa</td></tr>\n<tr><td>7º</td><td>0</td><td>Produto</td><td>Número do produto</td></tr>\n<tr><td>8º</td><td>4</td><td>Produto</td><td>Número do produto</td></tr>\n<tr><td>9º</td><td>5</td><td>Produto</td><td>Fim do número do produto (0045); aqui termina o registro do produto (9 dígitos)</td></tr>\n<tr><td>10º</td><td>0</td><td>Apresentação</td><td>Início do código da apresentação</td></tr>\n<tr><td>11º</td><td>0</td><td>Apresentação</td><td>Código da apresentação</td></tr>\n<tr><td>12º</td><td>2</td><td>Apresentação</td><td>Fim do código da apresentação (002)</td></tr>\n<tr><td>13º</td><td>7</td><td>Verificador</td><td>Dígito verificador, calculado pelo sistema da Anvisa</td></tr>\n</tbody></table></div>\n<h4>O mesmo produto, três apresentações (fictícias)</h4>\n<div class=\"tab\"><table><thead><tr><th>Apresentação</th><th>Registro do produto</th><th>Número completo</th></tr></thead><tbody>\n<tr><td>Comprimido 0,5 mg, caixa com 30</td><td>1.9990.0045</td><td>1.9990.0045.001-X</td></tr>\n<tr><td>Comprimido 2 mg, caixa com 30</td><td>1.9990.0045</td><td>1.9990.0045.002-7</td></tr>\n<tr><td>Comprimido 2 mg, caixa com 60</td><td>1.9990.0045</td><td>1.9990.0045.003-X</td></tr>\n</tbody></table></div>\n<p>X = dígito verificador (não calculado nos exemplos). Exigências de rotulagem: caixa com os 13 dígitos (RDC 768/2022, art. 5º, VII); embalagem primária vendida sem caixa e embalagem fracionável com no mínimo 9 dígitos (arts. 31 e 50).</p>\n"
+  },
+  {
+   "tipo": "tabela",
+   "id": "m16-tab-categorias",
+   "titulo": "Categoria regulatória e como reconhecer na embalagem",
+   "colunas": [
+    "Categoria",
+    "O que é",
+    "Sinal na embalagem",
+    "Como confirmar"
+   ],
+   "linhas": [
+    [
+     "Novo / referência",
+     "Insumo ativo novo no país; o referência é o inovador usado como padrão de comparação",
+     "Nome comercial; não há marca gráfica obrigatória de categoria",
+     "Consulta Anvisa: categoria \"Novo\"; lista de medicamentos de referência"
+    ],
+    [
+     "Genérico",
+     "Intercambiável com o referência; designado pela DCB (Lei 6.360/1976, art. 3º, XXI)",
+     "Faixa amarela na face frontal com \"G\" e \"Medicamento Genérico\" (RDC 768/2022, arts. 25 a 28); sem nome comercial",
+     "Consulta Anvisa: categoria \"Genérico\""
+    ],
+    [
+     "Similar",
+     "Mesmo ativo, concentração, forma, via e indicação do referência, com nome comercial (art. 3º, XX)",
+     "Nome comercial; a cor amarela da faixa é proibida fora do genérico (RDC 768/2022, art. 27, § 1º)",
+     "Consulta Anvisa: categoria \"Similar\" e o referência indicado"
+    ],
+    [
+     "Específico",
+     "Produtos fora de novo, genérico e similar, como muitas soluções e vitaminas isoladas",
+     "Sem frase obrigatória de categoria",
+     "Consulta Anvisa: categoria \"Específico\""
+    ],
+    [
+     "Fitoterápico",
+     "Ativo de origem vegetal (RDC 1.004/2025)",
+     "\"MEDICAMENTO FITOTERÁPICO\" ou \"MEDICAMENTO TRADICIONAL FITOTERÁPICO\" (RDC 768/2022, art. 3º, IX)",
+     "Consulta Anvisa: categoria \"Fitoterápico\""
+    ],
+    [
+     "Biológico",
+     "Obtido de fonte biológica: vacinas, soros, insulinas, anticorpos",
+     "DCB do insumo biológico na face frontal (RDC 768/2022, art. 3º, II, d)",
+     "Consulta Anvisa: categoria \"Biológico\""
+    ],
+    [
+     "Dinamizado",
+     "Homeopático, antroposófico ou anti-homotóxico",
+     "\"MEDICAMENTO HOMEOPÁTICO\", \"ANTROPOSÓFICO\" ou \"ANTIHOMOTÓXICO\" (art. 3º, X)",
+     "Consulta Anvisa: categoria \"Dinamizado\""
+    ],
+    [
+     "Notificado",
+     "Baixo risco da LMN, dinamizado ou tradicional fitoterápico notificado",
+     "\"MEDICAMENTO NOTIFICADO\" (ou variante) no lugar do número de registro (art. 5º, § 4º)",
+     "Consulta de medicamentos de notificação simplificada"
+    ]
+   ],
+   "nota": "A categoria regulatória não se confunde com a tarja (venda sob prescrição ou isenta). Um genérico pode ser tarjado ou isento de prescrição."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m16-tab-codigos",
+   "titulo": "Códigos que aparecem na farmácia",
+   "colunas": [
+    "Código",
+    "Formato",
+    "Quem atribui",
+    "Para que serve",
+    "Onde aparece"
+   ],
+   "linhas": [
+    [
+     "Registro do medicamento (apresentação)",
+     "13 dígitos, começa com 1",
+     "Anvisa",
+     "Prova a autorização de venda daquela apresentação",
+     "Caixa (\"Registro:\"), nota fiscal, SNGPC, cadastro"
+    ],
+    [
+     "Registro do produto",
+     "9 primeiros dígitos do anterior",
+     "Anvisa",
+     "Identifica o medicamento como um todo",
+     "Embalagem primária, blíster fracionável, consulta"
+    ],
+    [
+     "Número de processo",
+     "Número longo de protocolo (ex.: 25351...)",
+     "Anvisa",
+     "Acompanha o pedido; identifica notificados de cosmético, saneante e alimento",
+     "Consulta Anvisa"
+    ],
+    [
+     "EAN-13 / GTIN-13",
+     "13 dígitos; 789 ou 790 para GS1 Brasil",
+     "Empresa, no sistema GS1",
+     "Venda no caixa e estoque",
+     "Código de barras da caixa"
+    ],
+    [
+     "GGREM",
+     "15 dígitos",
+     "CMED",
+     "Identifica a apresentação na lista de preços",
+     "Lista de preços da CMED"
+    ],
+    [
+     "Lote",
+     "Letras e números definidos pelo fabricante",
+     "Fabricante",
+     "Rastreia a fabricação; base de recolhimentos e do SNGPC",
+     "Caixa e embalagem primária"
+    ],
+    [
+     "Validade e fabricação",
+     "Data",
+     "Fabricante",
+     "Prazo de uso e idade do lote",
+     "Caixa e embalagem primária"
+    ],
+    [
+     "Número DCB",
+     "5 dígitos",
+     "Farmacopeia Brasileira (Anvisa)",
+     "Identifica o insumo pelo nome genérico oficial",
+     "Lista de DCB, SNGPC de insumos, cadastro"
+    ],
+    [
+     "Número CAS",
+     "3 grupos com hífen (ex.: 14882-18-9)",
+     "Chemical Abstracts Service",
+     "Identifica a substância química",
+     "Lista de DCB, laudo do insumo"
+    ],
+    [
+     "Código ATC",
+     "Letras e números por nível",
+     "OMS",
+     "Classifica o fármaco por sistema e grupo terapêutico",
+     "Consulta Anvisa, cadastro"
+    ],
+    [
+     "CATMAT",
+     "Código numérico do catálogo",
+     "Governo federal",
+     "Especifica o item em compras públicas",
+     "Editais e pedidos de compra pública"
+    ]
+   ],
+   "nota": "Registro e EAN têm os dois 13 dígitos. O registro de medicamento começa com 1; o EAN de empresa filiada à GS1 Brasil começa com 789 ou 790."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m16-tab-regimes",
+   "titulo": "Registro, notificação e isenção por tipo de produto",
+   "colunas": [
+    "Produto",
+    "Precisa de registro",
+    "Basta notificar",
+    "Norma"
+   ],
+   "linhas": [
+    [
+     "Medicamento",
+     "Regra geral",
+     "Baixo risco da LMN; dinamizados e tradicionais fitoterápicos notificáveis",
+     "Lei 6.360/1976; RDC 576/2021; IN 106/2021 e IN 430/2026"
+    ],
+    [
+     "Cosmético",
+     "Bronzeador, gel antisséptico para mãos, alisantes, ondulantes, protetor solar, repelente (e versões infantis)",
+     "Todos os demais grupos",
+     "RDC 907/2024, arts. 34 e 35"
+    ],
+    [
+     "Saneante",
+     "Risco 2",
+     "Risco 1",
+     "RDC 989/2025, art. 8º"
+    ],
+    [
+     "Alimento",
+     "Categorias do Anexo I da IN 281/2024",
+     "Categorias do Anexo II; outras exigem só comunicação local ou são dispensadas",
+     "RDC 843/2024, art. 3º"
+    ],
+    [
+     "Dispositivo médico",
+     "Classes III e IV",
+     "Classes I e II",
+     "RDC 751/2022, arts. 6º e 7º"
+    ]
+   ]
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m16-fluxo-regular",
+   "titulo": "Este produto é regular?",
+   "passos": [
+    {
+     "t": "Produto na mão: no recebimento, na prateleira ou trazido pelo cliente",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Identificar o tipo: medicamento, cosmético, saneante, alimento ou dispositivo médico",
+     "tipo": "acao"
+    },
+    {
+     "t": "A embalagem traz número de registro ou de notificação?",
+     "tipo": "decisao",
+     "sim": "Anotar o número e seguir para a consulta",
+     "nao": "Verificar se é notificado (\"MEDICAMENTO NOTIFICADO\"), cosmético isento, alimento dispensado ou manipulado"
+    },
+    {
+     "t": "O formato do número combina com o tipo de produto?",
+     "tipo": "decisao",
+     "sim": "Seguir para a consulta",
+     "nao": "Desconfiar: número de outro tipo de produto, EAN no lugar de registro ou número inventado"
+    },
+    {
+     "t": "Consultar em consultas.anvisa.gov.br pelo número, nome e empresa",
+     "tipo": "acao"
+    },
+    {
+     "t": "Nome, empresa detentora e apresentação conferem com a caixa?",
+     "tipo": "decisao",
+     "sim": "Verificar a situação",
+     "nao": "Segregar o item e pedir ao fornecedor a documentação de regularização"
+    },
+    {
+     "t": "A situação está válida e a apresentação ativa?",
+     "tipo": "decisao",
+     "sim": "Conferir alertas de suspensão ou recolhimento do lote",
+     "nao": "Não comprar nem vender; consultar o detentor e a VISA sobre o estoque"
+    },
+    {
+     "t": "Lote, validade e procedência (nota fiscal de distribuidor licenciado) conferidos",
+     "tipo": "acao"
+    },
+    {
+     "t": "Produto sem registro exigível, de procedência ignorada ou de fornecedor sem licença: infração sanitária e possível crime (CP, art. 273, § 1º-B)",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Produto regular: liberar para cadastro e venda",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "id": "m16-check-cadastro",
+   "titulo": "Conferência de um produto novo no cadastro",
+   "itens": [
+    "Nome comercial e DCB conferidos com a face frontal da caixa",
+    "DCB cadastrada é a do sal ou da base, conforme a caixa",
+    "Concentração, forma farmacêutica e quantidade da apresentação conferidas",
+    "Registro de 13 dígitos digitado a partir da caixa, não do EAN",
+    "Nove primeiros dígitos do registro conferem com o produto na consulta da Anvisa",
+    "Apresentação localizada na consulta, com situação ativa",
+    "Situação do registro válida e data de vencimento anotada",
+    "Empresa detentora e CNPJ conferem com o \"Registrado por\" e com a nota",
+    "Categoria regulatória anotada (novo, genérico, similar, específico, outra)",
+    "Notificado: frase \"MEDICAMENTO NOTIFICADO\" presente e produto na consulta de notificados",
+    "Tarja e restrição de venda conferidas com a consulta e com a caixa",
+    "Controlado ou antimicrobiano: classe terapêutica e lista corretas para o SNGPC",
+    "EAN cadastrado no campo de código de barras",
+    "Código GGREM e preço máximo conferidos na lista da CMED",
+    "Unidade de controle definida (caixa ou frasco) para o SNGPC",
+    "Primeiro lote recebido conferido entre caixa, nota e cadastro"
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m16-cartoes",
+   "titulo": "Cartões: registro e DCB",
+   "itens": [
+    {
+     "f": "Artigo da Lei 6.360/1976 que proíbe vender produto não registrado",
+     "v": "Art. 12, caput."
+    },
+    {
+     "f": "Prazo de validade do registro de medicamento hoje",
+     "v": "10 anos (RDC 912/2024, art. 2º)."
+    },
+    {
+     "f": "Quando a empresa deve pedir a renovação?",
+     "v": "De 12 a 6 meses antes do vencimento (RDC 250/2004, art. 1º)."
+    },
+    {
+     "f": "Pedido de renovação no prazo e sem decisão até o vencimento",
+     "v": "Revalidação automática; a análise continua."
+    },
+    {
+     "f": "O que é caducidade do registro?",
+     "v": "Perda do registro porque a renovação não foi pedida no prazo."
+    },
+    {
+     "f": "Quantos dígitos tem o registro completo de medicamento?",
+     "v": "13, e começa com 1."
+    },
+    {
+     "f": "O que identificam os 9 primeiros dígitos?",
+     "v": "O produto: categoria, empresa e número do produto."
+    },
+    {
+     "f": "O que identificam os dígitos 10 a 12?",
+     "v": "A apresentação."
+    },
+    {
+     "f": "Expressão exigida na caixa antes do número",
+     "v": "\"Registro:\" com os 13 dígitos (RDC 768/2022, art. 5º, VII)."
+    },
+    {
+     "f": "O que substitui o número de registro no medicamento notificado?",
+     "v": "A frase \"MEDICAMENTO NOTIFICADO\" (ou variante)."
+    },
+    {
+     "f": "Lista de medicamentos de baixo risco notificáveis",
+     "v": "LMN: IN 106/2021, atualizada pela IN 430/2026."
+    },
+    {
+     "f": "Cosméticos que exigem registro",
+     "v": "Bronzeador, gel antisséptico, alisantes, ondulantes, protetor solar, repelente (RDC 907/2024, art. 34)."
+    },
+    {
+     "f": "Dispositivos médicos sujeitos a registro",
+     "v": "Classes III e IV (RDC 751/2022, art. 7º)."
+    },
+    {
+     "f": "Formato do número DCB",
+     "v": "Sequencial de 5 dígitos (RDC 955/2024, art. 9º)."
+    },
+    {
+     "f": "Norma que aprova a lista de DCB vigente",
+     "v": "IN 342/2024, com atualizações periódicas."
+    },
+    {
+     "f": "Onde a DCB é obrigatória na prescrição por lei?",
+     "v": "No SUS (Lei 9.787/1999, art. 3º)."
+    },
+    {
+     "f": "Código de 15 dígitos da CMED",
+     "v": "GGREM, único por apresentação."
+    },
+    {
+     "f": "O que a Lei 14.338/2022 retirou da rastreabilidade?",
+     "v": "O número de série único e o banco de dados centralizado."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m16-questoes",
+   "titulo": "Questões: registro e DCB",
+   "itens": [
+    {
+     "p": "Farmacêutico recebe um lote de clonazepam 2 mg com 30 comprimidos. No cadastro já existe clonazepam 0,5 mg com 30 comprimidos do mesmo detentor, registrado como 1.9990.0045.001-X (número fictício). Sobre o cadastro do novo item, é correto afirmar:",
+     "alt": [
+      "Pode usar o mesmo número, pois o produto é o mesmo",
+      "Deve usar só os 9 primeiros dígitos, comuns às duas apresentações",
+      "Deve cadastrar o número de 13 dígitos impresso na caixa do 2 mg",
+      "Deve usar o código de barras como registro, porque é exclusivo",
+      "Deve usar o número do processo, que identifica a apresentação"
+     ],
+     "c": 2,
+     "com": "Os 9 primeiros dígitos identificam o produto; os dígitos 10 a 12 identificam a apresentação. Cada concentração e embalagem tem número de 13 dígitos próprio, exigido na caixa (RDC 768/2022, art. 5º, VII) e usado no SNGPC. Repetir o número ou usar 9 dígitos mistura os estoques. EAN e número de processo não substituem o registro."
+    },
+    {
+     "p": "Pela norma vigente em 2026, o prazo de validade do registro de um medicamento novo concedido sem Termo de Compromisso é de:",
+     "alt": [
+      "5 anos, conforme o Decreto 8.077/2013",
+      "10 anos, conforme a RDC 912/2024",
+      "2 anos, como os produtos dietéticos",
+      "3 anos, renovável por mais 5",
+      "Indeterminado após a primeira renovação"
+     ],
+     "c": 1,
+     "com": "A Lei 13.097/2015 permitiu à Anvisa fixar prazo de até 10 anos (Lei 6.360/1976, art. 12, § 1º), e a RDC 912/2024 fixou 10 anos (art. 2º). O texto do Decreto 8.077/2013 ainda menciona 5 anos, mas a lei posterior delegou o prazo à Anvisa. Três anos é o prazo inicial de registro com Termo de Compromisso (art. 3º). Não existe registro de prazo indeterminado."
+    },
+    {
+     "p": "Uma drogaria recebe solução nasal de cloreto de sódio 0,9% cuja caixa não tem número de registro e traz a frase \"MEDICAMENTO NOTIFICADO\". A conduta adequada é:",
+     "alt": [
+      "Recusar o lote, pois todo medicamento precisa de registro",
+      "Aceitar sem conferir, porque produto isento não tem controle",
+      "Conferir na consulta de notificados e aceitar se estiver regular",
+      "Pedir ao fornecedor que imprima o número na embalagem",
+      "Vender apenas com receita, porque não há registro"
+     ],
+     "c": 2,
+     "com": "Medicamentos de baixo risco da LMN são regularizados por notificação (RDC 576/2021), e a frase \"MEDICAMENTO NOTIFICADO\" substitui o número de registro (RDC 768/2022, art. 5º, § 4º). Notificado é regular, mas continua sob fiscalização (Decreto 8.077/2013, art. 15), por isso a conferência na consulta. São de venda isenta de prescrição (RDC 576/2021, art. 3º, IV)."
+    },
+    {
+     "p": "Segundo a RDC 907/2024, qual dos produtos abaixo, vendido em farmácia, está sujeito a registro na Anvisa?",
+     "alt": [
+      "Xampu anticaspa sem ativo medicamentoso",
+      "Desodorante antitranspirante",
+      "Creme hidratante corporal",
+      "Repelente de insetos infantil",
+      "Sabonete líquido íntimo"
+     ],
+     "c": 3,
+     "com": "O art. 34 da RDC 907/2024 lista os grupos sujeitos a registro: bronzeador, gel antisséptico para as mãos, alisantes, produto para alisar e tingir, ondulante, protetor solar, protetor solar infantil, repelente e repelente infantil. Os demais grupos são isentos de registro e regularizados por comunicação prévia (art. 35)."
+    },
+    {
+     "p": "Ao cadastrar um genérico, a auxiliar digitou no campo \"Registro MS\" o número 7899990001234 (fictício), lido pelo leitor de código de barras. Esse número é provavelmente:",
+     "alt": [
+      "O EAN-13, código comercial da GS1 Brasil",
+      "O registro do produto com 13 dígitos",
+      "O código GGREM da lista da CMED",
+      "O número DCB do princípio ativo",
+      "O número CAS do insumo farmacêutico"
+     ],
+     "c": 0,
+     "com": "Registro de medicamento começa com 1. O prefixo 789 é típico do EAN de empresa filiada à GS1 Brasil, lido pelo código de barras. GGREM tem 15 dígitos; número DCB tem 5; CAS tem três grupos separados por hífen (RDC 955/2024, arts. 4º, X, e 9º)."
+    },
+    {
+     "p": "Sobre a rastreabilidade de medicamentos (Lei 11.903/2009) em outubro de 2026, assinale a correta.",
+     "alt": [
+      "A farmácia transmite cada unidade serializada a um banco nacional",
+      "O número de série único continua obrigatório em toda embalagem",
+      "A RDC 157/2017 segue regulando o identificador único",
+      "A embalagem deve trazer registro, lote, validade e código para bula digital",
+      "A rastreabilidade foi extinta e o lote deixou de ser exigido"
+     ],
+     "c": 3,
+     "com": "A Lei 14.338/2022 revogou o número de série único e o banco centralizado; a embalagem deve trazer registro, lote, validade e código bidimensional para a bula digital (art. 3º, § 1º), e o detentor mantém mapa de distribuição (art. 3º-A). A RDC 157/2017 foi revogada pela RDC 886/2024. O lote segue exigido."
+    },
+    {
+     "p": "Representante oferece à drogaria, por preço muito baixo, caixas de um anti-inflamatório sem nota fiscal e sem saber dizer de onde vieram. Em relação ao Código Penal, a compra para revenda:",
+     "alt": [
+      "Só é crime se o produto estiver falsificado",
+      "Não é crime, apenas infração sanitária leve",
+      "É crime só para quem importou o produto",
+      "Pode configurar crime, por procedência ignorada",
+      "Depende da tarja do medicamento"
+     ],
+     "c": 3,
+     "com": "O art. 273, § 1º-B, do Código Penal sujeita às penas do artigo quem vende, expõe à venda ou tem em depósito produto de procedência ignorada (inciso V), sem registro quando exigível (I) ou adquirido de estabelecimento sem licença (VI). Também é infração sanitária (Lei 6.437/1977, art. 10, IV). A tarja não muda essa regra."
+    },
+    {
+     "p": "Sobre a Denominação Comum Brasileira, é correto afirmar:",
+     "alt": [
+      "É marca registrada da Farmacopeia Brasileira",
+      "Tem número sequencial de 5 dígitos e é de domínio público",
+      "É sempre idêntica à DCI em inglês",
+      "É atualizada por lei federal a cada cinco anos",
+      "Só vale para medicamentos genéricos"
+     ],
+     "c": 1,
+     "com": "A RDC 955/2024 define a DCB como nomenclatura genérica oficial de domínio público, não registrável como propriedade intelectual (art. 4º, I), com número sequencial de 5 dígitos (art. 9º). Deve convergir com a DCI quando possível, traduzida para o português (arts. 10 e 15). A lista é atualizada por Instrução Normativa, sem periodicidade fixa em lei, e vale para rotulagem, prescrição e dispensação em geral (art. 3º)."
+    },
+    {
+     "p": "Receita emitida em Unidade Básica de Saúde prescreve um anti-hipertensivo apenas pelo nome comercial. A norma que obriga o uso da DCB (ou, na falta, da DCI) nas prescrições do SUS é:",
+     "alt": [
+      "Lei 5.991/1973",
+      "Lei 6.437/1977",
+      "RDC 768/2022",
+      "Lei 13.021/2014",
+      "Lei 9.787/1999"
+     ],
+     "c": 4,
+     "com": "A Lei 9.787/1999, art. 3º, determina que as aquisições e as prescrições médicas e odontológicas no SUS adotem obrigatoriamente a DCB ou, na falta, a DCI. A Lei 6.437/1977 trata de infrações sanitárias; a RDC 768/2022, de rotulagem; as demais tratam do comércio farmacêutico e da atividade da farmácia."
+    },
+    {
+     "p": "A caixa de um medicamento informa: \"cloridrato de sertralina 55,95 mg equivalente a 50 mg de sertralina\". Para o cadastro de DCB e a orientação ao paciente, é correto:",
+     "alt": [
+      "A dose clínica é de 55,95 mg de sertralina base",
+      "O sal e a base têm a mesma DCB e o mesmo número",
+      "A DCB do sal é cloridrato de sertralina; a dose clínica é 50 mg de sertralina",
+      "A equivalência sal-base é proibida na rotulagem",
+      "O grau de hidratação deve constar na face frontal"
+     ],
+     "c": 2,
+     "com": "A DCB considera a forma de sal (RDC 955/2024, art. 16), e o sal tem nome e número próprios. A rotulagem traz a composição com a equivalência sal-base (RDC 768/2022, art. 5º, I); a face frontal traz a DCB sem o grau de hidratação (art. 3º, II, a). A dose de 50 mg refere-se à base."
+    },
+    {
+     "p": "Na consulta da Anvisa, o farmacêutico encontra um medicamento com registro de produto válido, mas a apresentação de 60 comprimidos aparece inativa. A interpretação correta é:",
+     "alt": [
+      "O registro inteiro está cancelado",
+      "Aquela apresentação não está ativa, mas outras podem estar",
+      "Basta usar o número do 30 comprimidos para o 60",
+      "A apresentação inativa pode ser vendida sem SNGPC",
+      "Inativa significa notificada"
+     ],
+     "c": 1,
+     "com": "A situação é informada para o produto e para cada apresentação. Uma apresentação descontinuada pode ficar inativa enquanto o produto segue válido com outras. Usar o número de outra apresentação mistura estoques no SNGPC. Notificação é outro regime, sem número de registro."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Brasil. Lei nº 6.360, de 23 de setembro de 1976 (vigilância sanitária de medicamentos e outros produtos), texto compilado, arts. 3º, 12, 13, 19, 21, 23, 24 e 57. planalto.gov.br (consulta em 15 out. 2026).",
+  "Brasil. Decreto nº 8.077, de 14 de agosto de 2013 (regulamenta a Lei 6.360/1976), arts. 7º, 8º, 11 e 15. planalto.gov.br.",
+  "Brasil. Lei nº 9.787, de 10 de fevereiro de 1999 (medicamento genérico e DCB), arts. 1º e 3º. planalto.gov.br.",
+  "Brasil. Lei nº 6.437, de 20 de agosto de 1977 (infrações sanitárias), art. 10, IV, texto compilado. planalto.gov.br.",
+  "Brasil. Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), art. 273, com redação da Lei nº 9.677/1998, texto compilado. planalto.gov.br.",
+  "Supremo Tribunal Federal. RE 979.962/RS, Tema 1003 da repercussão geral, julgado em 24 mar. 2021 (consultado por resumos de jurisprudência).",
+  "Brasil. Lei nº 11.903, de 14 de janeiro de 2009, com as alterações das Leis nº 13.410/2016 e nº 14.338/2022 (rastreamento de medicamentos), texto compilado. planalto.gov.br.",
+  "Anvisa. RDC nº 912, de 19 de setembro de 2024 (prazos de validade e manutenção da regularização de medicamentos). Texto consolidado, anvisalegis.datalegis.net.",
+  "Anvisa. RDC nº 250, de 20 de outubro de 2004 (revalidação de registro), com redação da RDC nº 212/2018. Texto consolidado, anvisalegis.datalegis.net.",
+  "Anvisa. RDC nº 576, de 11 de novembro de 2021 (notificação de medicamentos de baixo risco), com redação da RDC nº 981/2025. Texto consolidado, anvisalegis.datalegis.net.",
+  "Anvisa. Instrução Normativa nº 106, de 11 de novembro de 2021 (LMN), e IN nº 430/2026 (atualização da LMN, DOU de 26 mar. 2026), conforme notícia de 2 abr. 2026 e Voto nº 221/2026.",
+  "Anvisa. RDC nº 768, de 12 de dezembro de 2022 (rotulagem de medicamentos), com redações das RDC nº 808/2023, nº 981/2025 e nº 1.004/2025, arts. 3º, 5º, 25 a 28, 31, 47, 50 e 72. Texto consolidado, anvisalegis.datalegis.net.",
+  "Anvisa. Resolução da Diretoria Colegiada nº 1.004, de 17 de dezembro de 2025 (registro de medicamentos fitoterápicos e registro e notificação de tradicionais fitoterápicos). anvisalegis.datalegis.net.",
+  "Anvisa. RDC nº 955, de 20 de dezembro de 2024 (regras para o estabelecimento das DCB e atualização da lista). Texto consolidado, anvisalegis.datalegis.net.",
+  "Anvisa. Voto nº 221/2026/SEI/DIRE4/Anvisa: atualização da lista de DCB, alterando a IN nº 342, de 20 de dezembro de 2024. Reunião Ordinária Pública 13/2026. gov.br/anvisa.",
+  "Anvisa. Atualizações da lista de DCB: IN nº 416, de 17 de dezembro de 2025, e IN nº 439, de 16 de abril de 2026 (conforme notícias setoriais que reproduzem a publicação).",
+  "Anvisa. RDC nº 886, de 10 de julho de 2024 (revogação de normas; revoga as RDC nº 157/2017 e nº 319/2019). anvisalegis.datalegis.net.",
+  "Anvisa. RDC nº 907, de 19 de setembro de 2024 (produtos de higiene pessoal, cosméticos e perfumes), arts. 32 a 35. anvisalegis.datalegis.net.",
+  "Anvisa. Resolução da Diretoria Colegiada nº 989, de 15 de agosto de 2025 (regularização e classificação de saneantes), art. 8º. anvisalegis.datalegis.net.",
+  "Anvisa. RDC nº 843, de 22 de fevereiro de 2024 (regularização de alimentos e embalagens), art. 3º, e IN nº 281/2024. anvisalegis.datalegis.net.",
+  "Anvisa. RDC nº 751, de 15 de setembro de 2022 (classificação de risco, notificação e registro de dispositivos médicos), arts. 5º a 7º, 11 e 60. anvisalegis.datalegis.net.",
+  "Anvisa. Dados abertos: medicamentos registrados, consultas de produtos (medicamentos, cosméticos, saneantes, alimentos e produtos para saúde). dados.anvisa.gov.br (arquivos baixados em 15 out. 2026).",
+  "Anvisa/CMED. Lista de preços de medicamentos (TA_PRECO_MEDICAMENTO) e respectivo dicionário de dados (código GGREM, registro, EAN). dados.anvisa.gov.br.",
+  "Anvisa. Consulta a registro de medicamentos (página de serviço). gov.br/anvisa/pt-br/sistemas/consulta-a-registro-de-medicamentos."
+ ]
+}

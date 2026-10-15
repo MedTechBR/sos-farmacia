@@ -1,0 +1,773 @@
+{
+ "id": "m14",
+ "num": 6,
+ "titulo": "Vigilância sanitária na farmácia: balanços, BMPO e relação mensal",
+ "escopo": "A relação do farmacêutico com a vigilância sanitária em outubro de 2026: licença, inspeção, termos e processo da Lei 6.437/1977, livro de registro e guarda de documentos, balanços BMPO e BSPO, RMNRA, RMNRB2 e demais relações da Portaria SVS/MS 344/1998 e da Portaria SVS/MS 6/1999 com o SNGPC obrigatório em todo o país, calendário de obrigações do RT, farmacovigilância (VigiMed e Notivisa) e recolhimentos (RDC 44/2009, RDC 22/2014, RDC 625/2022).",
+ "topicos": [
+  {
+   "id": "m14-snvs",
+   "titulo": "Sistema de vigilância sanitária e licenciamento",
+   "resumo": "<p>A <strong>vigilância sanitária</strong> é o conjunto de ações do SUS capaz de eliminar, diminuir ou prevenir riscos à saúde ligados à produção e à circulação de bens e à prestação de serviços (Lei 8.080/1990, art. 6º, § 1º). Para a farmácia, isso significa que alguém de fora vai conferir, com poder de polícia, se a loja guarda, vende e registra medicamentos do jeito que a norma manda. Esse alguém é a VISA.</p><h3>Quem é quem no sistema</h3><p>O <strong>Sistema Nacional de Vigilância Sanitária (SNVS)</strong> reúne órgãos da União, dos estados, do Distrito Federal e dos municípios que regulam, normatizam, controlam e fiscalizam na área (Lei 9.782/1999, art. 1º). Cada esfera tem um papel diferente na vida da farmácia.</p><div class=\"tab\"><table><thead><tr><th>Esfera</th><th>Órgão</th><th>O que faz para a farmácia</th></tr></thead><tbody><tr><td>Federal</td><td>Anvisa</td><td>Edita as RDC e as listas da Portaria 344, concede a AFE e a AE, mantém o SNGPC, o SNCR, o VigiMed e o Notivisa, publica alertas e determina recolhimentos</td></tr><tr><td>Estadual</td><td>VISA estadual (secretaria de saúde)</td><td>Fiscaliza onde a ação não foi descentralizada, coordena os municípios, recebe balanços em alguns estados</td></tr><tr><td>Municipal</td><td>VISA municipal</td><td>Na maioria das cidades: licença sanitária, inspeção de rotina, recebimento de balanços e relações, visto em receitas de emergência, abertura de livros</td></tr></tbody></table></div><p>Quem inspeciona a sua loja depende da pactuação entre estado e município. Em São Paulo capital, por exemplo, a COVISA municipal recebe balanços e relações de drogarias pelo portal SP156 (Nota Técnica 03/DVPSIS/COVISA/2021); em Minas Gerais, o estado orienta procurar primeiro a VISA municipal para saber a quem cabe a fiscalização e só então peticionar no SEI estadual. Por isso, a primeira tarefa do RT novo é descobrir <strong>qual VISA tem competência sobre a loja</strong> e por qual canal ela recebe documentos.</p><h3>Documentos que a farmácia precisa ter</h3><p>A RDC 44/2009 (art. 2º) lista o que deve existir no estabelecimento:</p><ul><li>Autorização de Funcionamento de Empresa (AFE), concedida pela Anvisa.</li><li>Autorização Especial (AE), para farmácias, quando aplicável (a farmácia de manipulação que trabalha com substâncias da Portaria 344 precisa dela).</li><li>Licença ou alvará sanitário, expedido pela VISA estadual ou municipal.</li><li>Certidão de Regularidade Técnica, emitida pelo CRF.</li><li>Manual de Boas Práticas Farmacêuticas, próprio da loja.</li></ul><p>A licença sanitária e a Certidão de Regularidade Técnica ficam afixadas em local visível ao público (art. 2º, § 1º). Se esses documentos não trouxerem razão social, CNPJ, número da AFE e da AE, nome e CRF do RT e dos substitutos, horário de cada farmacêutico e telefones do CRF e das VISAs, a loja precisa de um cartaz com essas informações (art. 2º, § 2º).</p><div class=\"cx chave\"><b>Ponto-chave</b><p>A AFE é federal e única para a empresa naquele endereço; a licença sanitária é local e tem validade e rito definidos pelo código sanitário do estado ou do município. Uma não substitui a outra.</p></div><h3>Licença sanitária</h3><p>A licença (em alguns lugares chamada alvará sanitário, cadastro sanitário ou CMVS) é o ato da VISA local que autoriza aquele estabelecimento a funcionar. A norma federal manda tê-la, mas quem define validade, documentos para concessão e renovação, taxa e necessidade de inspeção prévia é a legislação do estado ou do município. Confirme a validade e o prazo de renovação no código sanitário da sua cidade.</p><p>Na prática, os pedidos de concessão e renovação costumam exigir: requerimento do responsável legal, contrato social e CNPJ, comprovante de AFE, Certidão de Regularidade Técnica do CRF, planta ou croqui, Manual de Boas Práticas e POPs, plano de gerenciamento de resíduos e comprovante de controle de pragas. Algumas VISAs passaram a pedir também o Certificado de Transmissão Regular do SNGPC.</p><div class=\"cx alerta\"><b>Atenção</b><p>Funcionar sem licença ou com licença vencida é infração da Lei 6.437/1977 (art. 10, IV: armazenar, comprar ou vender medicamentos sem licença ou autorização do órgão sanitário competente) e pode levar a interdição. Em vários municípios, o protocolo de renovação feito dentro do prazo serve de comprovante enquanto a VISA analisa (a capital paulista, por exemplo, aceita o protocolo de renovação do cadastro sanitário para abrir livros); confirme a regra local.</p></div><h3>O que mudou com o SNGPC em todo o país</h3><p>Desde 02/01/2026, com o fim do escalonamento regional, a transmissão ao SNGPC é obrigatória em todas as regiões (detalhes nos módulos da Portaria 344/98 e do SNGPC). Para a VISA, isso significa enxergar no sistema, de qualquer lugar, o estoque oficial de controlados de cada loja da sua área. Para o RT, significa que a inspeção já começa com o fiscal sabendo o que deveria estar no armário. O SNGPC substituiu o livro de registro das farmácias e drogarias privadas (RDC 22/2014, art. 35), mas <strong>não revogou</strong> os balanços e as relações periódicas da Portaria 344, que seguem exigidos na forma que cada VISA define (tópicos seguintes).</p><div class=\"cx balcao\"><b>No balcão</b><p>No primeiro dia como RT, fotografe e arquive a licença, a AFE, a AE (se houver) e a certidão do CRF, anote as datas de vencimento e descubra o canal da VISA da sua cidade para protocolos, balanços e dúvidas (e-mail, portal, SEI ou balcão). Guarde esse contato no POP de documentação.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Farmacêutica assume drogaria em Sobral (CE). A licença afixada venceu há dois meses e o dono diz que \"a renovação é automática\". Ela consulta a VISA municipal, descobre que a renovação depende de requerimento e inspeção, protocola no mesmo dia e guarda o comprovante na pasta da fiscalização. Na inspeção seguinte, o fiscal lavra apenas notificação para apresentar a licença renovada em prazo.</p></div>"
+  },
+  {
+   "id": "m14-inspecao",
+   "titulo": "Inspeção sanitária na farmácia",
+   "resumo": "<p><strong>Inspeção sanitária</strong> é a visita da autoridade sanitária ao estabelecimento para verificar, no local, se as normas estão sendo cumpridas. Ela pode ser de rotina (programada pela VISA), para concessão ou renovação de licença, por denúncia, para apurar notificação de queixa técnica ou por demanda da Anvisa, como um recolhimento. Em geral não é avisada com antecedência.</p><h3>Base do que o fiscal confere</h3><p>O fiscal usa um roteiro, que varia entre estados e municípios, mas sai das mesmas normas federais:</p><div class=\"tab\"><table><thead><tr><th>Área</th><th>O que costuma ser verificado</th><th>Norma</th></tr></thead><tbody><tr><td>Documentos</td><td>AFE, AE, licença, certidão do CRF afixadas; cartaz informativo</td><td>RDC 44/2009, art. 2º</td></tr><tr><td>Responsável técnico</td><td>Farmacêutico presente em todo o horário de funcionamento</td><td>RDC 44/2009, art. 3º; Lei 13.021/2014, art. 6º, I</td></tr><tr><td>Manual e POPs</td><td>Manual próprio; POPs aprovados, assinados e datados pelo RT; registro de divulgação à equipe</td><td>RDC 44/2009, arts. 85 a 88</td></tr><tr><td>Treinamentos</td><td>Registros de treinamento inicial e continuado</td><td>RDC 44/2009, arts. 24 a 28</td></tr><tr><td>Armazenamento</td><td>Produtos afastados de piso, parede e teto; temperatura da geladeira medida e registrada diariamente</td><td>RDC 44/2009, arts. 35 e 36</td></tr><tr><td>Vencidos e suspeitos</td><td>Segregados, fora da área de dispensação, identificados quanto à condição e ao destino</td><td>RDC 44/2009, art. 38</td></tr><tr><td>Controlados</td><td>Armário ou sala com chave, sob guarda do farmacêutico; estoque físico igual ao SNGPC; receitas retidas</td><td>Portaria 344, art. 67; RDC 44, art. 37; RDC 22/2014, art. 15</td></tr><tr><td>Escrituração</td><td>Certificado de Escrituração Digital, transmissões em dia, cópia de segurança</td><td>RDC 22/2014, arts. 9º, 10 e 19</td></tr><tr><td>Balanços e relações</td><td>Comprovantes de entrega de BMPO, BSPO, RMNRA e RMNRB2</td><td>Portaria 344, arts. 68 a 73</td></tr><tr><td>Serviços farmacêuticos</td><td>Sala, POPs, Declaração de Serviço Farmacêutico, descarte de perfurocortantes</td><td>RDC 44/2009, arts. 61 a 84</td></tr><tr><td>Resíduos e pragas</td><td>Plano de gerenciamento de resíduos, comprovante de controle de pragas</td><td>RDC 44/2009, arts. 26 e 88</td></tr></tbody></table></div><h3>Controlados: onde a inspeção aperta</h3><p>Com o SNGPC obrigatório em todo o país, o fiscal costuma imprimir o estoque oficial antes de sair e contar alguns itens no armário. A divergência entre físico e SNGPC é a infração mais fácil de constatar. A RDC 22/2014 manda considerar, na comparação, os arquivos ainda não enviados ou não validados dentro do prazo (art. 36, parágrafo único). Por isso o RT precisa saber, a qualquer momento, quais dispensações estão no software e ainda não foram aceitas pela Anvisa.</p><p>Além da contagem, o fiscal pede receitas e notificações retidas de um período, confere se a quantidade do verso bate com a escrituração, se o comprador foi identificado e se a notificação estava dentro da validade. As regras de dispensação estão no módulo da Portaria 344/98.</p><div class=\"cx chave\"><b>Ponto-chave</b><p>A documentação de Boas Práticas (manual, POPs e registros) deve ficar no estabelecimento por no mínimo 5 anos, à disposição da VISA (RDC 44/2009, art. 89). Os documentos de movimentação de controlados têm prazo próprio de 2 anos (Portaria 344, art. 64). Organize as pastas pensando no prazo de cada um.</p></div><h3>Postura do farmacêutico durante a visita</h3><ul><li>Receba o fiscal, peça a identificação funcional e pergunte o motivo da inspeção. Se você não for o RT, chame-o ou avise-o.</li><li>Acompanhe todo o percurso. Responda com objetividade e mostre os documentos pedidos. Não invente procedimento que não existe: o fiscal vai pedir o registro dele.</li><li>Não impeça nem atrase o acesso a armário, depósito, computador ou documentos. Obstar ou dificultar a ação fiscalizadora é infração própria (Lei 6.437/1977, art. 10, X), e desacato ou embaraço à fiscalização sujeita a multa (art. 20).</li><li>Se houver contagem, acompanhe e anote os números você mesmo. Se faltar algo, procure a explicação na hora (arquivo em trânsito, nota não lançada) e mostre o documento.</li><li>Leia cada termo antes de assinar. A assinatura significa ciência, não confissão. Se discordar, peça para registrar a sua observação no próprio termo ou faça a defesa depois, no prazo.</li><li>Peça a sua via de todo termo lavrado e anote prazos.</li></ul><div class=\"cx alerta\"><b>Atenção</b><p>Recusar-se a assinar não impede o processo: a recusa é mencionada no auto, que pode ser assinado por testemunhas (Lei 6.437/1977, art. 13, VI e parágrafo único). Assinar e apresentar defesa é quase sempre melhor do que recusar.</p></div><div class=\"cx balcao\"><b>No balcão</b><p>Deixe uma pasta da fiscalização pronta, na mesma gaveta, com cópias dos documentos da loja, os POPs vigentes, os últimos registros de temperatura e treinamento, o Certificado de Escrituração Digital, o último Certificado de Transmissão Regular, os comprovantes de entrega de balanços e relações dos últimos 2 anos e o contato da VISA. Ensine o substituto e o gerente a abri-la.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Fiscal chega numa terça às 16h e pede o registro de temperatura da geladeira de insulinas. O RT mostra a planilha, mas os dias de sábado estão vazios porque a loja abre com outro farmacêutico. A falha vira notificação para corrigir. O RT revisa o POP, inclui o substituto na escala do registro e treina a equipe, com lista de presença.</p></div>"
+  },
+  {
+   "id": "m14-processo",
+   "titulo": "Termos fiscais e processo administrativo sanitário",
+   "resumo": "<p>Tudo o que o fiscal constata vira documento escrito. Esses documentos são os <strong>termos</strong>. Os nomes e os modelos variam entre os códigos sanitários estaduais e municipais, mas a lógica é nacional e o processo das infrações federais segue a <strong>Lei 6.437/1977</strong>.</p><h3>Os termos mais comuns</h3><div class=\"tab\"><table><thead><tr><th>Termo</th><th>Para que serve</th><th>O que fazer</th></tr></thead><tbody><tr><td>Termo de inspeção (ou relatório de inspeção)</td><td>Registra a visita e o que foi visto</td><td>Ler, conferir, guardar a via</td></tr><tr><td>Termo de notificação ou de intimação</td><td>Exige que a loja corrija algo em prazo determinado, sem multa naquele momento</td><td>Cumprir no prazo escrito e comprovar à VISA; pedir prorrogação por escrito antes do vencimento, se precisar</td></tr><tr><td>Auto de infração</td><td>Abre o processo administrativo sanitário pela infração constatada</td><td>Defesa em 15 dias, ou pagamento com redução</td></tr><tr><td>Termo de apreensão</td><td>Retira produto da loja, como prova ou para análise fiscal</td><td>Conferir quantidade, lote e descrição; guardar a contraprova quando houver</td></tr><tr><td>Termo de interdição</td><td>Impede o uso ou a venda de produto, ou o funcionamento de setor ou do estabelecimento</td><td>Cumprir de imediato; não mexer no que foi lacrado</td></tr><tr><td>Termo de inutilização</td><td>Registra a destruição de produto impróprio</td><td>Guardar como justificativa de perda</td></tr></tbody></table></div><p>O prazo de uma notificação ou intimação é o que está escrito no termo e no código sanitário local. Não existe um prazo federal único para isso.</p><h3>Auto de infração e defesa</h3><p>A infração sanitária é apurada em processo administrativo próprio, que começa com a lavratura do <strong>auto de infração</strong> (Lei 6.437/1977, art. 12). O auto deve conter, entre outros, o nome do infrator, local, data e hora, a descrição da infração e o dispositivo legal transgredido, a penalidade possível, a ciência do autuado e o prazo de recurso (art. 13).</p><div class=\"tab\"><table><thead><tr><th>Etapa</th><th>Prazo</th><th>Base</th></tr></thead><tbody><tr><td>Defesa ou impugnação do auto</td><td>15 dias da notificação</td><td>Lei 6.437/1977, art. 22</td></tr><tr><td>Pagamento da multa com redução de 20%</td><td>20 dias da notificação; implica desistir da defesa</td><td>Art. 21</td></tr><tr><td>Recurso contra decisão condenatória</td><td>Mesmo prazo da defesa (15 dias)</td><td>Art. 30</td></tr><tr><td>Recurso à autoridade superior, mantida a condenação</td><td>20 dias da ciência ou publicação</td><td>Art. 30, parágrafo único</td></tr><tr><td>Pagamento da multa aplicada</td><td>30 dias da notificação</td><td>Art. 33</td></tr><tr><td>Cumprir obrigação que subsiste após o auto</td><td>30 dias, por edital; descumprir gera multa diária</td><td>Arts. 18 e 19</td></tr><tr><td>Prescrição da infração</td><td>5 anos, interrompida por notificação ou ato de apuração</td><td>Art. 38</td></tr></tbody></table></div><p>Infrações que não dependem de análise ou perícia seguem rito sumaríssimo: o processo é considerado concluso se o infrator não recorrer em 15 dias (art. 29). Os recursos só suspendem o pagamento da multa; a obrigação de corrigir continua exigível (art. 32).</p><div class=\"cx lei\"><b>O que diz a norma</b><p>\"O infrator poderá oferecer defesa ou impugnação do auto de infração no prazo de quinze dias contados de sua notificação.\" (Lei 6.437/1977, art. 22)</p></div><h3>Apreensão e interdição</h3><p>Quando há suspeita sobre o produto, a VISA colhe amostra para <strong>análise fiscal</strong>. A amostra é dividida em três partes invioláveis: uma fica com o detentor como contraprova e duas vão ao laboratório oficial (art. 27). A apreensão de amostra, sozinha, não interdita o lote, salvo indício flagrante de alteração ou adulteração, quando a interdição tem caráter cautelar (art. 23, §§ 1º e 2º). A <strong>interdição cautelar</strong> de produto ou estabelecimento dura o tempo das análises e não pode passar de 90 dias; depois disso, a liberação é automática (art. 23, § 4º).</p><p>Se o laudo for condenatório, a empresa pode pedir perícia de contraprova com a amostra que ficou com ela, indicando perito próprio (art. 27, § 4º). Por isso, a contraprova deve ser guardada intacta, nas condições de conservação do produto.</p><h3>Penalidades e termo de compromisso</h3><p>As penas vão de advertência a multa, apreensão, inutilização, interdição e cancelamento de licença ou autorização, com classificação da infração em leve, grave ou gravíssima conforme atenuantes e agravantes (arts. 2º, 4º, 7º e 8º; valores e exemplos no módulo da Portaria 344/98). Desde a Lei 14.671/2023, os órgãos do SNVS podem celebrar <strong>termo de compromisso</strong> com o infrator, na forma de regulamento. O requerimento é analisado em até 90 dias, e o termo firmado suspende a aplicação de sanções sobre os fatos que o motivaram, exceto as de caráter preventivo e cautelar (art. 28-A). Pergunte à sua VISA se ela já regulamentou essa via.</p><div class=\"cx alerta\"><b>Atenção</b><p>Muitos estados e municípios têm código sanitário próprio, com prazos e valores diferentes para as infrações que eles tipificam. O auto de infração diz qual lei foi aplicada. Conte o prazo pela lei citada no auto, a partir da data de ciência.</p></div><div class=\"cx balcao\"><b>No balcão</b><p>Recebeu auto de infração: anote no calendário a data final da defesa (15 dias, se for a Lei 6.437), avise o responsável legal no mesmo dia, reúna a prova documental (receitas, relatórios do SNGPC, registros de treinamento, POP) e escreva a defesa ponto a ponto, com cópia dos documentos. Defesa genérica, sem documento, tem pouca chance de reduzir a penalidade.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Drogaria recebe auto por não ter entregue a RMNRA de agosto. O RT tinha protocolado no dia 14 de setembro pelo portal da VISA, mas o protocolo ficou no e-mail do dono. Ele recupera o comprovante, junta à defesa no 10º dia e o auto é arquivado. Depois disso, o POP passa a exigir que todo comprovante seja salvo na pasta da fiscalização no mesmo dia.</p></div>"
+  },
+  {
+   "id": "m14-escrituracao",
+   "titulo": "Livro de registro e guarda de documentos",
+   "resumo": "<p><strong>Escriturar</strong> é registrar cada entrada, saída e perda de um produto controlado, de forma que o estoque possa ser reconstituído a qualquer momento. Antes do SNGPC, isso era feito em livros com termo da VISA. Hoje, nas farmácias e drogarias privadas, a escrituração é eletrônica, mas o livro continua existindo em situações que o RT precisa reconhecer.</p><h3>O livro na Portaria 344/98</h3><p>A Portaria 344 (arts. 62 a 66) exige <strong>Livro de Registro Específico</strong> para indústrias, distribuidoras, farmácias e drogarias, e <strong>Livro de Receituário Geral</strong> para farmácias magistrais. O Livro de Registro Específico é dividido por grupo de listas:</p><ul><li>Entorpecentes: listas A1 e A2.</li><li>Psicotrópicos: listas A3, B1 e B2.</li><li>Controle especial: listas C1, C2 e C5 (o texto original cita também a C4, extinta em 2016), e os medicamentos dos adendos das listas A1, A2 e B1 vendidos com Receita de Controle Especial (Portaria 6/1999, art. 93, § 3º).</li><li>Imunossupressores: lista C3.</li></ul><p>Cada página registra uma só substância ou medicamento, pela DCB combinada com o nome comercial (Portaria 344, art. 63, § 3º), em ordem cronológica de estoque, entradas, saídas e perdas (art. 65). A escrituração é legível, sem rasuras ou emendas, e atualizada semanalmente (art. 64, § 1º). Se o livro for apreendido por autoridade sanitária ou policial, ficam suspensas as atividades com os produtos nele registrados até a liberação ou substituição (art. 66).</p><h3>Termos de abertura e de encerramento</h3><p>Os livros têm termo de abertura e de encerramento lavrados pela autoridade sanitária (Portaria 344, art. 63). A Portaria 6/1999 detalha:</p><div class=\"tab\"><table><thead><tr><th>Item</th><th>Regra</th><th>Base</th></tr></thead><tbody><tr><td>Quem preenche e assina o termo de abertura</td><td>A autoridade sanitária</td><td>Portaria 6/1999, art. 94, § 2º</td></tr><tr><td>Dados do termo de abertura</td><td>Razão social, denominação comercial, endereço completo, finalidade do livro, CNPJ</td><td>Art. 94, § 2º</td></tr><tr><td>Termo de encerramento</td><td>No verso da última folha numerada, com os mesmos dados e a quantidade de folhas escrituradas; só depois de usado o livro</td><td>Art. 94, §§ 3º e 4º</td></tr><tr><td>Matriz e filiais</td><td>Cada estabelecimento com os próprios livros</td><td>Art. 95</td></tr><tr><td>Livro informatizado</td><td>Pedido por escrito à VISA, que avalia e defere ou não; formulário contínuo numerado</td><td>Arts. 96, 97 e 100</td></tr><tr><td>Troca de RT</td><td>O novo RT assina o livro logo abaixo da assinatura do anterior, com identificação e data</td><td>Art. 114</td></tr></tbody></table></div><p>Antes de autenticar o livro, a VISA verifica se o estabelecimento está licenciado e se a taxa foi recolhida, quando houver (art. 93, § 6º). Na prática, cada VISA tem seu rito: em São Paulo capital, o termo vem preenchido e assinado pelo RT com o número de folhas, a abertura é agendada por e-mail e, no encerramento, as folhas em branco devem estar riscadas.</p><h3>Quando o livro é dispensado</h3><div class=\"cx lei\"><b>O que diz a norma</b><p>\"A escrituração de medicamentos e insumos farmacêuticos sujeitos a esta Resolução substitui a escrituração realizada por meio de livro de registro ou sistema informatizado previamente autorizado pela autoridade sanitária competente, estabelecidos na Portaria SVS/MS nº 344/98, e na Portaria SVS/MS nº 6, de 1999, ou as que vierem substituí-las.\" (RDC 22/2014, art. 35)</p></div><div class=\"tab\"><table><thead><tr><th>Estabelecimento</th><th>Como escritura controlados em outubro de 2026</th></tr></thead><tbody><tr><td>Drogaria privada</td><td>SNGPC, pelo software da loja; sem livro</td></tr><tr><td>Farmácia com manipulação privada</td><td>SNGPC, incluindo insumos com o lote do fabricante e a transformação; sem livro de registro específico</td></tr><tr><td>Município sem internet</td><td>Livro, com autorização da VISA (RDC 22/2014, art. 35, § 1º)</td></tr><tr><td>Farmácia pública e farmácia de hospital</td><td>Fora do SNGPC enquanto não houver módulo próprio (RDC 22/2014, art. 3º, parágrafo único): livro com termos da VISA</td></tr><tr><td>Unidade pública que dispensa talidomida</td><td>Livros próprios da RDC 11/2011</td></tr></tbody></table></div><p>Desde 12/03/2020, a VISA da capital paulista deixou de analisar pedidos de livro informatizado de drogarias e farmácias de manipulação, justamente porque o SNGPC substitui o livro. O software da loja costuma ter um relatório chamado \"Livro de Registro Específico\", herança da exigência de que o sistema informatizado permitisse imprimir os livros (Portaria 6/1999, art. 101). Esse relatório é uma impressão da escrituração, útil para conferência e para mostrar ao fiscal; ele não tem termo de abertura da VISA. No Trier SNGPC Web, por exemplo, emitir esse relatório bloqueia o período para novos lançamentos (módulo do software de gestão).</p><div class=\"cx alerta\"><b>Atenção</b><p>Durante a suspensão das transmissões (2021 a 2025), a escrituração no software nunca deixou de ser obrigatória. Loja que ficou sem registro nesse período não tem como provar o estoque e não pode alegar que \"o SNGPC estava parado\".</p></div><h3>Documentos hábeis para escriturar</h3><p>A Portaria 6/1999 (art. 93, § 4º) define o que justifica cada lançamento: na entrada, nota fiscal; na saída, receita ou notificação retida; na perda, a justificativa (vencimento, quebra, extravio com boletim de ocorrência, amostra para controle de qualidade, termo de inutilização da VISA). No SNGPC, apreensão ou recolhimento pela VISA e devolução ao fabricante também são lançados como perda, com o motivo (RDC 22/2014, art. 5º, XXIV).</p><h3>Prazos de guarda</h3><div class=\"tab\"><table><thead><tr><th>Documento</th><th>Prazo</th><th>Base</th></tr></thead><tbody><tr><td>Livros, balanços e comprovantes de movimentação de controlados (notas, notificações, receitas retidas)</td><td>2 anos</td><td>Portaria 344, art. 64</td></tr><tr><td>Livro e documentos do fornecedor de C3 e talidomida</td><td>5 anos</td><td>Portaria 344, art. 64, § 2º</td></tr><tr><td>Livro de registro de notificação de talidomida da unidade pública</td><td>10 anos</td><td>Portaria 344, art. 64, § 3º</td></tr><tr><td>Cópia de segurança da escrituração do SNGPC</td><td>2 anos</td><td>RDC 22/2014, art. 19, I</td></tr><tr><td>Registro de utilização de receitas eletrônicas</td><td>Em meio eletrônico, pelos prazos da Portaria 344 e da RDC 11/2011</td><td>RDC 1.000/2025, art. 14</td></tr><tr><td>Manual, POPs e registros de Boas Práticas</td><td>Mínimo de 5 anos</td><td>RDC 44/2009, art. 89</td></tr></tbody></table></div><div class=\"cx chave\"><b>Ponto-chave</b><p>Comprovante de entrega de balanço ou relação é documento de movimentação de controlado: guarde-o pelo menos 2 anos, junto com a via visada. Muitos RTs preferem guardar tudo por 5 anos, o que atende às duas normas de uma vez.</p></div><div class=\"cx balcao\"><b>No balcão</b><p>Arquive as receitas e notificações retidas em caixas por mês e por tipo (A, B, B2, retinoides, RCE, antimicrobianos), com etiqueta de data de descarte possível. Na troca de RT, entregue ao sucessor o mapa das caixas e das pastas digitais.</p></div>"
+  },
+  {
+   "id": "m14-balancos",
+   "titulo": "Balanços BMPO e BSPO",
+   "resumo": "<p><strong>Balanço</strong>, na Portaria 344, é um resumo periódico da movimentação de controlados que o estabelecimento entrega à VISA. Ele resume a escrituração por período, com assinatura do RT, para que a autoridade compare com o que vê na inspeção e no SNGPC. Existem dois balanços que interessam à farmácia comercial.</p><h3>BMPO e BSPO lado a lado</h3><div class=\"tab\"><table><thead><tr><th>Item</th><th>BMPO</th><th>BSPO</th></tr></thead><tbody><tr><td>Nome</td><td>Balanço de Medicamentos Psicoativos e de outros Sujeitos a Controle Especial</td><td>Balanço de Substâncias Psicoativas e Outras Substâncias Sujeitas a Controle Especial</td></tr><tr><td>O que registra</td><td>Vendas de <strong>medicamentos</strong> prontos</td><td>Movimentação de estoque de <strong>substâncias</strong> (insumos)</td></tr><tr><td>Listas</td><td>A1, A2, A3 e B2 (o texto cita também C4, lista extinta)</td><td>A1, A2, A3, B1, B2, C1, C2, C3, C5 e D1 (e C4 no texto original)</td></tr><tr><td>Quem entrega, na farmácia comercial</td><td>Farmácias e drogarias</td><td>Farmácias com manipulação (e indústrias, distribuidoras de insumos, importadores)</td></tr><tr><td>Vias</td><td>2: uma fica na VISA, outra volta visada</td><td>3 no texto original; o destino da 1ª via foi alterado pela RDC 13/2009</td></tr><tr><td>Trimestral</td><td>Até o dia 15 de abril, julho, outubro e janeiro</td><td>Até o dia 15 de abril, julho, outubro e janeiro</td></tr><tr><td>Anual</td><td>Até 31 de janeiro do ano seguinte</td><td>Até 31 de janeiro do ano seguinte</td></tr><tr><td>Base</td><td>Portaria 344, art. 69; Portaria 6/1999, art. 104</td><td>Portaria 344, art. 68; Portaria 6/1999, art. 103</td></tr></tbody></table></div><p>As farmácias de unidades hospitalares e as de clínicas médicas e veterinárias estão dispensadas do BMPO (Portaria 344, art. 69, § 3º). Para drogarias, distribuidoras e farmácias que só vendem produtos industrializados comprados no mercado nacional, a Anvisa esclarece que o BSPO não é exigido; a movimentação delas continua sendo informada à vigilância local (Anvisa, orientações de preenchimento do BSPO).</p><div class=\"cx chave\"><b>Ponto-chave</b><p>A lista do BMPO é curta: <strong>A1, A2, A3 e B2</strong>. Clonazepam, alprazolam e zolpidem (B1), antidepressivos (C1) e isotretinoína (C2) não entram no BMPO da drogaria, embora sejam escriturados no SNGPC. Metilfenidato e lisdexanfetamina (A3), morfina, metadona e oxicodona (A1) e sibutramina (B2) entram.</p></div><h3>Quem entrega o quê: a variação local</h3><p>As VISAs não leem a regra de quem entrega da mesma forma. A VISA municipal de São Paulo indica BMPO para drogarias e farmácias de manipulação, e BSPO para farmácias de manipulação, distribuidoras, importadoras e indústrias (Nota Técnica 03/2021). O Rio de Janeiro define BMPO para drogarias (farmácias sem manipulação) e BSPO para farmácias com manipulação, incluindo as hospitalares (termo de uso do serviço de entrega, versão de outubro de 2025). O Paraná esclareceu em 2017 que o balanço da farmácia e da drogaria privada contém só as listas dos arts. 68 e 69, e não todas as listas da 344, como pedia uma resolução estadual antiga. Na farmácia com manipulação, confirme com a VISA se ela quer só o BSPO ou BSPO e BMPO.</p><h3>O que o SNGPC mudou e o que não mudou</h3><p>O SNGPC substituiu o livro (RDC 22/2014, art. 35), mas nenhuma norma federal revogou os arts. 68 e 69 da Portaria 344. Durante a suspensão das transmissões, a Anvisa reafirmou que BSPO, BMPO, RMNRA e RMNRB2 mantinham os prazos da 344 e que a VISA local podia definir procedimentos próprios (Perguntas e Respostas sobre a instabilidade do SNGPC, 2021). Com a transmissão obrigatória em todo o país desde 02/01/2026, o que muda é a origem dos números: o balanço sai do mesmo software que gera o XML, e a VISA pode cruzá-lo com o estoque oficial do SNGPC. Divergência entre balanço, SNGPC e prateleira é sinal de escrituração com problema.</p><div class=\"cx alerta\"><b>Atenção</b><p>O balanço deve ser cópia fiel da escrituração. No BSPO, a Portaria proíbe ajustes com fator de correção (art. 68, § 5º). Não \"acerte\" número no balanço para fechar com a prateleira: a correção se faz na escrituração, com documento, e o balanço sai depois.</p></div><h3>Montagem do balanço</h3><p>Para cada medicamento (BMPO) ou substância (BSPO), o raciocínio é o mesmo: estoque inicial do período, mais entradas, menos saídas e perdas, igual ao estoque final. O estoque final de um trimestre é o inicial do seguinte, e o estoque inicial do ano é o final do ano anterior. Na planilha digital do BSPO, a Anvisa orienta usar a mesma unidade em toda a linha (mg, g ou kg; entorpecentes sempre em grama), três casas decimais, zero em vez de célula em branco e detalhar perdas no campo de observação; o estoque final calculado não pode ser negativo.</p><div class=\"cx exemplo\"><b>Caso</b><p>BMPO do 3º trimestre de 2026 (julho a setembro), drogaria fictícia. Metilfenidato 10 mg, caixa com 30 comprimidos: estoque em 1º/07, 40 caixas; entradas por nota fiscal, 60; vendas com Notificação A, 72; perda por vencimento, 2. Estoque final: 40 + 60 − 72 − 2 = 26 caixas, que devem estar no armário e no SNGPC em 30/09. O prazo de entrega desse balanço é 15/10/2026.</p></div><p>Outras regras práticas: o novo RT deve apresentar balanço dos controlados quando a VISA pedir (Portaria 6/1999, art. 114, parágrafo único); o RT que sai apresenta levantamento do estoque até o último dia de trabalho (art. 113). Se o dia 15 cair em fim de semana ou feriado, siga a regra da VISA local; não presuma prorrogação.</p><div class=\"cx balcao\"><b>No balcão</b><p>Gere o balanço no software na primeira semana do mês de entrega, confira três ou quatro itens contra a prateleira e o SNGPC, assine e protocole bem antes do dia 15. Guarde a via visada ou o protocolo eletrônico na pasta da fiscalização.</p></div>"
+  },
+  {
+   "id": "m14-relacoes",
+   "titulo": "RMNRA e demais relações periódicas",
+   "resumo": "<p>As <strong>relações mensais</strong> são listas de receituários retidos que a farmácia entrega à VISA junto com os próprios receituários. Elas permitem que a autoridade audite quem prescreve, quem compra e em que quantidade os medicamentos de maior risco.</p><h3>RMNRA</h3><p>A <strong>Relação Mensal de Notificações de Receita \"A\" (RMNRA)</strong> registra as Notificações de Receita A retidas na dispensação de medicamentos das listas A1, A2 e A3 (Portaria 344, art. 72). As regras centrais:</p><ul><li>Quem faz: o farmacêutico responsável da farmácia ou drogaria.</li><li>Prazo: até o dia 15 de cada mês, referente às notificações do mês anterior (arts. 42 e 72).</li><li>Forma: em 2 vias; uma fica na VISA, a outra volta ao estabelecimento visada. A VISA recebe mediante recibo (art. 42).</li><li>Anexos: as próprias Notificações A, com a justificativa do prescritor quando a quantidade passar do limite (art. 43, § 2º).</li><li>Devolução: a VISA devolve as notificações em até 30 dias da entrega (art. 72, parágrafo único). Depois, elas ficam arquivadas na farmácia por 2 anos (art. 64).</li></ul><div class=\"cx lei\"><b>O que diz a norma</b><p>\"A Relação Mensal de Notificações de Receita \"A\" - RMNRA (ANEXO XXIV), destina-se ao registro das Notificações de Receita \"A\" retidas em farmácias e drogarias [...] a qual será encaminhada junto com as respectivas notificações à Autoridade Sanitária, pelo farmacêutico responsável, até o dia 15 (quinze) de cada mês [...]\" (Portaria 344/1998, art. 72)</p></div><p>Ao receber a RMNRA, a VISA investiga o preenchimento, o uso e a venda corretos, e, se encontrar desvio ou uso irregular, elabora relatório sigiloso e o encaminha aos conselhos dos profissionais envolvidos e aos órgãos competentes (Portaria 6/1999, capítulo do balanço).</p><h3>O que entra e o que não entra</h3><ul><li>Entram: todas as Notificações A retidas no mês, de medicamentos das listas A1, A2 e A3.</li><li>Não entram: preparações dos adendos das listas A1 e A2 vendidas com Receita de Controle Especial (por exemplo, associações de codeína dentro do limite do adendo). As VISAs de São Paulo e de Manaus deixam isso explícito.</li><li>Notificação A de outro estado: desde a RDC 873/2024 não há visto da VISA em 72 horas para Notificação A de outra UF; ela entra na RMNRA do mês como as demais (detalhes no módulo da Portaria 344/98).</li><li>Notificação A eletrônica (disponível desde 30/09/2026): a RDC 1.000/2025 incluiu o § 2º-A no art. 72, permitindo o envio à VISA em meio eletrônico. Combine com a sua VISA o formato (arquivo, relatório do software ou outro).</li></ul><h3>Campos da relação</h3><p>O modelo é o Anexo XXIV da Portaria 344. Muitas VISAs aceitam o leiaute gerado pelo software (no Trier, \"Padrão Portaria\"), desde que traga a identificação do estabelecimento (razão social, CNPJ, endereço, número da licença), o mês de referência, o RT com inscrição no CRF e, para cada notificação, os dados que permitam conferi-la com o papel: número da notificação, data, medicamento, quantidade dispensada e prescritor com inscrição no conselho. Os campos exatos estão no quadro do material de apoio.</p><h3>RMNRB2</h3><p>Para os anorexígenos da lista B2 (sibutramina, anfepramona, femproporex e mazindol), existe a <strong>Relação Mensal de Notificações de Receita \"B2\" (RMNRB2)</strong>, prevista na RDC 58/2007 (art. 1º, § 4º, modelo do anexo II), norma que segue vigente com as alterações posteriores, como a da RDC 689/2022, que deu validade nacional de 30 dias à receita B2. As VISAs de São Paulo, Rio de Janeiro e Manaus exigem a RMNRB2 mensalmente, até o dia 15, acompanhada das notificações B2.</p><h3>Outros mapas e relações</h3><div class=\"tab\"><table><thead><tr><th>Documento</th><th>Quem entrega</th><th>Periodicidade</th><th>Base</th></tr></thead><tbody><tr><td>MCPM (Mapa do Consolidado das Prescrições de Medicamentos), lista C3</td><td>Farmácias de órgãos oficiais que dispensam imunossupressores</td><td>Trimestral, até o dia 15 de abril, julho, outubro e janeiro</td><td>Portaria 344, art. 70</td></tr><tr><td>MTC (Mapa Trimestral Consolidado) de talidomida</td><td>Unidades públicas dispensadoras de talidomida</td><td>Trimestral</td><td>RDC 11/2011, anexo XI</td></tr><tr><td>RMV (Relação Mensal de Vendas)</td><td>Indústrias e distribuidoras</td><td>Mensal, até o dia 15</td><td>Portaria 344, art. 71</td></tr><tr><td>Receita de emergência para visto</td><td>Farmácia que aviou receita de emergência em papel não oficial</td><td>Por evento, em 72 horas</td><td>Portaria 344, art. 36, § 2º, e art. 55, § 2º</td></tr></tbody></table></div><p>A drogaria não faz MCPM nem MTC: a talidomida é dispensada só por unidades públicas credenciadas (RDC 11/2011). A Portaria 344 também não prevê relação mensal específica de retinoides para farmácias; a notificação especial de retinoides é retida e escriturada no SNGPC.</p><div class=\"cx alerta\"><b>Atenção</b><p>A forma de entrega varia entre as VISAs; o prazo da Portaria 344 é o mesmo em todo o país. Em São Paulo capital, balanços e receitas vão pelo portal SP156, em PDF de até 50 MB, e documentos fora do prazo são indeferidos sem possibilidade de reenvio pelo portal. Em Manaus, vão por e-mail em PDF único, com protocolo no SIGED. Em São José dos Campos (SP), a VISA pede até o dia 15 as imagens de todas as receitas de controlados do mês anterior com uma planilha assinada. Leia a orientação da sua VISA e transforme-a em POP.</p></div><div class=\"cx balcao\"><b>No balcão</b><p>Separe as Notificações A e B2 em envelopes do mês, na ordem em que foram dispensadas. No dia 1º, gere as relações no software, confira uma a uma com o papel (número, quantidade, prescritor) e corrija a escrituração antes de imprimir. A VISA confere primeiro se a relação bate com as notificações anexadas.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>No fechamento de setembro, o farmacêutico conta 18 Notificações A no envelope e 19 na relação do software. A diferença é uma venda de morfina lançada duas vezes no caixa. Ele estorna o lançamento duplicado pelo procedimento do sistema, retransmite a correção ao SNGPC, gera de novo a RMNRA e protocola em 08/10, dentro do prazo.</p></div>"
+  },
+  {
+   "id": "m14-calendario",
+   "titulo": "Calendário de obrigações do responsável técnico",
+   "resumo": "<p>Muitas autuações em farmácia nascem de prazo perdido: balanço entregue no dia 16, relação esquecida no mês de férias, arquivo do SNGPC com 8 dias. Um <strong>calendário escrito</strong>, compartilhado com o substituto, reduz esse risco. A tabela completa, com base legal, está no material de apoio; aqui está a lógica de cada periodicidade.</p><h3>A cada atendimento e todo dia</h3><ul><li>Conferir a receita, dispensar, anotar e reter conforme a Portaria 344 e a RDC 471/2021.</li><li>Lançar a dispensação no software no momento do atendimento, com lote e quantidade, e registrar no SNCR o uso da receita eletrônica (RDC 1.000/2025, art. 13).</li><li>Lançar as entradas pela nota fiscal no dia do recebimento, conferindo lote e validade (RDC 44/2009, art. 34).</li><li>Medir e registrar a temperatura da geladeira de termolábeis (RDC 44/2009, art. 35, § 3º), no horário definido em POP.</li><li>Separar receitas e notificações retidas por tipo, no envelope do mês.</li></ul><h3>Toda semana</h3><ul><li>Transmitir o arquivo do SNGPC com intervalo de 1 a 7 dias, mesmo sem movimento, e acompanhar até \"aceito\" (RDC 22/2014, art. 10, §§ 3º e 4º).</li><li>Contagem por amostragem dos controlados de maior giro, comparando prateleira, software e SNGPC.</li><li>Revisar alertas sanitários da Anvisa e da VISA e comunicados de recolhimento de fornecedores.</li></ul><h3>Todo mês</h3><ul><li>Até o dia 15: RMNRA com as Notificações A e RMNRB2 com as Notificações B2, na forma da VISA (Portaria 344, art. 72; RDC 58/2007).</li><li>Conferir a devolução das notificações entregues no mês anterior (30 dias) e arquivá-las.</li><li>Separar produtos com vencimento próximo conforme a política do Manual de Boas Práticas (RDC 44/2009, art. 38, § 4º) e baixar os vencidos como perda.</li><li>Fechar o arquivo de receitas do mês e descartar, com registro, as caixas que já passaram do prazo de guarda.</li></ul><h3>Todo trimestre e todo ano</h3><ul><li>BMPO (e BSPO, na farmácia com manipulação) até o dia 15 de abril, julho, outubro e janeiro.</li><li>Balanço anual até 31 de janeiro, no mesmo mês em que vence, no dia 15, o balanço do 4º trimestre.</li><li>Renovação da licença sanitária e de outros documentos, no prazo do código sanitário local.</li><li>Revisão dos POPs e do Manual de Boas Práticas, com registro da revisão e da divulgação (RDC 44/2009, art. 87, § 3º).</li><li>Treinamento continuado da equipe, com lista de presença (RDC 44/2009, arts. 24 e 28).</li></ul><div class=\"cx chave\"><b>Ponto-chave</b><p>Outubro, janeiro, abril e julho são meses de pico: no dia 15 vencem, ao mesmo tempo, a relação mensal e o balanço trimestral. Em janeiro, ainda há o balanço anual até o dia 31. Planeje esses meses com antecedência.</p></div><h3>Obrigações por evento</h3><div class=\"tab\"><table><thead><tr><th>Evento</th><th>O que fazer</th><th>Prazo</th></tr></thead><tbody><tr><td>Receita de emergência em papel não oficial</td><td>Anotar o comprador e apresentar à VISA para visto</td><td>72 horas (Portaria 344, art. 36, § 2º)</td></tr><tr><td>Suspeita de falsificação ou adulteração no recebimento</td><td>Segregar e notificar a autoridade sanitária</td><td>Imediatamente (RDC 44/2009, art. 34, §§ 1º e 2º)</td></tr><tr><td>Furto, roubo ou extravio de controlado</td><td>Boletim de ocorrência, comunicação à VISA, escrituração da perda</td><td>Assim que constatado</td></tr><tr><td>Saída do RT</td><td>Levantamento do estoque de controlados entregue à VISA; finalização do inventário no SNGPC</td><td>Até o último dia de trabalho (Portaria 6/1999, art. 113)</td></tr><tr><td>Entrada de novo RT</td><td>Conferir inventário, associar-se no SNGPC, apresentar balanço se a VISA pedir</td><td>Antes de começar a transmitir (RDC 22/2014, art. 12)</td></tr><tr><td>Evento adverso ou queixa técnica</td><td>Notificar no VigiMed ou no Notivisa</td><td>Assim que tiver os dados (RDC 44/2009, art. 67)</td></tr><tr><td>Alerta ou recolhimento de lote</td><td>Localizar o lote, segregar, suspender a venda, seguir a orientação</td><td>No mesmo dia</td></tr></tbody></table></div><h3>Como montar o calendário</h3><p>Coloque as datas fixas (dia 15 de cada mês, dia 15 dos meses de trimestre, 31 de janeiro, vencimento da licença) numa agenda compartilhada com o substituto, com lembrete uma semana antes. Defina no POP quem gera, quem confere e quem protocola cada documento, e onde fica o comprovante. Nas férias do RT, o substituto precisa saber gerar e entregar as relações, porque os prazos não são suspensos.</p><div class=\"cx balcao\"><b>No balcão</b><p>Use uma planilha simples de controle com uma linha por obrigação e uma coluna por mês, marcando data de entrega e número do protocolo. Na inspeção, ela mostra em segundos que as entregas estão em dia.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Hoje, 15/10/2026, uma drogaria de Fortaleza precisa protocolar a RMNRA e a RMNRB2 de setembro e o BMPO do 3º trimestre. A RT deixou tudo pronto no dia 6, protocolou no dia 7 pelo canal da VISA e arquivou os comprovantes.</p></div>"
+  },
+  {
+   "id": "m14-farmacovigilancia",
+   "titulo": "Farmacovigilância, queixa técnica e alertas sanitários",
+   "resumo": "<p>A farmácia é a última barreira antes do paciente e, muitas vezes, o primeiro lugar onde aparece o problema com um medicamento: a reação que o cliente relata, o comprimido de cor diferente, a caixa com lote ilegível. A RDC 44/2009 manda o farmacêutico <strong>contribuir para a farmacovigilância</strong>, notificando a ocorrência ou suspeita de evento adverso ou queixa técnica às autoridades sanitárias (art. 67).</p><h3>Evento adverso e queixa técnica</h3><div class=\"tab\"><table><thead><tr><th>Situação</th><th>Exemplo de balcão</th><th>Onde notificar</th></tr></thead><tbody><tr><td>Evento adverso a medicamento (reação, inefetividade, erro de medicação com medicamento)</td><td>Urticária após iniciar antibiótico; anticonvulsivante sem efeito após troca de fabricante</td><td><strong>VigiMed</strong></td></tr><tr><td>Desvio de qualidade de medicamento (queixa técnica)</td><td>Comprimidos esfarelados, solução turva, frasco com volume a menos, embalagem violada</td><td><strong>Notivisa</strong></td></tr><tr><td>Suspeita de falsificação ou produto sem registro</td><td>Lote que não existe no fabricante, embalagem diferente da original</td><td>Notivisa e comunicação à VISA</td></tr><tr><td>Problema com dispositivo médico, cosmético, saneante, suplemento</td><td>Lanceta que não dispara, glicosímetro com erro, protetor solar com reação</td><td>Notivisa (não é escopo do VigiMed)</td></tr><tr><td>Evento adverso a vacina (Esavi)</td><td>Reação após vacina aplicada na farmácia</td><td>e-SUS Notifica, para vacinas do Programa Nacional de Imunizações; VigiMed se o profissional não tiver acesso ao e-SUS Notifica</td></tr></tbody></table></div><p>Essa divisão segue o manual da Anvisa para notificação no VigiMed por serviços de saúde (versão de 12/05/2026). O VigiMed recebe eventos adversos de medicamentos de qualquer categoria, inclusive fitoterápicos, manipulados, homeopáticos e produtos de cannabis; desvios de qualidade de medicamentos vão para o Notivisa. Em medicamento com dispositivo acoplado, como caneta aplicadora, o evento do fármaco vai ao VigiMed e o defeito da caneta, ao Notivisa.</p><p>O VigiMed tem três módulos: cidadãos e profissionais de saúde (sem cadastro prévio, notificação voluntária), profissionais de saúde cadastrados e empresas. Para o detentor do registro, a notificação é obrigatória pela RDC 406/2020. O farmacêutico da farmácia comercial pode notificar pelo módulo de profissionais e orientar o próprio paciente a notificar como cidadão.</p><div class=\"cx chave\"><b>Ponto-chave</b><p>Notificação boa é notificação completa: medicamento com nome, fabricante, lote e validade; dose e data de início; descrição do evento e evolução; outros medicamentos em uso. Notificação sem lote não permite à Anvisa nem à empresa investigar.</p></div><h3>No balcão, diante da queixa</h3><ul><li>Registre o relato do cliente com data, produto, lote e validade, e guarde a embalagem e o produto restante, se o cliente concordar.</li><li>Verifique se há outras unidades do mesmo lote no estoque; se houver suspeita de desvio de qualidade, segregue-as e identifique (RDC 44/2009, art. 38).</li><li>Notifique no sistema certo e anote o número do protocolo no registro interno.</li><li>Oriente o paciente sobre a conduta clínica e encaminhe ao prescritor ou ao serviço de saúde quando houver reação relevante.</li></ul><div class=\"cx balcao\"><b>No balcão</b><p>Cliente devolve um frasco de dipirona gotas dizendo que \"está com cheiro estranho e mais escuro\". O farmacêutico registra o lote, separa as outras unidades daquele lote, notifica queixa técnica no Notivisa, troca o produto por outro lote e contata o distribuidor. Se o cliente tivesse tomado e tido reação, faria também a notificação de evento adverso no VigiMed.</p></div><h3>Recolhimento e alertas sanitários</h3><p>O <strong>recolhimento</strong> de medicamentos (recall) é responsabilidade do detentor do registro, que deve comunicá-lo às autoridades sanitárias e aos consumidores quando há indício ou comprovação de desvio de qualidade com risco à saúde, ou cancelamento de registro por segurança e eficácia (RDC 625/2022, que revogou a RDC 55/2005). Os distribuidores enviam ao detentor o mapa de distribuição, e é por ele que a farmácia é avisada. Além disso, a Anvisa publica no Diário Oficial resoluções que determinam suspensão de comercialização, recolhimento, apreensão ou inutilização de lotes ou produtos, e divulga alertas no portal.</p><p>Para a farmácia, a RDC 44/2009 manda segregar, fora da área de dispensação, os produtos sob suspeita, identificados quanto à condição e ao destino; quando o impedimento de uso é determinado pela vigilância ou por iniciativa do fabricante, o recolhimento segue a regulamentação específica (art. 38, §§ 1º e 3º).</p><div class=\"tab\"><table><thead><tr><th>Passo</th><th>Ação</th></tr></thead><tbody><tr><td>Identificar</td><td>Ler o alerta: produto, lote, medida determinada (suspensão, recolhimento, apreensão) e abrangência</td></tr><tr><td>Localizar</td><td>Buscar no estoque, na loja e no depósito, e nas transferências entre filiais</td></tr><tr><td>Bloquear</td><td>Retirar da área de venda e bloquear o lote no sistema</td></tr><tr><td>Segregar</td><td>Guardar identificado como \"não comercializar\"; controlado continua sob chave</td></tr><tr><td>Devolver ou aguardar</td><td>Seguir a orientação do detentor ou da VISA, com nota fiscal de devolução</td></tr><tr><td>Escriturar</td><td>Controlado ou antimicrobiano: lançar a saída como perda com o motivo (recolhimento ou devolução ao fabricante)</td></tr><tr><td>Registrar</td><td>Data, quantidades, destino e responsável, guardando o alerta e os comprovantes</td></tr></tbody></table></div><div class=\"cx alerta\"><b>Atenção</b><p>Vender produto com comercialização suspensa ou determinado para recolhimento expõe o paciente e configura infração sanitária. Se o paciente já levou o lote, a orientação depende do alerta: algumas medidas pedem contato com quem comprou; outras, só bloqueio do estoque.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Segunda-feira, a Anvisa determina recolhimento de dois lotes de losartana de um fabricante. A farmacêutica encontra 14 caixas de um dos lotes, bloqueia no sistema, separa com etiqueta, liga para o distribuidor, emite nota de devolução no dia seguinte e arquiva o alerta com a nota na pasta da fiscalização.</p></div>"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m14-mapa-fiscalizacao",
+   "titulo": "Fiscalização sanitária na farmácia",
+   "centro": "Fiscalização sanitária",
+   "ramos": [
+    {
+     "t": "Quem fiscaliza",
+     "itens": [
+      "Anvisa: normas, AFE, SNGPC, alertas",
+      "VISA municipal: licença e inspeção",
+      "VISA estadual: onde não houve descentralização",
+      "Competência: confirmar com a VISA local"
+     ]
+    },
+    {
+     "t": "Documentos da loja",
+     "itens": [
+      "AFE e AE (Anvisa)",
+      "Licença sanitária (VISA local)",
+      "Certidão de Regularidade Técnica (CRF)",
+      "Manual de Boas Práticas e POPs",
+      "Licença e certidão afixadas à vista"
+     ]
+    },
+    {
+     "t": "O fiscal confere",
+     "itens": [
+      "Estoque físico igual ao SNGPC (RDC 22, art. 15)",
+      "Controlados sob chave (Portaria 344, art. 67)",
+      "Temperatura da geladeira registrada todo dia",
+      "Vencidos segregados e identificados",
+      "Comprovantes de balanços e relações"
+     ]
+    },
+    {
+     "t": "Termos",
+     "itens": [
+      "Notificação: corrigir no prazo do termo",
+      "Auto de infração: abre o processo",
+      "Apreensão: amostra em 3 partes, contraprova",
+      "Interdição cautelar: no máximo 90 dias"
+     ]
+    },
+    {
+     "t": "Prazos da Lei 6.437",
+     "itens": [
+      "Defesa: 15 dias da notificação",
+      "Pagar em 20 dias: redução de 20%",
+      "Recurso à autoridade superior: 20 dias",
+      "Prescrição: 5 anos"
+     ]
+    },
+    {
+     "t": "Postura na visita",
+     "itens": [
+      "Acompanhar e anotar contagens",
+      "Não obstar: art. 10, X, da Lei 6.437",
+      "Assinar é ciência, não confissão",
+      "Pedir a via de todo termo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m14-mapa-balancos",
+   "titulo": "Balanços, relações e escrituração",
+   "centro": "Balanços e relações",
+   "ramos": [
+    {
+     "t": "BMPO",
+     "itens": [
+      "Vendas de medicamentos A1, A2, A3 e B2",
+      "Farmácias e drogarias; hospital dispensado",
+      "Trimestral: dia 15 de abr, jul, out e jan",
+      "Anual: até 31 de janeiro",
+      "2 vias (Portaria 344, art. 69)"
+     ]
+    },
+    {
+     "t": "BSPO",
+     "itens": [
+      "Substâncias (insumos) das listas",
+      "Farmácia com manipulação e indústria",
+      "Mesmos prazos do BMPO",
+      "Cópia fiel; ajuste proibido (art. 68)"
+     ]
+    },
+    {
+     "t": "RMNRA",
+     "itens": [
+      "Notificações A retidas no mês",
+      "Até o dia 15, com as notificações",
+      "VISA devolve as notificações em 30 dias",
+      "Adendo vendido com RCE fica fora"
+     ]
+    },
+    {
+     "t": "RMNRB2",
+     "itens": [
+      "Notificações B2 (anorexígenos)",
+      "Mensal, até o dia 15",
+      "RDC 58/2007, art. 1º, § 4º, anexo II"
+     ]
+    },
+    {
+     "t": "SNGPC e livro",
+     "itens": [
+      "SNGPC substitui o livro (RDC 22, art. 35)",
+      "Não revogou balanços nem relações",
+      "Livro: farmácia pública, hospital, sem internet"
+     ]
+    },
+    {
+     "t": "Guarda",
+     "itens": [
+      "Controlados: 2 anos (Portaria 344, art. 64)",
+      "C3 e talidomida no fornecedor: 5 anos",
+      "Boas Práticas: 5 anos (RDC 44, art. 89)",
+      "Cópia de segurança do SNGPC: 2 anos"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m14-tab-obrigacoes",
+   "titulo": "Obrigação, periodicidade, prazo, para quem, base legal",
+   "colunas": [
+    "Obrigação",
+    "Periodicidade",
+    "Prazo",
+    "Para quem",
+    "Base legal"
+   ],
+   "linhas": [
+    [
+     "Lançar dispensação e entrada de controlados e antimicrobianos no software",
+     "A cada movimento",
+     "No ato; entrada no dia do recebimento",
+     "Registro interno (base do SNGPC)",
+     "RDC 22/2014, arts. 10 e 15"
+    ],
+    [
+     "Registrar o uso da receita eletrônica",
+     "A cada dispensação",
+     "No ato",
+     "SNCR",
+     "RDC 1.000/2025, art. 13"
+    ],
+    [
+     "Registrar temperatura de produtos refrigerados",
+     "Diária",
+     "Horário definido em POP",
+     "Registro interno (fiscal confere)",
+     "RDC 44/2009, art. 35, §§ 3º e 4º"
+    ],
+    [
+     "Transmitir arquivo ao SNGPC",
+     "No mínimo semanal",
+     "Intervalo de 1 a 7 dias, mesmo sem movimento",
+     "Anvisa (SNGPC)",
+     "RDC 22/2014, art. 10, §§ 3º e 4º"
+    ],
+    [
+     "RMNRA com as Notificações A",
+     "Mensal",
+     "Até o dia 15 do mês seguinte",
+     "VISA local ou estadual",
+     "Portaria 344/1998, arts. 42 e 72"
+    ],
+    [
+     "RMNRB2 com as Notificações B2",
+     "Mensal",
+     "Até o dia 15 do mês seguinte",
+     "VISA local ou estadual",
+     "RDC 58/2007, art. 1º, § 4º"
+    ],
+    [
+     "BMPO trimestral (drogaria e farmácia)",
+     "Trimestral",
+     "Até o dia 15 de abril, julho, outubro e janeiro",
+     "VISA local ou estadual",
+     "Portaria 344/1998, art. 69; Portaria 6/1999, art. 104"
+    ],
+    [
+     "BSPO trimestral (farmácia com manipulação)",
+     "Trimestral",
+     "Até o dia 15 de abril, julho, outubro e janeiro",
+     "VISA local ou estadual",
+     "Portaria 344/1998, art. 68; Portaria 6/1999, art. 103"
+    ],
+    [
+     "Balanço anual (BMPO ou BSPO)",
+     "Anual",
+     "Até 31 de janeiro do ano seguinte",
+     "VISA local ou estadual",
+     "Portaria 344/1998, arts. 68, § 1º, e 69, § 1º"
+    ],
+    [
+     "Receita de emergência para visto",
+     "Por evento",
+     "72 horas",
+     "VISA local",
+     "Portaria 344/1998, art. 36, § 2º, e art. 55, § 2º"
+    ],
+    [
+     "Suspeita de falsificação no recebimento",
+     "Por evento",
+     "Imediatamente",
+     "Autoridade sanitária",
+     "RDC 44/2009, art. 34, § 2º"
+    ],
+    [
+     "Evento adverso a medicamento",
+     "Por evento",
+     "Assim que houver dados",
+     "VigiMed",
+     "RDC 44/2009, art. 67"
+    ],
+    [
+     "Queixa técnica (desvio de qualidade)",
+     "Por evento",
+     "Assim que houver dados",
+     "Notivisa",
+     "RDC 44/2009, art. 67"
+    ],
+    [
+     "Levantamento de estoque na saída do RT",
+     "Por evento",
+     "Até o último dia de trabalho",
+     "VISA local",
+     "Portaria 6/1999, art. 113; RDC 22/2014, art. 12"
+    ],
+    [
+     "Renovação da licença sanitária",
+     "Conforme norma local",
+     "Prazo do código sanitário",
+     "VISA local ou estadual",
+     "RDC 44/2009, art. 2º, III, e legislação local"
+    ],
+    [
+     "Revisão de POPs e registro da divulgação",
+     "Periódica",
+     "Definida no próprio POP",
+     "Registro interno",
+     "RDC 44/2009, arts. 87 e 88"
+    ],
+    [
+     "Guarda de documentos de controlados",
+     "Contínua",
+     "2 anos (C3 e talidomida no fornecedor: 5 anos)",
+     "Estabelecimento",
+     "Portaria 344/1998, art. 64"
+    ],
+    [
+     "Guarda da documentação de Boas Práticas",
+     "Contínua",
+     "Mínimo de 5 anos",
+     "Estabelecimento",
+     "RDC 44/2009, art. 89"
+    ]
+   ],
+   "nota": "Forma de entrega (papel, e-mail, portal, SEI), número de vias e regra para prazo que cai em fim de semana variam entre VISAs. Os prazos da Portaria 344 são nacionais."
+  },
+  {
+   "tipo": "quadro",
+   "id": "m14-quadro-bmpo",
+   "titulo": "Modelo de campos do BMPO e do BSPO",
+   "html": "<h4>BMPO (Portaria 344/1998, art. 69, modelo do Anexo XXI)</h4><div class=\"tab\"><table><thead><tr><th>Bloco</th><th>Campos</th></tr></thead><tbody><tr><td>Identificação</td><td>Razão social e endereço; CNPJ; número da licença de funcionamento; farmacêutico responsável e número no CRF</td></tr><tr><td>Período</td><td>Trimestre (1º, 2º, 3º ou 4º) ou balanço anual; ano</td></tr><tr><td>Escopo</td><td>Medicamentos das listas A1, A2, A3 e B2</td></tr><tr><td>Por medicamento</td><td>Denominação (DCB e nome comercial), concentração e apresentação; estoque inicial; entradas (aquisições); saídas (vendas); perdas; estoque final</td></tr><tr><td>Fechamento</td><td>Data, assinatura do RT; visto ou protocolo da autoridade sanitária</td></tr></tbody></table></div><h4>BSPO (Portaria 344/1998, art. 68; planilha digital orientada pela Anvisa)</h4><div class=\"tab\"><table><thead><tr><th>Formulário</th><th>Campos</th></tr></thead><tbody><tr><td>Identificação</td><td>Razão social; endereço; CNPJ; número da Autorização Especial; exercício (ano); nome completo e CRF do responsável; data do preenchimento; telefone; e-mail</td></tr><tr><td>Balanço completo de entrada e saída</td><td>Substância (nome exato, com o sal); unidade (mg, g ou kg); estoque inicial; importação; produção; aquisição; venda; transformação; fabricação de não psicotrópicos; fabricação de psicotrópicos; perda; exportação; estoque final calculado</td></tr><tr><td>Detalhamentos</td><td>Aquisições, vendas, importações e exportações, por operação</td></tr><tr><td>Observação</td><td>Motivo das perdas e outras explicações</td></tr></tbody></table></div><p>Regra de conta: estoque inicial + entradas, menos saídas e perdas, igual ao estoque final. O estoque inicial do ano é o estoque final do ano anterior. Os campos de identificação do BMPO com CNPJ, licença e CRF são os que as VISAs de São Paulo e de Manaus exigem; confira o leiaute exato do Anexo XXI aceito pela sua VISA, que pode ter modelo próprio. Os campos do BSPO seguem as orientações de preenchimento publicadas pela Anvisa.</p>"
+  },
+  {
+   "tipo": "quadro",
+   "id": "m14-quadro-rmnra",
+   "titulo": "Modelo de campos da RMNRA",
+   "html": "<h4>RMNRA (Portaria 344/1998, art. 72, modelo do Anexo XXIV)</h4><div class=\"tab\"><table><thead><tr><th>Bloco</th><th>Campos</th></tr></thead><tbody><tr><td>Identificação</td><td>Razão social e endereço; CNPJ; número da licença; farmacêutico responsável e número no CRF</td></tr><tr><td>Referência</td><td>Mês e ano das dispensações</td></tr><tr><td>Por notificação</td><td>Número da Notificação de Receita A; data da dispensação; medicamento (DCB, concentração, forma); quantidade dispensada; prescritor com inscrição no conselho e UF</td></tr><tr><td>Totais</td><td>Número de notificações relacionadas, igual ao número de notificações anexadas</td></tr><tr><td>Fechamento</td><td>Data, assinatura do RT; recibo da VISA na 2ª via</td></tr></tbody></table></div><ul><li>Entregar em 2 vias, até o dia 15, com as Notificações A anexadas na ordem da relação e as justificativas de quantidade acima do limite (Portaria 344, arts. 42, 43, § 2º, e 72).</li><li>Não incluir preparações dos adendos vendidas com Receita de Controle Especial.</li><li>Notificações A eletrônicas podem ser enviadas em meio eletrônico (art. 72, § 2º-A, incluído pela RDC 1.000/2025).</li><li>A RMNRB2 segue a mesma lógica para Notificações B2, no modelo do anexo II da RDC 58/2007.</li></ul><p>O quadro reúne os dados que permitem à VISA conferir cada notificação com o papel. O leiaute exato do Anexo XXIV e eventuais campos extras pedidos pela VISA local devem ser conferidos antes do primeiro envio.</p>"
+  },
+  {
+   "tipo": "checklist",
+   "id": "m14-check-inspecao",
+   "titulo": "Dia da inspeção",
+   "itens": [
+    "Licença sanitária e Certidão de Regularidade Técnica afixadas e dentro da validade",
+    "Cartaz com razão social, CNPJ, AFE, AE, RT, substitutos, horários e telefones do CRF e da VISA",
+    "Farmacêutico presente e identificado durante todo o horário",
+    "Manual de Boas Práticas e POPs assinados, datados e com registro de divulgação",
+    "Registros de treinamento com lista de presença",
+    "Planilha de temperatura da geladeira preenchida todos os dias, inclusive fins de semana",
+    "Produtos afastados de piso, parede e teto; área limpa e protegida de sol e umidade",
+    "Vencidos, avariados e recolhidos segregados e identificados, fora da área de venda",
+    "Armário de controlados trancado, chave com o farmacêutico, sem outros produtos",
+    "Certificado de Escrituração Digital impresso com o RT atual",
+    "Último arquivo do SNGPC aceito há no máximo 7 dias; lista de arquivos em trânsito à mão",
+    "Contagem de três ou quatro controlados de giro conferida com o SNGPC no dia",
+    "Receitas e notificações retidas arquivadas por mês e por tipo",
+    "Comprovantes de entrega de BMPO, RMNRA e RMNRB2 dos últimos 2 anos",
+    "Alertas e recolhimentos recentes tratados e registrados",
+    "Comprovante de controle de pragas e plano de gerenciamento de resíduos",
+    "Pasta da fiscalização acessível ao substituto e ao gerente"
+   ]
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m14-fluxo-fiscal",
+   "titulo": "Chegou o fiscal",
+   "passos": [
+    {
+     "t": "Fiscal se apresenta na loja",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Pedir a identificação funcional e o motivo da inspeção",
+     "tipo": "acao"
+    },
+    {
+     "t": "O RT está na loja?",
+     "tipo": "decisao",
+     "sim": "O RT recebe e acompanha toda a visita",
+     "nao": "O farmacêutico presente acompanha e avisa o RT, que vem ou orienta por telefone"
+    },
+    {
+     "t": "Entregar a pasta da fiscalização: documentos, POPs, registros, comprovantes",
+     "tipo": "acao"
+    },
+    {
+     "t": "Abrir o armário de controlados e acompanhar a contagem, anotando os números",
+     "tipo": "acao"
+    },
+    {
+     "t": "A contagem diverge do SNGPC?",
+     "tipo": "decisao",
+     "sim": "Procurar arquivo em trânsito, nota não lançada ou receita lançada com erro e mostrar o documento",
+     "nao": "Seguir com o roteiro do fiscal"
+    },
+    {
+     "t": "Não impedir nem atrasar o acesso a áreas e documentos (Lei 6.437/1977, art. 10, X)",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Ler cada termo antes de assinar e registrar a discordância no próprio termo",
+     "tipo": "acao"
+    },
+    {
+     "t": "Foi lavrado auto de infração?",
+     "tipo": "decisao",
+     "sim": "Anotar o prazo de defesa (15 dias na Lei 6.437), avisar o responsável legal e reunir provas",
+     "nao": "Cumprir as notificações no prazo escrito no termo e comprovar à VISA"
+    },
+    {
+     "t": "Arquivar as vias, corrigir as falhas, revisar POP e registrar o treinamento",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m14-fluxo-mes",
+   "titulo": "Fechamento do mês",
+   "passos": [
+    {
+     "t": "Último dia útil do mês",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Resolver pendências do software: vendas sem dados da receita, entradas sem nota",
+     "tipo": "acao"
+    },
+    {
+     "t": "Transmitir o arquivo do SNGPC e confirmar o status aceito",
+     "tipo": "acao"
+    },
+    {
+     "t": "Contar as Notificações A e B2 do mês e gerar a RMNRA e a RMNRB2",
+     "tipo": "acao"
+    },
+    {
+     "t": "A relação bate com as notificações do envelope?",
+     "tipo": "decisao",
+     "sim": "Gerar o PDF ou imprimir em 2 vias e assinar",
+     "nao": "Corrigir a escrituração no software e no SNGPC e gerar a relação de novo"
+    },
+    {
+     "t": "O mês fecha um trimestre (março, junho, setembro, dezembro)?",
+     "tipo": "decisao",
+     "sim": "Gerar o BMPO (e o BSPO, se houver manipulação) e conferir itens contra a prateleira; em dezembro, preparar também o anual",
+     "nao": "Seguir para o protocolo"
+    },
+    {
+     "t": "Protocolar na VISA antes do dia 15 e salvar o comprovante na pasta da fiscalização",
+     "tipo": "acao"
+    },
+    {
+     "t": "Falta de remessa no prazo é infração (Portaria 344, art. 73)",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Arquivar receitas do mês por tipo e baixar vencidos como perda",
+     "tipo": "acao"
+    },
+    {
+     "t": "Registrar a entrega na planilha de controle de obrigações",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "pop",
+   "id": "m14-pop-relacoes",
+   "titulo": "Elaboração e entrega da RMNRA, da RMNRB2 e dos balanços",
+   "codigo": "POP-VISA-01",
+   "objetivo": "Padronizar a geração, a conferência, a entrega e o arquivamento das relações mensais de notificações e dos balanços de controlados exigidos pela Portaria 344/1998, garantindo entrega no prazo e coerência com a escrituração do SNGPC.",
+   "abrangencia": "Farmacêutico responsável técnico e farmacêuticos substitutos da drogaria; aplica-se às Notificações de Receita A e B2 retidas e aos medicamentos das listas A1, A2, A3 e B2.",
+   "responsaveis": [
+    "Farmacêutico RT: gera, confere, assina e protocola",
+    "Farmacêutico substituto: executa nas ausências do RT",
+    "Responsável legal: garante acesso ao canal de entrega da VISA e guarda dos comprovantes"
+   ],
+   "materiais": [
+    "Software de gestão com módulo de controlados (relatórios de relação mensal e de balanço)",
+    "Acesso ao SNGPC",
+    "Envelopes mensais de Notificações A e B2",
+    "Canal de entrega definido pela VISA (portal, e-mail, SEI ou balcão)",
+    "Planilha de controle de obrigações",
+    "Pasta da fiscalização (física e digital)"
+   ],
+   "procedimento": [
+    "Durante o mês, guardar cada Notificação A e B2 retida no envelope do mês, na ordem de dispensação, com a justificativa do prescritor quando houver.",
+    "No último dia útil do mês, resolver as pendências de escrituração no software e transmitir o arquivo ao SNGPC até o status aceito.",
+    "No 1º dia útil do mês seguinte, gerar no software a RMNRA (listas A1, A2 e A3) e a RMNRB2 do mês anterior, no leiaute aceito pela VISA.",
+    "Conferir a relação contra o envelope, notificação por notificação: número, data, medicamento, quantidade e prescritor. Conferir o total.",
+    "Havendo divergência, corrigir primeiro a escrituração no software e no SNGPC, registrar o motivo da correção e gerar a relação de novo.",
+    "Nos meses de abril, julho, outubro e janeiro, gerar também o BMPO do trimestre anterior (listas A1, A2, A3 e B2); em janeiro, gerar ainda o balanço anual do ano anterior.",
+    "Conferir no balanço três ou quatro itens contra a prateleira e o estoque do SNGPC; estoque inicial do período deve ser igual ao final do período anterior.",
+    "Assinar e datar as relações e o balanço; montar o pacote com as notificações anexadas na ordem da relação, ou digitalizar em PDF conforme a VISA.",
+    "Protocolar pelo canal da VISA até o dia 10, garantindo margem antes do dia 15.",
+    "Salvar o comprovante de entrega e a via visada na pasta da fiscalização e lançar a data e o número do protocolo na planilha de controle.",
+    "Acompanhar a devolução das Notificações A pela VISA (até 30 dias da entrega) e arquivá-las na caixa do mês de origem."
+   ],
+   "cuidados": [
+    "Não incluir na RMNRA as preparações dos adendos das listas A1 e A2 vendidas com Receita de Controle Especial.",
+    "Não ajustar números no balanço para fechar com a prateleira; corrigir a escrituração com documento.",
+    "Clonazepam, alprazolam, zolpidem (B1) e medicamentos das listas C não entram no BMPO.",
+    "Confirmar com a VISA o formato de envio das Notificações A eletrônicas (art. 72, § 2º-A).",
+    "Se o dia 15 cair em fim de semana ou feriado, seguir a regra da VISA local; não presumir prorrogação.",
+    "Nas férias do RT, o substituto executa este POP; a obrigação não é suspensa."
+   ],
+   "registros": [
+    "Vias visadas ou comprovantes eletrônicos de entrega",
+    "Planilha de controle de obrigações",
+    "Registro de correções de escrituração com motivo",
+    "Notificações devolvidas, arquivadas por mês (2 anos)"
+   ],
+   "referencias": [
+    "Portaria SVS/MS 344/1998, arts. 42, 43, 64, 68, 69, 72 e 73",
+    "Portaria SVS/MS 6/1999, arts. 103 e 104",
+    "RDC 58/2007, art. 1º, § 4º",
+    "RDC 22/2014",
+    "RDC 1.000/2025",
+    "RDC 44/2009, arts. 86 a 89",
+    "Orientação da VISA local sobre entrega de balanços e relações"
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m14-cartoes",
+   "titulo": "Cartões de vigilância sanitária",
+   "itens": [
+    {
+     "f": "O que o BMPO registra?",
+     "v": "Vendas de medicamentos das listas A1, A2, A3 e B2 (Portaria 344, art. 69)."
+    },
+    {
+     "f": "Prazo do BMPO trimestral?",
+     "v": "Até o dia 15 de abril, julho, outubro e janeiro."
+    },
+    {
+     "f": "Prazo do balanço anual?",
+     "v": "Até 31 de janeiro do ano seguinte."
+    },
+    {
+     "f": "BMPO e BSPO: qual a diferença?",
+     "v": "BMPO: medicamentos vendidos. BSPO: substâncias (insumos), típico da farmácia com manipulação e da indústria."
+    },
+    {
+     "f": "Quem está dispensado do BMPO?",
+     "v": "Farmácias de unidades hospitalares e de clínicas médicas e veterinárias (art. 69, § 3º)."
+    },
+    {
+     "f": "O que é a RMNRA?",
+     "v": "Relação mensal das Notificações A retidas, entregue com elas à VISA até o dia 15 (art. 72)."
+    },
+    {
+     "f": "Em quanto tempo a VISA devolve as Notificações A?",
+     "v": "Em até 30 dias da entrega (art. 72, parágrafo único)."
+    },
+    {
+     "f": "Preparação de adendo vendida com RCE entra na RMNRA?",
+     "v": "Não. Só entram Notificações de Receita A."
+    },
+    {
+     "f": "Base legal da RMNRB2?",
+     "v": "RDC 58/2007, art. 1º, § 4º, modelo do anexo II."
+    },
+    {
+     "f": "O SNGPC acabou com os balanços?",
+     "v": "Não. Substituiu o livro (RDC 22/2014, art. 35); balanços e relações da Portaria 344 continuam."
+    },
+    {
+     "f": "Prazo de guarda das notificações retidas?",
+     "v": "2 anos (Portaria 344, art. 64)."
+    },
+    {
+     "f": "Prazo de guarda de manual, POPs e registros?",
+     "v": "No mínimo 5 anos (RDC 44/2009, art. 89)."
+    },
+    {
+     "f": "Prazo de defesa contra auto de infração da Lei 6.437?",
+     "v": "15 dias da notificação (art. 22)."
+    },
+    {
+     "f": "Pagar a multa em 20 dias dá direito a quê?",
+     "v": "Redução de 20%, com desistência da defesa (Lei 6.437, art. 21)."
+    },
+    {
+     "f": "Duração máxima da interdição cautelar?",
+     "v": "90 dias; depois disso, liberação automática (Lei 6.437, art. 23, § 4º)."
+    },
+    {
+     "f": "Dificultar a inspeção é infração?",
+     "v": "Sim: obstar ou dificultar a ação fiscalizadora (Lei 6.437, art. 10, X)."
+    },
+    {
+     "f": "Evento adverso a medicamento: onde notificar?",
+     "v": "VigiMed."
+    },
+    {
+     "f": "Desvio de qualidade de medicamento: onde notificar?",
+     "v": "Notivisa, como queixa técnica."
+    },
+    {
+     "f": "Quem conduz o recolhimento de um lote?",
+     "v": "O detentor do registro (RDC 625/2022); a farmácia localiza, segrega, bloqueia e devolve."
+    },
+    {
+     "f": "Com que frequência registrar a temperatura da geladeira?",
+     "v": "Diariamente (RDC 44/2009, art. 35, § 3º)."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m14-questoes",
+   "titulo": "Questões de vigilância sanitária",
+   "itens": [
+    {
+     "p": "Uma drogaria vendeu no trimestre metilfenidato, clonazepam, morfina, sertralina e sibutramina. Quais desses medicamentos entram no BMPO?",
+     "alt": [
+      "Todos, porque todos são escriturados no SNGPC",
+      "Clonazepam, sertralina e sibutramina",
+      "Metilfenidato, morfina e sibutramina",
+      "Apenas metilfenidato e morfina",
+      "Apenas os das listas B1 e C1"
+     ],
+     "c": 2,
+     "com": "O BMPO registra vendas de medicamentos das listas A1, A2, A3 e B2 (Portaria 344, art. 69; a C4 citada no texto foi extinta). Morfina é A1, metilfenidato é A3 e sibutramina é B2. Clonazepam (B1) e sertralina (C1) são escriturados no SNGPC, mas não entram no BMPO. Por isso A, B, D e E estão erradas."
+    },
+    {
+     "p": "Qual é o prazo de entrega do BMPO referente ao 3º trimestre (julho a setembro)?",
+     "alt": [
+      "15 de outubro do mesmo ano",
+      "31 de outubro do mesmo ano",
+      "15 de janeiro do ano seguinte",
+      "30 de setembro do mesmo ano",
+      "31 de janeiro do ano seguinte"
+     ],
+     "c": 0,
+     "com": "O BMPO trimestral é entregue até o dia 15 de abril, julho, outubro e janeiro (Portaria 344, art. 69). O trimestre de julho a setembro vence em 15 de outubro. 15 de janeiro é o prazo do 4º trimestre e 31 de janeiro é o do balanço anual (art. 69, § 1º)."
+    },
+    {
+     "p": "Sobre a Relação Mensal de Notificações de Receita A (RMNRA), assinale a correta.",
+     "alt": [
+      "É entregue a cada trimestre junto com o BMPO",
+      "Inclui as Receitas de Controle Especial de codeína do adendo",
+      "Dispensa o envio das notificações, que ficam na farmácia",
+      "Vai à VISA até o dia 15, com as Notificações A do mês anterior",
+      "É transmitida pelo SNGPC e dispensa qualquer entrega à VISA local"
+     ],
+     "c": 3,
+     "com": "A RMNRA é mensal e segue até o dia 15 junto com as respectivas notificações, que a VISA devolve em 30 dias (Portaria 344, arts. 42 e 72). Preparações do adendo vendidas com RCE não entram. O SNGPC não substitui a relação, que continua sendo entregue à VISA."
+    },
+    {
+     "p": "Uma farmácia recebe auto de infração lavrado com base na Lei 6.437/1977. Qual o prazo para apresentar defesa ou impugnação?",
+     "alt": [
+      "5 dias úteis da lavratura",
+      "15 dias da notificação",
+      "30 dias da lavratura",
+      "20 dias, só se pagar a multa",
+      "60 dias da notificação"
+     ],
+     "c": 1,
+     "com": "A defesa ou impugnação cabe em 15 dias contados da notificação (Lei 6.437/1977, art. 22). Os 20 dias do art. 21 são para pagar com redução de 20%, o que implica desistir da defesa. Os outros prazos não existem na lei."
+    },
+    {
+     "p": "A VISA interditou cautelarmente um lote de medicamento na farmácia enquanto aguarda a análise fiscal. Por quanto tempo, no máximo, essa interdição pode durar?",
+     "alt": [
+      "30 dias, prorrogáveis por igual período",
+      "60 dias corridos",
+      "Até o julgamento do recurso",
+      "Sem prazo, até sair o laudo",
+      "Até 90 dias"
+     ],
+     "c": 4,
+     "com": "A interdição cautelar dura o tempo necessário às análises e não pode passar de 90 dias; findo o prazo, o produto ou o estabelecimento é liberado automaticamente (Lei 6.437/1977, art. 23, § 4º). As demais alternativas não têm base na lei."
+    },
+    {
+     "p": "Cliente devolve uma caixa de comprimidos que estão esfarelando e com manchas, sem relatar reação. Onde o farmacêutico deve notificar?",
+     "alt": [
+      "No VigiMed, como evento adverso",
+      "No e-SUS Notifica",
+      "No Notivisa, como queixa técnica",
+      "Somente ao fabricante, pelo serviço de atendimento",
+      "No SNGPC, como perda"
+     ],
+     "c": 2,
+     "com": "Desvio de qualidade de medicamento é queixa técnica e vai ao Notivisa; o VigiMed recebe eventos adversos (manual da Anvisa para notificação no VigiMed, 2026; RDC 44/2009, art. 67). O e-SUS Notifica é para eventos de vacinas do PNI. O contato com o fabricante não substitui a notificação, e o SNGPC só registra movimentação."
+    },
+    {
+     "p": "Em outubro de 2026, como uma drogaria privada de Teresina escritura os medicamentos da Portaria 344?",
+     "alt": [
+      "No SNGPC, sem livro",
+      "Em livro com termo da VISA, além do SNGPC",
+      "Em livro informatizado aprovado pela VISA",
+      "Em livro só para as listas A e no SNGPC para as demais",
+      "Em livro, até a VISA autorizar o SNGPC"
+     ],
+     "c": 0,
+     "com": "A escrituração no SNGPC substitui o livro de registro (RDC 22/2014, art. 35), e a transmissão é obrigatória em todo o país desde 02/01/2026. O livro sobrevive para farmácias públicas e de hospital, para municípios sem internet com autorização da VISA e para a talidomida em unidades públicas."
+    },
+    {
+     "p": "Por quanto tempo a drogaria deve guardar as Notificações de Receita B retidas?",
+     "alt": [
+      "6 meses",
+      "1 ano",
+      "5 anos",
+      "2 anos",
+      "10 anos"
+     ],
+     "c": 3,
+     "com": "Livros, balanços e demais comprovantes de movimentação de controlados ficam no estabelecimento por 2 anos (Portaria 344, art. 64). Cinco anos é o prazo para documentos do fornecedor de C3 e talidomida (art. 64, § 2º) e para a documentação de Boas Práticas (RDC 44/2009, art. 89); dez anos é o do livro de notificação de talidomida da unidade pública."
+    },
+    {
+     "p": "A Anvisa determina o recolhimento de um lote de metilfenidato que a drogaria tem em estoque. Qual conduta está correta?",
+     "alt": [
+      "Vender o que restou no estoque e só depois avisar os clientes",
+      "Segregar sob chave e lançar a saída como perda, com o motivo",
+      "Descartar em lixo comum e dar baixa simples no sistema da loja",
+      "Devolver ao distribuidor sem nota, para agilizar",
+      "Manter na prateleira até a VISA aparecer"
+     ],
+     "c": 1,
+     "com": "Produtos sob impedimento de uso são segregados e identificados, e o recolhimento segue a regulamentação específica (RDC 44/2009, art. 38; RDC 625/2022). Sendo controlado, continua sob chave, e a saída é escriturada como perda com o motivo (RDC 22/2014, art. 5º, XXIV). Vender, descartar em lixo comum ou devolver sem nota são irregulares."
+    },
+    {
+     "p": "Durante a inspeção, o fiscal lavra termo com uma exigência da qual o farmacêutico discorda. Qual a conduta mais adequada?",
+     "alt": [
+      "Recusar-se a assinar o termo, para não confessar a infração",
+      "Impedir a contagem até a chegada do advogado",
+      "Entregar só os documentos que o fiscal citar por número de artigo",
+      "Pedir que o fiscal volte em outro dia",
+      "Assinar e registrar a discordância ou defender-se no prazo"
+     ],
+     "c": 4,
+     "com": "A assinatura indica ciência; a discordância pode ser registrada no termo ou apresentada em defesa no prazo (Lei 6.437/1977, arts. 13 e 22). A recusa não impede o processo e é anotada no auto. Impedir ou atrasar a fiscalização é infração própria (art. 10, X)."
+    },
+    {
+     "p": "Uma farmácia com manipulação compra cloridrato de metilfenidato como matéria-prima. Qual documento periódico consolida a movimentação dessa substância para a VISA?",
+     "alt": [
+      "BMPO",
+      "RMNRA",
+      "BSPO",
+      "RMV",
+      "MCPM"
+     ],
+     "c": 2,
+     "com": "O BSPO registra a movimentação de substâncias (insumos) das listas da Portaria 344 (art. 68) e é o balanço típico da farmácia com manipulação. O BMPO trata de vendas de medicamentos; a RMNRA lista Notificações A; a RMV é de indústrias e distribuidoras; o MCPM é de órgãos oficiais que dispensam C3."
+    },
+    {
+     "p": "Em outubro de 2026, qual destes documentos ainda deve ser apresentado à VISA em até 72 horas para visto?",
+     "alt": [
+      "Notificação A de outro estado",
+      "Receita de emergência em papel não oficial",
+      "Receita de Controle Especial de outro estado",
+      "Notificação B2 acompanhada de termo",
+      "Receita de antimicrobiano"
+     ],
+     "c": 1,
+     "com": "A receita de emergência aviada em papel não oficial é apresentada à VISA em 72 horas para visto (Portaria 344, art. 36, § 2º, e art. 55, § 2º). O visto para Notificação A e RCE de outra UF foi revogado pela RDC 873/2024. Notificação B2 e receita de antimicrobiano não vão à VISA para visto."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Brasil. Ministério da Saúde. Secretaria de Vigilância Sanitária. Portaria SVS/MS nº 344, de 12 de maio de 1998, arts. 36, 41 a 43, 55 e 62 a 76 (texto original). bvsms.saude.gov.br/bvs/saudelegis/svs/1998/prt0344_12_05_1998_rep.html",
+  "Brasil. Ministério da Saúde. Secretaria de Vigilância Sanitária. Portaria SVS/MS nº 6, de 29 de janeiro de 1999 (Instrução Normativa da Portaria 344/98), capítulos da escrituração, do balanço e da responsabilidade (arts. 91 a 116). Cópia publicada pelo Conselho Federal de Farmácia, cff.org.br/userfiles/file/portarias/6.pdf",
+  "Brasil. Lei nº 6.437, de 20 de agosto de 1977 (infrações à legislação sanitária federal), texto compilado com a Lei nº 14.671/2023 (art. 28-A). planalto.gov.br",
+  "Brasil. Lei nº 9.782, de 26 de janeiro de 1999 (Sistema Nacional de Vigilância Sanitária e Anvisa), art. 1º. planalto.gov.br",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 44, de 17 de agosto de 2009 (Boas Práticas Farmacêuticas), texto vigente com alterações, arts. 2º, 3º, 24 a 38, 67 e 85 a 89. anvisalegis.datalegis.net",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 22, de 29 de abril de 2014 (SNGPC), arts. 3º, 5º, 10, 12, 15, 19, 35 e 36 (conforme os módulos de Portaria 344/98 e SNGPC deste material e a transcrição do art. 35 pela VISA de São Paulo).",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 625, de 9 de março de 2022 (comunicação e recolhimento de medicamentos), em vigor desde 1º de abril de 2022, revogou a RDC nº 55/2005 (conferida por fontes secundárias).",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 58, de 5 de setembro de 2007 (anorexígenos), art. 1º, § 4º, e anexo II (RMNRB2), alterada pela RDC nº 689/2022 (citadas pelas VISAs do Paraná, de São Paulo, de Manaus e do Rio de Janeiro).",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 1.000, de 11 de dezembro de 2025 (receituários eletrônicos; art. 72, § 2º-A, da Portaria 344), conforme o módulo da Portaria 344/98 deste material.",
+  "Anvisa. Orientações de preenchimento do Balanço de Substâncias Psicoativas e Outras Sujeitas a Controle Especial (BSPO). Publicação em gov.br/anvisa, modificada em 13 mar. 2026.",
+  "Anvisa. Manual de instruções de notificação no sistema VigiMed para serviços de saúde. MANUAL-F-ANVISA-034, versão 00, 12 maio 2026. gov.br/anvisa",
+  "Anvisa. Página de notificações (VigiMed, Notivisa, e-Notivisa). gov.br/anvisa/pt-br/assuntos/fiscalizacao-e-monitoramento/notificacoes (consulta em 15 out. 2026).",
+  "Prefeitura de São Paulo. COVISA/DVPSIS. Nota Técnica 03/2021: orientações referentes ao encaminhamento de balanços e receitas de substâncias e medicamentos constantes na Portaria SVS/MS nº 344/98. 5 abr. 2021.",
+  "Prefeitura de São Paulo. Secretaria Municipal da Saúde. Medicamentos sujeitos a controle especial: abertura e encerramento de livros, informatização e mapas (página consultada em 15 out. 2026).",
+  "Prefeitura do Rio de Janeiro. IVISA-Rio. Termo de uso e aviso de privacidade do serviço de entrega periódica de balanços, mapas e relações (versão de 24 out. 2025); Resolução SMSDC nº 1.483, de 7 de agosto de 2009.",
+  "Prefeitura de Manaus. SEMSA. Entrega de balanços, mapas e relações: controle especial (informações ao cidadão, 2021).",
+  "Secretaria de Estado da Saúde do Paraná. CEVS/DVVSP. Sobre os balanços de produtos controlados BSPO, BMPO, RMNRA e RMNRB2 para farmácias e drogarias privadas. Curitiba, 27 set. 2017.",
+  "Governo de Minas Gerais. Apresentar balanços, relações e mapas de medicamentos e substâncias à Vigilância Sanitária (carta de serviços, consulta em 15 out. 2026).",
+  "Prefeitura de Jundiaí. VISA. Informativo referente à Portaria SVS/MS nº 344/1998 (entrega eletrônica de BMPO, BSPO e RMV, 2023); Prefeitura de São José dos Campos. Mapas e balanços (consulta em 15 out. 2026).",
+  "Anvisa. Perguntas e Respostas: instabilidade do SNGPC, 1ª ed., 17 dez. 2021 (pergunta 12), conforme o módulo do SNGPC deste material."
+ ]
+}

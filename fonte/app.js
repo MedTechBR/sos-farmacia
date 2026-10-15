@@ -305,7 +305,8 @@ const TIPOS = {
   checklist: { nome: 'Checklist', plural: 'Checklists', ic: 'list-check' }, fluxo: { nome: 'Fluxo', plural: 'Fluxos', ic: 'git-fork' },
   cartoes: { nome: 'Cartões de revisão', plural: 'Cartões', ic: 'cards' }, questoes: { nome: 'Questões', plural: 'Questões', ic: 'help-circle' },
   receita: { nome: 'Modelo de receita', plural: 'Receitas', ic: 'prescription' }, pop: { nome: 'POP', plural: 'POPs', ic: 'file-text' },
-  simulador: { nome: 'Simulador de tela', plural: 'Simuladores', ic: 'device-desktop' }
+  simulador: { nome: 'Simulador de tela', plural: 'Simuladores', ic: 'device-desktop' },
+  calculadora: { nome: 'Calculadora', plural: 'Calculadoras', ic: 'calculator' }, bulario: { nome: 'Bulário', plural: 'Bulários', ic: 'book-2' }
 };
 const LETRAS = 'ABCDE';
 const posQ = {}, posC = {};
@@ -344,6 +345,8 @@ function blocoCorpo(b, imp) {
         `<div class="pop-ass"><div>Elaborado por:</div><div>Revisado por:</div><div>Aprovado por (farmacêutico RT):</div></div></div>`;
     }
     case 'simulador': return imp ? (b.telas || []).map((t, i) => `<div class="simImp">${simTela(b, i, true)}</div>`).join('') : `<div class="sim" data-sim="${b.id}">${simTela(b, posSim[b.id] || 0)}</div>`;
+    case 'calculadora': return imp ? calcImpressao(b) : `<div class="calc" data-calcb="${b.id}">${calcCorpo(b)}</div>`;
+    case 'bulario': return imp ? bulCorpo(b, true) : `<div class="bul" data-bulb="${b.id}">${bulCorpo(b)}</div>`;
     default: return `<p>Tipo de bloco desconhecido.</p>`;
   }
 }
@@ -377,6 +380,137 @@ function simTela(b, i, imp) {
     `<ol>${(t.notas || []).map(x => `<li data-n="${x.n}"><span class="simN">${x.n}</span><span>${inl(x.t)}</span></li>`).join('')}</ol>` +
     (imp ? '' : `<div class="navQ"><button class="bt sec mini" data-simnav="-1" ${i ? '' : 'disabled'}>${ic('arrow-left')} Tela anterior</button>${pontos(telas.length, i, () => '')}<button class="bt mini" data-simnav="1" ${i < telas.length - 1 ? '' : 'disabled'}>Próxima tela ${ic('arrow-right')}</button></div>`) + `</div>`;
 }
+/* ---------------- calculadora de dose (15/10/2026) ----------------
+   Fármacos por peso vindos do bloco: dose por tomada (base "dose") ou por dia dividida (base "dia"),
+   tetos por tomada e por dia, mL e gotas pela apresentação, frascos para o tratamento.
+   Também cálculo livre e quantidade a dispensar. Não substitui a prescrição: confere. */
+const calcEst = {};
+const nBR = s => { const v = parseFloat(String(s == null ? '' : s).trim().replace(',', '.')); return isFinite(v) ? v : NaN; };
+const fBR = (v, d = 1) => isFinite(v) ? v.toLocaleString('pt-BR', { maximumFractionDigits: d }) : '';
+const fx = (a, b, d, u) => (Math.abs(a - b) < 1e-9 || fBR(a, d) === fBR(b, d) ? fBR(a, d) : `${fBR(a, d)} a ${fBR(b, d)}`) + (u ? ' ' + u : '');
+function calcEstado(b) {
+  return calcEst[b.id] || (calcEst[b.id] = { modo: 'farmaco', f: 0, a: 0, tom: null, peso: '', dias: '',
+    livre: { peso: '', dose: '', base: 'dose', tomadas: '', mg: '', ml: '', gotas: '' }, qtd: { ml: '', tomadas: '', dias: '', frasco: '' } });
+}
+function contaDose(peso, doseKg, base, tom, tetos) {
+  /* mg por tomada [mín, máx] com os tetos aplicados; avisa quando cortou */
+  const avisos = [];
+  let a = base === 'dia' ? peso * doseKg[0] / tom : peso * doseKg[0], z = base === 'dia' ? peso * doseKg[1] / tom : peso * doseKg[1];
+  if (tetos.maxDose && z > tetos.maxDose) { avisos.push(`A conta passou do teto de ${fBR(tetos.maxDose, 1)} mg por tomada: o teto vale.`); z = tetos.maxDose; a = Math.min(a, z); }
+  const tetoDia = Math.min(tetos.maxDia || Infinity, tetos.maxDiaKg ? tetos.maxDiaKg * peso : Infinity);
+  if (isFinite(tetoDia) && z * tom > tetoDia + 1e-9) { avisos.push(`Com ${tom} tomadas a dose diária passaria de ${fBR(tetoDia, 0)} mg/dia (teto): cada tomada fica em até ${fBR(tetoDia / tom, 1)} mg.`); z = tetoDia / tom; a = Math.min(a, z); }
+  return { a, z, avisos, tetoDia };
+}
+function linhaRes(rot, val, sub, cls) { return `<div class="cRes${cls ? ' ' + cls : ''}"><span>${rot}</span><b>${val}</b>${sub ? `<small>${sub}</small>` : ''}</div>`; }
+function calcResultado(b) {
+  const s = calcEstado(b);
+  if (s.modo === 'livre') {
+    const L = s.livre, peso = nBR(L.peso), dose = nBR(L.dose), tom = nBR(L.tomadas) || 1, mg = nBR(L.mg), ml = nBR(L.ml), gml = nBR(L.gotas);
+    if (!(peso > 0 && dose > 0)) return `<p class="cVazio">Preencha o peso e a dose em mg/kg.</p>`;
+    const porTom = L.base === 'dia' ? peso * dose / tom : peso * dose;
+    const conc = mg > 0 && ml > 0 ? mg / ml : NaN, vol = porTom / conc;
+    return linhaRes('Por tomada', fBR(porTom, 1) + ' mg', isFinite(vol) ? `${fBR(vol, 1)} mL` + (gml > 0 ? ` = ${fBR(Math.round(vol * gml), 0)} gotas` : '') : 'informe a concentração para ver o volume', 'forte') +
+      linhaRes('Por dia', fBR(porTom * tom, 1) + ' mg', `${fBR(tom, 0)} ${tom === 1 ? 'tomada' : 'tomadas'}`) +
+      (isFinite(conc) ? linhaRes('Concentração', fBR(conc, 2) + ' mg/mL', '') : '');
+  }
+  if (s.modo === 'qtd') {
+    const Q = s.qtd, ml = nBR(Q.ml), tom = nBR(Q.tomadas), dias = nBR(Q.dias), fr = nBR(Q.frasco);
+    if (!(ml > 0 && tom > 0 && dias > 0)) return `<p class="cVazio">Preencha o volume por tomada, as tomadas por dia e os dias.</p>`;
+    const tot = ml * tom * dias;
+    return linhaRes('Volume total', fBR(tot, 1) + ' mL', `${fBR(ml, 1)} mL x ${fBR(tom, 0)} x ${fBR(dias, 0)} dias`, 'forte') +
+      (fr > 0 ? linhaRes('Frascos', String(Math.ceil(tot / fr - 1e-9)), `de ${fBR(fr, 0)} mL; sobra ${fBR(Math.ceil(tot / fr - 1e-9) * fr - tot, 1)} mL`) : '');
+  }
+  const f = (b.farmacos || [])[s.f]; if (!f) return '';
+  const ap = (f.apresentacoes || [])[s.a] || (f.apresentacoes || [])[0] || {};
+  const peso = nBR(s.peso), tom = s.tom || f.tomadas[0];
+  if (!(peso > 0)) return `<p class="cVazio">Informe o peso em kg.</p>`;
+  const r = contaDose(peso, f.doseKg, f.base, tom, f);
+  const vA = r.a / ap.mgml, vZ = r.z / ap.mgml;
+  let h = linhaRes('Por tomada', fx(r.a, r.z, 1, 'mg'), ap.mgml ? `${fx(vA, vZ, 1, 'mL')}` + (ap.gotasml ? ` = ${fx(Math.round(vA * ap.gotasml), Math.round(vZ * ap.gotasml), 0, 'gotas')}` : '') + ` (${esc(ap.r || '')})` : '', 'forte') +
+    linhaRes('Por dia', fx(r.a * tom, r.z * tom, 0, 'mg'), `${tom} ${tom === 1 ? 'tomada' : 'tomadas'}` + (isFinite(r.tetoDia) ? `; teto ${fBR(r.tetoDia, 0)} mg/dia` : ''));
+  const dias = nBR(s.dias);
+  if (dias > 0 && ap.mgml && (ap.frascos || []).length) {
+    const tot = vZ * tom * dias;
+    h += linhaRes(`Para ${fBR(dias, 0)} dias`, fBR(tot, 0) + ' mL', ap.frascos.map(v => `${Math.ceil(tot / v - 1e-9)} frasco(s) de ${fBR(v, 0)} mL`).join(' ou ') + ' (pela dose maior)');
+  }
+  h += r.avisos.map(t => `<div class="cAviso">${ic('alert-triangle')}<span>${esc(t)}</span></div>`).join('');
+  if (f.base === 'dia') h += `<p class="cNota">Dose da bula por dia: ${fx(f.doseKg[0], f.doseKg[1], 2, 'mg/kg/dia')}, dividida em ${tom} tomadas.</p>`;
+  else h += `<p class="cNota">Dose da bula por tomada: ${fx(f.doseKg[0], f.doseKg[1], 2, 'mg/kg')}.</p>`;
+  return h;
+}
+function calcCorpo(b) {
+  const s = calcEstado(b), fs = b.farmacos || [];
+  const aba = (k, r, i) => `<button class="chip" data-calcmodo="${k}" aria-pressed="${s.modo === k}">${ic(i)} ${r}</button>`;
+  const campo = (k, r, v, ph, extra) => `<label class="cCampo"><span>${r}</span><input type="text" inputmode="decimal" data-calc="${k}" value="${esc(v)}" placeholder="${esc(ph || '')}" autocomplete="off">${extra || ''}</label>`;
+  let ent = '', info = '';
+  if (s.modo === 'farmaco') {
+    const f = fs[s.f] || fs[0]; if (!f) return '<p>Sem fármacos.</p>';
+    const grupos = [...new Set(fs.map(x => x.grupo))];
+    const tom = s.tom || f.tomadas[0];
+    ent = `<label class="cCampo largo"><span>Fármaco</span><select data-calc="f">${grupos.map(g => `<optgroup label="${esc(g)}">${fs.map((x, i) => x.grupo === g ? `<option value="${i}" ${i === s.f ? 'selected' : ''}>${esc(x.nome)}</option>` : '').join('')}</optgroup>`).join('')}</select></label>` +
+      `<label class="cCampo largo"><span>Apresentação</span><select data-calc="a">${(f.apresentacoes || []).map((a, i) => `<option value="${i}" ${i === s.a ? 'selected' : ''}>${esc(a.r)}</option>`).join('')}</select></label>` +
+      campo('peso', 'Peso (kg)', s.peso, 'ex.: 14,5') +
+      (f.tomadas[1] > f.tomadas[0] ? `<label class="cCampo"><span>Tomadas por dia</span><select data-calc="tom">${Array.from({ length: f.tomadas[1] - f.tomadas[0] + 1 }, (_, k) => f.tomadas[0] + k).map(n => `<option ${n === tom ? 'selected' : ''}>${n}</option>`).join('')}</select></label>`
+        : `<label class="cCampo"><span>Tomadas por dia</span><input type="text" value="${tom}" disabled></label>`) +
+      campo('dias', 'Dias de tratamento', s.dias, 'opcional');
+    info = `<div class="cInfo">${[['Idade', f.idade], ['Duração usual', f.dias], ['Observação', f.obs], ['Fonte', f.fonte]].filter(x => x[1]).map(([r, v]) => `<p><b>${r}:</b> ${inl(v)}</p>`).join('')}</div>`;
+  } else if (s.modo === 'livre') {
+    const L = s.livre;
+    ent = campo('livre.peso', 'Peso (kg)', L.peso) + campo('livre.dose', 'Dose (mg/kg)', L.dose) +
+      `<label class="cCampo"><span>A dose é</span><select data-calc="livre.base"><option value="dose" ${L.base === 'dose' ? 'selected' : ''}>por tomada</option><option value="dia" ${L.base === 'dia' ? 'selected' : ''}>por dia (dividir)</option></select></label>` +
+      campo('livre.tomadas', 'Tomadas por dia', L.tomadas, 'ex.: 3') + campo('livre.mg', 'Concentração: mg', L.mg, 'ex.: 250') + campo('livre.ml', 'em quantos mL', L.ml, 'ex.: 5') + campo('livre.gotas', 'Gotas por mL (bula)', L.gotas, 'opcional');
+  } else {
+    const Q = s.qtd;
+    ent = campo('qtd.ml', 'mL por tomada', Q.ml) + campo('qtd.tomadas', 'Tomadas por dia', Q.tomadas) + campo('qtd.dias', 'Dias', Q.dias) + campo('qtd.frasco', 'Volume do frasco (mL)', Q.frasco, 'opcional');
+  }
+  return `<div class="chips cModos">${aba('farmaco', 'Por fármaco', 'pill')}${aba('livre', 'Cálculo livre', 'math-function')}${aba('qtd', 'Quantidade a dispensar', 'package')}</div>` +
+    `<div class="cGrade"><div class="cEnt">${ent}</div><div class="cSaida" data-calcres>${calcResultado(b)}</div></div>` + info +
+    (b.aviso ? `<p class="cAvisoFixo">${ic('info-circle')} ${inl(b.aviso)}</p>` : '');
+}
+function calcImpressao(b) {
+  const tetos = f => [f.maxDose ? `${fBR(f.maxDose, 1)} mg por tomada` : '', f.maxDiaKg ? `${fBR(f.maxDiaKg, 1)} mg/kg/dia` : '', f.maxDia ? `${fBR(f.maxDia, 0)} mg/dia` : ''].filter(Boolean).join('; ') || 'ver bula';
+  const contas = `<div class="cx chave"><b>Contas</b><p>Dose por tomada (mg) = peso (kg) x dose (mg/kg), ou peso x dose diária (mg/kg/dia) ÷ tomadas por dia. Volume (mL) = dose (mg) ÷ concentração (mg/mL). Gotas = volume (mL) x gotas por mL da bula do produto. Respeite o teto por tomada e por dia. Frascos = mL por tomada x tomadas x dias ÷ volume do frasco, arredondado para cima.</p></div>`;
+  return contas + `<div class="bulImp">` + (b.farmacos || []).map(f => `<div class="bulImpIt"><p class="cab"><b>${esc(f.nome)}</b>${f.venda ? `. <i>${esc(f.venda)}</i>` : ''}</p>` +
+    `<p><b>Dose:</b> ${fx(f.doseKg[0], f.doseKg[1], 2, f.base === 'dia' ? 'mg/kg/dia' : 'mg/kg por tomada')}; ${fx(f.tomadas[0], f.tomadas[1], 0)} ${f.tomadas[1] === 1 ? 'tomada' : 'tomadas'} por dia</p><p><b>Tetos:</b> ${tetos(f)}</p>` +
+    `<p><b>Apresentações:</b> ${(f.apresentacoes || []).map(a => esc(a.r) + (a.gotasml ? ` (${fBR(a.gotasml, 1)} gotas/mL)` : '')).join('; ')}</p>` +
+    [['Idade', f.idade], ['Duração usual', f.dias], ['Observação', f.obs], ['Fonte', f.fonte]].filter(x => x[1]).map(([r, v]) => `<p><b>${r}:</b> ${inl(v)}</p>`).join('') + `</div>`).join('') + `</div>` +
+    (b.aviso ? `<p class="nota">${inl(b.aviso)}</p>` : '');
+}
+
+/* ---------------- bulário de bolso (15/10/2026): busca, filtro por grupo e por regime de venda ---------------- */
+const VENDA = { mip: ['Isento de prescrição', 'var(--c-verde)'], prescricao: ['Venda sob prescrição', 'var(--c-vermelho)'], antimicrobiano: ['Retenção de receita', 'var(--c-ambar)'], controlado: ['Controle especial', 'var(--c-violeta)'] };
+const CAMPOS_BUL = [['apresentacoes', 'Apresentações'], ['indicacoes', 'Indicações'], ['adulto', 'Adulto'], ['crianca', 'Criança'], ['maxima', 'Dose máxima'], ['contraindicacoes', 'Contraindicações'], ['interacoes', 'Interações'], ['gestacao', 'Gestação e lactação'], ['conservacao', 'Conservação'], ['balcao', 'No balcão'], ['fonte', 'Fonte']];
+const bulEst = {};
+const vendaRot = it => (VENDA[it.venda] || [it.venda || ''])[0] + (it.venda === 'controlado' && it.lista ? ` · ${it.lista}` : '');
+const vendaCor = it => (VENDA[it.venda] || [0, 'var(--c-cinza)'])[1];
+function bulItens(b) {
+  const s = bulEst[b.id] || (bulEst[b.id] = { q: '', g: '', v: '' }), q = semAcento(s.q).trim();
+  return (b.itens || []).filter(it => (!s.g || it.grupo === s.g) && (!s.v || it.venda === s.v) &&
+    (!q || semAcento([it.nome, it.marca, it.classe, it.indicacoes].join(' ')).includes(q)))
+    .sort((x, y) => x.nome.localeCompare(y.nome, 'pt-BR'));
+}
+function bulLista(b) {
+  const xs = bulItens(b);
+  return `<p class="bulConta">${plural(xs.length, 'medicamento', 'medicamentos')}</p>` + (xs.length ? xs.map(it =>
+    `<details class="bulIt" style="--k:${vendaCor(it)}"><summary><span class="bulNome">${esc(it.nome)}</span>${it.marca ? `<span class="bulMarca">${esc(it.marca)}</span>` : ''}<span class="bulClasse">${esc(it.classe || '')}</span><span class="bulVenda">${esc(vendaRot(it))}</span>${ic('chevron-down')}</summary>` +
+    `<dl>${CAMPOS_BUL.filter(([k]) => it[k]).map(([k, r]) => `<div class="${k === 'balcao' ? 'balcao' : ''}"><dt>${r}</dt><dd>${inl(it[k])}</dd></div>`).join('')}</dl></details>`).join('')
+    : `<p class="cVazio">Nada encontrado. Tente o nome pela DCB ou limpe os filtros.</p>`);
+}
+function bulCorpo(b, imp) {
+  const its = b.itens || [];
+  if (imp) return (b.nota ? `<p class="nota">${inl(b.nota)}</p>` : '') + `<div class="bulImp">${[...its].sort((x, y) => x.nome.localeCompare(y.nome, 'pt-BR')).map(it =>
+    `<div class="bulImpIt"><p class="cab"><b>${esc(it.nome)}</b>${it.marca ? ` (${esc(it.marca)})` : ''}. ${esc(it.classe || '')}. <i>${esc(vendaRot(it))}</i></p>` +
+    CAMPOS_BUL.filter(([k]) => it[k]).map(([k, r]) => `<p><b>${r}:</b> ${inl(it[k])}</p>`).join('') + `</div>`).join('')}</div>`;
+  const s = bulEst[b.id] || (bulEst[b.id] = { q: '', g: '', v: '' });
+  const grupos = [...new Set(its.map(x => x.grupo))].sort((x, y) => x.localeCompare(y, 'pt-BR'));
+  const vendas = Object.keys(VENDA).filter(k => its.some(x => x.venda === k));
+  return (b.nota ? `<p class="nota">${inl(b.nota)}</p>` : '') +
+    `<div class="bulBusca">${ic('search')}<input type="search" data-bulq value="${esc(s.q)}" placeholder="Buscar por nome, marca, classe ou indicação" autocomplete="off"></div>` +
+    `<div class="chips bulChips"><button class="chip" data-bulg="" aria-pressed="${!s.g}">Todos os grupos</button>${grupos.map(g => `<button class="chip" data-bulg="${esc(g)}" aria-pressed="${s.g === g}">${esc(g)}</button>`).join('')}</div>` +
+    `<div class="chips bulChips"><button class="chip" data-bulv="" aria-pressed="${!s.v}">Qualquer venda</button>${vendas.map(k => `<button class="chip bulV" data-bulv="${k}" style="--k:${VENDA[k][1]}" aria-pressed="${s.v === k}">${VENDA[k][0]}</button>`).join('')}</div>` +
+    `<div data-bullista>${bulLista(b)}</div>`;
+}
+
 function pontos(n, at, cls) { return `<div class="pontos">${Array.from({ length: n }, (_, i) => `<i class="${cls(i)}${i === at ? ' at' : ''}"></i>`).join('')}</div>`; }
 function cartaHtml(b) {
   const n = (b.itens || []).length; if (!n) return '';
@@ -415,10 +549,14 @@ function itemModulo(m, atual) {
 /* Gestão da farmácia (ex-FarmáciaGest, 15/10/2026): página própria em gestao/, mesma conta e compra */
 const GESTAO = 'gestao/index.html';
 function itemGestao() { return `<a class="aba" href="${GESTAO}" style="--c:var(--c-teal)">${ic('building-store')}<span>Gestão da farmácia</span></a>`; }
+/* Calculadora de dose e Bulário (15/10/2026): módulos que são ferramenta de balcão; na barra lateral ficam no
+   grupo Ferramentas e abrem direto no bloco interativo (o resumo e o mapa seguem nas abas do módulo) */
+const blocoFerramenta = m => m.apoio.find(b => b.tipo === 'calculadora' || b.tipo === 'bulario');
+function itemFerramenta(m, atual) { const b = blocoFerramenta(m); return `<a class="aba" href="#/${m.id}/apoio/${b.id}" style="--c:${m.cor}" ${m.id === atual ? 'aria-current="true"' : ''}>${ic(m.icone)}<span>${esc(m.curto || m.titulo)}</span></a>`; }
 function moldura(atual) {
   $('#abas').innerHTML = `<a class="aba" href="#/" style="--c:var(--marca)" ${atual ? '' : 'aria-current="true"'}>${ic('home')}<span>Início</span></a>` +
-    `<div class="navGrupo">Módulos</div>` + DADOS.modulos.map(m => itemModulo(m, atual)).join('') +
-    `<div class="navGrupo">Ferramentas</div>` + itemGestao();
+    `<div class="navGrupo">Módulos</div>` + DADOS.modulos.filter(m => !blocoFerramenta(m)).map(m => itemModulo(m, atual)).join('') +
+    `<div class="navGrupo">Ferramentas</div>` + DADOS.modulos.filter(blocoFerramenta).map(m => itemFerramenta(m, atual)).join('') + itemGestao();
   document.body.classList.toggle('sos-leitura', !podeEditar);
   $('#bt-editar').classList.toggle('on', editando);
   $('#bt-editar span').textContent = editando ? 'Editando' : 'Editar';
@@ -437,7 +575,7 @@ function gaveta(tipo) {
   const fecha = () => { veu.remove(); g.remove(); };
   veu.onclick = fecha;
   g.innerHTML = `<div class="puxa"></div>` + (tipo === 'modulos'
-    ? `<a class="aba" href="#/" style="--c:var(--marca)">${ic('home')}<span>Início</span></a>` + DADOS.modulos.map(m => itemModulo(m, (moduloAtual() || {}).id)).join('') + itemGestao()
+    ? `<a class="aba" href="#/" style="--c:var(--marca)">${ic('home')}<span>Início</span></a>` + DADOS.modulos.filter(m => !blocoFerramenta(m)).map(m => itemModulo(m, (moduloAtual() || {}).id)).join('') + DADOS.modulos.filter(blocoFerramenta).map(m => itemFerramenta(m, (moduloAtual() || {}).id)).join('') + itemGestao()
     : `<div class="gradeMais">${[['gestao', 'building-store', 'Gestão da farmácia'], ['pdf', 'file-type-pdf', 'Gerar PDF'], ['editar', 'pencil', editando ? 'Sair da edição' : 'Editar'], ['salvar', 'device-floppy', 'Salvar arquivo'], ['tema', 'moon', 'Tema'], ['ajustes', 'settings', 'Ajustes'], ['buscar', 'search', 'Buscar']]
       .filter(([a]) => podeEditar || (a !== 'editar' && a !== 'salvar')).map(([a, i, r]) => `<button data-mais="${a}">${ic(i)}${r}</button>`).join('')}</div>`);
   g.addEventListener('click', e => { if (e.target.closest('a')) fecha(); const b = e.target.closest('[data-mais]'); if (b) { fecha(); acaoGeral(b.dataset.mais); } });
@@ -656,6 +794,16 @@ function abreModal(html) {
 }
 
 const FORMATOS = {
+  calculadora: {
+    ajuda: 'Edite em JSON: "aviso" e "farmacos": [{"id", "nome", "grupo", "venda", "base": "dose|dia", "doseKg": [mín, máx], "tomadas": [mín, máx], "maxDose", "maxDia", "maxDiaKg", "idade", "dias", "obs", "fonte", "apresentacoes": [{"r", "mgml", "gotasml", "frascos": [mL]}]}]. Doses em mg; ponto decimal no JSON (12.5).',
+    para: b => JSON.stringify({ aviso: b.aviso, farmacos: b.farmacos }, null, 1),
+    de: (t, b) => { let o; try { o = JSON.parse(t); } catch (e) { throw new Error('JSON inválido: ' + e.message); } if (!Array.isArray(o.farmacos)) throw new Error('Falta a lista "farmacos".'); Object.assign(b, o); }
+  },
+  bulario: {
+    ajuda: 'Edite em JSON: "nota" e "itens": [{"nome", "marca", "grupo", "classe", "venda": "mip|prescricao|antimicrobiano|controlado", "lista", "apresentacoes", "indicacoes", "adulto", "crianca", "maxima", "contraindicacoes", "interacoes", "gestacao", "conservacao", "balcao", "fonte"}].',
+    para: b => JSON.stringify({ nota: b.nota, itens: b.itens }, null, 1),
+    de: (t, b) => { let o; try { o = JSON.parse(t); } catch (e) { throw new Error('JSON inválido: ' + e.message); } if (!Array.isArray(o.itens)) throw new Error('Falta a lista "itens".'); Object.assign(b, o); }
+  },
   simulador: {
     ajuda: 'Edite em JSON: "sistema", "subtitulo", "menu" (lista) e "telas": [{"menu", "nome", "resumo", "elementos": [{"e": "titulo|texto|campo|select|tabela|botoes|aviso|arquivo|links", ...}], "notas": [{"n": 1, "t": "..."}]}].',
     para: b => JSON.stringify({ sistema: b.sistema, subtitulo: b.subtitulo, menu: b.menu, telas: b.telas }, null, 1),
@@ -973,7 +1121,7 @@ document.addEventListener('click', e => {
     else if (ac === 'bloco-editar') editaBloco(m, m.apoio.find(x => x.id === id));
     else if (ac === 'bloco-novo') {
       const tipo = $('#novo-tipo').value;
-      const base = { tabela: { colunas: ['Coluna 1', 'Coluna 2'], linhas: [['', '']] }, quadro: { html: '<p>Escreva aqui.</p>' }, checklist: { itens: ['Item'] }, fluxo: { passos: [{ tipo: 'inicio', t: 'Início' }, { tipo: 'fim', t: 'Fim' }] }, cartoes: { itens: [{ f: 'Pergunta', v: 'Resposta' }] }, questoes: { itens: [{ p: 'Enunciado', alt: ['A', 'B', 'C', 'D'], c: 0, com: '' }] }, receita: { cor: 'branca', secoes: [{ t: 'Identificação do emitente', campos: ['Nome'] }], regras: [] }, pop: { codigo: 'POP-', procedimento: ['Passo'] } }[tipo];
+      const base = { tabela: { colunas: ['Coluna 1', 'Coluna 2'], linhas: [['', '']] }, quadro: { html: '<p>Escreva aqui.</p>' }, checklist: { itens: ['Item'] }, fluxo: { passos: [{ tipo: 'inicio', t: 'Início' }, { tipo: 'fim', t: 'Fim' }] }, cartoes: { itens: [{ f: 'Pergunta', v: 'Resposta' }] }, questoes: { itens: [{ p: 'Enunciado', alt: ['A', 'B', 'C', 'D'], c: 0, com: '' }] }, receita: { cor: 'branca', secoes: [{ t: 'Identificação do emitente', campos: ['Nome'] }], regras: [] }, pop: { codigo: 'POP-', procedimento: ['Passo'] }, simulador: { sistema: 'Sistema', menu: ['Início'], telas: [{ menu: 'Início', nome: 'Tela', elementos: [], notas: [] }] }, calculadora: { aviso: '', farmacos: [] }, bulario: { nota: '', itens: [] } }[tipo];
       const b = Object.assign({ id: novoId(m.id, 'b'), tipo, titulo: TIPOS[tipo].nome }, base);
       m.apoio.push(b);
       if (tipo === 'quadro') { marcaAlterado(); rota(); } else editaBloco(m, b, true);
@@ -1001,6 +1149,10 @@ document.addEventListener('click', e => {
   }
   const cn = e.target.closest('[data-cnav]');
   if (cn) { const f2 = cn.closest('[data-flash]'), b = moduloAtual().apoio.find(x => x.id === f2.dataset.flash); posC[b.id] = Math.max(0, Math.min(b.itens.length - 1, (posC[b.id] || 0) + +cn.dataset.cnav)); f2.innerHTML = cartaHtml(b); return; }
+  const cm = e.target.closest('[data-calcmodo]');
+  if (cm) { const box = cm.closest('[data-calcb]'), b = moduloAtual().apoio.find(x => x.id === box.dataset.calcb); calcEstado(b).modo = cm.dataset.calcmodo; box.innerHTML = calcCorpo(b); return; }
+  const bf = e.target.closest('[data-bulg],[data-bulv]');
+  if (bf) { const box = bf.closest('[data-bulb]'), b = moduloAtual().apoio.find(x => x.id === box.dataset.bulb), s = bulEst[b.id]; if (bf.dataset.bulg != null) s.g = bf.dataset.bulg; else s.v = bf.dataset.bulv; box.innerHTML = bulCorpo(b); return; }
   const sm = e.target.closest('[data-simir],[data-simnav]');
   if (sm) {
     const box = sm.closest('[data-sim]'), b = moduloAtual().apoio.find(x => x.id === box.dataset.sim), telas = b.telas || [];
@@ -1019,6 +1171,22 @@ document.addEventListener('change', e => {
   if (c) { const [bid, i] = c.dataset.check.split(':'); const all = lerLS('check', {}); const s = new Set(all[bid] || []); c.checked ? s.add(+i) : s.delete(+i); all[bid] = [...s]; gravarLS('check', all); }
 });
 document.addEventListener('input', e => { const el = e.target.closest && e.target.closest('[data-edit][contenteditable=true]'); if (el) agendaCommit(el); });
+/* calculadora e bulário: atualiza só o resultado ou a lista enquanto digita (o campo não perde o foco) */
+function campoCalc(e) {
+  const el = e.target.closest && e.target.closest('[data-calc]'); if (!el) return;
+  const box = el.closest('[data-calcb]'); if (!box) return;
+  const b = moduloAtual().apoio.find(x => x.id === box.dataset.calcb), s = calcEstado(b), k = el.dataset.calc;
+  if (k === 'f') { s.f = +el.value; s.a = 0; s.tom = null; box.innerHTML = calcCorpo(b); return; }
+  if (k === 'a') { s.a = +el.value; } else if (k === 'tom') { s.tom = +el.value; }
+  else if (k.includes('.')) { const [g, c] = k.split('.'); s[g][c] = el.value; } else s[k] = el.value;
+  $('[data-calcres]', box).innerHTML = calcResultado(b);
+}
+document.addEventListener('input', e => {
+  campoCalc(e);
+  const q = e.target.closest && e.target.closest('[data-bulq]');
+  if (q) { const box = q.closest('[data-bulb]'), b = moduloAtual().apoio.find(x => x.id === box.dataset.bulb); bulEst[b.id].q = q.value; $('[data-bullista]', box).innerHTML = bulLista(b); }
+});
+
 document.addEventListener('focusout', e => { const el = e.target.closest && e.target.closest('[data-edit][contenteditable=true]'); if (el && pendentes.has(el)) commit(el); });
 document.addEventListener('paste', e => {
   const el = e.target.closest && e.target.closest('[data-edit][contenteditable=true]'); if (!el) return;

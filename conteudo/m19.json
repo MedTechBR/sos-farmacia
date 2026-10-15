@@ -1,0 +1,1194 @@
+{
+ "id": "m19",
+ "num": 13,
+ "titulo": "Calculadora de dose",
+ "escopo": "Cálculo de dose no balcão: unidades e concentrações, dose por peso e tetos, gotas, reconstituição de suspensões, quantidade a dispensar (RDC 471/2021), insulinas e canetas, e conduta diante de erros. Inclui calculadora pediátrica alimentada por dados de bula.",
+ "topicos": [
+  {
+   "id": "m19-unidades",
+   "titulo": "Unidades, concentrações e regra de três",
+   "resumo": "<p>Todo cálculo de dose no balcão se resume a três perguntas: quanto de fármaco o paciente deve receber (em mg, mcg ou UI), quanto de fármaco existe em cada mililitro do produto (a concentração) e, portanto, que volume entregar. Errar a unidade em qualquer etapa multiplica ou divide a dose por 10, 100 ou 1000. Por isso o primeiro passo é sempre escrever a unidade ao lado de cada número.</p>\n<h3>Unidades de massa e de volume</h3>\n<div class=\"tab\"><table><thead><tr><th>Unidade</th><th>Equivale a</th><th>Exemplo de balcão</th></tr></thead><tbody>\n<tr><td>1 g (grama)</td><td>1000 mg</td><td>Amoxicilina 0,5 g = 500 mg</td></tr>\n<tr><td>1 mg (miligrama)</td><td>1000 mcg</td><td>Levotiroxina 0,1 mg = 100 mcg</td></tr>\n<tr><td>1 mcg (micrograma)</td><td>0,001 mg</td><td>Ivermectina: dose-alvo de 200 mcg/kg na bula da Revectina®</td></tr>\n<tr><td>1 L (litro)</td><td>1000 mL</td><td>Soro de 0,5 L = 500 mL</td></tr>\n<tr><td>UI (unidade internacional)</td><td>Medida de atividade biológica, sem conversão fixa para mg</td><td>Insulina, algumas vitaminas, heparina</td></tr>\n</tbody></table></div>\n<p>A UI não se converte em miligramas por regra geral: cada substância tem a sua equivalência, definida por padrão biológico. Para a insulina, o que importa no balcão é a concentração em UI/mL impressa no rótulo. O símbolo \"U\" isolado deve ser evitado na escrita, porque pode ser lido como zero; o boletim do ISMP Brasil sobre abreviaturas (2015) relata uma prescrição de \"5U\" de insulina interpretada como 50 unidades.</p>\n<h3>Formas de expressar a concentração</h3>\n<p>O mesmo produto pode ter a concentração escrita de jeitos diferentes no rótulo, na bula e na receita. Converter tudo para <strong>mg/mL</strong> antes de calcular evita a maioria dos erros.</p>\n<div class=\"tab\"><table><thead><tr><th>Como aparece</th><th>Em mg/mL</th><th>Produto de exemplo</th></tr></thead><tbody>\n<tr><td>500 mg/mL</td><td>500 mg/mL</td><td>Dipirona gotas</td></tr>\n<tr><td>250 mg/5 mL</td><td>50 mg/mL</td><td>Amoxicilina suspensão</td></tr>\n<tr><td>200 mg/5 mL</td><td>40 mg/mL</td><td>Azitromicina suspensão</td></tr>\n<tr><td>400 mg + 57 mg/5 mL</td><td>80 mg/mL de amoxicilina e 11,4 mg/mL de clavulanato</td><td>Amoxicilina + clavulanato BD</td></tr>\n<tr><td>2% (p/v)</td><td>20 mg/mL</td><td>Soluções e géis em porcentagem</td></tr>\n<tr><td>0,9% (p/v)</td><td>9 mg/mL</td><td>Cloreto de sódio 0,9%</td></tr>\n</tbody></table></div>\n<p><strong>Porcentagem peso/volume</strong> (p/v) indica gramas em 100 mL. Uma solução a 1% tem 1 g em 100 mL, ou seja, 1000 mg em 100 mL, que dá 10 mg/mL. Regra rápida: multiplique a porcentagem por 10 e terá mg/mL. O cloreto de sódio 0,9% tem 9 mg/mL; um frasco de 500 mL contém 4500 mg, isto é, 4,5 g.</p>\n<p>Concentrações em mEq (miliequivalente) aparecem em sais como cloreto de potássio e bicarbonato de sódio, e expressam carga elétrica, não massa. O rótulo e a bula trazem a correspondência; o farmacêutico de drogaria raramente precisa convertê-la, mas deve conferir se a receita e o produto usam a mesma unidade.</p>\n<h3>Regra de três</h3>\n<p>A regra de três resolve quase todo cálculo de volume. Monte sempre na mesma ordem: concentração do produto na primeira linha, dose desejada na segunda.</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Volume (mL) = dose desejada (mg) ÷ concentração (mg/mL). Dose (mg) = volume (mL) × concentração (mg/mL). Se a concentração estiver em mg/5 mL, converta antes para mg/mL.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Receita para criança de 25 kg: amoxicilina 250 mg/5 mL, 7,5 mL de 8 em 8 horas.</p><p>Passo 1: concentração em mg/mL: 250 ÷ 5 = 50 mg/mL.<br>Passo 2: dose por tomada: 7,5 mL × 50 mg/mL = 375 mg.<br>Passo 3: dose diária: 375 mg × 3 tomadas = 1125 mg/dia.<br>Passo 4: dose por peso: 1125 ÷ 25 kg = 45 mg/kg/dia.<br>Conclusão: a bula do Amoxil® indica 20 a 50 mg/kg/dia para crianças abaixo de 40 kg, em doses divididas de 8 em 8 horas. A prescrição está dentro da faixa.</p></div>\n<h3>Arredondamento</h3>\n<p>Doses calculadas raramente dão números redondos. Arredonde o volume para o que o dosador do produto consegue medir com segurança: seringas de 5 mL costumam ter marcação de 0,2 em 0,2 mL ou de 0,25 em 0,25 mL, e copos-medida marcam de 2,5 em 2,5 mL. Gotas não se fracionam. Ao arredondar, confira se a dose final continua dentro da faixa da bula e abaixo do teto.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Faça a conta no papel ou na calculadora, nunca de cabeça, e refaça uma segunda vez pelo caminho inverso (do volume para os mg/kg). Mostre ao cuidador a marca da seringa correspondente à dose e peça que ele repita o volume em voz alta.</p></div>"
+  },
+  {
+   "id": "m19-peso",
+   "titulo": "Dose por peso e tetos",
+   "resumo": "<p>Em pediatria a dose depende do peso, porque a capacidade de metabolizar e eliminar fármacos acompanha o tamanho do corpo. As bulas expressam essa dose de duas formas, e confundi-las é uma das causas mais comuns de erro.</p>\n<h3>mg/kg por dose e mg/kg por dia</h3>\n<div class=\"tab\"><table><thead><tr><th>Forma</th><th>O que significa</th><th>Exemplo (bula)</th></tr></thead><tbody>\n<tr><td>mg/kg/dose</td><td>Quantidade de cada tomada</td><td>Paracetamol 10 a 15 mg/kg/dose, a cada 4 a 6 horas, até 5 vezes ao dia (Tylenol®)</td></tr>\n<tr><td>mg/kg/dia</td><td>Total das 24 horas, que deve ser dividido pelo número de tomadas</td><td>Amoxicilina 20 a 50 mg/kg/dia, de 8 em 8 horas (Amoxil®)</td></tr>\n<tr><td>mg/kg a cada X horas</td><td>Dose por tomada já com o intervalo</td><td>Claritromicina 7,5 mg/kg duas vezes ao dia (Klaricid®)</td></tr>\n</tbody></table></div>\n<p>Antitérmicos e analgésicos costumam vir em mg/kg/dose. Antibióticos costumam vir em mg/kg/dia. Ao ler uma receita, identifique primeiro se o número a conferir se refere à tomada ou ao dia inteiro.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 18 kg com receita de amoxicilina 250 mg/5 mL na dose de 50 mg/kg/dia, de 8 em 8 horas.</p><p>Passo 1: dose diária: 18 kg × 50 mg/kg/dia = 900 mg/dia.<br>Passo 2: dose por tomada: 900 ÷ 3 = 300 mg.<br>Passo 3: volume: 300 mg ÷ 50 mg/mL = 6 mL de 8 em 8 horas.<br>Erro típico: aplicar 50 mg/kg em cada tomada daria 900 mg três vezes ao dia, o triplo da dose.</p></div>\n<h3>Qual peso usar</h3>\n<p>Use o peso atual, medido há pouco tempo, informado pelo cuidador ou constante na receita. Tabelas de bula por idade trazem a \"média de idade\" apenas como referência: na bula da Novalgina®, a faixa de 9 a 15 kg corresponde a \"1 a 3 anos\", mas uma criança de 2 anos com 9 kg e outra com 15 kg recebem doses diferentes. Na dúvida sobre o peso, peça que a criança seja pesada na farmácia, se houver balança, ou na unidade de saúde.</p>\n<h3>Tetos: dose máxima por tomada e por dia</h3>\n<p>A dose por peso cresce com a criança até alcançar a dose de adulto. A partir daí, aumentar o peso não aumenta a dose. As bulas fixam esses limites de jeitos diferentes:</p>\n<div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Teto na bula</th><th>Fonte</th></tr></thead><tbody>\n<tr><td>Paracetamol</td><td>No máximo 5 administrações em 24 h; total diário até 75 mg/kg e até 4000 mg; até 1000 mg por administração</td><td>Tylenol®</td></tr>\n<tr><td>Ibuprofeno (criança)</td><td>200 mg por dose e 800 mg por dia</td><td>Alivium® gotas</td></tr>\n<tr><td>Amoxicilina</td><td>Até 150 mg/kg/dia; a partir de 40 kg, posologia de adulto</td><td>Amoxil®</td></tr>\n<tr><td>Azitromicina</td><td>500 mg por dia e 1500 mg no tratamento todo</td><td>Zitromax® e Astro®</td></tr>\n<tr><td>Claritromicina</td><td>500 mg duas vezes ao dia</td><td>Klaricid®</td></tr>\n<tr><td>Cefalexina</td><td>Acima de 4 g/dia, considerar cefalosporina injetável</td><td>Keflex®</td></tr>\n<tr><td>Prednisolona</td><td>80 mg por dia</td><td>Prelone®</td></tr>\n</tbody></table></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 35 kg com febre alta. A mãe pergunta quanto dar de ibuprofeno.</p><p>Passo 1: dose por peso para febre alta: 35 kg × 10 mg/kg = 350 mg.<br>Passo 2: teto da bula do Alivium® para crianças: 200 mg por dose e 800 mg por dia.<br>Passo 3: a dose calculada passa do teto. A dose correta é 200 mg por tomada, no máximo 4 vezes ao dia.<br>Conclusão: quando o peso leva a uma dose acima do teto, vale o teto. Em gotas de 100 mg/mL do Alivium® (10 gotas por mL), 200 mg são 20 gotas.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Adolescente de 55 kg com receita de azitromicina suspensão 200 mg/5 mL, 10 mg/kg/dia por 3 dias.</p><p>Passo 1: 55 kg × 10 mg/kg = 550 mg/dia.<br>Passo 2: a bula fixa 500 mg/dia e, acima de 45 kg, dose igual à de adulto.<br>Passo 3: a dose correta é 500 mg/dia (12,5 mL), total de 1500 mg (37,5 mL): um frasco de 1500 mg.<br>Conduta: a diferença é pequena, mas a receita está acima do teto. Contate o prescritor para confirmar a dose antes de orientar.</p></div>\n<h3>Associações: qual componente calcular</h3>\n<p>Em associações, a bula escolhe um componente como referência, e a conta deve seguir essa escolha. Na amoxicilina com clavulanato, a dose em mg/kg é a da amoxicilina; o clavulanato acompanha na proporção fixa da apresentação. No sulfametoxazol com trimetoprima, a bula do Bactrim® fixa doses por idade e informa que elas correspondem a cerca de 6 mg/kg/dia de trimetoprima e 30 mg/kg/dia de sulfametoxazol, de 12 em 12 horas, com aumento de até 50% em infecção grave. Como a relação entre os dois é fixa (5 para 1), calcular por qualquer um dos componentes leva ao mesmo volume, desde que a concentração usada seja a do mesmo componente.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 14 kg com receita de sulfametoxazol + trimetoprima suspensão 200 mg + 40 mg/5 mL, 5 mL de 12 em 12 horas.</p><p>Passo 1: concentração de sulfametoxazol: 200 ÷ 5 = 40 mg/mL; 5 mL = 200 mg por tomada, 400 mg/dia.<br>Passo 2: por peso: 400 ÷ 14 = 28,6 mg/kg/dia de sulfametoxazol.<br>Passo 3: pela trimetoprima: 8 mg/mL × 5 mL × 2 = 80 mg/dia, ou 5,7 mg/kg/dia.<br>Conclusão: as duas contas confirmam a dose usual da bula (cerca de 30 e 6 mg/kg/dia), que corresponde ao esquema fixo de 5 mL para crianças de 6 meses a 5 anos. Se a receita trouxesse a suspensão F (400 mg + 80 mg/5 mL) no mesmo volume, a dose dobraria.</p></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>A faixa de mg/kg é o primeiro filtro, o teto é o segundo. Uma dose pode estar dentro da faixa por quilo e mesmo assim passar do máximo por tomada ou por dia, o que acontece com crianças maiores e com sobrepeso. Confira sempre os dois.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Para toda prescrição pediátrica, pergunte o peso e a idade, anote na receita ou no sistema e confira: dose por tomada, número de tomadas, total diário, mg/kg/dia e tetos. Se faltar o peso e a dose parecer alta para a idade, não presuma: peça o dado ao cuidador ou ao prescritor.</p></div>"
+  },
+  {
+   "id": "m19-gotas",
+   "titulo": "Gotas, seringas e colheres",
+   "resumo": "<p>Gota não é unidade de volume padronizada. O tamanho da gota depende do bico do frasco, da viscosidade e da tensão superficial do líquido e até do ângulo em que o frasco é segurado. Por isso cada bula informa quantas gotas o seu gotejador libera em 1 mL, e esse número muda entre produtos e entre fabricantes do mesmo fármaco.</p>\n<h3>Gotas por mL declaradas em bula</h3>\n<div class=\"tab\"><table><thead><tr><th>Produto</th><th>Concentração</th><th>Gotas por mL</th><th>mg por gota</th></tr></thead><tbody>\n<tr><td>Novalgina® gotas (dipirona)</td><td>500 mg/mL</td><td>20</td><td>25 mg</td></tr>\n<tr><td>Tylenol® gotas (paracetamol)</td><td>200 mg/mL</td><td>14 a 16</td><td>12,5 a 14,2 mg</td></tr>\n<tr><td>Alivium® gotas (ibuprofeno)</td><td>50 mg/mL</td><td>10</td><td>5 mg</td></tr>\n<tr><td>Alivium® gotas (ibuprofeno)</td><td>100 mg/mL</td><td>10</td><td>10 mg</td></tr>\n<tr><td>Alivium® gotas (ibuprofeno)</td><td>200 mg/mL</td><td>10</td><td>20 mg</td></tr>\n<tr><td>Keflex® gotas (cefalexina)</td><td>100 mg/mL</td><td>cerca de 22</td><td>cerca de 4,5 mg</td></tr>\n</tbody></table></div>\n<p>A equivalência \"1 mL = 20 gotas\" vem dos equipos de soro de macrogotas, em que o gotejador é padronizado. Equipos de microgotas liberam 60 microgotas por mL. Esses números valem para infusão venosa e não se transferem para frascos conta-gotas de medicamentos orais: entre os produtos da tabela, só a dipirona da Novalgina® segue os 20 gotas por mL.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 12 kg. O pai quer dar 150 mg de paracetamol (12,5 mg/kg) usando o frasco de Tylenol® gotas 200 mg/mL.</p><p>Passo 1: volume: 150 mg ÷ 200 mg/mL = 0,75 mL.<br>Passo 2: com o gotejador do Tylenol® (cerca de 15 gotas/mL): 0,75 × 15 ≈ 11 gotas. A bula simplifica para 1 gota/kg, isto é, 12 gotas.<br>Passo 3: se alguém assumir 20 gotas/mL, calcula 15 gotas. Com o gotejador do Tylenol®, 15 gotas entregam cerca de 200 mg, ou 16,7 mg/kg, acima da faixa de 10 a 15 mg/kg.<br>Conclusão: a orientação em gotas só vale para o frasco entregue. Ao trocar de marca, refaça a conta com o número de gotas por mL da nova bula.</p></div>\n<h3>\"Gota por quilo\"</h3>\n<p>Várias bulas resumem a dose como gotas por quilo de peso, o que facilita a vida do cuidador mas esconde a concentração. Na bula do Alivium®, a dose é 1 a 2 gotas/kg na apresentação de 50 mg/mL, 1 gota/kg na de 100 mg/mL e 1 gota a cada 2 kg na de 200 mg/mL. As três orientações entregam a mesma faixa em mg (5 a 10 mg/kg). Quem decorou \"1 gota por quilo de ibuprofeno\" e recebe o frasco de 200 mg/mL dá o dobro da dose.</p>\n<h3>Seringa dosadora, copo-medida e colher</h3>\n<p>Para volumes acima de poucos mililitros, o dosador que acompanha o produto é o instrumento correto. Colheres de cozinha variam muito de volume e induzem erro. Algumas observações das bulas:</p>\n<ul>\n<li>A seringa da Novalgina® Infantil (dipirona 50 mg/mL) foi desenvolvida para esse produto e a bula proíbe usá-la para outros medicamentos. A bula do Annita® tem a mesma advertência para a seringa da nitazoxanida.</li>\n<li>Há bula de paracetamol 100 mg/mL que manda encher a seringa \"até o nível correspondente ao peso (kg) do bebê\": a escala da seringa está em quilos, não em mililitros. Usar essa seringa com outro produto gera erro na hora.</li>\n<li>Alguns produtos trazem copo-medida (Tylenol® Criança 32 mg/mL, mebendazol suspensão), outros seringa (Clavulin®, Klaricid®). O dosador deve ficar com o frasco a que pertence.</li>\n</ul>\n<div class=\"cx alerta\"><b>Atenção</b><p>Nunca oriente \"uma colher de chá\" ou \"uma colher de sopa\". Converta a dose em mL, entregue um dosador graduado e marque a dose na própria seringa, se possível com caneta ou fita, na frente do cuidador.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Ao entregar gotas, pergunte se a família já tem outro frasco do mesmo fármaco em casa, de outra marca ou concentração. Explique que o número de gotas vale para este frasco e mostre como segurar o conta-gotas (a bula do Tylenol® pede o frasco a 90°, na vertical). Para doses pequenas em lactentes, prefira a seringa graduada ao conta-gotas quando o produto permitir.</p></div>"
+  },
+  {
+   "id": "m19-reconstituicao",
+   "titulo": "Suspensões para reconstituir",
+   "resumo": "<p>Muitos antibióticos pediátricos são vendidos como pó, porque o fármaco se degrada rapidamente em água. A suspensão é preparada em casa, imediatamente antes do primeiro uso, e a partir daí tem validade curta. Erros de reconstituição mudam a concentração e, com ela, a dose de cada mililitro.</p>\n<h3>Água que entra e volume que sai</h3>\n<p>O pó ocupa volume. Por isso a água adicionada é menor que o volume final, e o fabricante marca no frasco a linha até onde o líquido deve chegar. Se a família coloca o volume final em água (por exemplo, 100 mL num frasco que pede 90 mL), a suspensão fica mais diluída que o rótulo e a criança recebe menos fármaco em cada dose.</p>\n<div class=\"tab\"><table><thead><tr><th>Produto</th><th>Água para reconstituir</th><th>Volume final</th></tr></thead><tbody>\n<tr><td>Clavulin® 250 mg + 62,5 mg/5 mL</td><td>90 mL</td><td>100 mL</td></tr>\n<tr><td>Clavulin® BD 200 mg + 28,5 mg/5 mL</td><td>64 mL</td><td>70 mL</td></tr>\n<tr><td>Clavulin® BD 400 mg + 57 mg/5 mL</td><td>62 mL ou 124 mL</td><td>70 mL ou 140 mL</td></tr>\n<tr><td>Astro® (azitromicina 200 mg/5 mL), frasco de 600 mg</td><td>9 mL</td><td>15 mL utilizáveis</td></tr>\n<tr><td>Astro®, frasco de 900 mg</td><td>12 mL</td><td>22,5 mL utilizáveis</td></tr>\n<tr><td>Astro®, frasco de 1500 mg</td><td>22 mL</td><td>37,5 mL utilizáveis</td></tr>\n</tbody></table></div>\n<p>A bula da azitromicina fala em <strong>volume utilizável</strong>: parte da suspensão fica retida nas paredes do frasco e no dosador, e o fabricante já considera essa perda. O volume que importa para calcular quantas doses um frasco rende é o utilizável, não a soma de pó e água.</p>\n<h3>Técnica de reconstituição</h3>\n<ol>\n<li>Conferir o lacre e o prazo de validade do pó.</li>\n<li>Agitar o frasco fechado para soltar o pó do fundo.</li>\n<li>Adicionar água filtrada (ou fervida e já fria, conforme a bula) até perto da marca, tampar e agitar.</li>\n<li>Esperar a espuma baixar e completar lentamente até a marca exata. A bula do Amoxil® e a do Clavulin® descrevem essa segunda etapa.</li>\n<li>Agitar antes de cada dose, sempre.</li>\n</ol>\n<p>Nem todo líquido pediátrico precisa de preparo. O Keflex® gotas (100 mg/mL) é pó para reconstituir, mas as suspensões Keflex® de 250 mg/5 mL e de 500 mg/5 mL já vêm prontas para uso. O cuidador que \"reconstitui\" uma suspensão pronta dilui o medicamento sem perceber. Na azitromicina Astro® e Azi®, o diluente vem na embalagem, e a bula manda adicionar todo o seu conteúdo.</p>\n<h3>Validade depois de preparada</h3>\n<div class=\"tab\"><table><thead><tr><th>Produto</th><th>Depois de preparado</th></tr></thead><tbody>\n<tr><td>Amoxil® (amoxicilina)</td><td>14 dias em geladeira (2 °C a 8 °C)</td></tr>\n<tr><td>Clavulin® e Clavulin® BD</td><td>7 dias em geladeira; descartar depois</td></tr>\n<tr><td>Keflex® gotas (cefalexina)</td><td>14 dias em geladeira</td></tr>\n<tr><td>Cefamox® (cefadroxila)</td><td>10 dias entre 15 °C e 30 °C ou 14 dias em geladeira</td></tr>\n<tr><td>Klaricid® (claritromicina)</td><td>14 dias entre 15 °C e 30 °C, sem refrigeração</td></tr>\n<tr><td>Astro® (azitromicina)</td><td>5 dias entre 15 °C e 30 °C</td></tr>\n<tr><td>Annita® (nitazoxanida)</td><td>7 dias na embalagem original bem fechada</td></tr>\n</tbody></table></div>\n<p>A tabela mostra que não existe regra única: há suspensão que deve ir à geladeira e há a que não deve. A claritromicina do Klaricid® é conservada fora da geladeira. A amoxicilina com clavulanato escurece se não for refrigerada, e a bula descreve a mudança de cor como sinal de degradação.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 20 kg com receita de azitromicina 200 mg/5 mL, 10 mg/kg/dia por 3 dias.</p><p>Passo 1: dose diária: 20 × 10 = 200 mg = 5 mL.<br>Passo 2: total do tratamento: 200 mg × 3 dias = 600 mg = 15 mL.<br>Passo 3: o frasco de 600 mg rende 15 mL utilizáveis: um frasco basta, sem sobra.<br>Orientação: adicionar todo o diluente, agitar, usar a seringa da embalagem, dar uma vez ao dia, guardar em temperatura ambiente e descartar o que sobrar após 5 dias.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Ao entregar uma suspensão em pó, pergunte quem vai preparar, mostre a marca no frasco e explique as duas etapas de água. Escreva no rótulo a data do preparo e a data de descarte. Confirme se a casa tem geladeira, quando a bula exige refrigeração, e oriente a não guardar a sobra para \"a próxima vez\".</p></div>"
+  },
+  {
+   "id": "m19-quantidade",
+   "titulo": "Quantidade a dispensar",
+   "resumo": "<p>Calcular a dose é metade do trabalho. A outra metade é entregar a quantidade que cubra o tratamento inteiro, nem menos (a criança fica sem remédio no meio do curso) nem muito mais (sobra que vira automedicação depois).</p>\n<h3>A conta básica</h3>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Volume total = volume por tomada × tomadas por dia × dias de tratamento. Número de frascos = volume total ÷ volume utilizável de um frasco, arredondado para cima. Depois, confira se a validade após o preparo cobre os dias de uso de cada frasco.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Receita: amoxicilina 500 mg/5 mL, 7 mL de 8 em 8 horas por 10 dias. A farmácia tem frascos de 150 mL.</p><p>Passo 1: volume diário: 7 mL × 3 = 21 mL.<br>Passo 2: volume total: 21 mL × 10 dias = 210 mL.<br>Passo 3: frascos: 210 ÷ 150 = 1,4, arredondado para 2 frascos.<br>Passo 4: estabilidade: o primeiro frasco dura cerca de 7 dias de uso, dentro dos 14 dias em geladeira da bula do Amoxil®. O segundo deve ser preparado apenas quando o primeiro acabar.</p></div>\n<h3>Quando a validade pós-preparo manda mais que o volume</h3>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 16 kg com receita de Clavulin® BD 400 mg + 57 mg/5 mL, 45 mg/kg/dia de 12 em 12 horas por 10 dias.</p><p>Passo 1: dose diária de amoxicilina: 16 × 45 = 720 mg; por tomada: 360 mg.<br>Passo 2: volume por tomada: 360 mg ÷ 80 mg/mL = 4,5 mL. Volume diário: 9 mL. Total: 90 mL.<br>Passo 3: um frasco de 140 mL teria volume suficiente, mas a suspensão vale 7 dias depois de preparada. No 7º dia terão sido usados 63 mL e os 77 mL restantes devem ser descartados.<br>Passo 4: a solução é entregar 2 frascos de 70 mL. O primeiro cobre os dias 1 a 7 (63 mL, sobram 7 mL para descarte). O segundo é preparado no 8º dia e cobre os dias 8 a 10 (27 mL).</p></div>\n<h3>Quantas doses tem um frasco de gotas</h3>\n<p>Para gotas, a conta da duração usa o número de gotas por mL da bula. Um frasco de 15 mL de Tylenol® gotas, com cerca de 15 gotas/mL, tem perto de 225 gotas. Uma criança de 12 kg que recebe 12 gotas até 5 vezes ao dia usa no máximo 60 gotas por dia: o frasco dura pelo menos 3 a 4 dias de uso pleno. Para antitérmico isso basta; o frasco que dura semanas em casa costuma indicar uso irregular ou subdose, e merece pergunta. Na Novalgina® gotas, um frasco de 20 mL tem 400 gotas.</p>\n<h3>Comprimidos e cápsulas</h3>\n<p>Para formas sólidas a conta é a mesma: unidades por tomada × tomadas por dia × dias. Amoxicilina 500 mg de 8 em 8 horas por 7 dias pede 21 cápsulas. Se houver apresentação fracionável registrada e a farmácia for autorizada a fracionar (RDC 80/2006), é possível entregar exatamente 21; se não, entrega-se a menor quantidade de embalagens que cubra o tratamento.</p>\n<h3>Antimicrobianos: a quantidade e a receita</h3>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>A dispensação de antimicrobianos deve \"atender essencialmente ao tratamento prescrito, inclusive mediante apresentação comercial fracionável\" (RDC 471/2021, art. 11). A receita deve trazer posologia e quantidade, esta em algarismos arábicos (RDC 471/2021, art. 6º, parágrafo único).</p></div>\n<p>Na prática, a quantidade escrita pelo prescritor e a quantidade calculada pela posologia precisam bater. Três situações são comuns:</p>\n<ul>\n<li><b>Receita com quantidade suficiente</b>: dispensar o número de frascos que cobre o tratamento e registrar nas duas vias.</li>\n<li><b>Quantidade escrita menor que a posologia exige</b> (receita de \"1 frasco\" para um tratamento que precisa de 2): contatar o prescritor para corrigir. Entregar só um frasco interrompe o tratamento; entregar dois sem respaldo extrapola a receita.</li>\n<li><b>Receita sem quantidade</b> ou com \"1 caixa\": falta dado obrigatório. Contatar o prescritor antes de dispensar.</li>\n</ul>\n<p>Para agonistas do GLP-1, sujeitos à retenção de receita pela RDC 973/2025, a mesma lógica vale: a quantidade de canetas precisa cobrir o período prescrito, considerando quantas doses cada caneta entrega (tópico sobre canetas).</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Antes de buscar o produto, faça a conta do volume total e diga ao cliente quantos frascos o tratamento exige. Se forem dois, explique que o segundo fica fechado até o primeiro acabar e mostre a data de descarte do primeiro. Sobras de antibiótico vão para o ponto de coleta, nunca para o armário.</p></div>"
+  },
+  {
+   "id": "m19-insulina",
+   "titulo": "Insulinas e canetas",
+   "resumo": "<p>Insulina é dosada em unidades internacionais (UI), e a seringa e a caneta já trazem a escala em UI. O cálculo no balcão raramente é de dose, que o prescritor ajusta pela glicemia, mas sim de volume, duração da caneta ou do frasco e quantidade a dispensar.</p>\n<h3>Concentrações</h3>\n<div class=\"tab\"><table><thead><tr><th>Concentração</th><th>Apresentação</th><th>Total de UI</th></tr></thead><tbody>\n<tr><td>100 UI/mL</td><td>Frasco-ampola de 10 mL (Humulin® N, NovoRapid®, Lantus®)</td><td>1000 UI</td></tr>\n<tr><td>100 UI/mL</td><td>Refil de 3 mL para caneta (Lantus®, Humulin® N)</td><td>300 UI</td></tr>\n<tr><td>300 UI/mL</td><td>Caneta descartável de 1,5 mL (Toujeo®, insulina glargina)</td><td>450 UI</td></tr>\n</tbody></table></div>\n<p>Quase todas as insulinas do mercado brasileiro têm 100 UI/mL, conhecidas no jargão como U-100. A glargina do Toujeo® tem 300 UI/mL (U-300). Em receita e em orientação, escreva sempre a unidade por extenso ou como UI.</p>\n<p>A bula do Humulin® N lembra que o volume a injetar depende da concentração, e que a seringa usada deve ser graduada para a concentração da insulina. A seringa de insulina comum é graduada para 100 UI/mL: 1 mL corresponde a 100 UI, e 12 UI correspondem a 0,12 mL. Por isso a bula do Toujeo® proíbe retirar a insulina da caneta com seringa: a seringa marcaria 12 UI, mas o líquido de 300 UI/mL conteria 36 UI. A caneta do Toujeo® foi desenhada para essa concentração e mostra a dose diretamente em unidades, sem necessidade de recálculo.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Troca entre glarginas de concentrações diferentes não é unidade por unidade. A bula do Lantus® recomenda que, ao passar da glargina 300 UI/mL para a de 100 UI/mL, a dose inicial seja 80% da anterior. Mudança de produto é decisão do prescritor, com monitoração da glicemia.</p></div>\n<h3>Quanto dura uma caneta</h3>\n<p>Antes de cada aplicação a caneta exige um teste de segurança, que gasta insulina. Na caneta do Toujeo®, o teste usa 3 unidades. A conta da duração precisa incluir esse gasto e, depois, ser confrontada com o prazo de uso da caneta aberta.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Paciente usa Toujeo® 27 UI uma vez ao dia.</p><p>Passo 1: gasto diário: 27 UI + 3 UI do teste = 30 UI.<br>Passo 2: duração: 450 UI ÷ 30 UI = 15 dias.<br>Passo 3: prazo após o primeiro uso, segundo a bula: 6 semanas (42 dias), até 30 °C. A caneta acaba antes do prazo.<br>Passo 4: para 30 dias: 30 × 30 UI = 900 UI = 2 canetas.<br>Erro típico: ignorar o teste dá 16,7 dias por caneta e leva a subestimar a compra em tratamentos longos.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Paciente usa insulina NPH em frasco de 10 mL (1000 UI), 24 UI por dia.</p><p>Passo 1: duração pelo volume: 1000 ÷ 24 = 41,6 dias.<br>Passo 2: prazo depois de aberto, pela bula do Humulin® N: 28 dias.<br>Conclusão: o frasco deve ser descartado no 28º dia, com cerca de 328 UI ainda dentro. Para 28 dias, 1 frasco; para 60 dias, 3 frascos, um por período de uso.</p></div>\n<div class=\"tab\"><table><thead><tr><th>Produto</th><th>Antes de abrir</th><th>Em uso</th></tr></thead><tbody>\n<tr><td>Toujeo® (caneta)</td><td>Geladeira, 2 °C a 8 °C</td><td>Até 6 semanas (42 dias), até 30 °C, fora da geladeira</td></tr>\n<tr><td>Lantus® (frasco e refil)</td><td>Geladeira</td><td>28 dias; refil na caneta não vai à geladeira</td></tr>\n<tr><td>Humulin® N (frasco e refil)</td><td>Geladeira</td><td>28 dias, abaixo de 30 °C</td></tr>\n<tr><td>NovoRapid® (frasco)</td><td>Geladeira</td><td>4 semanas, entre 15 °C e 30 °C</td></tr>\n</tbody></table></div>\n<h3>Agulhas e suspensões</h3>\n<p>A bula do Toujeo® manda usar agulha nova e estéril a cada injeção: agulha reutilizada entope e pode gerar subdose ou superdose. A caneta é de uso individual, mesmo trocando a agulha. Insulinas em suspensão, como a NPH, precisam ser homogeneizadas antes de cada dose: a bula do Humulin® N orienta rolar o refil entre as palmas e invertê-lo 10 vezes cada, até ficar uniformemente leitoso.</p>\n<h3>Canetas de agonistas do GLP-1</h3>\n<p>Nas canetas de semaglutida (Ozempic®), a dose é selecionada em mg e não em unidades. A caneta de 0,25 mg/0,5 mg contém 2 mg e entrega 4 doses de 0,25 mg e 2 de 0,5 mg, ou 4 doses de 0,5 mg; a caneta de 1 mg contém 4 mg e entrega 4 doses. Como a aplicação é semanal, uma caneta dura cerca de 4 semanas na dose de manutenção. A bula avisa: não conte os cliques do seletor, confira a dose no contador. Em uso, a caneta vale 6 semanas, abaixo de 30 °C ou em geladeira.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Pergunte a dose diária, quantas aplicações por dia e qual caneta ou frasco o paciente usa. Calcule a duração incluindo o teste de segurança e compare com o prazo de uso aberto. Confira se o paciente tem agulhas para o período e se descarta caneta e agulha em recipiente rígido. Nunca troque uma insulina por outra de concentração diferente sem nova prescrição.</p></div>"
+  },
+  {
+   "id": "m19-erros",
+   "titulo": "Erros clássicos e dose que não bate",
+   "resumo": "<p>A maioria dos erros de dose em pediatria segue poucos padrões repetidos. Conhecê-los faz o farmacêutico desconfiar no momento certo. O ponto comum a todos: o farmacêutico confere e questiona, mas não corrige a receita por conta própria.</p>\n<h3>Erro de 10 vezes</h3>\n<p>Acontece quando uma vírgula some ou aparece. \"2,0 mL\" escrito à mão vira \"20 mL\"; \",5 mL\" vira \"5 mL\". Por isso a boa prática de prescrição dispensa zero à direita (2 mL, não 2,0 mL) e exige zero à esquerda (0,5 mL, não ,5 mL), recomendações difundidas pelo ISMP Brasil. A abreviatura \"U\" para unidades pode ser lida como zero: \"4U\" vira 40.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Receita para criança de 10 kg: prednisolona solução oral 3 mg/mL, \"20 mL uma vez ao dia por 5 dias\".</p><p>Passo 1: dose: 20 mL × 3 mg/mL = 60 mg/dia.<br>Passo 2: por peso: 60 ÷ 10 = 6 mg/kg/dia. A bula do Prelone® indica dose pediátrica inicial de 0,14 a 2 mg/kg/dia e máximo de 80 mg/dia.<br>Passo 3: 2 mL dariam 6 mg/dia (0,6 mg/kg/dia), dentro da faixa. A hipótese é que o prescritor quis escrever 2,0 mL.<br>Conduta: não dispensar com a orientação de 20 mL nem trocar para 2 mL por conta própria. Ligar para o prescritor, relatar o cálculo e registrar a confirmação.</p></div>\n<h3>Concentrações trocadas</h3>\n<p>O mesmo fármaco existe em concentrações que diferem duas, quatro ou dez vezes. Quando a receita indica um volume (\"5 mL\") e o produto entregue tem outra concentração, a dose muda na mesma proporção.</p>\n<ul>\n<li><b>Amoxicilina</b> 250 mg/5 mL e 500 mg/5 mL: 5 mL entregam 250 ou 500 mg.</li>\n<li><b>Amoxicilina com clavulanato</b>: o Clavulin® 250 mg + 62,5 mg/5 mL é para 3 tomadas diárias; o Clavulin® BD 400 mg + 57 mg/5 mL é para 2. Trocar um pelo outro altera a dose de amoxicilina, a de clavulanato e o intervalo.</li>\n<li><b>Ibuprofeno</b> gotas de 50, 100 e 200 mg/mL: no Alivium®, cada gota tem 5, 10 ou 20 mg. A orientação \"1 gota por quilo\" só vale para a de 100 mg/mL.</li>\n<li><b>Paracetamol</b> 200 mg/mL (gotas), 100 mg/mL (bebê, seringa) e 32 mg/mL (criança, copo): 5 mL da suspensão de 100 mg/mL contêm 500 mg, mais de três vezes o que 5 mL da de 32 mg/mL contêm (160 mg).</li>\n<li><b>Cefalexina</b> 100 mg/mL em gotas e 500 mg/5 mL em suspensão têm a mesma concentração (100 mg/mL), mas uma é medida em gotas e a outra em mL.</li>\n<li><b>Prednisolona</b> 3 mg/mL (solução) e 11 mg/mL (gotas).</li>\n</ul>\n<h3>Dipirona em lactente</h3>\n<p>A dipirona é contraindicada abaixo de 3 meses ou de 5 kg (bula da Novalgina®). Na faixa de 5 a 8 kg, a dose é de 2 a 5 gotas da solução de 500 mg/mL (50 a 125 mg), até 20 gotas por dia. O erro grave é dar \"1 mL\" das gotas: são 500 mg, quatro vezes a maior dose única da faixa e o total diário inteiro de uma vez. Outro erro é usar o número de gotas da solução de 500 mg/mL com a solução infantil de 50 mg/mL, que é medida em mL.</p>\n<h3>mg e mL na mesma receita</h3>\n<p>\"Dar 250\" sem unidade, \"5 mg\" quando o prescritor quis dizer 5 mL, ou a dose em mg sem a concentração do produto são falhas de prescrição. Se a receita traz a dose em mg, o farmacêutico calcula o volume para o produto entregue e escreve o volume na embalagem. Se traz a dose em mL, precisa saber de qual concentração.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Receita: \"dipirona gotas, 12 gotas de 6 em 6 horas\" para criança de 12 kg.</p><p>Passo 1: Novalgina® gotas: 25 mg por gota; 12 gotas = 300 mg = 25 mg/kg por dose.<br>Passo 2: a tabela da bula para 9 a 15 kg indica 3 a 10 gotas por dose (75 a 250 mg) e até 40 gotas por dia.<br>Passo 3: 12 gotas por dose passam da faixa e 48 gotas por dia passam do máximo diário.<br>Conduta: contatar o prescritor antes de orientar a dose.</p></div>\n<h3>O que fazer quando a dose não bate</h3>\n<ol>\n<li>Refazer a conta pelo caminho inverso e conferir peso, concentração e intervalo.</li>\n<li>Comparar com a faixa e os tetos da bula do produto entregue.</li>\n<li>Se houver divergência, contatar o prescritor pelo telefone da receita, relatar o cálculo e perguntar qual era a intenção.</li>\n<li>Registrar a intervenção: o que foi constatado, com quem falou, horário e conduta confirmada.</li>\n<li>Se não conseguir contato e a dose for de risco, não dispensar a dose duvidosa; orientar o retorno ao prescritor ou à unidade de saúde. Se a criança estiver com sinais de gravidade, encaminhar para atendimento.</li>\n</ol>\n<div class=\"cx alerta\"><b>Atenção</b><p>O farmacêutico não altera dose, concentração ou intervalo por conta própria, ainda que a correção pareça óbvia. A receita é ato do prescritor; a conferência é ato do farmacêutico. Uma \"correção\" silenciosa pode estar errada (a criança pode ter peso diferente do informado, a dose pode ser intencional) e retira do prescritor a chance de rever o raciocínio.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Explique ao cuidador, sem alarmar, que a farmácia precisa confirmar um detalhe da dose com o médico. Evite frases que soem como acusação de erro. Depois da confirmação, escreva a dose em mL ou gotas na embalagem e repita a orientação.</p></div>"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m19-mapa-calculo",
+   "titulo": "Cálculo de dose: visão geral",
+   "centro": "Cálculo de dose",
+   "ramos": [
+    {
+     "t": "Unidades",
+     "itens": [
+      "1 g = 1000 mg; 1 mg = 1000 mcg",
+      "mg/5 mL ÷ 5 = mg/mL",
+      "Porcentagem × 10 = mg/mL (2% = 20 mg/mL)",
+      "UI não vira mg: ler UI/mL no rótulo"
+     ]
+    },
+    {
+     "t": "Regra de três",
+     "itens": [
+      "Volume (mL) = dose (mg) ÷ concentração",
+      "Dose (mg) = volume × concentração",
+      "Refazer pelo caminho inverso"
+     ]
+    },
+    {
+     "t": "Dose por peso",
+     "itens": [
+      "mg/kg/dose: cada tomada",
+      "mg/kg/dia: dividir pelas tomadas",
+      "Peso atual, nunca a idade",
+      "Amoxicilina 50 mg/kg/dia, 18 kg: 300 mg 8/8 h"
+     ]
+    },
+    {
+     "t": "Tetos",
+     "itens": [
+      "Máximo por tomada e por dia",
+      "Peso alto leva à dose de adulto",
+      "Ibuprofeno criança: 200 mg/dose",
+      "Azitromicina: 500 mg/dia, 1500 mg total"
+     ]
+    },
+    {
+     "t": "Gotas",
+     "itens": [
+      "Gotas/mL variam por produto",
+      "Novalgina® 20; Tylenol® 14 a 16; Alivium® 10",
+      "\"1 mL = 20 gotas\" é de equipo",
+      "Trocou a marca: refazer a conta"
+     ]
+    },
+    {
+     "t": "Quantidade",
+     "itens": [
+      "Volume/tomada × tomadas × dias",
+      "Frascos: arredondar para cima",
+      "Validade pós-preparo pode exigir 2 frascos",
+      "Quantidade na receita (RDC 471, art. 6º)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m19-mapa-preparo",
+   "titulo": "Suspensões, canetas e erros",
+   "centro": "Preparo e segurança",
+   "ramos": [
+    {
+     "t": "Reconstituição",
+     "itens": [
+      "Água abaixo do volume final",
+      "Completar até a marca em 2 etapas",
+      "Agitar antes de cada dose",
+      "Keflex® 250 e 500 mg/5 mL já vêm prontas"
+     ]
+    },
+    {
+     "t": "Validade preparada",
+     "itens": [
+      "Clavulin®: 7 dias em geladeira",
+      "Amoxil®: 14 dias em geladeira",
+      "Klaricid®: 14 dias fora da geladeira",
+      "Azitromicina Astro®: 5 dias"
+     ]
+    },
+    {
+     "t": "Insulina",
+     "itens": [
+      "100 UI/mL: 3 mL = 300 UI",
+      "Toujeo®: 300 UI/mL, 1,5 mL = 450 UI",
+      "Somar o teste de segurança",
+      "Frasco aberto: 28 dias (Humulin® N)"
+     ]
+    },
+    {
+     "t": "GLP-1",
+     "itens": [
+      "Dose em mg, aplicação semanal",
+      "Ozempic® 1 mg: 4 doses por caneta",
+      "Não contar cliques: ler o contador",
+      "Retenção de receita (RDC 973/2025)"
+     ]
+    },
+    {
+     "t": "Erros clássicos",
+     "itens": [
+      "Vírgula: 2,0 mL lido como 20 mL",
+      "Concentração trocada (250 x 500 mg/5 mL)",
+      "\"U\" lido como zero",
+      "Dipirona: 1 mL de gotas = 500 mg"
+     ]
+    },
+    {
+     "t": "Dose não bate",
+     "itens": [
+      "Refazer a conta",
+      "Comparar com faixa e tetos da bula",
+      "Ligar para o prescritor e registrar",
+      "Nunca corrigir sozinho"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "calculadora",
+   "id": "m19-calculadora",
+   "titulo": "Calculadora de dose pediátrica",
+   "aviso": "A calculadora confere a prescrição, não a substitui: diante de divergência, fale com o prescritor.",
+   "farmacos": [
+    {
+     "id": "paracetamol",
+     "nome": "Paracetamol",
+     "grupo": "Analgésicos e antitérmicos",
+     "venda": "MIP",
+     "base": "dose",
+     "doseKg": [
+      10,
+      15
+     ],
+     "tomadas": [
+      4,
+      5
+     ],
+     "maxDose": 1000,
+     "maxDia": 4000,
+     "maxDiaKg": 75,
+     "idade": "Abaixo de 11 kg ou de 2 anos: a bula manda consultar o médico antes do uso",
+     "dias": "Uso sintomático; intervalo de 4 a 6 horas",
+     "obs": "No máximo 5 administrações em 24 horas. Abaixo de 12 anos, a bula do Tylenol® gotas limita a dose a 35 gotas por tomada (1 gota/kg). O número de gotas por mL varia entre fabricantes: confira a bula do frasco entregue.",
+     "fonte": "Tylenol® gotas, Tylenol® Bebê e Tylenol® Criança, Janssen-Cilag (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026)",
+     "apresentacoes": [
+      {
+       "r": "Gotas 200 mg/mL (Tylenol®: 14 a 16 gotas/mL)",
+       "mgml": 200,
+       "gotasml": 15,
+       "frascos": [
+        15
+       ]
+      },
+      {
+       "r": "Gotas 200 mg/mL, outras marcas (conferir gotas/mL na bula)",
+       "mgml": 200,
+       "frascos": [
+        15
+       ]
+      },
+      {
+       "r": "Suspensão oral 100 mg/mL (bebê, seringa)",
+       "mgml": 100,
+       "frascos": [
+        15
+       ]
+      },
+      {
+       "r": "Suspensão oral 32 mg/mL (criança, copo-medida)",
+       "mgml": 32,
+       "frascos": [
+        60
+       ]
+      }
+     ]
+    },
+    {
+     "id": "dipirona",
+     "nome": "Dipirona",
+     "grupo": "Analgésicos e antitérmicos",
+     "venda": "MIP",
+     "base": "dose",
+     "doseKg": [
+      10,
+      15
+     ],
+     "tomadas": [
+      1,
+      4
+     ],
+     "maxDose": 1000,
+     "maxDia": 4000,
+     "idade": "Contraindicada abaixo de 3 meses ou de 5 kg",
+     "dias": "Uso sintomático; até 4 vezes ao dia",
+     "obs": "A bula da Novalgina® não traz mg/kg: usa faixas de peso (ex.: 9 a 15 kg, 3 a 10 gotas por dose e até 40 gotas por dia; 5 a 8 kg, 2 a 5 gotas e até 20 por dia). A faixa de 10 a 15 mg/kg por dose vem do guia de dengue do Ministério da Saúde (10 mg/kg) e da literatura pediátrica (15 mg/kg). Confira sempre a tabela da bula. Teto de 1000 mg por tomada e 4000 mg/dia é a dose de adulto.",
+     "fonte": "Novalgina® solução oral, Sanofi Medley (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026); Ministério da Saúde, Dengue: diagnóstico e manejo clínico, 6ª ed., 2024; Magni AM et al., J Pediatr (Rio J), 2011",
+     "apresentacoes": [
+      {
+       "r": "Gotas 500 mg/mL (Novalgina®: 20 gotas/mL)",
+       "mgml": 500,
+       "gotasml": 20,
+       "frascos": [
+        10,
+        20
+       ]
+      },
+      {
+       "r": "Solução oral 50 mg/mL (infantil, seringa)",
+       "mgml": 50,
+       "frascos": [
+        100
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ibuprofeno",
+     "nome": "Ibuprofeno",
+     "grupo": "Anti-inflamatórios",
+     "venda": "MIP (gotas 200 mg/mL do Alivium®: venda sob prescrição)",
+     "base": "dose",
+     "doseKg": [
+      5,
+      10
+     ],
+     "tomadas": [
+      3,
+      4
+     ],
+     "maxDose": 200,
+     "maxDia": 800,
+     "idade": "A partir de 6 meses",
+     "dias": "Febre: não usar por mais de 3 dias sem orientação médica; dor: não mais de 10 dias",
+     "obs": "5 mg/kg para febre baixa e 10 mg/kg para febre alta (abaixo ou acima de 39 °C), de 6 em 6 ou de 8 em 8 horas. Tetos de criança: 200 mg por dose e 800 mg/dia. No Alivium®, todas as gotas têm 10 gotas/mL: 1 a 2 gotas/kg (50 mg/mL), 1 gota/kg (100 mg/mL), 1 gota a cada 2 kg (200 mg/mL).",
+     "fonte": "Alivium® suspensão oral e gotas, Cosmed/Brainfarma (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026)",
+     "apresentacoes": [
+      {
+       "r": "Gotas 50 mg/mL (Alivium®: 10 gotas/mL)",
+       "mgml": 50,
+       "gotasml": 10,
+       "frascos": [
+        30
+       ]
+      },
+      {
+       "r": "Gotas 100 mg/mL (Alivium®: 10 gotas/mL)",
+       "mgml": 100,
+       "gotasml": 10,
+       "frascos": [
+        20
+       ]
+      },
+      {
+       "r": "Gotas 200 mg/mL (Alivium®: 10 gotas/mL)",
+       "mgml": 200,
+       "gotasml": 10,
+       "frascos": [
+        20
+       ]
+      },
+      {
+       "r": "Suspensão oral 30 mg/mL (seringa)",
+       "mgml": 30,
+       "frascos": [
+        100
+       ]
+      }
+     ]
+    },
+    {
+     "id": "amoxicilina",
+     "nome": "Amoxicilina",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021)",
+     "base": "dia",
+     "doseKg": [
+      20,
+      50
+     ],
+     "tomadas": [
+      2,
+      3
+     ],
+     "maxDia": 6000,
+     "maxDiaKg": 150,
+     "idade": "Abaixo de 40 kg: dose por peso; a partir de 40 kg, dose de adulto",
+     "dias": "Conforme a receita",
+     "obs": "Bula: 20 a 50 mg/kg/dia de 8 em 8 horas, até 150 mg/kg/dia. A mesma bula cita 80 a 90 mg/kg/dia em duas tomadas como primeira escolha na otite média aguda (seção de resultados de eficácia). Suspensão preparada: 14 dias em geladeira.",
+     "fonte": "Amoxil® suspensão oral, GlaxoSmithKline (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026)",
+     "apresentacoes": [
+      {
+       "r": "Suspensão 250 mg/5 mL",
+       "mgml": 50,
+       "frascos": [
+        150
+       ]
+      },
+      {
+       "r": "Suspensão 500 mg/5 mL",
+       "mgml": 100,
+       "frascos": [
+        150
+       ]
+      }
+     ]
+    },
+    {
+     "id": "amoxicilina-clavulanato",
+     "nome": "Amoxicilina + clavulanato (8 em 8 horas)",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021)",
+     "base": "dia",
+     "doseKg": [
+      20,
+      60
+     ],
+     "tomadas": [
+      3,
+      3
+     ],
+     "maxDose": 500,
+     "maxDia": 1500,
+     "idade": "Acima de 2 meses; a partir de 40 kg, dose de adulto",
+     "dias": "Não passar de 14 dias sem revisão médica",
+     "obs": "Dose calculada pela amoxicilina. Dose baixa: 20 a 40 mg/kg/dia; dose alta: 40 a 60 mg/kg/dia, em três tomadas. Sem dados acima de 40 mg/kg/dia abaixo de 2 anos. Os tetos (500 mg por tomada, 1500 mg/dia) correspondem à dose de adulto da bula (500 mg + 125 mg de 8 em 8 horas). Preparo: 90 mL de água para 100 mL; validade de 7 dias em geladeira.",
+     "fonte": "Clavulin® pó para suspensão oral, GlaxoSmithKline (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026)",
+     "apresentacoes": [
+      {
+       "r": "Suspensão 250 mg + 62,5 mg/5 mL",
+       "mgml": 50,
+       "frascos": [
+        100
+       ]
+      }
+     ]
+    },
+    {
+     "id": "amoxicilina-clavulanato-bd",
+     "nome": "Amoxicilina + clavulanato BD (12 em 12 horas)",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021)",
+     "base": "dia",
+     "doseKg": [
+      25,
+      70
+     ],
+     "tomadas": [
+      2,
+      2
+     ],
+     "maxDose": 875,
+     "maxDia": 1750,
+     "idade": "Acima de 2 meses; a partir de 40 kg, dose de adulto",
+     "dias": "Não passar de 14 dias sem revisão médica",
+     "obs": "Dose calculada pela amoxicilina. Dose baixa: 25 a 45 mg/kg/dia; dose alta: 45 a 70 mg/kg/dia, em duas tomadas. Sem dados acima de 45 mg/kg/dia abaixo de 2 anos. Tetos correspondem à dose de adulto (875 mg + 125 mg de 12 em 12 horas). Preparo: 64 mL de água (200 mg/5 mL) ou 62 mL (400 mg/5 mL) para 70 mL; 124 mL para 140 mL. Validade de 7 dias em geladeira.",
+     "fonte": "Clavulin® BD pó para suspensão oral, GlaxoSmithKline (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026)",
+     "apresentacoes": [
+      {
+       "r": "Suspensão BD 200 mg + 28,5 mg/5 mL",
+       "mgml": 40,
+       "frascos": [
+        70
+       ]
+      },
+      {
+       "r": "Suspensão BD 400 mg + 57 mg/5 mL",
+       "mgml": 80,
+       "frascos": [
+        70,
+        140
+       ]
+      }
+     ]
+    },
+    {
+     "id": "azitromicina",
+     "nome": "Azitromicina",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021)",
+     "base": "dia",
+     "doseKg": [
+      5,
+      10
+     ],
+     "tomadas": [
+      1,
+      1
+     ],
+     "maxDia": 500,
+     "idade": "Comprimidos só acima de 45 kg; acima de 45 kg, dose de adulto",
+     "dias": "3 dias (10 mg/kg/dia) ou 5 dias (10 mg/kg no 1º dia e 5 mg/kg do 2º ao 5º)",
+     "obs": "Dose total usual em crianças: 30 mg/kg, no máximo 1500 mg por tratamento. Na otite média aguda, alternativa de 30 mg/kg em dose única (não use a calculadora diária nesse caso). Frascos de 600, 900 e 1500 mg rendem 15, 22,5 e 37,5 mL utilizáveis; suspensão preparada vale 5 dias em temperatura ambiente.",
+     "fonte": "Zitromax®, Pfizer; Astro®, Eurofarma; Azi® (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026)",
+     "apresentacoes": [
+      {
+       "r": "Suspensão 200 mg/5 mL",
+       "mgml": 40,
+       "frascos": [
+        15,
+        22.5,
+        37.5
+       ]
+      }
+     ]
+    },
+    {
+     "id": "cefalexina",
+     "nome": "Cefalexina",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021)",
+     "base": "dia",
+     "doseKg": [
+      25,
+      50
+     ],
+     "tomadas": [
+      2,
+      4
+     ],
+     "maxDia": 4000,
+     "maxDiaKg": 100,
+     "idade": "A bula não fixa idade mínima para as formas líquidas",
+     "dias": "Conforme a receita; cistite: 7 a 14 dias",
+     "obs": "Doses divididas de 6 em 6 horas; em faringite estreptocócica (acima de 1 ano), infecção urinária leve e infecção de pele, pode ser dividida de 12 em 12 horas. Em infecção grave a dose pode ser dobrada; otite média: 75 a 100 mg/kg/dia em 4 tomadas. Gotas: pó para reconstituir, 14 dias em geladeira. Suspensões de 250 e 500 mg/5 mL já vêm prontas.",
+     "fonte": "Keflex®, Antibióticos do Brasil (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em jan. 2026)",
+     "apresentacoes": [
+      {
+       "r": "Gotas 100 mg/mL (Keflex®: cerca de 22 gotas/mL)",
+       "mgml": 100,
+       "gotasml": 22,
+       "frascos": [
+        15,
+        30
+       ]
+      },
+      {
+       "r": "Suspensão 250 mg/5 mL (pronta)",
+       "mgml": 50,
+       "frascos": [
+        100
+       ]
+      },
+      {
+       "r": "Suspensão 500 mg/5 mL (pronta)",
+       "mgml": 100,
+       "frascos": [
+        100
+       ]
+      }
+     ]
+    },
+    {
+     "id": "cefadroxila",
+     "nome": "Cefadroxila",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021)",
+     "base": "dia",
+     "doseKg": [
+      25,
+      50
+     ],
+     "tomadas": [
+      1,
+      2
+     ],
+     "maxDia": 2000,
+     "idade": "Prematuros e recém-nascidos abaixo de 6 semanas e meia: cautela",
+     "dias": "Faringite e amigdalite: no mínimo 10 dias (bula de cefadroxila genérica)",
+     "obs": "Bula do Cefamox®: 25 a 50 mg/kg/dia em duas tomadas de 12 em 12 horas. Bula de cefadroxila genérica admite 30 mg/kg/dia em dose única ou em duas doses na faringite. Teto de 2000 mg/dia corresponde à dose de adulto (1 a 2 g/dia). Preparada: 10 dias entre 15 °C e 30 °C ou 14 dias em geladeira.",
+     "fonte": "Cefamox®, Bristol-Myers Squibb (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em maio 2024); cefadroxila genérica (mesmo portal)",
+     "apresentacoes": [
+      {
+       "r": "Suspensão 250 mg/5 mL",
+       "mgml": 50,
+       "frascos": [
+        100
+       ]
+      },
+      {
+       "r": "Suspensão 500 mg/5 mL",
+       "mgml": 100,
+       "frascos": [
+        100
+       ]
+      }
+     ]
+    },
+    {
+     "id": "claritromicina",
+     "nome": "Claritromicina",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021)",
+     "base": "dia",
+     "doseKg": [
+      15,
+      15
+     ],
+     "tomadas": [
+      2,
+      2
+     ],
+     "maxDose": 500,
+     "maxDia": 1000,
+     "idade": "Acima de 6 meses",
+     "dias": "5 a 10 dias, conforme indicação médica",
+     "obs": "7,5 mg/kg duas vezes ao dia (0,3 mL/kg da suspensão de 25 mg/mL ou 0,15 mL/kg da de 50 mg/mL), até 500 mg duas vezes ao dia. Em infecção por micobactérias: 7 a 15 mg/kg por dose. Preparada: 14 dias em temperatura ambiente, sem refrigeração.",
+     "fonte": "Klaricid® grânulos para suspensão pediátrica, Abbott (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026)",
+     "apresentacoes": [
+      {
+       "r": "Suspensão 125 mg/5 mL (25 mg/mL)",
+       "mgml": 25,
+       "frascos": [
+        60
+       ]
+      },
+      {
+       "r": "Suspensão 250 mg/5 mL (50 mg/mL)",
+       "mgml": 50,
+       "frascos": [
+        60
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sulfametoxazol-trimetoprima",
+     "nome": "Sulfametoxazol + trimetoprima",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021)",
+     "base": "dia",
+     "doseKg": [
+      30,
+      45
+     ],
+     "tomadas": [
+      2,
+      2
+     ],
+     "maxDose": 1200,
+     "maxDia": 2400,
+     "idade": "Suspensão comum acima de 6 semanas; suspensão F acima de 6 meses",
+     "dias": "Infecção aguda: no mínimo 5 dias ou até 2 dias sem sintomas",
+     "obs": "Calculado pelo sulfametoxazol. A bula fixa doses por idade que correspondem a cerca de 30 mg/kg/dia de sulfametoxazol (6 mg/kg/dia de trimetoprima), de 12 em 12 horas; em infecção grave, até 50% a mais (45 mg/kg/dia). Teto: dose máxima de adulto em casos graves, 1200 mg de sulfametoxazol de 12 em 12 horas (dose habitual de adulto: 800 mg).",
+     "fonte": "Bactrim® suspensão, Farmoquímica (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026)",
+     "apresentacoes": [
+      {
+       "r": "Suspensão 200 mg + 40 mg/5 mL",
+       "mgml": 40,
+       "frascos": [
+        50,
+        100
+       ]
+      },
+      {
+       "r": "Suspensão F 400 mg + 80 mg/5 mL",
+       "mgml": 80,
+       "frascos": [
+        100
+       ]
+      }
+     ]
+    },
+    {
+     "id": "prednisolona",
+     "nome": "Prednisolona",
+     "grupo": "Corticoides",
+     "venda": "Prescrição (sem retenção)",
+     "base": "dia",
+     "doseKg": [
+      0.14,
+      2
+     ],
+     "tomadas": [
+      1,
+      4
+     ],
+     "maxDia": 80,
+     "idade": "Dose individualizada pela resposta clínica",
+     "dias": "Conforme a receita; após uso prolongado, retirada gradual",
+     "obs": "Dose pediátrica inicial de 0,14 a 2 mg/kg/dia, de 1 a 4 vezes ao dia (a bula da solução de 3 mg/mL fala em 3 a 4 vezes). Dose máxima de 80 mg/dia. As concentrações referem-se à prednisolona base (1 mg de prednisolona = 1,34 mg de fosfato sódico). A bula das gotas não informa gotas por mL.",
+     "fonte": "Prelone® solução oral e gotas, Aché (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026)",
+     "apresentacoes": [
+      {
+       "r": "Solução oral 3 mg/mL",
+       "mgml": 3,
+       "frascos": [
+        60,
+        120
+       ]
+      },
+      {
+       "r": "Gotas 11 mg/mL (gotas/mL não informado na bula)",
+       "mgml": 11,
+       "frascos": [
+        10,
+        20
+       ]
+      }
+     ]
+    },
+    {
+     "id": "nitazoxanida",
+     "nome": "Nitazoxanida",
+     "grupo": "Antiparasitários",
+     "venda": "Prescrição (sem retenção)",
+     "base": "dose",
+     "doseKg": [
+      7.5,
+      7.5
+     ],
+     "tomadas": [
+      2,
+      2
+     ],
+     "maxDose": 500,
+     "idade": "Suspensão a partir de 1 ano; comprimido a partir de 12 anos",
+     "dias": "3 dias na maioria das indicações; 14 dias em criptosporidíase de imunodeprimido com CD4 acima de 50",
+     "obs": "0,375 mL/kg (7,5 mg/kg) de 12 em 12 horas, com alimentos. O teto de 500 mg por dose corresponde à dose do comprimido para maiores de 12 anos. Preparada: 7 dias.",
+     "fonte": "Annita®, Farmoquímica (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026)",
+     "apresentacoes": [
+      {
+       "r": "Suspensão 20 mg/mL",
+       "mgml": 20,
+       "frascos": [
+        45,
+        100
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "tipo": "tabela",
+   "id": "m19-tab-concentracoes",
+   "titulo": "Concentrações que confundem",
+   "colunas": [
+    "Fármaco",
+    "Apresentações",
+    "5 mL ou 1 gota entregam",
+    "Armadilha"
+   ],
+   "linhas": [
+    [
+     "Paracetamol",
+     "Gotas 200 mg/mL; suspensão 100 mg/mL; suspensão 32 mg/mL",
+     "5 mL: 500 mg (100 mg/mL) ou 160 mg (32 mg/mL)",
+     "Seringa do bebê marcada em kg em algumas marcas; gotas/mL varia"
+    ],
+    [
+     "Dipirona",
+     "Gotas 500 mg/mL; solução 50 mg/mL",
+     "1 gota: 25 mg (Novalgina®); 5 mL da solução: 250 mg",
+     "Dar em mL a gota, ou em gotas a solução"
+    ],
+    [
+     "Ibuprofeno",
+     "Gotas 50, 100 e 200 mg/mL; suspensão 30 mg/mL",
+     "1 gota do Alivium®: 5, 10 ou 20 mg",
+     "\"1 gota por quilo\" só vale para 100 mg/mL"
+    ],
+    [
+     "Amoxicilina",
+     "250 mg/5 mL; 500 mg/5 mL",
+     "5 mL: 250 ou 500 mg",
+     "Receita em mL sem a concentração"
+    ],
+    [
+     "Amoxicilina + clavulanato",
+     "250 mg + 62,5 mg/5 mL (8/8 h); BD 200 mg + 28,5 mg/5 mL e 400 mg + 57 mg/5 mL (12/12 h)",
+     "5 mL: 250, 200 ou 400 mg de amoxicilina",
+     "Trocar BD por comum muda dose, clavulanato e intervalo"
+    ],
+    [
+     "Cefalexina",
+     "Gotas 100 mg/mL; suspensão 250 mg/5 mL e 500 mg/5 mL",
+     "1 gota: cerca de 4,5 mg; 5 mL: 250 ou 500 mg",
+     "Gotas e suspensão de 500 mg/5 mL têm a mesma concentração"
+    ],
+    [
+     "Claritromicina",
+     "25 mg/mL; 50 mg/mL",
+     "5 mL: 125 ou 250 mg",
+     "Volume por kg muda (0,3 ou 0,15 mL/kg)"
+    ],
+    [
+     "Sulfametoxazol + trimetoprima",
+     "200 mg + 40 mg/5 mL; F 400 mg + 80 mg/5 mL",
+     "5 mL: 200 ou 400 mg de sulfametoxazol",
+     "A suspensão F tem o dobro"
+    ],
+    [
+     "Prednisolona",
+     "Solução 3 mg/mL; gotas 11 mg/mL",
+     "1 mL: 3 ou 11 mg",
+     "Gotas em mL dão quase 4 vezes a dose"
+    ],
+    [
+     "Insulina glargina",
+     "100 UI/mL (Lantus®); 300 UI/mL (Toujeo®)",
+     "0,1 mL: 10 ou 30 UI",
+     "Nunca aspirar da caneta de 300 UI/mL com seringa"
+    ]
+   ],
+   "nota": "Concentrações das bulas do Tylenol®, Novalgina®, Alivium®, Amoxil®, Clavulin®, Keflex®, Klaricid®, Bactrim®, Prelone®, Lantus® e Toujeo®. Outras marcas podem ter apresentações diferentes."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m19-tab-dose-fixa",
+   "titulo": "Medicamentos pediátricos de dose fixa por idade (não entram na calculadora)",
+   "colunas": [
+    "Fármaco (bula)",
+    "Apresentação",
+    "Dose pediátrica",
+    "Idade ou peso mínimo"
+   ],
+   "linhas": [
+    [
+     "Loratadina (Claritin®)",
+     "Xarope 1 mg/mL",
+     "2 a 12 anos: abaixo de 30 kg, 5 mL 1 vez ao dia; acima de 30 kg, 10 mL",
+     "2 anos"
+    ],
+    [
+     "Dexclorfeniramina (Polaramine®)",
+     "Gotas e solução oral",
+     "2 a 6 anos: 5 gotas ou 1,25 mL 3 vezes ao dia (máx. 3 mg/dia); 6 a 12 anos: 10 gotas ou 2,5 mL 3 vezes ao dia (máx. 6 mg/dia)",
+     "2 anos"
+    ],
+    [
+     "Mebendazol (Pantelmin®)",
+     "Suspensão 20 mg/mL",
+     "5 mL 2 vezes ao dia por 3 dias, independente de peso e idade",
+     "Abaixo de 2 anos só se o benefício justificar"
+    ],
+    [
+     "Albendazol (Zentel®)",
+     "Comprimido 400 mg",
+     "400 mg em dose única (ou por 3 a 5 dias, conforme o parasita)",
+     "Acima de 2 anos"
+    ],
+    [
+     "Simeticona (Luftal® gotas)",
+     "Gotas 75 mg/mL",
+     "Lactentes: 3 a 5 gotas 3 vezes ao dia; até 12 anos: 5 a 10 gotas 3 vezes ao dia",
+     "Sem idade mínima na bula"
+    ],
+    [
+     "Ivermectina (Revectina®)",
+     "Comprimido 6 mg",
+     "Por faixa de peso: 15 a 24 kg, meio comprimido; 25 a 35 kg, 1 comprimido; 36 a 50 kg, 1 e meio",
+     "Contraindicada abaixo de 15 kg ou de 5 anos"
+    ]
+   ],
+   "nota": "A dexclorfeniramina gotas também admite 1 gota a cada 2 kg, 3 vezes ao dia, dentro do máximo diário. Mesmo nos medicamentos de dose fixa, confira a idade, a concentração do produto entregue e o dosador."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m19-tab-preparo",
+   "titulo": "Preparo e validade das suspensões da calculadora",
+   "colunas": [
+    "Produto",
+    "Preparo",
+    "Depois de preparado",
+    "Frasco"
+   ],
+   "linhas": [
+    [
+     "Amoxil® 250 e 500 mg/5 mL",
+     "Água filtrada até a marca, em 2 etapas",
+     "14 dias em geladeira",
+     "150 mL"
+    ],
+    [
+     "Clavulin® 250 mg + 62,5 mg/5 mL",
+     "90 mL de água",
+     "7 dias em geladeira",
+     "100 mL"
+    ],
+    [
+     "Clavulin® BD",
+     "64 ou 62 mL (frasco de 70 mL); 124 mL (frasco de 140 mL)",
+     "7 dias em geladeira",
+     "70 ou 140 mL"
+    ],
+    [
+     "Astro® (azitromicina)",
+     "Todo o diluente da embalagem (9, 12 ou 22 mL)",
+     "5 dias entre 15 °C e 30 °C",
+     "15; 22,5; 37,5 mL utilizáveis"
+    ],
+    [
+     "Keflex® gotas",
+     "Água até a marca vermelha",
+     "14 dias em geladeira",
+     "15 ou 30 mL"
+    ],
+    [
+     "Keflex® 250 e 500 mg/5 mL",
+     "Prontas para uso",
+     "Conforme a validade do frasco",
+     "100 mL"
+    ],
+    [
+     "Cefamox®",
+     "Água até a linha do frasco, em porções",
+     "10 dias entre 15 °C e 30 °C ou 14 dias em geladeira",
+     "100 mL"
+    ],
+    [
+     "Klaricid®",
+     "Água até a flecha do rótulo",
+     "14 dias entre 15 °C e 30 °C, sem geladeira",
+     "60 mL"
+    ],
+    [
+     "Annita®",
+     "Água até a marca do rótulo",
+     "7 dias",
+     "45 ou 100 mL"
+    ]
+   ],
+   "nota": "Dados das bulas reproduzidas no portal Consulta Remédios (out. 2026). Para genéricos e similares, siga a bula do produto entregue."
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m19-fluxo-prescricao",
+   "titulo": "Conferir uma prescrição pediátrica",
+   "passos": [
+    {
+     "t": "Receber a receita e identificar o medicamento, a concentração e a forma farmacêutica",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Peso atual e idade da criança estão disponíveis?",
+     "tipo": "decisao",
+     "sim": "Anotar e seguir",
+     "nao": "Perguntar ao cuidador; se ninguém souber, pesar ou contatar o prescritor"
+    },
+    {
+     "t": "Idade e peso estão acima do mínimo da bula?",
+     "tipo": "decisao",
+     "sim": "Seguir",
+     "nao": "Não dispensar; contatar o prescritor"
+    },
+    {
+     "t": "Converter a concentração para mg/mL e calcular mg por tomada e mg por dia",
+     "tipo": "acao"
+    },
+    {
+     "t": "Dividir pelo peso: mg/kg/dose ou mg/kg/dia, conforme a bula",
+     "tipo": "acao"
+    },
+    {
+     "t": "A dose está na faixa da bula e abaixo dos tetos por tomada e por dia?",
+     "tipo": "decisao",
+     "sim": "Seguir para a quantidade",
+     "nao": "Refazer a conta; persistindo, ligar para o prescritor"
+    },
+    {
+     "t": "Nunca alterar dose, concentração ou intervalo sem a confirmação do prescritor",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Calcular volume total, número de frascos e validade após o preparo",
+     "tipo": "acao"
+    },
+    {
+     "t": "A quantidade da receita cobre o tratamento?",
+     "tipo": "decisao",
+     "sim": "Dispensar e registrar",
+     "nao": "Contatar o prescritor para ajustar a quantidade"
+    },
+    {
+     "t": "Orientar preparo, dosador, horários, conservação e descarte; escrever a dose na embalagem",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "id": "m19-check-suspensao",
+   "titulo": "Antes de entregar uma suspensão",
+   "itens": [
+    "Conferir se o fármaco e a concentração entregues são os da receita",
+    "Confirmar peso e idade da criança e anotar",
+    "Refazer o cálculo da dose em mg e em mL",
+    "Conferir faixa de mg/kg e tetos por tomada e por dia",
+    "Calcular o volume total e o número de frascos",
+    "Conferir se a validade após o preparo cobre os dias de uso de cada frasco",
+    "Verificar se o produto é pó para reconstituir ou suspensão pronta",
+    "Mostrar a marca de água no frasco e explicar as duas etapas",
+    "Escrever no rótulo a data do preparo e a data de descarte",
+    "Entregar o dosador do próprio produto e marcar nele a dose",
+    "Explicar se a suspensão vai ou não à geladeira",
+    "Orientar a agitar antes de cada dose",
+    "Pedir que o cuidador repita a dose e os horários",
+    "Para antimicrobiano: registrar a dispensação nas duas vias e reter a segunda"
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m19-cartoes",
+   "titulo": "Cartões de revisão",
+   "itens": [
+    {
+     "f": "Quantos mg/mL tem uma suspensão de 250 mg/5 mL?",
+     "v": "50 mg/mL (250 ÷ 5)."
+    },
+    {
+     "f": "Uma solução a 2% p/v tem quantos mg/mL?",
+     "v": "20 mg/mL (2 g em 100 mL)."
+    },
+    {
+     "f": "Fórmula do volume a administrar",
+     "v": "Dose desejada (mg) ÷ concentração (mg/mL)."
+    },
+    {
+     "f": "Diferença entre mg/kg/dose e mg/kg/dia",
+     "v": "A primeira é cada tomada; a segunda é o total de 24 horas, a dividir pelas tomadas."
+    },
+    {
+     "f": "Dose máxima de ibuprofeno para criança (Alivium®)",
+     "v": "200 mg por dose e 800 mg por dia."
+    },
+    {
+     "f": "Teto diário de paracetamol (Tylenol®)",
+     "v": "75 mg/kg e 4000 mg em 24 horas; no máximo 5 administrações."
+    },
+    {
+     "f": "Teto da azitromicina em crianças",
+     "v": "500 mg por dia e 1500 mg no tratamento inteiro."
+    },
+    {
+     "f": "Gotas por mL da Novalgina® gotas",
+     "v": "20 gotas/mL; cada gota tem 25 mg."
+    },
+    {
+     "f": "Gotas por mL do Tylenol® gotas",
+     "v": "14 a 16 gotas/mL (12,5 a 14,2 mg por gota)."
+    },
+    {
+     "f": "Gotas por mL do Alivium® gotas",
+     "v": "10 gotas/mL nas três concentrações (5, 10 ou 20 mg por gota)."
+    },
+    {
+     "f": "Por que a água de reconstituição é menor que o volume final?",
+     "v": "O pó ocupa volume; completa-se até a marca do frasco."
+    },
+    {
+     "f": "Validade do Clavulin® depois de preparado",
+     "v": "7 dias em geladeira."
+    },
+    {
+     "f": "Klaricid® preparado vai à geladeira?",
+     "v": "Não. Fica entre 15 °C e 30 °C por até 14 dias."
+    },
+    {
+     "f": "Keflex® 500 mg/5 mL precisa ser reconstituído?",
+     "v": "Não. As suspensões de 250 e 500 mg/5 mL vêm prontas; só as gotas são pó."
+    },
+    {
+     "f": "Quantas UI há numa caneta de Toujeo®?",
+     "v": "450 UI (1,5 mL de 300 UI/mL)."
+    },
+    {
+     "f": "Teste de segurança da caneta Toujeo®",
+     "v": "3 unidades antes de cada injeção; entra na conta da duração."
+    },
+    {
+     "f": "Prazo de uso do frasco aberto de Humulin® N",
+     "v": "28 dias, mesmo que sobre insulina."
+    },
+    {
+     "f": "Dipirona: idade e peso mínimos",
+     "v": "3 meses e 5 kg (Novalgina®)."
+    },
+    {
+     "f": "O que fazer quando a dose prescrita não bate",
+     "v": "Refazer a conta, contatar o prescritor e registrar; nunca alterar sozinho."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m19-questoes",
+   "titulo": "Questões de fixação com cálculo",
+   "itens": [
+    {
+     "p": "Mãe de criança de 16 kg pede orientação para dar paracetamol suspensão 32 mg/mL na dose de 15 mg/kg. Qual o volume por tomada?",
+     "alt": [
+      "3,75 mL",
+      "5 mL",
+      "7,5 mL",
+      "10 mL",
+      "12 mL"
+     ],
+     "c": 2,
+     "com": "Dose: 16 kg × 15 mg/kg = 240 mg. Volume: 240 ÷ 32 = 7,5 mL. 3,75 mL corresponde a 120 mg (7,5 mg/kg, abaixo da faixa de 10 a 15 mg/kg da bula do Tylenol®); 5 mL dá 160 mg (10 mg/kg, limite inferior); 10 e 12 mL passam de 15 mg/kg."
+    },
+    {
+     "p": "Receita de amoxicilina 250 mg/5 mL, 50 mg/kg/dia de 8 em 8 horas, para criança de 18 kg. Qual o volume por tomada?",
+     "alt": [
+      "3 mL",
+      "6 mL",
+      "9 mL",
+      "12 mL",
+      "18 mL"
+     ],
+     "c": 1,
+     "com": "Dose diária: 18 × 50 = 900 mg; por tomada: 900 ÷ 3 = 300 mg; volume: 300 ÷ 50 mg/mL = 6 mL. 18 mL resulta de aplicar 50 mg/kg em cada tomada, o triplo da dose. 3 mL usaria a concentração errada (100 mg/mL); 9 e 12 mL não correspondem a nenhuma leitura correta."
+    },
+    {
+     "p": "Receita de amoxicilina 500 mg/5 mL, 7 mL de 8 em 8 horas por 10 dias. A farmácia tem apenas frascos de 150 mL. Quantos frascos o tratamento exige?",
+     "alt": [
+      "1 frasco",
+      "3 frascos",
+      "4 frascos",
+      "2 frascos",
+      "5 frascos"
+     ],
+     "c": 3,
+     "com": "Volume diário: 7 × 3 = 21 mL; total: 21 × 10 = 210 mL; 210 ÷ 150 = 1,4, arredondado para 2 frascos. Um frasco acabaria no 8º dia. A bula do Amoxil® dá 14 dias de validade em geladeira, então cada frasco é usado dentro do prazo. A RDC 471/2021 (art. 11) pede que a dispensação atenda ao tratamento prescrito."
+    },
+    {
+     "p": "Receita: \"dipirona gotas 500 mg/mL, 12 gotas de 6 em 6 horas\" para criança de 12 kg. Com o gotejador da Novalgina® (20 gotas/mL), a conduta correta é:",
+     "alt": [
+      "dispensar, pois 12 gotas equivalem a 1 gota/kg",
+      "contatar o prescritor: a dose passa da bula",
+      "dispensar e orientar a dar 6 gotas",
+      "trocar pela solução de 50 mg/mL na mesma dose",
+      "dispensar, pois a dose é de 10 mg/kg"
+     ],
+     "c": 1,
+     "com": "Cada gota tem 25 mg; 12 gotas = 300 mg = 25 mg/kg por dose. Para 9 a 15 kg, a bula indica 3 a 10 gotas por dose e até 40 gotas/dia; a receita dá 48 gotas/dia. O farmacêutico contata o prescritor e não muda a dose por conta própria (por isso dar 6 gotas está errado). Trocar de apresentação sem receita também é alteração indevida, e 10 mg/kg seriam cerca de 5 gotas."
+    },
+    {
+     "p": "Criança de 15 kg com febre de 39,5 °C. O produto disponível é ibuprofeno gotas 200 mg/mL (Alivium®, 10 gotas/mL). Na dose de 10 mg/kg, quantas gotas por tomada?",
+     "alt": [
+      "7 a 8 gotas",
+      "15 gotas",
+      "30 gotas",
+      "3 gotas",
+      "75 gotas"
+     ],
+     "c": 0,
+     "com": "Dose: 15 × 10 = 150 mg; 150 ÷ 200 = 0,75 mL; 0,75 × 10 = 7,5 gotas, o que a bula resume como 1 gota a cada 2 kg. 15 gotas seria aplicar \"1 gota/kg\" (regra da apresentação de 100 mg/mL) e daria 300 mg, acima do teto de 200 mg por dose. 30 gotas seria a regra de 2 gotas/kg da de 50 mg/mL. Lembrar que, no Alivium®, a apresentação de 200 mg/mL é de venda sob prescrição."
+    },
+    {
+     "p": "Criança de 24 kg com receita de azitromicina 200 mg/5 mL, 10 mg/kg/dia por 3 dias. Qual a melhor opção de dispensação?",
+     "alt": [
+      "1 frasco de 600 mg",
+      "2 frascos de 900 mg",
+      "2 frascos de 600 mg",
+      "1 frasco de 1500 mg",
+      "1 frasco de 900 mg"
+     ],
+     "c": 4,
+     "com": "Dose diária: 240 mg = 6 mL; total: 720 mg = 18 mL. O frasco de 900 mg rende 22,5 mL utilizáveis e cobre o tratamento. O de 600 mg (15 mL) é insuficiente. Dois de 600 mg ou um de 1500 mg cobrem, mas deixam sobra maior; dois de 900 mg dobram a quantidade sem necessidade."
+    },
+    {
+     "p": "Paciente usa insulina glargina 300 UI/mL (Toujeo®, caneta de 1,5 mL), 27 UI uma vez ao dia, e faz o teste de segurança de 3 unidades antes de cada aplicação. Quantos dias dura uma caneta?",
+     "alt": [
+      "10 dias",
+      "15 dias",
+      "16 dias",
+      "17 dias",
+      "42 dias"
+     ],
+     "c": 1,
+     "com": "Caneta: 1,5 mL × 300 UI/mL = 450 UI. Gasto diário: 27 + 3 = 30 UI. 450 ÷ 30 = 15 dias. Ignorar o teste dá 16,7 dias. 42 dias é o prazo máximo de uso da caneta aberta segundo a bula, não a duração neste caso."
+    },
+    {
+     "p": "Paciente usa insulina NPH em frasco de 10 mL (100 UI/mL), 24 UI por dia. Por quanto tempo o frasco aberto pode ser usado, segundo a bula do Humulin® N?",
+     "alt": [
+      "41 dias, até acabar a insulina",
+      "6 semanas",
+      "28 dias, descartando a sobra",
+      "até a validade impressa no frasco",
+      "14 dias"
+     ],
+     "c": 2,
+     "com": "Pelo volume, 1000 UI ÷ 24 UI = 41,6 dias, mas a bula limita o frasco aberto a 28 dias abaixo de 30 °C. No 28º dia sobram cerca de 328 UI, que devem ser descartadas. Seis semanas é o prazo da caneta Toujeo®, outro produto. A validade impressa vale para o frasco fechado."
+    },
+    {
+     "p": "Criança de 16 kg com receita de amoxicilina + clavulanato BD 400 mg + 57 mg/5 mL, 45 mg/kg/dia de amoxicilina de 12 em 12 horas. Qual o volume por tomada?",
+     "alt": [
+      "2,25 mL",
+      "3 mL",
+      "6 mL",
+      "9 mL",
+      "4,5 mL"
+     ],
+     "c": 4,
+     "com": "Dose diária: 16 × 45 = 720 mg; por tomada: 360 mg; concentração: 400 ÷ 5 = 80 mg/mL; volume: 360 ÷ 80 = 4,5 mL. 9 mL é o volume do dia inteiro em uma tomada. 2,25 mL corresponde à metade da dose. A dose está na faixa de 25 a 45 mg/kg/dia da bula do Clavulin® BD."
+    },
+    {
+     "p": "Criança de 8 kg com receita de cefalexina 50 mg/kg/dia dividida de 6 em 6 horas. O produto é Keflex® gotas 100 mg/mL, cujo gotejador libera cerca de 22 gotas/mL. Quantas gotas por tomada?",
+     "alt": [
+      "11 gotas",
+      "20 gotas",
+      "22 gotas",
+      "44 gotas",
+      "5 gotas"
+     ],
+     "c": 2,
+     "com": "Dose diária: 8 × 50 = 400 mg; por tomada: 100 mg = 1 mL = cerca de 22 gotas (a tabela da bula traz o mesmo valor). 20 gotas resulta de supor 20 gotas/mL. 11 gotas é a dose de 25 mg/kg/dia; 44 gotas seria a dose de 12 em 12 horas."
+    },
+    {
+     "p": "Receita para criança de 10 kg: prednisolona solução oral 3 mg/mL, \"20 mL uma vez ao dia\". A bula indica 0,14 a 2 mg/kg/dia, máximo de 80 mg/dia. A conduta correta é:",
+     "alt": [
+      "dispensar, pois 60 mg está abaixo de 80 mg/dia",
+      "orientar 2 mL, provável intenção do médico",
+      "contatar o prescritor: dose de 6 mg/kg/dia",
+      "trocar para gotas de 11 mg/mL",
+      "dispensar e orientar a dividir em 3 tomadas"
+     ],
+     "c": 2,
+     "com": "20 mL × 3 mg/mL = 60 mg = 6 mg/kg/dia, três vezes o limite superior por peso, ainda que abaixo do teto absoluto de 80 mg/dia. A hipótese de erro de vírgula (2,0 mL) é provável, mas o farmacêutico não corrige sozinho: confirma com o prescritor e registra. Dividir a dose não muda o total diário."
+    },
+    {
+     "p": "O cliente pergunta quantos gramas de cloreto de sódio há em um frasco de 500 mL de solução a 0,9%. A resposta correta é:",
+     "alt": [
+      "0,45 g",
+      "4,5 g",
+      "45 g",
+      "0,9 g",
+      "9 g"
+     ],
+     "c": 1,
+     "com": "0,9% p/v = 0,9 g em 100 mL = 9 mg/mL. Em 500 mL: 9 × 500 = 4500 mg = 4,5 g. 0,9 g é o conteúdo de 100 mL; 9 g seria o de 1 litro; 0,45 g e 45 g erram a casa decimal por 10 vezes."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 471, de 23 de fevereiro de 2021 (arts. 6º e 11), com alterações da RDC nº 973, de 23 de abril de 2025. Texto consolidado consultado em out. 2026.",
+  "Anvisa. Resolução da Diretoria Colegiada RDC nº 80, de 11 de maio de 2006. Fracionamento de medicamentos em farmácias e drogarias.",
+  "Ministério da Saúde. Dengue: diagnóstico e manejo clínico, adulto e criança. 6ª ed. Brasília, 2024 (doses pediátricas de paracetamol e dipirona).",
+  "Magni AM, Scheffer DK, Bruniera P. Antipyretic effect of ibuprofen and dipyrone in febrile children. J Pediatr (Rio J). 2011;87(1):36-42.",
+  "ISMP Brasil. Erros de medicação associados a abreviaturas, siglas e símbolos. Boletim ISMP Brasil, v. 4, n. 2, jun. 2015 (conteúdo conferido por citação secundária; PDF não acessado).",
+  "Bulas consultadas em texto reproduzido no portal Consulta Remédios (consultaremedios.com.br), outubro de 2026: Tylenol® gotas, Bebê e Criança (Janssen-Cilag); paracetamol genérico; Novalgina® solução oral e gotas (Sanofi Medley); dipirona monoidratada genérica; Alivium® (Cosmed/Brainfarma); ibuprofeno genérico; Amoxil® (GlaxoSmithKline); amoxicilina genérica; Clavulin® e Clavulin® BD (GlaxoSmithKline); Zitromax® (Pfizer); Astro® (Eurofarma); Azi®; azitromicina genérica; Keflex® (Antibióticos do Brasil); cefalexina genérica; Cefamox® (Bristol-Myers Squibb); cefadroxila genérica; Klaricid® (Abbott); Bactrim® (Farmoquímica); sulfametoxazol + trimetoprima genérico; Prelone® (Aché); Predsim®; Annita® (Farmoquímica); nitazoxanida genérica; Flagyl®.",
+  "Bulas consultadas no mesmo portal para dose fixa e insulinas: Claritin® (Bayer), Polaramine®, Pantelmin® (Janssen-Cilag), Zentel® (GlaxoSmithKline), Luftal® (Reckitt Benckiser), Revectina® (Abbott), Toujeo® (Sanofi), Lantus® (Sanofi), Humulin® N (Eli Lilly), NovoRapid® (Novo Nordisk), Ozempic® (Novo Nordisk)."
+ ]
+}

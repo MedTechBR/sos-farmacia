@@ -1,8 +1,9 @@
 # SOS Farmácia Comercial
 
 Material para alunos do 9º e 10º semestres de Farmácia e farmacêuticos recém-formados.
-11 módulos, cada um com **Resumo para leitura**, **Mapa mental** e **Material de apoio**
-(tabelas, quadros, fluxos, checklists, modelos de receita, POPs, cartões e questões).
+14 módulos da rotina da farmácia comercial, cada um com **Resumo para leitura**, **Mapa mental** e **Material de apoio**
+(tabelas, quadros, fluxos, checklists, modelos de receita, POPs, simuladores de tela, cartões e questões),
+mais a **Calculadora de dose** e o **Bulário** (grupo Ferramentas da barra lateral).
 
 ## O arquivo
 

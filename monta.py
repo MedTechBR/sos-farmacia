@@ -16,19 +16,19 @@ MARCA_MONTAGEM = os.path.join(RAIZ, 'docs', '.ultima_montagem')
 TABLER_CSS = os.path.expanduser('~/Documents/Claude/_trabalho/site/vendor/tabler/tabler-icons.min.css')
 TABLER_WOFF = os.path.expanduser('~/Documents/Claude/_trabalho/site/vendor/tabler/fonts/tabler-icons.woff2')
 
-MODULOS = {  # cor (paleta do FarmaUTI), ícone Tabler e nome curto da barra lateral
-    'm01': ('#2F7BF6', 'pill', 'Isentos de prescrição (MIP)'), 'm02': ('#F76E1E', 'lock', 'Portaria 344/98'),
-    'm03': ('#8E5AF2', 'flask', 'Farmacologia geral'), 'm04': ('#E5484D', 'heartbeat', 'Cardiovascular e renal'),
-    'm05': ('#11A870', 'droplet', 'Sistema endócrino'), 'm06': ('#E8468E', 'bandage', 'AINEs, corticoides e antialérgicos'),
-    'm07': ('#0E9384', 'lungs', 'Sistema respiratório'), 'm08': ('#E89A00', 'prescription', 'RDC 471/2021'),
-    'm09': ('#5B5BF0', 'arrows-exchange', 'Interações medicamentosas'), 'm10': ('#4D9A12', 'clipboard-list', 'POPs'),
-    'm11': ('#0AA5C2', 'temperature-snow', 'Termolábeis e armazenamento'),
-    'm12': ('#3E5BD8', 'cloud-upload', 'Passo a passo do SNGPC'),
+MODULOS = {  # cor (paleta do FarmaUTI), ícone Tabler e nome curto da barra lateral; ids antigos mantidos (progresso salvo)
+    'm13': ('#5B5BF0', 'gavel', 'Legislação farmacêutica'), 'm02': ('#F76E1E', 'lock', 'Portaria 344/98'),
+    'm08': ('#E89A00', 'prescription', 'RDC 471/2021'), 'm11': ('#0AA5C2', 'temperature-snow', 'Termolábeis e armazenamento'),
+    'm12': ('#3E5BD8', 'cloud-upload', 'Passo a passo do SNGPC'), 'm14': ('#E5484D', 'shield-check', 'Vigilância sanitária'),
+    'm10': ('#4D9A12', 'clipboard-list', 'POPs'), 'm15': ('#8E5AF2', 'layout-columns', 'Prateleiras e validade'),
+    'm16': ('#0E9384', 'barcode', 'Código MS e DCB'), 'm17': ('#1F6FEB', 'device-desktop', 'Trier Sistemas'),
+    'm18': ('#E8468E', 'stethoscope', 'Serviços clínicos'), 'm01': ('#2F7BF6', 'pill', 'Isentos de prescrição (MIP)'),
+    'm19': ('#11A870', 'calculator', 'Calculadora de dose'), 'm20': ('#B7791F', 'book-2', 'Bulário'),
 }
 GERAL_PADRAO = {
     'titulo': 'SOS Farmácia Comercial',
     'subtitulo': 'Material de estudo e consulta para alunos do 9º e 10º semestres de Farmácia e farmacêuticos recém-formados. '
-                 'Onze módulos, cada um com resumo para leitura, mapas mentais e material de apoio.',
+                 'Catorze módulos da rotina da farmácia comercial, cada um com resumo para leitura, mapas mentais e material de apoio.',
     'config': {'marca': 'SOS Farmácia Comercial', 'marca2': ''},
 }
 

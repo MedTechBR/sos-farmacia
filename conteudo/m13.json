@@ -1,0 +1,696 @@
+{
+ "id": "m13",
+ "num": 1,
+ "titulo": "Legislação farmacêutica",
+ "escopo": "Hierarquia das normas e órgãos que regulam a farmácia comercial; Lei 5.991/1973 e Decreto 74.170/1974, Lei 6.360/1976 e Decreto 8.077/2013, Lei 6.437/1977, Lei 13.021/2014, genéricos e intercambialidade (Lei 9.787/1999, RDC 16/2007, RDC 58/2014), RDC 44/2009, AFE (RDC 275/2019), fracionamento, propaganda e venda remota, preços (Lei 10.742/2003, CMED) e CDC, LGPD e ética profissional (Res. CFF 724/2022 e 721/2022), conferidos em outubro de 2026.",
+ "topicos": [
+  {
+   "id": "m13-hierarquia",
+   "titulo": "Hierarquia das normas e órgãos reguladores",
+   "resumo": "<p>A farmácia comercial obedece a um conjunto grande de normas, editadas por órgãos diferentes. Quem entende a hierarquia sabe qual regra prevalece quando duas parecem conflitar, a quem recorrer em caso de dúvida e quem pode fiscalizar e punir. A lógica é simples: a norma de nível inferior regulamenta a superior e não pode contrariá-la.</p><h3>Hierarquia das normas</h3><div class=\"tab\"><table><thead><tr><th>Nível</th><th>Quem edita</th><th>Exemplos na farmácia</th></tr></thead><tbody><tr><td>Constituição Federal (1988)</td><td>Congresso, como poder constituinte</td><td>Saúde como direito de todos e dever do Estado (art. 196); SUS executa a vigilância sanitária (art. 200, II); defesa do consumidor (art. 5º, XXXII)</td></tr><tr><td>Lei federal</td><td>Congresso Nacional, com sanção do Presidente</td><td>Lei 5.991/1973, Lei 6.360/1976, Lei 6.437/1977, Lei 9.787/1999, Lei 13.021/2014, CDC, LGPD</td></tr><tr><td>Decreto</td><td>Presidente da República, para regulamentar lei</td><td>Decreto 74.170/1974 (regulamenta a Lei 5.991), Decreto 8.077/2013 (regulamenta a Lei 6.360), Decreto 85.878/1981 (atribuições do farmacêutico)</td></tr><tr><td>Resolução e instrução normativa da Anvisa</td><td>Diretoria Colegiada da Anvisa</td><td>RDC 44/2009 (boas práticas), RDC 275/2019 (AFE), RDC 96/2008 (propaganda), IN 285/2024 (lista de MIP)</td></tr><tr><td>Portaria</td><td>Ministério da Saúde e suas secretarias</td><td>Portaria SVS/MS 344/1998 (controlados), atualizada por RDC</td></tr><tr><td>Resolução de conselho profissional</td><td>Conselho Federal de Farmácia (CFF)</td><td>Res. CFF 724/2022 (Código de Ética), Res. CFF 721/2022 (responsabilidade técnica)</td></tr><tr><td>Norma estadual e municipal</td><td>Assembleias, câmaras, secretarias de saúde</td><td>Código sanitário, validade da licença, plantão por rodízio, regras locais de licenciamento</td></tr></tbody></table></div><p>Duas consequências práticas. Primeiro, uma RDC não pode criar obrigação que contrarie lei; quando a lei muda, a RDC precisa ser lida à luz da nova redação. Segundo, as resoluções do CFF regulam o <b>exercício profissional</b> do farmacêutico, e não o funcionamento sanitário do estabelecimento. Uma resolução do CFF pode punir eticamente o profissional, mas quem interdita a loja é a vigilância sanitária.</p><p>Estados e municípios também legislam. A Constituição dá competência concorrente à União, aos estados e ao Distrito Federal sobre proteção e defesa da saúde (art. 24, XII) e permite ao município legislar sobre assunto local e suplementar a legislação federal e estadual (art. 30, I e II). A Lei 5.991/1973 confirma esse desenho: o licenciamento é feito pelo órgão sanitário estadual conforme a legislação supletiva local (art. 21) e o plantão por rodízio segue normas estaduais e municipais (art. 56).</p><h3>Sistema Nacional de Vigilância Sanitária</h3><p>O Sistema Nacional de Vigilância Sanitária (SNVS) é o conjunto de órgãos da União, dos estados, do Distrito Federal e dos municípios que regulam, normatizam, controlam e fiscalizam produtos e serviços de interesse da saúde (Lei 9.782/1999, art. 1º). A mesma lei criou a Anvisa, autarquia sob regime especial vinculada ao Ministério da Saúde (art. 3º), a quem compete, entre outras coisas, autorizar o funcionamento de empresas de fabricação, distribuição e importação e de comercialização de medicamentos (art. 7º, VII). Daí vem a AFE da farmácia.</p><div class=\"tab\"><table><thead><tr><th>Órgão</th><th>Papel</th><th>O que significa para a farmácia</th></tr></thead><tbody><tr><td>Anvisa</td><td>Coordena o SNVS, edita RDC e IN, registra medicamentos, concede AFE e AE</td><td>Define as regras nacionais de boas práticas, controlados, antimicrobianos e propaganda</td></tr><tr><td>VISA estadual e municipal</td><td>Licencia e inspeciona os estabelecimentos</td><td>Emite a licença (alvará) sanitária, inspeciona a loja, lavra auto de infração</td></tr><tr><td>CFF</td><td>Órgão supremo dos conselhos, edita resoluções e o Código de Ética (Lei 3.820/1960, arts. 2º e 6º)</td><td>Define atribuições e deveres éticos do farmacêutico</td></tr><tr><td>CRF</td><td>Registra profissionais, fiscaliza o exercício da profissão e pune infrações (Lei 3.820/1960, art. 10)</td><td>Emite a certidão de regularidade e verifica a presença do farmacêutico</td></tr><tr><td>CMED</td><td>Regula o mercado de medicamentos e fixa critérios de preço (Lei 10.742/2003, arts. 5º e 6º)</td><td>Publica o PMC; exige lista de preços à disposição do consumidor</td></tr><tr><td>Procon e ANPD</td><td>Defesa do consumidor; proteção de dados pessoais</td><td>Preço, informação, cadastro com CPF, uso de dados de saúde</td></tr></tbody></table></div><div class=\"cx lei\"><b>O que diz a norma</b><p>\"O Sistema Nacional de Vigilância Sanitária compreende o conjunto de ações definido pelo § 1º do art. 6º e pelos arts. 15 a 18 da Lei nº 8.080, de 19 de setembro de 1990, executado por instituições da Administração Pública direta e indireta da União, dos Estados, do Distrito Federal e dos Municípios\" (Lei 9.782/1999, art. 1º).</p></div><h3>Duas fiscalizações diferentes</h3><p>A vigilância sanitária fiscaliza o <b>estabelecimento e os produtos</b>: estrutura, armazenamento, documentos, dispensação, receitas, escrituração. O CRF fiscaliza o <b>exercício profissional</b>: se há farmacêutico habilitado, se ele está presente no horário declarado, se cumpre o Código de Ética. Quando a VISA encontra infração ética, comunica o CRF (Lei 5.991/1973, art. 52). O CRF, por sua vez, envia às autoridades competentes os fatos que não sejam de sua alçada (Lei 3.820/1960, art. 10, c).</p><p>Somente quem está inscrito no CRF pode exercer atividade farmacêutica (Lei 3.820/1960, art. 13), e a empresa que explora serviço que exige farmacêutico precisa provar ao conselho que a atividade é exercida por profissional habilitado e registrado (art. 24). Os temas de controlados e antimicrobianos têm módulos próprios (ver os módulos da Portaria 344/98 e da RDC 471/2021).</p><div class=\"cx balcao\"><b>No balcão</b><p>Diante de uma regra que você não conhece, faça três perguntas: qual é a norma, quem a editou e se ela segue vigente. O texto consolidado das normas da Anvisa fica no AnvisaLegis; leis e decretos, no portal do Planalto; resoluções do CFF, no Diário Oficial da União e no site do conselho. Apostila e grupo de mensagens não são fonte.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Fiscal do CRF chega às 20h e encontra a drogaria aberta só com balconistas. A farmacêutica declarou ao CRF o horário das 8h às 18h. A loja responde perante a VISA por funcionar sem farmacêutico (Lei 13.021/2014, art. 6º, I), e a profissional não cometeu falta ética, porque o horário descoberto não era o dela. O problema está na escala: faltava um segundo farmacêutico anotado no CRF para cobrir o horário estendido (Res. CFF 721/2022, art. 3º).</p></div>"
+  },
+  {
+   "id": "m13-comercio",
+   "titulo": "Comércio farmacêutico: Lei 5.991/1973 e Decreto 74.170/1974",
+   "resumo": "<p>A Lei 5.991/1973 é a lei-base do comércio de medicamentos. Ela define os tipos de estabelecimento, diz quem pode dispensar, trata da responsabilidade técnica, do licenciamento e do receituário. Seu regulamento é o Decreto 74.170/1974, que segue em vigor com alterações. Parte dos dispositivos foi revogada ou ganhou nova redação ao longo de 50 anos, por isso a leitura deve ser feita no texto compilado do Planalto.</p><h3>Definições que caem em prova</h3><div class=\"tab\"><table><thead><tr><th>Estabelecimento</th><th>Definição legal (art. 4º)</th><th>Pode manipular?</th><th>Dispensa medicamento?</th></tr></thead><tbody><tr><td>Farmácia</td><td>Manipulação de fórmulas magistrais e oficinais e comércio de drogas, medicamentos, insumos e correlatos, incluindo dispensação (inciso X)</td><td>Sim</td><td>Sim</td></tr><tr><td>Drogaria</td><td>Dispensação e comércio de drogas, medicamentos, insumos e correlatos em suas embalagens originais (inciso XI)</td><td>Não</td><td>Sim, em embalagem original</td></tr><tr><td>Ervanaria</td><td>Dispensação de plantas medicinais (inciso XII)</td><td>Não</td><td>Só plantas medicinais</td></tr><tr><td>Posto de medicamentos e unidade volante</td><td>Venda exclusiva de industrializados em embalagem original, de relação oficial, em localidade sem farmácia ou drogaria (inciso XIII)</td><td>Não</td><td>Só os da relação</td></tr><tr><td>Dispensário de medicamentos</td><td>Setor de fornecimento de industrializados, privativo de pequena unidade hospitalar (inciso XIV)</td><td>Não</td><td>Só aos pacientes da unidade</td></tr></tbody></table></div><p>A Lei 13.021/2014 manteve a mesma divisão com outros nomes: farmácia sem manipulação ou drogaria e farmácia com manipulação (art. 3º, parágrafo único). <b>Dispensação</b> é o ato de fornecer ao consumidor drogas, medicamentos, insumos e correlatos, remunerado ou não (Lei 5.991/1973, art. 4º, XV).</p><div class=\"cx lei\"><b>O que diz a norma</b><p>\"A dispensação de medicamentos é privativa de: a) farmácia; b) drogaria; c) posto de medicamento e unidade volante; d) dispensário de medicamentos.\" (Lei 5.991/1973, art. 6º). O comércio de drogas, medicamentos e insumos é privativo das empresas e estabelecimentos definidos na lei (art. 5º).</p></div><h3>O que a drogaria pode vender e fazer</h3><ul><li>Medicamentos industrializados em embalagem original, isentos ou sob prescrição, inclusive controlados, conforme as atividades da AFE e da licença.</li><li>Correlatos permitidos por lei: aparelhos e acessórios, produtos para diagnóstico, higiene pessoal e de ambiente, cosméticos, perfumes, dietéticos, produtos óticos, de acústica médica, odontológicos e veterinários (Lei 5.991/1973, art. 5º, §1º; Decreto 74.170/1974, art. 4º).</li><li>Medicamentos fracionados a partir de embalagem fracionável (Decreto 74.170/1974, art. 9º, parágrafo único, redação do Decreto 5.775/2006; RDC 80/2006, art. 1º).</li><li>Serviços farmacêuticos previstos na RDC 44/2009 e indicados na licença sanitária (art. 61, §§3º e 4º).</li></ul><p>A drogaria <b>não</b> manipula, não pode captar receitas de fórmulas magistrais e oficinais para outra empresa, nem mesmo para filial da mesma rede (Lei 5.991/1973, art. 36, §1º; RDC 44/2009, art. 50), e não dispensa plantas medicinais, privativas de farmácias e ervanarias (Lei 5.991/1973, art. 7º). Para comércio de alimentos e serviços, a RDC 275/2019 remete à RDC 44/2009 e à IN 9/2009 (art. 7º). Artigos de conveniência dependem também de lei estadual; a resposta muda conforme o estado.</p><h3>Supermercados: Lei 15.357/2026</h3><p>A Lei 15.357, de 20 de março de 2026, acrescentou os §§2º a 7º ao art. 6º da Lei 5.991/1973. Ela permite instalar farmácia ou drogaria <b>na área de venda de supermercados</b>, em ambiente delimitado, segregado e exclusivo, operada diretamente pelo supermercado ou por contrato com farmácia licenciada. As exigências são as mesmas de qualquer farmácia:</p><ul><li>presença de farmacêutico durante todo o horário de funcionamento (§3º);</li><li>controlado só é entregue após o pagamento, ou vai do balcão ao caixa em embalagem lacrada, inviolável e identificável (§4º);</li><li>é vedado oferecer medicamento em bancadas, estandes ou gôndolas fora do espaço da farmácia (§5º);</li><li>aplicam-se integralmente a Lei 5.991/1973, a Lei 13.021/2014 e a Lei 6.360/1976 (§7º).</li></ul><p>A mesma lei permitiu que farmácias e drogarias licenciadas contratem canais digitais e plataformas de comércio eletrônico para logística e entrega, desde que cumpram a regulamentação sanitária (§6º). Supermercado sem farmácia instalada continua sem poder vender medicamento: a dispensação segue privativa dos estabelecimentos do art. 6º.</p><h3>Licença, endereço e funcionamento</h3><div class=\"tab\"><table><thead><tr><th>Regra</th><th>Artigo da Lei 5.991/1973</th></tr></thead><tbody><tr><td>Comércio e dispensação só por estabelecimento licenciado pelo órgão sanitário estadual, conforme legislação supletiva</td><td>Art. 21</td></tr><tr><td>Pedido de licença instruído com constituição da empresa, contrato com o responsável técnico e prova de habilitação expedida pelo CRF</td><td>Art. 22</td></tr><tr><td>Validade da licença fixada pela autoridade sanitária local conforme o risco das atividades</td><td>Art. 25 (redação da Lei 13.097/2015)</td></tr><tr><td>Mudança de endereço exige licença prévia</td><td>Art. 28</td></tr><tr><td>Estabelecimento fechado por mais de 120 dias tem a licença cancelada</td><td>Art. 33</td></tr><tr><td>Filial é considerada autônoma para licenciamento e responsabilidade</td><td>Art. 34</td></tr><tr><td>Proibido usar dependência da farmácia como consultório ou para fim diverso do licenciado</td><td>Art. 55</td></tr><tr><td>Plantão obrigatório por rodízio, conforme norma estadual e municipal</td><td>Art. 56</td></tr></tbody></table></div><h3>Receituário na lei</h3><p>A receita só será aviada se estiver escrita no vernáculo, sem abreviações, legível, com nomenclatura e pesos e medidas oficiais; com nome e endereço do paciente e modo de usar; e com data, assinatura, endereço e inscrição do profissional no conselho (art. 35, I a III, redação da Lei 14.063/2020). O receituário vale em todo o território nacional, inclusive o de controlados, nos termos da regulação (§1º). Receita eletrônica exige assinatura eletrônica avançada ou qualificada, e a de controlados exige a qualificada (§§2º e 3º). Quando a dose ultrapassar os limites farmacológicos ou houver incompatibilidade, o responsável técnico solicita confirmação expressa ao prescritor (art. 41).</p><div class=\"cx balcao\"><b>No balcão</b><p>Cliente apresenta receita de clínica de outro estado. A origem não invalida a receita (art. 35, §1º). Confira os requisitos do art. 35 e, se for controlado, as regras próprias da Portaria 344/98 e da RDC 1.000/2025 (ver o módulo da Portaria 344/98).</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Uma drogaria de bairro recebe de uma cliente a receita de uma pomada manipulada e oferece \"mandar fazer\" na farmácia de manipulação parceira, devolvendo o produto pronto no dia seguinte. A prática é captação de receita magistral, vedada mesmo entre filiais da mesma empresa (Lei 5.991/1973, art. 36, §1º; RDC 44/2009, art. 50). O correto é orientar a cliente a levar a receita diretamente a uma farmácia com manipulação.</p></div>"
+  },
+  {
+   "id": "m13-produtos-infracoes",
+   "titulo": "Registro, rotulagem e infrações sanitárias",
+   "resumo": "<p>Antes de chegar à prateleira, o medicamento passa por duas exigências: a empresa precisa estar autorizada e o produto precisa estar registrado. Essas regras estão na Lei 6.360/1976, a lei da vigilância sanitária de produtos. As punições por descumprir qualquer norma sanitária estão na Lei 6.437/1977.</p><h3>Lei 6.360/1976 e seu regulamento</h3><p>A lei submete à vigilância sanitária medicamentos, drogas, insumos, correlatos, cosméticos, produtos de higiene, perfumes e saneantes (art. 1º). Só empresas autorizadas e com estabelecimento licenciado podem fabricar, fracionar, embalar, armazenar ou expedir esses produtos (art. 2º). O regulamento vigente é o <b>Decreto 8.077/2013</b>, que revogou o antigo Decreto 79.094/1977 (art. 25). Ele exige autorização da Anvisa e licenciamento local para o funcionamento das empresas (art. 2º) e remete à Lei 6.437/1977 a responsabilização por infração (art. 24).</p><div class=\"cx lei\"><b>O que diz a norma</b><p>\"Nenhum dos produtos de que trata esta Lei, inclusive os importados, poderá ser industrializado, exposto à venda ou entregue ao consumo antes de registrado no Ministério da Saúde.\" (Lei 6.360/1976, art. 12). Hoje o registro é concedido pela Anvisa, com prazo de renovação definido por ela, não superior a 10 anos (art. 12, §1º).</p></div><div class=\"tab\"><table><thead><tr><th>Dispositivo</th><th>O que regula</th><th>Ponto que cai no balcão</th></tr></thead><tbody><tr><td>Art. 3º, XX a XXV</td><td>Definições de similar, genérico, referência, intercambiável, bioequivalência e biodisponibilidade</td><td>Base legal da troca de medicamento (tópico de genéricos)</td></tr><tr><td>Art. 12</td><td>Registro prévio obrigatório</td><td>Produto sem registro não pode ser exposto nem vendido</td></tr><tr><td>Art. 57, §1º</td><td>DCB ou DCI com letras de tamanho nunca inferior à metade do nome comercial, inclusive em material promocional</td><td>Ajuda o cliente a identificar o princípio ativo</td></tr><tr><td>Art. 57, §2º</td><td>Rótulos que se diferenciem e inibam erro de dispensação</td><td>Embalagens parecidas exigem conferência dupla</td></tr><tr><td>Art. 57, §3º</td><td>Alerta para substâncias proibidas pelo Código Mundial Antidopagem (Lei 14.806/2024)</td><td>Orientar atletas que perguntam sobre doping</td></tr><tr><td>Art. 58, §1º</td><td>Propaganda de medicamento sob prescrição restrita a publicações para médicos, dentistas e farmacêuticos</td><td>Cartaz de tarjado na vitrine é irregular</td></tr><tr><td>Art. 59</td><td>Proíbe rotulagem ou propaganda que induza a erro sobre natureza, composição ou finalidade</td><td>Atenção a produtos com promessas terapêuticas</td></tr><tr><td>Art. 79</td><td>Informes de acidentes ou reações nocivas devem ser transmitidos à autoridade sanitária</td><td>Notificar no VigiMed</td></tr></tbody></table></div><p>Consultar o registro é rotina simples: o número aparece na embalagem e pode ser conferido na consulta de medicamentos do portal da Anvisa, que informa titular, apresentações, categoria de venda e situação do registro. Isso resolve dúvidas sobre produto importado, cancelado ou vendido por fornecedor desconhecido.</p><h3>Lei 6.437/1977: infrações e penalidades</h3><p>Essa lei tipifica as infrações à legislação sanitária federal e fixa as penas. As regras de classificação, valores de multa e prazos do processo administrativo estão detalhadas no módulo da Portaria 344/98. Aqui interessam as infrações mais comuns no comércio farmacêutico.</p><div class=\"tab\"><table><thead><tr><th>Art. 10</th><th>Conduta</th><th>Exemplo na farmácia</th></tr></thead><tbody><tr><td>I e IV</td><td>Fazer funcionar estabelecimento ou comercializar produto sem licença, registro ou autorização, ou contrariando a legislação</td><td>Loja aberta com licença vencida; venda de produto sem registro</td></tr><tr><td>X</td><td>Obstar ou dificultar a ação fiscalizadora</td><td>Recusar acesso ao estoque ou aos registros</td></tr><tr><td>XI</td><td>Aviar receita em desacordo com a prescrição ou com a norma</td><td>Trocar medicamento fora das regras de intercambialidade</td></tr><tr><td>XII</td><td>Vender medicamento que depende de prescrição sem observar essa exigência</td><td>Venda de tarjado sem receita</td></tr><tr><td>XVIII</td><td>Expor à venda ou entregar produto vencido, ou apor nova data</td><td>Vencido misturado ao estoque de venda</td></tr><tr><td>XXV e XXVI</td><td>Exercer profissão de saúde sem habilitação ou confiar o encargo a pessoa não habilitada</td><td>Balconista que indica e dispensa como se fosse farmacêutico</td></tr><tr><td>XXIX</td><td>Transgredir outras normas legais e regulamentares de proteção da saúde</td><td>Descumprir a RDC 44/2009 (art. 99 da própria RDC remete à Lei 6.437/1977)</td></tr></tbody></table></div><p>As penas vão de advertência e multa a apreensão e inutilização de produto, interdição, cancelamento de autorização e de licença, aplicadas de forma isolada ou cumulativa (art. 2º). A responsabilidade sanitária não exclui a civil, a penal e a ética. O mesmo fato pode gerar auto de infração da VISA, processo ético no CRF e ação do consumidor.</p><div class=\"cx alerta\"><b>Atenção</b><p>Produto vencido na área de venda é infração própria (Lei 6.437/1977, art. 10, XVIII) e produto impróprio ao consumo pelo CDC (Lei 8.078/1990, art. 18, §6º, I). Além disso, a RDC 44/2009 proíbe dispensar medicamento cuja posologia não possa ser concluída dentro do prazo de validade (art. 51, §2º).</p></div><div class=\"cx balcao\"><b>No balcão</b><p>Representante oferece lote de dermocosmético \"importado direto\" a preço muito baixo, sem nota fiscal. Recuse: o Código de Ética manda recusar produto sem registro ou notificação na Anvisa, sem rastreabilidade ou sem documento fiscal (Res. CFF 724/2022, art. 15, II), e a compra configura infração sanitária (Lei 6.437/1977, art. 10, IV).</p></div>"
+  },
+  {
+   "id": "m13-lei13021",
+   "titulo": "Lei 13.021/2014: a farmácia como unidade de saúde",
+   "resumo": "<p>A Lei 13.021/2014 trata do exercício e da fiscalização das atividades farmacêuticas. Ela mudou o modo como a lei enxerga a farmácia: deixou de ser apenas um ponto de comércio e passou a ser uma unidade de prestação de serviços de saúde. Tramitou no Congresso de 1993 a 2014 (PL 41/1993 no Senado) e foi sancionada com vetos.</p><div class=\"cx lei\"><b>O que diz a norma</b><p>\"Farmácia é uma unidade de prestação de serviços destinada a prestar assistência farmacêutica, assistência à saúde e orientação sanitária individual e coletiva, na qual se processe a manipulação e/ou dispensação de medicamentos magistrais, oficinais, farmacopeicos ou industrializados, cosméticos, insumos farmacêuticos, produtos farmacêuticos e correlatos.\" (Lei 13.021/2014, art. 3º)</p></div><h3>Dispositivos principais</h3><div class=\"tab\"><table><thead><tr><th>Artigo</th><th>Conteúdo</th><th>Consequência prática</th></tr></thead><tbody><tr><td>Art. 2º</td><td>Define assistência farmacêutica: ações e serviços para assistência terapêutica integral, com o medicamento como insumo essencial e visando ao uso racional</td><td>Base para os serviços clínicos na farmácia comercial</td></tr><tr><td>Art. 3º, parágrafo único</td><td>Classifica as farmácias em sem manipulação (drogaria) e com manipulação</td><td>Drogaria passa a ser uma espécie de farmácia</td></tr><tr><td>Art. 5º</td><td>Farmácia de qualquer natureza exige responsabilidade e assistência técnica de farmacêutico habilitado</td><td>Não há farmácia sem farmacêutico</td></tr><tr><td>Art. 6º</td><td>Exige autorização e licenciamento, presença do farmacêutico durante todo o horário (I), localização sanitária conveniente (II), equipamentos para imunobiológicos (III) e equipamentos exigidos pela vigilância (IV)</td><td>Escala de farmacêuticos cobre 100% do horário</td></tr><tr><td>Art. 7º</td><td>Farmácias podem dispor de medicamentos, vacinas e soros conforme o perfil epidemiológico da região</td><td>Fundamento para vacinação em farmácia, com a regulação sanitária própria</td></tr><tr><td>Art. 10</td><td>Farmacêutico e proprietário agem solidariamente pelo uso racional</td><td>Responsabilidade compartilhada</td></tr><tr><td>Art. 11</td><td>O proprietário não pode desautorizar ou desconsiderar orientações técnicas do farmacêutico; deve dar condições de trabalho</td><td>Meta de venda não se sobrepõe à decisão técnica</td></tr><tr><td>Art. 12</td><td>Na baixa do farmacêutico, contratar outro em até 30 dias</td><td>Prazo para substituir o profissional que saiu</td></tr><tr><td>Art. 13</td><td>Deveres do farmacêutico: notificar reações adversas e intoxicações, manter cadastro técnico, acompanhamento e perfil farmacoterapêutico, orientar o paciente</td><td>Farmacovigilância e orientação são obrigações legais</td></tr><tr><td>Art. 14</td><td>Na dispensação, observar os aspectos técnicos e legais do receituário</td><td>Conferência da receita é dever do farmacêutico</td></tr><tr><td>Art. 16</td><td>Fiscal farmacêutico não pode ser RT, proprietário ou sócio de estabelecimento farmacêutico</td><td>Imparcialidade da fiscalização</td></tr></tbody></table></div><h3>Vetos e o que ficou de fora</h3><p>A Mensagem de veto nº 232/2014 vetou quatro artigos. Conhecer o veto ajuda a entender por que algumas regras que circulam como \"previstas na lei\" não existem.</p><div class=\"tab\"><table><thead><tr><th>Dispositivo vetado</th><th>O que dizia</th><th>Razão do veto</th></tr></thead><tbody><tr><td>Art. 9º</td><td>Somente farmácias poderiam dispensar medicamentos, cosméticos com indicação terapêutica, fórmulas e fitoterápicos</td><td>Restringiria postos e dispensários em regiões isoladas; o conceito de cosmético com indicação terapêutica não existe na legislação</td></tr><tr><td>Art. 15</td><td>Fiscalização dos estabelecimentos exercida pelo fiscal farmacêutico</td><td>Interferiria na competência sanitária de estados e municípios</td></tr><tr><td>Art. 17</td><td>Postos, dispensários e unidades volantes teriam 3 anos para virar farmácia</td><td>Mesma razão do art. 9º</td></tr><tr><td>Art. 18</td><td>Vigência na data da publicação</td><td>Dar 45 dias de adaptação</td></tr></tbody></table></div><p>Por causa do veto ao art. 9º, postos de medicamentos e dispensários continuam regidos pela Lei 5.991/1973. Por causa do veto ao art. 15, a fiscalização sanitária segue com a VISA; o CRF fiscaliza o exercício profissional.</p><p>Logo após a sanção, a Medida Provisória 653/2014 incluiu um parágrafo no art. 6º que estendia às farmácias enquadradas como microempresa ou empresa de pequeno porte o art. 15 da Lei 5.991/1973 (técnico responsável). A MP não foi convertida em lei e sua vigência se encerrou; o texto compilado registra o dispositivo como sem vigência.</p><h3>Relação com a Lei 5.991/1973</h3><p>A Lei 13.021/2014 não revogou a Lei 5.991/1973; as duas convivem. Onde há sobreposição, a lei mais nova e mais específica orienta a leitura. A Lei 5.991/1973 ainda admite o funcionamento por até 30 dias sem responsável técnico ou substituto, período em que não podem ser vendidos medicamentos sujeitos a controle especial nem aviadas fórmulas (art. 17). A Lei 13.021/2014 exige farmacêutico presente durante todo o horário (art. 6º, I) e dá 30 dias para contratar novo profissional após a baixa (art. 12). Na prática da VISA e do CRF, a loja sem farmacêutico no horário está irregular.</p><div class=\"cx chave\"><b>Ponto-chave</b><p>A lei chama a farmácia de unidade de assistência à saúde e impõe ao farmacêutico deveres clínicos (art. 13). Na fiscalização e na prova, a pergunta central costuma ser se havia farmacêutico presente, se ele orientou e se notificou o que devia notificar.</p></div><div class=\"cx balcao\"><b>No balcão</b><p>O gerente pede para \"segurar\" a recusa de uma venda de antigripal a um hipertenso descompensado, porque a loja está abaixo da meta. A decisão técnica é sua: o proprietário não pode desautorizar a orientação do farmacêutico (Lei 13.021/2014, art. 11). Explique ao cliente o motivo, ofereça alternativa segura e registre o atendimento.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>A única farmacêutica de uma drogaria pede demissão e sai no mesmo dia. O dono quer manter a loja aberta \"vendendo só o que não precisa de receita\" até contratar outra. A Lei 5.991/1973 proíbe vender controlados nesse intervalo (art. 17), mas a Lei 13.021/2014 exige farmacêutico durante todo o horário (art. 6º, I), inclusive para dispensar MIP. A conduta correta é contratar farmacêutico substituto ou reduzir o horário, comunicar o CRF e a VISA e contratar o novo RT em até 30 dias (art. 12).</p></div>"
+  },
+  {
+   "id": "m13-genericos",
+   "titulo": "Genéricos, similares e intercambialidade",
+   "resumo": "<p>A troca de um medicamento por outro na farmácia é ato regulado. Ela só é permitida entre produtos cuja equivalência terapêutica foi comprovada à Anvisa, e só o farmacêutico pode fazê-la. A Lei 9.787/1999 criou o medicamento genérico, alterando a Lei 6.360/1976, e mandou a Anvisa regulamentar inclusive os critérios de dispensação, \"respeitada a decisão expressa de não intercambialidade do profissional prescritor\" (art. 2º, IV).</p><h3>Definições legais</h3><div class=\"tab\"><table><thead><tr><th>Tipo</th><th>Definição (Lei 6.360/1976, art. 3º)</th><th>Como reconhecer na embalagem</th></tr></thead><tbody><tr><td>Referência</td><td>Produto inovador registrado e comercializado no país, com eficácia, segurança e qualidade comprovadas no registro (XXII)</td><td>Nome comercial; consta da lista de referência da Anvisa</td></tr><tr><td>Genérico</td><td>Similar a um produto de referência ou inovador, que se pretende intercambiável, geralmente produzido após a expiração da patente, designado pela DCB ou DCI (XXI)</td><td>Sem nome comercial; identificado pela DCB, com a faixa amarela e a letra G</td></tr><tr><td>Similar</td><td>Mesmos princípios ativos, concentração, forma, via, posologia e indicação do registrado, podendo diferir em tamanho, forma, validade, embalagem, rotulagem e excipientes; sempre com nome comercial ou marca (XX, redação da Lei 13.235/2015)</td><td>Nome comercial</td></tr><tr><td>Similar intercambiável</td><td>Similar cujos estudos de equivalência farmacêutica, bioequivalência ou bioisenção foram aprovados pela Anvisa (RDC 58/2014, art. 2º)</td><td>Bula com a frase \"MEDICAMENTO SIMILAR EQUIVALENTE AO MEDICAMENTO DE REFERÊNCIA\" (RDC 58/2014, art. 6º)</td></tr></tbody></table></div><p><b>Produto farmacêutico intercambiável</b> é o equivalente terapêutico de um referência, comprovados essencialmente os mesmos efeitos de eficácia e segurança (art. 3º, XXIII). <b>Bioequivalência</b> é a demonstração de equivalência farmacêutica com biodisponibilidade comparável no mesmo desenho experimental (XXIV); <b>biodisponibilidade</b> indica velocidade e extensão da absorção (XXV).</p><h3>Quais trocas são permitidas</h3><div class=\"tab\"><table><thead><tr><th>Medicamento prescrito</th><th>Pode ser trocado por</th><th>Não pode ser trocado por</th></tr></thead><tbody><tr><td>Referência, pelo nome comercial</td><td>Genérico correspondente; similar intercambiável com aquele referência</td><td>Similar não intercambiável; outro princípio ativo, dose ou forma</td></tr><tr><td>Genérico</td><td>Referência correspondente</td><td>Similar, mesmo intercambiável</td></tr><tr><td>Similar intercambiável, pelo nome comercial</td><td>Referência correspondente</td><td>Genérico; outro similar</td></tr><tr><td>Similar não intercambiável</td><td>Nenhum</td><td>Qualquer outro</td></tr></tbody></table></div><p>Receita escrita pela DCB permite dispensar o genérico ou o medicamento de referência correspondente (RDC 16/2007, Anexo I, VI, 2.3 e 2.3.1).</p><p>A intercambialidade é sempre estabelecida em relação ao <b>referência</b>. Genérico e similar intercambiável foram comparados ao referência, e não entre si. Por isso a Anvisa informa que a troca entre genérico e similar não é possível. A relação de similares intercambiáveis fica na consulta de medicamentos do portal da Anvisa, atualizada diariamente. A RDC 58/2014 não se aplica aos MIP (art. 1º, §2º).</p><div class=\"cx lei\"><b>O que diz a norma</b><p>\"Será permitida ao profissional farmacêutico a substituição do medicamento prescrito pelo medicamento genérico correspondente, salvo restrições expressas pelo profissional prescritor\" e, nesses casos, \"o profissional farmacêutico deverá indicar a substituição realizada na prescrição, apor seu carimbo a seu nome e número de inscrição do Conselho Regional de Farmácia, datar e assinar\" (RDC 16/2007, Anexo I, item VI, 2.1 e 2.2).</p></div><h3>Quem pode trocar e como registrar</h3><ul><li><b>Quem</b>: o farmacêutico. O balconista não decide troca; a substituição é avaliação técnica do receituário (Lei 13.021/2014, art. 14; Decreto 85.878/1981, art. 1º, I).</li><li><b>Com quem</b>: com o usuário. O Código de Ética garante o direito de \"realizar a intercambialidade de medicamentos, respeitando a decisão do usuário, dentro dos limites legais, e documentando o ato\" (Res. CFF 724/2022, art. 12, IX).</li><li><b>Quando não</b>: se o prescritor vetou a troca. A manifestação de não intercambialidade é feita por item prescrito, de forma clara, legível e inequívoca, de próprio punho, sem outras formas de impressão (RDC 16/2007, Anexo I, VI, 1.3).</li><li><b>Registro</b>: anotar a troca na receita, com carimbo, nome, CRF, data e assinatura (VI, 2.2), e orientar o paciente sobre a dispensação feita (VI, 2.4).</li></ul><p>No SUS, prescrições e compras de medicamentos usam obrigatoriamente a DCB (Lei 9.787/1999, art. 3º). Nos serviços privados, o prescritor escolhe entre DCB e nome comercial (RDC 16/2007, Anexo I, VI, 1.2). A farmácia deve manter à disposição dos usuários, em local visível, a lista atualizada de genéricos divulgada pela Anvisa (RDC 44/2009, art. 42, §1º).</p><div class=\"cx alerta\"><b>Atenção</b><p>Trocar fora dessas regras é aviar receita em desacordo com a prescrição, infração sanitária (Lei 6.437/1977, art. 10, XI). Exemplos de troca proibida: amoxicilina por cefalexina, comprimido por suspensão, similar não intercambiável por referência. Medicamento biológico não tem genérico, e a propaganda de biológico não pode comparar preços (RDC 96/2008, art. 11, §3º).</p></div><div class=\"cx balcao\"><b>No balcão</b><p>Antes de oferecer a troca: confira se a receita tem veto de próprio punho, consulte a lista da Anvisa quando houver similar, mostre ao cliente as opções e o preço, deixe que ele escolha e registre a troca no verso da receita. A troca também se aplica a antimicrobianos, com o mesmo registro (ver o módulo da RDC 471/2021).</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Receita particular de losartana potássica 50 mg pelo nome de marca do referência, sem restrição de troca. O cliente pergunta se pode levar um similar mais barato. O farmacêutico consulta o portal da Anvisa: o similar consta como intercambiável com aquele referência. Explica a diferença, o cliente escolhe o similar, e o farmacêutico anota a substituição na receita com carimbo, CRF, data e assinatura. Se a receita trouxesse o nome comercial de um similar e o cliente pedisse o genérico, a troca não seria possível.</p></div>"
+  },
+  {
+   "id": "m13-boas-praticas",
+   "titulo": "Boas práticas, documentos e comercialização",
+   "resumo": "<p>As boas práticas farmacêuticas em farmácias e drogarias estão na <b>RDC 44/2009</b>. Em outubro de 2026 ela consta no AnvisaLegis como vigente com alterações, entre elas as da RDC 41/2012 (MIP em autosserviço), da RDC 786/2023 (serviços e exames) e da RDC 812/2023 (venda remota de controlados). Não há norma substituta publicada até esta data. Infraestrutura, POPs e inspeção são tratados no módulo de procedimentos operacionais padrão; aqui ficam os documentos e as regras de comercialização.</p><h3>Documentos do estabelecimento</h3><div class=\"tab\"><table><thead><tr><th>Documento</th><th>Quem emite</th><th>Base legal</th><th>Observação</th></tr></thead><tbody><tr><td>Autorização de Funcionamento (AFE)</td><td>Anvisa</td><td>RDC 44/2009, art. 2º, I; RDC 275/2019</td><td>Por estabelecimento; vale a partir da publicação no DOU</td></tr><tr><td>Autorização Especial (AE)</td><td>Anvisa</td><td>RDC 44/2009, art. 2º, II; RDC 275/2019, art. 2º, II</td><td>Só para farmácia que manipula substâncias da Portaria 344/98</td></tr><tr><td>Licença ou alvará sanitário</td><td>VISA estadual ou municipal</td><td>RDC 44/2009, art. 2º, III; Lei 5.991/1973, art. 21</td><td>Afixada em local visível; lista as atividades autorizadas</td></tr><tr><td>Certidão de Regularidade Técnica</td><td>CRF</td><td>RDC 44/2009, art. 2º, IV; Res. CFF 721/2022, art. 8º</td><td>Afixada; nome e horário de todos os farmacêuticos e do substituto</td></tr><tr><td>Manual de Boas Práticas Farmacêuticas</td><td>O próprio estabelecimento</td><td>RDC 44/2009, arts. 2º, V, e 85</td><td>Específico da loja, com POPs (art. 86)</td></tr></tbody></table></div><p>Quando AFE, licença e certidão não trazem todos os dados, a loja afixa cartaz com razão social, CNPJ, número da AFE e da AE, nome e CRF do RT e dos substitutos, horário de cada farmacêutico e telefones do CRF e da VISA (RDC 44/2009, art. 2º, §2º).</p><h3>AFE e AE: RDC 275/2019</h3><p>A RDC 275/2019 rege a concessão, alteração e cancelamento da AFE e da AE de farmácias e drogarias. A AFE é ato privativo da Anvisa que autoriza o funcionamento (art. 2º, I); a AE autoriza a farmácia de manipulação a trabalhar com substâncias da Portaria 344/98 (art. 2º, II). Drogaria que só dispensa controlado industrializado opera com AFE. Pontos de prova:</p><ul><li>A AFE não permite atividade que não esteja na licença local; as atividades só podem ser executadas se também constarem da licença (art. 4º, §§4º e 5º).</li><li>A Anvisa tem 30 dias para analisar o pedido de concessão; sem manifestação, a concessão é automática, sem impedir análise e cancelamento posteriores (art. 5º).</li><li>O atesto de conformidade sanitária é do órgão sanitário local (art. 6º).</li><li>Mudança de razão social, endereço, RT, representante legal e redução de atividades são alterações de implementação imediata após o protocolo, desde que contempladas na licença (art. 13, §1º).</li><li>Quem vende pela internet informa o endereço do site na AFE (RDC 44/2009, art. 55).</li></ul><h3>Exposição e dispensação</h3><p>Medicamentos ficam em área de circulação restrita aos funcionários; os isentos de prescrição podem ficar ao alcance do usuário em autosserviço (RDC 44/2009, art. 40, §§1º e 2º, redação da RDC 41/2012), agrupados por princípio ativo e identificados pela DCB, separados dos demais produtos, com o cartaz \"MEDICAMENTOS PODEM CAUSAR EFEITOS INDESEJADOS. EVITE A AUTOMEDICAÇÃO: INFORME-SE COM O FARMACÊUTICO\" (art. 41). Os detalhes do autosserviço estão no módulo de MIP.</p><p>Na dispensação, medicamento sob prescrição só sai com a receita (art. 43); o farmacêutico avalia legibilidade, paciente, medicamento, posologia, duração, data e prescritor (art. 44) e não dispensa receita ilegível ou que induza a erro (art. 45). A intercambialidade, o fracionamento e os controlados seguem normas específicas (arts. 47 a 49).</p><h3>Fracionamento: RDC 80/2006</h3><p>Farmácias e drogarias podem fracionar medicamentos a partir de embalagens especialmente desenvolvidas para isso, garantidas as características do produto registrado (RDC 80/2006, art. 1º). O fracionamento <b>não</b> se aplica a controlados (art. 1º, parágrafo único) e é responsabilidade do farmacêutico (art. 5º). A apresentação da prescrição é condição essencial, exceto para MIP, que podem ser fracionados sob orientação do farmacêutico (art. 8º e §§1º e 2º). Os procedimentos de rotulagem e prevenção de trocas estão no módulo de POPs.</p><h3>Propaganda e publicidade: RDC 96/2008</h3><ul><li>Propaganda de medicamento sob prescrição só em meios destinados a profissionais habilitados a prescrever ou dispensar (art. 27; Lei 6.360/1976, art. 58, §1º).</li><li>Programas de fidelidade da farmácia não podem usar medicamento como objeto de pontuação, troca, sorteio ou prêmio, e o regulamento deve informar essa restrição (art. 10).</li><li>Comparação de preços dirigida ao consumidor só entre intercambiáveis (art. 11); ao anunciar desconto, informar também o preço integral (art. 11, §4º).</li><li>Empresas não podem dar brindes ou vantagens a prescritores, dispensadores e balconistas (art. 5º).</li></ul><h3>Venda remota e entrega em domicílio</h3><p>Só farmácia ou drogaria <b>aberta ao público</b>, com farmacêutico presente durante todo o horário, pode dispensar medicamento pedido por telefone ou internet; o estoque tem de estar em farmácia aberta ao público (RDC 44/2009, art. 52, caput e §3º). Medicamento sob prescrição exige apresentação e avaliação da receita pelo farmacêutico (§1º). Controlado pedido a distância é vedado, salvo as permissões da legislação específica (§2º, redação da RDC 812/2023). Essa legislação é a própria RDC 812/2023, que incluiu na Portaria 344/98 os arts. 34-A e 34-B sobre a entrega remota de controlados, com regras próprias (ver o módulo da Portaria 344/98).</p><div class=\"tab\"><table><thead><tr><th>Exigência</th><th>Artigo da RDC 44/2009</th></tr></thead><tbody><tr><td>Pedido pelo site da própria farmácia ou rede, domínio \".com.br\"</td><td>Art. 53, caput e §1º</td></tr><tr><td>Página principal com razão social, CNPJ, endereço, horário, telefone, RT e CRF, licença, AFE e AE</td><td>Art. 53, §1º, I a V</td></tr><tr><td>Proibida oferta de medicamento em site que não pertença a farmácia ou drogaria licenciada</td><td>Art. 53, §2º</td></tr><tr><td>Sem imagem, propaganda ou promoção de tarjado no site; lista de preços só com nome, DCB, apresentação, registro, detentor e preço</td><td>Art. 54</td></tr><tr><td>Transporte sob responsabilidade da farmácia, com controle de temperatura e POP</td><td>Art. 56</td></tr><tr><td>Canal direto com o farmacêutico e cartão com nome, telefone e endereço junto ao produto</td><td>Art. 58</td></tr><tr><td>Sigilo dos dados; vedado usá-los para promover consumo de medicamentos</td><td>Art. 59</td></tr></tbody></table></div><p>A Lei 15.357/2026 autorizou a farmácia licenciada a contratar plataformas digitais para <b>logística e entrega</b>, mantida a regulamentação sanitária (Lei 5.991/1973, art. 6º, §6º). A interpretação de como isso convive com o art. 53 da RDC 44/2009 ainda depende de posicionamento da Anvisa; até lá, a dispensação, a avaliação da receita e a responsabilidade continuam da farmácia licenciada.</p><div class=\"cx balcao\"><b>No balcão</b><p>Pedido por aplicativo de amoxicilina com foto da receita. Antes de separar o produto, o farmacêutico avalia a receita e confirma como a via original será retida no ato da entrega, conforme a regra do antimicrobiano (ver o módulo da RDC 471/2021). Junto com o pacote vai o cartão com nome do farmacêutico e telefone da loja (RDC 44/2009, art. 58, §2º).</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Na renovação da licença, a VISA constata que a drogaria aplica injetáveis, mas a licença lista só dispensação. O serviço é irregular, porque só são regulares os serviços indicados no licenciamento (RDC 44/2009, art. 61, §3º), e a AFE não supre a falta da atividade na licença (RDC 275/2019, art. 4º, §4º). A farmácia suspende o serviço, pede a inclusão na licença e atualiza a AFE.</p></div>"
+  },
+  {
+   "id": "m13-precos-consumidor",
+   "titulo": "Preço de medicamentos e direitos do consumidor",
+   "resumo": "<p>O preço do medicamento no Brasil é regulado. A <b>Lei 10.742/2003</b> criou a Câmara de Regulação do Mercado de Medicamentos (CMED), que define critérios de preço e de margem de comercialização para fabricantes, distribuidores, farmácias e drogarias (arts. 5º e 6º, II e V). O ajuste anual segue um modelo de teto baseado no IPCA, num fator de produtividade e num fator de ajuste de preços relativos (art. 4º, §§1º a 4º).</p><h3>Preço Fábrica e Preço Máximo ao Consumidor</h3><div class=\"tab\"><table><thead><tr><th>Sigla</th><th>O que é</th><th>Quem deve respeitar</th></tr></thead><tbody><tr><td>PF</td><td>Preço Fábrica: teto de venda do laboratório e do distribuidor</td><td>Indústria e distribuidoras</td></tr><tr><td>PMC</td><td>Preço Máximo ao Consumidor: teto de venda na farmácia, que varia conforme a alíquota de ICMS do estado</td><td>Farmácias e drogarias</td></tr></tbody></table></div><p>Para 2026, a Resolução CM-CMED nº 4, de 30 de março de 2026, autorizou ajuste máximo a partir de 31 de março de 3,81% no nível 1, 2,47% no nível 2 e 1,13% no nível 3, tendo como referência o PF publicado na lista da CMED (arts. 2º e 3º). O ajuste é teto: a farmácia pode cobrar menos e conceder desconto. Alguns grupos, como homeopáticos, fitoterápicos e parte dos MIP, seguem critérios próprios da CMED; a lista publicada no portal da Anvisa mostra os preços de cada apresentação.</p><div class=\"cx lei\"><b>O que diz a norma</b><p>\"As unidades de comércio varejista deverão manter à disposição dos consumidores e dos órgãos de proteção e defesa do consumidor as listas dos preços de medicamentos atualizadas, não podendo ser superiores aos preços publicados pela CMED no Portal da Anvisa.\" E a divulgação do PMC \"deverá contemplar os diferentes preços decorrentes da incidência das cargas tributárias do [...] ICMS praticadas nos estados de destino\" (Resolução CM-CMED nº 4/2026, art. 6º e parágrafo único).</p></div><p>Descumprir ato da CMED sujeita o infrator às sanções administrativas do art. 56 do Código de Defesa do Consumidor (Lei 10.742/2003, art. 8º). Cobrar acima do PMC é a infração mais comum no varejo, e acontece quando o sistema da loja não é atualizado depois do ajuste ou quando se usa a tabela de outro estado.</p><h3>Código de Defesa do Consumidor no balcão</h3><div class=\"tab\"><table><thead><tr><th>Regra</th><th>Base legal</th><th>Aplicação na farmácia</th></tr></thead><tbody><tr><td>Informação adequada e clara sobre produto, preço e riscos</td><td>CDC, art. 6º, III; art. 31</td><td>Preço visível; orientação sobre uso e riscos faz parte do produto</td></tr><tr><td>Proteção contra publicidade enganosa e práticas abusivas</td><td>CDC, art. 6º, IV</td><td>Promessa de cura, \"leve 3\" de medicamento</td></tr><tr><td>Vedado condicionar a venda de um produto a outro (venda casada)</td><td>CDC, art. 39, I</td><td>Exigir compra de vitamina para vender o antibiótico</td></tr><tr><td>Vedado prevalecer-se da fraqueza ou ignorância do consumidor por idade, saúde ou condição social</td><td>CDC, art. 39, IV</td><td>Empurrar produto caro a idoso confuso</td></tr><tr><td>Produto vencido ou alterado é impróprio ao consumo</td><td>CDC, art. 18, §6º, I e II</td><td>Troca imediata; vencido não pode estar à venda</td></tr><tr><td>Cadastro não solicitado deve ser comunicado por escrito; consumidor tem acesso aos seus dados</td><td>CDC, art. 43, caput e §2º</td><td>Cadastro de fidelidade e de desconto</td></tr><tr><td>Preço por etiqueta, código de barras ou relação de preços; havendo divergência, vale o menor</td><td>Lei 10.962/2004, arts. 2º, 3º e 5º</td><td>Gôndola com um preço e caixa com outro: cobra-se o menor</td></tr><tr><td>Desconto por forma de pagamento deve ser informado em local visível</td><td>Lei 10.962/2004, art. 5º-A</td><td>Preço diferente para PIX ou cartão</td></tr><tr><td>Exemplar do CDC em local visível e de fácil acesso</td><td>Lei 12.291/2010, art. 1º</td><td>Item conferido pelo Procon</td></tr></tbody></table></div><p>O direito à informação do CDC e o dever de orientar da Lei 13.021/2014 (art. 13, VI) se somam. Orientação insuficiente sobre uso e riscos pode gerar responsabilidade civil da farmácia, além da ética do profissional.</p><div class=\"cx alerta\"><b>Atenção</b><p>Desconto em medicamento não pode virar estímulo ao uso. A RDC 96/2008 proíbe usar medicamento como prêmio ou pontuação em programa de fidelidade (art. 10) e só permite comparação de preço ao consumidor entre intercambiáveis (art. 11).</p></div><div class=\"cx balcao\"><b>No balcão</b><p>Cliente reclama que o preço do caixa está acima do da etiqueta. Cobre o menor (Lei 10.962/2004, art. 5º). Se reclamar de preço alto, mostre a lista de preços da CMED com o PMC do seu estado; ela precisa estar disponível na loja (Resolução CM-CMED 4/2026, art. 6º).</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Fiscal do Procon pede a lista de preços de uma drogaria em abril. O sistema ainda usa a tabela de PMC do ano anterior, e dois produtos estão acima do PMC vigente porque a loja aplicou um ajuste maior que o autorizado para o nível 3. A drogaria responde pelas sanções do CDC (Lei 10.742/2003, art. 8º) e precisa corrigir o preço e atualizar a lista.</p></div>"
+  },
+  {
+   "id": "m13-lgpd",
+   "titulo": "LGPD na farmácia",
+   "resumo": "<p>A <b>Lei Geral de Proteção de Dados</b> (LGPD, Lei 13.709/2018) vale para toda pessoa física ou jurídica que trata dados pessoais. A farmácia trata dados o dia inteiro: cadastro de cliente, CPF no caixa, receitas, registros de serviços farmacêuticos, escrituração de controlados, programas de desconto, entrega em domicílio. A autoridade fiscalizadora passou a se chamar Agência Nacional de Proteção de Dados (ANPD) com a MP 1.317/2025, convertida na Lei 15.352/2026.</p><h3>Conceitos aplicados</h3><div class=\"tab\"><table><thead><tr><th>Conceito (art. 5º)</th><th>Na farmácia</th></tr></thead><tbody><tr><td>Dado pessoal: informação de pessoa identificada ou identificável (I)</td><td>Nome, CPF, telefone, endereço, e-mail</td></tr><tr><td>Dado pessoal sensível: inclui dado referente à saúde (II)</td><td>Receita, medicamento comprado, resultado de glicemia, pressão aferida</td></tr><tr><td>Controlador: quem decide sobre o tratamento (VI)</td><td>A empresa dona da farmácia</td></tr><tr><td>Encarregado: canal entre controlador, titulares e ANPD (VIII)</td><td>Pessoa indicada pela empresa, com contato público (art. 41)</td></tr><tr><td>Tratamento: qualquer operação com dados (X)</td><td>Coletar, consultar, guardar, enviar ao laboratório, apagar</td></tr></tbody></table></div><p>O histórico de compras de medicamentos revela informação de saúde. Por isso as regras de dado sensível se aplicam a qualquer tratamento que revele dados sensíveis e possa causar dano ao titular (art. 11, §1º). Saber que alguém compra antirretroviral, antidepressivo ou anticoncepcional é saber algo sobre a saúde dessa pessoa.</p><h3>Bases legais mais usadas</h3><div class=\"tab\"><table><thead><tr><th>Situação</th><th>Base legal possível</th><th>Artigo</th></tr></thead><tbody><tr><td>Retenção e escrituração de receita de controlado e de antimicrobiano</td><td>Cumprimento de obrigação legal ou regulatória</td><td>Art. 11, II, a</td></tr><tr><td>Registro de serviço farmacêutico (aferição, acompanhamento)</td><td>Tutela da saúde por profissional ou serviço de saúde; a RDC 44/2009 exige consentimento expresso para esse registro (art. 64, §1º)</td><td>Art. 11, II, f</td></tr><tr><td>Cadastro em programa de desconto ou de fidelidade com histórico de compras</td><td>Consentimento específico e destacado, para finalidade específica</td><td>Art. 11, I</td></tr><tr><td>Envio de ofertas por mensagem</td><td>Consentimento; dados de saúde não podem ser usados para induzir consumo de medicamento</td><td>Art. 7º, I; RDC 44/2009, art. 59, parágrafo único</td></tr></tbody></table></div><div class=\"cx lei\"><b>O que diz a norma</b><p>\"É vedada a comunicação ou o uso compartilhado entre controladores de dados pessoais sensíveis referentes à saúde com objetivo de obter vantagem econômica, exceto nas hipóteses relativas a prestação de serviços de saúde, de assistência farmacêutica e de assistência à saúde [...] em benefício dos interesses dos titulares de dados\", para permitir a portabilidade pedida pelo titular ou as transações financeiras e administrativas desses serviços (LGPD, art. 11, §4º, redação da Lei 13.853/2019).</p></div><h3>CPF no balcão e programas de desconto</h3><p>Fora das situações em que a norma sanitária manda identificar o comprador (controlados, por exemplo), o CPF pedido no caixa serve a uma finalidade comercial: desconto, programa de fidelidade, programa de benefício do laboratório. Os princípios da finalidade, necessidade e transparência (art. 6º, I, III e VI) pedem que o cliente saiba para que o dado será usado, com quem será compartilhado e por quanto tempo será guardado (art. 9º). O consentimento precisa ser para finalidade determinada; autorização genérica é nula (art. 8º, §4º), e pode ser revogado a qualquer momento (art. 8º, §5º).</p><ul><li>Explique a finalidade antes de pedir o CPF e informe se o dado será compartilhado com laboratório ou administradora do programa.</li><li>Não condicione a venda do medicamento ao cadastro; o desconto do programa é uma oferta, e o cliente pode recusar.</li><li>Não fale em voz alta o nome do medicamento, o diagnóstico ou o CPF do cliente na fila.</li><li>Atenda o pedido do titular: confirmação, acesso, correção, eliminação dos dados tratados com consentimento, informação sobre compartilhamento e revogação (art. 18).</li><li>Confira se o seu estado ou município tem lei própria sobre a exigência de CPF no comércio.</li></ul><h3>Segurança, incidentes e sanções</h3><p>A farmácia deve adotar medidas técnicas e administrativas para proteger os dados contra acesso não autorizado, perda ou vazamento (art. 46) e comunicar à ANPD e ao titular incidente de segurança que possa causar risco ou dano relevante (art. 48). As sanções vão de advertência a multa simples de até 2% do faturamento no Brasil, limitada a R$ 50 milhões por infração, além de publicização da infração e bloqueio ou eliminação dos dados (art. 52). No plano profissional, o Código de Ética proíbe fornecer a terceiros dados que identifiquem paciente, prescritor ou estabelecimento em desacordo com a LGPD (Res. CFF 724/2022, art. 18, XLIII) e impõe o sigilo (art. 15, VI). A RDC 44/2009 manda tratar com sigilo os dados dos serviços farmacêuticos (art. 82).</p><div class=\"cx balcao\"><b>No balcão</b><p>Login e senha do sistema e do certificado digital são pessoais. Emprestar a senha do SNGPC ou o certificado a um colega é proibido pelo Código de Ética (Res. CFF 724/2022, art. 18, XXIX) e deixa rastro de acesso no seu nome.</p></div><div class=\"cx exemplo\"><b>Caso</b><p>Um laboratório propõe à rede pagar por relatório mensal com CPF dos clientes e medicamentos de uso contínuo comprados, para \"ações de adesão\". O farmacêutico RT alerta que se trata de compartilhamento de dados de saúde para vantagem econômica, vedado fora das exceções da lei (LGPD, art. 11, §4º), e que fornecer dados identificáveis a terceiros é falta ética (Res. CFF 724/2022, art. 18, XLIII). A alternativa possível é relatório anonimizado ou programa em que o próprio paciente adere com consentimento específico.</p></div>"
+  },
+  {
+   "id": "m13-etica-rt",
+   "titulo": "Ética profissional e responsabilidade técnica",
+   "resumo": "<p>A ética do farmacêutico está no <b>Código de Ética da Profissão Farmacêutica</b>, aprovado pela Resolução CFF 724/2022, que também traz o Código de Processo Ético e as regras de sanção. Ela revogou a Resolução CFF 711/2021 e segue em vigor em outubro de 2026, citada como vigente em resoluções do CFF publicadas em 2026. A responsabilidade técnica é regulada pela Resolução CFF 721/2022, que revogou a Resolução CFF 577/2013.</p><h3>Atividades privativas</h3><p>O Decreto 85.878/1981 regulamenta a Lei 3.820/1960 e lista as atribuições privativas do farmacêutico. Para a farmácia comercial, as que importam são a dispensação ou manipulação de fórmulas quando a serviço do público (art. 1º, I) e o assessoramento e a responsabilidade técnica em depósitos de produtos farmacêuticos de qualquer natureza (art. 1º, II, d). O art. 2º lista atividades afins, não privativas, como análises clínicas e fabricação de cosméticos.</p><div class=\"cx lei\"><b>O que diz a norma</b><p>\"São atribuições privativas dos profissionais farmacêuticos: I - desempenho de funções de dispensação ou manipulação de fórmulas magistrais e farmacopéicas, quando a serviço do público em geral ou mesmo de natureza privada\" (Decreto 85.878/1981, art. 1º, I).</p></div><h3>Direção técnica, assistência e substituição</h3><div class=\"tab\"><table><thead><tr><th>Função</th><th>O que é</th><th>Base</th></tr></thead><tbody><tr><td>Diretor ou responsável técnico (RT)</td><td>Farmacêutico que realiza, supervisiona e coordena os serviços técnico-científicos no horário declarado e representa a empresa nos aspectos técnicos</td><td>Res. CFF 721/2022, arts. 2º, §1º, e 10, §1º</td></tr><tr><td>Farmacêutico assistente</td><td>Os \"quantos outros forem necessários\" para cobrir todo o horário, com função e horário anotados no CRF</td><td>Res. CFF 721/2022, arts. 3º e 9º</td></tr><tr><td>Farmacêutico substituto</td><td>Cobre impedimentos e ausências do RT, requerido ao CRF, com horário compatível</td><td>Lei 5.991/1973, art. 15, §2º; Res. CFF 721/2022, art. 2º, §2º</td></tr></tbody></table></div><ul><li>A responsabilidade técnica é indelegável e exige participação efetiva e pessoal (Res. CFF 721/2022, art. 10). A RDC 44/2009 permite delegar algumas atribuições a outro farmacêutico, menos a supervisão e a responsabilidade pela assistência técnica (art. 20, parágrafo único).</li><li>Cada farmacêutico responde pelos atos do horário que assumiu, com responsabilidade solidária quando comprovada (Res. CFF 721/2022, art. 10, §2º).</li><li>Mudança de horário da loja ou do farmacêutico deve ser comunicada <b>previamente</b> ao CRF; sem isso, a certidão perde a validade (art. 11).</li><li>O farmacêutico declara ao CRF que tem disponibilidade de horário; informação falsa gera sanção (art. 12).</li><li>Ao sair da empresa, o profissional responde pelos atos do período em que deu assistência, por um ano após o fim do vínculo (Lei 5.991/1973, art. 16, §§1º e 2º), e comunica o CRF em até 5 dias úteis (Res. CFF 724/2022, art. 15, XII).</li><li>A Lei 5.991/1973 limita a direção técnica a duas farmácias, uma comercial e uma hospitalar (art. 20).</li></ul><h3>Direitos, deveres e proibições mais cobrados</h3><div class=\"tab\"><table><thead><tr><th>Tipo</th><th>Dispositivo (Res. CFF 724/2022)</th><th>Conteúdo resumido</th></tr></thead><tbody><tr><td>Direito</td><td>Art. 12, IV</td><td>Negar-se a atos contrários à ciência, à ética e à técnica</td></tr><tr><td>Direito</td><td>Art. 12, IX</td><td>Fazer a intercambialidade respeitando a decisão do usuário e documentando</td></tr><tr><td>Direito</td><td>Art. 12, XIV</td><td>Decidir, justificadamente, sobre dispensar ou não qualquer prescrição</td></tr><tr><td>Dever</td><td>Art. 14, II e XII</td><td>Supervisionar colaboradores; supervisionar o conteúdo publicado pela loja em redes sociais e sites</td></tr><tr><td>Dever</td><td>Art. 14, IV e X</td><td>Avaliar a prescrição; orientar sobre benefícios, riscos, interações e uso</td></tr><tr><td>Dever</td><td>Art. 15, II</td><td>Recusar produto sem registro, sem rastreabilidade ou sem nota fiscal</td></tr><tr><td>Proibição</td><td>Art. 17, VIII</td><td>Delegar ou permitir que outros pratiquem atos privativos do farmacêutico</td></tr><tr><td>Proibição</td><td>Art. 17, XI e XVII</td><td>Intitular-se RT sem certidão do CRF; deixar de prestar assistência no horário declarado</td></tr><tr><td>Proibição</td><td>Art. 18, V</td><td>Permitir o uso do nome em estabelecimento onde não trabalha de fato</td></tr><tr><td>Proibição</td><td>Art. 18, XVII</td><td>Aceitar interferência de leigos nas decisões técnicas</td></tr><tr><td>Proibição</td><td>Art. 18, XXIV e XLI</td><td>Submeter-se a fins mercantilistas que comprometam a técnica; receber vantagem indevida</td></tr></tbody></table></div><p>As sanções disciplinares, conforme a Lei 3.820/1960, são advertência (com ou sem a palavra \"censura\"), multa de 1 a 3 salários mínimos regionais, dobrada na reincidência, suspensão de 3 meses a 1 ano e eliminação (Res. CFF 724/2022, art. 24). A competência para julgar é do CRF em que o profissional estava inscrito na época do fato, com recurso ao CFF (Lei 3.820/1960, art. 6º, e).</p><div class=\"cx alerta\"><b>Atenção</b><p>Emprestar o nome para a loja abrir, sem trabalhar nela, é a falta conhecida como \"farmacêutico de placa\". Fere o Código de Ética (art. 18, V; art. 17, XVII) e deixa a loja sem farmacêutico, infração sanitária. O profissional responde nos dois planos.</p></div><div class=\"cx balcao\"><b>No balcão</b><p>Quando for assumir uma loja, peça ao CRF a anotação de função e horário de cada farmacêutico, confira se a certidão afixada mostra os nomes e horários corretos e guarde cópia do contrato. Se a escala mudar, comunique antes (Res. CFF 721/2022, arts. 8º, 9º e 11).</p></div><div class=\"cx exemplo\"><b>Caso</b><p>A RT trabalha das 8h às 14h e o substituto das 14h às 22h. Num sábado, o substituto falta e o gerente mantém a loja aberta \"só com o caixa\". Um cliente compra um tarjado sem receita. A loja responde pela infração sanitária (Lei 6.437/1977, art. 10, XII) e por funcionar sem farmacêutico. O substituto que faltou ao horário declarado responde eticamente (Res. CFF 724/2022, art. 17, XVII); a RT não, pois não estava em seu horário, salvo se tivesse ciência e tolerasse a prática.</p></div>"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m13-mapa-normas",
+   "titulo": "Quem regula a farmácia",
+   "centro": "Legislação farmacêutica",
+   "ramos": [
+    {
+     "t": "Hierarquia",
+     "itens": [
+      "CF > lei > decreto > RDC/IN e portaria",
+      "Res. CFF regula o profissional, não a loja",
+      "Estado e município: licença, plantão, código sanitário",
+      "Norma inferior não contraria a superior"
+     ]
+    },
+    {
+     "t": "Órgãos",
+     "itens": [
+      "Anvisa: RDC, registro, AFE e AE",
+      "VISA local: licença e inspeção",
+      "CRF: exercício profissional e certidão",
+      "CMED: PF e PMC; ANPD: dados pessoais"
+     ]
+    },
+    {
+     "t": "Leis do comércio",
+     "itens": [
+      "Lei 5.991/1973: tipos de estabelecimento",
+      "Dec. 74.170/1974: regulamento da 5.991",
+      "Lei 15.357/2026: farmácia em supermercado",
+      "Drogaria: só embalagem original"
+     ]
+    },
+    {
+     "t": "Produto",
+     "itens": [
+      "Lei 6.360/1976: registro antes da venda",
+      "Dec. 8.077/2013 substituiu o 79.094/1977",
+      "DCB com metade do tamanho da marca",
+      "Lei 6.437/1977: infrações e penas"
+     ]
+    },
+    {
+     "t": "Lei 13.021/2014",
+     "itens": [
+      "Farmácia: unidade de assistência à saúde",
+      "Farmacêutico todo o horário (art. 6º, I)",
+      "Dono não desautoriza o farmacêutico",
+      "Vetados arts. 9º, 15, 17 e 18"
+     ]
+    },
+    {
+     "t": "Boas práticas",
+     "itens": [
+      "RDC 44/2009 vigente com alterações",
+      "RDC 275/2019: AFE e AE",
+      "RDC 80/2006: fracionamento, não controlado",
+      "RDC 96/2008: propaganda"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m13-mapa-balcao",
+   "titulo": "Legislação no balcão",
+   "centro": "Balcão dentro da lei",
+   "ramos": [
+    {
+     "t": "Troca de medicamento",
+     "itens": [
+      "Só o farmacêutico troca",
+      "Referência: troca por genérico ou similar intercambiável",
+      "Genérico e similar: nunca entre si",
+      "Veto do prescritor: de próprio punho",
+      "Anotar, carimbar, assinar e datar"
+     ]
+    },
+    {
+     "t": "Preço",
+     "itens": [
+      "Teto: PMC do estado (ICMS)",
+      "Ajuste 2026: 3,81%, 2,47% e 1,13%",
+      "Lista CMED à disposição do cliente",
+      "Preço divergente: vale o menor"
+     ]
+    },
+    {
+     "t": "Consumidor",
+     "itens": [
+      "Informação clara de preço e risco",
+      "Venda casada proibida (CDC 39, I)",
+      "Vencido é impróprio ao consumo",
+      "Exemplar do CDC visível"
+     ]
+    },
+    {
+     "t": "Dados pessoais",
+     "itens": [
+      "Dado de saúde é sensível",
+      "CPF: explicar finalidade e pedir aceite",
+      "Não vender dado de saúde a terceiros",
+      "Encarregado e canal para o titular"
+     ]
+    },
+    {
+     "t": "Venda remota",
+     "itens": [
+      "Loja aberta ao público e farmacêutico",
+      "Receita avaliada antes de enviar",
+      "Site .com.br com AFE e licença",
+      "Cartão com nome e telefone do farmacêutico"
+     ]
+    },
+    {
+     "t": "Ética e RT",
+     "itens": [
+      "RT indelegável, presença efetiva",
+      "Horário mudou: avisar o CRF antes",
+      "Farmacêutico de placa: falta grave",
+      "Penas: advertência a eliminação"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m13-tab-mestra",
+   "titulo": "Tabela-mestra: norma, assunto e o que o farmacêutico precisa saber",
+   "colunas": [
+    "Norma",
+    "Assunto",
+    "O que o farmacêutico precisa saber"
+   ],
+   "linhas": [
+    [
+     "Constituição Federal, arts. 196, 200 e 24, XII",
+     "Saúde e vigilância sanitária",
+     "Vigilância sanitária é ação do SUS; União, estados e municípios legislam sobre saúde"
+    ],
+    [
+     "Lei 3.820/1960",
+     "Cria CFF e CRFs",
+     "Só inscrito no CRF exerce a profissão (art. 13); empresa prova ter farmacêutico (art. 24)"
+    ],
+    [
+     "Lei 5.991/1973",
+     "Comércio de medicamentos",
+     "Farmácia, drogaria, posto, dispensário; licença local; receituário (art. 35)"
+    ],
+    [
+     "Decreto 74.170/1974",
+     "Regulamenta a Lei 5.991",
+     "Correlatos permitidos (art. 4º); fracionamento (art. 9º, parágrafo único)"
+    ],
+    [
+     "Lei 6.360/1976",
+     "Vigilância sanitária de produtos",
+     "Registro antes da venda (art. 12); definições de genérico e similar (art. 3º)"
+    ],
+    [
+     "Decreto 8.077/2013",
+     "Regulamenta a Lei 6.360",
+     "Autorização da Anvisa e licença local para funcionar (art. 2º)"
+    ],
+    [
+     "Lei 6.437/1977",
+     "Infrações e penalidades sanitárias",
+     "Vender tarjado sem receita (art. 10, XII); aviar receita em desacordo (XI)"
+    ],
+    [
+     "Decreto 85.878/1981",
+     "Atribuições do farmacêutico",
+     "Dispensação é privativa do farmacêutico (art. 1º, I)"
+    ],
+    [
+     "Lei 8.078/1990 (CDC)",
+     "Defesa do consumidor",
+     "Informação clara, sem venda casada, vencido é impróprio"
+    ],
+    [
+     "Lei 9.782/1999",
+     "SNVS e Anvisa",
+     "Anvisa autoriza o funcionamento de quem comercializa medicamentos (art. 7º, VII)"
+    ],
+    [
+     "Lei 9.787/1999",
+     "Genéricos",
+     "Prescrição pela DCB no SUS (art. 3º); respeitar veto de não intercambialidade"
+    ],
+    [
+     "RDC 16/2007, Anexo I, item VI",
+     "Prescrição e dispensação de genéricos",
+     "Farmacêutico troca e registra na receita; veto de próprio punho"
+    ],
+    [
+     "RDC 58/2014",
+     "Similar intercambiável",
+     "Lista no portal da Anvisa; frase na bula; não vale para MIP"
+    ],
+    [
+     "Lei 10.742/2003",
+     "CMED e preços",
+     "Teto de preço; descumprimento sujeita às sanções do CDC (art. 8º)"
+    ],
+    [
+     "Resolução CM-CMED 4/2026",
+     "Ajuste anual de 2026",
+     "Lista de preços atualizada à disposição do consumidor (art. 6º)"
+    ],
+    [
+     "Lei 10.962/2004",
+     "Afixação de preços",
+     "Divergência de preço: o consumidor paga o menor (art. 5º)"
+    ],
+    [
+     "RDC 80/2006",
+     "Fracionamento",
+     "Só de embalagem fracionável; nunca controlado; responsabilidade do farmacêutico"
+    ],
+    [
+     "RDC 96/2008",
+     "Propaganda de medicamentos",
+     "Medicamento não é prêmio de fidelidade (art. 10)"
+    ],
+    [
+     "RDC 44/2009",
+     "Boas práticas em farmácias e drogarias",
+     "Documentos (art. 2º), dispensação (arts. 43 a 51), venda remota (arts. 52 a 59)"
+    ],
+    [
+     "Lei 13.021/2014",
+     "Exercício das atividades farmacêuticas",
+     "Farmacêutico todo o horário; dono não desautoriza; deveres do art. 13"
+    ],
+    [
+     "LGPD, Lei 13.709/2018",
+     "Proteção de dados",
+     "Dado de saúde é sensível (art. 5º, II); vedado compartilhar para vantagem econômica (art. 11, §4º)"
+    ],
+    [
+     "RDC 275/2019",
+     "AFE e AE de farmácias e drogarias",
+     "AFE não autoriza atividade fora da licença (art. 4º, §4º)"
+    ],
+    [
+     "Res. CFF 721/2022",
+     "Responsabilidade técnica",
+     "Certidão com todos os farmacêuticos e horários; avisar mudança antes"
+    ],
+    [
+     "Res. CFF 724/2022",
+     "Código de Ética",
+     "Direito de recusar dispensação justificadamente; proibição de delegar ato privativo"
+    ],
+    [
+     "Lei 15.357/2026",
+     "Farmácia em supermercado e entrega",
+     "Espaço exclusivo; controlado só após pagamento ou lacrado; plataformas para entrega"
+    ]
+   ],
+   "nota": "Normas de controlados (Portaria 344/98, RDC 1.000/2025), antimicrobianos (RDC 471/2021) e MIP (RDC 882/2024, IN 285/2024) têm módulos próprios."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m13-tab-fiscalizacao",
+   "titulo": "Quem fiscaliza o quê",
+   "colunas": [
+    "Fiscal",
+    "O que verifica",
+    "Base",
+    "Consequência típica"
+   ],
+   "linhas": [
+    [
+     "Vigilância sanitária (VISA)",
+     "Licença, AFE, armazenamento, receitas, escrituração, serviços, validade",
+     "Lei 5.991/1973, art. 44; RDC 44/2009",
+     "Termo de inspeção, auto de infração, interdição (Lei 6.437/1977)"
+    ],
+    [
+     "CRF",
+     "Farmacêutico presente, certidão, horários, conduta ética",
+     "Lei 3.820/1960, art. 10; Lei 13.021/2014",
+     "Auto do CRF, processo ético, multa ao estabelecimento"
+    ],
+    [
+     "Procon",
+     "Preço acima do PMC, informação, venda casada, exemplar do CDC",
+     "CDC; Lei 10.742/2003, art. 8º",
+     "Sanções do art. 56 do CDC"
+    ],
+    [
+     "ANPD",
+     "Tratamento de dados pessoais e incidentes",
+     "LGPD, arts. 52 e seguintes",
+     "Advertência, multa, bloqueio de dados"
+    ]
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "id": "m13-linha-tempo",
+   "titulo": "Linha do tempo da legislação farmacêutica",
+   "html": "<div class=\"tab\"><table><thead><tr><th>Ano</th><th>Norma</th><th>O que mudou</th></tr></thead><tbody><tr><td>1960</td><td>Lei 3.820</td><td>Cria o CFF e os CRFs</td></tr><tr><td>1973</td><td>Lei 5.991</td><td>Define farmácia, drogaria e regras do comércio de medicamentos</td></tr><tr><td>1974</td><td>Decreto 74.170</td><td>Regulamenta a Lei 5.991</td></tr><tr><td>1976</td><td>Lei 6.360</td><td>Registro e rotulagem de produtos sujeitos à vigilância sanitária</td></tr><tr><td>1977</td><td>Lei 6.437</td><td>Infrações sanitárias e penalidades</td></tr><tr><td>1981</td><td>Decreto 85.878</td><td>Atribuições privativas do farmacêutico</td></tr><tr><td>1988</td><td>Constituição Federal</td><td>Saúde como direito; vigilância sanitária no SUS</td></tr><tr><td>1990</td><td>Lei 8.078 (CDC)</td><td>Direitos do consumidor</td></tr><tr><td>1998</td><td>Portaria SVS/MS 344</td><td>Medicamentos sujeitos a controle especial</td></tr><tr><td>1999</td><td>Lei 9.782 e Lei 9.787</td><td>Cria a Anvisa e o medicamento genérico</td></tr><tr><td>2003</td><td>Lei 10.742</td><td>Cria a CMED e a regulação de preços</td></tr><tr><td>2006</td><td>RDC 80</td><td>Fracionamento em farmácias e drogarias</td></tr><tr><td>2007</td><td>RDC 16</td><td>Regulamento de genéricos (critérios de dispensação ainda vigentes)</td></tr><tr><td>2008</td><td>RDC 96</td><td>Propaganda de medicamentos</td></tr><tr><td>2009</td><td>RDC 44</td><td>Boas práticas farmacêuticas em farmácias e drogarias</td></tr><tr><td>2012</td><td>RDC 41</td><td>MIP em autosserviço</td></tr><tr><td>2013</td><td>Decreto 8.077</td><td>Novo regulamento da Lei 6.360</td></tr><tr><td>2014</td><td>Lei 13.021 e RDC 58</td><td>Farmácia como unidade de saúde; similar intercambiável</td></tr><tr><td>2018</td><td>Lei 13.709 (LGPD)</td><td>Proteção de dados pessoais</td></tr><tr><td>2019</td><td>RDC 275</td><td>AFE e AE de farmácias e drogarias</td></tr><tr><td>2022</td><td>Res. CFF 721 e 724</td><td>Responsabilidade técnica e Código de Ética vigentes</td></tr><tr><td>2023</td><td>RDC 812</td><td>Entrega remota de controlados</td></tr><tr><td>2024</td><td>RDC 882</td><td>Novos critérios de enquadramento de MIP</td></tr><tr><td>2025</td><td>RDC 978 e RDC 1.000</td><td>Exames em farmácia; receituários de controlados</td></tr><tr><td>2026</td><td>Lei 15.352, Lei 15.357 e Res. CM-CMED 4</td><td>ANPD vira agência; farmácia em supermercado; ajuste de preços de 2026</td></tr></tbody></table></div>"
+  },
+  {
+   "tipo": "checklist",
+   "id": "m13-check-documentos",
+   "titulo": "Documentos que a farmácia precisa ter em dia",
+   "itens": [
+    "AFE publicada no DOU, com as atividades que a loja realmente exerce (RDC 275/2019)",
+    "AE, se a farmácia manipula substâncias da Portaria 344/98",
+    "Licença sanitária vigente, afixada, com todos os serviços prestados listados (RDC 44/2009, arts. 2º e 61)",
+    "Certidão de Regularidade do CRF afixada, com nome e horário de todos os farmacêuticos e do substituto (Res. CFF 721/2022, art. 8º)",
+    "Cartaz com razão social, CNPJ, AFE, RT, horários e telefones do CRF e da VISA, se faltarem nos documentos afixados (RDC 44/2009, art. 2º, §2º)",
+    "Manual de Boas Práticas e POPs assinados pelo RT (RDC 44/2009, arts. 85 e 86)",
+    "Lista atualizada de genéricos visível ao usuário (RDC 44/2009, art. 42, §1º)",
+    "Lista de serviços públicos de saúde próximos, com endereço e telefone (RDC 44/2009, art. 62)",
+    "Cartaz \"Medicamentos podem causar efeitos indesejados\" na área de medicamentos (RDC 44/2009, art. 41)",
+    "Lista de preços da CMED atualizada, com o PMC do estado (Resolução CM-CMED 4/2026, art. 6º)",
+    "Exemplar do Código de Defesa do Consumidor em local visível (Lei 12.291/2010)",
+    "Contratos e anotação de função e horário de cada farmacêutico no CRF (Res. CFF 721/2022, art. 9º)",
+    "Escrituração de controlados e antimicrobianos em dia e receitas retidas arquivadas",
+    "Site com os dados obrigatórios e endereço informado na AFE, se vende pela internet (RDC 44/2009, arts. 53 e 55)",
+    "Aviso de privacidade e contato do encarregado de dados publicados (LGPD, arts. 9º e 41)"
+   ]
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m13-fluxo-substituicao",
+   "titulo": "Posso substituir este medicamento?",
+   "passos": [
+    {
+     "t": "Cliente pede para trocar o medicamento da receita",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Quem vai decidir é farmacêutico?",
+     "tipo": "decisao",
+     "sim": "Seguir",
+     "nao": "Chamar o farmacêutico; balconista não decide troca"
+    },
+    {
+     "t": "O prescritor vetou a troca de próprio punho naquele item?",
+     "tipo": "decisao",
+     "sim": "Não trocar; dispensar o prescrito ou contatar o prescritor",
+     "nao": "Seguir"
+    },
+    {
+     "t": "Mesmo princípio ativo, concentração, forma farmacêutica e via?",
+     "tipo": "decisao",
+     "sim": "Seguir",
+     "nao": "Não trocar; só o prescritor muda substância, dose ou forma"
+    },
+    {
+     "t": "A receita está escrita pela DCB?",
+     "tipo": "decisao",
+     "sim": "Dispensar o genérico ou o referência correspondente",
+     "nao": "Seguir"
+    },
+    {
+     "t": "O prescrito é o referência?",
+     "tipo": "decisao",
+     "sim": "Pode trocar pelo genérico ou por similar intercambiável com esse referência",
+     "nao": "Seguir"
+    },
+    {
+     "t": "O prescrito é genérico ou similar intercambiável?",
+     "tipo": "decisao",
+     "sim": "Só pode trocar pelo referência correspondente",
+     "nao": "Similar não intercambiável: não trocar"
+    },
+    {
+     "t": "Genérico por similar ou similar por genérico é proibido",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Conferir na consulta da Anvisa se o similar é intercambiável",
+     "tipo": "acao"
+    },
+    {
+     "t": "Explicar as opções e respeitar a escolha do cliente",
+     "tipo": "acao"
+    },
+    {
+     "t": "Anotar a troca na receita com carimbo, CRF, data e assinatura e orientar o uso",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m13-cartoes",
+   "titulo": "Cartões de revisão",
+   "itens": [
+    {
+     "f": "Qual lei define farmácia e drogaria?",
+     "v": "Lei 5.991/1973, art. 4º, X e XI; a Lei 13.021/2014 fala em farmácia com e sem manipulação."
+    },
+    {
+     "f": "Drogaria pode manipular ou captar receita magistral?",
+     "v": "Não. Captar receita magistral é vedado mesmo entre filiais (Lei 5.991/1973, art. 36, §1º; RDC 44/2009, art. 50)."
+    },
+    {
+     "f": "O que a Lei 15.357/2026 permitiu?",
+     "v": "Farmácia em área de supermercado, em espaço exclusivo, com farmacêutico todo o horário, e uso de plataformas para entrega."
+    },
+    {
+     "f": "Qual decreto regulamenta hoje a Lei 6.360/1976?",
+     "v": "Decreto 8.077/2013, que revogou o Decreto 79.094/1977."
+    },
+    {
+     "f": "Qual artigo da Lei 13.021/2014 exige farmacêutico durante todo o horário?",
+     "v": "Art. 6º, I."
+    },
+    {
+     "f": "Quais artigos da Lei 13.021/2014 foram vetados?",
+     "v": "Arts. 9º, 15, 17 e 18 (Mensagem de veto 232/2014)."
+    },
+    {
+     "f": "Prazo para contratar novo farmacêutico após a baixa?",
+     "v": "30 dias (Lei 13.021/2014, art. 12)."
+    },
+    {
+     "f": "Genérico pode ser trocado por similar intercambiável?",
+     "v": "Não. Ambos foram comparados ao referência, não entre si."
+    },
+    {
+     "f": "Como o prescritor veta a troca?",
+     "v": "Por item, de forma clara e legível, de próprio punho (RDC 16/2007, Anexo I, VI, 1.3)."
+    },
+    {
+     "f": "Quem pode fazer a substituição na farmácia?",
+     "v": "O farmacêutico, que anota na receita com carimbo, CRF, data e assinatura."
+    },
+    {
+     "f": "Qual norma trata da AFE de farmácias e drogarias?",
+     "v": "RDC 275/2019. A AE só é exigida de farmácia que manipula substâncias da Portaria 344/98."
+    },
+    {
+     "f": "Controlado pode ser fracionado?",
+     "v": "Não (RDC 80/2006, art. 1º, parágrafo único)."
+    },
+    {
+     "f": "Que domínio o site da farmácia deve usar?",
+     "v": "\".com.br\" (RDC 44/2009, art. 53, §1º)."
+    },
+    {
+     "f": "Teto de ajuste de preços em 2026?",
+     "v": "3,81%, 2,47% e 1,13% conforme o nível (Resolução CM-CMED 4/2026, art. 3º)."
+    },
+    {
+     "f": "Preço da gôndola diferente do caixa: qual vale?",
+     "v": "O menor (Lei 10.962/2004, art. 5º)."
+    },
+    {
+     "f": "Dado de compra de medicamento é sensível?",
+     "v": "Sim, revela dado de saúde (LGPD, art. 5º, II, e art. 11, §1º)."
+    },
+    {
+     "f": "Qual resolução do CFF trata da responsabilidade técnica?",
+     "v": "Res. CFF 721/2022, que revogou a 577/2013."
+    },
+    {
+     "f": "Sanções éticas da Res. CFF 724/2022?",
+     "v": "Advertência, multa de 1 a 3 salários mínimos regionais, suspensão de 3 meses a 1 ano e eliminação (art. 24)."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m13-questoes",
+   "titulo": "Questões de fixação",
+   "itens": [
+    {
+     "p": "Uma drogaria quer ampliar o negócio. Entre as atividades abaixo, qual ela pode exercer sem mudar de natureza, desde que conste da licença sanitária?",
+     "alt": [
+      "Manipular cremes a partir de receitas de dermatologistas.",
+      "Receber receitas magistrais e repassá-las a uma farmácia de manipulação da mesma rede.",
+      "Dispensar medicamentos fracionados a partir de embalagem fracionável.",
+      "Dispensar plantas medicinais a granel.",
+      "Manipular substâncias da Portaria 344/98 com AE."
+     ],
+     "c": 2,
+     "com": "Correta C: farmácias e drogarias podem fracionar a partir de embalagem fracionável (RDC 80/2006, art. 1º; Decreto 74.170/1974, art. 9º, parágrafo único). A e E: manipulação é própria da farmácia (Lei 5.991/1973, art. 4º, X e XI). B: captação de receita magistral é vedada, mesmo entre filiais (art. 36, §1º; RDC 44/2009, art. 50). D: plantas medicinais são privativas de farmácias e ervanarias (art. 7º)."
+    },
+    {
+     "p": "Receita particular traz o nome comercial de um similar intercambiável de anlodipino 5 mg, sem veto de troca. O cliente pede o genérico, que é mais barato. O farmacêutico deve:",
+     "alt": [
+      "dispensar o genérico, pois genéricos e similares são intercambiáveis entre si.",
+      "dispensar o genérico, desde que anote a troca no verso da receita.",
+      "recusar a dispensação, pois toda receita com nome comercial de similar exige contato prévio com o prescritor.",
+      "dispensar o genérico se o cliente assinar declaração de ciência.",
+      "explicar que a troca só é possível pelo referência e oferecer o similar prescrito ou o referência."
+     ],
+     "c": 4,
+     "com": "Correta E: o similar intercambiável é equivalente ao referência, e a Anvisa informa que a troca entre similar e genérico não é possível, porque os dois não foram comparados entre si (RDC 58/2014, art. 2º). A, B e D permitem troca não admitida; anotar ou colher assinatura não a torna regular. C: a receita é válida e pode ser dispensada como está."
+    },
+    {
+     "p": "Sobre a Lei 13.021/2014, assinale a alternativa correta.",
+     "alt": [
+      "Revogou integralmente a Lei 5.991/1973.",
+      "Atribuiu ao fiscal farmacêutico do CRF a fiscalização sanitária das farmácias.",
+      "Determinou que postos de medicamentos se transformassem em farmácia em 3 anos.",
+      "Proíbe que o proprietário desautorize as orientações técnicas do farmacêutico.",
+      "Restringiu às farmácias a venda de cosméticos com indicação terapêutica e de fitoterápicos."
+     ],
+     "c": 3,
+     "com": "Correta D (art. 11). A: a Lei 5.991/1973 segue vigente. B, C e E correspondem aos arts. 15, 17 e 9º, vetados pela Mensagem 232/2014; a fiscalização sanitária continua com a VISA."
+    },
+    {
+     "p": "Farmacêutico assume a RT de uma drogaria que abre das 7h às 23h. Ele trabalhará das 7h às 15h. Segundo a Res. CFF 721/2022 e a Lei 13.021/2014, é necessário:",
+     "alt": [
+      "que outro farmacêutico, com função e horário anotados no CRF, cubra o restante do horário.",
+      "que o gerente assine termo de responsabilidade para o período sem farmacêutico.",
+      "apenas que o RT deixe os POPs assinados para os balconistas seguirem.",
+      "que a loja não venda controlados após as 15h, liberando os demais.",
+      "nada, pois a responsabilidade técnica do RT abrange todo o horário de funcionamento, mesmo na sua ausência."
+     ],
+     "c": 0,
+     "com": "Correta A: farmácia de qualquer natureza deve ter quantos farmacêuticos forem necessários para cobrir todo o horário, com horários anotados no CRF (Res. CFF 721/2022, arts. 3º e 9º; Lei 13.021/2014, art. 6º, I). B e C delegam a leigos ato do farmacêutico (Res. CFF 724/2022, art. 17, VIII). D aplica fora de contexto o art. 17 da Lei 5.991/1973. E confunde responsabilidade com presença; a RT exige participação efetiva (Res. CFF 721/2022, art. 10)."
+    },
+    {
+     "p": "Na fiscalização do Procon, constata-se que uma drogaria do Ceará cobra por um anti-hipertensivo valor acima do PMC publicado para o estado. Assinale a afirmativa correta.",
+     "alt": [
+      "O PMC é sugestão do fabricante e não obriga a farmácia.",
+      "A farmácia pode cobrar acima do PMC se oferecer desconto no cartão fidelidade.",
+      "O PMC é único no país, sem variação de ICMS.",
+      "A farmácia descumpre ato da CMED e fica sujeita às sanções do art. 56 do CDC.",
+      "Só a Anvisa pode autuar, pois preço é assunto sanitário."
+     ],
+     "c": 3,
+     "com": "Correta D: o varejo não pode praticar preço superior ao publicado pela CMED (Resolução CM-CMED 4/2026, art. 6º), e o descumprimento sujeita às sanções do CDC (Lei 10.742/2003, art. 8º). A e B: o PMC é teto obrigatório. C: o PMC varia conforme o ICMS do estado (art. 6º, parágrafo único). E: Procon é órgão de defesa do consumidor e pode fiscalizar."
+    },
+    {
+     "p": "Uma rede quer vender medicamentos por site e aplicativo. Qual exigência decorre da RDC 44/2009?",
+     "alt": [
+      "O estoque pode ficar em um centro de distribuição fechado ao público, sem farmácia.",
+      "O site pode exibir banners de anti-hipertensivos em promoção.",
+      "Tarjados exigem que o farmacêutico receba e avalie a receita.",
+      "O site pode usar domínio \".com\" se a empresa tiver CNPJ.",
+      "Controlados podem ser vendidos livremente após o pagamento on-line."
+     ],
+     "c": 2,
+     "com": "Correta C (art. 52, §1º). A: o estoque deve estar em farmácia ou drogaria aberta ao público (art. 52, §3º). B: é vedada propaganda de tarjado no site (art. 54). D: o domínio deve ser \".com.br\" (art. 53, §1º). E: controlados pedidos a distância são vedados, salvo as exceções da legislação específica (art. 52, §2º, redação da RDC 812/2023)."
+    },
+    {
+     "p": "Cliente de 52 anos recusa informar CPF no caixa. A atendente diz que sem CPF \"o sistema não deixa vender\" a dipirona. Com base na LGPD e no CDC, a melhor conduta do farmacêutico é:",
+     "alt": [
+      "confirmar a exigência, pois todo medicamento, inclusive isento de prescrição, exige identificação do comprador.",
+      "vender sem CPF, explicando que o cadastro serve ao programa de desconto e é opcional.",
+      "pedir RG no lugar do CPF, para cumprir a escrituração sanitária.",
+      "registrar a venda no CPF de outro cliente cadastrado.",
+      "vender e registrar o CPF depois, a partir de consulta pública."
+     ],
+     "c": 1,
+     "com": "Correta B: fora das hipóteses sanitárias de identificação, o CPF tem finalidade comercial; o tratamento exige finalidade informada e consentimento específico (LGPD, arts. 6º, 8º, §4º, e 11, I), e a venda não deve ser condicionada ao cadastro. A e C: MIP não exige identificação do comprador. D e E violam a LGPD e falseiam registros."
+    },
+    {
+     "p": "Paciente apresenta receita de omeprazol 20 mg pelo nome do referência. Ao lado do item, há carimbo impresso com a frase \"não autorizo a substituição\". O farmacêutico deve considerar que:",
+     "alt": [
+      "o veto é válido, pois está escrito de forma legível.",
+      "o carimbo vale como veto para todos os itens da receita, inclusive os genéricos.",
+      "o veto não vale, porque deve ser escrito de próprio punho.",
+      "a troca está proibida para qualquer medicamento de referência.",
+      "basta o paciente concordar para afastar qualquer veto do prescritor."
+     ],
+     "c": 2,
+     "com": "Correta C: a não intercambialidade deve ser manifestada por item, de forma clara, legível e inequívoca, de próprio punho, não sendo permitidas outras formas de impressão (RDC 16/2007, Anexo I, VI, 1.3). A e B ignoram a forma exigida. D: não existe proibição geral. E: veto válido do prescritor prevalece sobre a vontade do paciente (Lei 9.787/1999, art. 2º, IV)."
+    },
+    {
+     "p": "Durante inspeção, o fiscal da VISA verifica que a drogaria tem AFE com a atividade \"prestação de serviços farmacêuticos\", mas a licença sanitária não lista esse serviço. A drogaria aplica injetáveis. Assinale a correta.",
+     "alt": [
+      "A AFE basta, pois é ato da Anvisa, de âmbito federal, e prevalece sobre a licença sanitária local.",
+      "O serviço é irregular, pois só são regulares os serviços indicados no licenciamento.",
+      "O serviço é regular se houver POP assinado pelo RT.",
+      "Basta comunicar o CRF para regularizar.",
+      "A aplicação de injetáveis independe de licença por ser ato do farmacêutico."
+     ],
+     "c": 1,
+     "com": "Correta B: RDC 44/2009, art. 61, §§3º e 4º; a AFE não autoriza atividade que não esteja na licença (RDC 275/2019, art. 4º, §§4º e 5º). A, C, D e E: POP, AFE e comunicação ao CRF não substituem a licença sanitária com o serviço incluído após inspeção prévia."
+    },
+    {
+     "p": "Uma farmacêutica aceita constar como RT de uma drogaria em outra cidade, onde nunca vai, em troca de pagamento mensal. Essa conduta:",
+     "alt": [
+      "é permitida se ela visitar a loja ao menos uma vez por mês e assinar os POPs.",
+      "é infração apenas da empresa, e não da profissional contratada.",
+      "é regular se houver contrato de trabalho registrado.",
+      "só é proibida se a drogaria vender controlados.",
+      "é falta ética, pois ela permite o uso do nome onde não exerce a função."
+     ],
+     "c": 4,
+     "com": "Correta E: Res. CFF 724/2022, art. 18, V, e art. 17, XVII; a RT é indelegável e exige participação efetiva e pessoal (Res. CFF 721/2022, art. 10). A, C e D: contrato ou visita eventual não suprem a presença (Lei 13.021/2014, art. 6º, I). B: a profissional responde eticamente e a empresa, sanitariamente."
+    },
+    {
+     "p": "Um laboratório oferece pagamento a uma rede de farmácias em troca da lista de clientes que compram seu antidiabético, com CPF e frequência de compra, para enviar publicidade. À luz da LGPD, essa operação:",
+     "alt": [
+      "é permitida, pois o CPF é um dado público e de livre circulação.",
+      "é permitida se a farmácia tiver encarregado nomeado.",
+      "é vedada, pois compartilha dado de saúde para vantagem econômica.",
+      "é permitida se os dados forem enviados criptografados ao laboratório.",
+      "é vedada apenas se os clientes forem menores de idade."
+     ],
+     "c": 2,
+     "com": "Correta C: LGPD, art. 11, §4º; o uso de dados para induzir consumo de medicamento também é vedado pela RDC 44/2009 (art. 59, parágrafo único), e fornecer dado identificável a terceiros é falta ética (Res. CFF 724/2022, art. 18, XLIII). A: dado de compra de medicamento é sensível. B e D: encarregado e criptografia não criam base legal. E: a vedação não depende da idade."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Brasil. Constituição da República Federativa do Brasil de 1988 (arts. 5º, 22, 24, 30, 196 e 200), texto compilado. planalto.gov.br, consultado em 15/10/2026.",
+  "Brasil. Lei nº 3.820, de 11 de novembro de 1960. Cria o Conselho Federal e os Conselhos Regionais de Farmácia. Texto compilado, planalto.gov.br.",
+  "Brasil. Lei nº 5.991, de 17 de dezembro de 1973, texto compilado com alterações até a Lei nº 15.357/2026. https://www.planalto.gov.br/ccivil_03/leis/l5991.htm",
+  "Brasil. Decreto nº 74.170, de 10 de junho de 1974. Regulamenta a Lei nº 5.991/1973. Texto compilado, planalto.gov.br.",
+  "Brasil. Lei nº 6.360, de 23 de setembro de 1976, texto compilado. https://www.planalto.gov.br/ccivil_03/leis/l6360.htm",
+  "Brasil. Decreto nº 8.077, de 14 de agosto de 2013. Regulamenta a Lei nº 6.360/1976 e revoga o Decreto nº 79.094/1977. planalto.gov.br.",
+  "Brasil. Lei nº 6.437, de 20 de agosto de 1977, texto compilado. https://www.planalto.gov.br/ccivil_03/leis/l6437.htm",
+  "Brasil. Decreto nº 85.878, de 7 de abril de 1981. Normas para execução da Lei nº 3.820/1960. planalto.gov.br.",
+  "Brasil. Lei nº 8.078, de 11 de setembro de 1990 (Código de Defesa do Consumidor), texto compilado. planalto.gov.br.",
+  "Brasil. Lei nº 9.782, de 26 de janeiro de 1999. Define o SNVS e cria a Anvisa. Texto compilado, planalto.gov.br.",
+  "Brasil. Lei nº 9.787, de 10 de fevereiro de 1999 (medicamento genérico). https://www.planalto.gov.br/ccivil_03/leis/l9787.htm",
+  "Brasil. Lei nº 10.742, de 6 de outubro de 2003 (regulação do setor farmacêutico e CMED). planalto.gov.br.",
+  "Brasil. Lei nº 10.962, de 11 de outubro de 2004 (oferta e afixação de preços), texto compilado. planalto.gov.br.",
+  "Brasil. Lei nº 12.291, de 20 de julho de 2010 (exemplar do CDC nos estabelecimentos). planalto.gov.br.",
+  "Brasil. Lei nº 13.021, de 8 de agosto de 2014, e Mensagem de veto nº 232, de 8 de agosto de 2014. https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13021.htm",
+  "Brasil. Lei nº 13.709, de 14 de agosto de 2018 (LGPD), texto compilado com alterações até a Lei nº 15.352/2026. planalto.gov.br.",
+  "Brasil. Lei nº 15.352, de 25 de fevereiro de 2026 (Agência Nacional de Proteção de Dados). planalto.gov.br.",
+  "Brasil. Lei nº 15.357, de 20 de março de 2026. Altera a Lei nº 5.991/1973 (farmácia ou drogaria na área de venda de supermercados). DOU de 23/03/2026. planalto.gov.br.",
+  "Anvisa. RDC nº 44, de 17 de agosto de 2009 (Boas Práticas Farmacêuticas), texto consolidado no AnvisaLegis (vigente com alterações), consultado em 15/10/2026.",
+  "Anvisa. RDC nº 275, de 9 de abril de 2019 (AFE e AE de farmácias e drogarias), texto consolidado no AnvisaLegis, consultado em 15/10/2026.",
+  "Anvisa. RDC nº 17, de 28 de março de 2013, revogada pela RDC nº 275/2019 (AnvisaLegis).",
+  "Anvisa. RDC nº 16, de 2 de março de 2007 (Regulamento técnico de genéricos), texto consolidado no AnvisaLegis, Anexo I, item VI.",
+  "Anvisa. RDC nº 58, de 10 de outubro de 2014 (intercambialidade de similares), texto consolidado no AnvisaLegis.",
+  "Anvisa. Medicamentos similares: intercambialidade. Portal gov.br/anvisa, consultado em 15/10/2026.",
+  "Anvisa. RDC nº 80, de 11 de maio de 2006 (fracionamento de medicamentos). Texto original na BVS/MS.",
+  "Anvisa. RDC nº 96, de 17 de dezembro de 2008 (propaganda de medicamentos), texto consolidado no AnvisaLegis.",
+  "Câmara de Regulação do Mercado de Medicamentos. Resolução CM-CMED nº 4, de 30 de março de 2026. DOU de 31/03/2026, Seção 1, p. 33. gov.br/anvisa.",
+  "Conselho Federal de Farmácia. Resolução nº 721, de 24 de fevereiro de 2022 (direção ou responsabilidade técnica). DOU, 2022. in.gov.br",
+  "Conselho Federal de Farmácia. Resolução nº 724, de 29 de abril de 2022 (Código de Ética, Código de Processo Ético e sanções). DOU, 2022. in.gov.br",
+  "Conselho Federal de Farmácia. Resolução nº 6, de 25 de junho de 2026 (cuidado paliativo), cujos considerandos citam a Resolução CFF nº 724/2022 como norma em vigor. DOU, 03/07/2026."
+ ]
+}

@@ -655,3 +655,57 @@ body.sos-leitura #bt-editar,body.sos-leitura #bt-salvar{display:none!important}
 .vGestao .atalhos a:hover{transform:translateY(-2px);box-shadow:var(--sombra);border-color:color-mix(in srgb,var(--c) 40%,transparent)}
 @media(max-width:560px){.vGestao{padding:16px}.vGestao .atalhos{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media print{.vGestao{display:none}}
+
+/* ---------- Calculadora de dose e Bulário (15/10/2026) ---------- */
+.cModos{margin-bottom:14px}
+.cGrade{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:18px;align-items:start}
+.cEnt{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.cCampo{display:flex;flex-direction:column;gap:5px;font-size:12.5px;font-weight:650;color:var(--ink2);min-width:0}
+.cCampo.largo{grid-column:1/-1}
+.cCampo input[type=text]{width:100%}
+.cCampo input:disabled{opacity:.7}
+.cSaida{border-radius:22px;padding:16px;background:color-mix(in srgb,var(--ac) 8%,var(--sup));border:1px solid color-mix(in srgb,var(--ac) 22%,transparent);display:flex;flex-direction:column;gap:10px;min-height:120px}
+.cRes{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;align-items:baseline;padding:10px 12px;border-radius:14px;background:var(--sup)}
+.cRes span{font-size:12px;font-weight:700;color:var(--ink3);text-transform:uppercase;letter-spacing:.04em}
+.cRes b{font-size:17px;text-align:right;font-variant-numeric:tabular-nums}
+.cRes small{grid-column:1/-1;color:var(--ink2);font-size:13px;line-height:1.45}
+.cRes.forte b{font-size:23px;color:var(--acInk)}
+.cAviso{display:flex;gap:8px;align-items:flex-start;padding:9px 12px;border-radius:12px;background:var(--warnSup);color:color-mix(in srgb,var(--warn) 75%,var(--ink));font-size:13px;font-weight:600}
+.cAviso .ti{font-size:16px;margin-top:1px}
+.cNota{margin:0;font-size:12.5px;color:var(--ink2)}
+.cVazio{margin:auto 0;color:var(--ink3);font-size:14px;text-align:center}
+.cInfo{margin-top:14px;padding:12px 14px;border-radius:16px;background:var(--sup2);font-size:13.5px}
+.cInfo p{margin:3px 0}
+.cAvisoFixo{display:flex;gap:8px;align-items:flex-start;margin:12px 0 0;font-size:12.5px;color:var(--ink2)}
+@media(max-width:820px){.cGrade{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:420px){.cEnt{grid-template-columns:minmax(0,1fr)}}
+
+.bulBusca{position:relative;margin-bottom:12px}
+.bulBusca .ti{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--ink3);font-size:18px}
+.bulBusca input{padding-left:42px}
+.bulChips{margin-bottom:10px;gap:6px}
+.bulChips .chip{padding:5px 12px;font-size:12.5px}
+.bulChips .bulV[aria-pressed="true"]{background:var(--k);border-color:var(--k)}
+.bulConta{margin:14px 0 8px;font-size:12.5px;font-weight:700;color:var(--ink3);text-transform:uppercase;letter-spacing:.05em}
+.bulIt{--k:var(--c-cinza);border:1px solid var(--linha);border-left:4px solid var(--k);border-radius:16px;background:var(--sup);margin-bottom:8px;overflow:hidden}
+.bulIt summary{list-style:none;display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;padding:11px 14px;cursor:pointer}
+.bulIt summary::-webkit-details-marker{display:none}
+.bulIt summary>.ti{margin-left:auto;color:var(--ink3);transition:transform .2s}
+.bulIt[open] summary>.ti{transform:rotate(180deg)}
+.bulNome{font-weight:750;font-size:15.5px}
+.bulMarca{font-size:13px;color:var(--ink2)}
+.bulClasse{font-size:12.5px;color:var(--ink3);flex-basis:100%;order:5}
+.bulVenda{font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:999px;background:color-mix(in srgb,var(--k) 14%,transparent);color:color-mix(in srgb,var(--k) 75%,var(--ink))}
+.bulIt dl{margin:0;padding:4px 14px 14px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px 18px;border-top:1px solid var(--linha)}
+.bulIt dl div{min-width:0}
+.bulIt dl div.balcao{grid-column:1/-1;padding:10px 12px;border-radius:12px;background:var(--okSup)}
+.bulIt dt{font-size:11.5px;font-weight:750;color:var(--ink3);text-transform:uppercase;letter-spacing:.04em;margin-top:8px}
+.bulIt dd{margin:2px 0 0;font-size:14px;line-height:1.5}
+@media(max-width:640px){.bulIt dl{grid-template-columns:minmax(0,1fr)}}
+.bulImpIt{padding:2mm 0;border-bottom:.3mm solid #ccc;font-size:9pt;orphans:3;widows:3}
+.bulImpIt .cab{break-after:avoid}
+.bulImpIt p{margin:.6mm 0}
+.bulImpIt .cab{font-size:10.5pt}
+@media print{.calc,.bul{display:none}}
+@media(max-width:420px){.cRes.forte b{font-size:19px}.cRes b{font-size:15.5px}}
+.cRes b{white-space:nowrap}

@@ -1,4 +1,4 @@
-# Pontos para revisão humana (08/10/2026)
+# Pontos para revisão humana (08/10/2026; módulos de farmacologia levados ao SOS Farmacologia em 15/10/2026)
 
 Conteúdo escrito por 9 agentes com conferência na web (DOU, Anvisa, CFF, bulas, diretrizes). Abaixo, o que eles
 declararam NÃO ter confirmado em fonte primária, ou mudanças normativas que merecem um olhar de farmacêutico.
@@ -16,7 +16,6 @@ declararam NÃO ter confirmado em fonte primária, ou mudanças normativas que m
 - RDC 471/2021 alterada pela RDC 973/2025 (agonistas de GLP-1 com retenção de receita, validade 90 dias);
   validade das receitas passou para a IN 360/2025 (antimicrobianos: 10 dias). Retém-se a 2ª via.
 - Exames em farmácia: RDC 978/2025 revogou a RDC 786/2023 (farmácia = serviço tipo I).
-- Hipertensão: Diretriz Brasileira 2025. Diabetes: SBD 2026. Asma: PCDT 2026. DPOC: PCDT 2025 e GOLD 2026.
 
 ## Não confirmado em fonte primária (por módulo)
 **M1** Status MIP de desloratadina, meclozina e ibuprofeno gotas (estão na lista, bulas de marca dizem "sob
@@ -28,20 +27,7 @@ notas Anvisa/Febrasgo sobre paracetamol na gestação (set/2025) lidas só em re
 texto das normas, não pelo impresso); fim da transição das receitas eletrônicas sem número SNCR (29 ou 30/10/2026);
 validade/abrangência da Notificação B2.
 
-**M3** Prazos e quantidades máximas da Portaria 344 citados no texto de farmacologia; classificação AWaRe por
-fármaco; doses usuais da tabela de antimicrobianos de balcão (não conferidas uma a uma); disponibilidade de
-vancomicina oral no Brasil; esquemas de herpes pelo PCDT IST.
-
-**M4/M5** Texto oficial da RDC 973/2025 e IN 360/2025 lido via resumo do CFF (limite de 30 dias por dispensação no uso
-contínuo); escalonamento de semaglutida e tirzepatida (bula pode estar desatualizada quanto à caneta multidose);
-prazos de algumas insulinas após abertas; números de artigo da RDC 978/2025.
-
-**M6/M7** Situação regulatória da nimesulida no Brasil; tabela de equivalência de corticoides e doses de AINEs/anti-H1
-(referência clássica, não reconferida); GINA 2026 lida por resumo; marcas de dispositivos inalatórios.
-
-**M8/M9** Inclusão de formas tópicas/oftálmicas na RDC 471 (leitura do texto, sem resposta explícita da Anvisa);
-coluna RDC 20/2011 do comparativo; limites de dose nas interações vindos de bulas da FDA (sinvastatina, amiodarona,
-apixabana).
+**M8 (RDC 471)** Inclusão de formas tópicas/oftálmicas na RDC 471 (leitura do texto, sem resposta explícita da Anvisa); coluna RDC 20/2011 do comparativo.
 
 **M10/M11** Prazo de defesa de 15 dias (Lei 6.437/1977); divisão Notivisa × VigiMed; período fora da geladeira de
 Humira e Mounjaro; lista ISMP de medicamentos potencialmente perigosos ambulatoriais.
@@ -52,3 +38,28 @@ do XML (403), se o webservice antigo já foi desligado em favor da API, códigos
 XML, texto exato das mensagens de período fora de ordem, duplicidade e CPF/CRM inválido, prazo de baixa de RT no CRF.
 Módulo 2 corrigido em 10/10: GLP-1 na abrangência do SNGPC; retirado o limite de 10 caracteres do campo (não
 confirmado).
+
+## Módulos novos da reorganização (15/10/2026)
+Escritos por agentes com conferência na web; o Bulário da Anvisa e o portal de consultas bloquearam acesso automatizado,
+então as bulas foram lidas em reprodução (Consulta Remédios) e o ano no campo "fonte" é o da página, não o da bula.
+**Legislação (m13)** RDC 80/2006 sem texto consolidado; IN 9/2009 não aberta; regra de similar intercambiável em receita pela
+DCB não encontrada (texto evita afirmar); Lei 15.357/2026 §6º x RDC 44/2009 art. 53 é interpretação.
+**Vigilância (m14)** leiaute oficial dos Anexos XXI (BMPO) e XXIV (RMNRA) não obtido: colunas montadas pela lógica do
+balanço e por orientações das VISAs de SP e Manaus (o quadro avisa); RDC 58/2007 (RMNRB2) tida como vigente; prazos de
+licença e de termos variam por código sanitário local.
+**Prateleiras (m15)** vigência atual da IN 9/2009; "validade mês/ano vale até o último dia" é prática, não norma; nenhuma
+exigência federal de seção separada para genéricos; revisão da RDC 96/2008 aberta em 05/08/2026.
+**Código MS e DCB (m16)** estrutura do número de 13 dígitos confirmada por dados abertos (Anvisa/CMED), não por norma;
+algoritmo do dígito verificador não publicado; prefixos de cosmético/saneante/alimento/dispositivo pelos dados abertos;
+números das IN de atualização da DCB de 2025/2026 por fontes setoriais.
+**Serviços clínicos (m18)** RDC 986/2025 mudou as amostras do Tipo I (cavidade oral incluída; m01 e m10 corrigidos);
+"glicemia acima de 250 mg/dL com sintomas: urgência" e "gestante com PA ≥ 140/90: pré-natal no mesmo dia" são condutas de
+balcão, não números de diretriz; quantidade de carboidrato na hipoglicemia não citada; nebulização e testes rápidos de
+HIV/sífilis/hepatites em farmácia dependem da VISA local.
+**Calculadora (m19)** dipirona 10 a 15 mg/kg/dose vem do guia de dengue do MS e de artigo (a bula usa faixas de peso);
+tetos de amoxicilina + clavulanato, cefadroxila e nitazoxanida deduzidos da dose de adulto; gotas/mL só de Tylenol®,
+Novalgina®, Alivium® e Keflex®; azitromicina dose única de 30 mg/kg não cabe na calculadora (explicada em "obs").
+**Bulário (m20, 119 itens)** divergências bula x lista de MIP: ibuprofeno 200 mg/mL e desloratadina (bulas dizem venda
+sob prescrição); propranolol e outras apresentações "conforme o fabricante"; cianocobalamina sem bula de referência
+(TelessaúdeRS 2023); colchicina com o esquema de dose baixa da EULAR 2016 ao lado do da bula; Plano B dos sais de
+reidratação pela versão do cartaz do MS disponível na BVS.

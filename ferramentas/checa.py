@@ -13,7 +13,57 @@ CLASSES_DIV = {"tab", "cx chave", "cx alerta", "cx balcao", "cx lei", "cx exempl
 PROIBIDAS = ["neste módulo", "neste tópico", "nesta seção", "vamos ver", "em resumo", "é importante ressaltar",
              "vale lembrar", "vale destacar", "fique atento", "neste texto"]
 EMOJI = re.compile("[\U0001F300-\U0001FAFF☀-➿⭐✅]")
-TIPOS = {"tabela", "quadro", "checklist", "fluxo", "cartoes", "questoes", "receita", "pop", "simulador"}
+TIPOS = {"tabela", "quadro", "checklist", "fluxo", "cartoes", "questoes", "receita", "pop", "simulador", "calculadora", "bulario"}
+GRUPOS_BUL = {"Dor, febre e inflamação", "Anti-infecciosos", "Cardiovascular", "Diabetes e endócrino", "Sistema nervoso",
+              "Respiratório e alergia", "Digestivo", "Pele e mucosas", "Saúde da mulher e do homem", "Vitaminas e outros"}
+VENDA_BUL = {"mip", "prescricao", "antimicrobiano", "controlado"}
+CAMPOS_BUL = ("nome", "grupo", "classe", "venda", "apresentacoes", "indicacoes", "adulto", "contraindicacoes",
+              "interacoes", "gestacao", "conservacao", "balcao", "fonte")
+
+
+def checa_bulario(itens, onde, erros, avisos):
+    nomes = set()
+    for it in itens:
+        nm = it.get("nome", "?")
+        for k in CAMPOS_BUL:
+            if not it.get(k):
+                erros.append(f"{onde}: bulário {nm!r} sem {k}")
+        if it.get("grupo") and it["grupo"] not in GRUPOS_BUL:
+            erros.append(f"{onde}: bulário {nm!r} grupo fora da lista: {it['grupo']!r}")
+        if it.get("venda") and it["venda"] not in VENDA_BUL:
+            erros.append(f"{onde}: bulário {nm!r} venda fora da lista: {it['venda']!r}")
+        if it.get("venda") == "controlado" and not it.get("lista"):
+            erros.append(f"{onde}: bulário {nm!r} controlado sem lista (ex.: C1)")
+        if semacento(nm) in nomes:
+            erros.append(f"{onde}: bulário {nm!r} repetido")
+        nomes.add(semacento(nm))
+
+
+def checa_calculadora(b, onde, erros):
+    for f in b.get("farmacos", []):
+        nm = f.get("nome", "?")
+        for k in ("id", "nome", "grupo", "base", "doseKg", "tomadas", "apresentacoes", "fonte"):
+            if f.get(k) in (None, "", []):
+                erros.append(f"{onde}: calculadora {nm!r} sem {k}")
+        if f.get("base") not in ("dose", "dia"):
+            erros.append(f"{onde}: calculadora {nm!r} base deve ser 'dose' ou 'dia'")
+        for k in ("doseKg", "tomadas"):
+            v = f.get(k)
+            if not (isinstance(v, list) and len(v) == 2 and all(isinstance(x, (int, float)) for x in v) and v[0] <= v[1]):
+                erros.append(f"{onde}: calculadora {nm!r} {k} deve ser [mín, máx] numérico")
+        for k in ("maxDose", "maxDia", "maxDiaKg"):
+            if k in f and not isinstance(f[k], (int, float)):
+                erros.append(f"{onde}: calculadora {nm!r} {k} deve ser número")
+        for a in f.get("apresentacoes", []):
+            if not a.get("r") or not isinstance(a.get("mgml"), (int, float)):
+                erros.append(f"{onde}: calculadora {nm!r} apresentação sem r/mgml numérico")
+            if "gotasml" in a and not isinstance(a["gotasml"], (int, float)):
+                erros.append(f"{onde}: calculadora {nm!r} gotasml deve ser número")
+
+
+def semacento(s):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", s.lower()) if unicodedata.category(c) != "Mn")
 
 
 class Html(HTMLParser):
@@ -71,6 +121,15 @@ def checa(caminho):
         d = json.load(open(caminho, encoding="utf-8"))
     except Exception as e:
         return [f"JSON inválido: {e}"], []
+    if isinstance(d, dict) and "id" not in d and "itens" in d:  # fragmento do bulário: {"itens": [...]}
+        checa_bulario(d["itens"], caminho, erros, avisos)
+        tudo = "\n".join(textos(d))
+        if tudo.count("—") + tudo.count("–"):
+            erros.append("travessão no texto")
+        if EMOJI.search(tudo):
+            erros.append("emoji no texto")
+        print(f"  {caminho}: fragmento do bulário com {len(d['itens'])} medicamentos")
+        return erros, avisos
     for k in ("id", "num", "titulo", "escopo", "topicos", "mapas", "apoio", "fontes"):
         if k not in d:
             erros.append(f"falta campo {k}")
@@ -146,6 +205,10 @@ def checa(caminho):
                 avisos.append(f"{b['id']}: em {longa} questões a correta é bem mais longa que as outras")
         if tp == "cartoes":
             nc += len(b.get("itens", []))
+        if tp == "bulario":
+            checa_bulario(b.get("itens", []), b["id"], erros, avisos)
+        if tp == "calculadora":
+            checa_calculadora(b, b["id"], erros)
     tudo = "\n".join(textos(d))
     n_trav = tudo.count("—") + tudo.count("–")
     if n_trav:

@@ -1,6 +1,7 @@
 # SOS Farmácia Comercial
 
-Material didático (11 módulos) para alunos do 9º/10º semestre de Farmácia e recém-formados, criado em 08/10/2026.
+Material didático para alunos do 9º/10º semestre de Farmácia e recém-formados, criado em 08/10/2026 (11 módulos);
+**reorganizado em 15/10/2026 em 14 módulos só da rotina da farmácia comercial** (ver "Reorganização" no fim).
 Público de farmácia. No ar desde 08/10/2026 em https://medtechbr.com.br/sos-farmacia/ (repo público
 MedTechBR/sos-farmacia, Pages da main na raiz). **Desde 10/10/2026 é vendido no MedTech** (produto `sosfarmacia` do
 `planos.json` do site, linha provas, publico farmacia, R$ 49,90/mês ou R$ 397/ano; aparece no portal Provas, na
@@ -80,3 +81,20 @@ mudou). `#secao` no endereço abre a seção (`#validade`, `#receb`…). Tema na
   (de `_mtsync`) antes do carregador, `localStorage.__fakeUser`, abrir com `?portao=1`; apagar a cópia depois.
 - No SOS: `itemGestao()` na barra lateral (grupo Ferramentas) e na gaveta, faixa `.vGestao` com 4 atalhos no início,
   "Gestão da farmácia" no "Mais".
+
+## Reorganização (15/10/2026)
+Pedido do dono: ficar só com os temas da farmácia comercial. Ordem (num) e id do arquivo:
+1 Legislação farmacêutica (m13) · 2 Portaria 344/98 (m02) · 3 RDC 471/2021 (m08) · 4 Termolábeis (m11) · 5 SNGPC (m12, m12b)
+· 6 Vigilância sanitária: balanços, BMPO, RMNRA (m14) · 7 POPs (m10) · 8 Prateleiras, validade e etiquetagem (m15)
+· 9 Código MS e DCB (m16) · 10 Trier Sistemas (m17, ex-m12c + simulador do Trier) · 11 Serviços clínicos (m18)
+· 12 MIP (m01a, m01b) · 13 Calculadora de dose (m19) · 14 Bulário (m20).
+**Ids antigos mantidos de propósito** (progresso salvo no aparelho é por id de módulo/tópico/bloco); a ordem vem do `num`.
+Saíram m03a, m03b, m04, m05, m06, m07, m09 (farmacologia por sistemas e interações): copiados para
+`~/Documents/Claude/sos-farmacologia/herdado/` (com PDFs e pendências) para o app novo **SOS Farmacologia**;
+prompt de abertura em `~/Documents/Claude/sos-farmacologia/PROMPT-INICIAL.md`.
+Blocos novos: `calculadora` (fármacos por peso, tetos, mL/gotas/frascos, cálculo livre e quantidade a dispensar) e
+`bulario` (busca, filtro por grupo e por regime de venda, itens em `<details>`); formato no docs/BRIEF.md
+("Blocos especiais"); edição em JSON. Módulos que têm um desses blocos aparecem na barra lateral no grupo
+**Ferramentas** (abrem direto no bloco), não em Módulos. Os itens do bulário foram escritos em 3 partes
+(m20 + `trabalho/bulario_b.json` + `trabalho/bulario_c.json`) e juntados no bloco `m20-bulario`.
+Pendente: planilha da DCB que o dono vai mandar (virar tabela de consulta no módulo m16).

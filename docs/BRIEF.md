@@ -1,12 +1,12 @@
 # Brief de conteúdo do SOS Farmácia Comercial
 
-Material didático em 11 módulos para **alunos de Farmácia do 9º e 10º semestres e farmacêuticos recém-formados**
+Material didático em 14 módulos (reorganizado em 15/10/2026: só os temas da rotina da farmácia comercial; a farmacologia por sistemas foi para o SOS Farmacologia) para **alunos de Farmácia do 9º e 10º semestres e farmacêuticos recém-formados**
 que vão trabalhar (ou já trabalham) em **farmácia comercial e drogaria**. O objetivo é a pessoa chegar ao balcão
 sabendo agir: dispensar com segurança, orientar, reconhecer quando encaminhar, cumprir a legislação sanitária e
 registrar o que faz. Cada módulo tem três tipos de conteúdo: **Resumo para leitura**, **Mapa mental** (colorido,
 didático) e **Material de apoio** (tabelas, quadros, fluxos, checklists, modelos, cartões e questões de fixação).
 
-Pasta do projeto: `/Users/matheusparente/Documents/Claude/sos-farmacia/`. Hoje é **08/10/2026**.
+Pasta do projeto: `/Users/matheusparente/Documents/Claude/sos-farmacia/`. Hoje é **15/10/2026**.
 
 ## Regra de ouro: rigor técnico e legal
 
@@ -71,7 +71,7 @@ Cada agente grava `conteudo/<arquivo>.json` (UTF-8, JSON válido, sem comentári
 }
 ```
 
-- `id` do módulo (`m01`…`m11`), `num`, `titulo`, `escopo`: iguais em todas as partes do mesmo módulo.
+- `id` do módulo (o que a sua tarefa disser; ids não seguem o número do módulo), `num`, `titulo`, `escopo`: iguais em todas as partes do mesmo módulo.
   `parte`: "a", "b"… quando o módulo for escrito por mais de um agente (o app junta na ordem). Ids internos
   únicos e com o prefixo do módulo.
 
@@ -139,3 +139,32 @@ consultou. Pode incluir a URL oficial no fim.
 2. Reler procurando: dose sem unidade, regra sem fonte, travessão, frase proibida, correta mais longa.
 3. Na resposta final ao coordenador: arquivos gravados, contagem (palavras, tópicos, questões, cartões), e uma
    lista honesta do que NÃO conseguiu confirmar na web (para revisão humana).
+
+## Blocos especiais (15/10/2026)
+
+- `calculadora` (só no módulo Calculadora de dose):
+  `{ "tipo":"calculadora", "id":"…", "titulo":"…", "aviso":"frase curta",
+     "farmacos":[ { "id":"paracetamol", "nome":"Paracetamol", "grupo":"Analgésicos e antitérmicos",
+       "venda":"MIP", "base":"dose" | "dia", "doseKg":[10, 15], "tomadas":[4, 6],
+       "maxDose":1000, "maxDia":4000, "maxDiaKg":75, "idade":"texto: idade/peso mínimos",
+       "dias":"texto opcional: duração usual", "obs":"texto", "fonte":"bula/referência e ano",
+       "apresentacoes":[ { "r":"Gotas 200 mg/mL", "mgml":200, "gotasml":20, "frascos":[15] },
+                         { "r":"Suspensão oral 32 mg/mL", "mgml":32, "frascos":[60, 100] } ] } ] }`
+  `base` "dose": `doseKg` em mg/kg por tomada; "dia": `doseKg` em mg/kg/dia dividido em `tomadas` tomadas.
+  `tomadas` = [mín, máx] de tomadas por dia. `maxDose` (mg por tomada), `maxDia` (mg/dia) e `maxDiaKg`
+  (mg/kg/dia) são tetos; omita o que a bula não fixar. `gotasml` só para gotas, **o número de gotas por mL da
+  bula daquele produto** (varia entre fabricantes; se não confirmou, não ponha). `frascos` = volumes em mL dos
+  frascos vendidos. O app calcula mg, mL e gotas por tomada, confere os tetos e a quantidade de frascos.
+- `bulario` (só no módulo Bulário): `{ "tipo":"bulario", "id":"…", "titulo":"…", "nota":"…", "itens":[ … ] }`, cada item:
+  `{ "nome":"Amoxicilina", "marca":"Amoxil® (referência)", "grupo":"Anti-infecciosos", "classe":"Penicilina (aminopenicilina)",
+     "venda":"mip|prescricao|antimicrobiano|controlado", "lista":"C1 (só se controlado)",
+     "apresentacoes":"…", "indicacoes":"…", "adulto":"posologia usual adulto", "crianca":"posologia pediátrica (omita se não se aplica)",
+     "maxima":"dose máxima diária (se a bula fixar)", "contraindicacoes":"…", "interacoes":"as que importam no balcão",
+     "gestacao":"gestação e lactação, curto", "conservacao":"…", "balcao":"orientação ao paciente em 1 a 3 frases",
+     "fonte":"bula do profissional do medicamento de referência (fabricante, ano) ou outra fonte oficial" }`
+  `grupo` é um destes: Dor, febre e inflamação; Anti-infecciosos; Cardiovascular; Diabetes e endócrino; Sistema
+  nervoso; Respiratório e alergia; Digestivo; Pele e mucosas; Saúde da mulher e do homem; Vitaminas e outros.
+  `venda`: mip (isento de prescrição), prescricao (tarja vermelha sem retenção), antimicrobiano (retenção pela
+  RDC 471/2021, inclui GLP-1 pela RDC 973/2025), controlado (Portaria 344/98; preencher `lista`).
+  Texto curto em cada campo (célula de consulta, não parágrafo). Fragmentos só com itens: `{"itens":[…]}`,
+  validados com `python3 ferramentas/checa.py arquivo.json`.
