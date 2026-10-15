@@ -59,3 +59,24 @@ titulo/texto/campo/select/tabela/botoes/aviso/arquivo/links com marcador `n`, no
 no PDF uma tela por página). Telas do SNGPC levantadas com a conta do dono só por GET, sem enviar formulário:
 `docs/sngpc_visita.md` (sem dado real). Mesmo procedimento para outros sistemas: o dono entra, eu leio as páginas por
 fetch GET, mascaro números e nomes, nunca submeto formulário nem clico em ação (confirmar, finalizar, enviar).
+
+
+## Gestão da farmácia (15/10/2026)
+O FarmáciaGest (escala, trocas, banco de horas, recebimento, divergências, validade) entrou no SOS como área própria:
+`gestao/index.html` (no ar em medtechbr.com.br/sos-farmacia/gestao/), com o visual do SOS (barra lateral agrupada,
+cor por seção via `body[data-aba]`, título com selo; celular com barra de 4 + gaveta "Mais"). Gerado uma vez por
+`ferramentas/monta_gestao.py` + `ferramentas/gestao_casca.css` a partir de `~/Documents/Claude/farmacia/index.html`;
+**daqui em diante `gestao/index.html` é a fonte** (editar direto; não rodar o monta_gestao de novo sem reaplicar o que
+mudou). `#secao` no endereço abre a seção (`#validade`, `#receb`…). Tema na chave `sos-farmacia:tema`.
+- Conta: mesmo carregador do SOS (só no site; `?portao=1` no localhost) com `../mtsync.js`, `/_mtacesso.js` e
+  `gestao/conta-gestao.js`: compra do produto `sosfarmacia`; dados SOBEM (diferente do SOS) pelo motor do mtsync em
+  `users/{uid}/apps/sosgestao/sync`, uma coleção por chave `fg_*` (listas por `id`, feriados por `data`, minimos e
+  valcfg como `doc`). App expõe `window.FG` (ler/gravar/aoReceber/juntarAntigo/naConta); `saveAll` chama `MTS.mudou`.
+- Importação do FarmáciaGest antigo (`apps/farmaciagest`, documento único com JSON) no `legado` do mtsync, SÓ se a área
+  nova da conta estiver vazia (senão ressuscitaria excluídos num segundo aparelho). Junta por id; o local vence.
+- Mesma origem do app antigo (medtechbr.com.br/farmaciagest/): as chaves `fg_*` do aparelho são as mesmas, então quem
+  usava lá abre com os dados aqui. O app antigo segue no ar, sem mudança.
+- Teste sem conta real: copiar `gestao/index.html` para `gestao/teste-fake.html` com `<script src="fake-firebase.js">`
+  (de `_mtsync`) antes do carregador, `localStorage.__fakeUser`, abrir com `?portao=1`; apagar a cópia depois.
+- No SOS: `itemGestao()` na barra lateral (grupo Ferramentas) e na gaveta, faixa `.vGestao` com 4 atalhos no início,
+  "Gestão da farmácia" no "Mais".

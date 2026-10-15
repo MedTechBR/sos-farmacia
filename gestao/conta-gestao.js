@@ -7,7 +7,7 @@
      banco de horas, recebimento, divergências, validade), e perder isso foi o que aconteceu no FarmáciaGest
      quando ele vivia só no aparelho. Motor do mtsync: um documento por item em users/{uid}/apps/sosgestao/sync,
      último que editou vence POR ITEM, exclusão vira lápide, fila offline do próprio Firestore.
-   - Uma vez por conta, antes de o motor começar, traz o que estava no FarmáciaGest antigo
+   - Uma vez por conta (só enquanto a área nova está vazia), antes de o motor começar, traz o que estava no FarmáciaGest antigo
      (users/{uid}/apps/farmaciagest, documento único com o JSON) e junta por id com o que já está aqui.
    - REGRA DO DONO: nada salvo no aparelho é apagado por causa da conta (limparLocal vazio). */
 (function () {
@@ -42,6 +42,11 @@
       gravar: (c, v) => FG.gravar(c, v),
       aoReceber: () => FG.aoReceber(),
       async legado({ uid, db }) {
+        /* só na PRIMEIRA vez da conta: se a área nova já tem dados, quem manda é ela. Importar de novo num
+           segundo aparelho ressuscitaria o que já foi excluído aqui (o item antigo ganharia carimbo novo). */
+        const col = db.collection("users").doc(uid).collection("apps").doc(APP).collection("sync");
+        const ja = await (col.limit ? col.limit(1) : col).get();
+        if (ja.size > 0) return true;
         const snap = await db.collection("users").doc(uid).collection("apps").doc("farmaciagest").get();
         if (!snap.exists) return true;
         let p = null; try { const raw = snap.data(); p = raw && raw.json ? JSON.parse(raw.json) : null } catch (e) { p = null }
