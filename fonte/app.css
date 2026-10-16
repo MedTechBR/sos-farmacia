@@ -447,7 +447,7 @@ body.editando .ctl{display:inline-flex}
 @media(max-width:640px){.bloco{padding:18px 16px;border-radius:22px}.mapaCard{padding:16px 14px 12px;border-radius:22px}.pop-cab{grid-template-columns:1fr}.pop-cab>div{border-right:0;border-bottom:1px solid #D3D9E6}.carta .face{padding:22px 20px 16px}.carta .cont{font-size:17px}.enun{font-size:16px}.alt:not([disabled]):hover{transform:none}.bloco>header .tipo{display:none}.mmBotoes [data-mapa="vista"]{margin-left:0}}
 
 /* simulador de tela (réplica do sistema com dados fictícios) */
-.sim{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,1fr);gap:18px;align-items:start}
+.sim[data-sim]{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,1fr);gap:18px;align-items:start}
 .simJanela{border:1px solid #9FB3C2;border-radius:12px;overflow:hidden;background:#fff;color:#1d2b36;font:12.5px/1.45 Verdana,Tahoma,var(--sans);box-shadow:var(--sombraM)}
 .simTopo{display:flex;align-items:center;gap:10px;background:#C3D2DC;padding:8px 12px;border-bottom:3px solid #F2C94C;font-size:11.5px;color:#334}
 .simLogo{font-weight:800;color:#1f4e6b;letter-spacing:.02em}
@@ -492,7 +492,7 @@ body.editando .ctl{display:inline-flex}
 .simNotas li.on{background:var(--acSup)}
 .simNotas li .simN{margin-top:1px}
 .simNotas .navQ{margin-top:12px}
-@media(max-width:980px){.sim{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:980px){.sim[data-sim]{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:640px){.simCorpo{grid-template-columns:1fr}.simMenu{flex-direction:row;overflow-x:auto;padding:6px}.simMenu button{white-space:nowrap;border-radius:6px;margin:0}.simOps{margin-left:0}.simCampo .r{min-width:0}}
 
 /* ---------- busca ---------- */
