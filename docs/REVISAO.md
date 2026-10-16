@@ -63,3 +63,14 @@ Novalgina®, Alivium® e Keflex®; azitromicina dose única de 30 mg/kg não cab
 sob prescrição); propranolol e outras apresentações "conforme o fabricante"; cianocobalamina sem bula de referência
 (TelessaúdeRS 2023); colchicina com o esquema de dose baixa da EULAR 2016 ao lado do da bula; Plano B dos sais de
 reidratação pela versão do cartaz do MS disponível na BVS.
+
+## Calculadora ampliada (16/10/2026): 45 fármacos e parte b do módulo
+Fármacos novos lidos em bula reproduzida (Consulta Remédios). Revisar: tetos deduzidos da dose de adulto (penicilina V,
+doxiciclina, griseofulvina, betametasona, bromoprida, ambroxol, levetiracetam; dito em "obs"); contradições internas de
+bula registradas em "obs" (Hixizine®: 0,7 mg/kg 3x/dia passa do teto de 2 mg/kg/dia; Cataflam® gotas x "não indicado
+abaixo de 14 anos"; doxiciclina e o corte de 45 kg); sulfato ferroso: fabricante e volume de frasco não confirmados;
+listas C1/B1 de carbamazepina, valproato e fenobarbital vindas do m02. Parte b: dose alta de amoxicilina pela AAP 2013
+lida em resumo (AFP); volumes IM por idade de fonte secundária; fórmulas CKD-EPI 2021 e Mosteller escritas de memória
+(exemplos recalculados); dipirona: SBP 2021 10 a 12 mg/kg, MS dengue 10 mg/kg, calculadora 10 a 15 (texto explica).
+Ficaram fora da calculadora por falta de dose por peso na bula: fluconazol, aciclovir, nitrofurantoína, tinidazol,
+mebendazol, albendazol, levamisol, ondansetrona oral, metoclopramida, salbutamol xarope, colecalciferol, dexametasona elixir.

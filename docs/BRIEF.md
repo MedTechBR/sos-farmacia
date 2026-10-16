@@ -155,6 +155,11 @@ consultou. Pode incluir a URL oficial no fim.
   (mg/kg/dia) são tetos; omita o que a bula não fixar. `gotasml` só para gotas, **o número de gotas por mL da
   bula daquele produto** (varia entre fabricantes; se não confirmou, não ponha). `frascos` = volumes em mL dos
   frascos vendidos. O app calcula mg, mL e gotas por tomada, confere os tetos e a quantidade de frascos.
+  Extras (16/10/2026): `"unidade":"mg"|"mcg"|"UI"` (padrão mg; `doseKg`, tetos e `mgml` ficam nessa unidade);
+  apresentação sólida com `"mgcp": 6` (unidade por comprimido; o app mostra a fração de comprimido) e `"cxs":[4]`
+  (comprimidos por caixa) e `"un":"cápsula"` quando não for comprimido (no fármaco ou na apresentação); `"tomPadrao":2` muda o número de tomadas que aparece primeiro; dose por faixa de peso com `"faixas":[{"ate":15,"dose":30,"rot":"até 15 kg"},
+  {"de":15,"ate":23,"dose":45,"rot":"acima de 15 até 23 kg"},{"de":40,"dose":75,"rot":"acima de 40 kg"}]`
+  (`de` exclusivo, `ate` inclusivo, `doseMax` opcional; com faixas, `base` e `doseKg` são dispensáveis).
 - `bulario` (só no módulo Bulário): `{ "tipo":"bulario", "id":"…", "titulo":"…", "nota":"…", "itens":[ … ] }`, cada item:
   `{ "nome":"Amoxicilina", "marca":"Amoxil® (referência)", "grupo":"Anti-infecciosos", "classe":"Penicilina (aminopenicilina)",
      "venda":"mip|prescricao|antimicrobiano|controlado", "lista":"C1 (só se controlado)",

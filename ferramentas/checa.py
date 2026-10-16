@@ -40,23 +40,37 @@ def checa_bulario(itens, onde, erros, avisos):
 
 
 def checa_calculadora(b, onde, erros):
+    ids = set()
     for f in b.get("farmacos", []):
         nm = f.get("nome", "?")
-        for k in ("id", "nome", "grupo", "base", "doseKg", "tomadas", "apresentacoes", "fonte"):
+        faixas = f.get("faixas") or []
+        obrig = ("id", "nome", "grupo", "tomadas", "apresentacoes", "fonte") + (() if faixas else ("base", "doseKg"))
+        for k in obrig:
             if f.get(k) in (None, "", []):
                 erros.append(f"{onde}: calculadora {nm!r} sem {k}")
-        if f.get("base") not in ("dose", "dia"):
+        if f.get("id") in ids:
+            erros.append(f"{onde}: calculadora id repetido {f.get('id')}")
+        ids.add(f.get("id"))
+        if not faixas and f.get("base") not in ("dose", "dia"):
             erros.append(f"{onde}: calculadora {nm!r} base deve ser 'dose' ou 'dia'")
-        for k in ("doseKg", "tomadas"):
+        if f.get("unidade", "mg") not in ("mg", "mcg", "UI"):
+            erros.append(f"{onde}: calculadora {nm!r} unidade deve ser mg, mcg ou UI")
+        for k in (("tomadas",) if faixas else ("doseKg", "tomadas")):
             v = f.get(k)
             if not (isinstance(v, list) and len(v) == 2 and all(isinstance(x, (int, float)) for x in v) and v[0] <= v[1]):
                 erros.append(f"{onde}: calculadora {nm!r} {k} deve ser [mín, máx] numérico")
+        for x in faixas:
+            if not isinstance(x.get("dose"), (int, float)) or not x.get("rot"):
+                erros.append(f"{onde}: calculadora {nm!r} faixa sem dose numérica ou rot")
+            for k in ("de", "ate", "doseMax"):
+                if k in x and not isinstance(x[k], (int, float)):
+                    erros.append(f"{onde}: calculadora {nm!r} faixa {k} deve ser número")
         for k in ("maxDose", "maxDia", "maxDiaKg"):
             if k in f and not isinstance(f[k], (int, float)):
                 erros.append(f"{onde}: calculadora {nm!r} {k} deve ser número")
         for a in f.get("apresentacoes", []):
-            if not a.get("r") or not isinstance(a.get("mgml"), (int, float)):
-                erros.append(f"{onde}: calculadora {nm!r} apresentação sem r/mgml numérico")
+            if not a.get("r") or not (isinstance(a.get("mgml"), (int, float)) or isinstance(a.get("mgcp"), (int, float))):
+                erros.append(f"{onde}: calculadora {nm!r} apresentação sem r e sem mgml/mgcp numérico")
             if "gotasml" in a and not isinstance(a["gotasml"], (int, float)):
                 erros.append(f"{onde}: calculadora {nm!r} gotasml deve ser número")
 
@@ -121,6 +135,13 @@ def checa(caminho):
         d = json.load(open(caminho, encoding="utf-8"))
     except Exception as e:
         return [f"JSON inválido: {e}"], []
+    if isinstance(d, dict) and "id" not in d and "farmacos" in d:  # fragmento da calculadora: {"farmacos": [...]}
+        checa_calculadora(d, caminho, erros)
+        tudo = "\n".join(textos(d))
+        if tudo.count("—") + tudo.count("–"):
+            erros.append("travessão no texto")
+        print(f"  {caminho}: fragmento da calculadora com {len(d['farmacos'])} fármacos")
+        return erros, avisos
     if isinstance(d, dict) and "id" not in d and "itens" in d:  # fragmento do bulário: {"itens": [...]}
         checa_bulario(d["itens"], caminho, erros, avisos)
         tudo = "\n".join(textos(d))
@@ -219,8 +240,8 @@ def checa(caminho):
             erros.append(f"expressão proibida: {f!r}")
     if EMOJI.search(tudo):
         erros.append("emoji no texto")
-    if re.search(r"\d\.\d+ ?(mg|g|mL|mcg|UI)\b", tudo):
-        avisos.append("possível decimal com ponto (use vírgula): " + re.search(r"\d\.\d+ ?(mg|g|mL|mcg|UI)\b", tudo).group(0))
+    if re.search(r"\d\.(?!\d{3}(?!\d))\d+ ?(mg|g|mL|mcg|UI)\b", tudo):
+        avisos.append("possível decimal com ponto (use vírgula): " + re.search(r"\d\.(?!\d{3}(?!\d))\d+ ?(mg|g|mL|mcg|UI)\b", tudo).group(0))
     print(f"  {caminho}: {len(d['topicos'])} tópicos, {palavras} palavras no resumo, {len(d['mapas'])} mapas, "
           f"{len(d['apoio'])} blocos de apoio, {nq} questões, {nc} cartões, {len(d['fontes'])} fontes")
     return erros, avisos

@@ -98,3 +98,10 @@ Blocos novos: `calculadora` (fármacos por peso, tetos, mL/gotas/frascos, cálcu
 **Ferramentas** (abrem direto no bloco), não em Módulos. Os itens do bulário foram escritos em 3 partes
 (m20 + `trabalho/bulario_b.json` + `trabalho/bulario_c.json`) e juntados no bloco `m20-bulario`.
 Pendente: planilha da DCB que o dono vai mandar (virar tabela de consulta no módulo m16).
+
+## Calculadora ampliada (16/10/2026)
+45 fármacos (anti-infecciosos, antiparasitários, antieméticos, antialérgicos, anticonvulsivantes, ferro). O bloco aceita
+`unidade` (mg/mcg/UI), apresentação sólida (`mgcp`, `cxs`, `un`), `faixas` de peso (de exclusivo, ate inclusivo) e
+`tomPadrao`; busca de fármaco no topo (re-renderiza e devolve o foco ao campo). Fragmentos `{"farmacos":[...]}` passam no
+checa.py. Parte b do módulo (m19b.json): peso/idade/SC, febre e dor, antimicrobianos pediátricos, sal e elemento, função
+renal (CKD-EPI 2021) e injetáveis.

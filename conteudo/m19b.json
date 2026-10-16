@@ -1,0 +1,778 @@
+{
+ "id": "m19",
+ "num": 13,
+ "parte": "b",
+ "titulo": "Calculadora de dose",
+ "escopo": "Cálculo de dose no balcão: unidades e concentrações, dose por peso e tetos, gotas, reconstituição de suspensões, quantidade a dispensar (RDC 471/2021), insulinas e canetas, e conduta diante de erros. Inclui calculadora pediátrica alimentada por dados de bula.",
+ "topicos": [
+  {
+   "id": "m19-peso-superficie",
+   "titulo": "Peso, idade e superfície corporal",
+   "resumo": "<p>Toda dose pediátrica parte de uma medida do corpo. A bula escolhe qual medida usar conforme o fármaco e o que foi estudado: peso, idade ou superfície corporal. O farmacêutico precisa reconhecer qual delas a receita seguiu, conferir se a medida informada é atual e saber arredondar o resultado para algo que o cuidador consiga medir em casa.</p>\n<h3>Três formas de individualizar a dose</h3>\n<div class=\"tab\"><table><thead><tr><th>Medida</th><th>Como aparece na bula</th><th>Exemplos de balcão</th></tr></thead><tbody>\n<tr><td>Peso</td><td>mg/kg por dose ou por dia; gotas/kg</td><td>Antitérmicos, amoxicilina, cefalexina, azitromicina, ferro</td></tr>\n<tr><td>Idade (faixas fixas)</td><td>Volume ou comprimido por faixa etária</td><td>Sulfametoxazol + trimetoprima, anti-helmínticos, antialérgicos (tabela de dose fixa da parte anterior)</td></tr>\n<tr><td>Faixa de peso</td><td>Dose fixa para cada intervalo de peso</td><td>Dipirona gotas (Novalgina®: 5 a 8 kg, 9 a 15 kg, 16 a 23 kg)</td></tr>\n<tr><td>Superfície corporal (SC)</td><td>mg/m²</td><td>Antineoplásicos orais, alguns imunossupressores; raro na drogaria, comum na farmácia que atende oncologia</td></tr>\n</tbody></table></div>\n<p>Dose por idade é uma aproximação feita para facilitar a vida do cuidador: a bula supõe que a criança tenha o peso médio daquela idade. Quando o peso real foge muito da média, a tabela por idade erra junto. Por isso, sempre que a bula oferecer também a dose por peso, a conferência deve ser feita pelo peso.</p>\n<h3>Superfície corporal</h3>\n<p>A superfície corporal reflete melhor do que o peso o metabolismo basal, e por isso é usada para fármacos de margem terapêutica estreita. A fórmula mais usada é a de Mosteller (1987):</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>SC (m²) = raiz quadrada de [altura (cm) × peso (kg) ÷ 3600]. A conta exige altura e peso medidos; idade não entra.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança com 110 cm e 20 kg. A receita traz um fármaco na dose de 100 mg/m² por dia.</p><p>Passo 1: 110 × 20 = 2200.<br>Passo 2: 2200 ÷ 3600 = 0,611.<br>Passo 3: raiz quadrada de 0,611 = 0,78 m².<br>Passo 4: dose diária: 100 mg/m² × 0,78 m² = 78 mg.<br>Conferência: um adulto de 170 cm e 70 kg tem SC de 1,82 m². A criança tem cerca de 43% da superfície do adulto, embora pese 29% do que ele pesa. Por isso doses por m² e por kg não são intercambiáveis.</p></div>\n<h3>Peso real e peso ideal na criança com obesidade</h3>\n<p>Na criança com excesso de peso, a dose calculada pelo peso real pode ficar alta, porque gordura e músculo não distribuem os fármacos do mesmo jeito. Fármacos lipofílicos tendem a ter volume de distribuição maior no obeso; os hidrofílicos podem ter volume maior ou menor, e a depuração hepática pode cair por infiltração gordurosa do fígado. Há poucos estudos pediátricos que definam, fármaco a fármaco, qual peso usar.</p>\n<p>O posicionamento do Pediatric Pharmacy Advocacy Group (Matson e colaboradores, 2017) é a referência mais citada e traz três regras práticas:</p>\n<ul>\n<li>abaixo de 18 anos e de 40 kg, usar a dose por peso;</li>\n<li>a partir de 40 kg, ainda pode-se usar a dose por peso, <strong>desde que não ultrapasse a dose de adulto</strong> para a mesma indicação;</li>\n<li>para fármacos de margem estreita, o ajuste deve se apoiar em farmacocinética e no acompanhamento do prescritor.</li>\n</ul>\n<p>Algumas referências pediátricas sugerem peso ideal ou peso ajustado para certos fármacos. Essa escolha é do prescritor. No balcão, a conferência do farmacêutico tem dois pontos firmes: a dose por quilo deve estar dentro da faixa da bula para o peso usado, e o resultado não pode passar do teto por tomada e por dia.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Menino de 8 anos com 45 kg. A pediatra anotou que o peso esperado para a altura dele seria de 26 kg. A mãe pede paracetamol para febre e quer saber a dose máxima do dia.</p><p>Passo 1: pelo peso real: 45 kg × 15 mg/kg = 675 mg por tomada; teto diário de 75 mg/kg: 45 × 75 = 3375 mg.<br>Passo 2: pelo peso esperado: 26 kg × 15 mg/kg = 390 mg por tomada; 26 × 75 = 1950 mg por dia.<br>Passo 3: tetos da bula do Tylenol®: 1000 mg por tomada, 4000 mg por dia e 75 mg/kg/dia. As duas contas ficam abaixo dos tetos absolutos.<br>Conduta: sem orientação escrita do pediatra, oriente a dose pela faixa de 10 a 15 mg/kg do peso real no limite inferior (10 mg/kg = 450 mg), sem passar de 5 tomadas ao dia e de 3375 mg, e pergunte se o pediatra já definiu um peso de cálculo. Se ele definiu, siga-o.</p></div>\n<h3>Arredondamento seguro de volume</h3>\n<p>Arredondar é escolher um volume que o dosador consegue medir e que mantém a dose dentro da faixa. Três regras evitam erro:</p>\n<ol>\n<li>Arredonde para a graduação do dosador entregue (seringa de 0,1 mL, de 0,2 mL ou copo de 2,5 mL).</li>\n<li>Quando o valor calculado estiver perto do teto, arredonde para baixo.</li>\n<li>Depois de arredondar, refaça a conta de mg/kg com o volume final.</li>\n</ol>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 13 kg, febre alta, ibuprofeno suspensão 30 mg/mL, dose de 10 mg/kg.</p><p>Passo 1: 13 × 10 = 130 mg.<br>Passo 2: 130 ÷ 30 = 4,33 mL.<br>Passo 3: com seringa graduada de 0,1 mL: 4,3 mL = 129 mg (9,9 mg/kg). Com seringa graduada de 0,5 mL, 4,5 mL dariam 135 mg (10,4 mg/kg), acima do topo da faixa; 4 mL dão 120 mg (9,2 mg/kg), dentro da faixa.<br>Conclusão: 4,3 mL na seringa fina ou 4 mL na de 0,5 mL. Nunca 4,5 mL.</p></div>\n<h3>Comprimido: partir ou não partir</h3>\n<p>Quando a dose cai entre dois comprimidos, a tentação é partir. Partir só é seguro quando a bula do produto autoriza. O sulco nem sempre serve para dividir a dose: em alguns produtos ele só facilita engolir, e as metades saem desiguais. O cortador de comprimidos melhora a precisão, mas não corrige um comprimido que não foi desenhado para ser dividido.</p>\n<div class=\"tab\"><table><thead><tr><th>Tipo</th><th>Pode partir?</th><th>Por quê</th></tr></thead><tbody>\n<tr><td>Comprimido simples com sulco de partição declarado na bula</td><td>Sim, pelo sulco</td><td>Metades com teor equivalente, conforme a bula</td></tr>\n<tr><td>Comprimido simples sem sulco</td><td>Só se a bula permitir</td><td>Metades desiguais; risco em margem estreita</td></tr>\n<tr><td>Revestido gastrorresistente (entérico)</td><td>Não</td><td>O revestimento protege o fármaco do ácido ou o estômago do fármaco</td></tr>\n<tr><td>Liberação prolongada ou modificada (siglas como XR, LP, CR, retard)</td><td>Não, salvo se a bula disser o contrário</td><td>Quebrar libera de uma vez a dose de horas: risco de toxicidade</td></tr>\n<tr><td>Revestido só por sabor ou cor</td><td>Conforme a bula</td><td>Pode amargar ou manchar, sem perda de efeito; confirme no texto</td></tr>\n</tbody></table></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 28 kg com receita de prednisolona 1 mg/kg/dia por 5 dias. A família prefere comprimido.</p><p>Passo 1: 28 × 1 = 28 mg/dia.<br>Passo 2: com um comprimido de 20 mg cuja bula declara sulco de partição: 1,5 comprimido = 30 mg (1,07 mg/kg). Com a solução de 3 mg/mL: 28 ÷ 3 = 9,3 mL.<br>Passo 3: os dois caminhos ficam abaixo do teto de 80 mg/dia da bula do Prelone®.<br>Conduta: a diferença entre 28 e 30 mg é pequena, mas a troca de forma farmacêutica e a dose arredondada precisam do aval do prescritor, que escreveu a dose em mg/kg.</p></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>Triturar ou abrir comprimido de liberação prolongada para dar a uma criança ou a um idoso com dificuldade de engolir pode causar intoxicação. Se o paciente não consegue engolir, procure uma forma líquida ou outro produto e fale com o prescritor.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Pergunte peso e altura, quando foram medidos e se a pediatra definiu um peso de cálculo. Anote o peso usado na receita ou no sistema. Ao arredondar, mostre ao cuidador a marca exata no dosador e explique por que não se deve \"completar um pouco mais\". Antes de orientar a partir um comprimido, leia a bula daquele produto.</p></div>"
+  },
+  {
+   "id": "m19-febre-crianca",
+   "titulo": "Febre e dor na criança",
+   "resumo": "<p>Febre é uma das queixas mais frequentes no balcão, e quase sempre chega com uma pergunta de dose. O documento científico \"Manejo da febre aguda\" da Sociedade Brasileira de Pediatria (SBP, Departamentos de Pediatria Ambulatorial e de Infectologia, 2021) é a referência nacional mais recente localizada e orienta o que o farmacêutico deve repetir ao cuidador: tratar o desconforto, usar um antitérmico por vez, na dose certa, e avaliar a criança como um todo.</p>\n<h3>Quando dar antitérmico</h3>\n<p>Para a SBP (2021), febre é temperatura axilar acima de 37,2 °C a 37,3 °C, medida de preferência com termômetro digital na axila. O antitérmico é indicado quando a febre vem com desconforto evidente: choro intenso, irritabilidade, menos atividade, perda de apetite, sono alterado. O documento recomenda não fixar um número de temperatura para medicar. Métodos físicos (banho, compressas) não são recomendados, salvo na hipertermia (temperatura central de 40 °C ou mais com alteração neurológica). O antitérmico também não previne convulsão febril e não deve ser dado de rotina antes de vacinas.</p>\n<h3>Doses por peso e por tomada</h3>\n<div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Dose por tomada</th><th>Intervalo e máximo</th><th>Idade mínima</th><th>Fonte</th></tr></thead><tbody>\n<tr><td>Paracetamol</td><td>10 a 15 mg/kg</td><td>4 a 6 horas; até 5 tomadas em 24 h; até 75 mg/kg/dia, 1000 mg por tomada e 4000 mg/dia</td><td>Abaixo de 11 kg ou 2 anos: só com orientação médica (Tylenol®); único recomendado abaixo de 1 mês (SBP)</td><td>SBP 2021; bula do Tylenol®</td></tr>\n<tr><td>Dipirona</td><td>10 a 12 mg/kg (SBP); bula por faixa de peso</td><td>Até 4 tomadas ao dia (6 em 6 horas); 1000 mg por tomada e 4000 mg/dia são a dose de adulto</td><td>Contraindicada abaixo de 3 meses ou de 5 kg</td><td>SBP 2021; bula da Novalgina®</td></tr>\n<tr><td>Ibuprofeno</td><td>5 mg/kg (febre baixa) a 10 mg/kg (febre alta)</td><td>6 em 6 ou 8 em 8 horas; criança: até 200 mg por tomada e 800 mg/dia</td><td>A partir de 6 meses</td><td>SBP 2021; bula do Alivium®</td></tr>\n</tbody></table></div>\n<p>A calculadora da parte anterior usa para a dipirona a faixa de 10 a 15 mg/kg por tomada. A SBP (2021) preconiza 10 a 12 mg/kg, e o guia de dengue do Ministério da Saúde (2024) usa 10 mg/kg. Na prática, a conferência fica mais segura no limite inferior e sempre dentro da tabela da bula do produto. A SBP chama atenção para um costume: \"1 gota por quilo\" de dipirona gotas (25 mg por gota na Novalgina®) entrega 25 mg/kg, mais que o dobro da dose, com risco de hipotensão, hipotermia e sudorese.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 14 kg com febre e choro. A mãe quer dar dipirona gotas 500 mg/mL \"1 gota por quilo\", como fazia a avó.</p><p>Passo 1: dose pela SBP: 14 × 10 = 140 mg a 14 × 12 = 168 mg.<br>Passo 2: na Novalgina® (20 gotas/mL), cada gota tem 25 mg: 140 ÷ 25 = 5,6 e 168 ÷ 25 = 6,7. Dose: 6 gotas (150 mg, 10,7 mg/kg).<br>Passo 3: a tabela da bula para 9 a 15 kg aceita 3 a 10 gotas por tomada; 6 gotas estão dentro.<br>Passo 4: o hábito da família: 14 gotas = 350 mg = 25 mg/kg, acima da faixa da bula e mais que o dobro da faixa da SBP.<br>Orientação: 6 gotas, até de 6 em 6 horas, no máximo 4 vezes ao dia.</p></div>\n<h3>Alternância de antitérmicos</h3>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>A SBP (2021) é direta: \"o uso alternado ou associado de antitérmicos não é recomendado\". Os três fármacos agem pelo mesmo mecanismo (inibição da síntese de prostaglandina E2), a alternância não traz benefício clínico e confunde o cuidador, o que multiplica o risco de superdose.</p></div>\n<p>Um estudo brasileiro citado pela SBP mostrou que 26,7% dos cuidadores alternavam antitérmicos, muitas vezes por orientação profissional, e que, em média, consideravam febre 37,4 °C. O mesmo documento relata que 43,3% das crianças avaliadas em outro estudo receberam subdose, principalmente de paracetamol, em parte porque os gotejadores das cópias entregam gotas menores que as do produto de referência. A conduta segura é escolher um antitérmico, dar a dose correta para o peso e respeitar o intervalo.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Pai de criança de 12 kg conta que, desde ontem, dá dipirona e ibuprofeno \"um a cada 3 horas, para a febre não voltar\".</p><p>Passo 1: em 24 horas, uma tomada a cada 3 horas soma 8 tomadas: 4 de dipirona e 4 de ibuprofeno.<br>Passo 2: o ibuprofeno a cada 6 horas está no limite do intervalo da bula; se a dose foi de 10 mg/kg (120 mg), o total de 480 mg/dia está abaixo de 800 mg.<br>Passo 3: o problema maior é a exposição dupla: dois fármacos, oito tomadas e nenhuma pausa para observar a criança.<br>Conduta: orientar um único antitérmico na dose do peso, explicar que a febre pode voltar entre as doses e investigar os sinais de alerta abaixo. Febre que persiste há mais de 3 dias pede avaliação médica, e a bula do ibuprofeno limita o uso para febre a 3 dias sem orientação médica.</p></div>\n<h3>Sinais de alerta para encaminhar</h3>\n<p>A SBP (2021) lembra que a intensidade da febre não diferencia infecção grave de leve, exceto em lactentes abaixo de 3 meses. O que diferencia é o estado geral. Encaminhe para avaliação médica no mesmo dia, e com urgência se houver mais de um sinal:</p>\n<ul>\n<li>lactente abaixo de 3 meses com febre (abaixo de 1 mês, paracetamol é o único antitérmico recomendado, e só com avaliação médica);</li>\n<li>criança prostrada, pouco responsiva ou difícil de acordar, mesmo depois que a febre baixa;</li>\n<li>respiração rápida (acima de 50 por minuto entre 6 e 12 meses, acima de 40 depois de 1 ano) ou saturação de oxigênio de 95% ou menos, quando medida;</li>\n<li>frequência cardíaca muito alta para a idade (160 ou mais abaixo de 12 meses, 150 ou mais entre 12 e 24 meses, 140 ou mais de 2 a 5 anos);</li>\n<li>enchimento capilar acima de 3 segundos, mucosas secas, pouca urina, recusa de líquidos;</li>\n<li>convulsão, febre há mais de 3 dias ou doença crônica de base.</li>\n</ul>\n<h3>Dengue: o que muda</h3>\n<p>Na suspeita de dengue, o guia \"Dengue: diagnóstico e manejo clínico, adulto e criança\" (Ministério da Saúde, 6ª edição, 2024) manda prescrever paracetamol e/ou dipirona e não usar salicilatos, anti-inflamatórios não esteroides nem corticosteroides, porque aumentam o risco de sangramento. O ácido acetilsalicílico já não é recomendado como antitérmico em criança pela SBP (2021), por causa da síndrome de Reye.</p>\n<div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Criança</th><th>Adulto</th></tr></thead><tbody>\n<tr><td>Dipirona</td><td>10 mg/kg/dose até de 6 em 6 horas</td><td>500 mg (20 gotas ou 1 comprimido) até de 6 em 6 horas</td></tr>\n<tr><td>Paracetamol</td><td>10 mg/kg/dose até de 6 em 6 horas</td><td>500 mg de 4 em 4 horas ou 1000 mg até de 6 em 6 horas; não passar de 4 g em 24 horas</td></tr>\n</tbody></table></div>\n<p>O mesmo apêndice informa \"1 mL = 20 gotas\" para o paracetamol 200 mg/mL. Essa equivalência não vale para todos os frascos: o gotejador do Tylenol® entrega 14 a 16 gotas por mL. Calcule as gotas com o número da bula do produto entregue.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 16 kg com febre há 2 dias e dor no corpo, em bairro com casos de dengue. A mãe pede ibuprofeno.</p><p>Passo 1: ibuprofeno não é indicado na suspeita de dengue (MS, 2024).<br>Passo 2: paracetamol 10 mg/kg: 16 × 10 = 160 mg.<br>Passo 3: Tylenol® gotas 200 mg/mL: 160 ÷ 200 = 0,8 mL; com cerca de 15 gotas/mL, 0,8 × 15 = 12 gotas.<br>Passo 4: se alguém usar \"20 gotas por mL\", calcula 16 gotas, que no gotejador do Tylenol® entregam cerca de 213 mg (13,3 mg/kg).<br>Orientação: 12 gotas até de 6 em 6 horas, hidratação oral reforçada e procura imediata de atendimento diante de sinal de alarme.</p></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>Sinais de alarme da dengue (MS, 2024): dor abdominal intensa e contínua, vômitos persistentes, acúmulo de líquidos, tontura ao levantar ou desmaio, fígado aumentado, sangramento de mucosa (gengiva, nariz), sonolência ou irritabilidade. Com qualquer um deles, a orientação é procurar atendimento de urgência, não trocar de antitérmico.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Pergunte idade, peso, há quanto tempo há febre, como a criança está entre os picos, o que já tomou, em que dose e em que horário. Escreva no papel o nome do antitérmico escolhido, o número de gotas ou mL, o intervalo mínimo e o máximo de tomadas no dia. Desaconselhe a alternância e explique o motivo. Se houver sinal de alerta, encaminhe por escrito.</p></div>"
+  },
+  {
+   "id": "m19-antimicrobiano-pediatrico",
+   "titulo": "Antimicrobianos pediátricos",
+   "resumo": "<p>Antibiótico pediátrico é o cálculo de maior impacto na drogaria: a dose errada para baixo leva a falha de tratamento e favorece resistência; para cima, aumenta efeitos adversos. A conferência tem quatro partes: a dose por quilo está dentro da faixa para a indicação, a duração faz sentido, a quantidade de frascos cobre o tratamento e a receita cumpre a RDC 471/2021.</p>\n<h3>Dose padrão e dose alta de amoxicilina</h3>\n<p>A bula do Amoxil® indica, para crianças abaixo de 40 kg, 20 a 50 mg/kg/dia em doses divididas de 8 em 8 horas, com possibilidade de até 150 mg/kg/dia. A mesma bula cita 80 a 90 mg/kg/dia em duas tomadas como primeira escolha na otite média aguda. Essa dose alta vem da diretriz de otite média aguda da American Academy of Pediatrics (AAP, 2013) e existe para vencer o pneumococo com sensibilidade reduzida à penicilina.</p>\n<div class=\"tab\"><table><thead><tr><th>Situação</th><th>Dose de amoxicilina</th><th>Fonte</th></tr></thead><tbody>\n<tr><td>Infecções em geral (abaixo de 40 kg)</td><td>20 a 50 mg/kg/dia, de 8 em 8 horas</td><td>Bula do Amoxil®</td></tr>\n<tr><td>Otite média aguda</td><td>80 a 90 mg/kg/dia, em 2 tomadas</td><td>AAP, 2013; citada na bula do Amoxil®</td></tr>\n<tr><td>Otite com uso de amoxicilina nos últimos 30 dias, conjuntivite associada ou falha em 48 a 72 h</td><td>Amoxicilina + clavulanato: 90 mg/kg/dia de amoxicilina com 6,4 mg/kg/dia de clavulanato (proporção 14:1), em 2 tomadas</td><td>AAP, 2013</td></tr>\n<tr><td>Sinusite bacteriana aguda</td><td>Amoxicilina, com ou sem clavulanato; dose padrão ou dose alta conforme o risco de resistência</td><td>AAP, 2013</td></tr>\n<tr><td>A partir de 40 kg</td><td>Posologia de adulto</td><td>Bula do Amoxil®</td></tr>\n</tbody></table></div>\n<p>Duração na otite média aguda pela AAP (2013): 10 dias abaixo de 2 anos e em quadro grave; 7 dias de 2 a 5 anos com quadro leve ou moderado; 5 a 7 dias a partir de 6 anos com quadro leve ou moderado. Para sinusite, a AAP (2013) relata recomendações de 10 a 28 dias e uma alternativa prática: manter até 7 dias depois da melhora, com no mínimo 10 dias. A duração é definida pelo prescritor; ao farmacêutico cabe conferir se a quantidade dispensada cobre os dias escritos.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>O Clavulin® BD 400 mg + 57 mg/5 mL tem proporção 7:1, e a bula vai até 70 mg/kg/dia de amoxicilina (45 a 70 mg/kg/dia na dose alta). Uma receita de \"90 mg/kg/dia\" com esse produto dobra o clavulanato em relação ao esquema 14:1 estudado pela AAP e passa da faixa da bula. Confirme com o prescritor; uma saída comum é associar amoxicilina pura para completar a dose de amoxicilina, o que é decisão dele.</p></div>\n<h3>Da dose ao número de frascos</h3>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 16 kg com otite média aguda. Receita: amoxicilina suspensão 500 mg/5 mL, 90 mg/kg/dia de 12 em 12 horas por 10 dias.</p><p>Passo 1: dose diária: 16 × 90 = 1440 mg.<br>Passo 2: por tomada: 1440 ÷ 2 = 720 mg.<br>Passo 3: concentração: 500 ÷ 5 = 100 mg/mL; volume: 720 ÷ 100 = 7,2 mL por tomada.<br>Passo 4: volume total: 7,2 × 2 × 10 = 144 mL.<br>Passo 5: frasco de 150 mL: 1 frasco, com sobra de 6 mL. A suspensão vale 14 dias em geladeira (Amoxil®), mais que os 10 dias de uso.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 20 kg, mesma receita (90 mg/kg/dia, 500 mg/5 mL, 12 em 12 horas, 10 dias).</p><p>Passo 1: 20 × 90 = 1800 mg/dia; 900 mg por tomada; 9 mL por tomada.<br>Passo 2: total: 9 × 2 × 10 = 180 mL.<br>Passo 3: 180 ÷ 150 = 1,2: são 2 frascos. O primeiro dura 8 dias (144 mL), dentro dos 14 dias de validade; o segundo é preparado no 9º dia.<br>Conferência legal: a quantidade escrita na receita precisa ser 2 frascos. Se estiver \"1 frasco\", contate o prescritor.</p></div>\n<h3>Receita: validade, retenção e quantidade</h3>\n<div class=\"cx lei\"><b>O que diz a norma</b><p>A receita de antimicrobiano vale 10 dias a contar da emissão (IN 360/2025, art. 1º, § 2º, para o qual remete o art. 7º da RDC 471/2021), é prescrita em 2 vias com posologia e quantidade em algarismos arábicos (RDC 471/2021, art. 6º, parágrafo único), e a dispensação deve \"atender essencialmente ao tratamento prescrito\" (art. 11). A segunda via fica retida na farmácia.</p></div>\n<p>O detalhamento das regras de receita, escrituração e tratamento prolongado está no módulo da RDC 471. No cálculo, o que importa é conferir que a quantidade escrita e a quantidade calculada pela posologia batem, e que a receita ainda está no prazo no dia da dispensação.</p>\n<h3>Dose abaixo ou acima da faixa</h3>\n<p>Antes de concluir que a dose está errada, identifique a indicação (a receita nem sempre traz) e qual faixa da bula vale para ela. Uma amoxicilina de 50 mg/kg/dia está correta para amigdalite e baixa para otite em que o prescritor quis dose alta; 90 mg/kg/dia é correta na otite e alta para uma infecção urinária simples.</p>\n<ol>\n<li>Calcule mg/kg/dia e mg por tomada com o peso atual.</li>\n<li>Compare com a faixa da bula e, quando a indicação for conhecida, com a diretriz citada.</li>\n<li>Confira os tetos: dose de adulto a partir de 40 kg (amoxicilina) e máximos por tomada e por dia.</li>\n<li>Se a dose estiver abaixo da faixa: subdose de antibiótico aumenta o risco de falha do tratamento. Contate o prescritor.</li>\n<li>Se estiver acima: veja se cabe em alguma indicação de dose alta. Se não couber, contate o prescritor.</li>\n<li>Registre a intervenção e a resposta.</li>\n</ol>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 22 kg, receita de cefalexina 250 mg/5 mL, 5 mL de 12 em 12 horas por 7 dias, para infecção de pele.</p><p>Passo 1: 5 mL × 50 mg/mL = 250 mg por tomada; 500 mg/dia.<br>Passo 2: 500 ÷ 22 = 22,7 mg/kg/dia.<br>Passo 3: a bula do Keflex® indica 25 a 50 mg/kg/dia e admite divisão de 12 em 12 horas em infecção de pele. A dose está pouco abaixo do mínimo.<br>Conduta: a diferença é de 10%, mas é subdose. Ligue para o prescritor, informe o peso e pergunte se ele quer ajustar para 6 mL (300 mg, 27,3 mg/kg/dia).</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Pergunte o peso e para que foi receitado. Faça a conta de mg/kg/dia antes de buscar o produto. Diga ao cuidador quantos frascos o tratamento exige e quantos dias dura cada um. Explique que o antibiótico vai até o último dia escrito, mesmo que a criança melhore antes, e que a sobra vai para o ponto de coleta.</p></div>"
+  },
+  {
+   "id": "m19-sal-elemento",
+   "titulo": "Sal, base e elemento",
+   "resumo": "<p>Muitos fármacos são vendidos como sal (cloridrato, sulfato, fumarato, besilato) ou como complexo, e a dose pode estar escrita em três jeitos: massa do sal, massa da base (a molécula ativa sem o contra-íon) ou massa do elemento (ferro, cálcio, potássio). Quando a receita usa um jeito e o rótulo outro, a dose real pode mudar duas, três ou cinco vezes.</p>\n<h3>Como ler a embalagem</h3>\n<ul>\n<li><b>\"Equivalente a\"</b>: \"cloridrato de sertralina equivalente a 50 mg de sertralina base\" (bula do Zoloft®). A dose da receita é a da base.</li>\n<li><b>\"Contém X mg de ferro elementar\"</b> ou <b>\"de Fe III\"</b>: o número de ferro já foi calculado pelo fabricante.</li>\n<li><b>Só o nome do sal com a massa</b>: \"carbonato de cálcio 1250 mg\". A massa é do sal; o elemento vem descrito em outra linha, às vezes só na bula.</li>\n</ul>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Massa do elemento = massa do sal × fração do elemento. Massa do sal = massa do elemento ÷ fração. Antes de calcular, descubra se o número da receita é do sal, da base ou do elemento.</p></div>\n<h3>Ferro</h3>\n<p>As doses de ferro em diretriz e em receita são em <strong>ferro elementar</strong>. O Programa Nacional de Suplementação de Ferro (Ministério da Saúde, 2013) usa 1 mg de ferro elementar/kg/dia para crianças de 6 a 24 meses e 40 mg de ferro elementar por dia para gestantes, e cita para tratamento da anemia 3 mg/kg/dia na criança abaixo de 2 anos, sem passar de 60 mg/dia, e 120 mg/dia no adulto (OMS, 2001). O Caderno dos Programas Nacionais de Suplementação de Micronutrientes (Ministério da Saúde, 2022) reorganizou a suplementação infantil em ciclos; confira o esquema vigente no documento oficial antes de orientar profilaxia.</p>\n<div class=\"tab\"><table><thead><tr><th>Sal ou complexo</th><th>Ferro por massa do sal</th><th>Exemplo de rótulo</th></tr></thead><tbody>\n<tr><td>Sulfato ferroso heptaidratado</td><td>Cerca de 20%</td><td>200 mg de sal = 40 mg de ferro</td></tr>\n<tr><td>Sulfato ferroso seco</td><td>Cerca de 30% a 33%, conforme a hidratação</td><td>Rótulo traz o ferro elementar</td></tr>\n<tr><td>Fumarato ferroso</td><td>Cerca de 33%</td><td>Rótulo traz o ferro elementar</td></tr>\n<tr><td>Gluconato ferroso</td><td>Cerca de 12%</td><td>Rótulo traz o ferro elementar</td></tr>\n<tr><td>Glicinato férrico (ferro quelato)</td><td>Varia com o sal; no Neutrofer® gotas, 20% (250 mg/mL = 50 mg/mL de ferro)</td><td>Neutrofer®: 2,5 mg de ferro por gota</td></tr>\n<tr><td>Ferripolimaltose (hidróxido férrico polimaltosado)</td><td>Rótulo em ferro III</td><td>Noripurum® gotas: 50 mg/mL de ferro, 2,5 mg por gota</td></tr>\n</tbody></table></div>\n<p>As gotas de ferro são o ponto de maior confusão, porque o número de gotas por mL e a concentração mudam entre produtos:</p>\n<div class=\"tab\"><table><thead><tr><th>Produto</th><th>Ferro por mL</th><th>Gotas por mL</th><th>Ferro por gota</th></tr></thead><tbody>\n<tr><td>Sulfato ferroso gotas (genérico cuja bula foi consultada)</td><td>25 mg</td><td>25</td><td>1 mg</td></tr>\n<tr><td>Noripurum® gotas (ferripolimaltose)</td><td>50 mg</td><td>20</td><td>2,5 mg</td></tr>\n<tr><td>Neutrofer® gotas (glicinato férrico)</td><td>50 mg</td><td>20</td><td>2,5 mg</td></tr>\n</tbody></table></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 10 kg com anemia. Receita: \"ferro elementar 3 mg/kg/dia\". A família comprou da primeira vez sulfato ferroso gotas (25 mg/mL, 25 gotas/mL) e agora quer levar Neutrofer® gotas \"porque mancha menos\".</p><p>Passo 1: dose: 10 × 3 = 30 mg de ferro por dia.<br>Passo 2: sulfato ferroso: 1 mg por gota, então 30 gotas.<br>Passo 3: Neutrofer®: 2,5 mg por gota, então 30 ÷ 2,5 = 12 gotas.<br>Passo 4: se a mãe mantiver 30 gotas com o produto novo: 30 × 2,5 = 75 mg/dia, 7,5 mg/kg, acima do teto de 60 mg/dia citado pelo PNSF.<br>Conduta: a troca de produto pede novo cálculo de gotas, escrito na caixa, e de preferência ciência do prescritor.</p></div>\n<h3>Cálcio</h3>\n<p>Pela composição química, o carbonato de cálcio tem 40% de cálcio elementar e o citrato de cálcio tetraidratado, cerca de 21%. Um comprimido de 1250 mg de carbonato fornece 500 mg de cálcio. Para os mesmos 500 mg com citrato, são necessários cerca de 2380 mg do sal. A orientação de tomada também difere: o carbonato precisa de ácido gástrico e vai melhor junto da refeição, enquanto o citrato é absorvido com ou sem alimento, o que favorece quem usa inibidor de bomba de prótons. Doses de cálcio costumam ser divididas em tomadas de até 500 mg de elemento, porque a fração absorvida cai com doses maiores.</p>\n<h3>Vitamina D</h3>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>Por definição, 1 mcg de colecalciferol = 40 UI. De UI para mcg, divida por 40; de mcg para UI, multiplique por 40. 1000 UI = 25 mcg; 7000 UI = 175 mcg; 50.000 UI = 1250 mcg.</p></div>\n<p>A vitamina D aparece em UI nas receitas e, cada vez mais, em mcg nos rótulos de suplementos. Os produtos vão de gotas com poucas centenas de UI a cápsulas de 50.000 UI. O erro grave é de frequência: 50.000 UI por semana é esquema comum de reposição, e a mesma cápsula tomada todos os dias dá 350.000 UI por semana.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Receita: \"colecalciferol 7000 UI, 1 vez por semana\". A farmácia tem cápsulas rotuladas como 175 mcg e gotas com 200 UI por gota.</p><p>Passo 1: 7000 ÷ 40 = 175 mcg. A cápsula de 175 mcg corresponde a 7000 UI: 1 cápsula por semana.<br>Passo 2: em gotas: 7000 ÷ 200 = 35 gotas por semana, ou 5 gotas por dia (1000 UI/dia), se o prescritor aceitar o fracionamento diário.<br>Orientação: escrever na caixa \"1 cápsula por semana, no mesmo dia\". A troca para gotas diárias é decisão do prescritor.</p></div>\n<h3>Potássio e outros sais</h3>\n<p>O cloreto de potássio tem massa molar de 74,55 g/mol: 1 g de KCl contém cerca de 13,4 mEq de potássio. O xarope a 6% tem 60 mg/mL; 15 mL contêm 900 mg de KCl, cerca de 12 mEq. Receita em mEq e produto em mg (ou o contrário) pedem essa conversão.</p>\n<div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Dose expressa em</th><th>Observação</th></tr></thead><tbody>\n<tr><td>Sertralina (cloridrato)</td><td>Base</td><td>50 mg de base correspondem a cerca de 56 mg do cloridrato (cálculo pela massa molar)</td></tr>\n<tr><td>Anlodipino (besilato)</td><td>Base</td><td>Rótulo: \"besilato de anlodipino equivalente a 5 mg de anlodipino\"</td></tr>\n<tr><td>Prednisolona (fosfato sódico)</td><td>Base</td><td>1 mg de prednisolona = 1,34 mg de fosfato sódico (Prelone®)</td></tr>\n<tr><td>Metformina (cloridrato)</td><td>Sal</td><td>\"Cloridrato de metformina 850 mg\"</td></tr>\n<tr><td>Losartana (potássica)</td><td>Sal</td><td>\"Losartana potássica 50 mg\"</td></tr>\n<tr><td>Levotiroxina (sódica)</td><td>Sal, em mcg</td><td>\"Levotiroxina sódica 50 mcg\"</td></tr>\n</tbody></table></div>\n<p>Na troca entre marcas, confira se as duas embalagens expressam a dose do mesmo jeito. A conferência fica crítica quando se manipula, quando se troca de sal (por exemplo, fumarato por sulfato ferroso) e quando a receita vem de outro país.</p>\n<div class=\"cx alerta\"><b>Atenção</b><p>Ferro é causa clássica de intoxicação acidental em criança pequena. Oriente guardar fora do alcance e longe de vitaminas infantis com sabor, e nunca dobrar a dose esquecida.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Ao dispensar ferro, cálcio, vitamina D ou potássio, leia em voz alta, com o cliente, a linha do rótulo que diz quanto de elemento ou de UI há por gota, comprimido ou mL. Se a receita não diz se a dose é do sal ou do elemento, pergunte ao prescritor. Ao trocar de marca, refaça a conta e escreva a nova orientação na embalagem.</p></div>"
+  },
+  {
+   "id": "m19-funcao-renal",
+   "titulo": "Função renal e idoso",
+   "resumo": "<p>Fármacos eliminados pelos rins se acumulam quando a filtração glomerular cai. A dose que era segura passa a produzir concentrações maiores e mais efeitos adversos: hipoglicemia, sangramento, confusão mental, hipercalemia. Idosos concentram o problema, porque a filtração cai com a idade e porque costumam usar vários medicamentos ao mesmo tempo.</p>\n<h3>Por que a creatinina \"normal\" engana no idoso</h3>\n<p>A creatinina sérica vem do músculo. Uma idosa magra produz pouca creatinina, e o valor no exame pode ficar dentro da referência do laboratório mesmo com filtração reduzida. Por isso a dose se decide pela taxa de filtração glomerular estimada (TFGe), que corrige a creatinina por idade e sexo, e nunca pela creatinina isolada.</p>\n<h3>CKD-EPI 2021</h3>\n<p>A equação CKD-EPI 2021 para creatinina (Inker e colaboradores, 2021) foi reajustada sem o coeficiente de raça, e a diretriz KDIGO 2024 recomenda não usar raça no cálculo. O resultado sai em mL/min/1,73 m². Muitos laboratórios já liberam a TFGe no laudo; confira qual equação foi usada.</p>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>TFGe = 142 × mín(Cr/κ; 1)<sup>α</sup> × máx(Cr/κ; 1)<sup>−1,200</sup> × 0,9938<sup>idade</sup> × 1,012 (se mulher). Cr em mg/dL; κ = 0,7 (mulher) ou 0,9 (homem); α = −0,241 (mulher) ou −0,302 (homem). Use calculadora validada; o importante no balcão é saber ler o resultado.</p></div>\n<div class=\"tab\"><table><thead><tr><th>Paciente</th><th>Creatinina</th><th>TFGe (CKD-EPI 2021)</th></tr></thead><tbody>\n<tr><td>Mulher, 80 anos</td><td>0,8 mg/dL</td><td>74 mL/min/1,73 m²</td></tr>\n<tr><td>Mulher, 82 anos</td><td>1 mg/dL</td><td>56 mL/min/1,73 m²</td></tr>\n<tr><td>Mulher, 78 anos</td><td>1,3 mg/dL</td><td>42 mL/min/1,73 m²</td></tr>\n<tr><td>Mulher, 80 anos</td><td>1,4 mg/dL</td><td>38 mL/min/1,73 m²</td></tr>\n<tr><td>Homem, 70 anos</td><td>1,5 mg/dL</td><td>50 mL/min/1,73 m²</td></tr>\n<tr><td>Homem, 74 anos</td><td>2 mg/dL</td><td>34 mL/min/1,73 m²</td></tr>\n</tbody></table></div>\n<p>A tabela mostra o efeito da idade: com creatinina de 1 mg/dL, valor que muitos consideram normal, a idosa de 82 anos já tem filtração abaixo de 60.</p>\n<h3>Clearance de creatinina nas bulas</h3>\n<p>Muitas bulas, sobretudo as antigas, dão o ajuste em \"clearance de creatinina\" (mL/min), porque os estudos de farmacocinética usaram a fórmula de Cockcroft-Gault. A KDIGO 2024 reconhece essa inconsistência, aponta os problemas daquela fórmula (criada antes da padronização da creatinina, sem mulheres e sem negros na amostra, dependente de um peso alterado por edema e obesidade) e orienta: para a maioria das pessoas e situações, equações validadas de TFGe com creatinina servem para ajustar dose (KDIGO 2024, ponto de prática 4.2.2). Agências reguladoras passaram a aceitar qualquer equação contemporânea de TFG em estudos de farmacocinética.</p>\n<p>Na prática da farmácia:</p>\n<ul>\n<li>use a TFGe do laudo (CKD-EPI 2021) como valor de referência para comparar com o limite da bula ou da diretriz;</li>\n<li>em pessoas muito pequenas ou muito grandes, e em fármacos de margem estreita, converta para TFGe não indexada (mL/min): TFGe × SC ÷ 1,73 (KDIGO 2024, ponto de prática 4.2.4);</li>\n<li>quando o resultado ficar perto do limite, ou a função renal estiver mudando (desidratação, doença aguda), não decida sozinho: fale com o prescritor.</li>\n</ul>\n<div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 78 anos, 45 kg e 155 cm, creatinina 1,3 mg/dL, TFGe de 42 mL/min/1,73 m² no laudo.</p><p>Passo 1: SC (Mosteller): raiz de (155 × 45 ÷ 3600) = 1,39 m².<br>Passo 2: TFGe não indexada: 42 × 1,39 ÷ 1,73 = 33,8 mL/min.<br>Conclusão: por ser pequena, a filtração real dela, em mL/min, é menor do que o número do laudo sugere. Para um fármaco com corte em 30 mL/min, a margem é estreita.</p></div>\n<h3>Ajustes comuns no balcão</h3>\n<div class=\"tab\"><table><thead><tr><th>Fármaco</th><th>Função renal</th><th>Conduta</th><th>Fonte</th></tr></thead><tbody>\n<tr><td>Metformina</td><td>TFGe 30 a 59</td><td>Dose inicial 500 ou 850 mg/dia; máximo 1000 mg/dia; abaixo de 45, reavaliar risco e benefício</td><td>Bula do Glifage®</td></tr>\n<tr><td>Metformina</td><td>TFGe abaixo de 30</td><td>Contraindicada; interromper</td><td>Bula do Glifage®</td></tr>\n<tr><td>Nitrofurantoína</td><td>Insuficiência renal moderada (bula); CrCl abaixo de 30 (Beers)</td><td>Bula: contraindicada; Beers: evitar</td><td>Bula da Macrodantina®; AGS Beers 2023</td></tr>\n<tr><td>AINE (ibuprofeno, diclofenaco, naproxeno, celecoxibe)</td><td>CrCl abaixo de 30</td><td>Evitar</td><td>AGS Beers 2023</td></tr>\n<tr><td>Gabapentina e pregabalina</td><td>CrCl abaixo de 60</td><td>Reduzir a dose</td><td>AGS Beers 2023</td></tr>\n<tr><td>Ciprofloxacino</td><td>CrCl abaixo de 30</td><td>Reduzir a dose usual</td><td>AGS Beers 2023</td></tr>\n<tr><td>Sulfametoxazol + trimetoprima</td><td>CrCl 15 a 29; abaixo de 15</td><td>Reduzir; evitar</td><td>AGS Beers 2023</td></tr>\n<tr><td>Espironolactona</td><td>CrCl abaixo de 30</td><td>Evitar (hipercalemia)</td><td>AGS Beers 2023</td></tr>\n<tr><td>Tramadol</td><td>CrCl abaixo de 30</td><td>Liberação imediata: reduzir; prolongada: evitar</td><td>AGS Beers 2023</td></tr>\n</tbody></table></div>\n<p>Os Critérios de Beers da American Geriatrics Society (2023) se aplicam a pessoas de 65 anos ou mais e expressam os cortes em clearance de creatinina; a tabela completa está no material de apoio. A bula brasileira continua sendo o documento legal do produto. Quando bula e diretriz divergem, como na nitrofurantoína, prevalece a conduta mais segura e a decisão compartilhada com o prescritor.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Mulher de 80 anos, TFGe 38 mL/min/1,73 m² em exame do mês passado, com receita nova de metformina 850 mg duas vezes ao dia.</p><p>Passo 1: dose prescrita: 1700 mg/dia.<br>Passo 2: bula do Glifage®: entre 30 e 59, máximo de 1000 mg/dia; abaixo de 45, reavaliar a continuidade; função renal a cada 3 meses entre 30 e 44.<br>Passo 3: a dose está 70% acima do máximo da bula para essa faixa.<br>Conduta: contatar o prescritor com o valor da TFGe e a data do exame. Pergunte também à paciente sobre vômitos, diarreia ou pouca ingestão de água, situações que derrubam a função renal e aumentam o risco de acidose láctica.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Homem de 74 anos, TFGe 34 mL/min/1,73 m², com dor no joelho, pede ibuprofeno 600 mg. Usa enalapril e hidroclorotiazida.</p><p>Passo 1: a TFGe está acima de 30, mas a associação de AINE com inibidor da ECA e diurético reduz a filtração.<br>Passo 2: o Beers 2023 manda evitar AINE abaixo de 30 mL/min, e o paciente está perto do corte.<br>Conduta: não indicar AINE; oferecer paracetamol dentro da dose de adulto, medidas não farmacológicas e encaminhar para avaliação da dor.</p></div>\n<div class=\"cx balcao\"><b>No balcão</b><p>Para idosos e para quem tem doença renal, pergunte se há exame recente de creatinina e qual a TFGe, peso e altura, e liste os medicamentos em uso, incluindo os de venda livre. Contate o prescritor quando a dose passar do limite para a faixa de função renal, quando o exame tiver mais de alguns meses e o paciente estiver doente, ou quando houver combinação de AINE, inibidor da ECA ou BRA e diurético.</p></div>"
+  },
+  {
+   "id": "m19-injetaveis",
+   "titulo": "Injetáveis na sala de serviços",
+   "resumo": "<p>Na sala de serviços farmacêuticos, o cálculo vira aplicação: o volume aspirado entra no paciente e não volta. A administração de medicamentos na farmácia segue a RDC 44/2009 (arts. 74 a 81) e a técnica do POP de injetáveis; aqui o foco é a conta: reconstituição, conversão de UI e mg em mL, volume por região e conferência.</p>\n<h3>Reconstituição e volume final</h3>\n<p>Como nas suspensões orais, o pó ocupa volume, e o volume final é maior que o de diluente. A concentração final deve ser calculada pelo volume final informado na bula.</p>\n<div class=\"tab\"><table><thead><tr><th>Produto</th><th>Diluente</th><th>Volume final</th><th>Concentração aproximada</th></tr></thead><tbody>\n<tr><td>Ceftriaxona 500 mg IM (Rocefin®)</td><td>2 mL de lidocaína 1%</td><td>Cerca de 2,36 mL</td><td>212 mg/mL</td></tr>\n<tr><td>Ceftriaxona 1 g IM (Rocefin®)</td><td>3,5 mL de lidocaína 1%</td><td>Cerca de 4,22 mL</td><td>237 mg/mL</td></tr>\n<tr><td>Benzilpenicilina benzatina 1.200.000 UI (Benzetacil®, suspensão pronta)</td><td>Não precisa</td><td>4 mL</td><td>300.000 UI/mL</td></tr>\n</tbody></table></div>\n<div class=\"cx alerta\"><b>Atenção</b><p>O diluente da ceftriaxona IM é solução de lidocaína e \"nunca deve ser administrado na veia\" (bula do Rocefin®). A mesma bula recomenda não aplicar mais de 1 g em cada local e usar a solução logo após o preparo. Ceftriaxona IV e IM são apresentações diferentes: confira o rótulo antes de reconstituir.</p></div>\n<div class=\"cx exemplo\"><b>Caso</b><p>Receita para criança de 15 kg: ceftriaxona 50 mg/kg IM, dose única. A farmácia tem o frasco de 1 g IM.</p><p>Passo 1: dose: 15 × 50 = 750 mg.<br>Passo 2: após reconstituir com 3,5 mL de lidocaína 1%, o frasco tem 1000 mg em 4,22 mL: 237 mg/mL.<br>Passo 3: volume: 750 ÷ 237 = 3,2 mL. O restante (cerca de 1 mL) é descartado, porque a solução deve ser usada logo.<br>Passo 4: 3,2 mL passam do volume recomendado para um único músculo nessa idade (tabela abaixo).<br>Conduta: confirmar com o prescritor a dose e a divisão em dois locais, e avaliar se a aplicação pediátrica cabe no serviço da farmácia ou deve ser feita na unidade de saúde. O erro clássico é aspirar 3,5 mL, o volume do diluente.</p></div>\n<h3>Penicilina benzatina: UI e mL</h3>\n<p>A dose de benzilpenicilina benzatina é escrita em unidades internacionais. No Benzetacil® em suspensão pronta (300.000 UI/mL), a conversão é direta: UI ÷ 300.000 = mL. Há também apresentações em pó para reconstituir; nelas, a concentração final depende do diluente e do volume final da bula daquele produto.</p>\n<div class=\"tab\"><table><thead><tr><th>Indicação (bula do Benzetacil®)</th><th>Dose</th><th>Volume a 300.000 UI/mL</th></tr></thead><tbody>\n<tr><td>Faringite estreptocócica, criança até 27 kg</td><td>300.000 a 600.000 UI</td><td>1 a 2 mL</td></tr>\n<tr><td>Faringite estreptocócica, criança maior</td><td>900.000 UI</td><td>3 mL</td></tr>\n<tr><td>Faringite estreptocócica, adulto</td><td>1.200.000 UI</td><td>4 mL</td></tr>\n<tr><td>Profilaxia de febre reumática</td><td>1.200.000 UI a cada 4 semanas</td><td>4 mL</td></tr>\n<tr><td>Sífilis primária, secundária e latente precoce</td><td>2.400.000 UI, dose única</td><td>8 mL, em dois locais (4 mL em cada glúteo)</td></tr>\n<tr><td>Sífilis latente tardia e terciária</td><td>2.400.000 UI por semana, 3 semanas</td><td>8 mL por semana, em dois locais</td></tr>\n</tbody></table></div>\n<p>A bula manda injeção intramuscular profunda, lenta e contínua (a suspensão pode entupir a agulha), aspiração antes de injetar e, em adulto, o quadrante superior lateral do glúteo; em lactentes e crianças pequenas, pode ser preferível a face lateral da coxa. O material do TelessaúdeRS-UFRGS (2023) aponta a região ventroglútea como preferencial.</p>\n<div class=\"cx exemplo\"><b>Caso</b><p>Criança de 20 kg com receita de penicilina benzatina 600.000 UI IM, dose única. A farmácia tem frasco de 1.200.000 UI em 4 mL.</p><p>Passo 1: concentração: 1.200.000 ÷ 4 = 300.000 UI/mL.<br>Passo 2: volume: 600.000 ÷ 300.000 = 2 mL.<br>Passo 3: a dose está na faixa da bula para crianças até 27 kg.<br>Passo 4: o restante do frasco (2 mL) é desprezado, como manda a bula.<br>Erro a evitar: ler \"600.000\" e aspirar o frasco inteiro, ou confundir \"1.200.000 UI\" com \"1,2 mL\".</p></div>\n<h3>Volume máximo por região</h3>\n<p>O volume que um músculo tolera depende da massa muscular, do biotipo e da idade, e a literatura não é uniforme. As referências usadas na enfermagem brasileira trazem valores próximos destes:</p>\n<div class=\"tab\"><table><thead><tr><th>Região</th><th>Adulto</th><th>Criança</th></tr></thead><tbody>\n<tr><td>Ventroglútea</td><td>Até 4 mL</td><td>Indicada a partir de cerca de 7 meses; volumes menores, conforme a idade</td></tr>\n<tr><td>Dorsoglútea</td><td>Até 4 mL</td><td>Pouco desenvolvida abaixo de 1 ano; evitar em criança pequena</td></tr>\n<tr><td>Vasto lateral da coxa</td><td>3 a 4 mL</td><td>Local preferido abaixo de 2 anos; até cerca de 1 mL nessa faixa</td></tr>\n<tr><td>Deltoide</td><td>0,5 a 1 mL</td><td>Pouca massa muscular; evitar em criança pequena</td></tr>\n</tbody></table></div>\n<p>Valores de adulto para ventroglútea, dorsoglútea e vasto lateral: TelessaúdeRS-UFRGS (2023). Deltoide e criança: BVS Atenção Primária (2021), com base no Parecer COREN-SP 010/2020. A tabela por faixa etária completa está no material de apoio.</p>\n<h3>Conferência e dupla checagem</h3>\n<p>Antes de aspirar, confira em voz alta cinco pares: paciente e receita; medicamento e apresentação (IM ou IV); dose prescrita e unidade (mg ou UI); concentração final e volume calculado; via e região. A dupla checagem independente, em que uma segunda pessoa refaz a conta sem ver o resultado da primeira, é recomendada pelo ISMP Brasil para medicamentos de alto risco e é útil sempre que houver conversão de UI ou fracionamento de frasco.</p>\n<div class=\"cx balcao\"><b>No balcão</b><p>Leia a receita, a bula e o rótulo do frasco antes de preparar. Escreva a conta (dose, concentração, volume) na ficha do atendimento e peça a um colega que refaça sem olhar o seu resultado. Pergunte sobre alergia a penicilina e a lidocaína, uso de anticoagulante e reação em aplicação anterior. Registre lote, validade, volume, região e horário, e mantenha o paciente em observação pelo tempo do POP.</p></div>"
+  }
+ ],
+ "mapas": [
+  {
+   "id": "m19-mapa-crianca",
+   "titulo": "Criança: peso, febre e antibiótico",
+   "centro": "Dose na criança",
+   "ramos": [
+    {
+     "t": "Medida do corpo",
+     "itens": [
+      "Peso atual; idade só aproxima",
+      "SC = raiz(altura × peso ÷ 3600)",
+      "Obeso: dose de adulto é o teto (PPAG 2017)",
+      "Arredondar para baixo perto do teto"
+     ]
+    },
+    {
+     "t": "Comprimido",
+     "itens": [
+      "Partir só se a bula permitir",
+      "Liberação prolongada: não partir",
+      "Gastrorresistente: não triturar"
+     ]
+    },
+    {
+     "t": "Antitérmicos",
+     "itens": [
+      "Paracetamol 10 a 15 mg/kg, até 5x/dia",
+      "Dipirona 10 a 12 mg/kg (SBP 2021)",
+      "Ibuprofeno 5 a 10 mg/kg, a partir de 6 meses",
+      "Não alternar (SBP 2021)"
+     ]
+    },
+    {
+     "t": "Encaminhar",
+     "itens": [
+      "Febre abaixo de 3 meses",
+      "Prostração, respiração rápida",
+      "Enchimento capilar acima de 3 s",
+      "Febre há mais de 3 dias"
+     ]
+    },
+    {
+     "t": "Dengue",
+     "itens": [
+      "Sem AINE, sem AAS, sem corticoide",
+      "Paracetamol ou dipirona 10 mg/kg até 6/6 h",
+      "Sinal de alarme: urgência (MS 2024)"
+     ]
+    },
+    {
+     "t": "Amoxicilina",
+     "itens": [
+      "Padrão: 20 a 50 mg/kg/dia, 8/8 h",
+      "Otite: 80 a 90 mg/kg/dia, 12/12 h (AAP 2013)",
+      "Clavulin® BD vai até 70 mg/kg/dia",
+      "Receita: 10 dias, 2 vias (IN 360/2025)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m19-mapa-adulto",
+   "titulo": "Sal, rim e injetáveis",
+   "centro": "Conferir antes de dar",
+   "ramos": [
+    {
+     "t": "Sal e elemento",
+     "itens": [
+      "Elemento = sal × fração",
+      "Sulfato ferroso: cerca de 20% de ferro",
+      "Carbonato 40% de cálcio; citrato 21%",
+      "1 g de KCl = 13,4 mEq de K"
+     ]
+    },
+    {
+     "t": "Gotas de ferro",
+     "itens": [
+      "Sulfato ferroso genérico: 1 mg/gota",
+      "Noripurum® e Neutrofer®: 2,5 mg/gota",
+      "Trocou a marca: refazer as gotas"
+     ]
+    },
+    {
+     "t": "Vitamina D",
+     "itens": [
+      "1 mcg = 40 UI",
+      "50.000 UI = 1250 mcg",
+      "Semanal x diária: erro de 7 vezes"
+     ]
+    },
+    {
+     "t": "Função renal",
+     "itens": [
+      "CKD-EPI 2021, sem raça",
+      "Creatinina normal engana no idoso",
+      "Não indexada = TFGe × SC ÷ 1,73",
+      "Bula em clearance: usar TFGe do laudo"
+     ]
+    },
+    {
+     "t": "Ajustes",
+     "itens": [
+      "Metformina: 30 a 59, até 1000 mg/dia",
+      "Metformina abaixo de 30: suspender",
+      "AINE e nitrofurantoína abaixo de 30: evitar",
+      "Gabapentina abaixo de 60: reduzir"
+     ]
+    },
+    {
+     "t": "Injetáveis",
+     "itens": [
+      "Ceftriaxona 1 g + 3,5 mL = 4,22 mL",
+      "Lidocaína do diluente nunca na veia",
+      "Benzetacil®: 300.000 UI/mL",
+      "Glúteo adulto: até 4 mL por local"
+     ]
+    }
+   ]
+  }
+ ],
+ "apoio": [
+  {
+   "tipo": "tabela",
+   "id": "m19-tab-sal-elemento",
+   "titulo": "Sal e elemento",
+   "colunas": [
+    "Substância",
+    "Forma",
+    "Fração ativa",
+    "Exemplo de conta",
+    "Fonte"
+   ],
+   "linhas": [
+    [
+     "Ferro",
+     "Sulfato ferroso heptaidratado",
+     "Cerca de 20% de ferro",
+     "200 mg de sal = 40 mg de ferro",
+     "Massa molar"
+    ],
+    [
+     "Ferro",
+     "Sulfato ferroso seco",
+     "Cerca de 30% a 33%",
+     "Ler o ferro elementar no rótulo",
+     "Massa molar"
+    ],
+    [
+     "Ferro",
+     "Fumarato ferroso",
+     "Cerca de 33%",
+     "200 mg de sal = 66 mg de ferro",
+     "Massa molar"
+    ],
+    [
+     "Ferro",
+     "Gluconato ferroso",
+     "Cerca de 12%",
+     "300 mg de sal = 35 mg de ferro",
+     "Massa molar"
+    ],
+    [
+     "Ferro",
+     "Glicinato férrico (Neutrofer® gotas)",
+     "20%",
+     "250 mg/mL = 50 mg/mL de ferro; 2,5 mg/gota",
+     "Bula do Neutrofer®"
+    ],
+    [
+     "Ferro",
+     "Ferripolimaltose (Noripurum® gotas)",
+     "Rótulo em ferro III",
+     "50 mg/mL; 20 gotas/mL; 2,5 mg/gota",
+     "Bula do Noripurum®"
+    ],
+    [
+     "Ferro",
+     "Sulfato ferroso gotas (genérico consultado)",
+     "Rótulo em ferro elementar",
+     "25 mg/mL; 25 gotas/mL; 1 mg/gota",
+     "Bula do genérico"
+    ],
+    [
+     "Cálcio",
+     "Carbonato de cálcio",
+     "40% de cálcio",
+     "1250 mg = 500 mg de cálcio",
+     "Massa molar"
+    ],
+    [
+     "Cálcio",
+     "Citrato de cálcio tetraidratado",
+     "Cerca de 21%",
+     "500 mg de cálcio = cerca de 2380 mg do sal",
+     "Massa molar"
+    ],
+    [
+     "Vitamina D",
+     "Colecalciferol",
+     "1 mcg = 40 UI",
+     "7000 UI = 175 mcg; 50.000 UI = 1250 mcg",
+     "Definição da UI"
+    ],
+    [
+     "Potássio",
+     "Cloreto de potássio",
+     "1 g = 13,4 mEq de K",
+     "Xarope 6%: 15 mL = 900 mg = 12 mEq",
+     "Massa molar"
+    ],
+    [
+     "Sertralina",
+     "Cloridrato",
+     "Dose em base",
+     "50 mg de base = cerca de 56 mg do sal",
+     "Bula do Zoloft®; massa molar"
+    ],
+    [
+     "Prednisolona",
+     "Fosfato sódico",
+     "Dose em base",
+     "1 mg de base = 1,34 mg do sal",
+     "Bula do Prelone®"
+    ]
+   ],
+   "nota": "Frações calculadas pela massa molar são aproximadas e dependem da hidratação do sal. O número que vale é o do rótulo do produto entregue."
+  },
+  {
+   "tipo": "tabela",
+   "id": "m19-tab-ajuste-renal",
+   "titulo": "Ajuste renal de medicamentos comuns",
+   "colunas": [
+    "Fármaco",
+    "Limite",
+    "Conduta",
+    "Fonte"
+   ],
+   "linhas": [
+    [
+     "Metformina",
+     "TFGe 30 a 59 mL/min/1,73 m²",
+     "Máximo 1000 mg/dia; abaixo de 45, reavaliar; função renal a cada 3 a 6 meses (45 a 59) ou 3 meses (30 a 44)",
+     "Bula do Glifage®"
+    ],
+    [
+     "Metformina",
+     "TFGe abaixo de 30",
+     "Contraindicada",
+     "Bula do Glifage®"
+    ],
+    [
+     "Nitrofurantoína",
+     "Insuficiência renal moderada",
+     "Contraindicada",
+     "Bula da Macrodantina®"
+    ],
+    [
+     "Nitrofurantoína",
+     "CrCl abaixo de 30",
+     "Evitar",
+     "AGS Beers 2023"
+    ],
+    [
+     "AINE (inclusive celecoxibe)",
+     "CrCl abaixo de 30",
+     "Evitar",
+     "AGS Beers 2023"
+    ],
+    [
+     "Ciprofloxacino",
+     "CrCl abaixo de 30",
+     "Reduzir a dose usual",
+     "AGS Beers 2023"
+    ],
+    [
+     "Sulfametoxazol + trimetoprima",
+     "CrCl 15 a 29; abaixo de 15",
+     "Reduzir; evitar",
+     "AGS Beers 2023"
+    ],
+    [
+     "Gabapentina",
+     "CrCl abaixo de 60",
+     "Reduzir",
+     "AGS Beers 2023"
+    ],
+    [
+     "Pregabalina",
+     "CrCl abaixo de 60",
+     "Reduzir",
+     "AGS Beers 2023"
+    ],
+    [
+     "Baclofeno",
+     "TFGe abaixo de 60",
+     "Evitar; se inevitável, menor dose e vigiar confusão",
+     "AGS Beers 2023"
+    ],
+    [
+     "Duloxetina",
+     "CrCl abaixo de 30",
+     "Evitar",
+     "AGS Beers 2023"
+    ],
+    [
+     "Tramadol",
+     "CrCl abaixo de 30",
+     "Liberação imediata: reduzir; prolongada: evitar",
+     "AGS Beers 2023"
+    ],
+    [
+     "Famotidina",
+     "CrCl abaixo de 50",
+     "Reduzir",
+     "AGS Beers 2023"
+    ],
+    [
+     "Espironolactona",
+     "CrCl abaixo de 30",
+     "Evitar",
+     "AGS Beers 2023"
+    ],
+    [
+     "Colchicina",
+     "CrCl abaixo de 30",
+     "Reduzir e vigiar toxicidade",
+     "AGS Beers 2023"
+    ],
+    [
+     "Rivaroxabana",
+     "CrCl 15 a 50; abaixo de 15",
+     "Reduzir conforme a bula e a indicação; evitar",
+     "AGS Beers 2023"
+    ],
+    [
+     "Dabigatrana",
+     "CrCl abaixo de 30",
+     "Evitar",
+     "AGS Beers 2023"
+    ]
+   ],
+   "nota": "Os Critérios de Beers valem para 65 anos ou mais e usam clearance de creatinina; a KDIGO 2024 aceita a TFGe por creatinina para ajuste de dose na maioria dos casos e, em extremos de peso, a TFGe não indexada (TFGe × SC ÷ 1,73). A bula do produto continua sendo a referência legal."
+  },
+  {
+   "tipo": "quadro",
+   "id": "m19-quadro-formulas",
+   "titulo": "Fórmulas do farmacêutico",
+   "html": "<div class=\"tab\"><table><thead><tr><th>Para achar</th><th>Conta</th><th>Exemplo</th></tr></thead><tbody>\n<tr><td>Concentração em mg/mL</td><td>mg ÷ volume indicado (mg/5 mL ÷ 5)</td><td>250 mg/5 mL = 50 mg/mL</td></tr>\n<tr><td>mg/mL a partir de porcentagem</td><td>% × 10</td><td>6% = 60 mg/mL</td></tr>\n<tr><td>Volume da dose</td><td>dose (mg) ÷ concentração (mg/mL)</td><td>720 mg ÷ 100 mg/mL = 7,2 mL</td></tr>\n<tr><td>Dose por tomada (mg/kg/dose)</td><td>peso × mg/kg</td><td>14 kg × 10 mg/kg = 140 mg</td></tr>\n<tr><td>Dose por tomada (mg/kg/dia)</td><td>peso × mg/kg/dia ÷ tomadas</td><td>16 × 90 ÷ 2 = 720 mg</td></tr>\n<tr><td>Conferir mg/kg de uma receita</td><td>mL × mg/mL × tomadas ÷ peso</td><td>5 × 50 × 2 ÷ 22 = 22,7 mg/kg/dia</td></tr>\n<tr><td>mg por gota</td><td>mg/mL ÷ gotas/mL</td><td>500 ÷ 20 = 25 mg</td></tr>\n<tr><td>Número de gotas</td><td>mL × gotas/mL (ou mg ÷ mg por gota)</td><td>0,8 mL × 15 = 12 gotas</td></tr>\n<tr><td>Volume total do tratamento</td><td>mL por tomada × tomadas/dia × dias</td><td>9 × 2 × 10 = 180 mL</td></tr>\n<tr><td>Frascos</td><td>volume total ÷ volume utilizável, para cima; conferir validade pós-preparo</td><td>180 ÷ 150 = 1,2 = 2 frascos</td></tr>\n<tr><td>Insulina em mL</td><td>UI ÷ UI/mL</td><td>12 UI ÷ 100 UI/mL = 0,12 mL</td></tr>\n<tr><td>Duração de caneta</td><td>UI da caneta ÷ (dose + teste de segurança)</td><td>450 ÷ (27 + 3) = 15 dias</td></tr>\n<tr><td>Superfície corporal (Mosteller)</td><td>raiz de (altura cm × peso kg ÷ 3600)</td><td>110 cm, 20 kg = 0,78 m²</td></tr>\n<tr><td>Dose por superfície</td><td>mg/m² × SC</td><td>100 × 0,78 = 78 mg</td></tr>\n<tr><td>Elemento a partir do sal</td><td>massa do sal × fração</td><td>1250 mg × 0,4 = 500 mg de cálcio</td></tr>\n<tr><td>Sal a partir do elemento</td><td>massa do elemento ÷ fração</td><td>500 ÷ 0,21 = cerca de 2380 mg de citrato</td></tr>\n<tr><td>Vitamina D</td><td>UI ÷ 40 = mcg; mcg × 40 = UI</td><td>50.000 UI = 1250 mcg</td></tr>\n<tr><td>Potássio</td><td>mg de KCl ÷ 74,55 = mEq</td><td>900 mg = 12 mEq</td></tr>\n<tr><td>TFGe não indexada</td><td>TFGe × SC ÷ 1,73</td><td>42 × 1,39 ÷ 1,73 = 33,8 mL/min</td></tr>\n<tr><td>Volume de injetável em UI</td><td>UI prescritas ÷ UI/mL</td><td>600.000 ÷ 300.000 = 2 mL</td></tr>\n<tr><td>Concentração após reconstituir</td><td>dose do frasco ÷ volume final da bula</td><td>1000 mg ÷ 4,22 mL = 237 mg/mL</td></tr>\n</tbody></table></div>\n<div class=\"cx chave\"><b>Ponto-chave</b><p>A TFGe por CKD-EPI 2021 vem do laudo ou de calculadora validada. Toda conta deve ser refeita pelo caminho inverso antes de orientar.</p></div>"
+  },
+  {
+   "tipo": "fluxo",
+   "id": "m19-fluxo-febre",
+   "titulo": "Criança com febre no balcão",
+   "passos": [
+    {
+     "t": "Cuidador pede antitérmico para criança com febre",
+     "tipo": "inicio"
+    },
+    {
+     "t": "Perguntar idade, peso, tempo de febre, estado geral, o que já tomou e em que horário",
+     "tipo": "acao"
+    },
+    {
+     "t": "Menor de 3 meses ou algum sinal de alerta (prostração, respiração rápida, enchimento capilar lento, desidratação, convulsão)?",
+     "tipo": "decisao",
+     "sim": "Encaminhar para avaliação médica imediata; não atrasar com orientação de dose",
+     "nao": "Seguir a avaliação"
+    },
+    {
+     "t": "Suspeita de dengue (febre com dor no corpo, área com casos)?",
+     "tipo": "decisao",
+     "sim": "Sem AINE e sem AAS; paracetamol ou dipirona 10 mg/kg até de 6 em 6 horas; orientar sinais de alarme",
+     "nao": "Escolher um antitérmico conforme idade e histórico"
+    },
+    {
+     "t": "Escolher um único antitérmico: paracetamol, dipirona (a partir de 3 meses e 5 kg) ou ibuprofeno (a partir de 6 meses)",
+     "tipo": "acao"
+    },
+    {
+     "t": "Calcular mg pelo peso, converter em mL ou gotas com a bula do frasco entregue e conferir tetos por tomada e por dia",
+     "tipo": "acao"
+    },
+    {
+     "t": "Família alterna ou associa antitérmicos?",
+     "tipo": "decisao",
+     "sim": "Explicar que a SBP (2021) não recomenda e reorientar para um só fármaco",
+     "nao": "Seguir"
+    },
+    {
+     "t": "Gotas por quilo de memória levam a superdose (dipirona 1 gota/kg = 25 mg/kg)",
+     "tipo": "alerta"
+    },
+    {
+     "t": "Escrever fármaco, dose, intervalo mínimo e máximo de tomadas na embalagem",
+     "tipo": "acao"
+    },
+    {
+     "t": "Orientar retorno ou avaliação se a febre passar de 3 dias ou surgir sinal de alerta",
+     "tipo": "fim"
+    }
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "id": "m19-check-injetavel",
+   "titulo": "Antes de aplicar um injetável",
+   "itens": [
+    "Receita válida, com dose, via e frequência, avaliada pelo farmacêutico (RDC 44/2009, art. 75)",
+    "Medicamento não é de uso exclusivo hospitalar",
+    "Apresentação confere com a via (ceftriaxona IM com lidocaína nunca na veia)",
+    "Lote, validade, aspecto e conservação conferidos",
+    "Alergias perguntadas (penicilina, lidocaína, metabissulfito)",
+    "Uso de anticoagulante, plaquetopenia e reação em aplicação anterior perguntados",
+    "Unidade da dose identificada: mg ou UI",
+    "Concentração final calculada pelo volume final da bula",
+    "Volume calculado, escrito e refeito por um segundo profissional",
+    "Volume cabe na região escolhida; se não couber, dividir em dois locais com aval do prescritor",
+    "Região escolhida pela idade e massa muscular, com agulha adequada ao biotipo",
+    "Aspiração antes de injetar quando o produto exigir (penicilina benzatina)",
+    "Sobra descartada quando a bula manda usar logo após o preparo",
+    "Paciente em observação pelo tempo do POP, com kit de primeiros socorros acessível",
+    "Registro com lote, volume, região, horário e profissional"
+   ]
+  },
+  {
+   "tipo": "tabela",
+   "id": "m19-tab-volume-im",
+   "titulo": "Volume máximo por injeção intramuscular, por idade (mL)",
+   "colunas": [
+    "Faixa etária",
+    "Deltoide",
+    "Ventroglútea",
+    "Dorsoglútea",
+    "Vasto lateral"
+   ],
+   "linhas": [
+    [
+     "Prematuro e neonato",
+     "Não indicado",
+     "Não indicado",
+     "Não indicado",
+     "0,5"
+    ],
+    [
+     "Lactente",
+     "Não indicado",
+     "Não indicado",
+     "Não indicado",
+     "1"
+    ],
+    [
+     "3 a 6 anos",
+     "Não indicado",
+     "1,5",
+     "1",
+     "1,5"
+    ],
+    [
+     "6 a 14 anos",
+     "0,5",
+     "1,5 a 2",
+     "1,5 a 2",
+     "1,5"
+    ],
+    [
+     "Adolescente",
+     "1",
+     "2 a 2,5",
+     "2 a 2,5",
+     "1,5 a 2"
+    ],
+    [
+     "Adulto",
+     "1",
+     "4",
+     "4",
+     "4"
+    ]
+   ],
+   "nota": "Tabela de Silva e Santos (2005), citada no Parecer COREN-SP 039/2012 e reproduzida em guias de ensino; conferida por fonte secundária. O TelessaúdeRS-UFRGS (2023) indica, em adulto, até 4 mL na ventroglútea e na dorsoglútea e 3 a 4 mL no vasto lateral. Siga o POP da farmácia."
+  },
+  {
+   "tipo": "cartoes",
+   "id": "m19-cartoes-b",
+   "titulo": "Cartões de revisão: parte b",
+   "itens": [
+    {
+     "f": "Fórmula de Mosteller da superfície corporal",
+     "v": "SC (m²) = raiz de (altura em cm × peso em kg ÷ 3600)."
+    },
+    {
+     "f": "Criança obesa de 45 kg: qual o limite da dose por peso?",
+     "v": "A dose de adulto para a mesma indicação (PPAG, 2017). Peso de cálculo diferente do real é decisão do prescritor."
+    },
+    {
+     "f": "Pode partir comprimido de liberação prolongada?",
+     "v": "Não, salvo se a bula autorizar: libera de uma vez a dose de horas."
+    },
+    {
+     "f": "Dose de dipirona por tomada segundo a SBP (2021)",
+     "v": "10 a 12 mg/kg por tomada."
+    },
+    {
+     "f": "Quanto entrega 1 gota/kg de dipirona 500 mg/mL (20 gotas/mL)?",
+     "v": "25 mg/kg, mais que o dobro da dose da SBP."
+    },
+    {
+     "f": "A SBP recomenda alternar antitérmicos?",
+     "v": "Não. Uso alternado ou associado não é recomendado (SBP, 2021)."
+    },
+    {
+     "f": "Antitérmicos na suspeita de dengue",
+     "v": "Paracetamol e/ou dipirona; sem AINE, salicilatos e corticoide (MS, 2024)."
+    },
+    {
+     "f": "Dose alta de amoxicilina na otite média aguda",
+     "v": "80 a 90 mg/kg/dia em 2 tomadas (AAP, 2013)."
+    },
+    {
+     "f": "Duração da otite média aguda abaixo de 2 anos",
+     "v": "10 dias (AAP, 2013)."
+    },
+    {
+     "f": "Validade da receita de antimicrobiano",
+     "v": "10 dias da emissão (IN 360/2025, art. 1º, § 2º)."
+    },
+    {
+     "f": "Cálcio elementar no carbonato e no citrato",
+     "v": "Carbonato: 40%. Citrato tetraidratado: cerca de 21%."
+    },
+    {
+     "f": "Converter 50.000 UI de vitamina D em mcg",
+     "v": "50.000 ÷ 40 = 1250 mcg."
+    },
+    {
+     "f": "Ferro por gota: sulfato ferroso genérico e Noripurum®",
+     "v": "1 mg por gota (25 mg/mL, 25 gotas/mL) e 2,5 mg por gota (50 mg/mL, 20 gotas/mL)."
+    },
+    {
+     "f": "mEq de potássio em 1 g de KCl",
+     "v": "Cerca de 13,4 mEq (1000 ÷ 74,55)."
+    },
+    {
+     "f": "Qual equação estima a TFG?",
+     "v": "CKD-EPI 2021, sem raça. Nunca Cockcroft-Gault como padrão."
+    },
+    {
+     "f": "TFGe não indexada",
+     "v": "TFGe × SC ÷ 1,73; usar em extremos de peso (KDIGO 2024)."
+    },
+    {
+     "f": "Metformina com TFGe entre 30 e 59",
+     "v": "Máximo de 1000 mg/dia; abaixo de 30, contraindicada (bula do Glifage®)."
+    },
+    {
+     "f": "Ceftriaxona 1 g IM: diluente e volume final",
+     "v": "3,5 mL de lidocaína 1%; cerca de 4,22 mL (Rocefin®)."
+    },
+    {
+     "f": "Volume de 600.000 UI de Benzetacil® 300.000 UI/mL",
+     "v": "2 mL."
+    },
+    {
+     "f": "Volume máximo no glúteo do adulto",
+     "v": "Até 4 mL por local (TelessaúdeRS-UFRGS, 2023)."
+    }
+   ]
+  },
+  {
+   "tipo": "questoes",
+   "id": "m19-questoes-b",
+   "titulo": "Questões com cálculo: parte b",
+   "itens": [
+    {
+     "p": "Criança de 18 kg com febre e irritabilidade. A família tem dipirona gotas 500 mg/mL (20 gotas/mL). Pela dose da SBP (10 a 12 mg/kg por tomada), quantas gotas orientar?",
+     "alt": [
+      "4 gotas",
+      "8 gotas",
+      "12 gotas",
+      "18 gotas",
+      "36 gotas"
+     ],
+     "c": 1,
+     "com": "Dose: 18 × 10 = 180 mg a 18 × 12 = 216 mg. Cada gota tem 25 mg (500 ÷ 20): 7,2 a 8,6 gotas, ou seja, 8 gotas (200 mg, 11,1 mg/kg). 4 gotas dão 100 mg (5,6 mg/kg, subdose). 12 gotas dão 300 mg (16,7 mg/kg). 18 gotas é o hábito de 1 gota/kg: 450 mg, 25 mg/kg. 36 gotas equivalem a 900 mg, dose de adulto. Fonte: SBP, Manejo da febre aguda, 2021; bula da Novalgina®."
+    },
+    {
+     "p": "Criança de 16 kg com suspeita de dengue. Pelo guia do Ministério da Saúde (2024), paracetamol 10 mg/kg/dose. O frasco é Tylenol® gotas 200 mg/mL, com cerca de 15 gotas/mL. Quantas gotas por tomada?",
+     "alt": [
+      "8 gotas",
+      "10 gotas",
+      "16 gotas",
+      "12 gotas",
+      "20 gotas"
+     ],
+     "c": 3,
+     "com": "Dose: 16 × 10 = 160 mg. Volume: 160 ÷ 200 = 0,8 mL. Gotas: 0,8 × 15 = 12. 16 gotas resultam de supor 20 gotas/mL, equivalência do apêndice do guia que não vale para o gotejador do Tylenol® e entregaria cerca de 213 mg. 8 e 10 gotas ficam abaixo de 10 mg/kg; 20 gotas dariam cerca de 267 mg. Ibuprofeno não é opção na suspeita de dengue."
+    },
+    {
+     "p": "Menino de 8 anos, 45 kg, usará paracetamol para febre. Pela bula do Tylenol® (até 75 mg/kg/dia, 1000 mg por tomada e 4000 mg/dia), qual o total máximo em 24 horas pelo peso real?",
+     "alt": [
+      "3375 mg",
+      "2250 mg",
+      "4000 mg",
+      "4500 mg",
+      "6750 mg"
+     ],
+     "c": 0,
+     "com": "75 mg/kg × 45 kg = 3375 mg, abaixo do teto absoluto de 4000 mg; vale o menor dos limites. 2250 mg corresponderia a 50 mg/kg; 4000 mg ignora o limite por quilo; 4500 mg corresponde a 100 mg/kg e 6750 mg a 150 mg/kg, ambos acima da bula. Se o pediatra definir um peso de cálculo menor, por causa da obesidade, o teto cai junto."
+    },
+    {
+     "p": "Criança com 110 cm e 20 kg recebe um fármaco prescrito em 100 mg/m² por dia. Pela fórmula de Mosteller, qual a dose diária?",
+     "alt": [
+      "39 mg",
+      "49 mg",
+      "100 mg",
+      "156 mg",
+      "78 mg"
+     ],
+     "c": 4,
+     "com": "SC = raiz de (110 × 20 ÷ 3600) = raiz de 0,611 = 0,78 m². Dose: 100 × 0,78 = 78 mg. 100 mg seria a dose de 1 m²; 39 mg é metade da correta; 49 mg resulta de estimar a SC pela proporção do peso (20 ÷ 70 × 1,73 = 0,49 m²), o que subestima a superfície da criança; 156 mg dobra a conta."
+    },
+    {
+     "p": "Criança de 16 kg com otite média aguda. Receita: amoxicilina 500 mg/5 mL, 90 mg/kg/dia de 12 em 12 horas. Qual o volume por tomada?",
+     "alt": [
+      "3,6 mL",
+      "5 mL",
+      "7,2 mL",
+      "9 mL",
+      "14,4 mL"
+     ],
+     "c": 2,
+     "com": "16 × 90 = 1440 mg/dia; ÷ 2 = 720 mg por tomada; concentração 100 mg/mL; 720 ÷ 100 = 7,2 mL. 14,4 mL é a dose do dia inteiro numa tomada. 3,6 mL resulta de dividir por 4 tomadas. 9 mL seria a dose de uma criança de 20 kg. 5 mL é volume padrão sem cálculo. Dose alta de 80 a 90 mg/kg/dia em 2 tomadas: AAP, 2013, citada na bula do Amoxil®."
+    },
+    {
+     "p": "Criança de 20 kg, amoxicilina 500 mg/5 mL, 90 mg/kg/dia de 12 em 12 horas por 10 dias. Frascos de 150 mL, validade de 14 dias em geladeira após o preparo. Quantos frascos dispensar?",
+     "alt": [
+      "1 frasco",
+      "3 frascos",
+      "2 frascos",
+      "4 frascos",
+      "5 frascos"
+     ],
+     "c": 2,
+     "com": "Por tomada: 20 × 90 ÷ 2 = 900 mg = 9 mL. Total: 9 × 2 × 10 = 180 mL. 180 ÷ 150 = 1,2, arredondado para 2 frascos. O primeiro dura 8 dias, dentro da validade. 1 frasco interrompe o tratamento no 9º dia; 3 ou mais geram sobra. A quantidade escrita na receita precisa coincidir (RDC 471/2021, art. 6º, parágrafo único)."
+    },
+    {
+     "p": "Criança de 10 kg com receita de ferro elementar 3 mg/kg/dia. A família troca o sulfato ferroso gotas (25 mg/mL, 25 gotas/mL) por Neutrofer® gotas (50 mg/mL, 20 gotas/mL). Quantas gotas do produto novo?",
+     "alt": [
+      "30 gotas",
+      "6 gotas",
+      "15 gotas",
+      "12 gotas",
+      "24 gotas"
+     ],
+     "c": 3,
+     "com": "Dose: 10 × 3 = 30 mg de ferro. Neutrofer®: 50 ÷ 20 = 2,5 mg por gota; 30 ÷ 2,5 = 12 gotas. 30 gotas era a dose do sulfato ferroso (1 mg/gota) e, no produto novo, daria 75 mg, acima do teto de 60 mg/dia citado pelo PNSF (MS, 2013). 15 gotas resultam de 2 mg por gota; 6 gotas de 5 mg por gota; 24 gotas de 1,25 mg por gota."
+    },
+    {
+     "p": "Receita de colecalciferol 50.000 UI por semana. A farmácia tem cápsulas rotuladas em mcg. Qual valor procurar no rótulo?",
+     "alt": [
+      "125 mcg",
+      "500 mcg",
+      "1250 mcg",
+      "2000 mcg",
+      "12.500 mcg"
+     ],
+     "c": 2,
+     "com": "1 mcg = 40 UI: 50.000 ÷ 40 = 1250 mcg. 125 mcg corresponde a 5000 UI; 500 mcg a 20.000 UI; 2000 mcg a 80.000 UI; 12.500 mcg a 500.000 UI. Conferir também a frequência: semanal, não diária."
+    },
+    {
+     "p": "Paciente precisa de 600 mg de cálcio elementar por dia usando carbonato de cálcio (40% de cálcio). Quantos mg do sal correspondem a essa dose?",
+     "alt": [
+      "240 mg",
+      "1500 mg",
+      "600 mg",
+      "1000 mg",
+      "2400 mg"
+     ],
+     "c": 1,
+     "com": "Sal = elemento ÷ fração: 600 ÷ 0,4 = 1500 mg de carbonato. 240 mg é o cálcio contido em 600 mg de carbonato (conta invertida). 600 mg confunde sal com elemento. 2400 mg seria o caminho com fração de 25%. 1000 mg não corresponde a nenhuma fração usada para cálcio. Com citrato (21%), seriam cerca de 2860 mg."
+    },
+    {
+     "p": "Mulher de 78 anos, 155 cm e 45 kg, TFGe (CKD-EPI 2021) de 42 mL/min/1,73 m². Qual a TFGe não indexada, em mL/min (SC = 1,39 m²)?",
+     "alt": [
+      "24 mL/min",
+      "52 mL/min",
+      "42 mL/min",
+      "58 mL/min",
+      "34 mL/min"
+     ],
+     "c": 4,
+     "com": "TFGe não indexada = 42 × 1,39 ÷ 1,73 = 33,8, cerca de 34 mL/min. 42 é o valor indexado, que superestima a filtração de uma pessoa pequena. 52 resulta de multiplicar por 1,73 e dividir por 1,39 (conta invertida). 24 e 58 não saem da fórmula. KDIGO 2024, ponto de prática 4.2.4."
+    },
+    {
+     "p": "Criança de 20 kg com receita de penicilina benzatina 600.000 UI IM, dose única. O frasco disponível é de 1.200.000 UI em 4 mL de suspensão pronta. Qual volume aspirar?",
+     "alt": [
+      "0,6 mL",
+      "2 mL",
+      "1,2 mL",
+      "4 mL",
+      "6 mL"
+     ],
+     "c": 1,
+     "com": "Concentração: 1.200.000 ÷ 4 = 300.000 UI/mL. Volume: 600.000 ÷ 300.000 = 2 mL. 0,6 e 1,2 mL são leituras erradas dos números em UI como se fossem mL. 4 mL é o frasco inteiro (dose de adulto). 6 mL não existe no frasco. A bula do Benzetacil® indica 300.000 a 600.000 UI para crianças até 27 kg."
+    },
+    {
+     "p": "Receita de ceftriaxona 750 mg IM. O frasco de 1 g é reconstituído com 3,5 mL de lidocaína 1%, com volume final de cerca de 4,22 mL (bula do Rocefin®). Qual volume aspirar?",
+     "alt": [
+      "2,4 mL",
+      "3,2 mL",
+      "2,6 mL",
+      "3,5 mL",
+      "4,2 mL"
+     ],
+     "c": 1,
+     "com": "Concentração: 1000 mg ÷ 4,22 mL = 237 mg/mL. Volume: 750 ÷ 237 = 3,2 mL. 2,6 mL resulta de usar 3,5 mL como volume final (750 ÷ 286); 3,5 mL é o volume do diluente; 4,2 mL é o frasco inteiro (1 g); 2,4 mL não sai de nenhuma conta coerente. O restante deve ser descartado, pois a solução é usada logo após o preparo."
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "Sociedade Brasileira de Pediatria. Departamentos Científicos de Pediatria Ambulatorial e de Infectologia. Documento científico: Manejo da febre aguda. 5 de outubro de 2021. https://www.sbp.com.br/fileadmin/user_upload/23229e-DC_Manejo_da_febre_aguda_SITE.pdf",
+  "Ministério da Saúde. Dengue: diagnóstico e manejo clínico, adulto e criança. 6ª ed. Brasília, 2024 (conduta do grupo A e Apêndice H, uso de medicamentos; Quadro 1, sinais de alarme).",
+  "Ministério da Saúde. Programa Nacional de Suplementação de Ferro: manual de condutas gerais. Brasília, 2013 (Quadro 2 e Anexos B e C).",
+  "Ministério da Saúde. Caderno dos Programas Nacionais de Suplementação de Micronutrientes. Brasília, 2022 (conferido por material de divulgação; documento original não lido).",
+  "Lieberthal AS et al. The diagnosis and management of acute otitis media. Pediatrics. 2013;131(3):e964-e999 (American Academy of Pediatrics; conferido pelo resumo da American Family Physician, 2013).",
+  "Wald ER et al. Clinical practice guideline for the diagnosis and management of acute bacterial sinusitis in children aged 1 to 18 years. Pediatrics. 2013;132(1):e262-e280 (conferido pelo resumo da American Family Physician, 2014).",
+  "Matson KL, Horton ER, Capino AC; Pediatric Pharmacy Advocacy Group. Medication dosage in overweight and obese children. J Pediatr Pharmacol Ther. 2017;22(1):81-83. doi:10.5863/1551-6776-22.1.81",
+  "Mosteller RD. Simplified calculation of body-surface area. N Engl J Med. 1987;317(17):1098.",
+  "Inker LA et al. New creatinine- and cystatin C-based equations to estimate GFR without race. N Engl J Med. 2021;385(19):1737-1749.",
+  "Kidney Disease: Improving Global Outcomes (KDIGO) CKD Work Group. KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease. Kidney Int. 2024;105(4S):S117-S314 (pontos de prática 1.2.4.2 e 4.2.1 a 4.2.5).",
+  "By the 2023 American Geriatrics Society Beers Criteria Update Expert Panel. American Geriatrics Society 2023 updated AGS Beers Criteria for potentially inappropriate medication use in older adults. J Am Geriatr Soc. 2023;71(7):2052-2081 (Tabela 6). doi:10.1111/jgs.18372",
+  "Anvisa. RDC nº 471, de 23 de fevereiro de 2021, com alterações da RDC nº 973/2025; Instrução Normativa nº 360, de 23 de abril de 2025 (conforme o módulo de RDC 471 deste material).",
+  "Anvisa. RDC nº 44, de 17 de agosto de 2009, arts. 74 a 81 (conforme o módulo de serviços clínicos deste material).",
+  "TelessaúdeRS-UFRGS. Como deve ser administrada a benzilpenicilina benzatina para o tratamento de sífilis? 2023. https://www.ufrgs.br/telessauders/perguntas/como-deve-ser-administrada-benzilpenicilina-benzatina-para-o-tratamento-de-sifilis/",
+  "BVS Atenção Primária à Saúde. Quais são as orientações para administração de medicação intramuscular em crianças? 25/06/2021 (com base no Parecer COREN-SP 010/2020). https://aps-repo.bvs.br/aps/quais-sao-as-orientacoes-para-administracao-de-medicacao-intramuscular-em-criancas/",
+  "Silva e Santos (2005), tabela de volume intramuscular por faixa etária, citada no Parecer COREN-SP 039/2012 (conferida por fonte secundária: guia de habilidades da Unoeste).",
+  "Bulas consultadas em texto reproduzido no portal Consulta Remédios (consultaremedios.com.br), outubro de 2026: Glifage® (cloridrato de metformina); Macrodantina® (nitrofurantoína; Cosmed/Brainfarma); Rocefin® (ceftriaxona; Produtos Roche, bula de 18/03/2025); Benzetacil® suspensão injetável 300.000 UI/mL (Eurofarma, bula de 18/03/2025); Noripurum® gotas (ferripolimaltose); Neutrofer® (glicinato férrico); sulfato ferroso gotas genérico; Zoloft® (cloridrato de sertralina; Mylan); Tylenol®, Novalgina®, Alivium®, Amoxil®, Clavulin® BD, Keflex® e Prelone® (já conferidas na parte a)."
+ ]
+}
