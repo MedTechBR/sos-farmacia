@@ -392,12 +392,18 @@ function calcEstado(b) {
   return calcEst[b.id] || (calcEst[b.id] = { modo: 'farmaco', f: 0, a: 0, tom: null, peso: '', dias: '',
     livre: { peso: '', dose: '', base: 'dose', tomadas: '', mg: '', ml: '', gotas: '' }, qtd: { ml: '', tomadas: '', dias: '', frasco: '' } });
 }
-function contaDose(peso, f, tom) {
+function contaDose(peso, f, tom, idade) {
   /* dose por tomada [mín, máx] com os tetos aplicados; avisa quando cortou. Dose por faixa de peso ("faixas")
      tem prioridade sobre mg/kg. Unidade da dose: f.unidade (mg, mcg ou UI; padrão mg) */
   const avisos = [], u = f.unidade || 'mg';
   let a, z;
-  if ((f.faixas || []).length) {
+  if ((f.faixasIdade || []).length) {
+    /* dose fixa por idade (anos; meses como fração: 0,5 = 6 meses); de inclusivo, ate exclusivo */
+    const fi = f.faixasIdade.find(x => (x.de == null || idade >= x.de - 1e-9) && (x.ate == null || idade < x.ate - 1e-9));
+    if (!fi) return { a: NaN, z: NaN, avisos: ['Idade fora das faixas da bula para este fármaco: confira a bula ou a prescrição.'], tetoDia: Infinity };
+    a = fi.dose; z = fi.doseMax || fi.dose;
+    avisos.push(`Dose fixa por idade (${fi.rot || ''}).`);
+  } else if ((f.faixas || []).length) {
     const fx_ = f.faixas.find(x => (x.de == null || peso > x.de) && (x.ate == null || peso <= x.ate));  /* de exclusivo, ate inclusivo */
     if (!fx_) return { a: NaN, z: NaN, avisos: ['Peso fora das faixas da bula para este fármaco: confira a bula ou a prescrição.'], tetoDia: Infinity };
     a = fx_.dose; z = fx_.doseMax || fx_.dose;
@@ -407,7 +413,7 @@ function contaDose(peso, f, tom) {
     a = f.base === 'dia' ? peso * dk[0] / tom : peso * dk[0]; z = f.base === 'dia' ? peso * dk[1] / tom : peso * dk[1];
   }
   if (f.maxDose && z > f.maxDose) { avisos.push(`A conta passou do teto de ${fBR(f.maxDose, 2)} ${u} por tomada: o teto vale.`); z = f.maxDose; a = Math.min(a, z); }
-  const tetoDia = Math.min(f.maxDia || Infinity, f.maxDiaKg ? f.maxDiaKg * peso : Infinity);
+  const tetoDia = Math.min(f.maxDia || Infinity, f.maxDiaKg && peso > 0 ? f.maxDiaKg * peso : Infinity);
   if (isFinite(tetoDia) && z * tom > tetoDia + 1e-9) { avisos.push(`Com ${tom} tomadas a dose diária passaria de ${fBR(tetoDia, 1)} ${u}/dia (teto): cada tomada fica em até ${fBR(tetoDia / tom, 2)} ${u}.`); z = tetoDia / tom; a = Math.min(a, z); }
   return { a, z, avisos, tetoDia };
 }
@@ -433,8 +439,10 @@ function calcResultado(b) {
   const f = (b.farmacos || [])[s.f]; if (!f) return '';
   const ap = (f.apresentacoes || [])[s.a] || (f.apresentacoes || [])[0] || {};
   const peso = nBR(s.peso), tom = s.tom || f.tomPadrao || f.tomadas[0];
-  if (!(peso > 0)) return `<p class="cVazio">Informe o peso em kg.</p>`;
-  const r = contaDose(peso, f, tom), u = f.unidade || 'mg', dU = u === 'mg' ? 1 : 2;
+  const porIdade = (f.faixasIdade || []).length, idade = nBR(s.idade);
+  if (porIdade && !(idade >= 0 && String(s.idade || '').trim())) return `<p class="cVazio">Informe a idade em anos (meses como fração: 6 meses = 0,5).</p>`;
+  if (!porIdade && !(peso > 0)) return `<p class="cVazio">Informe o peso em kg.</p>`;
+  const r = contaDose(peso, f, tom, idade), u = f.unidade || 'mg', dU = u === 'mg' ? 1 : 2;
   if (!isFinite(r.a)) return r.avisos.map(t => `<div class="cAviso">${ic('alert-triangle')}<span>${esc(t)}</span></div>`).join('');
   let vol = '';
   if (ap.mgml) { const vA = r.a / ap.mgml, vZ = r.z / ap.mgml; vol = fx(vA, vZ, vA < 1 ? 2 : 1, 'mL') + (ap.gotasml ? ` = ${fx(Math.round(vA * ap.gotasml), Math.round(vZ * ap.gotasml), 0, 'gotas')}` : ''); }
@@ -450,7 +458,8 @@ function calcResultado(b) {
     h += linhaRes(`Para ${fBR(dias, 0)} dias`, `${tot} ${ap.un || f.un || 'comprimido'}(s)`, ((ap.cxs || []).map(v => `${Math.ceil(tot / v - 1e-9)} caixa(s) de ${v}`).join(' ou ') || '') + ' (pela dose maior)');
   }
   h += r.avisos.map(t => `<div class="cAviso">${ic('alert-triangle')}<span>${esc(t)}</span></div>`).join('');
-  if ((f.faixas || []).length) h += `<p class="cNota">Faixas da bula: ${f.faixas.map(x => `${esc(x.rot || '')}: ${fBR(x.dose, 2)}${x.doseMax ? ' a ' + fBR(x.doseMax, 2) : ''} ${u}`).join('; ')}.</p>`;
+  if ((f.faixasIdade || []).length) h += `<p class="cNota">Faixas de idade da bula: ${f.faixasIdade.map(x => `${esc(x.rot || '')}: ${fBR(x.dose, 2)}${x.doseMax ? ' a ' + fBR(x.doseMax, 2) : ''} ${u}`).join('; ')}.</p>`;
+  else if ((f.faixas || []).length) h += `<p class="cNota">Faixas da bula: ${f.faixas.map(x => `${esc(x.rot || '')}: ${fBR(x.dose, 2)}${x.doseMax ? ' a ' + fBR(x.doseMax, 2) : ''} ${u}`).join('; ')}.</p>`;
   else if (f.base === 'dia') h += `<p class="cNota">Dose da bula por dia: ${fx(f.doseKg[0], f.doseKg[1], 3, u + '/kg/dia')}${tom > 1 ? `, dividida em ${tom} tomadas` : ', em tomada única'}.</p>`;
   else h += `<p class="cNota">Dose da bula por tomada: ${fx(f.doseKg[0], f.doseKg[1], 3, u + '/kg')}.</p>`;
   return h;
@@ -468,7 +477,7 @@ function calcCorpo(b) {
     ent = `<label class="cCampo largo"><span>Buscar fármaco</span><input type="search" data-calc="busca" value="${esc(s.busca || '')}" placeholder="Nome ou grupo (${fs.length} fármacos)" autocomplete="off"></label>` +
       `<label class="cCampo largo"><span>Fármaco</span><select data-calc="f">${grupos.filter(g => fs.some((x, i) => x.grupo === g && vis(x, i))).map(g => `<optgroup label="${esc(g)}">${fs.map((x, i) => x.grupo === g && vis(x, i) ? `<option value="${i}" ${i === s.f ? 'selected' : ''}>${esc(x.nome)}</option>` : '').join('')}</optgroup>`).join('')}</select></label>` +
       `<label class="cCampo largo"><span>Apresentação</span><select data-calc="a">${(f.apresentacoes || []).map((a, i) => `<option value="${i}" ${i === s.a ? 'selected' : ''}>${esc(a.r)}</option>`).join('')}</select></label>` +
-      campo('peso', 'Peso (kg)', s.peso, 'ex.: 14,5') +
+      ((f.faixasIdade || []).length ? campo('idade', 'Idade (anos)', s.idade || '', 'ex.: 4 ou 0,5') : campo('peso', 'Peso (kg)', s.peso, 'ex.: 14,5')) +
       (f.tomadas[1] > f.tomadas[0] ? `<label class="cCampo"><span>Tomadas por dia</span><select data-calc="tom">${Array.from({ length: f.tomadas[1] - f.tomadas[0] + 1 }, (_, k) => f.tomadas[0] + k).map(n => `<option ${n === tom ? 'selected' : ''}>${n}</option>`).join('')}</select></label>`
         : `<label class="cCampo"><span>Tomadas por dia</span><input type="text" value="${tom}" disabled></label>`) +
       campo('dias', 'Dias de tratamento', s.dias, 'opcional');
@@ -490,7 +499,7 @@ function calcImpressao(b) {
   const tetos = f => { const u = f.unidade || 'mg'; return [f.maxDose ? `${fBR(f.maxDose, 2)} ${u} por tomada` : '', f.maxDiaKg ? `${fBR(f.maxDiaKg, 2)} ${u}/kg/dia` : '', f.maxDia ? `${fBR(f.maxDia, 1)} ${u}/dia` : ''].filter(Boolean).join('; ') || 'ver bula'; };
   const contas = `<div class="cx chave"><b>Contas</b><p>Dose por tomada (mg) = peso (kg) x dose (mg/kg), ou peso x dose diária (mg/kg/dia) ÷ tomadas por dia. Volume (mL) = dose (mg) ÷ concentração (mg/mL). Gotas = volume (mL) x gotas por mL da bula do produto. Respeite o teto por tomada e por dia. Frascos = mL por tomada x tomadas x dias ÷ volume do frasco, arredondado para cima.</p></div>`;
   return contas + `<div class="bulImp">` + (b.farmacos || []).map(f => `<div class="bulImpIt"><p class="cab"><b>${esc(f.nome)}</b>${f.venda ? `. <i>${esc(f.venda)}</i>` : ''}</p>` +
-    `<p><b>Dose:</b> ${(f.faixas || []).length ? f.faixas.map(x => `${esc(x.rot || '')}: ${fBR(x.dose, 2)}${x.doseMax ? ' a ' + fBR(x.doseMax, 2) : ''} ${f.unidade || 'mg'}`).join('; ') : fx(f.doseKg[0], f.doseKg[1], 3, (f.unidade || 'mg') + (f.base === 'dia' ? '/kg/dia' : '/kg por tomada'))}; ${fx(f.tomadas[0], f.tomadas[1], 0)} ${f.tomadas[1] === 1 ? 'tomada' : 'tomadas'} por dia</p><p><b>Tetos:</b> ${tetos(f)}</p>` +
+    `<p><b>Dose:</b> ${(f.faixasIdade || []).length ? 'por idade: ' + f.faixasIdade.map(x => `${esc(x.rot || '')}: ${fBR(x.dose, 2)}${x.doseMax ? ' a ' + fBR(x.doseMax, 2) : ''} ${f.unidade || 'mg'}`).join('; ') : (f.faixas || []).length ? f.faixas.map(x => `${esc(x.rot || '')}: ${fBR(x.dose, 2)}${x.doseMax ? ' a ' + fBR(x.doseMax, 2) : ''} ${f.unidade || 'mg'}`).join('; ') : fx(f.doseKg[0], f.doseKg[1], 3, (f.unidade || 'mg') + (f.base === 'dia' ? '/kg/dia' : '/kg por tomada'))}; ${fx(f.tomadas[0], f.tomadas[1], 0)} ${f.tomadas[1] === 1 ? 'tomada' : 'tomadas'} por dia</p><p><b>Tetos:</b> ${tetos(f)}</p>` +
     `<p><b>Apresentações:</b> ${(f.apresentacoes || []).map(a => esc(a.r) + (a.gotasml ? ` (${fBR(a.gotasml, 1)} gotas/mL)` : '')).join('; ')}</p>` +
     [['Idade', f.idade], ['Duração usual', f.dias], ['Observação', f.obs], ['Fonte', f.fonte]].filter(x => x[1]).map(([r, v]) => `<p><b>${r}:</b> ${inl(v)}</p>`).join('') + `</div>`).join('') + `</div>` +
     (b.aviso ? `<p class="nota">${inl(b.aviso)}</p>` : '');

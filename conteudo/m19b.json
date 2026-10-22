@@ -3,7 +3,7 @@
  "num": 13,
  "parte": "b",
  "titulo": "Calculadora de dose",
- "escopo": "Cálculo de dose no balcão: unidades e concentrações, dose por peso e tetos, gotas, reconstituição de suspensões, quantidade a dispensar (RDC 471/2021), insulinas e canetas, e conduta diante de erros. Inclui calculadora pediátrica alimentada por dados de bula.",
+ "escopo": "Cálculo de dose no balcão: unidades e concentrações, dose por peso, por faixa de peso e por idade, tetos, gotas, reconstituição, quantidade a dispensar (RDC 471/2021), insulinas e canetas, função renal, injetáveis e conduta diante de erros. Inclui calculadora com 99 linhas de fármacos (líquidos, comprimidos e injetáveis) alimentada por dados de bula.",
  "topicos": [
   {
    "id": "m19-peso-superficie",

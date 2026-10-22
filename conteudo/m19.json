@@ -2,7 +2,7 @@
  "id": "m19",
  "num": 13,
  "titulo": "Calculadora de dose",
- "escopo": "Cálculo de dose no balcão: unidades e concentrações, dose por peso e tetos, gotas, reconstituição de suspensões, quantidade a dispensar (RDC 471/2021), insulinas e canetas, e conduta diante de erros. Inclui calculadora pediátrica alimentada por dados de bula.",
+ "escopo": "Cálculo de dose no balcão: unidades e concentrações, dose por peso, por faixa de peso e por idade, tetos, gotas, reconstituição, quantidade a dispensar (RDC 471/2021), insulinas e canetas, função renal, injetáveis e conduta diante de erros. Inclui calculadora com 99 linhas de fármacos (líquidos, comprimidos e injetáveis) alimentada por dados de bula.",
  "topicos": [
   {
    "id": "m19-unidades",
@@ -407,6 +407,41 @@
      ]
     },
     {
+     "id": "deflazacorte-comprimido",
+     "nome": "Deflazacorte comprimido",
+     "grupo": "Corticoides",
+     "venda": "Venda sob prescrição",
+     "base": "dia",
+     "doseKg": [
+      0.22,
+      1.65
+     ],
+     "tomadas": [
+      1,
+      1
+     ],
+     "idade": "Uso adulto e pediátrico",
+     "dias": "Conforme a receita; suspensão sempre gradual",
+     "obs": "Bula: criança, 0,22 a 1,65 mg/kg/dia ou em dias alternados; adulto, dose inicial de 6 a 90 mg/dia conforme a gravidade. A bula não fixa o número de tomadas: a calculadora mostra a dose do dia em tomada única. A bula não descreve sulco nos comprimidos de 6 e 30 mg (têm uma cruz gravada): conferir antes de orientar fração.",
+     "fonte": "Calcort®, Sanofi Medley (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido 6 mg",
+       "mgcp": 6,
+       "cxs": [
+        20
+       ]
+      },
+      {
+       "r": "Comprimido 30 mg",
+       "mgcp": 30,
+       "cxs": [
+        10
+       ]
+      }
+     ]
+    },
+    {
      "id": "prednisolona",
      "nome": "Prednisolona",
      "grupo": "Corticoides",
@@ -440,6 +475,98 @@
        "frascos": [
         10,
         20
+       ]
+      }
+     ]
+    },
+    {
+     "id": "prednisolona-comprimido",
+     "nome": "Prednisolona comprimido",
+     "grupo": "Corticoides",
+     "venda": "Venda sob prescrição",
+     "base": "dia",
+     "doseKg": [
+      0.14,
+      2
+     ],
+     "tomadas": [
+      1,
+      4
+     ],
+     "maxDia": 80,
+     "idade": "Uso adulto e pediátrico; na criança, dose individualizada pela doença e pela resposta",
+     "dias": "Conforme a receita; após uso prolongado, retirada gradual",
+     "obs": "Bula: dose pediátrica inicial de 0,14 a 2 mg/kg/dia (ou 4 a 60 mg/m²/dia), em 1 a 4 tomadas; dose máxima de 80 mg/dia. Todos os comprimidos do Predsim® descritos na bula são sulcados (5, 10, 20 e 40 mg). Para crianças pequenas, a solução oral já está na calculadora.",
+     "fonte": "Predsim® comprimido, Cosmed/Brainfarma (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido 5 mg (sulcado)",
+       "mgcp": 5,
+       "cxs": [
+        5,
+        10,
+        20
+       ]
+      },
+      {
+       "r": "Comprimido 10 mg (sulcado)",
+       "mgcp": 10,
+       "cxs": [
+        4,
+        10
+       ]
+      },
+      {
+       "r": "Comprimido 20 mg (sulcado)",
+       "mgcp": 20,
+       "cxs": [
+        5,
+        10,
+        20
+       ]
+      },
+      {
+       "r": "Comprimido 40 mg (sulcado)",
+       "mgcp": 40,
+       "cxs": [
+        4,
+        7,
+        10
+       ]
+      }
+     ]
+    },
+    {
+     "id": "prednisona-comprimido",
+     "nome": "Prednisona comprimido",
+     "grupo": "Corticoides",
+     "venda": "Venda sob prescrição",
+     "base": "dia",
+     "doseKg": [
+      0.14,
+      2
+     ],
+     "tomadas": [
+      1,
+      1
+     ],
+     "idade": "Uso adulto e pediátrico; na criança, dose individualizada pela doença e pela resposta",
+     "dias": "Conforme a receita; após uso prolongado, retirada gradual",
+     "obs": "Bula: dose pediátrica inicial de 0,14 a 2 mg/kg/dia (ou 4 a 60 mg/m²/dia); adulto, 5 a 60 mg/dia. Tomar pela manhã, com líquido; pode ser prescrita em dias alternados na manutenção. A bula não fixa teto. O comprimido de 20 mg é sulcado; o de 5 mg não tem sulco, então a dose se monta com comprimidos inteiros.",
+     "fonte": "Meticorten®, Organon (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido 5 mg (sem sulco)",
+       "mgcp": 5,
+       "cxs": [
+        20
+       ]
+      },
+      {
+       "r": "Comprimido 20 mg (sulcado)",
+       "mgcp": 20,
+       "cxs": [
+        10
        ]
       }
      ]
@@ -550,6 +677,71 @@
      ]
     },
     {
+     "id": "amoxicilina-clavulanato-comprimido",
+     "nome": "Amoxicilina + clavulanato comprimido (500 mg + 125 mg)",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021)",
+     "tomadas": [
+      3,
+      3
+     ],
+     "faixas": [
+      {
+       "de": 39.9,
+       "dose": 500,
+       "rot": "40 kg ou mais (dose de adulto, em mg de amoxicilina)"
+      }
+     ],
+     "idade": "Comprimido não recomendado abaixo de 12 anos; criança com 40 kg ou mais recebe a dose de adulto",
+     "dias": "Não passar de 14 dias sem reavaliação médica",
+     "obs": "Calculado pela amoxicilina. Bula: adultos e crianças acima de 12 anos, 1 comprimido de 500 mg + 125 mg de 8 em 8 horas, no início da refeição. Abaixo de 40 kg, usar as suspensões (linhas de amoxicilina + clavulanato). Insuficiência renal moderada: 1 comprimido de 12 em 12 horas; grave: comprimido não recomendado. O comprimido BD de 875 mg + 125 mg tem esquema de 12 em 12 horas e a bula consultada só traz dose de adulto.",
+     "fonte": "Clavulin®, GlaxoSmithKline Brasil, e Amoxicilina + clavulanato de potássio genérico (textos da bula reproduzidos no portal Consulta Remédios, consultados em out. 2026; páginas atualizadas em abr. 2025 e out. 2020); IN 360/2025, art. 1º",
+     "apresentacoes": [
+      {
+       "r": "Comprimido revestido 500 mg + 125 mg (Clavulin®: caixas com 21 ou 30)",
+       "mgcp": 500,
+       "cxs": [
+        21,
+        30
+       ]
+      }
+     ]
+    },
+    {
+     "id": "amoxicilina-capsula",
+     "nome": "Amoxicilina cápsula",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021)",
+     "tomadas": [
+      3,
+      3
+     ],
+     "faixas": [
+      {
+       "de": 40,
+       "dose": 500,
+       "rot": "acima de 40 kg"
+      }
+     ],
+     "maxDia": 6000,
+     "un": "cápsula",
+     "idade": "Cápsula: uso adulto e pediátrico acima de 40 kg; abaixo de 40 kg, suspensão por mg/kg (linha Amoxicilina)",
+     "dias": "Conforme a receita; amigdalite estreptocócica pede no mínimo 10 dias",
+     "obs": "Bula da cápsula: adultos e crianças acima de 40 kg, 500 mg de 8 em 8 horas. Dose alta (até 6 g/dia): 3 g de 12 em 12 horas na infecção respiratória purulenta grave ou recorrente. Gonorreia: 3 g em dose única. Doses abaixo de 500 mg exigem a suspensão. Engolir inteira, com água; pode ser tomada nas refeições. Insuficiência renal moderada: no máximo 500 mg de 12 em 12 horas.",
+     "fonte": "Amoxil® cápsula 500 mg, GlaxoSmithKline Brasil (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025); IN 360/2025, art. 1º",
+     "apresentacoes": [
+      {
+       "r": "Cápsula 500 mg (Amoxil®: caixas com 15, 21 ou 30)",
+       "mgcp": 500,
+       "cxs": [
+        15,
+        21,
+        30
+       ]
+      }
+     ]
+    },
+    {
      "id": "azitromicina",
      "nome": "Azitromicina",
      "grupo": "Antimicrobianos",
@@ -577,6 +769,99 @@
         22.5,
         37.5
        ]
+      }
+     ]
+    },
+    {
+     "id": "azitromicina-comprimido",
+     "nome": "Azitromicina comprimido",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021)",
+     "tomadas": [
+      1,
+      1
+     ],
+     "faixas": [
+      {
+       "de": 45,
+       "dose": 500,
+       "rot": "acima de 45 kg"
+      }
+     ],
+     "maxDia": 500,
+     "idade": "Comprimido só para criança com mais de 45 kg; abaixo disso, usar a suspensão (linha Azitromicina)",
+     "dias": "3 dias de 500 mg (dose total de 1500 mg, que é o máximo por tratamento em criança)",
+     "obs": "Bula: o comprimido revestido só deve ser dado a crianças com mais de 45 kg; dose total em criança de 30 mg/kg, no máximo 1500 mg, sem passar de 500 mg por dia. Uma tomada ao dia, com ou sem alimento. Adulto com DST por clamídia, H. ducreyi ou gonococo sensível: 1000 mg em dose única. Não partir nem mastigar.",
+     "fonte": "Zitromax®, Pfizer Brasil (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025); IN 360/2025, art. 1º",
+     "apresentacoes": [
+      {
+       "r": "Comprimido revestido 500 mg (Zitromax®: caixas com 2 ou 3)",
+       "mgcp": 500,
+       "cxs": [
+        2,
+        3
+       ]
+      }
+     ]
+    },
+    {
+     "id": "benzilpenicilina-benzatina-im",
+     "nome": "Benzilpenicilina benzatina IM (estreptococo do grupo A)",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021; penicilina G na IN 360/2025)",
+     "unidade": "UI",
+     "tomadas": [
+      1,
+      1
+     ],
+     "faixas": [
+      {
+       "ate": 27,
+       "dose": 300000,
+       "doseMax": 600000,
+       "rot": "criança até 27 kg"
+      },
+      {
+       "de": 27,
+       "dose": 900000,
+       "doseMax": 1200000,
+       "rot": "acima de 27 kg: 900.000 UI na criança maior, 1.200.000 UI no adulto"
+      }
+     ],
+     "idade": "Faixas da bula para infecção estreptocócica do trato respiratório superior e da pele",
+     "dias": "Injeção única; profilaxia da febre reumática: 1.200.000 UI a cada 4 semanas (ou 3 semanas, a critério médico)",
+     "obs": "Só IM profunda (quadrante superior lateral da nádega; em lactente e criança pequena, face lateral da coxa). Agitar bem o frasco, aspirar antes de injetar e aplicar devagar e de forma contínua, porque a suspensão concentrada entope a agulha. Desprezar a sobra. Na faixa acima de 27 kg a bula não dá peso para separar criança de adulto: decide a idade (criança maior, 900.000 UI; adulto, 1.200.000 UI). Sífilis primária, secundária e latente recente: 2.400.000 UI em dose única (adulto). A bula atual do Benzetacil® é de suspensão pronta; se o produto for pó para reconstituir, a concentração vem da bula daquele produto.",
+     "fonte": "Benzetacil®, Eurofarma (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025); IN 360/2025, art. 1º (penicilina G)",
+     "apresentacoes": [
+      {
+       "r": "Suspensão injetável 300.000 UI/mL (Benzetacil®: frasco-ampola de 4 mL = 1.200.000 UI)",
+       "mgml": 300000
+      }
+     ]
+    },
+    {
+     "id": "benzilpenicilina-benzatina-sifilis-congenita",
+     "nome": "Benzilpenicilina benzatina IM (sífilis congênita, abaixo de 2 anos)",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021; penicilina G na IN 360/2025)",
+     "unidade": "UI",
+     "base": "dose",
+     "doseKg": [
+      50000,
+      50000
+     ],
+     "tomadas": [
+      1,
+      1
+     ],
+     "idade": "Abaixo de 2 anos, sem sintomas; de 2 a 12 anos, a bula manda ajustar pela tabela de adulto",
+     "dias": "Dose única",
+     "obs": "Bula: sífilis congênita em paciente assintomático, 50.000 UI/kg em dose única abaixo de 2 anos. Em geral o esquema é feito no serviço de saúde que acompanha a criança; na farmácia, só com prescrição e conferência da dose. Mesmos cuidados de aplicação da linha anterior (IM profunda, face lateral da coxa no lactente, aspirar antes, injetar devagar).",
+     "fonte": "Benzetacil®, Eurofarma (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025); IN 360/2025, art. 1º (penicilina G)",
+     "apresentacoes": [
+      {
+       "r": "Suspensão injetável 300.000 UI/mL (Benzetacil®: frasco-ampola de 4 mL)",
+       "mgml": 300000
       }
      ]
     },
@@ -701,6 +986,44 @@
      ]
     },
     {
+     "id": "ceftriaxona-im",
+     "nome": "Ceftriaxona IM (injetável intramuscular)",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021)",
+     "base": "dia",
+     "doseKg": [
+      20,
+      80
+     ],
+     "tomadas": [
+      1,
+      1
+     ],
+     "maxDia": 4000,
+     "idade": "De 15 dias a 12 anos: 20 a 80 mg/kg/dia; abaixo de 14 dias, 20 a 50 mg/kg (sem passar de 50 mg/kg); com 50 kg ou mais, dose de adulto (1 a 2 g, até 4 g por dia)",
+     "dias": "Manter no mínimo 48 a 72 horas depois de sumir a febre ou de haver sinal de erradicação",
+     "obs": "Uma aplicação a cada 24 horas, IM profunda no glúteo ou em músculo grande, no máximo 1 g por local. O diluente da apresentação IM é lidocaína a 1%: nunca na veia; excluir contraindicação à lidocaína. Preparo de rotina: 500 mg em 2 mL (volume final 2,36 mL) e 1 g em 3,5 mL (volume final 4,22 mL); as concentrações dessas duas opções são cálculo a partir do volume final da bula. Para dose por peso, a bula traz a Tabela 1: 500 mg + 1,7 mL de lidocaína a 1% (2,1 mL, 250 mg/mL) e 1 g + 2,9 mL (3,6 mL, 285 mg/mL; a conta simples daria cerca de 278 mg/mL). Usar logo após o preparo e descartar a sobra. Contraindicada em prematuro até 41 semanas de idade pós-menstrual e em recém-nascido que recebe ou vai receber cálcio na veia. Meningite: 100 mg/kg/dia, no máximo 4 g (tratamento hospitalar).",
+     "fonte": "Rocefin® IM, F. Hoffmann-La Roche, registrado por Produtos Roche Químicos e Farmacêuticos (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025); IN 360/2025, art. 1º",
+     "apresentacoes": [
+      {
+       "r": "Pó IM 500 mg + 1,7 mL de lidocaína 1% (Tabela 1 da bula: 2,1 mL, 250 mg/mL)",
+       "mgml": 250
+      },
+      {
+       "r": "Pó IM 1 g + 2,9 mL de lidocaína 1% (Tabela 1 da bula: 3,6 mL, 285 mg/mL)",
+       "mgml": 285
+      },
+      {
+       "r": "Pó IM 500 mg + ampola inteira de 2 mL (volume final 2,36 mL, cerca de 212 mg/mL)",
+       "mgml": 211.9
+      },
+      {
+       "r": "Pó IM 1 g + ampola inteira de 3,5 mL (volume final 4,22 mL, cerca de 237 mg/mL)",
+       "mgml": 237
+      }
+     ]
+    },
+    {
      "id": "cefuroxima",
      "nome": "Cefuroxima (axetilcefuroxima)",
      "grupo": "Antimicrobianos",
@@ -727,6 +1050,67 @@
        "frascos": [
         50,
         70
+       ]
+      }
+     ]
+    },
+    {
+     "id": "cefuroxima-comprimido",
+     "nome": "Cefuroxima (axetilcefuroxima) comprimido",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021)",
+     "base": "dose",
+     "doseKg": [
+      15,
+      15
+     ],
+     "tomadas": [
+      2,
+      2
+     ],
+     "maxDose": 250,
+     "maxDia": 500,
+     "idade": "Comprimido em criança a partir de 2 anos (otite média, pneumonia, piodermite); sem experiência abaixo de 3 meses",
+     "dias": "Geralmente 7 dias",
+     "obs": "Bula do comprimido, crianças: 15 mg/kg duas vezes ao dia ou 1 comprimido de 250 mg duas vezes ao dia, até 500 mg/dia. Na amigdalite, faringite e sinusite da criança a bula indica a suspensão (linha Cefuroxima). O comprimido não pode ser partido nem triturado: na prática a dose da criança fica em 1 comprimido de 250 mg, quando o peso permite. Tomar após as refeições.",
+     "fonte": "Zinnat®, Glaxo Operations UK, registrado e importado por Sandoz do Brasil (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025); IN 360/2025, art. 1º",
+     "apresentacoes": [
+      {
+       "r": "Comprimido revestido 250 mg (Zinnat®: caixas com 10 ou 14)",
+       "mgcp": 250,
+       "cxs": [
+        10,
+        14
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ciprofloxacino-comprimido",
+     "nome": "Ciprofloxacino comprimido (fibrose cística, 5 a 17 anos)",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021)",
+     "base": "dose",
+     "doseKg": [
+      20,
+      20
+     ],
+     "tomadas": [
+      2,
+      2
+     ],
+     "maxDia": 1500,
+     "idade": "Em criança, a bula só indica de 5 a 17 anos na fibrose cística (e no antraz por inalação)",
+     "dias": "Conforme a receita",
+     "obs": "Bula: infecção aguda por Pseudomonas aeruginosa na fibrose cística, de 5 a 17 anos, 20 mg/kg duas vezes ao dia, no máximo 1500 mg/dia, quando não houver tratamento injetável mais eficaz; a bula não recomenda outras indicações em criança. Antraz por inalação em criança: 15 mg/kg duas vezes ao dia, no máximo 500 mg por dose (1000 mg/dia), conta que cabe no cálculo livre. Não tomar com leite, iogurte ou suco enriquecido com cálcio isoladamente; separar de antiácidos e suplementos de cálcio, magnésio ou alumínio. Contraindicado com tizanidina. Risco de tendinite e ruptura de tendão.",
+     "fonte": "Cipro®, Bayer (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025); IN 360/2025, art. 1º",
+     "apresentacoes": [
+      {
+       "r": "Comprimido revestido 500 mg (Cipro®: caixas com 6 ou 14)",
+       "mgcp": 500,
+       "cxs": [
+        6,
+        14
        ]
       }
      ]
@@ -870,6 +1254,95 @@
      ]
     },
     {
+     "id": "gentamicina-im-adulto",
+     "nome": "Gentamicina IM (adulto)",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021; gentamicina na IN 360/2025)",
+     "base": "dia",
+     "doseKg": [
+      2,
+      3
+     ],
+     "tomadas": [
+      1,
+      3
+     ],
+     "tomPadrao": 1,
+     "idade": "Adulto com função renal normal; criança tem linha própria",
+     "dias": "Geralmente 7 a 10 dias",
+     "obs": "Bula, adulto com função renal normal: infecção grave, 3 mg/kg/dia em dose única diária ou dividida de 12 em 12 ou de 8 em 8 horas; infecção menos grave, 2 mg/kg/dia em 1 ou 2 tomadas. Doses de até 5 mg/kg/dia ficam para doença com risco de morte (hospital). Infecção urinária sem insuficiência renal: 160 mg IM uma vez ao dia por 7 a 10 dias; adulto com menos de 50 kg, 3 mg/kg/dia. Obeso: calcular pela massa magra estimada. Insuficiência renal exige ajuste. Tóxica para rim, audição e equilíbrio.",
+     "fonte": "Garamicina® injetável, Hypermarcas (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em maio 2024); IN 360/2025, art. 1º",
+     "apresentacoes": [
+      {
+       "r": "Solução injetável 40 mg/mL (Garamicina®: 60 mg/1,5 mL ou 80 mg/2 mL)",
+       "mgml": 40
+      },
+      {
+       "r": "Solução injetável 80 mg/mL (Garamicina®: 120 mg/1,5 mL ou 160 mg/2 mL)",
+       "mgml": 80
+      },
+      {
+       "r": "Solução injetável 140 mg/mL (Garamicina®: 280 mg/2 mL)",
+       "mgml": 140
+      }
+     ]
+    },
+    {
+     "id": "gentamicina-im-crianca",
+     "nome": "Gentamicina IM (criança)",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021; gentamicina na IN 360/2025)",
+     "base": "dia",
+     "doseKg": [
+      6,
+      7.5
+     ],
+     "tomadas": [
+      3,
+      3
+     ],
+     "idade": "Criança; recém-nascido e lactente têm esquemas próprios na bula",
+     "dias": "Geralmente 7 a 10 dias",
+     "obs": "Bula, crianças com função renal normal: 6 a 7,5 mg/kg/dia (2 a 2,5 mg/kg de 8 em 8 horas). Recém-nascido com mais de uma semana e lactente: 7,5 mg/kg/dia (2,5 mg/kg de 8 em 8 horas); prematuro ou recém-nascido com até uma semana: 5 a 6 mg/kg/dia de 12 em 12 horas. Três aplicações por dia exigem acompanhamento próximo; insuficiência renal exige ajuste. Tóxica para rim, audição e equilíbrio.",
+     "fonte": "Garamicina® injetável, Hypermarcas (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em maio 2024); IN 360/2025, art. 1º",
+     "apresentacoes": [
+      {
+       "r": "Solução injetável 20 mg/mL (Garamicina® pediátrica: ampola de 1 mL)",
+       "mgml": 20
+      },
+      {
+       "r": "Solução injetável 40 mg/mL (Garamicina®: ampola de 1 mL)",
+       "mgml": 40
+      }
+     ]
+    },
+    {
+     "id": "lincomicina-im",
+     "nome": "Lincomicina IM (injetável intramuscular)",
+     "grupo": "Antimicrobianos",
+     "venda": "Antimicrobiano: retenção da receita (RDC 471/2021)",
+     "base": "dose",
+     "doseKg": [
+      10,
+      10
+     ],
+     "tomadas": [
+      1,
+      2
+     ],
+     "maxDose": 600,
+     "idade": "Contraindicada abaixo de 1 mês",
+     "dias": "Conforme a resposta clínica",
+     "obs": "Bula, crianças acima de 1 mês: 10 mg/kg IM a cada 24 horas; na infecção grave, 10 mg/kg a cada 12 horas ou com mais frequência. Adulto: 600 mg (2 mL) IM a cada 24 horas, até a cada 12 horas. O teto de 600 mg por aplicação foi deduzido da dose IM de adulto, não é limite pediátrico escrito na bula. Solução pronta, sem diluir para IM; a via IV exige diluição e infusão lenta (não é aplicação de farmácia). Contém álcool benzílico, associado à síndrome de gasping e a mortes em pacientes pediátricos.",
+     "fonte": "Frademicina®, Wyeth, fabricado por Laboratórios Pfizer (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em maio 2024); IN 360/2025, art. 1º",
+     "apresentacoes": [
+      {
+       "r": "Solução injetável 300 mg/mL (Frademicina®: ampola de 1 mL = 300 mg ou de 2 mL = 600 mg)",
+       "mgml": 300
+      }
+     ]
+    },
+    {
      "id": "benzoilmetronidazol",
      "nome": "Metronidazol (benzoilmetronidazol suspensão)",
      "grupo": "Antimicrobianos",
@@ -936,6 +1409,44 @@
      ]
     },
     {
+     "id": "albendazol",
+     "nome": "Albendazol",
+     "grupo": "Antiparasitários",
+     "venda": "Venda sob prescrição (fora da LMIP)",
+     "tomadas": [
+      1,
+      2
+     ],
+     "tomPadrao": 1,
+     "faixasIdade": [
+      {
+       "de": 2,
+       "dose": 400,
+       "rot": "acima de 2 anos (adulto e criança)"
+      }
+     ],
+     "idade": "Uso acima de 2 anos; abaixo disso, a bula não traz dose",
+     "dias": "Dose única (ascaridíase, ancilostomíase, tricuríase, enterobíase); 3 dias (estrongiloidíase, teníase, himenolepíase); 5 dias na giardíase de 2 a 12 anos",
+     "obs": "A dose não muda com o peso nem com a idade acima de 2 anos: 400 mg (1 comprimido mastigável ou 10 mL da suspensão). Larva migrans cutânea: 400 mg/dia por 1 a 3 dias. Opistorquíase: 400 mg 2 vezes ao dia por 3 dias (por isso o seletor vai até 2 tomadas).",
+     "fonte": "Zentel®, GlaxoSmithKline Brasil (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido mastigável 400 mg (caixa com 1)",
+       "mgcp": 400,
+       "cxs": [
+        1
+       ]
+      },
+      {
+       "r": "Suspensão oral 40 mg/mL (frasco de 10 mL, dose única)",
+       "mgml": 40,
+       "frascos": [
+        10
+       ]
+      }
+     ]
+    },
+    {
      "id": "ivermectina",
      "nome": "Ivermectina",
      "grupo": "Antiparasitários",
@@ -961,6 +1472,76 @@
         2,
         4
        ]
+      }
+     ]
+    },
+    {
+     "id": "levamisol",
+     "nome": "Levamisol",
+     "grupo": "Antiparasitários",
+     "venda": "MIP (LMIP: só ascaridíase, comprimido até 150 mg)",
+     "tomadas": [
+      1,
+      1
+     ],
+     "faixasIdade": [
+      {
+       "de": 0,
+       "ate": 1,
+       "dose": 40,
+       "rot": "lactentes até 1 ano"
+      },
+      {
+       "de": 1,
+       "ate": 8,
+       "dose": 80,
+       "rot": "1 a 7 anos"
+      },
+      {
+       "de": 8,
+       "dose": 150,
+       "rot": "acima de 7 anos e adultos"
+      }
+     ],
+     "idade": "Abaixo de 6 meses, só com prescrição médica (bula)",
+     "dias": "Dose única",
+     "obs": "Indicado para ascaridíase. Lactente até 1 ano: meio comprimido de 80 mg. Tomar em dose única; a bula do Ascaridil® não pede laxante nem dieta.",
+     "fonte": "Ascaridil®, Janssen-Cilag Farmacêutica (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; última atualização da bula em mar. 2025); LMIP pela IN 285/2024 com a redação da IN 404/2025",
+     "apresentacoes": [
+      {
+       "r": "Comprimido 80 mg (infantil)",
+       "mgcp": 80
+      },
+      {
+       "r": "Comprimido 150 mg (adulto)",
+       "mgcp": 150
+      }
+     ]
+    },
+    {
+     "id": "mebendazol",
+     "nome": "Mebendazol suspensão",
+     "grupo": "Antiparasitários",
+     "venda": "MIP (LMIP: suspensão oral 20 mg/mL)",
+     "tomadas": [
+      2,
+      2
+     ],
+     "faixasIdade": [
+      {
+       "de": 1,
+       "dose": 100,
+       "rot": "1 ano ou mais (nematódeos)"
+      }
+     ],
+     "idade": "Contraindicado abaixo de 1 ano; de 1 a 2 anos, só se o benefício justificar o risco",
+     "dias": "3 dias consecutivos",
+     "obs": "Nematódeos: 5 mL (100 mg) 2 vezes ao dia por 3 dias, independentemente de peso e idade. Cestódeos: adulto 10 mL (200 mg) e criança 5 mL, 2 vezes ao dia por 3 dias; a bula não fixa a idade em que se passa à dose de adulto.",
+     "fonte": "Pantelmin® suspensão oral (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em maio de 2024); enquadramento na LMIP pela IN 285/2024 com a redação da IN 404/2025",
+     "apresentacoes": [
+      {
+       "r": "Suspensão oral 20 mg/mL (Pantelmin®)",
+       "mgml": 20
       }
      ]
     },
@@ -1056,6 +1637,34 @@
      ]
     },
     {
+     "id": "praziquantel-cisticercose",
+     "nome": "Praziquantel 500 mg (cisticercose)",
+     "grupo": "Antiparasitários",
+     "venda": "Prescrição (sem retenção)",
+     "base": "dia",
+     "doseKg": [
+      30,
+      50
+     ],
+     "tomadas": [
+      3,
+      3
+     ],
+     "idade": "Uso a partir de 4 anos; abaixo disso, só com controle médico rigoroso",
+     "dias": "Cisticercose subcutânea ou muscular: 30 mg/kg/dia por 7 dias; neurocisticercose: 50 mg/kg/dia por 15 dias, com o paciente internado",
+     "obs": "Esquema diferente do praziquantel de 150 mg da teníase (dose única). Bula: cisticercose subcutânea ou muscular, 30 mg/kg/dia em 3 tomadas com intervalo de 4 a 6 horas, por 7 dias; neurocisticercose, 50 mg/kg/dia em 3 tomadas por 15 dias, só com o paciente hospitalizado e acompanhado por neurologista ou neurocirurgião. Engolir inteiro, durante a refeição; o comprimido tem sulco em cruz. Contraindicado na cisticercose ocular e com rifampicina. Toranja aumenta o nível do praziquantel; carbamazepina, fenitoína, dexametasona e cloroquina diminuem.",
+     "fonte": "Cisticid®, Merck (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em maio 2024); Praziquantel 500 mg, mesmo portal (página atualizada em fev. 2024)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido 500 mg com sulco em cruz (Cisticid®: caixa com 50)",
+       "mgcp": 500,
+       "cxs": [
+        50
+       ]
+      }
+     ]
+    },
+    {
      "id": "secnidazol",
      "nome": "Secnidazol",
      "grupo": "Antiparasitários",
@@ -1086,6 +1695,71 @@
      ]
     },
     {
+     "id": "cetoconazol-comprimido",
+     "nome": "Cetoconazol comprimido",
+     "grupo": "Antifúngicos e antivirais",
+     "venda": "Prescrição (sem retenção; cetoconazol não consta da IN 360/2025)",
+     "tomadas": [
+      1,
+      1
+     ],
+     "faixas": [
+      {
+       "de": 14.9,
+       "ate": 30,
+       "dose": 100,
+       "rot": "15 a 30 kg (meio comprimido)"
+      },
+      {
+       "de": 30,
+       "dose": 200,
+       "doseMax": 400,
+       "rot": "acima de 30 kg (1 comprimido, às vezes 2)"
+      }
+     ],
+     "maxDia": 400,
+     "idade": "Não recomendado abaixo de 15 kg nem abaixo de 2 anos (uso não estudado)",
+     "dias": "Conforme a micose e a resposta clínica",
+     "obs": "Uso oral reservado pela bula a micoses sistêmicas e profundas (blastomicose, coccidioidomicose, histoplasmose, cromomicose, paracoccidioidomicose) quando outras terapias falharam ou não foram toleradas, por causa do risco de toxicidade hepática grave. Contraindicado na doença hepática aguda ou crônica; suspender e procurar o médico se surgir falta de apetite, náusea, vômito, cansaço, icterícia, dor abdominal ou urina escura. Tomar numa refeição; com acidez gástrica reduzida a absorção cai (a bula sugere bebida ácida). Inibe o CYP3A4: conferir toda a prescrição antes de dispensar. Fabricante e tamanho da caixa não aparecem na página consultada.",
+     "fonte": "Cetoconazol comprimido 200 mg, genérico (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em set. 2023, sem fabricante identificado); IN 360/2025, art. 1º (cetoconazol não listado)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido 200 mg (a bula manda meio comprimido na faixa de 15 a 30 kg)",
+       "mgcp": 200
+      }
+     ]
+    },
+    {
+     "id": "fluconazol-capsula",
+     "nome": "Fluconazol cápsula",
+     "grupo": "Antifúngicos e antivirais",
+     "venda": "Prescrição (sem retenção; fluconazol não consta da IN 360/2025)",
+     "base": "dia",
+     "doseKg": [
+      3,
+      12
+     ],
+     "tomadas": [
+      1,
+      1
+     ],
+     "maxDia": 400,
+     "un": "cápsula",
+     "idade": "Acima de 4 semanas: dose diária. Nas 2 primeiras semanas de vida, a mesma dose em mg/kg a cada 72 horas; na 3ª e 4ª semana, a cada 48 horas",
+     "dias": "Conforme a resposta clínica e micológica; candidíase orofaríngea costuma levar 7 a 14 dias",
+     "obs": "Bula, crianças: candidíase de mucosa, 3 mg/kg uma vez ao dia (pode haver ataque de 6 mg/kg no 1º dia); candidíase sistêmica e criptococose, 6 a 12 mg/kg uma vez ao dia; prevenção em neutropenia, 3 a 12 mg/kg/dia. A criança não pode passar da dose diária máxima de adulto; o teto de 400 mg/dia é a maior dose diária de adulto da bula. A cápsula não pode ser partida nem aberta: a dose só fecha quando dá em cápsulas inteiras, senão o prescritor precisa ajustar. A cápsula de 150 mg em dose única não é recomendada abaixo de 18 anos sem supervisão médica. Não usar com terfenadina, cisaprida, astemizol, eritromicina, pimozida ou quinidina. Insuficiência renal muda a dose.",
+     "fonte": "Zoltec®, Pfizer Brasil, e Fluconazol genérico (textos da bula reproduzidos no portal Consulta Remédios, consultados em out. 2026; páginas atualizadas em abr. 2025 e ago. 2024); IN 360/2025, art. 1º (fluconazol não listado)",
+     "apresentacoes": [
+      {
+       "r": "Cápsula 100 mg (Zoltec®: caixa com 8)",
+       "mgcp": 100,
+       "cxs": [
+        8
+       ]
+      }
+     ]
+    },
+    {
      "id": "griseofulvina",
      "nome": "Griseofulvina",
      "grupo": "Antifúngicos e antivirais",
@@ -1111,6 +1785,42 @@
        "cxs": [
         20
        ]
+      }
+     ]
+    },
+    {
+     "id": "nistatina-suspensao",
+     "nome": "Nistatina suspensão oral",
+     "grupo": "Antifúngicos e antivirais",
+     "unidade": "UI",
+     "venda": "Venda sob prescrição (nistatina oral fora da LMIP)",
+     "tomadas": [
+      4,
+      4
+     ],
+     "faixasIdade": [
+      {
+       "de": 0,
+       "ate": 2,
+       "dose": 100000,
+       "doseMax": 200000,
+       "rot": "lactentes (1 a 2 mL)"
+      },
+      {
+       "de": 2,
+       "dose": 100000,
+       "doseMax": 600000,
+       "rot": "crianças e adultos (1 a 6 mL)"
+      }
+     ],
+     "idade": "Prematuro e baixo peso: 1 mL (100.000 UI) 4 vezes ao dia",
+     "dias": "Até 48 horas depois de sumirem os sintomas; sem melhora após 14 dias, reavaliar",
+     "obs": "Bula: prematuro e baixo peso, 1 mL; lactente, 1 a 2 mL; criança e adulto, 1 a 6 mL; 4 vezes ao dia. No lactente, metade da dose em cada lado da boca. A bula não define a idade de lactente; aqui foi usado até 2 anos.",
+     "fonte": "Nistatina suspensão oral 100.000 UI/mL, bula de genérico que remete à bula do profissional do Canditrat® (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; última atualização em mar. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Suspensão oral 100.000 UI/mL",
+       "mgml": 100000
       }
      ]
     },
@@ -1330,6 +2040,289 @@
      ]
     },
     {
+     "id": "lactulose",
+     "nome": "Lactulose xarope",
+     "grupo": "Antieméticos e digestivos",
+     "unidade": "mL",
+     "venda": "MIP",
+     "tomadas": [
+      1,
+      1
+     ],
+     "faixasIdade": [
+      {
+       "de": 0,
+       "ate": 1,
+       "dose": 5,
+       "rot": "lactentes"
+      },
+      {
+       "de": 1,
+       "ate": 6,
+       "dose": 5,
+       "doseMax": 10,
+       "rot": "1 a 5 anos"
+      },
+      {
+       "de": 6,
+       "ate": 13,
+       "dose": 10,
+       "doseMax": 15,
+       "rot": "6 a 12 anos"
+      },
+      {
+       "de": 13,
+       "dose": 15,
+       "doseMax": 30,
+       "rot": "acima de 12 anos e adultos"
+      }
+     ],
+     "idade": "Uso em criança só com orientação médica (bula)",
+     "dias": "Constipação crônica: ajustar à resposta",
+     "obs": "Dose em mL do xarope 667 mg/mL, por dia, de preferência em tomada única pela manhã ou à noite. Flatulência e cólica são comuns no início. Constipação na criança merece avaliação: encaminhe antes de indicar.",
+     "fonte": "Lactulona®, Daiichi Sankyo Brasil (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; última atualização da bula em mar. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Xarope 667 mg/mL (dose em mL; frasco de 120 mL ou sachês de 15 mL)",
+       "mgml": 1,
+       "frascos": [
+        120
+       ]
+      }
+     ]
+    },
+    {
+     "id": "omeprazol-mups-crianca",
+     "nome": "Omeprazol MUPS (esofagite grave, criança)",
+     "grupo": "Antieméticos e digestivos",
+     "venda": "Venda sob prescrição",
+     "faixas": [
+      {
+       "de": 9.99,
+       "ate": 20,
+       "dose": 10,
+       "doseMax": 20,
+       "rot": "10 a 20 kg (10 mg; se preciso, 20 mg)"
+      },
+      {
+       "de": 20,
+       "dose": 20,
+       "doseMax": 40,
+       "rot": "acima de 20 kg (20 mg; se preciso, 40 mg)"
+      }
+     ],
+     "tomadas": [
+      1,
+      1
+     ],
+     "idade": "A partir de 1 ano, com 10 kg ou mais",
+     "dias": "Conforme a receita",
+     "obs": "Bula do Losec® MUPS, esofagite de refluxo grave em crianças a partir de 1 ano: 10 a 20 kg, 10 mg uma vez ao dia; acima de 20 kg, 20 mg; se necessário, 20 mg e 40 mg. Tomar pela manhã. Não partir, esmagar nem mastigar: quem não engole pode dispersar o comprimido em meio copo de água sem gás ou suco de fruta (nunca leite ou água com gás) e tomar em até 30 minutos, sem mastigar os grânulos. Abaixo de 10 kg a bula não traz dose.",
+     "fonte": "Losec® MUPS, AstraZeneca/Biopas (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido MUPS 10 mg (dispersível em água)",
+       "mgcp": 10,
+       "cxs": [
+        14,
+        28
+       ]
+      },
+      {
+       "r": "Comprimido MUPS 20 mg (dispersível em água)",
+       "mgcp": 20,
+       "cxs": [
+        14,
+        28
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ondansetrona-odt",
+     "nome": "Ondansetrona comprimido orodispersível",
+     "grupo": "Antieméticos e digestivos",
+     "venda": "Venda sob prescrição",
+     "tomadas": [
+      1,
+      3
+     ],
+     "tomPadrao": 1,
+     "faixasIdade": [
+      {
+       "de": 2,
+       "ate": 12,
+       "dose": 4,
+       "rot": "2 a 11 anos"
+      },
+      {
+       "de": 12,
+       "dose": 4,
+       "doseMax": 8,
+       "rot": "acima de 11 anos"
+      }
+     ],
+     "idade": "4 mg acima de 2 anos; 8 mg acima de 11 anos",
+     "dias": "Pós-operatório: dose única 1 hora antes da anestesia; quimioterapia e radioterapia: por 1 a 2 dias após o término, conforme o esquema",
+     "obs": "Prevenção de náusea e vômito: 2 a 11 anos, 4 mg; acima de 11 anos, 4 a 8 mg; adulto até 16 mg (2 comprimidos de 8 mg), conforme a bula. Na quimioterapia e na radioterapia, a criança de 2 a 11 anos toma 4 mg a cada 8 horas (3 vezes ao dia). Insuficiência hepática grave: até 8 mg/dia.",
+     "fonte": "Vonau® Flash, Biolab (bulário do m20; texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido orodispersível 4 mg",
+       "mgcp": 4
+      },
+      {
+       "r": "Comprimido orodispersível 8 mg (acima de 11 anos)",
+       "mgcp": 8
+      }
+     ]
+    },
+    {
+     "id": "simeticona-gotas",
+     "nome": "Simeticona gotas",
+     "grupo": "Antieméticos e digestivos",
+     "venda": "MIP",
+     "tomadas": [
+      3,
+      3
+     ],
+     "faixasIdade": [
+      {
+       "de": 0,
+       "ate": 2,
+       "dose": 9,
+       "doseMax": 15,
+       "rot": "lactentes (3 a 5 gotas)"
+      },
+      {
+       "de": 2,
+       "ate": 13,
+       "dose": 15,
+       "doseMax": 30,
+       "rot": "crianças até 12 anos (5 a 10 gotas)"
+      },
+      {
+       "de": 13,
+       "dose": 39,
+       "rot": "acima de 12 anos e adultos (13 gotas)"
+      }
+     ],
+     "maxDia": 500,
+     "idade": "Sem contraindicação por faixa etária na bula",
+     "dias": "Uso sintomático; dor abdominal persistente: encaminhar",
+     "obs": "A bula dá a dose em gotas: lactentes, 3 a 5 gotas; crianças até 12 anos, 5 a 10 gotas, no máximo 60 gotas (180 mg) por dia; acima de 12 anos, 13 gotas; sempre 3 vezes ao dia. Teto de adulto: 500 mg/dia (166 gotas). A bula não define a idade de lactente; aqui foi usado até 2 anos. Pode reduzir a absorção da levotiroxina.",
+     "fonte": "Luftal® gotas, Reckitt Benckiser Brasil (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Gotas 75 mg/mL (Luftal®: 25 gotas/mL, 3 mg por gota)",
+       "mgml": 75,
+       "gotasml": 25,
+       "frascos": [
+        15,
+        30
+       ]
+      }
+     ]
+    },
+    {
+     "id": "cetirizina-solucao",
+     "nome": "Cetirizina solução oral",
+     "grupo": "Antialérgicos",
+     "venda": "Venda sob prescrição (fora da LMIP)",
+     "tomadas": [
+      1,
+      2
+     ],
+     "tomPadrao": 2,
+     "faixasIdade": [
+      {
+       "de": 2,
+       "ate": 6,
+       "dose": 2.5,
+       "rot": "2 a 6 anos"
+      },
+      {
+       "de": 6,
+       "ate": 12,
+       "dose": 5,
+       "rot": "6 a 12 anos"
+      },
+      {
+       "de": 12,
+       "dose": 10,
+       "rot": "adultos e 12 anos ou mais"
+      }
+     ],
+     "maxDia": 10,
+     "idade": "Solução oral a partir de 2 anos; comprimido só acima de 12 anos",
+     "dias": "Uso sintomático ou conforme prescrição",
+     "obs": "Abaixo de 12 anos são 2 tomadas (manhã e noite): 2 a 6 anos, 2,5 mL; 6 a 12 anos, 5 mL. A partir de 12 anos, 10 mL 1 vez ao dia (escolha 1 tomada); a bula admite começar com 5 mL. Pode dar sonolência.",
+     "fonte": "Zyrtec® solução oral e comprimido (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Solução oral 1 mg/mL (frasco de 120 mL)",
+       "mgml": 1,
+       "frascos": [
+        120
+       ]
+      },
+      {
+       "r": "Comprimido revestido 10 mg (acima de 12 anos)",
+       "mgcp": 10
+      }
+     ]
+    },
+    {
+     "id": "desloratadina-xarope",
+     "nome": "Desloratadina xarope",
+     "grupo": "Antialérgicos",
+     "venda": "MIP pela LMIP (solução oral até 1,25 mg/mL); confira a frase da embalagem",
+     "tomadas": [
+      1,
+      1
+     ],
+     "faixasIdade": [
+      {
+       "de": 0.5,
+       "ate": 1,
+       "dose": 1,
+       "rot": "6 a 11 meses"
+      },
+      {
+       "de": 1,
+       "ate": 6,
+       "dose": 1.25,
+       "rot": "1 a 5 anos"
+      },
+      {
+       "de": 6,
+       "ate": 12,
+       "dose": 2.5,
+       "rot": "6 a 11 anos"
+      },
+      {
+       "de": 12,
+       "dose": 5,
+       "rot": "12 anos ou mais"
+      }
+     ],
+     "maxDia": 5,
+     "idade": "Acima de 6 meses",
+     "dias": "Uso sintomático ou conforme prescrição",
+     "obs": "Bula: 6 a 11 meses, 2 mL; 1 a 5 anos, 2,5 mL; 6 a 11 anos, 5 mL; 12 anos ou mais, 10 mL; 1 vez ao dia. Dose maior não aumenta o efeito. O Desalex® consultado traz venda sob prescrição na embalagem, embora o fármaco conste da LMIP.",
+     "fonte": "Desalex® xarope, Organon (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025); IN 285/2024 com a redação da IN 404/2025 (LMIP)",
+     "apresentacoes": [
+      {
+       "r": "Xarope 0,5 mg/mL (frascos de 60 e 100 mL, com seringa)",
+       "mgml": 0.5,
+       "frascos": [
+        60,
+        100
+       ]
+      }
+     ]
+    },
+    {
      "id": "dexclorfeniramina-gotas-2a6",
      "nome": "Dexclorfeniramina gotas (2 a 6 anos)",
      "grupo": "Antialérgicos",
@@ -1390,6 +2383,169 @@
      ]
     },
     {
+     "id": "dexclorfeniramina-solucao",
+     "nome": "Dexclorfeniramina solução oral",
+     "grupo": "Antialérgicos",
+     "venda": "MIP",
+     "tomadas": [
+      3,
+      4
+     ],
+     "tomPadrao": 3,
+     "faixasIdade": [
+      {
+       "de": 2,
+       "ate": 6,
+       "dose": 0.5,
+       "rot": "2 a 6 anos (1,25 mL)"
+      },
+      {
+       "de": 6,
+       "ate": 13,
+       "dose": 1,
+       "rot": "6 a 12 anos (2,5 mL)"
+      },
+      {
+       "de": 13,
+       "dose": 2,
+       "rot": "adultos e maiores de 12 anos (5 mL)"
+      }
+     ],
+     "maxDia": 12,
+     "idade": "Contraindicada abaixo de 2 anos",
+     "dias": "Uso sintomático",
+     "obs": "Bula: 2 a 6 anos, 1,25 mL 3 vezes ao dia (máximo 3 mg ou 7,5 mL/dia); 6 a 12 anos, 2,5 mL 3 vezes ao dia (máximo 6 mg ou 15 mL/dia); adultos e maiores de 12 anos, 5 mL 3 a 4 vezes ao dia (máximo 12 mg ou 30 mL/dia). Abaixo de 12 anos, use 3 tomadas; a calculadora só confere o teto de adulto. Dá sonolência. As gotas estão em outras linhas da calculadora.",
+     "fonte": "Polaramine® solução oral, Cosmed/Brainfarma (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Solução oral 2 mg/5 mL (0,4 mg/mL; frasco de 120 mL)",
+       "mgml": 0.4,
+       "frascos": [
+        120
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ebastina-xarope",
+     "nome": "Ebastina xarope",
+     "grupo": "Antialérgicos",
+     "venda": "MIP (LMIP: solução oral 1 mg/mL)",
+     "tomadas": [
+      1,
+      1
+     ],
+     "faixasIdade": [
+      {
+       "de": 2,
+       "ate": 6,
+       "dose": 2.5,
+       "rot": "2 a 5 anos"
+      },
+      {
+       "de": 6,
+       "ate": 12,
+       "dose": 5,
+       "rot": "6 a 11 anos"
+      },
+      {
+       "de": 12,
+       "dose": 10,
+       "rot": "12 anos ou mais"
+      }
+     ],
+     "idade": "Xarope contraindicado abaixo de 2 anos; comprimido contraindicado abaixo de 12 anos",
+     "dias": "Uso sintomático ou conforme prescrição",
+     "obs": "Bula: 2 a 5 anos, 2,5 mL; 6 a 11 anos, 5 mL; 12 anos ou mais, 10 mL; 1 vez ao dia. O comprimido de 10 mg pode ir a 20 mg 1 vez ao dia na rinite intensa do adulto.",
+     "fonte": "Ebastel® xarope e comprimido (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Xarope 1 mg/mL (frasco de 60 mL, com seringa)",
+       "mgml": 1,
+       "frascos": [
+        60
+       ]
+      },
+      {
+       "r": "Comprimido revestido 10 mg (12 anos ou mais)",
+       "mgcp": 10,
+       "cxs": [
+        10,
+        30
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fexofenadina-suspensao",
+     "nome": "Fexofenadina suspensão oral",
+     "grupo": "Antialérgicos",
+     "venda": "MIP (LMIP: suspensão oral 6 mg/mL)",
+     "tomadas": [
+      2,
+      2
+     ],
+     "faixasIdade": [
+      {
+       "de": 0.5,
+       "ate": 2,
+       "dose": 15,
+       "rot": "6 meses a 2 anos (só urticária)"
+      },
+      {
+       "de": 2,
+       "ate": 12,
+       "dose": 30,
+       "rot": "2 a 11 anos"
+      }
+     ],
+     "idade": "Rinite alérgica: a partir de 2 anos; urticária crônica: a partir de 6 meses. A partir de 12 anos, comprimido",
+     "dias": "Uso sintomático ou conforme prescrição",
+     "obs": "Bula: 6 meses a 2 anos (ou até 10,5 kg), 2,5 mL (15 mg) a cada 12 horas, só na urticária crônica idiopática; 2 a 11 anos (ou acima de 10,5 kg), 5 mL (30 mg) a cada 12 horas, na rinite ou na urticária. Agitar antes de usar.",
+     "fonte": "Allegra® Pediátrico suspensão oral, Sanofi Medley (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Suspensão oral 6 mg/mL (frascos de 60 e 150 mL)",
+       "mgml": 6,
+       "frascos": [
+        60,
+        150
+       ]
+      }
+     ]
+    },
+    {
+     "id": "hidroxizina-comprimido",
+     "nome": "Hidroxizina comprimido",
+     "grupo": "Antialérgicos",
+     "venda": "Venda sob prescrição",
+     "base": "dose",
+     "doseKg": [
+      0.7,
+      0.7
+     ],
+     "tomadas": [
+      3,
+      3
+     ],
+     "maxDia": 100,
+     "maxDiaKg": 2,
+     "idade": "Comprimido só a partir de 12 anos e 30 kg; abaixo disso, xarope",
+     "dias": "Tratamento restrito a 10 dias, salvo orientação médica",
+     "obs": "Bula: criança, 0,7 mg/kg a cada 8 horas; até 40 kg, no máximo 2 mg/kg/dia; acima de 40 kg, no máximo 100 mg/dia. Adulto: 25 mg 3 a 4 vezes ao dia; idoso, no máximo 50 mg/dia. Três tomadas de 0,7 mg/kg somam 2,1 mg/kg/dia: a calculadora acusa o teto, e a diferença está na própria bula. Dá sonolência; cuidado com outros depressores e ao dirigir. Contém lactose.",
+     "fonte": "Hixizine® (dicloridrato de hidroxizina) comprimido, Theraskin (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido revestido 25 mg",
+       "mgcp": 25,
+       "cxs": [
+        10,
+        30
+       ]
+      }
+     ]
+    },
+    {
      "id": "hidroxizina-xarope",
      "nome": "Hidroxizina xarope",
      "grupo": "Antialérgicos",
@@ -1417,6 +2573,75 @@
         60,
         120
        ]
+      }
+     ]
+    },
+    {
+     "id": "levocetirizina-gotas-2a6",
+     "nome": "Levocetirizina gotas (2 a 6 anos)",
+     "grupo": "Antialérgicos",
+     "venda": "MIP (LMIP: solução oral 5 mg/mL)",
+     "tomadas": [
+      2,
+      2
+     ],
+     "faixasIdade": [
+      {
+       "de": 2,
+       "ate": 6,
+       "dose": 1.25,
+       "rot": "2 a 6 anos"
+      }
+     ],
+     "maxDia": 2.5,
+     "idade": "Abaixo de 2 anos não recomendado (dados limitados); esta linha vale de 2 a 6 anos",
+     "dias": "Uso sintomático ou conforme prescrição",
+     "obs": "Bula: 2,5 mg/dia divididos em 2 tomadas de 1,25 mg (5 gotas) a cada 12 horas. Teto de 2,5 mg/dia nessa faixa. Ajustar em doença renal.",
+     "fonte": "Zyxem® gotas, UCB Biopharma (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Gotas 5 mg/mL (Zyxem®: 20 gotas/mL, 0,25 mg por gota; frasco de 20 mL)",
+       "mgml": 5,
+       "gotasml": 20,
+       "frascos": [
+        20
+       ]
+      }
+     ]
+    },
+    {
+     "id": "levocetirizina-gotas-6mais",
+     "nome": "Levocetirizina gotas (6 anos ou mais)",
+     "grupo": "Antialérgicos",
+     "venda": "MIP (LMIP: solução oral 5 mg/mL e comprimido 5 mg)",
+     "tomadas": [
+      1,
+      1
+     ],
+     "faixasIdade": [
+      {
+       "de": 6,
+       "dose": 5,
+       "rot": "6 anos ou mais"
+      }
+     ],
+     "maxDia": 5,
+     "idade": "Esta linha vale a partir de 6 anos; o comprimido não é recomendado abaixo de 6 anos",
+     "dias": "Uso sintomático ou conforme prescrição",
+     "obs": "Bula: 6 a 12 anos e adultos, 5 mg (20 gotas ou 1 comprimido) 1 vez ao dia; de 6 a 12 anos, 5 mg é o máximo diário. Ajustar em doença renal.",
+     "fonte": "Zyxem® gotas e comprimidos, UCB Biopharma (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Gotas 5 mg/mL (Zyxem®: 20 gotas/mL, 0,25 mg por gota; frasco de 20 mL)",
+       "mgml": 5,
+       "gotasml": 20,
+       "frascos": [
+        20
+       ]
+      },
+      {
+       "r": "Comprimido revestido 5 mg",
+       "mgcp": 5
       }
      ]
     },
@@ -1453,6 +2678,40 @@
        "frascos": [
         100
        ]
+      }
+     ]
+    },
+    {
+     "id": "acetilcisteina-xarope",
+     "nome": "Acetilcisteína xarope pediátrico",
+     "grupo": "Respiratório",
+     "venda": "MIP (LMIP: solução oral até 40 mg/mL)",
+     "tomadas": [
+      2,
+      4
+     ],
+     "tomPadrao": 3,
+     "faixasIdade": [
+      {
+       "de": 2,
+       "ate": 5,
+       "dose": 100,
+       "rot": "2 a 4 anos (2 a 3 vezes ao dia)"
+      },
+      {
+       "de": 5,
+       "dose": 100,
+       "rot": "acima de 4 anos (3 a 4 vezes ao dia)"
+      }
+     ],
+     "idade": "Contraindicado abaixo de 2 anos",
+     "dias": "Adulto: 5 a 10 dias; persistindo os sintomas, procurar o médico",
+     "obs": "Bula: 5 mL (100 mg) por tomada; 2 a 4 anos, 2 a 3 vezes ao dia; acima de 4 anos, 3 a 4 vezes ao dia, ou a critério médico (a dose pode ser dobrada só com prescrição). O xarope adulto (40 mg/mL) é de 600 mg 1 vez ao dia, à noite. Depois de aberto, usar em até 14 dias.",
+     "fonte": "Fluimucil® xarope pediátrico e adulto, Zambon (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Xarope pediátrico 20 mg/mL",
+       "mgml": 20
       }
      ]
     },
@@ -1494,6 +2753,260 @@
      ]
     },
     {
+     "id": "bromexina-xarope",
+     "nome": "Bromexina xarope",
+     "grupo": "Respiratório",
+     "venda": "MIP (LMIP: xarope até 1,6 mg/mL)",
+     "tomadas": [
+      3,
+      3
+     ],
+     "faixasIdade": [
+      {
+       "de": 2,
+       "ate": 6,
+       "dose": 2,
+       "rot": "2 a 6 anos"
+      },
+      {
+       "de": 6,
+       "ate": 13,
+       "dose": 4,
+       "rot": "6 a 12 anos"
+      },
+      {
+       "de": 13,
+       "dose": 8,
+       "rot": "acima de 12 anos"
+      }
+     ],
+     "idade": "Não usar abaixo de 2 anos",
+     "dias": "Uso sintomático; tosse que persiste: encaminhar",
+     "obs": "Bula, xarope infantil 4 mg/5 mL: 2 a 6 anos, 2,5 mL; 6 a 12 anos, 5 mL; acima de 12 anos, 10 mL; 3 vezes ao dia. Xarope adulto 8 mg/5 mL: 5 mL 3 vezes ao dia acima de 12 anos. Beber bastante líquido junto.",
+     "fonte": "Bisolvon® xarope infantil e adulto (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Xarope infantil 4 mg/5 mL (0,8 mg/mL; frasco de 120 mL)",
+       "mgml": 0.8,
+       "frascos": [
+        120
+       ]
+      },
+      {
+       "r": "Xarope adulto 8 mg/5 mL (1,6 mg/mL; frasco de 120 mL; acima de 12 anos)",
+       "mgml": 1.6,
+       "frascos": [
+        120
+       ]
+      }
+     ]
+    },
+    {
+     "id": "guaifenesina-xarope",
+     "nome": "Guaifenesina xarope",
+     "grupo": "Respiratório",
+     "venda": "MIP (LMIP: solução oral até 16 mg/mL)",
+     "tomadas": [
+      1,
+      6
+     ],
+     "tomPadrao": 6,
+     "faixasIdade": [
+      {
+       "de": 2,
+       "ate": 6,
+       "dose": 66.7,
+       "rot": "2 a 6 anos"
+      },
+      {
+       "de": 6,
+       "ate": 13,
+       "dose": 100,
+       "rot": "6 a 12 anos"
+      },
+      {
+       "de": 13,
+       "dose": 200,
+       "rot": "adultos e maiores de 12 anos"
+      }
+     ],
+     "maxDia": 2400,
+     "idade": "Contraindicado abaixo de 2 anos",
+     "dias": "Se a tosse passar de 7 dias ou vier com febre: médico",
+     "obs": "Bula, xarope 13,3 mg/mL: 2 a 6 anos, 5 mL; 6 a 12 anos, 7,5 mL; adultos e maiores de 12 anos, 15 mL; a cada 4 horas. Tetos diários: 600 mg (2 a 6 anos), 1.200 mg (6 a 12 anos) e 2.400 mg (adulto); a calculadora só confere o de adulto. A concentração e o mL por dose mudam entre fabricantes (há xarope sabor mel com outra dose): confira a bula do frasco.",
+     "fonte": "Guaifenesina xarope 13,3 mg/mL, Brainfarma (texto da bula reproduzido no portal Bula.com.br, consultado em out. 2026; bula atualizada em jul. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Xarope 13,3 mg/mL (200 mg/15 mL; frasco de 120 mL)",
+       "mgml": 13.33,
+       "frascos": [
+        120
+       ]
+      }
+     ]
+    },
+    {
+     "id": "montelucaste",
+     "nome": "Montelucaste",
+     "grupo": "Respiratório",
+     "venda": "Venda sob prescrição",
+     "tomadas": [
+      1,
+      1
+     ],
+     "faixasIdade": [
+      {
+       "de": 0.5,
+       "ate": 2,
+       "dose": 4,
+       "rot": "6 meses a 2 anos (sachê, asma)"
+      },
+      {
+       "de": 2,
+       "ate": 6,
+       "dose": 4,
+       "rot": "2 a 5 anos"
+      },
+      {
+       "de": 6,
+       "ate": 15,
+       "dose": 5,
+       "rot": "6 a 14 anos"
+      },
+      {
+       "de": 15,
+       "dose": 10,
+       "rot": "15 anos ou mais"
+      }
+     ],
+     "idade": "Segurança e eficácia não estabelecidas abaixo de 6 meses",
+     "dias": "Uso contínuo, conforme prescrição",
+     "obs": "Bula: sachê de 4 mg de 6 meses a 5 anos na asma (na rinite alérgica, de 2 a 5 anos); comprimido mastigável de 4 mg de 2 a 5 anos; mastigável de 5 mg de 6 a 14 anos; comprimido de 10 mg a partir de 15 anos; 1 vez ao dia. Na asma, tomar ao anoitecer.",
+     "fonte": "Singulair® e Singulair® Baby (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Granulado oral 4 mg (sachê)",
+       "mgcp": 4,
+       "un": "sachê",
+       "cxs": [
+        10,
+        30
+       ]
+      },
+      {
+       "r": "Comprimido mastigável 4 mg",
+       "mgcp": 4,
+       "cxs": [
+        10,
+        30
+       ]
+      },
+      {
+       "r": "Comprimido mastigável 5 mg",
+       "mgcp": 5,
+       "cxs": [
+        10,
+        30
+       ]
+      },
+      {
+       "r": "Comprimido revestido 10 mg",
+       "mgcp": 10,
+       "cxs": [
+        10,
+        30
+       ]
+      }
+     ]
+    },
+    {
+     "id": "salbutamol-xarope",
+     "nome": "Salbutamol xarope",
+     "grupo": "Respiratório",
+     "venda": "Venda sob prescrição",
+     "tomadas": [
+      3,
+      4
+     ],
+     "tomPadrao": 3,
+     "faixasIdade": [
+      {
+       "de": 2,
+       "ate": 6,
+       "dose": 1,
+       "doseMax": 2,
+       "rot": "2 a 6 anos"
+      },
+      {
+       "de": 6,
+       "ate": 13,
+       "dose": 2,
+       "rot": "6 a 12 anos"
+      },
+      {
+       "de": 13,
+       "dose": 2,
+       "doseMax": 4,
+       "rot": "acima de 12 anos"
+      }
+     ],
+     "idade": "Posologia pediátrica a partir de 2 anos",
+     "dias": "Conforme prescrição",
+     "obs": "Bula: 2 a 6 anos, 2,5 a 5 mL (1 a 2 mg); 6 a 12 anos, 5 mL (2 mg); acima de 12 anos, 5 a 10 mL (2 a 4 mg), sempre 3 ou 4 vezes ao dia. Adulto: 4 mg (10 mL), podendo chegar a 8 mg por tomada; idoso começa com 2 mg. Na crise de falta de ar, oriente procurar atendimento.",
+     "fonte": "Aerolin® xarope, GlaxoSmithKline (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Xarope 2 mg/5 mL (0,4 mg/mL)",
+       "mgml": 0.4
+      }
+     ]
+    },
+    {
+     "id": "carbamazepina-comprimido",
+     "nome": "Carbamazepina comprimido (comum e CR)",
+     "grupo": "Anticonvulsivantes",
+     "venda": "Controle especial: lista C1 (Receita de Controle Especial, retenção)",
+     "base": "dia",
+     "doseKg": [
+      10,
+      20
+     ],
+     "tomadas": [
+      2,
+      4
+     ],
+     "idade": "Uso adulto e pediátrico (criança que engole comprimido; para as menores, a suspensão já está na calculadora)",
+     "dias": "Uso contínuo; nunca suspender de repente",
+     "obs": "Bula: na criança, início com 100 a 200 mg/dia (base de 10 a 20 mg/kg/dia) e manutenção de 400 a 600 mg/dia; adolescentes, 600 a 1.000 mg/dia; adulto com epilepsia, 800 a 1.200 mg/dia (às vezes 1.600 a 2.000 mg). Sempre em 2 a 4 tomadas (no primeiro dia pode ser uma), durante ou após as refeições. Comprimido comum: o sulco serve só para ajudar a engolir, não para tomar meia dose. Comprimido CR: pode ser partido na linha, sem mastigar, e a metade guardada na embalagem deve ser usada em até 7 dias. Muitas interações.",
+     "fonte": "Tegretol® e Tegretol® CR, Novartis (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em maio 2025)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido 200 mg (comum; não partir para meia dose)",
+       "mgcp": 200,
+       "cxs": [
+        20,
+        60
+       ]
+      },
+      {
+       "r": "Comprimido CR 200 mg (liberação prolongada; pode partir)",
+       "mgcp": 200,
+       "cxs": [
+        20,
+        60
+       ]
+      },
+      {
+       "r": "Comprimido CR 400 mg (liberação prolongada; pode partir)",
+       "mgcp": 400,
+       "cxs": [
+        20,
+        60
+       ]
+      }
+     ]
+    },
+    {
      "id": "carbamazepina-suspensao",
      "nome": "Carbamazepina suspensão",
      "grupo": "Anticonvulsivantes",
@@ -1517,6 +3030,105 @@
        "mgml": 20,
        "frascos": [
         100
+       ]
+      }
+     ]
+    },
+    {
+     "id": "clobazam-comprimido",
+     "nome": "Clobazam comprimido (epilepsia, criança)",
+     "grupo": "Anticonvulsivantes",
+     "venda": "Controle especial: lista B1 (Notificação de Receita B, azul, retenção)",
+     "base": "dia",
+     "doseKg": [
+      0.3,
+      1
+     ],
+     "tomadas": [
+      1,
+      2
+     ],
+     "idade": "3 a 15 anos por kg; acima de 15 anos, dose de adulto",
+     "dias": "Reavaliar em até 4 semanas; não suspender de repente",
+     "obs": "Bula, epilepsia em associação, de 3 a 15 anos: início com 5 mg e manutenção de 0,3 a 1 mg/kg/dia. Acima de 15 anos: início com 5 a 15 mg/dia, até 80 mg/dia. Dose única ao deitar ou dividida, com a parte maior à noite. A bula não fixa teto pediátrico. Os comprimidos de 10 e 20 mg são sulcados. Sonolência; evitar álcool e outros depressores.",
+     "fonte": "Frisium® e Urbanil®, Pharlab (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; páginas atualizadas em abr. 2025); lista B1 conferida no Anexo I da Portaria 344/98 republicado pela RDC Anvisa nº 1.023/2026",
+     "apresentacoes": [
+      {
+       "r": "Comprimido 10 mg (sulcado)",
+       "mgcp": 10,
+       "cxs": [
+        20
+       ]
+      },
+      {
+       "r": "Comprimido 20 mg (sulcado)",
+       "mgcp": 20,
+       "cxs": [
+        20
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fenitoina-comprimido",
+     "nome": "Fenitoína comprimido",
+     "grupo": "Anticonvulsivantes",
+     "venda": "Controle especial: lista C1 (Receita de Controle Especial, retenção)",
+     "base": "dia",
+     "doseKg": [
+      4,
+      8
+     ],
+     "tomadas": [
+      2,
+      3
+     ],
+     "maxDia": 300,
+     "idade": "Criança: esquema por kg; acima de 6 anos pode precisar da dose mínima de adulto (300 mg/dia)",
+     "dias": "Uso contínuo; o efeito estável leva cerca de 1 semana; retirada gradual",
+     "obs": "Bula, criança: início com 5 mg/kg/dia divididos em duas ou três tomadas, até 300 mg/dia; manutenção usual de 4 a 8 mg/kg/dia. Adulto: 100 mg três vezes ao dia, manutenção de 300 a 400 mg/dia, máximo de 600 mg/dia; idoso começa com 3 mg/kg/dia. O teto de 300 mg/dia da calculadora é o da criança. Tomar durante ou após as refeições. O comprimido de 100 mg é liso (sem sulco), então a dose se monta com comprimidos inteiros. Pequenas mudanças de dose podem elevar muito o nível no sangue.",
+     "fonte": "Hidantal® comprimido, Cosmed/Brainfarma (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido 100 mg (liso, sem sulco)",
+       "mgcp": 100,
+       "cxs": [
+        25
+       ]
+      }
+     ]
+    },
+    {
+     "id": "fenobarbital-comprimido",
+     "nome": "Fenobarbital comprimido (adulto)",
+     "grupo": "Anticonvulsivantes",
+     "venda": "Controle especial: lista B1, adendo do fenobarbital (Receita de Controle Especial, retenção)",
+     "base": "dia",
+     "doseKg": [
+      2,
+      3
+     ],
+     "tomadas": [
+      1,
+      2
+     ],
+     "idade": "Comprimido: uso adulto (para criança, as gotas já estão na calculadora)",
+     "dias": "Uso contínuo; avaliar ajuste só após 15 dias; retirada gradual",
+     "obs": "Bula: adulto, 2 a 3 mg/kg/dia em dose única ou fracionada (a bula não fixa o número de tomadas). Reduzir no idoso, no alcoolista e na doença renal ou hepática. O comprimido de 50 mg é liso; o de 100 mg é monossectado. O abuso pode causar dependência.",
+     "fonte": "Gardenal®, Pharlab (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido 50 mg (liso)",
+       "mgcp": 50,
+       "cxs": [
+        20
+       ]
+      },
+      {
+       "r": "Comprimido 100 mg (monossectado)",
+       "mgcp": 100,
+       "cxs": [
+        20
        ]
       }
      ]
@@ -1546,6 +3158,45 @@
        "gotasml": 40,
        "frascos": [
         20
+       ]
+      }
+     ]
+    },
+    {
+     "id": "levetiracetam-comprimido",
+     "nome": "Levetiracetam comprimido",
+     "grupo": "Anticonvulsivantes",
+     "venda": "Controle especial: lista C1 (Receita de Controle Especial, retenção)",
+     "base": "dose",
+     "doseKg": [
+      10,
+      30
+     ],
+     "tomadas": [
+      2,
+      2
+     ],
+     "maxDose": 1500,
+     "maxDia": 3000,
+     "idade": "Comprimido a partir de 6 anos; dose por kg vale abaixo de 50 kg; abaixo de 25 kg, a bula prefere a solução",
+     "dias": "Uso contínuo; nunca suspender de repente",
+     "obs": "Bula, terapia adjuvante abaixo de 50 kg: 10 mg/kg duas vezes ao dia, com ajustes de no máximo 10 mg/kg por dose a cada 2 semanas, até 30 mg/kg duas vezes ao dia. A partir de 50 kg, dose de adulto (até 1.500 mg duas vezes ao dia). Os comprimidos não servem para doses abaixo de 250 mg. Na função renal reduzida a dose é individualizada (no SOS, TFG pela CKD-EPI 2021).",
+     "fonte": "Keppra®, UCB Biopharma (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido revestido 250 mg",
+       "mgcp": 250,
+       "cxs": [
+        30,
+        60
+       ]
+      },
+      {
+       "r": "Comprimido revestido 750 mg",
+       "mgcp": 750,
+       "cxs": [
+        30,
+        60
        ]
       }
      ]
@@ -1581,6 +3232,131 @@
      ]
     },
     {
+     "id": "levetiracetam-xr",
+     "nome": "Levetiracetam XR (uma vez ao dia)",
+     "grupo": "Anticonvulsivantes",
+     "venda": "Controle especial: lista C1 (Receita de Controle Especial, retenção)",
+     "base": "dose",
+     "doseKg": [
+      20,
+      60
+     ],
+     "tomadas": [
+      1,
+      1
+     ],
+     "maxDose": 3000,
+     "maxDia": 3000,
+     "idade": "Adolescentes de 12 a 17 anos com menos de 50 kg; a partir de 50 kg, dose de adulto",
+     "dias": "Uso contínuo; nunca suspender de repente",
+     "obs": "Bula do Keppra® XR, terapia adjuvante de 12 a 17 anos abaixo de 50 kg: 20 mg/kg uma vez ao dia, ajustes de no máximo 20 mg/kg a cada 2 semanas, até 60 mg/kg uma vez ao dia. Adulto: 1.000 a 3.000 mg uma vez ao dia. O XR não serve para início em criança abaixo de 25 kg nem para doses abaixo de 500 mg. Não trocar comprimido comum por XR (ou o contrário) sem a receita dizer.",
+     "fonte": "Keppra® XR, UCB Biopharma (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido de liberação prolongada 500 mg",
+       "mgcp": 500,
+       "cxs": [
+        60
+       ]
+      },
+      {
+       "r": "Comprimido de liberação prolongada 750 mg",
+       "mgcp": 750,
+       "cxs": [
+        60
+       ]
+      }
+     ]
+    },
+    {
+     "id": "oxcarbazepina",
+     "nome": "Oxcarbazepina (suspensão e comprimidos)",
+     "grupo": "Anticonvulsivantes",
+     "venda": "Controle especial: lista C1 (Receita de Controle Especial, retenção)",
+     "base": "dia",
+     "doseKg": [
+      8,
+      46
+     ],
+     "tomadas": [
+      2,
+      2
+     ],
+     "maxDiaKg": 60,
+     "idade": "A partir de 1 mês de idade",
+     "dias": "Uso contínuo; nunca suspender de repente",
+     "obs": "Bula, criança: início com 8 a 10 mg/kg/dia em duas tomadas, aumento gradual até a manutenção usual de 30 a 46 mg/kg/dia; teto de 60 mg/kg/dia. Adulto: início com 600 mg/dia, manutenção de 600 a 2.400 mg/dia (excepcionalmente até 4.200 mg/dia). Na doença renal, a dose inicial é a metade. A bula pede a receita da suspensão em mL, porque a seringa é graduada em mL: receita só em mg deve ser conferida com o prescritor. Agitar o frasco antes de cada dose. O sulco do comprimido de 300 mg divide doses iguais; o de 600 mg só pode ser partido para ajudar a engolir, não para tomar meia dose.",
+     "fonte": "Trileptal®, Novartis (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Suspensão oral 60 mg/mL (2 seringas dosadoras)",
+       "mgml": 60,
+       "frascos": [
+        100
+       ]
+      },
+      {
+       "r": "Comprimido 300 mg (sulco divide a dose)",
+       "mgcp": 300,
+       "cxs": [
+        10,
+        20,
+        60
+       ]
+      },
+      {
+       "r": "Comprimido 600 mg (não partir para meia dose)",
+       "mgcp": 600,
+       "cxs": [
+        20,
+        60
+       ]
+      }
+     ]
+    },
+    {
+     "id": "topiramato-comprimido",
+     "nome": "Topiramato comprimido (epilepsia, criança)",
+     "grupo": "Anticonvulsivantes",
+     "venda": "Controle especial: lista C1 (Receita de Controle Especial, retenção)",
+     "base": "dia",
+     "doseKg": [
+      5,
+      9
+     ],
+     "tomadas": [
+      2,
+      2
+     ],
+     "idade": "Acima de 2 anos (terapia adjuvante na epilepsia)",
+     "dias": "Uso contínuo; retirada gradual",
+     "obs": "Bula, terapia adjuvante acima de 2 anos: 5 a 9 mg/kg/dia em duas tomadas. Titulação: 25 mg (ou 1 a 3 mg/kg/dia) à noite na primeira semana e aumentos de 1 a 3 mg/kg/dia a cada 1 ou 2 semanas; doses de até 30 mg/kg/dia foram bem toleradas. Em monoterapia, alvo inicial de 3 a 6 mg/kg/dia. Função renal: a bula usa clearance de creatinina; abaixo de 70 mL/min, metade da dose (no SOS, TFG pela CKD-EPI 2021). O comprimido não pode ser partido nem mastigado: a dose se monta com comprimidos inteiros de 25, 50 e 100 mg.",
+     "fonte": "Topamax®, Janssen-Cilag (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido revestido 25 mg (não partir)",
+       "mgcp": 25,
+       "cxs": [
+        60
+       ]
+      },
+      {
+       "r": "Comprimido revestido 50 mg (não partir)",
+       "mgcp": 50,
+       "cxs": [
+        60
+       ]
+      },
+      {
+       "r": "Comprimido revestido 100 mg (não partir)",
+       "mgcp": 100,
+       "cxs": [
+        60
+       ]
+      }
+     ]
+    },
+    {
      "id": "acido-valproico-xarope",
      "nome": "Ácido valproico xarope",
      "grupo": "Anticonvulsivantes",
@@ -1605,6 +3381,298 @@
        "mgml": 50,
        "frascos": [
         100
+       ]
+      }
+     ]
+    },
+    {
+     "id": "risperidona-autismo",
+     "nome": "Risperidona (irritabilidade no autismo)",
+     "grupo": "Antipsicóticos",
+     "venda": "Controle especial: lista C1 (Receita de Controle Especial, retenção)",
+     "faixas": [
+      {
+       "ate": 19.99,
+       "dose": 0.25,
+       "doseMax": 1.5,
+       "rot": "menos de 20 kg (início 0,25 mg; dia 4: 0,5 mg; faixa 0,5 a 1,5 mg)"
+      },
+      {
+       "de": 19.99,
+       "ate": 45,
+       "dose": 0.5,
+       "doseMax": 2.5,
+       "rot": "20 a 45 kg (início 0,5 mg; dia 4: 1 mg; faixa 1 a 2,5 mg)"
+      },
+      {
+       "de": 45,
+       "dose": 0.5,
+       "doseMax": 3.5,
+       "rot": "acima de 45 kg (como 20 kg ou mais; máximo estudado 3,5 mg)"
+      }
+     ],
+     "tomadas": [
+      1,
+      1
+     ],
+     "idade": "Crianças e adolescentes a partir de 5 anos (sem experiência abaixo de 5 anos)",
+     "dias": "Avaliar a resposta perto do 14º dia; aumentos só a cada 2 semanas ou mais",
+     "obs": "Doses da tabela da bula em mg POR DIA. Abaixo de 20 kg: 0,25 mg/dia nos dias 1 a 3, 0,5 mg/dia a partir do dia 4, aumentos de 0,25 mg; a partir de 20 kg: 0,5 mg/dia, depois 1 mg/dia, aumentos de 0,5 mg. Doses abaixo de 0,25 mg/dia não foram eficazes. A dose do dia pode ser dada de uma vez ou dividida em duas (a calculadora mostra o total em uma tomada; para duas, dividir ao meio). Sonolência melhora dando à noite ou em duas tomadas. Comprimidos sulcados; solução 1 mg/mL com pipeta de 3 mL.",
+     "fonte": "Risperdal®, Janssen-Cilag (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Solução oral 1 mg/mL (pipeta de 3 mL)",
+       "mgml": 1,
+       "frascos": [
+        30
+       ]
+      },
+      {
+       "r": "Comprimido 0,5 mg (sulcado)",
+       "mgcp": 0.5,
+       "cxs": [
+        10
+       ]
+      },
+      {
+       "r": "Comprimido 1 mg (sulcado)",
+       "mgcp": 1,
+       "cxs": [
+        20
+       ]
+      }
+     ]
+    },
+    {
+     "id": "enoxaparina-12h",
+     "nome": "Enoxaparina tratamento 1 mg/kg (12 em 12 horas)",
+     "grupo": "Anticoagulantes",
+     "venda": "Venda sob prescrição",
+     "base": "dose",
+     "doseKg": [
+      1,
+      1
+     ],
+     "tomadas": [
+      2,
+      2
+     ],
+     "idade": "Uso adulto; a bula diz que a segurança em crianças não foi estabelecida",
+     "dias": "TVP: em média 10 dias, até o anticoagulante oral fazer efeito; angina instável e IAM sem supra: 2 a 8 dias",
+     "obs": "Bula: TVP com ou sem embolia pulmonar, 1 mg/kg por via subcutânea de 12 em 12 horas (esquema preferido nos casos complicados); o mesmo 1 mg/kg de 12 em 12 horas vale na angina instável e no IAM sem supra de ST, com AAS. Profilaxia não é por peso: 40 mg uma vez ao dia (ou 20 mg no risco moderado). A partir de 75 anos, no IAM com supra, a dose é 0,75 mg/kg de 12 em 12 horas, sem bolus. Função renal: a bula usa clearance de creatinina. Abaixo de 30 mL/min, os dois esquemas de tratamento passam a 1 mg/kg uma vez ao dia (e a profilaxia de 40 mg cai para 20 mg/dia); de 30 a 80 mL/min não há ajuste, só monitoramento. No SOS a função renal é estimada pela TFG CKD-EPI 2021; com valor perto de 30, confirmar a dose com o prescritor. O ajuste não vale para o uso na hemodiálise. Seringas de 60, 80 e 100 mg são graduadas: o excesso é desprezado antes de aplicar; nas de 20 e 40 mg não se tira a bolha de ar.",
+     "fonte": "Clexane® (enoxaparina sódica), Sanofi Medley (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em jul. 2026)",
+     "apresentacoes": [
+      {
+       "r": "Seringa preenchida 100 mg/mL (20 mg/0,2 mL, 40 mg/0,4 mL, 60 mg/0,6 mL, 80 mg/0,8 mL, 100 mg/1 mL; usar a menor que contém a dose)",
+       "mgml": 100
+      }
+     ]
+    },
+    {
+     "id": "enoxaparina-24h",
+     "nome": "Enoxaparina tratamento 1,5 mg/kg (uma vez ao dia)",
+     "grupo": "Anticoagulantes",
+     "venda": "Venda sob prescrição",
+     "base": "dose",
+     "doseKg": [
+      1.5,
+      1.5
+     ],
+     "tomadas": [
+      1,
+      1
+     ],
+     "idade": "Uso adulto; a bula diz que a segurança em crianças não foi estabelecida",
+     "dias": "TVP: em média 10 dias; trombose associada ao câncer: até 6 meses, conforme a receita",
+     "obs": "Bula: TVP com ou sem embolia pulmonar, 1,5 mg/kg por via subcutânea uma vez ao dia (alternativa ao 1 mg/kg de 12 em 12 horas, que a bula prefere nos casos complicados). Doses acima de 100 mg pedem duas seringas ou a combinação de seringas graduadas. Função renal: a bula usa clearance de creatinina. Abaixo de 30 mL/min, os dois esquemas de tratamento passam a 1 mg/kg uma vez ao dia (e a profilaxia de 40 mg cai para 20 mg/dia); de 30 a 80 mL/min não há ajuste, só monitoramento. No SOS a função renal é estimada pela TFG CKD-EPI 2021; com valor perto de 30, confirmar a dose com o prescritor. O ajuste não vale para o uso na hemodiálise. Peso baixo (mulher abaixo de 45 kg, homem abaixo de 57 kg) aumenta a exposição nas doses fixas de profilaxia: a bula pede monitoramento.",
+     "fonte": "Clexane® (enoxaparina sódica), Sanofi Medley (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em jul. 2026)",
+     "apresentacoes": [
+      {
+       "r": "Seringa preenchida 100 mg/mL (60 mg/0,6 mL, 80 mg/0,8 mL, 100 mg/1 mL graduadas; 20 e 40 mg também existem)",
+       "mgml": 100
+      }
+     ]
+    },
+    {
+     "id": "fondaparinux-tratamento",
+     "nome": "Fondaparinux tratamento de TVP e TEP",
+     "grupo": "Anticoagulantes",
+     "venda": "Venda sob prescrição",
+     "faixas": [
+      {
+       "ate": 49.99,
+       "dose": 5,
+       "rot": "menos de 50 kg"
+      },
+      {
+       "de": 49.99,
+       "ate": 100,
+       "dose": 7.5,
+       "rot": "50 a 100 kg"
+      },
+      {
+       "de": 100,
+       "dose": 10,
+       "rot": "mais de 100 kg"
+      }
+     ],
+     "tomadas": [
+      1,
+      1
+     ],
+     "idade": "Uso adulto (a partir de 17 anos, pela bula)",
+     "dias": "Pelo menos 5 dias e até o anticoagulante oral estabilizar (RNI 2 a 3); duração usual de 5 a 9 dias",
+     "obs": "Bula: dose subcutânea uma vez ao dia por faixa de peso: 5 mg abaixo de 50 kg, 7,5 mg de 50 a 100 kg, 10 mg acima de 100 kg. Profilaxia e trombose venosa superficial não são por peso (2,5 mg uma vez ao dia). Função renal: a bula usa depuração de creatinina; no tratamento, não usar abaixo de 30 mL/min; na profilaxia, de 20 a 30 mL/min a dose é 2,5 mg em dias alternados e abaixo de 20 mL/min não é recomendado. No SOS a função renal é estimada pela TFG CKD-EPI 2021; com valor perto do corte, confirmar com o prescritor. A bula reproduzida lista seringas de 2,5 mg/0,5 mL e 7,5 mg/0,6 mL: a dose de 5 mg corresponde a 0,4 mL da seringa de 7,5 mg e a de 10 mg não cabe em uma seringa; conferir as apresentações à venda. O protetor da agulha contém látex.",
+     "fonte": "Arixtra® (fondaparinux sódico), Aspen Pharma (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Seringa 7,5 mg/0,6 mL (12,5 mg/mL)",
+       "mgml": 12.5
+      }
+     ]
+    },
+    {
+     "id": "furosemida-comprimido",
+     "nome": "Furosemida comprimido (criança)",
+     "grupo": "Diuréticos",
+     "venda": "Venda sob prescrição",
+     "base": "dia",
+     "doseKg": [
+      2,
+      2
+     ],
+     "tomadas": [
+      1,
+      1
+     ],
+     "maxDia": 40,
+     "idade": "Lactentes e crianças abaixo de 15 anos (a bula prefere a via oral nessa faixa)",
+     "dias": "Conforme a receita",
+     "obs": "Bula: na criança, 2 mg/kg até o máximo de 40 mg por dia. A bula não diz em quantas tomadas; para o adulto, recomenda a dose do dia de uma vez, com o estômago vazio. Adulto: início de 20 a 80 mg/dia, manutenção de 20 a 40 mg/dia. A bula reproduzida não descreve sulco no comprimido de 40 mg: dose pequena em criança costuma não fechar com o comprimido, e aí vale a orientação do prescritor.",
+     "fonte": "Lasix®, Sanofi Medley (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em abr. 2025)",
+     "apresentacoes": [
+      {
+       "r": "Comprimido 40 mg",
+       "mgcp": 40,
+       "cxs": [
+        20
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sro-plano-a",
+     "nome": "Sais de reidratação oral (Plano A)",
+     "grupo": "Hidratação",
+     "unidade": "mL",
+     "venda": "MIP (sais de reidratação: notificação simplificada, LMN)",
+     "tomadas": [
+      1,
+      10
+     ],
+     "tomPadrao": 1,
+     "faixasIdade": [
+      {
+       "de": 0,
+       "ate": 1,
+       "dose": 50,
+       "doseMax": 100,
+       "rot": "menores de 1 ano"
+      },
+      {
+       "de": 1,
+       "ate": 11,
+       "dose": 100,
+       "doseMax": 200,
+       "rot": "1 a 10 anos"
+      }
+     ],
+     "idade": "Maiores de 10 anos: a quantidade que o paciente aceitar (sem volume fixo)",
+     "dias": "Enquanto durar a diarreia; sem melhora em 2 dias ou com sinal de perigo, levar ao serviço de saúde",
+     "obs": "Plano A (sem desidratação, tratamento em casa): o volume é por evacuação diarreica, então aqui as tomadas por dia são as evacuações. Manter o aleitamento e a alimentação. Sinais de perigo: piora da diarreia, vômitos repetidos, muita sede, recusa de alimento, sangue nas fezes, diurese diminuída. O cartaz de 2026 do Ministério da Saúde mantém o Plano A e o zinco para menores de 5 anos, sem volumes por idade; os volumes são do cartaz anterior.",
+     "fonte": "Ministério da Saúde, cartaz Manejo do paciente com diarreia (Plano A, quantidade após cada evacuação por idade; versão publicada pela SES-GO, arquivo de 2016); Ministério da Saúde, cartaz Manejo clínico das doenças diarreicas agudas (gov.br, publicado em 09/02/2026); Hidrafix®, Takeda (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026)",
+     "apresentacoes": [
+      {
+       "r": "Solução preparada: 1 envelope em 1 L de água (usar em até 24 horas)",
+       "mgml": 1,
+       "frascos": [
+        1000
+       ]
+      },
+      {
+       "r": "Hidrafix®: flaconete de 25 mL completado para 250 mL de água",
+       "mgml": 1,
+       "frascos": [
+        250
+       ]
+      }
+     ]
+    },
+    {
+     "id": "sro-plano-b",
+     "nome": "Sais de reidratação oral (Plano B)",
+     "grupo": "Hidratação",
+     "venda": "MIP (notificação simplificada)",
+     "unidade": "mL",
+     "base": "dose",
+     "doseKg": [
+      50,
+      100
+     ],
+     "tomadas": [
+      1,
+      1
+     ],
+     "idade": "Todas as idades, com desidratação (Plano B); o Plano B é feito no estabelecimento de saúde, não no balcão",
+     "dias": "Volume para 4 a 6 horas, com reavaliação; sem melhora em 6 horas, encaminhar ao hospital",
+     "obs": "Ministério da Saúde: apenas como orientação inicial, 50 a 100 mL/kg (média de 75 mL/kg) em 4 a 6 horas; a quantidade real depende da sede, e o SRO segue até sumirem os sinais de desidratação. Na farmácia o papel é o Plano A (sem desidratação): após cada evacuação, 50 a 100 mL abaixo de 1 ano, 100 a 200 mL de 1 a 10 anos e o quanto aceitar acima de 10 anos; e encaminhar quem tem sinais de desidratação ou de alerta. Vômitos persistentes no Plano B: antiemético só com prescrição. Preparar conforme a instrução do envelope.",
+     "fonte": "Ministério da Saúde, cartaz Manejo do paciente com diarreia, versão atualizada divulgada em 2023 (cópia lida no portal Estratégia MED em out. 2026; o bvsms.saude.gov.br estava fora do ar)",
+     "apresentacoes": [
+      {
+       "r": "SRO preparado (volume em mL; frasco = litro preparado)",
+       "mgml": 1,
+       "frascos": [
+        1000
+       ]
+      }
+     ]
+    },
+    {
+     "id": "colecalciferol-gotas",
+     "nome": "Colecalciferol (vitamina D3) gotas, profilaxia",
+     "grupo": "Ferro e vitaminas",
+     "unidade": "UI",
+     "venda": "Venda sob prescrição (conforme a embalagem do produto)",
+     "tomadas": [
+      1,
+      1
+     ],
+     "faixasIdade": [
+      {
+       "de": 0,
+       "ate": 1,
+       "dose": 400,
+       "rot": "primeira semana de vida até 12 meses (SBP)"
+      },
+      {
+       "de": 1,
+       "ate": 2,
+       "dose": 600,
+       "rot": "12 a 24 meses (SBP)"
+      }
+     ],
+     "idade": "Desde a primeira semana de vida, inclusive no aleitamento materno exclusivo; pré-termo: 400 UI/dia quando passar de 1.500 g e tolerar a dieta enteral (SBP 2014)",
+     "dias": "Uso diário contínuo até os 24 meses (SBP 2014)",
+     "obs": "Dose de profilaxia da SBP, não de tratamento de deficiência. A bula do Addera D3® 3.300 UI/mL limita o lactente (0 a 2 anos) a 40 UI/kg/dia e no máximo 400 UI/dia (3 gotas), e acima de 2 anos a até 800 UI (6 gotas) 1 vez ao dia: a dose de 600 UI dos 12 aos 24 meses depende da prescrição. A atualização da SBP de nov. 2024 (Departamento de Endocrinologia) estende 600 UI/dia até 18 anos, conforme resumos publicados (documento original não conferido). A concentração varia muito entre marcas (há gotas de 200, 400 e 5.000 UI): confira a UI por gota do rótulo.",
+     "fonte": "Sociedade Brasileira de Pediatria, Departamento de Nutrologia, Documento Científico Deficiência de vitamina D em crianças e adolescentes, out. 2014 (texto do PDF no site da SBP); Addera D3® solução oral gotas (texto da bula reproduzido no portal Consulta Remédios, consultado em out. 2026; página atualizada em ago. 2024)",
+     "apresentacoes": [
+      {
+       "r": "Gotas 3.300 UI/mL (Addera D3®: 132 UI por gota, 25 gotas/mL)",
+       "mgml": 3300,
+       "gotasml": 25,
+       "frascos": [
+        10,
+        20
        ]
       }
      ]

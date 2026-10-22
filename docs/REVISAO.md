@@ -74,3 +74,18 @@ lida em resumo (AFP); volumes IM por idade de fonte secundária; fórmulas CKD-E
 (exemplos recalculados); dipirona: SBP 2021 10 a 12 mg/kg, MS dengue 10 mg/kg, calculadora 10 a 15 (texto explica).
 Ficaram fora da calculadora por falta de dose por peso na bula: fluconazol, aciclovir, nitrofurantoína, tinidazol,
 mebendazol, albendazol, levamisol, ondansetrona oral, metoclopramida, salbutamol xarope, colecalciferol, dexametasona elixir.
+
+## Calculadora com 99 linhas (22/10/2026)
+Entraram dose por idade (`faixasIdade`: albendazol, mebendazol, levamisol, ondansetrona, salbutamol, vitamina D, simeticona,
+cetirizina, desloratadina, fexofenadina, levocetirizina, ebastina, acetilcisteína, bromexina, guaifenesina, nistatina,
+dexclorfeniramina solução, SRO Plano A, lactulose, montelucaste), anti-infecciosos sólidos e injetáveis (fluconazol,
+cetoconazol, azitromicina, amoxicilina, amoxicilina + clavulanato e cefuroxima comprimidos, ciprofloxacino, ceftriaxona IM,
+penicilina benzatina por faixa e na sífilis congênita, lincomicina, gentamicina adulto e criança, praziquantel 500 mg) e
+outros (enoxaparina 2 esquemas, fondaparinux, prednisona, prednisolona e deflazacorte comprimidos, oxcarbazepina,
+fenitoína, topiramato, carbamazepina, levetiracetam e XR, clobazam, fenobarbital comprimido, risperidona por faixa,
+hidroxizina comprimido, furosemida, omeprazol MUPS, SRO Plano B). Revisar: vitamina D (bula do Addera D3® 400 UI até
+2 anos x SBP 2014 600 UI de 12 a 24 meses; SBP 2024 vista só em resumo); SRO Plano A pelo cartaz antigo do MS e Plano B
+pelo cartaz 2023 lido em cópia (BVS fora do ar); ceftriaxona 285 mg/mL declarado na bula x conta (cerca de 278);
+gentamicina pediátrica e sífilis congênita (uso na farmácia a decidir); furosemida sem número de tomadas na bula;
+fondaparinux 10 mg sem seringa única; tetos deduzidos da dose adulta (fluconazol, lincomicina) ditos em "obs".
+Enoxaparina e fondaparinux: a bula fala em clearance; o texto lembra que o SOS estima a TFG pela CKD-EPI 2021.

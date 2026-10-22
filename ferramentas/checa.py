@@ -43,18 +43,20 @@ def checa_calculadora(b, onde, erros):
     ids = set()
     for f in b.get("farmacos", []):
         nm = f.get("nome", "?")
-        faixas = f.get("faixas") or []
+        faixas = (f.get("faixas") or []) + (f.get("faixasIdade") or [])
         obrig = ("id", "nome", "grupo", "tomadas", "apresentacoes", "fonte") + (() if faixas else ("base", "doseKg"))
         for k in obrig:
             if f.get(k) in (None, "", []):
                 erros.append(f"{onde}: calculadora {nm!r} sem {k}")
+        if f.get("faixas") and f.get("faixasIdade"):
+            erros.append(f"{onde}: calculadora {nm!r} use faixas OU faixasIdade, não os dois")
         if f.get("id") in ids:
             erros.append(f"{onde}: calculadora id repetido {f.get('id')}")
         ids.add(f.get("id"))
         if not faixas and f.get("base") not in ("dose", "dia"):
             erros.append(f"{onde}: calculadora {nm!r} base deve ser 'dose' ou 'dia'")
-        if f.get("unidade", "mg") not in ("mg", "mcg", "UI"):
-            erros.append(f"{onde}: calculadora {nm!r} unidade deve ser mg, mcg ou UI")
+        if f.get("unidade", "mg") not in ("mg", "mcg", "UI", "mL"):
+            erros.append(f"{onde}: calculadora {nm!r} unidade deve ser mg, mcg, UI ou mL")
         for k in (("tomadas",) if faixas else ("doseKg", "tomadas")):
             v = f.get(k)
             if not (isinstance(v, list) and len(v) == 2 and all(isinstance(x, (int, float)) for x in v) and v[0] <= v[1]):

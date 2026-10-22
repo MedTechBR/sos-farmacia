@@ -160,6 +160,9 @@ consultou. Pode incluir a URL oficial no fim.
   (comprimidos por caixa) e `"un":"cápsula"` quando não for comprimido (no fármaco ou na apresentação); `"tomPadrao":2` muda o número de tomadas que aparece primeiro; dose por faixa de peso com `"faixas":[{"ate":15,"dose":30,"rot":"até 15 kg"},
   {"de":15,"ate":23,"dose":45,"rot":"acima de 15 até 23 kg"},{"de":40,"dose":75,"rot":"acima de 40 kg"}]`
   (`de` exclusivo, `ate` inclusivo, `doseMax` opcional; com faixas, `base` e `doseKg` são dispensáveis).
+  Dose fixa por IDADE (22/10/2026): `"faixasIdade":[{"de":2,"ate":6,"dose":200,"rot":"2 a 5 anos"},{"de":6,"dose":400,"rot":"6 anos ou mais"}]`
+  em ANOS (meses como fração: 0.5 = 6 meses; `de` inclusivo, `ate` exclusivo); o app pede a idade em vez do peso.
+  Não use `faixas` e `faixasIdade` juntos. `"unidade":"mL"` vale para volumes (ex.: soro de reidratação, com `mgml` 1).
 - `bulario` (só no módulo Bulário): `{ "tipo":"bulario", "id":"…", "titulo":"…", "nota":"…", "itens":[ … ] }`, cada item:
   `{ "nome":"Amoxicilina", "marca":"Amoxil® (referência)", "grupo":"Anti-infecciosos", "classe":"Penicilina (aminopenicilina)",
      "venda":"mip|prescricao|antimicrobiano|controlado", "lista":"C1 (só se controlado)",

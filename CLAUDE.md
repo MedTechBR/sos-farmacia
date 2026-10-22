@@ -105,3 +105,7 @@ Pendente: planilha da DCB que o dono vai mandar (virar tabela de consulta no mó
 `tomPadrao`; busca de fármaco no topo (re-renderiza e devolve o foco ao campo). Fragmentos `{"farmacos":[...]}` passam no
 checa.py. Parte b do módulo (m19b.json): peso/idade/SC, febre e dor, antimicrobianos pediátricos, sal e elemento, função
 renal (CKD-EPI 2021) e injetáveis.
+
+22/10/2026: calculadora com 99 linhas. Novo `faixasIdade` (dose fixa por idade em anos, de inclusivo/ate exclusivo; o app
+pede a idade em vez do peso) e `unidade` "mL". Grupos novos: Antipsicóticos, Anticoagulantes, Diuréticos, Hidratação.
+Teste de varredura: todos os fármacos x apresentações x 3 cenários (8 kg/1 ano, 20 kg/6 anos, 70 kg/14 anos) sem NaN.
