@@ -9,11 +9,56 @@
      último que editou vence POR ITEM, exclusão vira lápide, fila offline do próprio Firestore.
    - Uma vez por conta (só enquanto a área nova está vazia), antes de o motor começar, traz o que estava no FarmáciaGest antigo
      (users/{uid}/apps/farmaciagest, documento único com o JSON) e junta por id com o que já está aqui.
-   - REGRA DO DONO: nada salvo no aparelho é apagado por causa da conta (limparLocal vazio). */
+   - SAIR / TROCA DE CONTA (22/10/2026, decisão do dono, substitui a regra antiga "nada salvo no aparelho é
+     apagado"): "o progresso em todos os apps tem que ser na conta, não no aparelho". O mtsync primeiro espera a
+     fila subir para a nuvem; aqui todas as chaves fg_* e sos-gestao:* (texto cru) vão para uma reserva no
+     IndexedDB "sos-gestao-reserva" ("saida-<uid>-<momento>", conferida lendo de volta) e só então as chaves fg_*
+     (dados, cópias fg_bak*, e as fg_lapides/fg_carimbos do FarmáciaGest antigo, mesma origem) saem do aparelho.
+     Se a reserva não confirmar, NADA é apagado. Ficam: tema (sos-farmacia:tema) e a última aba (sos-gestao:aba).
+     Antes do primeiro login do aparelho, outra reserva "antes-da-conta" (uma vez só). Nada aqui apaga reservas.
+     Efeito colateral conhecido: o FarmáciaGest antigo (medtechbr.com.br/farmaciagest/) lê as mesmas chaves fg_*;
+     depois de sair aqui, ele abre vazio no aparelho (os dados estão na conta, área sosgestao). */
 (function () {
   "use strict";
   const APP = "sosgestao", NOME = "Gestão da farmácia · SOS Farmácia Comercial", PREF = "sos-gestao:";
   if (!window.MTS) { console.warn("Gestão: módulo da conta não carregou; aberta só no aparelho"); return }
+
+  const IDB_RESERVA = "sos-gestao-reserva";
+  const getRaw = k => { try { return localStorage.getItem(k) } catch (e) { return null } };
+  const nossa = k => k && (k.startsWith("fg_") || (k.startsWith(PREF) && k !== PREF + "mts" && k !== PREF + "mts_uid"));
+  function abreReserva() {
+    return new Promise(ok => {
+      let rq; try { rq = indexedDB.open(IDB_RESERVA, 1) } catch (e) { return ok(null) }
+      rq.onupgradeneeded = () => { if (!rq.result.objectStoreNames.contains("reserva")) rq.result.createObjectStore("reserva") };
+      rq.onsuccess = () => ok(rq.result); rq.onerror = rq.onblocked = () => ok(null);
+    });
+  }
+  function foto() {
+    const chaves = {};
+    try { for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (nossa(k)) chaves[k] = localStorage.getItem(k) } } catch (e) {}
+    return { em: new Date().toISOString(), origem: location.href, chaves };
+  }
+  /* grava `chave` (add: nunca sobrescreve) e confere lendo de volta; true = a reserva existe */
+  async function reserva(chave, so_se_nao_existe) {
+    const db = await abreReserva(); if (!db) return false;
+    const tx = (m, f) => new Promise(ok => { try { const t = db.transaction("reserva", m), r = f(t.objectStore("reserva")); r.onsuccess = () => ok(r.result); r.onerror = () => ok(undefined) } catch (e) { ok(undefined) } });
+    try {
+      if (so_se_nao_existe && (await tx("readonly", st => st.get(chave))) !== undefined) return true;
+      const f = foto();
+      await tx("readwrite", st => st.add(f, chave));
+      const volta = await tx("readonly", st => st.get(chave));
+      return !!volta && JSON.stringify(volta.chaves) === JSON.stringify(f.chaves);
+    } finally { try { db.close() } catch (e) {} }
+  }
+  async function limparLocal() {
+    const uid = getRaw(PREF + "mts_uid") || "sem-uid";
+    let ok = false; try { ok = await reserva("saida-" + uid + "-" + new Date().toISOString(), false) } catch (e) {}
+    if (!ok) { console.warn("Gestão: reserva da saída não confirmada; nada foi apagado do aparelho"); return }
+    try {
+      const ks = []; for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (k && k.startsWith("fg_")) ks.push(k) }
+      ks.forEach(k => localStorage.removeItem(k));
+    } catch (e) {}
+  }
 
   const FRASE = "Entre com sua conta MedTech. Seu progresso fica salvo nela e aparece em qualquer aparelho.";
   const corrige = () => { const s = document.querySelector("#mtsPortao .sub"); if (s && s.textContent === FRASE) s.textContent = "Entre com sua conta MedTech para abrir a Gestão da farmácia. Escala, estoque e validades ficam salvos na conta e aparecem em qualquer aparelho." };
@@ -26,9 +71,11 @@
   colecoes.minimos = { tipo: "doc" };
   colecoes.valcfg = { tipo: "doc" };
 
-  function inicia() {
+  async function inicia() {
     const FG = window.FG;
+    try { if (!(await reserva("antes-da-conta", true))) console.warn("Gestão: não consegui confirmar a reserva no IndexedDB") } catch (e) {}
     if (!FG) { console.warn("Gestão: app não expôs window.FG"); return }
+    MTS.aoMudarSituacao(s => { const el = document.getElementById("fgContaSit"); if (el) el.textContent = MTS.descreve(s).txt });
     const cs = getComputedStyle(document.documentElement), g = n => cs.getPropertyValue(n).trim();
     const t = document.documentElement.dataset.tema;
     const escuro = t === "escuro" || (!t && matchMedia("(prefers-color-scheme: dark)").matches);
@@ -54,9 +101,10 @@
         if (n) console.info("Gestão: " + n + " registro(s) trazidos do FarmáciaGest antigo");
         return true;
       },
-      async limparLocal() { /* nada é apagado (regra do dono) */ },
+      limparLocal,
       aoEntrar(u) {
         try { FG.naConta(u.email || u.displayName || "") } catch (e) {}
+        try { if (typeof window.render === "function") window.render() } catch (e) {}   /* Configurações ganha o cartão da conta */
         const M = window.MTAcesso;
         if (!M) return;   /* falha aberta, como nos outros apps */
         M.verificar({ appId: "sosfarmacia", user: u, signOut: () => MTS.sair() }).catch(() => {});

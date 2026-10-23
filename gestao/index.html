@@ -20,7 +20,7 @@
   var l = location, local = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(l.hostname);
   if (!/^https?:$/.test(l.protocol) || (local && !/[?&]portao=1\b/.test(l.search))) return;
   window.__sosPortao = true;
-  ['../mtsync.js?v=1', '/_mtacesso.js?v=13', 'conta-gestao.js?v=2', '/_mtvoltar.js?v=3'].forEach(function (s) {
+  ['../mtsync.js?v=1', '/_mtacesso.js?v=13', 'conta-gestao.js?v=3', '/_mtvoltar.js?v=3'].forEach(function (s) {
     document.write('<script data-sos-portao src="' + s + '"><\/script>');
   });
 })();
@@ -3146,6 +3146,7 @@ const FG_COLS={
   valcfg:['fg_valcfg',()=>VALCFG,v=>VALCFG=v]
 };
 let _recebendo=false;
+function fgSair(){ if(window.MTS&&confirm('Sair da conta? Os dados continuam salvos na conta e saem deste aparelho; voltam quando você entrar de novo.'))MTS.sair(); }
 window.FG={
   cols:FG_COLS,
   ler(c){ const x=FG_COLS[c]; return x?x[1]():undefined; },
@@ -3166,7 +3167,7 @@ window.FG={
     ensureMinimos(); saveAllInterno(); gravarBackup();
     return novos;
   },
-  naConta(email){ const o=$('#ondeDados'); if(o)o.textContent='os dados ficam neste aparelho e na conta '+(email||'MedTech')+', com sincronização automática'; }
+  naConta(email){ const o=$('#ondeDados'); if(o)o.textContent='os dados ficam salvos na conta '+(email||'MedTech')+' e aparecem em qualquer aparelho; ao sair da conta, saem deste aparelho'; }
 };
 /* ============================================================
    ABA: CONFIGURAÇÕES
@@ -3175,6 +3176,14 @@ function renderConfig(){
   const el=$('#tab-config');
   ensureMinimos();
   let html='';
+  // conta MedTech (só no site): quem está conectado e o botão de sair (22/10/2026: ao sair, os dados saem do aparelho)
+  if(window.MTS&&MTS.usuario){
+    const u=MTS.usuario, sit=(MTS.descreve&&MTS.descreve().txt)||'';
+    html+='<div class="card"><h2><i class="ti ti-user-circle"></i> Conta MedTech</h2>'
+      +'<p class="hint">Conectado como <b>'+esc(u.email||u.displayName||'')+'</b>. Os dados da gestão ficam salvos na conta e aparecem em qualquer aparelho. Ao sair, eles saem deste aparelho e voltam quando você entrar de novo.</p>'
+      +'<p class="hint" id="fgContaSit" role="status">'+esc(sit)+'</p>'
+      +'<div class="row-actions"><button class="btn btn-ghost btn-sm" type="button" onclick="fgSair()"><i class="ti ti-logout"></i> Sair da conta</button></div></div>';
+  }
   // mínimos
   html+='<div class="card"><h2><i class="ti ti-shield-check"></i> Mínimo de funcionários por turno e categoria</h2>'
     +'<p class="hint">Quando a escala de um dia ficar abaixo desses números, o app avisa na aba “Escala diária”.</p>'

@@ -38,15 +38,26 @@ SVG (ícone vira quadrado; usar classe `mm-ico`); aba em segundo plano congela r
   `~/Documents/Claude/_mtsync/`), `/_mtacesso.js?v=N` (compra/tela de assinatura do site; subir o `?v=` junto com o
   site) e `conta-sos.js`. Aberto do computador (file://), no `gera_pdfs.py` ou na prévia do localhost: nada disso
   carrega e o app é a ferramenta do dono, igual a antes.
-- `conta-sos.js`: `MTS.iniciar` sem coleções (o progresso do SOS NÃO sobe para a nuvem; fica nas chaves
-  `sos-farmacia:*` do aparelho) e, depois do login, `MTAcesso.verificar({appId:'sosfarmacia'})`. Administração
+- `conta-sos.js`: `MTS.iniciar` com as coleções de progresso (ver "Progresso na conta" abaixo) e, depois do login, `MTAcesso.verificar({appId:'sosfarmacia'})`. Administração
   (claim `mt.adm`) chama `SOS.liberarEdicao()`: modo edição, "Salvar arquivo", importar/exportar e marca-d'água livres,
   e o aviso do rascunho. Cliente (`SOS.cliente(email)`): só leitura e estudo; botões Editar/Salvar escondidos
   (`body.sos-leitura`), Ajustes só com a conta e "Zerar meu progresso", PDF e Ctrl+P com a marca-d'água travada em
   "Licenciado para <e-mail>", `?pdf=` desligado. O rascunho de edição antigo que estiver no navegador do cliente fica
   guardado, sem aviso.
-- REGRA DO DONO: nada salvo no aparelho é apagado por causa da conta (limparLocal vazio; o mtsync só mexe em
-  `sos-farmacia:mts` e `sos-farmacia:mts_uid`).
+- **PROGRESSO NA CONTA (22/10/2026, decisão do dono; SUBSTITUI a regra antiga "nada salvo no aparelho é apagado"):**
+  "o progresso em todos os apps tem que ser na conta, não no aparelho". 4 coleções `mapa` em
+  `users/{uid}/apps/sosfarmacia/sync`: `estudado` e `vistos` (listas de ids no app, viram {id:1}), `resp`, `check`.
+  Valor como texto JSON no campo `j`, id no nome do documento (ponto vira %2E; nenhuma chave com ponto em campo).
+  Primeiro login: reserva imutável de todas as chaves `sos-farmacia:*` no IndexedDB `sos-farmacia-reserva`
+  ("antes-da-conta") e o que estava no aparelho SOBE com carimbo antigo (perde para o que a nuvem já tiver; a chave
+  `sos-farmacia:mts_cols` marca que o `inicio` antigo do motor, de quando ele rodava sem coleções, já foi tirado).
+  Sair/troca de conta: mtsync espera a fila subir; reserva "saida-<uid>-<momento>"; remove as 4 chaves com o
+  removeItem original (sem lápide). Ficam no aparelho: tema, vista do mapa e o rascunho de edição da administração
+  (não é progresso e passa de 1 MB). Trava: coleção com 3+ itens que esvazia sem "Zerar meu progresso"
+  (`window.__sosZerou`) não vira lápide; "Zerar" no site apaga da conta (todos os aparelhos). `SOS.recarrega()` redesenha
+  quando chega dado de outro aparelho. Fora do site o progresso continua só no aparelho. Sem service worker: a versão
+  sobe pelo `?v=` do carregador (conta-sos.js?v=2). Teste com fake-firebase + stub do `/_mtacesso.js` (com `lerMt`):
+  cenários 0-4 aprovados em 22/10/2026.
 - `ORIGEM` (base do "Salvar arquivo") sai limpa do que o portão põe na página (classe `mts-trava`, `#mtsCSS`, `--mts-*`
   e os scripts `[data-sos-portao]`); o carregador do `<head>` fica no arquivo salvo (é inofensivo no file://).
 - Teste sem backend: cópia do index com `fake-firebase.js` (de `_mtsync`, com `getIdTokenResult` lendo
@@ -73,6 +84,11 @@ mudou). `#secao` no endereço abre a seção (`#validade`, `#receb`…). Tema na
   `gestao/conta-gestao.js`: compra do produto `sosfarmacia`; dados SOBEM (diferente do SOS) pelo motor do mtsync em
   `users/{uid}/apps/sosgestao/sync`, uma coleção por chave `fg_*` (listas por `id`, feriados por `data`, minimos e
   valcfg como `doc`). App expõe `window.FG` (ler/gravar/aoReceber/juntarAntigo/naConta); `saveAll` chama `MTS.mudou`.
+- Saída/troca de conta (22/10/2026, decisão do dono): `limparLocal` do `conta-gestao.js` reserva fg_* e sos-gestao:* no
+  IndexedDB `sos-gestao-reserva` ("saida-<uid>-<momento>"; "antes-da-conta" no primeiro login) e só com a reserva
+  confirmada remove todas as chaves `fg_*` (inclui fg_bak* e as fg_lapides/fg_carimbos do app antigo). Configurações
+  ganhou o cartão "Conta MedTech" com "Sair da conta" (`fgSair()`). Efeito: o FarmáciaGest antigo (mesma origem, mesmas
+  chaves) abre vazio no aparelho depois da saída; os dados estão na conta (área sosgestao). conta-gestao.js?v=3.
 - Importação do FarmáciaGest antigo (`apps/farmaciagest`, documento único com JSON) no `legado` do mtsync, SÓ se a área
   nova da conta estiver vazia (senão ressuscitaria excluídos num segundo aparelho). Junta por id; o local vence.
 - Mesma origem do app antigo (medtechbr.com.br/farmaciagest/): as chaves `fg_*` do aparelho são as mesmas, então quem

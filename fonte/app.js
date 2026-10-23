@@ -6,7 +6,10 @@
    Aberto do computador (file://) ou no localhost, nada disso entra e o app é a ferramenta do dono, como antes.
    No site, edição, "Salvar arquivo", importar/exportar conteúdo e marca-d'água livre ficam só para a
    conta de administração (SOS.liberarEdicao); o cliente lê, estuda e gera PDF com a marca-d'água
-   travada em "Licenciado para <e-mail da conta>" (SOS.cliente). Nada do aparelho é apagado. */
+   travada em "Licenciado para <e-mail da conta>" (SOS.cliente).
+   22/10/2026 (decisão do dono): no site o progresso é da CONTA, não do aparelho. A conta-*.js sincroniza as
+   chaves estudado/resp/vistos/check e, ao sair ou trocar de conta, tira o progresso do aparelho (depois de
+   garantido na nuvem). Fora do site (file://, localhost) nada muda: o progresso fica no aparelho. */
 const PORTAO = window.__sosPortao === true;
 let podeEditar = !PORTAO, licenciado = '';
 /* Cópia intacta do arquivo, tirada antes de qualquer desenho: é a base de "Salvar arquivo".
@@ -646,7 +649,7 @@ function telaInicio() {
     `<section class="vMeta"><h3>Seu progresso</h3>` +
     [['var(--c-violeta)', 'book', 'Tópicos estudados', feitosT, totT], ['var(--c-azul)', 'help-circle', 'Questões respondidas', nResp, totQ], ['var(--c-ambar)', 'cards', 'Cartões revisados', nV, totC]]
       .map(([k, i, r, a, b]) => `<div class="metaItem" style="--k:${k}"><span class="ic">${ic(i)}</span><div><b>${r}</b><div class="barra"><i style="width:${b ? Math.round(100 * a / b) : 0}%"></i></div></div><em>${a}/${b}</em></div>`).join('') +
-    `<p class="rodape">${ic('device-mobile')} O progresso fica salvo neste aparelho.</p></section>` +
+    (PORTAO ? `<p class="rodape">${ic('cloud-check')} O progresso fica salvo na sua conta e aparece em qualquer aparelho.</p></section>` : `<p class="rodape">${ic('device-mobile')} O progresso fica salvo neste aparelho.</p></section>`) +
     `<div class="vStats">` +
     `<a class="vStat" href="#/${proxM.id}/resumo" style="--k:var(--c-violeta)"><span class="ic">${ic('book')}</span><div><b>${totT}</b><span>tópicos de leitura</span></div></a>` +
     `<a class="vStat" href="#/${proxM.id}/mapa" style="--k:var(--c-rosa)"><span class="ic">${ic('sitemap')}</span><div><b>${nMapas}</b><span>mapas mentais</span></div></a>` +
@@ -1006,16 +1009,18 @@ function verificaRascunho() {
   $('#rs-desc', d).onclick = () => { if (confirm('Descartar as alterações guardadas no navegador?')) { apagarLS('rascunho'); d.remove(); } };
   $('#rs-rec', d).onclick = () => { Object.assign(DADOS, r.dados); alterado = true; d.remove(); indice = null; rota(); };
 }
-/* Conta MedTech (só no site): quem está conectado e o botão de sair. Sair não apaga nada do aparelho. */
+/* Conta MedTech (só no site): quem está conectado, situação da sincronização e o botão de sair.
+   Sair: o progresso já está na conta e sai deste aparelho (decisão do dono, 22/10/2026). */
 function blocoConta() {
   const u = PORTAO && window.MTS && MTS.usuario;
   if (!u) return '';
   return `<div class="contaAj"><h3>${ic('user-circle')} Conta MedTech</h3><p class="sub">Conectado como <b>${esc(u.email || u.displayName || '')}</b>. ` +
-    `O progresso (tópicos estudados, respostas e cartões) fica neste aparelho.</p><div class="linhaBt"><button class="bt sec mini" id="aj-sair">${ic('logout')} Sair da conta</button></div></div>`;
+    `O progresso (tópicos estudados, respostas, cartões e checklists) fica salvo na sua conta e aparece em qualquer aparelho. Ao sair, ele sai deste aparelho e volta quando você entrar de novo.</p>` +
+    `<p class="sub" id="contaSit" role="status">${esc((MTS.descreve && MTS.descreve().txt) || '')}</p><div class="linhaBt"><button class="bt sec mini" id="aj-sair">${ic('logout')} Sair da conta</button></div></div>`;
 }
 function ligaConta(d) {
   const b = $('#aj-sair', d);
-  if (b) b.onclick = () => { if (confirm('Sair da conta? O SOS Farmácia Comercial pede login, então a tela de entrada volta. Seu progresso continua neste aparelho.')) MTS.sair(); };
+  if (b) b.onclick = () => { if (confirm('Sair da conta? Seu progresso continua salvo na conta e sai deste aparelho; volta quando você entrar de novo.')) MTS.sair(); };
 }
 function ajustes() {
   const cfg = DADOS.config;
@@ -1026,7 +1031,7 @@ function ajustes() {
       `<p class="sub" style="margin-top:14px">Versão do conteúdo: ${esc(new Date(DADOS.versao).toLocaleString('pt-BR'))}</p>` +
       `<div class="rodM"><button class="bt sec" data-fecha>Fechar</button></div>`);
     $('[data-fecha]', d).onclick = () => d.remove();
-    $('#aj-zera', d).onclick = () => { if (confirm('Apagar tópicos estudados, respostas e cartões revisados deste aparelho?')) { ['estudado', 'resp', 'vistos', 'check'].forEach(apagarLS); d.remove(); rota(); } };
+    $('#aj-zera', d).onclick = () => { if (confirm(PORTAO ? 'Apagar tópicos estudados, respostas e cartões revisados da sua conta (em todos os aparelhos)?' : 'Apagar tópicos estudados, respostas e cartões revisados deste aparelho?')) { window.__sosZerou = Date.now(); ['estudado', 'resp', 'vistos', 'check'].forEach(apagarLS); d.remove(); rota(); } };
     ligaConta(d);
     return;
   }
@@ -1041,7 +1046,7 @@ function ajustes() {
   ligaConta(d);
   $('#aj-ok', d).onclick = () => { cfg.marca = $('#aj-m1', d).value.trim() || 'SOS Farmácia Comercial'; cfg.marca2 = $('#aj-m2', d).value.trim(); d.remove(); marcaAlterado(); };
   $('#aj-exp', d).onclick = () => { commitTodos(); baixar(new Blob([JSON.stringify(DADOS, null, 1)], { type: 'application/json' }), `sos-farmacia-conteudo-${new Date().toISOString().slice(0, 10)}.json`); };
-  $('#aj-zera', d).onclick = () => { if (confirm('Apagar tópicos estudados, respostas e cartões revisados deste aparelho?')) { ['estudado', 'resp', 'vistos', 'check'].forEach(apagarLS); d.remove(); rota(); } };
+  $('#aj-zera', d).onclick = () => { if (confirm(PORTAO ? 'Apagar tópicos estudados, respostas e cartões revisados da sua conta (em todos os aparelhos)?' : 'Apagar tópicos estudados, respostas e cartões revisados deste aparelho?')) { window.__sosZerou = Date.now(); ['estudado', 'resp', 'vistos', 'check'].forEach(apagarLS); d.remove(); rota(); } };
   $('#aj-imp', d).onchange = async e => {
     const f = e.target.files[0]; if (!f) return;
     try {
@@ -1282,6 +1287,8 @@ function liberarEdicao() {
   if (!rascunhoVisto) { rascunhoVisto = true; verificaRascunho(); }
 }
 function cliente(email) { licenciado = String(email || '').trim(); }
-window.SOS = { dados: DADOS, htmlComDados, liberarEdicao, cliente, get podeEditar() { return podeEditar; }, PORTAO }; /* conta e testes */
+/* progresso chegou de outro aparelho (conta): redesenha a tela atual sem perder a rolagem; não mexe em edição/modal aberto */
+function recarrega() { if (editando || imprimindo || $('.veu')) return; const y = window.scrollY; rota(); window.scrollTo(0, y); }
+window.SOS = { dados: DADOS, htmlComDados, liberarEdicao, cliente, recarrega, get podeEditar() { return podeEditar; }, PORTAO }; /* conta e testes */
 inicia();
 })();
